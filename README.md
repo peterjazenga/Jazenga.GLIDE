@@ -1,4 +1,4 @@
-# CodeStorm
+# Jazenga.GLIDE
 A rework of the Codetyphon IDE, the original Codetyphon has multiple files incorrectly identified, the goal of this project is to ensure included files are properly attributed to their authors and license compliant
 
 Project goals<br>
@@ -8,3 +8,7 @@ Project goals<br>
 4: remove 3rd party tools for which license cannot be confirmed<br>
 5: create new build files as required<br>
 6: add new wizards and tools to enhance development<br>
+7: add extensive embedded native language support features<br>
+8: add online registration features
+9: add feedback tools
+10: add in-IDE bug reporting for developers
