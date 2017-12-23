@@ -2,14 +2,12 @@
 <font color="#000000"><font face="Arial"><font size="2" style="font-size: 11pt"><span style="background: transparent">Jazenga
 GLIDE</span></font></font></font></p>
 <p><br/>
-<br/>
 
 </p>
 <p style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none">
 <font color="#000000"><font face="Arial"><font size="2" style="font-size: 11pt"><span style="background: transparent">GLIDE
 is an acronym for Globalized Lazarus Development Environment</span></font></font></font></p>
 <p><br/>
-<br/>
 
 </p>
 <p style="margin-bottom: 0in; font-variant: normal; font-style: normal; font-weight: normal; line-height: 138%; text-decoration: none">
