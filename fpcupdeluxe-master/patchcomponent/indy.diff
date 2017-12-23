@@ -1,0 +1,11 @@
+--- C:/fpcupdlbasetrunk/ccr/indy/Lib/System/IdWship6.pas	Tue Nov 01 13:46:24 2016
++++ C:/fpcupdlbasetrunk/ccr/indy/Lib/System/IdWship6.pas.new	Tue Nov 01 13:51:41 2016
+@@ -431,7 +431,7 @@
+   {$ENDIF}
+ 
+ var
+-  GIdIPv6FuncsAvailable: Boolean = False{$IFDEF HAS_DEPRECATED}{$IFDEF FPC};{$ENDIF} deprecated{$ENDIF};
++  GIdIPv6FuncsAvailable: Boolean = False{$IFDEF HAS_DEPRECATED} deprecated{$ENDIF};
+ 
+ function gaiErrorToWsaError(const gaiError: Integer): Integer;
+ 

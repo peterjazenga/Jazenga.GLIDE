@@ -1,0 +1,237 @@
+object ToolBarConfig: TToolBarConfig
+  Left = 246
+  Height = 457
+  Top = 129
+  Width = 696
+  Caption = 'ToolBarConfig'
+  ClientHeight = 457
+  ClientWidth = 696
+  Constraints.MinHeight = 350
+  Constraints.MinWidth = 500
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.9.0.0'
+  object lblMenuTree: TLabel
+    AnchorSideLeft.Control = TV
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    Left = 140
+    Height = 15
+    Top = 6
+    Width = 84
+    BorderSpacing.Top = 6
+    BorderSpacing.Bottom = 6
+    Caption = 'lblMenuTree'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblToolbar: TLabel
+    AnchorSideLeft.Control = lvToolbar
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = lblMenuTree
+    Left = 517
+    Height = 15
+    Top = 6
+    Width = 67
+    BorderSpacing.Bottom = 6
+    Caption = 'lblToolbar'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnRemove: TSpeedButton
+    AnchorSideLeft.Control = btnAdd
+    AnchorSideTop.Control = btnAdd
+    AnchorSideTop.Side = asrBottom
+    Left = 372
+    Height = 26
+    Top = 121
+    Width = 26
+    BorderSpacing.Top = 3
+    Enabled = False
+    OnClick = btnRemoveClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object btnAdd: TSpeedButton
+    AnchorSideLeft.Control = Splitter1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = TV
+    Left = 372
+    Height = 26
+    Top = 92
+    Width = 26
+    BorderSpacing.Left = 3
+    BorderSpacing.Top = 30
+    Enabled = False
+    OnClick = btnAddClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object btnMoveUp: TSpeedButton
+    AnchorSideLeft.Control = btnAdd
+    AnchorSideTop.Control = btnRemove
+    AnchorSideTop.Side = asrBottom
+    Left = 372
+    Height = 26
+    Top = 172
+    Width = 26
+    BorderSpacing.Top = 25
+    Enabled = False
+    OnClick = btnMoveUpClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object btnMoveDown: TSpeedButton
+    AnchorSideLeft.Control = btnAdd
+    AnchorSideTop.Control = btnMoveUp
+    AnchorSideTop.Side = asrBottom
+    Left = 372
+    Height = 26
+    Top = 201
+    Width = 26
+    BorderSpacing.Top = 3
+    Enabled = False
+    OnClick = btnMoveDownClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object TV: TTreeView
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = FilterEdit
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Splitter1
+    Left = 8
+    Height = 347
+    Top = 62
+    Width = 349
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 3
+    BorderSpacing.Bottom = 6
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+    OnDblClick = TVDblClick
+    OnSelectionChanged = TVSelectionChanged
+    Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips]
+  end
+  object FilterEdit: TTreeFilterEdit
+    AnchorSideLeft.Control = TV
+    AnchorSideTop.Control = lblMenuTree
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = TV
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 29
+    Top = 27
+    Width = 349
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 0
+    FilteredTreeview = TV
+    ExpandAllInitially = True
+  end
+  object Splitter1: TSplitter
+    AnchorSideLeft.Control = TV
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = TV
+    AnchorSideBottom.Control = TV
+    AnchorSideBottom.Side = asrBottom
+    Left = 360
+    Height = 347
+    Top = 62
+    Width = 9
+    Align = alNone
+    Anchors = [akTop, akBottom]
+  end
+  object lvToolbar: TListView
+    AnchorSideLeft.Control = btnAdd
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = TV
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = TV
+    AnchorSideBottom.Side = asrBottom
+    Left = 413
+    Height = 347
+    Top = 62
+    Width = 275
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 15
+    BorderSpacing.Right = 8
+    Columns = <    
+      item
+        AutoSize = True
+        Caption = 'Name'
+        Width = 100
+      end>
+    HideSelection = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    ShowColumnHeaders = False
+    TabOrder = 3
+    ViewStyle = vsReport
+    OnDblClick = lvToolbarDblClick
+    OnEnter = lvToolbarEnterExit
+    OnExit = lvToolbarEnterExit
+    OnSelectItem = lvToolbarSelectItem
+  end
+  object btnAddDivider: TSpeedButton
+    AnchorSideLeft.Control = btnAdd
+    AnchorSideTop.Control = btnMoveDown
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = lvToolbar
+    AnchorSideBottom.Side = asrBottom
+    Left = 372
+    Height = 26
+    Top = 353
+    Width = 26
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Bottom = 30
+    OnClick = btnAddDividerClick
+    ShowHint = True
+    ParentShowHint = False
+  end
+  object lblSelect: TLabel
+    AnchorSideRight.Control = lvToolbar
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = FilterEdit
+    AnchorSideBottom.Side = asrCenter
+    Left = 636
+    Height = 15
+    Top = 33
+    Width = 52
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Bottom = 6
+    Caption = 'lblSelect'
+    Color = clDefault
+    ParentColor = False
+    Transparent = False
+  end
+  object pnlButtons: TButtonPanel
+    Left = 6
+    Height = 35
+    Top = 416
+    Width = 684
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    HelpButton.OnClick = btnHelpClick
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 4
+    ShowButtons = [pbOK, pbCancel, pbHelp]
+    ShowGlyphs = [pbOK, pbCancel, pbHelp]
+  end
+end
