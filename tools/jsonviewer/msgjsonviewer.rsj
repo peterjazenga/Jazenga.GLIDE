@@ -1,0 +1,21 @@
+{"version":1,"strings":[
+{"hash":92293570,"name":"msgjsonviewer.scaption","sourcebytes":[74,83,79,78,32,86,105,101,119,101,114],"value":"JSON Viewer"},
+{"hash":30509604,"name":"msgjsonviewer.sempty","sourcebytes":[69,109,112,116,121,32,100,111,99,117,109,101,110,116],"value":"Empty document"},
+{"hash":169261593,"name":"msgjsonviewer.sarray","sourcebytes":[65,114,114,97,121,32,40,37,100,32,101,108,101,109,101,110,116,115,41],"value":"Array (%d elements)"},
+{"hash":218305625,"name":"msgjsonviewer.sobject","sourcebytes":[79,98,106,101,99,116,32,40,37,100,32,109,101,109,98,101,114,115,41],"value":"Object (%d members)"},
+{"hash":482348,"name":"msgjsonviewer.snull","sourcebytes":[110,117,108,108],"value":"null"},
+{"hash":81808338,"name":"msgjsonviewer.snewmember","sourcebytes":[78,101,119,32,111,98,106,101,99,116,32,109,101,109,98,101,114],"value":"New object member"},
+{"hash":216238361,"name":"msgjsonviewer.snewmembername","sourcebytes":[69,110,116,101,114,32,97,32,110,97,109,101,32,102,111,114,32,116,104,101,32,110,101,119,32,109,101,109,98,101,114,32,40,116,121,112,101,58,32,37,115,41],"value":"Enter a name for the new member (type: %s)"},
+{"hash":93897492,"name":"msgjsonviewer.selement","sourcebytes":[69,108,101,109,101,110,116,32,110,114,46,32,37,100],"value":"Element nr. %d"},
+{"hash":105187828,"name":"msgjsonviewer.sdocumentmodified","sourcebytes":[74,83,79,78,32,100,111,99,117,109,101,110,116,32,109,111,100,105,102,105,101,100],"value":"JSON document modified"},
+{"hash":1136751,"name":"msgjsonviewer.sdocumentmodifiedaction","sourcebytes":[84,104,101,32,74,83,79,78,32,100,97,116,97,32,119,97,115,32,99,104,97,110,103,101,100,32,98,117,116,32,110,111,116,32,115,97,118,101,100,46,13,10,87,104,97,116,32,100,111,32,119,97,110,116,32,116,111,32,100,111,32,63],"value":"The JSON data was changed but not saved.\r\nWhat do want to do ?"},
+{"hash":188743070,"name":"msgjsonviewer.sduplicatemembername","sourcebytes":[68,117,112,108,105,99,97,116,101,32,109,101,109,98,101,114,32,110,97,109,101,32,34,37,115,34,46],"value":"Duplicate member name \"%s\"."},
+{"hash":185800226,"name":"msgjsonviewer.serrinvalidvalue","sourcebytes":[73,110,118,97,108,105,100,32,118,97,108,117,101,32,111,114,32,119,114,111,110,103,32,116,121,112,101,58,32,34,37,115,34],"value":"Invalid value or wrong type: \"%s\""},
+{"hash":125657809,"name":"msgjsonviewer.serrnovalidjsonclipboard","sourcebytes":[84,104,101,32,99,108,105,112,98,111,97,114,100,32,100,111,101,115,32,110,111,116,32,99,111,110,116,97,105,110,32,118,97,108,105,100,32,74,83,79,78,32,100,97,116,97],"value":"The clipboard does not contain valid JSON data"},
+{"hash":169591538,"name":"msgjsonviewer.serrcreatingconfigdir","sourcebytes":[67,111,117,108,100,32,110,111,116,32,99,114,101,97,116,101,32,116,104,101,32,99,111,110,102,105,103,117,114,97,116,105,111,110,32,102,105,108,101,115,32,100,105,114,101,99,116,111,114,121,32,34,37,115,34],"value":"Could not create the configuration files directory \"%s\""},
+{"hash":211743837,"name":"msgjsonviewer.snomorematches","sourcebytes":[78,111,32,110,111,100,101,115,32,109,97,116,99,104,32,116,104,101,32,99,114,105,116,101,114,105,117,109],"value":"No nodes match the criterium"},
+{"hash":8421539,"name":"msgjsonviewer.sdiscard","sourcebytes":[68,105,115,99,97,114,100,32,99,104,97,110,103,101,115],"value":"Discard changes"},
+{"hash":244920931,"name":"msgjsonviewer.ssavedata","sourcebytes":[83,97,118,101,32,116,104,101,32,99,104,97,110,103,101,115],"value":"Save the changes"},
+{"hash":143029031,"name":"msgjsonviewer.scancelclose","sourcebytes":[68,111,32,110,111,116,32,99,108,111,115,101,32,116,104,101,32,119,105,110,100,111,119],"value":"Do not close the window"},
+{"hash":122102705,"name":"msgjsonviewer.scancelpaste","sourcebytes":[68,111,32,110,111,116,32,112,97,115,116,101,32,116,104,101,32,110,101,119,32,100,97,116,97],"value":"Do not paste the new data"}
+]}
