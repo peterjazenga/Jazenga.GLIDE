@@ -25,7 +25,12 @@ var
 begin
   DataLinkField := FDataLink.Field;
   if Assigned(DataLinkField) then
+  begin
+  // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+    if DataLinkField is TNumericField then
+    ItemIndex := DataLinkField.AsInteger else
     ItemIndex := Items.IndexOf(DataLinkField.Text)
+   end
   else
     ItemIndex := -1;
 end;
@@ -51,7 +56,13 @@ end;
 procedure TDBListBox.UpdateData(Sender: TObject);
 begin
   if ItemIndex >= 0 then
+  begin
+    // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+  if FDataLink.Field is TNumericField then
+  FDataLink.Field.AsInteger:=ItemIndex
+  else
     FDataLink.Field.Text := Items[ItemIndex];
+  end;
 end;
 
 procedure TDBListBox.EditingDone;

@@ -108,12 +108,14 @@ begin
   end;
   if DataLinkField.IsNull then
     Result:=cbGrayed
-  else if DataLinkField.DataType = ftBoolean then begin
+      // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+  else if (DataLinkField.DataType = ftBoolean) OR (DataLinkField is TNumericField) then begin
     if DataLinkField.AsBoolean then
       Result:=cbChecked
     else
       Result:=cbUnchecked;
-  end else begin
+  end else
+  begin
     FieldText:=UpperCase(DatalinkField.AsString);
     if FindWord(FieldText,UpperCase(FValueChecked)) then
       Result:=cbChecked
@@ -149,6 +151,15 @@ begin
   if State = cbGrayed then
     FDataLink.Field.Clear
   else
+    // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+    if FDataLink.Field is TNumericField then // this works with all TNumericField decendants
+     begin
+       if Checked then
+          FDataLink.Field.AsInteger:=1
+        else
+          FDataLink.Field.AsInteger:=0;
+        end
+    else
     if FDataLink.Field.DataType = ftBoolean then
       FDataLink.Field.AsBoolean:=Checked
     else begin
@@ -159,7 +170,7 @@ begin
       // ToDo: use Field.Text
       FDataLink.Field.AsString:=Trim(NewFieldText);
     end;
-end;
+ end;
 
 procedure TDBCheckBox.Notification(AComponent: TComponent; Operation: TOperation);
 begin

@@ -14,6 +14,10 @@
 
 procedure TDBComboBox.UpdateData(Sender: TObject);
 begin
+  // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+  if FDataLink.Field is TNumericField then
+  FDataLink.Field.AsInteger:=ItemIndex else
+  // this maintains the original functionality
   FDataLink.Field.Text := Text;
 end;
 
@@ -21,7 +25,11 @@ procedure TDBComboBox.Change;
 begin
   try
     if FDataLink.CanModify then begin
-      FDataLink.Field.AsString := Text;
+      // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+      if FDataLink.Field is TNumericField then
+      FDataLink.Field.AsInteger:=ItemIndex else
+      // this maintains the original functionality
+      FDataLink.Field.Text := Text;
       FDatalink.Modified;
     end;
   finally
@@ -35,7 +43,13 @@ var
 begin
   DataLinkField := FDataLink.Field;
   if Assigned(DataLinkField) then
-    Text := DataLinkField.Text
+   begin
+     // changed by Peter Dunne (Jazenga.GLIDE) to link by index to numeric data fields
+     if DataLinkField is TNumericField then
+     ItemIndex := DataLinkField.AsInteger else
+     // this maintains the original functionality
+    Text := DataLinkField.Text;
+   end
   else
     Text := '';
 end;
