@@ -1,0 +1,63 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: unit_messagescopy.gs_copyfiles_error_bad_format
+msgid "Mauvais format d'image "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_cant_append
+msgid "Impossible d'ajouter au fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_cant_change_date
+msgid "Impossible d'affecter la date au fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_cant_copy
+msgid "Impossible de copier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_cant_create
+msgid "Impossible de créer le fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_cant_read
+msgid "Impossible de lire le fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_directory_create
+msgid "Erreur à la création du répertoire"
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_file_delete
+msgid "Impossible d'effacer le fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_imaging
+msgid "Erreur dans la librairie VAMPYRE IMAGING "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_init_magick
+msgid "Erreur : Vous devez installer ImageMagick et MagickWand."
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_is_file
+msgid "Ne peut copier dans le fichier"
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_partial_copy
+msgid "Copie partielle du fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_partial_copy_seek
+msgid "Erreur à la copie partielle du fichier "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_reading
+msgid "Erreur à la lecture "
+msgstr ""
+
+#: unit_messagescopy.gs_copyfiles_error_uninit_magick
+msgid "Erreur : ImageMagick s'est mal fermé."
+msgstr ""
+

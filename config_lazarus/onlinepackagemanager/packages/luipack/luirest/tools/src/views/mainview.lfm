@@ -1,0 +1,77 @@
+object MainForm: TMainForm
+  Left = 298
+  Height = 569
+  Top = 95
+  Width = 1008
+  Caption = 'REST API Test Builder'
+  ClientHeight = 569
+  ClientWidth = 1008
+  OnCloseQuery = FormCloseQuery
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object EndPointListView: TVirtualJSONListView
+    Left = 6
+    Height = 464
+    Top = 96
+    Width = 270
+    OnGetText = EndPointListViewGetText
+    TextProperty = 'text'
+    Header.AutoSizeIndex = -1
+    Header.Columns = <    
+      item
+        Options = [coAllowClick, coDraggable, coEnabled, coParentBidiMode, coParentColor, coResizable, coShowDropMark, coVisible, coFixed, coAllowFocus]
+        Position = 0
+        Text = 'Method'
+      end    
+      item
+        Position = 1
+        Text = 'URL'
+        Width = 240
+      end>
+    Header.DefaultHeight = 17
+    TabOrder = 0
+    TreeOptions.MiscOptions = [toAcceptOLEDrop, toEditable, toFullRepaintOnResize, toGridExtensions, toInitOnSave, toToggleOnDblClick, toWheelPanning, toEditOnClick]
+    TreeOptions.PaintOptions = [toHideFocusRect, toPopupMode, toShowButtons, toShowDropmark, toShowHorzGridLines, toShowTreeLines, toShowVertGridLines, toThemeAware, toUseBlendedImages]
+    TreeOptions.SelectionOptions = [toExtendedFocus, toFullRowSelect]
+    OnChange = EndPointListViewChange
+    OnFocusChanged = EndPointListViewFocusChanged
+    OnFocusChanging = EndPointListViewFocusChanging
+  end
+  object Label1: TLabel
+    Left = 6
+    Height = 15
+    Top = 40
+    Width = 45
+    Caption = 'BaseURL'
+    ParentColor = False
+  end
+  object BaseURLLabel: TLabel
+    Left = 11
+    Height = 1
+    Top = 60
+    Width = 1
+    ParentColor = False
+  end
+  object LoadCollectionButton: TButton
+    Left = 6
+    Height = 30
+    Top = 5
+    Width = 270
+    Caption = 'Load Collection'
+    OnClick = LoadCollectionButtonClick
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 6
+    Height = 15
+    Top = 80
+    Width = 53
+    Caption = 'EndPoints'
+    ParentColor = False
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'JSON File|*.json'
+    left = 372
+    top = 182
+  end
+end

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="vclutils"><short>Модуль содержит вспомогательные процедуры и функции</short><element name="TTextOrientation"><short>Напраление отображения текста</short><descr>toHorizontal
+toVertical90
+toHorizontal180
+toVertical270
+toHorizontal360</descr>
+      </element><element name="TTextOrientation.toHorizontal360"/>
+    </module>
+  </package>
+</fpdoc-descriptions>

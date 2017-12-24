@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxCloseFormValidator"><short>Модуль содержит объекты проверки допустимости введённых данных диалоговых окон</short><descr>Модуль содержит объекты проверки допустимости введённых данных диалоговых окон</descr><element name="TValidateItem"><short>Элемент проверки данных</short>
+      </element><element name="TValidateItem.CheckClose"><short>Метод проверки допустимости введённых данных</short>
+      </element><element name="TValidateItem.ErrorMessage"><short>Сформированная строка сообщения об ошибке</short>
+      </element><element name="TValidateItem.SetFocus"><short>Метод установит фокус клавиатурного ввода в проверяемые контрол</short>
+      </element><element name="TValidateItem.Control"><short>Контрол, в котором происходт проверка введённых данных</short>
+      </element><element name="TValidateItem.Enabled"><short>Признак необходимости выполнять проверку казанного контрола</short>
+      </element><element name="TValidateItem.FieldCaption"><short>Заголовок проверяемого контрола</short><descr><p>Эаголовок проверяемого контрола</p><p>Используется при формировании сообщения об ошибке</p>
+        </descr>
+      </element><element name="TValidateItem.OnValidate"><short>Событие для ручной проверки допустимости введённых данных</short>
+      </element><element name="TValidateItems"><short>Колекция элементов проверки введённых данных</short>
+      </element><element name="TRxCloseFormValidator"><short>Компонент визуальной настроки проверки введённых данных на диалоговых формах</short><descr>Компонент визуальной настроки проверки введённых данных на диалоговых формах</descr>
+      </element><element name="TRxCloseFormValidator.CheckCloseForm"><short>Функция производит проверку введённых данных</short><descr><p>Функция производит проверку введённых данных</p><p>В случае ошбочных данных вернёт <var>false</var>.</p>
+        </descr>
+      </element><element name="TRxCloseFormValidator.ByControl.AControl"><short>Поиск элемента проверки по указателю на контрол</short>
+      </element><element name="TRxCloseFormValidator.ErrorMsgCaption"><short>Общая маска сообщения об ошибке</short>
+      </element><element name="TRxCloseFormValidator.Items"><short>Список элементов проверки введённых данных</short>
+      </element><element name="TRxCloseFormValidator.IgnoreDisabled"><short>Признак того, что запрещённые контролы проверки не подлежат </short>
+      </element>
+    <element name="TRxCloseFormValidator.ByControl"><short>Метод возвращает проверяемый элемент по указанному контролу</short><descr>Прменяется при ручном управлении включением/выключением проведения проверок</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

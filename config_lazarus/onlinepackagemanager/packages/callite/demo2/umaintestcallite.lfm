@@ -1,0 +1,578 @@
+object Form1: TForm1
+  Left = 700
+  Height = 845
+  Top = 122
+  Width = 753
+  Caption = 'Examples of the TCalendaLite  component'
+  ClientHeight = 845
+  ClientWidth = 753
+  Color = clWindow
+  Font.CharSet = ANSI_CHARSET
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object PSettings: TPanel
+    Left = 0
+    Height = 432
+    Top = 0
+    Width = 753
+    Align = alTop
+    ClientHeight = 432
+    ClientWidth = 753
+    TabOrder = 0
+    object cgOptions: TCheckGroup
+      Left = 24
+      Height = 384
+      Top = 40
+      Width = 160
+      AutoFill = True
+      Caption = 'Set calendar Options'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 364
+      ClientWidth = 156
+      Items.Strings = (
+        'coBoldDayNames'
+        'coBoldHolidays'
+        'coBoldToday'
+        'coBoldTopRow'
+        'coBoldWeekend'
+        'coDayLine'
+        'coShowBorder'
+        'coShowHolidays'
+        'coShowTodayFrame'
+        'coShowTodayName'
+        'coShowTodayRow'
+        'coShowWeekend'
+        'coUseTopRowColors'
+      )
+      OnItemClick = cgOptionsItemClick
+      TabOrder = 0
+      Data = {
+        0D00000002020202020202020202020202
+      }
+    end
+    object cbUseHolidays: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 112
+      Width = 169
+      Caption = 'Ignore OnGetHolidays event'
+      OnChange = cbUseHolidaysChange
+      TabOrder = 1
+    end
+    object LTitle: TLabel
+      Left = 28
+      Height = 15
+      Top = 8
+      Width = 318
+      Caption = 'Various calendar property settings can be changed below:'
+      Font.CharSet = ANSI_CHARSET
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object LWidth: TLabel
+      Left = 560
+      Height = 15
+      Top = 50
+      Width = 32
+      Caption = 'Width'
+      ParentColor = False
+    end
+    object seWidth: TSpinEdit
+      Left = 617
+      Height = 23
+      Top = 48
+      Width = 66
+      MaxValue = 1000
+      MinValue = 120
+      OnChange = seWidthChange
+      TabOrder = 2
+      Value = 400
+    end
+    object seHeight: TSpinEdit
+      Left = 617
+      Height = 23
+      Top = 81
+      Width = 66
+      MaxValue = 1000
+      MinValue = 120
+      OnChange = seHeightChange
+      TabOrder = 3
+      Value = 300
+    end
+    object lHeight: TLabel
+      Left = 560
+      Height = 15
+      Top = 81
+      Width = 36
+      Caption = 'Height'
+      ParentColor = False
+    end
+    object rgLanguage: TRadioGroup
+      Left = 200
+      Height = 200
+      Top = 224
+      Width = 160
+      AutoFill = True
+      Caption = 'Language to use'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 180
+      ClientWidth = 156
+      ItemIndex = 0
+      Items.Strings = (
+        'English (default)'
+        'French'
+        'German'
+        'Hebrew'
+        'Spanish'
+        'Italian'
+        'Polish'
+        'Finnish'
+      )
+      OnClick = rgLanguageClick
+      TabOrder = 4
+    end
+    object rgStartingDOW: TRadioGroup
+      Left = 200
+      Height = 176
+      Top = 40
+      Width = 160
+      AutoFill = True
+      Caption = 'Starting day of the week'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 156
+      ClientWidth = 156
+      Items.Strings = (
+        'Sunday'
+        'Monday'
+        'Tuesday'
+        'Wednesday'
+        'Thursday'
+        'Friday'
+        'Saturday'
+      )
+      OnClick = rgStartingDOWClick
+      TabOrder = 5
+    end
+    object GroupBox1: TGroupBox
+      Left = 376
+      Height = 384
+      Top = 40
+      Width = 160
+      Caption = 'Colors'
+      ClientHeight = 364
+      ClientWidth = 156
+      TabOrder = 6
+      object CbArrowBorder: TColorButton
+        Left = 16
+        Height = 25
+        Top = 8
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbArrow: TColorButton
+        Left = 16
+        Height = 25
+        Top = 32
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label2: TLabel
+        Left = 49
+        Height = 15
+        Top = 13
+        Width = 67
+        Caption = 'ArrowBorder'
+        ParentColor = False
+      end
+      object Label3: TLabel
+        Left = 49
+        Height = 15
+        Top = 37
+        Width = 32
+        Caption = 'Arrow'
+        ParentColor = False
+      end
+      object CbBackground: TColorButton
+        Left = 16
+        Height = 25
+        Top = 56
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbBorder: TColorButton
+        Left = 16
+        Height = 25
+        Top = 80
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label4: TLabel
+        Left = 49
+        Height = 15
+        Top = 61
+        Width = 64
+        Caption = 'Background'
+        ParentColor = False
+      end
+      object Label5: TLabel
+        Left = 49
+        Height = 15
+        Top = 85
+        Width = 35
+        Caption = 'Border'
+        ParentColor = False
+      end
+      object CbDayLine: TColorButton
+        Left = 16
+        Height = 25
+        Top = 104
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbHolidays: TColorButton
+        Left = 16
+        Height = 25
+        Top = 128
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label6: TLabel
+        Left = 49
+        Height = 15
+        Top = 109
+        Width = 42
+        Caption = 'Day line'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 49
+        Height = 15
+        Top = 133
+        Width = 46
+        Caption = 'Holidays'
+        ParentColor = False
+      end
+      object CbPastMonth: TColorButton
+        Left = 16
+        Height = 25
+        Top = 152
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbSelectedDate: TColorButton
+        Left = 16
+        Height = 25
+        Top = 176
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label8: TLabel
+        Left = 49
+        Height = 15
+        Top = 157
+        Width = 88
+        Caption = 'Past/next month'
+        ParentColor = False
+      end
+      object Label9: TLabel
+        Left = 49
+        Height = 15
+        Top = 181
+        Width = 70
+        Caption = 'Selected date'
+        ParentColor = False
+      end
+      object CbText: TColorButton
+        Left = 16
+        Height = 25
+        Top = 200
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbTodayFrame: TColorButton
+        Left = 16
+        Height = 25
+        Top = 224
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label10: TLabel
+        Left = 49
+        Height = 15
+        Top = 205
+        Width = 21
+        Caption = 'Text'
+        ParentColor = False
+      end
+      object Label11: TLabel
+        Left = 49
+        Height = 15
+        Top = 229
+        Width = 66
+        Caption = 'Today frame'
+        ParentColor = False
+      end
+      object CbTopRow: TColorButton
+        Left = 16
+        Height = 25
+        Top = 248
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object CbTopRowText: TColorButton
+        Left = 16
+        Height = 25
+        Top = 272
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label12: TLabel
+        Left = 49
+        Height = 15
+        Top = 253
+        Width = 43
+        Caption = 'Top row'
+        ParentColor = False
+      end
+      object Label13: TLabel
+        Left = 49
+        Height = 15
+        Top = 277
+        Width = 65
+        Caption = 'Top row text'
+        ParentColor = False
+      end
+      object CbWeekend: TColorButton
+        Left = 16
+        Height = 25
+        Top = 296
+        Width = 26
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        Flat = True
+        OnColorChanged = ColorButtonChanged
+      end
+      object Label14: TLabel
+        Left = 49
+        Height = 15
+        Top = 301
+        Width = 49
+        Caption = 'Weekend'
+        ParentColor = False
+      end
+    end
+    object CbPrepareCanvas: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 184
+      Width = 144
+      Caption = 'Override font of 1st day'
+      OnChange = CbPrepareCanvasChange
+      TabOrder = 7
+    end
+    object BtnFont: TButton
+      Left = 560
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Font...'
+      OnClick = BtnFontClick
+      TabOrder = 8
+    end
+    object CbDrawCell: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 208
+      Width = 161
+      Caption = 'Owner draw (icon, Nov 11)'
+      OnChange = CbDrawCellChange
+      TabOrder = 9
+    end
+    object CbAddHolidayNameToCell: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 136
+      Width = 152
+      Caption = 'Add holiday name to cell'
+      OnChange = CbAddHolidayNameToCellChange
+      TabOrder = 10
+    end
+    object CbShowHints: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 232
+      Width = 92
+      Caption = 'CbShowHints'
+      Checked = True
+      OnChange = CbShowHintsChange
+      State = cbChecked
+      TabOrder = 11
+    end
+    object CbMultiSelect: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 256
+      Width = 81
+      Caption = 'Multi select'
+      OnChange = CbMultiSelectChange
+      TabOrder = 12
+    end
+    object SelDateListbox: TListBox
+      Left = 560
+      Height = 144
+      Top = 280
+      Width = 168
+      Columns = 2
+      ItemHeight = 0
+      TabOrder = 13
+    end
+    object CbUseBuiltinPopup: TCheckBox
+      Left = 560
+      Height = 19
+      Top = 160
+      Width = 153
+      Caption = 'Use built-in popup menu'
+      Checked = True
+      OnChange = CbUseBuiltinPopupChange
+      State = cbChecked
+      TabOrder = 14
+    end
+  end
+  object Label1: TLabel
+    Left = 15
+    Height = 15
+    Top = 818
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object FontDialog: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 408
+    top = 416
+  end
+  object ImageList1: TImageList
+    left = 336
+    top = 432
+    Bitmap = {
+      4C69010000001000000010000000FFFFFF00FFFFFF00FFFFFF0000BBC74800C7
+      D3C7FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000BBC74800C7
+      D3C7FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000D3DAF630F1
+      F3FF00BBC77CFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000D3DAF630F1
+      F3FF00BBC77CFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0007D2D8FF67F5
+      F6FF06D2D8FEFFFFFF0000BBC74800C7D3C7FFFFFF00FFFFFF0007D2D8FF67F5
+      F6FF06D1D7FEFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0097BCADFF57C4
+      C3FF83B5A8F7C2C2C2DA07D2D9FF30F1F3FF5CBEC5ECC2C2C2B094B19FFF55BF
+      BCFF78A794E5FFFFFF00FFFFFF00FFFFFF00C2C2C224C2C2C28EEDBB9DFFEFC8
+      AFFFE8B696FFF6F6F6FF07D2D8FF67F5F6FF07D2D7FFECECECFFE5A983FFEAB7
+      98FFDB9569EBC2C2C224FFFFFF00FFFFFF00B1C2C6A1E3E3E3FFEBB999FFEEC3
+      AAFFEBB495FFFFFFFFFF94B3A1FF55BFBCFF86B1A0FFFFFFFFFFE5A37BFFE9B2
+      92FFDE9A72FFB1C2C6A1FFFFFF00FFFFFF00BEC2C3FCFCFCFCFFEEC1A6FFEAB2
+      92FFF1CEBBFFFFFFFFFFE6AA85FFEAB898FFE5A57FFFFFFFFFFFE8AF98FFE39D
+      76FFEABEAFFFB9C2C4F8FFFFFF00FFFFFF00B5C2C5FEFAFAFAFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFE5A47EFFE9B493FFE3A278FFFFFFFFFFFFFFFFFFFDFD
+      FDFFEAEAEAFF7CC9DBFCFFFFFF00FFFFFF0072CEE3FDD7D9DAFFE3E3E3FFFFFF
+      FFFFFFFFFFFFFCFCFCFFE7B098FFE39E78FFEDC2B2FFFFFFFFFFEEEEEEFFD6D8
+      D9FFB5DEE8FF29C7EBFCFFFFFF00FFFFFF000DC5EFFC84E1F7FFD7DBDCFFECEC
+      ECFFE7E7E7FFDFE2E3FFE3E4E4FFE3E4E4FFE3E3E3FFEBEBEBFFDCDFE0FF9BE1
+      F1FF84E1F7FF0DC5EFFCFFFFFF00FFFFFF002C80E6FE67A0ECFF89DCF4FFC2E3
+      EBFFA4E2F1FF86E2F7FF86E2F7FF86E2F7FF8DE2F6FFA8E3F0FF8CE2F5FF83DC
+      F6FF67A0ECFF2C80E6FEFFFFFF00FFFFFF0014B4EDFC5F8FEAFF5372E5FF6396
+      EBFF71B4F0FF7CCDF4FF83DCF6FF83DCF6FF7CCDF4FF71B4F0FF6396EBFF5372
+      E5FF5F8FEAFF14B4EDFCFFFFFF00FFFFFF000DC5EFF882E1F7FF75BEF1FF659A
+      EBFF577CE6FF4C63E2FF4554E0FF4554E0FF4C63E2FF577CE6FF659AEBFF75BE
+      F1FF82E1F7FF0DC5EFF8FFFFFF00FFFFFF000DC5EFA14FD5F3FF81E1F7FF86E2
+      F7FF86E2F7FF86E2F7FF86E2F7FF86E2F7FF86E2F7FF86E2F7FF86E2F7FF81E1
+      F7FF4FD5F3FF0DC5EFA1FFFFFF00FFFFFF000DC5EF240DC5EF8E0DC5EFF747D3
+      F3FF60D9F4FF73DEF6FF80E1F7FF80E1F7FF73DEF6FF60D9F4FF47D3F3FF0DC5
+      EFF70DC5EF8E0DC5EF24FFFFFF00FFFFFF00FFFFFF00FFFFFF000DC5EF3E0DC5
+      EF7C0DC5EFB00DC5EFDA0DC5EFF50DC5EFF50DC5EFDA0DC5EFB00DC5EF7C0DC5
+      EF3EFFFFFF00FFFFFF00FFFFFF00
+    }
+  end
+  object PopupMenu1: TPopupMenu
+    left = 117
+    top = 465
+    object MenuItem1: TMenuItem
+      Caption = 'Dummy item'
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Another dummy item'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Last dummy item'
+    end
+  end
+end

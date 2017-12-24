@@ -1,0 +1,143 @@
+msgid "to happen.to happen.to happen."
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tconfigform.caption
+msgid "configform"
+msgstr ""
+
+#: tconfigform.chk_update.caption
+msgid "Include this profile in the updating schedule"
+msgstr ""
+
+#: tconfigform.cmb_intervaldate.text
+msgid "1"
+msgstr ""
+
+#: tconfigform.cmb_intervalday.text
+msgid "Monday"
+msgstr ""
+
+#: tconfigform.cmb_intervalhour.text
+msgid "Midnight"
+msgstr ""
+
+#: tconfigform.cmb_intervaltype.text
+msgid "Day"
+msgstr ""
+
+#: tconfigform.cmd_close.caption
+msgid "&Close this window"
+msgstr ""
+
+#: tconfigform.cmd_newappprofile.caption
+msgid "New"
+msgstr ""
+
+#: tconfigform.cmd_savechanges.caption
+msgid "&Save all changes"
+msgstr ""
+
+#: tconfigform.edt_appversion.text
+msgid "edt_AppVersion"
+msgstr ""
+
+#: tconfigform.edt_inipath.text
+msgid "edt_INIPath"
+msgstr ""
+
+#: tconfigform.edt_sfprojectname.text
+msgid "edt_SFProjectName"
+msgstr ""
+
+#: tconfigform.edt_sfupdatesdirectory.text
+msgid "edt_SFUpdatesDirectory"
+msgstr ""
+
+#: tconfigform.edt_zippath.text
+msgid "edt_ZipPath"
+msgstr ""
+
+#: tconfigform.grp_configapp.caption
+msgid "Application details"
+msgstr ""
+
+#: tconfigform.grp_updateinterval.caption
+msgid "Updating details"
+msgstr ""
+
+#: tconfigform.lbl_apppath.caption
+msgid "Path to app"
+msgstr ""
+
+#: tconfigform.lbl_appprofile.caption
+msgid "Application Profile"
+msgstr ""
+
+#: tconfigform.lbl_appversion.caption
+msgid "Version"
+msgstr ""
+
+#: tconfigform.lbl_inipath.caption
+msgid "Version INI"
+msgstr ""
+
+#: tconfigform.lbl_intervaldate.caption
+msgid "Use Monthdate.."
+msgstr ""
+
+#: tconfigform.lbl_intervalday.caption
+msgid "Use Weekday.."
+msgstr ""
+
+#: tconfigform.lbl_intervaltype.caption
+msgid "Check for updates every.."
+msgstr ""
+
+#: tconfigform.lbl_sfprojectname.caption
+msgid "S.F. project name"
+msgstr ""
+
+#: tconfigform.lbl_sfupdatesdirectory.caption
+msgid "S.F. updates directory"
+msgstr ""
+
+#: tconfigform.lbl_sfupdatesdirectory2.caption
+msgid "...at..."
+msgstr ""
+
+#: tconfigform.lbl_zippath.caption
+msgid "ZipFile name"
+msgstr ""
+
+#: tmainform.caption
+msgid "mainform"
+msgstr ""
+
+#: tmainform.mnu_configure.caption
+msgid "Configure..."
+msgstr ""
+
+#: tmainform.mnu_fileexit.caption
+msgid "Shutdown and E&xit"
+msgstr ""
+
+#: tmainform.mnu_startatosstartup.caption
+msgid "Run at startup..."
+msgstr ""
+
+#: tmainform.mnu_test.caption
+msgid "Test"
+msgstr ""
+
+#: umainform.rs_balloontitle
+msgid "%s Notifier"
+msgstr ""
+
+#: umainform.rs_newversionavailable
+msgid "A new version of %s (v%s) is available"
+msgstr ""
+
+#: umainform.rs_trayloaded
+msgid "%s Loaded"
+msgstr ""
+

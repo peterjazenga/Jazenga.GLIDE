@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxDBGridExportPdf"><element name="TRxDBGridExportPDF"><short>Инструмент экспорта данных из RxDBGrid в PDF файл</short>
+      </element><element name="TRxDBGridExportPDF.FileName"><short>Имя файла для экспорта</short>
+      </element><element name="TRxDBGridExportPDF.Options"><short>Параметры экспорта</short>
+      </element><element name="TRxDBGridExportPDF.PdfOptions"><short>Параметры создаваемого PDF файла</short>
+      </element><element name="TRxDBGridExportPDF.OpenAfterExport"><short>Открыть сформированный файл после завершения экспорта</short>
+      </element><element name="TRxDBGridExportPDF.AuthorPdf"><short>Автор PDF файла</short>
+      </element><element name="TRxDBGridExportPDF.PageMargin"><short>Отступы на на странице в PDF файле</short>
+      </element><element name="TRxDBGridExportPDF.TitleColor"><short>Цвет, используемый для заливки заголовков колонок</short>
+      </element><element name="TPdfExportOptions.PaperType"><short>Размер бумаги в PDF файле</short>
+      </element><element name="TPdfExportOptions.PaperOrientation"><short>Ориентация бумаги в PDF файле</short>
+      </element><element name="TPdfExportOptions.Options"><short>Параметры формирования файла</short>
+      </element><element name="TRxDBGridExportPdfOptions"><short>Параметры формирования PDF файла</short>
+      </element><element name="TRxDBGridExportPdfOption.repExportColors"><short>Использовать раскраску сетки таблицы</short>
+      </element><element name="TRxDBGridExportPdfOption.repExportTitle"><short>Экспортровать заголовки таблицы</short>
+      </element><element name="TRxDBGridExportPdfOption.repExportFooter"><short>Экспортировать итоги таблицы</short>
+      </element><element name="TRxDBGridExportPdfOption.repOverwriteExisting"><short>Перезаписывать существующий файл</short>
+      </element><element name="TRxDBGridExportPdfOption.repExportImages"><short>Экспортировать изображения</short>
+      </element>
+    <short>Набор инструментов для экспорта данных из RxDBGrid в pdf файл</short>
+    </module>
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,36 @@
+TAutoPanel 1.0. TPanel with some extension.
+
+Tested under Delphi 3,4.
+
+Allow to change size and position of child components when changing a size 
+of AutoPanel
+
+
+Programmer: Dmitry V. Bolshakov
+(4232)41-19-82 (voice in Russia)
+Home page: tax25.marine.su/dmitryb
+E-mail: dmitryb@tax25.marine.su
+FidoNet 2:5045/41.63
+QCI # 10785451
+
+
+
+Added 4 property
+
+property AutoChildPosLeft : Boolean; 
+// Indicates whether the left position of child components will be 
+// changed when changing a size of panel
+property AutoChildPosTop : Boolean;  
+// Indicates whether the top position of child components will be 
+// changed when changing a size of panel
+property AutoChildWidth : Boolean;  // Indicates whether the width of 
+// child components will be changed when changing a size of panel
+property AutoChildHeight : Boolean;  // Indicates whether the height of 
+// child components will be changed when changing a size of panel
+
+Warning: Don't insert the child component in AutoPanel at RunTime.
+
+INSTALLATION
+Open menu "Component\Install Component...". In "Unit file name" browse 
+AutoPanel.pas. In "Package file name" browse LIB\dclusr30.dpk (dclusr40.dpk
+in Delphi 4) . Click Ok.

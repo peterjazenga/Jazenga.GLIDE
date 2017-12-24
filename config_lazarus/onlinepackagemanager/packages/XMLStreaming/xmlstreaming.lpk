@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="xmlstreaming"/>
+    <Author Value="Daniel Gaspary"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="A XML Streaming library based on Java API:
+
+http://docs.oracle.com/javase/7/docs/api/javax/xml/stream/XMLStreamWriter.html"/>
+    <License Value="Modified LGPL"/>
+    <Version Major="1"/>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="StaxCommon.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="StaxCommon"/>
+      </Item1>
+      <Item2>
+        <Filename Value="StaxFormatting.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="StaxFormatting"/>
+      </Item2>
+      <Item3>
+        <Filename Value="StaxWriter.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="StaxWriter"/>
+      </Item3>
+      <Item4>
+        <Filename Value="StaxWriter_Dom.pas"/>
+        <UnitName Value="StaxWriter_Dom"/>
+      </Item4>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LazUtils"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

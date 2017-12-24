@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="asiovst"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Christian-W. Budde, Tobybear, Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source;source\ASIO;source\DSP;source\GUI;source\VST"/>
+        <OtherUnitFiles Value="source;source\FileFormats;source\ASIO;source\DSP;source\VST;source\GUI;source\Math;source\Modular;source\SE;source\STK;source\Plugin"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <CPPInline Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+      </CodeGeneration>
+      <Other>
+        <Verbosity>
+          <ShowDebugInfo Value="True"/>
+        </Verbosity>
+      </Other>
+    </CompilerOptions>
+    <Description Value="With this package the user can easily create VST plugins or ASIO applications within minutes. The included algorithms for filters and dynamics help to built effects without much knowledge of digital signal processing."/>
+    <License Value="GNU Library or Lesser General Public License version 2.0 (LGPLv2), Mozilla Public License 1.1 (MPL 1.1)"/>
+    <Version Major="1" Minor="3"/>
+    <Files Count="167">
+      <Item1>
+        <Filename Value="source\allAsioVSTRegister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="allAsioVSTRegister"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\allAsioVSTRegisterIDE.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="allAsioVSTRegisterIDE"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\ASIO\DAV_Asio.pas"/>
+        <UnitName Value="DAV_Asio"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\ASIO\DAV_AsioConvert.pas"/>
+        <UnitName Value="DAV_AsioConvert"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\ASIO\DAV_AsioGenerator.pas"/>
+        <UnitName Value="DAV_AsioGenerator"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\ASIO\DAV_AsioHost.pas"/>
+        <UnitName Value="DAV_AsioHost"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\ASIO\DAV_AsioInterface.pas"/>
+        <UnitName Value="DAV_AsioInterface"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\ASIO\DAV_OpenAsio.pas"/>
+        <UnitName Value="DAV_OpenAsio"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\DAV_Approximations.pas"/>
+        <UnitName Value="DAV_Approximations"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\DAV_AudioData.pas"/>
+        <UnitName Value="DAV_AudioData"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\DAV_Common.pas"/>
+        <UnitName Value="DAV_Common"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\DAV_Compiler.inc"/>
+        <Type Value="Include"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\DAV_CompilerSwitches.inc"/>
+        <Type Value="Include"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\DAV_Complex.pas"/>
+        <UnitName Value="DAV_Complex"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\DAV_ComplexData.pas"/>
+        <UnitName Value="DAV_ComplexData"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\DAV_Math.pas"/>
+        <UnitName Value="DAV_Math"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\DSP\DAV_DspBesselFilter.pas"/>
+        <UnitName Value="DAV_DspBesselFilter"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source\DSP\DAV_DspCepstrum.pas"/>
+        <UnitName Value="DAV_DspCepstrum"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source\DSP\DAV_DspChorus.pas"/>
+        <UnitName Value="DAV_DspChorus"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source\DSP\DAV_DspConvolution.pas"/>
+        <UnitName Value="DAV_DspConvolution"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source\DSP\DAV_DspCorrelation.pas"/>
+        <UnitName Value="DAV_DspCorrelation"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source\DSP\DAV_DspCrosstalkCancellation.pas"/>
+        <UnitName Value="DAV_DspCrosstalkCancellation"/>
+      </Item22>
+      <Item23>
+        <Filename Value="source\DSP\DAV_DspCrosstalkSimulator.pas"/>
+        <UnitName Value="DAV_DspCrosstalkSimulator"/>
+      </Item23>
+      <Item24>
+        <Filename Value="source\DSP\DAV_DspDelayLines.pas"/>
+        <UnitName Value="DAV_DspDelayLines"/>
+      </Item24>
+      <Item25>
+        <Filename Value="source\DSP\DAV_DspDFT.pas"/>
+        <UnitName Value="DAV_DspDFT"/>
+      </Item25>
+      <Item26>
+        <Filename Value="source\DSP\DAV_DspDitherNoiseShaper.pas"/>
+        <UnitName Value="DAV_DspDitherNoiseShaper"/>
+      </Item26>
+      <Item27>
+        <Filename Value="source\DSP\DAV_DspDownsampleScheduler.pas"/>
+        <UnitName Value="DAV_DspDownsampleScheduler"/>
+      </Item27>
+      <Item28>
+        <Filename Value="source\DSP\DAV_DspDynamicLookaheadLimiter.pas"/>
+        <UnitName Value="DAV_DspDynamicLookaheadLimiter"/>
+      </Item28>
+      <Item29>
+        <Filename Value="source\DSP\DAV_DspExciter.pas"/>
+        <UnitName Value="DAV_DspExciter"/>
+      </Item29>
+      <Item30>
+        <Filename Value="source\DSP\DAV_DspFDNReverb.pas"/>
+        <UnitName Value="DAV_DspFDNReverb"/>
+      </Item30>
+      <Item31>
+        <Filename Value="source\DSP\DAV_DspFeedbackDelayNetwork.pas"/>
+        <UnitName Value="DAV_DspFeedbackDelayNetwork"/>
+      </Item31>
+      <Item32>
+        <Filename Value="source\DSP\DAV_DspFFT.pas"/>
+        <UnitName Value="DAV_DspFFT"/>
+      </Item32>
+      <Item33>
+        <Filename Value="source\DSP\DAV_DspFftReal2Complex.pas"/>
+        <UnitName Value="DAV_DspFftReal2Complex"/>
+      </Item33>
+      <Item34>
+        <Filename Value="source\DSP\DAV_DspFilter.pas"/>
+        <UnitName Value="DAV_DspFilter"/>
+      </Item34>
+      <Item35>
+        <Filename Value="source\DSP\DAV_DspFilterAllpasses.pas"/>
+        <UnitName Value="DAV_DspFilterAllpasses"/>
+      </Item35>
+      <Item36>
+        <Filename Value="source\DSP\DAV_DspFilterBasics.pas"/>
+        <UnitName Value="DAV_DspFilterBasics"/>
+      </Item36>
+      <Item37>
+        <Filename Value="source\DSP\DAV_DspFilterBasicsAutomatable.pas"/>
+        <UnitName Value="DAV_DspFilterBasicsAutomatable"/>
+      </Item37>
+      <Item38>
+        <Filename Value="source\DSP\DAV_DspFilterButterworth.pas"/>
+        <UnitName Value="DAV_DspFilterButterworth"/>
+      </Item38>
+      <Item39>
+        <Filename Value="source\DSP\DAV_DspFilterChebyshev.pas"/>
+        <UnitName Value="DAV_DspFilterChebyshev"/>
+      </Item39>
+      <Item40>
+        <Filename Value="source\DSP\DAV_DspFilterChebyshevType1.pas"/>
+        <UnitName Value="DAV_DspFilterChebyshevType1"/>
+      </Item40>
+      <Item41>
+        <Filename Value="source\DSP\DAV_DspFilterChebyshevType2.pas"/>
+        <UnitName Value="DAV_DspFilterChebyshevType2"/>
+      </Item41>
+      <Item42>
+        <Filename Value="source\DSP\DAV_DspFilterLinearPhase.pas"/>
+        <UnitName Value="DAV_DspFilterLinearPhase"/>
+      </Item42>
+      <Item43>
+        <Filename Value="source\DSP\DAV_DspFilterLinearPhaseCrossover.pas"/>
+        <UnitName Value="DAV_DspFilterLinearPhaseCrossover"/>
+      </Item43>
+      <Item44>
+        <Filename Value="source\DSP\DAV_DspFilterLinkwitzRiley.pas"/>
+        <UnitName Value="DAV_DspFilterLinkwitzRiley"/>
+      </Item44>
+      <Item45>
+        <Filename Value="source\DSP\DAV_DspFilterSimple.pas"/>
+        <UnitName Value="DAV_DspFilterSimple"/>
+      </Item45>
+      <Item46>
+        <Filename Value="source\DSP\DAV_DspFilterSpectralDelay.pas"/>
+        <UnitName Value="DAV_DspFilterSpectralDelay"/>
+      </Item46>
+      <Item47>
+        <Filename Value="source\DSP\DAV_DspFilterTransform.pas"/>
+        <UnitName Value="DAV_DspFilterTransform"/>
+      </Item47>
+      <Item48>
+        <Filename Value="source\DSP\DAV_DspFreeverb.pas"/>
+        <UnitName Value="DAV_DspFreeverb"/>
+      </Item48>
+      <Item49>
+        <Filename Value="source\DSP\DAV_DspFreeverbFilter.pas"/>
+        <UnitName Value="DAV_DspFreeverbFilter"/>
+      </Item49>
+      <Item50>
+        <Filename Value="source\DSP\DAV_DspFrequencyDivider.pas"/>
+        <UnitName Value="DAV_DspFrequencyDivider"/>
+      </Item50>
+      <Item51>
+        <Filename Value="source\DSP\DAV_DspFrequencyShifter.pas"/>
+        <UnitName Value="DAV_DspFrequencyShifter"/>
+      </Item51>
+      <Item52>
+        <Filename Value="source\DSP\DAV_DspHumRemoval.pas"/>
+        <UnitName Value="DAV_DspHumRemoval"/>
+      </Item52>
+      <Item53>
+        <Filename Value="source\DSP\DAV_DspInterpolation.pas"/>
+        <UnitName Value="DAV_DspInterpolation"/>
+      </Item53>
+      <Item54>
+        <Filename Value="source\DSP\DAV_DspLeslie.pas"/>
+        <UnitName Value="DAV_DspLeslie"/>
+      </Item54>
+      <Item55>
+        <Filename Value="source\DSP\DAV_DspLevelingAmplifier.pas"/>
+        <UnitName Value="DAV_DspLevelingAmplifier"/>
+      </Item55>
+      <Item56>
+        <Filename Value="source\DSP\DAV_DspLFO.pas"/>
+        <UnitName Value="DAV_DspLFO"/>
+      </Item56>
+      <Item57>
+        <Filename Value="source\DSP\DAV_DspLightweightDynamics.pas"/>
+        <UnitName Value="DAV_DspLightweightDynamics"/>
+      </Item57>
+      <Item58>
+        <Filename Value="source\DSP\DAV_DspLorenzOscilator.pas"/>
+        <UnitName Value="DAV_DspLorenzOscilator"/>
+      </Item58>
+      <Item59>
+        <Filename Value="source\DSP\DAV_DspMetronome.pas"/>
+        <UnitName Value="DAV_DspMetronome"/>
+      </Item59>
+      <Item60>
+        <Filename Value="source\DSP\DAV_DspMinBlep.pas"/>
+        <UnitName Value="DAV_DspMinBlep"/>
+      </Item60>
+      <Item61>
+        <Filename Value="source\DSP\DAV_DspModDelay.pas"/>
+        <UnitName Value="DAV_DspModDelay"/>
+      </Item61>
+      <Item62>
+        <Filename Value="source\DSP\DAV_DspNoiseShapingFilterDesigner.pas"/>
+        <UnitName Value="DAV_DspNoiseShapingFilterDesigner"/>
+      </Item62>
+      <Item63>
+        <Filename Value="source\DSP\DAV_DspParametricEQ.pas"/>
+        <UnitName Value="DAV_DspParametricEQ"/>
+      </Item63>
+      <Item64>
+        <Filename Value="source\DSP\DAV_DspPhaser.pas"/>
+        <UnitName Value="DAV_DspPhaser"/>
+      </Item64>
+      <Item65>
+        <Filename Value="source\DSP\DAV_DspPinkNoiseGenerator.pas"/>
+        <UnitName Value="DAV_DspPinkNoiseGenerator"/>
+      </Item65>
+      <Item66>
+        <Filename Value="source\DSP\DAV_DspPlateReverb.pas"/>
+        <UnitName Value="DAV_DspPlateReverb"/>
+      </Item66>
+      <Item67>
+        <Filename Value="source\DSP\DAV_DspPolyphaseDownsampler.pas"/>
+        <UnitName Value="DAV_DspPolyphaseDownsampler"/>
+      </Item67>
+      <Item68>
+        <Filename Value="source\DSP\DAV_DspPolyphaseFilter.pas"/>
+        <UnitName Value="DAV_DspPolyphaseFilter"/>
+      </Item68>
+      <Item69>
+        <Filename Value="source\DSP\DAV_DspPolyphaseIirDesigner.pas"/>
+        <UnitName Value="DAV_DspPolyphaseIirDesigner"/>
+      </Item69>
+      <Item70>
+        <Filename Value="source\DSP\DAV_DspPolyphaseUpsampler.pas"/>
+        <UnitName Value="DAV_DspPolyphaseUpsampler"/>
+      </Item70>
+      <Item71>
+        <Filename Value="source\DSP\DAV_DspPsychoacousticBassEnhancer.pas"/>
+        <UnitName Value="DAV_DspPsychoacousticBassEnhancer"/>
+      </Item71>
+      <Item72>
+        <Filename Value="source\DSP\DAV_DspR128.pas"/>
+        <UnitName Value="DAV_DspR128"/>
+      </Item72>
+      <Item73>
+        <Filename Value="source\DSP\DAV_DspRemez.pas"/>
+        <UnitName Value="DAV_DspRemez"/>
+      </Item73>
+      <Item74>
+        <Filename Value="source\DSP\DAV_DspSpectralEffects.pas"/>
+        <UnitName Value="DAV_DspSpectralEffects"/>
+      </Item74>
+      <Item75>
+        <Filename Value="source\DSP\DAV_DspSpectralFilters.pas"/>
+        <UnitName Value="DAV_DspSpectralFilters"/>
+      </Item75>
+      <Item76>
+        <Filename Value="source\DSP\DAV_DspSpectralNoiseReduction.pas"/>
+        <UnitName Value="DAV_DspSpectralNoiseReduction"/>
+      </Item76>
+      <Item77>
+        <Filename Value="source\DSP\DAV_DspStateVariableFilter.pas"/>
+        <UnitName Value="DAV_DspStateVariableFilter"/>
+      </Item77>
+      <Item78>
+        <Filename Value="source\DSP\DAV_DspUpDownsampling.pas"/>
+        <UnitName Value="DAV_DspUpDownsampling"/>
+      </Item78>
+      <Item79>
+        <Filename Value="source\DSP\DAV_DspWaveshaper.pas"/>
+        <UnitName Value="DAV_DspWaveshaper"/>
+      </Item79>
+      <Item80>
+        <Filename Value="source\DSP\DAV_DspWindowing.pas"/>
+        <UnitName Value="DAV_DspWindowing"/>
+      </Item80>
+      <Item81>
+        <Filename Value="source\FileFormats\DAV_AudioFile.pas"/>
+        <UnitName Value="DAV_AudioFile"/>
+      </Item81>
+      <Item82>
+        <Filename Value="source\FileFormats\DAV_AudioFileAIFF.pas"/>
+        <UnitName Value="DAV_AudioFileAIFF"/>
+      </Item82>
+      <Item83>
+        <Filename Value="source\FileFormats\DAV_AudioFileAU.pas"/>
+        <UnitName Value="DAV_AudioFileAU"/>
+      </Item83>
+      <Item84>
+        <Filename Value="source\FileFormats\DAV_AudioFileDataCache.pas"/>
+        <UnitName Value="DAV_AudioFileDataCache"/>
+      </Item84>
+      <Item85>
+        <Filename Value="source\FileFormats\DAV_AudioFileWAV.pas"/>
+        <UnitName Value="DAV_AudioFileWAV"/>
+      </Item85>
+      <Item86>
+        <Filename Value="source\FileFormats\DAV_ChannelDataCoder.pas"/>
+        <UnitName Value="DAV_ChannelDataCoder"/>
+      </Item86>
+      <Item87>
+        <Filename Value="source\FileFormats\DAV_ChunkAiffBasic.pas"/>
+        <UnitName Value="DAV_ChunkAiffBasic"/>
+      </Item87>
+      <Item88>
+        <Filename Value="source\FileFormats\DAV_ChunkClasses.pas"/>
+        <UnitName Value="DAV_ChunkClasses"/>
+      </Item88>
+      <Item89>
+        <Filename Value="source\FileFormats\DAV_ChunkWaveBasic.pas"/>
+        <UnitName Value="DAV_ChunkWaveBasic"/>
+      </Item89>
+      <Item90>
+        <Filename Value="source\FileFormats\DAV_ChunkWaveCustom.pas"/>
+        <UnitName Value="DAV_ChunkWaveCustom"/>
+      </Item90>
+      <Item91>
+        <Filename Value="source\FileFormats\DAV_MpegAudio.pas"/>
+        <UnitName Value="DAV_MpegAudio"/>
+      </Item91>
+      <Item92>
+        <Filename Value="source\FileFormats\DAV_MpegAudioLayer3.pas"/>
+        <UnitName Value="DAV_MpegAudioLayer3"/>
+      </Item92>
+      <Item93>
+        <Filename Value="source\GUI\DAV_GuiADSRGraph.pas"/>
+        <UnitName Value="DAV_GuiADSRGraph"/>
+      </Item93>
+      <Item94>
+        <Filename Value="source\GUI\DAV_GuiAudioDataDisplay.pas"/>
+        <UnitName Value="DAV_GuiAudioDataDisplay"/>
+      </Item94>
+      <Item95>
+        <Filename Value="source\GUI\DAV_GuiAudioDataDisplayAxis.pas"/>
+        <UnitName Value="DAV_GuiAudioDataDisplayAxis"/>
+      </Item95>
+      <Item96>
+        <Filename Value="source\GUI\DAV_GuiAudioDataDisplayCursor.pas"/>
+        <UnitName Value="DAV_GuiAudioDataDisplayCursor"/>
+      </Item96>
+      <Item97>
+        <Filename Value="source\GUI\DAV_GuiBaseControl.pas"/>
+        <UnitName Value="DAV_GuiBaseControl"/>
+      </Item97>
+      <Item98>
+        <Filename Value="source\GUI\DAV_GuiBitmap.pas"/>
+        <UnitName Value="DAV_GuiBitmap"/>
+      </Item98>
+      <Item99>
+        <Filename Value="source\GUI\DAV_GuiBlend.pas"/>
+        <UnitName Value="DAV_GuiBlend"/>
+      </Item99>
+      <Item100>
+        <Filename Value="source\GUI\DAV_GuiBlendReference.pas"/>
+        <UnitName Value="DAV_GuiBlendReference"/>
+      </Item100>
+      <Item101>
+        <Filename Value="source\GUI\DAV_GuiButton.pas"/>
+        <UnitName Value="DAV_GuiButton"/>
+      </Item101>
+      <Item102>
+        <Filename Value="source\GUI\DAV_GuiByteMap.pas"/>
+        <UnitName Value="DAV_GuiByteMap"/>
+      </Item102>
+      <Item103>
+        <Filename Value="source\GUI\DAV_GuiCheckBox.pas"/>
+        <UnitName Value="DAV_GuiCheckBox"/>
+      </Item103>
+      <Item104>
+        <Filename Value="source\GUI\DAV_GuiCorrelationMeter.pas"/>
+        <UnitName Value="DAV_GuiCorrelationMeter"/>
+      </Item104>
+      <Item105>
+        <Filename Value="source\GUI\DAV_GuiCustomMap.pas"/>
+        <UnitName Value="DAV_GuiCustomMap"/>
+      </Item105>
+      <Item106>
+        <Filename Value="source\GUI\DAV_GuiDesign.pas"/>
+        <UnitName Value="DAV_GuiDesign"/>
+      </Item106>
+      <Item107>
+        <Filename Value="source\GUI\DAV_GuiDial.pas"/>
+        <UnitName Value="DAV_GuiDial"/>
+      </Item107>
+      <Item108>
+        <Filename Value="source\GUI\DAV_GuiDialDesign.pas"/>
+        <UnitName Value="DAV_GuiDialDesign"/>
+      </Item108>
+      <Item109>
+        <Filename Value="source\GUI\DAV_GuiDialRenderer.pas"/>
+        <UnitName Value="DAV_GuiDialRenderer"/>
+      </Item109>
+      <Item110>
+        <Filename Value="source\GUI\DAV_GuiDynamicWaveform.pas"/>
+        <UnitName Value="DAV_GuiDynamicWaveform"/>
+      </Item110>
+      <Item111>
+        <Filename Value="source\GUI\DAV_GuiEQGraph.pas"/>
+        <UnitName Value="DAV_GuiEQGraph"/>
+      </Item111>
+      <Item112>
+        <Filename Value="source\GUI\DAV_GuiEQSlide.pas"/>
+        <UnitName Value="DAV_GuiEQSlide"/>
+      </Item112>
+      <Item113>
+        <Filename Value="source\GUI\DAV_GuiFileFormatGraphics.pas"/>
+        <UnitName Value="DAV_GuiFileFormatGraphics"/>
+      </Item113>
+      <Item114>
+        <Filename Value="source\GUI\DAV_GuiFileFormats.pas"/>
+        <UnitName Value="DAV_GuiFileFormats"/>
+      </Item114>
+      <Item115>
+        <Filename Value="source\GUI\DAV_GuiFilters.pas"/>
+        <UnitName Value="DAV_GuiFilters"/>
+      </Item115>
+      <Item116>
+        <Filename Value="source\GUI\DAV_GuiFixedPoint.pas"/>
+        <UnitName Value="DAV_GuiFixedPoint"/>
+      </Item116>
+      <Item117>
+        <Filename Value="source\GUI\DAV_GuiFont.pas"/>
+        <UnitName Value="DAV_GuiFont"/>
+      </Item117>
+      <Item118>
+        <Filename Value="source\GUI\DAV_GuiFontDesign.pas"/>
+        <UnitName Value="DAV_GuiFontDesign"/>
+      </Item118>
+      <Item119>
+        <Filename Value="source\GUI\DAV_GuiGraphXY.pas"/>
+        <UnitName Value="DAV_GuiGraphXY"/>
+      </Item119>
+      <Item120>
+        <Filename Value="source\GUI\DAV_GuiGraphXYDesign.pas"/>
+        <UnitName Value="DAV_GuiGraphXYDesign"/>
+      </Item120>
+      <Item121>
+        <Filename Value="source\GUI\DAV_GuiInscription.pas"/>
+        <UnitName Value="DAV_GuiInscription"/>
+      </Item121>
+      <Item122>
+        <Filename Value="source\GUI\DAV_GuiInterface.pas"/>
+        <UnitName Value="DAV_GuiInterface"/>
+      </Item122>
+      <Item123>
+        <Filename Value="source\GUI\DAV_GuiLabel.pas"/>
+        <UnitName Value="DAV_GuiLabel"/>
+      </Item123>
+      <Item124>
+        <Filename Value="source\GUI\DAV_GuiLED.pas"/>
+        <UnitName Value="DAV_GuiLED"/>
+      </Item124>
+      <Item125>
+        <Filename Value="source\GUI\DAV_GuiLevelMeter.pas"/>
+        <UnitName Value="DAV_GuiLevelMeter"/>
+      </Item125>
+      <Item126>
+        <Filename Value="source\GUI\DAV_GuiMediaButton.pas"/>
+        <UnitName Value="DAV_GuiMediaButton"/>
+      </Item126>
+      <Item127>
+        <Filename Value="source\GUI\DAV_GuiMidiKeys.pas"/>
+        <UnitName Value="DAV_GuiMidiKeys"/>
+      </Item127>
+      <Item128>
+        <Filename Value="source\GUI\DAV_GuiMidiKeyZones.pas"/>
+        <UnitName Value="DAV_GuiMidiKeyZones"/>
+      </Item128>
+      <Item129>
+        <Filename Value="source\GUI\DAV_GuiPaintBox.pas"/>
+        <UnitName Value="DAV_GuiPaintBox"/>
+      </Item129>
+      <Item130>
+        <Filename Value="source\GUI\DAV_GuiPanel.pas"/>
+        <UnitName Value="DAV_GuiPanel"/>
+      </Item130>
+      <Item131>
+        <Filename Value="source\GUI\DAV_GuiPixelMap.pas"/>
+        <UnitName Value="DAV_GuiPixelMap"/>
+      </Item131>
+      <Item132>
+        <Filename Value="source\GUI\DAV_GuiPixelMapDesign.pas"/>
+        <UnitName Value="DAV_GuiPixelMapDesign"/>
+      </Item132>
+      <Item133>
+        <Filename Value="source\GUI\DAV_GuiPng.pas"/>
+        <UnitName Value="DAV_GuiPng"/>
+      </Item133>
+      <Item134>
+        <Filename Value="source\GUI\DAV_GuiPngChunks.pas"/>
+        <UnitName Value="DAV_GuiPngChunks"/>
+      </Item134>
+      <Item135>
+        <Filename Value="source\GUI\DAV_GuiPngClasses.pas"/>
+        <UnitName Value="DAV_GuiPngClasses"/>
+      </Item135>
+      <Item136>
+        <Filename Value="source\GUI\DAV_GuiPngCoder.pas"/>
+        <UnitName Value="DAV_GuiPngCoder"/>
+      </Item136>
+      <Item137>
+        <Filename Value="source\GUI\DAV_GuiPngDesign.pas"/>
+        <UnitName Value="DAV_GuiPngDesign"/>
+      </Item137>
+      <Item138>
+        <Filename Value="source\GUI\DAV_GuiPngImageList.pas"/>
+        <UnitName Value="DAV_GuiPngImageList"/>
+      </Item138>
+      <Item139>
+        <Filename Value="source\GUI\DAV_GuiPngResourceStrings.pas"/>
+        <UnitName Value="DAV_GuiPngResourceStrings"/>
+      </Item139>
+      <Item140>
+        <Filename Value="source\GUI\DAV_GuiPngTypes.pas"/>
+        <UnitName Value="DAV_GuiPngTypes"/>
+      </Item140>
+      <Item141>
+        <Filename Value="source\GUI\DAV_GuiSelectBox.pas"/>
+        <UnitName Value="DAV_GuiSelectBox"/>
+      </Item141>
+      <Item142>
+        <Filename Value="source\GUI\DAV_GuiShadow.pas"/>
+        <UnitName Value="DAV_GuiShadow"/>
+      </Item142>
+      <Item143>
+        <Filename Value="source\GUI\DAV_GuiSlider.pas"/>
+        <UnitName Value="DAV_GuiSlider"/>
+      </Item143>
+      <Item144>
+        <Filename Value="source\GUI\DAV_GuiStaticWaveform.pas"/>
+        <UnitName Value="DAV_GuiStaticWaveform"/>
+      </Item144>
+      <Item145>
+        <Filename Value="source\GUI\DAV_GuiStitchedButton.pas"/>
+        <UnitName Value="DAV_GuiStitchedButton"/>
+      </Item145>
+      <Item146>
+        <Filename Value="source\GUI\DAV_GuiStitchedControls.pas"/>
+        <UnitName Value="DAV_GuiStitchedControls"/>
+      </Item146>
+      <Item147>
+        <Filename Value="source\GUI\DAV_GuiStitchedDial.pas"/>
+        <UnitName Value="DAV_GuiStitchedDial"/>
+      </Item147>
+      <Item148>
+        <Filename Value="source\GUI\DAV_GuiStitchedDisplay.pas"/>
+        <UnitName Value="DAV_GuiStitchedDisplay"/>
+      </Item148>
+      <Item149>
+        <Filename Value="source\GUI\DAV_GuiStitchedPngList.pas"/>
+        <UnitName Value="DAV_GuiStitchedPngList"/>
+      </Item149>
+      <Item150>
+        <Filename Value="source\GUI\DAV_GuiStitchedSwitch.pas"/>
+        <UnitName Value="DAV_GuiStitchedSwitch"/>
+      </Item150>
+      <Item151>
+        <Filename Value="source\GUI\DAV_GuiVector.pas"/>
+        <UnitName Value="DAV_GuiVector"/>
+      </Item151>
+      <Item152>
+        <Filename Value="source\GUI\DAV_GuiVectorPixel.pas"/>
+        <UnitName Value="DAV_GuiVectorPixel"/>
+      </Item152>
+      <Item153>
+        <Filename Value="source\GUI\DAV_GuiVectorPixelCircle.pas"/>
+        <UnitName Value="DAV_GuiVectorPixelCircle"/>
+      </Item153>
+      <Item154>
+        <Filename Value="source\GUI\DAV_GuiVectorPixelLine.pas"/>
+        <UnitName Value="DAV_GuiVectorPixelLine"/>
+      </Item154>
+      <Item155>
+        <Filename Value="source\GUI\DAV_GuiVUMeter.pas"/>
+        <UnitName Value="DAV_GuiVUMeter"/>
+      </Item155>
+      <Item156>
+        <Filename Value="source\VST\DAV_VSTBasicModule.pas"/>
+        <UnitName Value="DAV_VSTBasicModule"/>
+      </Item156>
+      <Item157>
+        <Filename Value="source\VST\DAV_VSTChannels.pas"/>
+        <UnitName Value="DAV_VSTChannels"/>
+      </Item157>
+      <Item158>
+        <Filename Value="source\VST\DAV_VSTCustomModule.pas"/>
+        <UnitName Value="DAV_VSTCustomModule"/>
+      </Item158>
+      <Item159>
+        <Filename Value="source\VST\DAV_VSTHost.pas"/>
+        <UnitName Value="DAV_VSTHost"/>
+      </Item159>
+      <Item160>
+        <Filename Value="source\VST\DAV_VSTModule.pas"/>
+        <UnitName Value="DAV_VSTModule"/>
+      </Item160>
+      <Item161>
+        <Filename Value="source\VST\DAV_VSTModuleWithDsp.pas"/>
+        <UnitName Value="DAV_VSTModuleWithDsp"/>
+      </Item161>
+      <Item162>
+        <Filename Value="source\VST\DAV_VSTModuleWithMidi.pas"/>
+        <UnitName Value="DAV_VSTModuleWithMidi"/>
+      </Item162>
+      <Item163>
+        <Filename Value="source\VST\DAV_VSTModuleWithPrograms.pas"/>
+        <UnitName Value="DAV_VSTModuleWithPrograms"/>
+      </Item163>
+      <Item164>
+        <Filename Value="source\VST\DAV_VSTOfflineTask.pas"/>
+        <UnitName Value="DAV_VSTOfflineTask"/>
+      </Item164>
+      <Item165>
+        <Filename Value="source\VST\DAV_VSTParameters.pas"/>
+        <UnitName Value="DAV_VSTParameters"/>
+      </Item165>
+      <Item166>
+        <Filename Value="source\VST\DAV_VSTPrograms.pas"/>
+        <UnitName Value="DAV_VSTPrograms"/>
+      </Item166>
+      <Item167>
+        <Filename Value="source\VST\DAV_VSTShellPlugins.pas"/>
+        <UnitName Value="DAV_VSTShellPlugins"/>
+      </Item167>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

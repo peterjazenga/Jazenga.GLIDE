@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":121046133,"name":"gr32_backends.rcstrcannotallocatedibhandle","sourcebytes":[67,97,110,39,116,32,97,108,108,111,99,97,116,101,32,116,104,101,32,68,73,66,32,104,97,110,100,108,101],"value":"Can't allocate the DIB handle"},
+{"hash":92330355,"name":"gr32_backends.rcstrcannotcreatecompatibledc","sourcebytes":[67,97,110,39,116,32,99,114,101,97,116,101,32,99,111,109,112,97,116,105,98,108,101,32,68,67],"value":"Can't create compatible DC"},
+{"hash":37131891,"name":"gr32_backends.rcstrcannotselectanobjectintodc","sourcebytes":[67,97,110,39,116,32,115,101,108,101,99,116,32,97,110,32,111,98,106,101,99,116,32,105,110,116,111,32,68,67],"value":"Can't select an object into DC"}
+]}

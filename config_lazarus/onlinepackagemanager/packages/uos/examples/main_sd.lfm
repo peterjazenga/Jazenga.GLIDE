@@ -1,0 +1,54 @@
+object Form1: TForm1
+  Left = 696
+  Height = 148
+  Top = 246
+  Width = 221
+  Caption = 'Simple Drums'
+  ClientHeight = 148
+  ClientWidth = 221
+  OnActivate = FormActivate
+  OnClose = FormClose
+  LCLVersion = '1.4.4.0'
+  object Button1: TButton
+    Left = 76
+    Height = 25
+    Top = 76
+    Width = 75
+    Caption = 'Play'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 76
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Stop'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 84
+    Height = 21
+    Top = 38
+    Width = 56
+    Alignment = taCenter
+    TabOrder = 2
+    Text = '100'
+  end
+  object Label1: TLabel
+    Left = 72
+    Height = 13
+    Top = 6
+    Width = 71
+    Caption = 'Interval in ms'
+    ParentColor = False
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 272
+    top = 232
+  end
+end

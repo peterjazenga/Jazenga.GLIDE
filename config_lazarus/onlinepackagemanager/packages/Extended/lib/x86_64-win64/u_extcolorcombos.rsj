@@ -1,0 +1,22 @@
+{"version":1,"strings":[
+{"hash":4794267,"name":"u_extcolorcombos.color_combo_black","sourcebytes":[66,108,97,99,107],"value":"Black"},
+{"hash":87594590,"name":"u_extcolorcombos.color_combo_maroon","sourcebytes":[77,97,114,111,111,110],"value":"Maroon"},
+{"hash":5147582,"name":"u_extcolorcombos.color_combo_green","sourcebytes":[71,114,101,101,110],"value":"Green"},
+{"hash":188411774,"name":"u_extcolorcombos.color_combo_mgreen","sourcebytes":[77,111,110,101,121,32,103,114,101,101,110],"value":"Money green"},
+{"hash":5648581,"name":"u_extcolorcombos.color_combo_olive","sourcebytes":[79,108,105,118,101],"value":"Olive"},
+{"hash":346329,"name":"u_extcolorcombos.color_combo_navy","sourcebytes":[78,97,118,121],"value":"Navy"},
+{"hash":92051237,"name":"u_extcolorcombos.color_combo_purple","sourcebytes":[80,117,114,112,108,101],"value":"Purple"},
+{"hash":371580,"name":"u_extcolorcombos.color_combo_teal","sourcebytes":[84,101,97,108],"value":"Teal"},
+{"hash":321673,"name":"u_extcolorcombos.color_combo_gray","sourcebytes":[71,114,97,121],"value":"Gray"},
+{"hash":94387394,"name":"u_extcolorcombos.color_combo_silver","sourcebytes":[83,105,108,118,101,114],"value":"Silver"},
+{"hash":22708,"name":"u_extcolorcombos.color_combo_red","sourcebytes":[82,101,100],"value":"Red"},
+{"hash":340021,"name":"u_extcolorcombos.color_combo_lime","sourcebytes":[76,105,109,101],"value":"Lime"},
+{"hash":100414311,"name":"u_extcolorcombos.color_combo_yellow","sourcebytes":[89,101,108,108,111,119],"value":"Yellow"},
+{"hash":128889111,"name":"u_extcolorcombos.color_combo_pyellow","sourcebytes":[80,97,108,101,32,121,101,108,108,111,119],"value":"Pale yellow"},
+{"hash":299957,"name":"u_extcolorcombos.color_combo_blue","sourcebytes":[66,108,117,101],"value":"Blue"},
+{"hash":45520405,"name":"u_extcolorcombos.color_combo_sblue","sourcebytes":[83,107,121,32,98,108,117,101],"value":"Sky blue"},
+{"hash":230291889,"name":"u_extcolorcombos.color_combo_fuchsia","sourcebytes":[70,117,99,104,115,105,97],"value":"Fuchsia"},
+{"hash":297137,"name":"u_extcolorcombos.color_combo_aqua","sourcebytes":[65,113,117,97],"value":"Aqua"},
+{"hash":6156453,"name":"u_extcolorcombos.color_combo_white","sourcebytes":[87,104,105,116,101],"value":"White"},
+{"hash":349765,"name":"u_extcolorcombos.color_combo_none","sourcebytes":[78,111,110,101],"value":"None"}
+]}

@@ -1,0 +1,1869 @@
+object Form1: TForm1
+  Left = 280
+  Height = 660
+  Top = 130
+  Width = 506
+  Caption = 'spkToolbar Styles'
+  ClientHeight = 660
+  ClientWidth = 506
+  Color = clMedGray
+  LCLVersion = '1.7'
+  object SpkToolbar1: TSpkToolbar
+    Left = 0
+    Top = 0
+    Width = 506
+    Color = clMedGray
+    Appearance.Tab.TabHeaderFont.Color = 9126421
+    Appearance.Tab.TabHeaderFont.Height = -12
+    Appearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+    Appearance.Tab.BorderColor = 14922381
+    Appearance.Tab.GradientFromColor = 16115934
+    Appearance.Tab.GradientToColor = 15587527
+    Appearance.Tab.GradientType = bkConcave
+    Appearance.Tab.InactiveTabHeaderFontColor = 9126421
+    Appearance.Pane.BorderDarkColor = 14335646
+    Appearance.Pane.BorderLightColor = 16315117
+    Appearance.Pane.CaptionBgColor = 15849922
+    Appearance.Pane.CaptionFont.Color = 9126421
+    Appearance.Pane.CaptionFont.Height = -12
+    Appearance.Pane.CaptionFont.Name = 'Segoe UI'
+    Appearance.Pane.GradientFromColor = 16115934
+    Appearance.Pane.GradientToColor = 15587527
+    Appearance.Pane.GradientType = bkConcave
+    Appearance.Element.CaptionFont.Color = clMenuText
+    Appearance.Element.CaptionFont.Height = -12
+    Appearance.Element.CaptionFont.Name = 'Segoe UI'
+    Appearance.Element.IdleFrameColor = 14727067
+    Appearance.Element.IdleGradientFromColor = 15653832
+    Appearance.Element.IdleGradientToColor = 15323324
+    Appearance.Element.IdleGradientType = bkConcave
+    Appearance.Element.IdleInnerLightColor = 15852501
+    Appearance.Element.IdleInnerDarkColor = 15520702
+    Appearance.Element.IdleCaptionColor = 11631958
+    Appearance.Element.HotTrackFrameColor = 10211293
+    Appearance.Element.HotTrackGradientFromColor = 14351615
+    Appearance.Element.HotTrackGradientToColor = 5101567
+    Appearance.Element.HotTrackGradientType = bkConcave
+    Appearance.Element.HotTrackInnerLightColor = 12972543
+    Appearance.Element.HotTrackInnerDarkColor = 8045272
+    Appearance.Element.HotTrackCaptionColor = 8864367
+    Appearance.Element.HotTrackBrightnessChange = 40
+    Appearance.Element.ActiveFrameColor = 5535371
+    Appearance.Element.ActiveGradientFromColor = 7126014
+    Appearance.Element.ActiveGradientToColor = 4035324
+    Appearance.Element.ActiveGradientType = bkConcave
+    Appearance.Element.ActiveInnerLightColor = 961020
+    Appearance.Element.ActiveInnerDarkColor = 961020
+    Appearance.Element.ActiveCaptionColor = 8405614
+    Appearance.Element.Style = esRounded
+    TabIndex = 0
+    Images = SmallImages
+    LargeImages = LargeImages
+    Tabs = (
+      'SpkTab1'
+    )
+    object SpkTab1: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.TabHeaderFont.Height = -12
+      CustomAppearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.CaptionFont.Height = -12
+      CustomAppearance.Pane.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.CaptionFont.Color = clMenuText
+      CustomAppearance.Element.CaptionFont.Height = -12
+      CustomAppearance.Element.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Office2007 Blue'
+      OverrideAppearance = False
+      Visible = True
+      Panes = (
+        'SpkPane1'
+        'SpkPane10'
+      )
+      object SpkPane1: TSpkPane
+        Caption = 'File commands'
+        Visible = True
+        Items = (
+          'SpkLargeButton1'
+          'SpkLargeButton14'
+          'SpkSmallButton29'
+          'SpkSmallButton30'
+          'SpkLargeButton15'
+        )
+        object SpkLargeButton1: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'New'
+          LargeImageIndex = 0
+          ButtonKind = bkDropdown
+        end
+        object SpkLargeButton14: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Open file...'
+          LargeImageIndex = 1
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton29: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 0
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton30: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save as...'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 1
+          ButtonKind = bkButton
+        end
+        object SpkLargeButton15: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Exit program'
+          LargeImageIndex = 3
+          ButtonKind = bkButton
+        end
+      end
+      object SpkPane10: TSpkPane
+        Caption = 'Edit commands'
+        Visible = True
+        Items = (
+          'SpkSmallButton31'
+          'SpkSmallButton32'
+          'SpkSmallButton33'
+          'SpkSmallButton34'
+          'SpkSmallButton35'
+        )
+        object SpkSmallButton31: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Cut'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 2
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton32: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Copy'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 3
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton33: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Paste'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 4
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton34: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Select all'
+          ShowCaption = True
+          TableBehaviour = tbBeginsColumn
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton35: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Unselect'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+      end
+    end
+  end
+  object SpkToolbar2: TSpkToolbar
+    Left = 0
+    Top = 137
+    Width = 506
+    Color = clMedGray
+    Style = spkOffice2007Silver
+    Appearance.Tab.TabHeaderFont.Color = 8016716
+    Appearance.Tab.TabHeaderFont.Height = -12
+    Appearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+    Appearance.Tab.BorderColor = 12500670
+    Appearance.Tab.GradientFromColor = 16052978
+    Appearance.Tab.GradientToColor = 15722209
+    Appearance.Tab.GradientType = bkConcave
+    Appearance.Tab.InactiveTabHeaderFontColor = 8016716
+    Appearance.Pane.BorderDarkColor = 10921638
+    Appearance.Pane.BorderLightColor = clWhite
+    Appearance.Pane.CaptionBgColor = 15000804
+    Appearance.Pane.CaptionFont.Color = 3552822
+    Appearance.Pane.CaptionFont.Height = -12
+    Appearance.Pane.CaptionFont.Name = 'Segoe UI'
+    Appearance.Pane.GradientFromColor = 16316664
+    Appearance.Pane.GradientToColor = 15329769
+    Appearance.Pane.GradientType = bkConcave
+    Appearance.Element.CaptionFont.Color = 9126421
+    Appearance.Element.CaptionFont.Height = -12
+    Appearance.Element.CaptionFont.Name = 'Segoe UI'
+    Appearance.Element.IdleFrameColor = 12104105
+    Appearance.Element.IdleGradientFromColor = 16053490
+    Appearance.Element.IdleGradientToColor = 15132131
+    Appearance.Element.IdleGradientType = bkConcave
+    Appearance.Element.IdleInnerLightColor = 16184048
+    Appearance.Element.IdleInnerDarkColor = 13091002
+    Appearance.Element.IdleCaptionColor = 6317407
+    Appearance.Element.HotTrackFrameColor = 10211293
+    Appearance.Element.HotTrackGradientFromColor = 14351615
+    Appearance.Element.HotTrackGradientToColor = 5101567
+    Appearance.Element.HotTrackGradientType = bkConcave
+    Appearance.Element.HotTrackInnerLightColor = 12972543
+    Appearance.Element.HotTrackInnerDarkColor = 8045272
+    Appearance.Element.HotTrackCaptionColor = 8864367
+    Appearance.Element.HotTrackBrightnessChange = 40
+    Appearance.Element.ActiveFrameColor = 5535371
+    Appearance.Element.ActiveGradientFromColor = 7126014
+    Appearance.Element.ActiveGradientToColor = 4035324
+    Appearance.Element.ActiveGradientType = bkConcave
+    Appearance.Element.ActiveInnerLightColor = 961020
+    Appearance.Element.ActiveInnerDarkColor = 961020
+    Appearance.Element.ActiveCaptionColor = 8405614
+    Appearance.Element.Style = esRounded
+    TabIndex = 0
+    Images = SmallImages
+    LargeImages = LargeImages
+    Tabs = (
+      'SpkTab2'
+    )
+    object SpkTab2: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.TabHeaderFont.Height = -12
+      CustomAppearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.CaptionFont.Height = -12
+      CustomAppearance.Pane.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.CaptionFont.Color = clMenuText
+      CustomAppearance.Element.CaptionFont.Height = -12
+      CustomAppearance.Element.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Office2007 Silver'
+      OverrideAppearance = False
+      Visible = True
+      Panes = (
+        'SpkPane2'
+        'SpkPane3'
+      )
+      object SpkPane2: TSpkPane
+        Caption = 'File commands'
+        Visible = True
+        Items = (
+          'SpkLargeButton2'
+          'SpkLargeButton12'
+          'SpkSmallButton22'
+          'SpkSmallButton23'
+          'SpkLargeButton13'
+        )
+        object SpkLargeButton2: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'New'
+          LargeImageIndex = 0
+          ButtonKind = bkDropdown
+        end
+        object SpkLargeButton12: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Open file...'
+          LargeImageIndex = 1
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton22: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 0
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton23: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save as...'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 1
+          ButtonKind = bkButton
+        end
+        object SpkLargeButton13: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Exit program'
+          LargeImageIndex = 3
+          ButtonKind = bkButton
+        end
+      end
+      object SpkPane3: TSpkPane
+        Caption = 'Edit commands'
+        Visible = True
+        Items = (
+          'SpkSmallButton24'
+          'SpkSmallButton25'
+          'SpkSmallButton26'
+          'SpkSmallButton27'
+          'SpkSmallButton28'
+        )
+        object SpkSmallButton24: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Cut'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 2
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton25: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Copy'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 3
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton26: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Paste'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 4
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton27: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Select all'
+          ShowCaption = True
+          TableBehaviour = tbBeginsColumn
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton28: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Unselect'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+      end
+    end
+  end
+  object SpkToolbar3: TSpkToolbar
+    Left = 0
+    Top = 274
+    Width = 506
+    Color = clMedGray
+    Style = spkOffice2007SilverTurquoise
+    Appearance.Tab.TabHeaderFont.Color = 8016716
+    Appearance.Tab.TabHeaderFont.Height = -12
+    Appearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+    Appearance.Tab.BorderColor = 12500670
+    Appearance.Tab.GradientFromColor = 16052978
+    Appearance.Tab.GradientToColor = 15722209
+    Appearance.Tab.GradientType = bkConcave
+    Appearance.Tab.InactiveTabHeaderFontColor = 8016716
+    Appearance.Pane.BorderDarkColor = 10921638
+    Appearance.Pane.BorderLightColor = clWhite
+    Appearance.Pane.CaptionBgColor = 15000804
+    Appearance.Pane.CaptionFont.Color = 3552822
+    Appearance.Pane.CaptionFont.Height = -12
+    Appearance.Pane.CaptionFont.Name = 'Segoe UI'
+    Appearance.Pane.GradientFromColor = 16316664
+    Appearance.Pane.GradientToColor = 15329769
+    Appearance.Pane.GradientType = bkConcave
+    Appearance.Element.CaptionFont.Color = 9126421
+    Appearance.Element.CaptionFont.Height = -12
+    Appearance.Element.CaptionFont.Name = 'Segoe UI'
+    Appearance.Element.IdleFrameColor = 12104105
+    Appearance.Element.IdleGradientFromColor = 16053490
+    Appearance.Element.IdleGradientToColor = 15132131
+    Appearance.Element.IdleGradientType = bkConcave
+    Appearance.Element.IdleInnerLightColor = 16184048
+    Appearance.Element.IdleInnerDarkColor = 13091002
+    Appearance.Element.IdleCaptionColor = 6317407
+    Appearance.Element.HotTrackFrameColor = 10386702
+    Appearance.Element.HotTrackGradientFromColor = 16511440
+    Appearance.Element.HotTrackGradientToColor = 16047498
+    Appearance.Element.HotTrackGradientType = bkConcave
+    Appearance.Element.HotTrackInnerLightColor = 16445385
+    Appearance.Element.HotTrackInnerDarkColor = 12687889
+    Appearance.Element.HotTrackCaptionColor = 8864367
+    Appearance.Element.HotTrackBrightnessChange = 40
+    Appearance.Element.ActiveFrameColor = 7823883
+    Appearance.Element.ActiveGradientFromColor = 16046978
+    Appearance.Element.ActiveGradientToColor = 15516990
+    Appearance.Element.ActiveGradientType = bkConcave
+    Appearance.Element.ActiveInnerLightColor = 15980666
+    Appearance.Element.ActiveInnerDarkColor = 7559947
+    Appearance.Element.ActiveCaptionColor = 8405614
+    Appearance.Element.Style = esRounded
+    TabIndex = 0
+    Images = SmallImages
+    LargeImages = LargeImages
+    Tabs = (
+      'SpkTab4'
+    )
+    object SpkTab4: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.TabHeaderFont.Height = -12
+      CustomAppearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.CaptionFont.Height = -12
+      CustomAppearance.Pane.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.CaptionFont.Color = clMenuText
+      CustomAppearance.Element.CaptionFont.Height = -12
+      CustomAppearance.Element.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Office2007 Silver/turquoise'
+      OverrideAppearance = False
+      Visible = True
+      Panes = (
+        'SpkPane4'
+        'SpkPane9'
+      )
+      object SpkPane4: TSpkPane
+        Caption = 'File commands'
+        Visible = True
+        Items = (
+          'SpkLargeButton3'
+          'SpkLargeButton10'
+          'SpkSmallButton15'
+          'SpkSmallButton16'
+          'SpkLargeButton11'
+        )
+        object SpkLargeButton3: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'New'
+          LargeImageIndex = 0
+          ButtonKind = bkDropdown
+        end
+        object SpkLargeButton10: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Open file...'
+          LargeImageIndex = 1
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton15: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 0
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton16: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save as...'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 1
+          ButtonKind = bkButton
+        end
+        object SpkLargeButton11: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Exit program'
+          LargeImageIndex = 3
+          ButtonKind = bkButton
+        end
+      end
+      object SpkPane9: TSpkPane
+        Caption = 'Edit commands'
+        Visible = True
+        Items = (
+          'SpkSmallButton17'
+          'SpkSmallButton18'
+          'SpkSmallButton19'
+          'SpkSmallButton20'
+          'SpkSmallButton21'
+        )
+        object SpkSmallButton17: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Cut'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 2
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton18: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Copy'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 3
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton19: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Paste'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 4
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton20: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Select all'
+          ShowCaption = True
+          TableBehaviour = tbBeginsColumn
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton21: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Unselect'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+      end
+    end
+  end
+  object SpkToolbar4: TSpkToolbar
+    Left = 0
+    Top = 411
+    Width = 506
+    Color = clMedGray
+    Style = spkMetroLight
+    Appearance.Tab.TabHeaderFont.Color = 9787178
+    Appearance.Tab.TabHeaderFont.Height = -12
+    Appearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+    Appearance.Tab.BorderColor = 13816015
+    Appearance.Tab.GradientFromColor = 15856113
+    Appearance.Tab.GradientToColor = 15856113
+    Appearance.Tab.GradientType = bkSolid
+    Appearance.Tab.InactiveTabHeaderFontColor = 6908265
+    Appearance.Pane.BorderDarkColor = 13816015
+    Appearance.Pane.BorderLightColor = 16315117
+    Appearance.Pane.CaptionBgColor = 15856113
+    Appearance.Pane.CaptionFont.Color = 6908265
+    Appearance.Pane.CaptionFont.Height = -12
+    Appearance.Pane.CaptionFont.Name = 'Segoe UI'
+    Appearance.Pane.GradientFromColor = 15856113
+    Appearance.Pane.GradientToColor = 15856113
+    Appearance.Pane.GradientType = bkSolid
+    Appearance.Pane.HotTrackBrightnessChange = 0
+    Appearance.Pane.Style = psDividerFlat
+    Appearance.Element.CaptionFont.Color = 4144959
+    Appearance.Element.CaptionFont.Height = -12
+    Appearance.Element.CaptionFont.Name = 'Segoe UI'
+    Appearance.Element.IdleFrameColor = 13487565
+    Appearance.Element.IdleGradientFromColor = 14671839
+    Appearance.Element.IdleGradientToColor = 14671839
+    Appearance.Element.IdleGradientType = bkSolid
+    Appearance.Element.IdleInnerLightColor = 15461355
+    Appearance.Element.IdleInnerDarkColor = 13487565
+    Appearance.Element.IdleCaptionColor = 6908265
+    Appearance.Element.HotTrackFrameColor = 16371364
+    Appearance.Element.HotTrackGradientFromColor = 16248808
+    Appearance.Element.HotTrackGradientToColor = 16248808
+    Appearance.Element.HotTrackGradientType = bkSolid
+    Appearance.Element.HotTrackInnerLightColor = 16248808
+    Appearance.Element.HotTrackInnerDarkColor = 16248808
+    Appearance.Element.HotTrackCaptionColor = 4144959
+    Appearance.Element.ActiveFrameColor = 14983778
+    Appearance.Element.ActiveGradientFromColor = 16244937
+    Appearance.Element.ActiveGradientToColor = 16244937
+    Appearance.Element.ActiveGradientType = bkSolid
+    Appearance.Element.ActiveInnerLightColor = 16244937
+    Appearance.Element.ActiveInnerDarkColor = 16244937
+    Appearance.Element.ActiveCaptionColor = 2894892
+    Appearance.Element.Style = esRectangle
+    TabIndex = 0
+    Images = SmallImages
+    LargeImages = LargeImages
+    Tabs = (
+      'SpkTab5'
+    )
+    object SpkTab5: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.TabHeaderFont.Height = -12
+      CustomAppearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.CaptionFont.Height = -12
+      CustomAppearance.Pane.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.CaptionFont.Color = clMenuText
+      CustomAppearance.Element.CaptionFont.Height = -12
+      CustomAppearance.Element.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Metro light'
+      OverrideAppearance = False
+      Visible = True
+      Panes = (
+        'SpkPane5'
+        'SpkPane8'
+      )
+      object SpkPane5: TSpkPane
+        Caption = 'File commands'
+        Visible = True
+        Items = (
+          'SpkLargeButton4'
+          'SpkLargeButton8'
+          'SpkSmallButton8'
+          'SpkSmallButton9'
+          'SpkLargeButton9'
+        )
+        object SpkLargeButton4: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'New'
+          LargeImageIndex = 0
+          ButtonKind = bkDropdown
+        end
+        object SpkLargeButton8: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Open file...'
+          LargeImageIndex = 1
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton8: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 0
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton9: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save as...'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 1
+          ButtonKind = bkButton
+        end
+        object SpkLargeButton9: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Exit program'
+          LargeImageIndex = 3
+          ButtonKind = bkButton
+        end
+      end
+      object SpkPane8: TSpkPane
+        Caption = 'Edit commands'
+        Visible = True
+        Items = (
+          'SpkSmallButton10'
+          'SpkSmallButton11'
+          'SpkSmallButton12'
+          'SpkSmallButton13'
+          'SpkSmallButton14'
+        )
+        object SpkSmallButton10: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Cut'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 2
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton11: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Copy'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 3
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton12: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Paste'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 4
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton13: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Select all'
+          ShowCaption = True
+          TableBehaviour = tbBeginsColumn
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton14: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Unselect'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+      end
+    end
+  end
+  object SpkToolbar5: TSpkToolbar
+    Left = 0
+    Top = 548
+    Width = 506
+    Color = clMedGray
+    Style = spkMetroDark
+    Appearance.Tab.TabHeaderFont.Color = clWhite
+    Appearance.Tab.TabHeaderFont.Height = -12
+    Appearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+    Appearance.Tab.BorderColor = clBlack
+    Appearance.Tab.GradientFromColor = 4605510
+    Appearance.Tab.GradientToColor = 4605510
+    Appearance.Tab.GradientType = bkSolid
+    Appearance.Tab.InactiveTabHeaderFontColor = 7895160
+    Appearance.Pane.BorderDarkColor = 9208962
+    Appearance.Pane.BorderLightColor = 10657179
+    Appearance.Pane.CaptionBgColor = 4605510
+    Appearance.Pane.CaptionFont.Color = clWhite
+    Appearance.Pane.CaptionFont.Height = -12
+    Appearance.Pane.CaptionFont.Name = 'Segoe UI'
+    Appearance.Pane.GradientFromColor = 4605510
+    Appearance.Pane.GradientToColor = 15856113
+    Appearance.Pane.GradientType = bkSolid
+    Appearance.Pane.HotTrackBrightnessChange = 0
+    Appearance.Pane.Style = psDividerFlat
+    Appearance.Element.CaptionFont.Color = 4144959
+    Appearance.Element.CaptionFont.Height = -12
+    Appearance.Element.CaptionFont.Name = 'Segoe UI'
+    Appearance.Element.IdleFrameColor = 9208962
+    Appearance.Element.IdleGradientFromColor = 4473924
+    Appearance.Element.IdleGradientToColor = 4473924
+    Appearance.Element.IdleGradientType = bkSolid
+    Appearance.Element.IdleInnerLightColor = 4473924
+    Appearance.Element.IdleInnerDarkColor = 9208962
+    Appearance.Element.IdleCaptionColor = 11974326
+    Appearance.Element.HotTrackFrameColor = 12876092
+    Appearance.Element.HotTrackGradientFromColor = 8411965
+    Appearance.Element.HotTrackGradientToColor = 8411965
+    Appearance.Element.HotTrackGradientType = bkSolid
+    Appearance.Element.HotTrackInnerLightColor = 8411965
+    Appearance.Element.HotTrackInnerDarkColor = 8411965
+    Appearance.Element.HotTrackCaptionColor = 15921906
+    Appearance.Element.HotTrackBrightnessChange = 10
+    Appearance.Element.ActiveFrameColor = clBlack
+    Appearance.Element.ActiveGradientFromColor = clBlack
+    Appearance.Element.ActiveGradientToColor = clBlack
+    Appearance.Element.ActiveGradientType = bkSolid
+    Appearance.Element.ActiveInnerLightColor = clBlack
+    Appearance.Element.ActiveInnerDarkColor = clBlack
+    Appearance.Element.ActiveCaptionColor = 15000804
+    Appearance.Element.Style = esRectangle
+    TabIndex = 0
+    Images = SmallImages
+    LargeImages = LargeImages
+    Tabs = (
+      'SpkTab6'
+    )
+    object SpkTab6: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.TabHeaderFont.Height = -12
+      CustomAppearance.Tab.TabHeaderFont.Name = 'Segoe UI'
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.CaptionFont.Height = -12
+      CustomAppearance.Pane.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.CaptionFont.Color = clMenuText
+      CustomAppearance.Element.CaptionFont.Height = -12
+      CustomAppearance.Element.CaptionFont.Name = 'Segoe UI'
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Metro dark'
+      OverrideAppearance = False
+      Visible = True
+      Panes = (
+        'SpkPane6'
+        'SpkPane7'
+      )
+      object SpkPane6: TSpkPane
+        Caption = 'File commands'
+        Visible = True
+        Items = (
+          'SpkLargeButton7'
+          'SpkLargeButton5'
+          'SpkSmallButton2'
+          'SpkSmallButton1'
+          'SpkLargeButton6'
+        )
+        object SpkLargeButton7: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'New'
+          LargeImageIndex = 0
+          ButtonKind = bkDropdown
+        end
+        object SpkLargeButton5: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Open file...'
+          LargeImageIndex = 1
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton2: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 0
+          ButtonKind = bkButtonDropdown
+        end
+        object SpkSmallButton1: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Save as...'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 1
+          ButtonKind = bkButton
+        end
+        object SpkLargeButton6: TSpkLargeButton
+          Visible = True
+          Enabled = True
+          Caption = 'Exit program'
+          LargeImageIndex = 3
+          ButtonKind = bkButton
+        end
+      end
+      object SpkPane7: TSpkPane
+        Caption = 'Edit commands'
+        Visible = True
+        Items = (
+          'SpkSmallButton3'
+          'SpkSmallButton4'
+          'SpkSmallButton5'
+          'SpkSmallButton6'
+          'SpkSmallButton7'
+        )
+        object SpkSmallButton3: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Cut'
+          ShowCaption = True
+          TableBehaviour = tbContinuesRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 2
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton4: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Copy'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 3
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton5: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Paste'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = True
+          ImageIndex = 4
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton6: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Select all'
+          ShowCaption = True
+          TableBehaviour = tbBeginsColumn
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+        object SpkSmallButton7: TSpkSmallButton
+          Visible = True
+          Enabled = True
+          Caption = 'Unselect'
+          ShowCaption = True
+          TableBehaviour = tbBeginsRow
+          GroupBehaviour = gbSingleItem
+          HideFrameWhenIdle = False
+          ButtonKind = bkButton
+        end
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 25
+    Top = 112
+    Width = 506
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 5
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 25
+    Top = 523
+    Width = 506
+    Align = alTop
+    BevelOuter = bvNone
+    Color = clMedGray
+    ParentColor = False
+    TabOrder = 6
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 25
+    Top = 386
+    Width = 506
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 7
+  end
+  object Panel4: TPanel
+    Left = 0
+    Height = 25
+    Top = 249
+    Width = 506
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 8
+  end
+  object LargeImages: TImageList
+    Height = 32
+    Width = 32
+    left = 368
+    top = 112
+    Bitmap = {
+      4C69040000002000000020000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000004B581
+      18B4B67E0EFFB57B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B
+      09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB57D
+      0CFFB37D12B00000000400000000000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000DB67E
+      0EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFEBDBBCFFAE770BAE00000003000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000015B57B
+      09FFFFFFFFFFE7D7B1FFE7D7B2FFE8D8B3FFE8D8B3FFE8D8B3FFE8D8B3FFE8D8
+      B3FFE8D8B3FFE8D8B3FFE8D8B3FFE8D8B3FFE7D7B2FFE7D7B0FFFFFFFFFFAC6D
+      00FFFFFFFFFFEAD8B6FFAE7609AE000000030000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFE7D9B4FFE8D9B7FFE9DAB7FFE9DAB7FFE9DAB7FFE9DAB7FFE9DA
+      B7FFE9DAB7FFE9DAB7FFE9DAB7FFE9DAB7FFE8D9B7FFE7D9B4FFFFFFFFFFAE6F
+      00FFF3ECDAFFFFFFFFFFE9D7B4FFAE7609AE0000000300000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFE9DBB9FFEADDBBFFEADDBCFFEADDBCFFEADDBCFFEADDBCFFEADD
+      BCFFEADDBCFFEADDBCFFEADDBCFFEADDBCFFEADDBBFFE9DBB9FFFFFFFFFFAE70
+      00FFF9F4EAFFF0E6CEFFFFFFFFFFE9D7B4FFAE7609AE00000003000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFEADCBCFFEBDEBEFFEBDEBFFFEBDEBFFFEBDEBFFFEBDEBFFFEBDE
+      BFFFEBDEBFFFEBDEBFFFEBDEBFFFEBDEBFFFEBDEBEFFEADCBCFFFFFFFFFFAE70
+      00FFFDFDFBFFF6EFDFFFF0E6CDFFFFFFFFFFEAD8B7FFAE770BAE000000030000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFEBDFBFFFECE0C1FFECE0C2FFECE0C2FFECE0C2FFECE0C2FFECE0
+      C2FFECE0C2FFECE0C2FFECE0C2FFECE0C2FFECE0C1FFEBDEBFFFFFFFFFFFAD6F
+      00FFFFFFFFFFFDFDFBFFF9F4EAFFF4ECDAFFFFFFFFFFEBDBBCFFB07B11B30000
+      000400000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFECE0C3FFEDE1C4FFEDE1C5FFEDE1C5FFEDE1C5FFEDE1C5FFEDE1
+      C5FFEDE1C5FFEDE1C5FFEDE1C5FFEDE1C5FFEDE1C4FFECDFC2FFFFFFFFFFCFAA
+      60FFAE6F00FFAE7000FFAE7000FFAE6F00FFAC6D00FFFFFFFFFFB57D0CFF0000
+      000D00000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFEDE2C6FFEEE3C7FFEEE3C8FFEEE3C8FFEEE3C8FFEEE3C8FFEEE3
+      C8FFEEE3C8FFEEE3C8FFEEE3C8FFEEE3C8FFEEE3C8FFEDE2C6FFF5EFE1FFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB47B09FF0000
+      001500000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFEEE3C9FFEFE4CAFFEFE4CBFFEFE4CBFFEFE4CBFFEFE4CBFFEFE4
+      CBFFEFE4CBFFEFE4CBFFEFE4CBFFEFE4CBFFEFE4CBFFEFE4CAFFEEE3C9FFEEE2
+      C8FFEEE3C8FFEEE3C9FFEEE3C9FFEEE2C8FFEEE2C8FFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFF0E5CCFFF0E6CDFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6
+      CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6CEFFF0E6
+      CDFFF0E6CDFFF0E6CDFFF0E6CDFFEFE5CCFFEFE5CCFFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFF1E8D0FFF1E8D0FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8
+      D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8
+      D1FFF1E8D1FFF1E8D1FFF1E8D1FFF1E8D0FFF1E8D0FFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFF2E9D3FFF2E9D3FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9
+      D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9
+      D4FFF2E9D4FFF2E9D4FFF2E9D4FFF2E9D3FFF2E9D3FFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFF3EBD7FFF3EBD6FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EB
+      D7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EB
+      D7FFF3EBD7FFF3EBD7FFF3EBD7FFF3EBD6FFF3EBD7FFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFF4ECDAFFF4ECD9FFF4ECDAFFF4ECDAFFF4ECDAFFF4ECDAFFF4EC
+      DAFFF4ECDAFFF4ECDAFFF4ECDAFFF4ECDAFFF4ECDAFFF4ECDAFFF4ECDAFFF4EC
+      DAFFF4ECDAFFF4ECDAFFF4ECDAFFF4ECD9FFF4ECDAFFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EE
+      DDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EE
+      DDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFF4EEDDFFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EF
+      E0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EF
+      E0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFF5EFE0FFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFF6F1E4FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1
+      E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1
+      E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E3FFF6F1E4FFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFF7F2E7FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2
+      E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2
+      E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E6FFF7F2E7FFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFF9F5EBFFF8F4EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5
+      EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F5
+      EAFFF8F5EAFFF8F5EAFFF8F5EAFFF8F4EAFFF9F5EBFFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47A
+      08FFFFFFFFFFFBF8F1FFFBF8F0FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8
+      F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8
+      F1FFFBF8F1FFFBF8F1FFFBF8F1FFFBF8F0FFFBF8F1FFFFFFFFFFB47A08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      08FFFFFFFFFFE5D5ADFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6
+      AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6
+      AFFFE6D6AFFFE6D6AFFFE6D6AFFFE6D6AFFFE5D5ADFFFFFFFFFFB47B08FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFE6D7B0FFE7D8B3FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9
+      B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9B4FFE8D9
+      B4FFE8D9B4FFE8D9B4FFE8D9B4FFE7D8B3FFE6D7B0FFFFFFFFFFB47B09FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFE7D7B1FFE8D8B4FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9
+      B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D9
+      B5FFE8D9B5FFE8D9B5FFE8D9B5FFE8D8B4FFE7D7B1FFFFFFFFFFB47B09FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B47B
+      09FFFFFFFFFFE6D7B0FFE7D7B3FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8
+      B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8B4FFE8D8
+      B4FFE8D8B4FFE8D8B4FFE8D8B4FFE7D7B3FFE6D7B0FFFFFFFFFFB47B09FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B57B
+      09FFFFFFFFFFE6D6AFFFE6D6B0FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7
+      B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7B1FFE7D7
+      B1FFE7D7B1FFE7D7B1FFE7D7B1FFE6D6B0FFE6D6AFFFFFFFFFFFB57B09FF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B67E
+      0EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB67E0EFF0000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000016B682
+      19F3B67E0EFFB57C09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B
+      09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B09FFB47B
+      09FFB47B09FFB47B09FFB47B09FFB47B09FFB57C09FFB67E0EFFB68219F30000
+      001600000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00000000100000
+      0031000000420000004300000043000000430000004300000043000000430000
+      0043000000430000004300000043000000430000004300000043000000430000
+      0043000000430000004300000043000000430000004300000042000000310000
+      001000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00000000050000
+      0010000000160000001600000016000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000016000000100000
+      000500000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00000000044194CDB43D94D0FF3B92CFFF3A92
+      CFFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3B92CFFF3D94D0FF4194CDB30000
+      0004000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000D3D94D0FFDBFCFFFFD7F8FFFFD8F7
+      FFFFD8F7FFFFD8F7FFFFD8F7FFFFD8F7FFFFD8F8FFFFDBFCFFFF3C93D0FF0000
+      000D000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000153B92CFFFD7F8FFFF5DCFF9FF60CF
+      F8FF61CFF8FF61CFF8FF61CFF8FF61CFF8FF5ECFF8FFBCEEFFFF348CCCFF3991
+      CEFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3A92
+      CFFF3A92CFFF3A92CFFF3A92CFFF3A92CFFF3D94D0FF4194CDB4000000040000
+      0000000000000000000000000000000000163B92CFFFD3F6FFFF63D1F8FF68D2
+      F8FF69D3F8FF69D3F8FF69D3F8FF69D2F8FF66D1F8FFA8E7FDFFDAF7FFFFDAF8
+      FFFFDAF8FFFFDAF8FFFFDAF8FFFFDAF8FFFFDAF8FFFFDAF8FFFFDAF8FFFFDAF8
+      FFFFDAF8FFFFDAF8FFFFDAF8FFFFD9F9FFFFDEFDFFFF3D94D0FF0000000D0000
+      0000000000000000000000000000000000163B92CFFFCFF5FFFF67D3F8FF6CD4
+      F8FF6DD4F8FF6DD4F8FF6DD4F8FF6DD4F8FF6BD4F8FF68D3F8FF66D2F8FF66D2
+      F8FF66D2F8FF66D2F8FF66D2F8FF66D3F8FF66D3F8FF66D3F8FF66D3F8FF66D3
+      F8FF66D3F8FF66D3F8FF65D2F8FF62D2F9FFD5F8FFFF3B92CFFF000000150000
+      0000000000000000000000000000000000163B92CFFFC9F5FFFF69D4F9FF6ED5
+      F9FF6FD5F9FF6FD5F9FF6FD5F9FF6FD5F9FF6FD5F9FF6ED5F9FF6ED5F9FF6DD5
+      F9FF6DD5F9FF6ED5F9FF6ED5F9FF6FD7FAFF6FD7FBFF6FD7FBFF6FD7FBFF6FD7
+      FBFF6FD7FBFF6FD7FBFF6ED7FBFF6AD6FBFFC9F7FFFF3D93CFFF000000160000
+      0000000000000000000000000000000000163C92CFFFC4F3FFFF6CD6F9FF70D7
+      F9FF71D7F9FF71D7F9FF71D7F9FF71D7F9FF71D7F9FF71D7F9FF71D7F9FF71D7
+      F9FF71D7F9FF72D9FAFF74DBFBFF66C8F1FF66C9F2FF66C9F2FF66C9F2FF66C9
+      F2FF66C9F2FF66C9F2FF66C9F2FF63C9F2FF9EDBF5FF3E94D0FF295C80384090
+      C6344294CC3B0000000100000000000000163C92CFFFC0F3FFFF6ED8FAFF72D8
+      FAFF73D8FAFF73D8FAFF73D8FAFF73D8FAFF73D8FAFF73D8FAFF73D8FAFF73D8
+      FAFF74DAFBFF76DDFDFF51ABDDFF388DCBFF378DCBFF378DCBFF378DCBFF378D
+      CBFF378DCBFF378DCBFF378DCBFF368DCCFF368DCDFF3890CEFF3A92CEFF3B92
+      CFFF3D94D0FF4194CCB400000004000000163C92CFFFBDF2FFFF71DAFAFF74DA
+      FAFF75DBFAFF76DBFBFF76DBFBFF76DBFBFF76DBFBFF76DBFBFF76DCFBFF77DC
+      FCFF79DFFDFF52ACDEFF4AA6DDFFDAF9FFFFD6F7FFFFD5F7FFFFD5F7FFFFD5F7
+      FFFFD5F7FFFFD5F7FFFFD5F7FFFFD5F7FFFFD5F7FFFFD5F7FFFFD5F7FFFFD4F7
+      FFFFD9FCFFFF3D94D0FF0000000D000000163D92CFFFB8F1FFFF74DBFAFF77DC
+      FBFF7ADFFCFF7AE0FDFF7AE1FDFF7BE1FDFF7BE1FDFF7BE1FDFF7BE1FDFF7CE2
+      FEFF54ACDEFF4FA8DDFF6AD5FBFF65D2F9FF63D0F8FF62D0F8FF62D0F8FF62D0
+      F8FF62D0F8FF62D0F8FF62D0F8FF62D0F8FF62D0F8FF62D0F8FF60D0F8FF7FDB
+      FBFFC8EDFBFF3787C0CA00000013000000163D92CFFFB5F1FFFF77DDFCFF7CE0
+      FEFF52ACDEFF378BCAFF368BCBFF368BCBFF368BCBFF368BCBFF368BCBFF388B
+      CBFF4FA9DDFF70D8FCFF6FD6FAFF6DD4F9FF6DD4F9FF6CD4F9FF6CD4F9FF6CD4
+      F9FF6CD4F9FF6CD4F9FF6CD4F9FF6CD4F9FF6CD4F9FF6CD3F9FF68D2F9FFA1E7
+      FDFF93CAE9FF2C6B957C00000010000000163D92CFFFB1F1FFFF7AE1FDFF68C7
+      EFFF47A4DAFFC6F4FFFFC3F2FFFFC4F2FFFFC4F2FFFFC4F2FFFFC5F2FFFFC7F2
+      FFFF70D8FBFF71D7FAFF71D6F9FF71D6F9FF71D6F9FF71D6F9FF71D6F9FF71D6
+      F9FF71D6F9FF71D6F9FF71D6F9FF71D6F9FF71D6F9FF6FD6F9FF6CD5F9FFBDF1
+      FFFF66ADDBFF0000002600000008000000163D92CEFFAEF0FFFF7EE4FFFF53AD
+      DEFF73C4EBFFBCEFFEFF6CD8FAFF6ED8FAFF6FD8FAFF6FD8FAFF6FD9FAFF70D9
+      FAFF73D9FAFF74D9FAFF74D9FAFF74D9FAFF74D9FAFF74D9FAFF74D9FAFF74D9
+      FAFF74D9FAFF74D9FAFF74D9FAFF74D9FAFF74D9FAFF72D9FAFF87E0FBFFBAEB
+      FCFF4191C9EA0000001900000002000000163D92CEFFAAF2FFFF82E6FFFF3C8F
+      CEFF97DFF8FFA1E7FEFF72DAFAFF75DBFAFF76DBFAFF76DBFAFF76DBFAFF76DB
+      FAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF77DB
+      FAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF77DBFAFF74DBFAFF9DE8FDFF89C8
+      E9FF30729F8D0000001200000000000000163E92CFFFA9F3FFFF76D7F6FF429B
+      D5FFB1EEFFFF8BE2FBFF78DDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADD
+      FBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADD
+      FBFF7ADDFBFF7ADDFBFF7ADDFBFF7ADDFBFF79DDFBFF77DDFBFFB2EFFFFF61AC
+      DCFF0D1E2A320000000A00000000000000163E92CFFFA6F5FFFF5AB5E2FF69BB
+      E6FFAFEFFFFF7DE0FCFF7CDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDF
+      FCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDF
+      FCFF7DDFFCFF7DDFFCFF7DDFFCFF7DDFFCFF7BDFFCFF8AE4FDFFADEBFDFF4092
+      CEF80000001C0000000300000000000000163F93CFFFA6F6FFFF469DD5FF8EDC
+      F7FF9CE9FFFF7FE1FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1
+      FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF81E1
+      FCFF81E1FCFF81E1FCFF81E1FCFF81E1FCFF7FE1FCFF9BEBFFFF84CCEDFF357D
+      B0AC000000140000000000000000000000164094D0FF96ECFEFF4096D1FFA6F0
+      FFFF8FE6FEFF83E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3
+      FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF84E3
+      FDFF84E3FDFF84E3FDFF84E3FDFF84E3FDFF82E3FDFFA7F0FFFF5FAEDDFF2555
+      75590000000D0000000000000000000000164195D0FF7CD3F2FF5FB2E0FFA5EF
+      FFFF86E6FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5
+      FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5FDFF87E5
+      FDFF87E5FDFF87E5FDFF87E5FDFF86E5FDFF8FE9FEFFA4EEFFFF3F93D0FF0000
+      0021000000050000000000000000000000164397D1FF5DB3DFFF82D3F2FF9AEF
+      FFFF8AEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEA
+      FFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEA
+      FFFF8BEAFFFF8BEAFFFF8BEAFFFF8BEAFFFF9AEFFFFF80D1F0FF3883B8BC0000
+      0016000000010000000000000000000000164498D2FF3F93CFFFA8FBFFFF9AF4
+      FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3
+      FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFF95F3
+      FFFF95F3FFFF95F3FFFF95F3FFFF95F3FFFFA6F8FFFF61B3E1FF2C638A6D0000
+      000E000000000000000000000000000000164598D0F34498D2FF4094D0FF3E92
+      CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92
+      CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3E92
+      CEFF3E92CEFF3E92CEFF3E92CEFF3E92CEFF3F93CFFF4193CDF1000000230000
+      0007000000000000000000000000000000100000003100000042000000430000
+      0043000000430000004300000043000000430000004300000043000000430000
+      0043000000430000004300000043000000430000004300000043000000430000
+      0043000000430000004300000043000000430000004200000032000000130000
+      0002000000000000000000000000000000050000001000000016000000160000
+      0016000000160000001600000016000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000010000000050000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000005B68117EAB680
+      13FFB57F12FFB57E10FFB57D0CFFB57C0AFFB57C09FFB57C09FFB57C09FFB57C
+      09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C
+      09FFB57C09FFB57C09FFB57C0AFFB57D0CFFB57E10FFB57F12FFB68013FFB37F
+      16B0000000040000000000000000FFFFFF0000000005B68117EBF1C680FFFDEC
+      CFFFFDEBCEFFFCE8C6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCE8C6FFFDEBCEFFFDECCFFFF1C6
+      80FFB07D16B30000000400000000FFFFFF0000000010B68013FFFDEED8FFD989
+      04FFDB8C09FFD88600FFEDECECFFEBE6DEFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5
+      DCFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5DCFFEBE5
+      DCFFEBE5DCFFEBE5DCFFEBE6DEFFEDECECFFD88600FFDB8C09FFD98904FFFDEE
+      D8FFB68013FF0000000D00000000FFFFFF0000000016B57F12FFFCECD1FFDE90
+      10FF7B5008FFDE8E09FFEEF0F0FFEDE9E0FFEDE8DEFFEEE9DEFFEDE8DEFFEDE8
+      DEFFEDE8DDFFECE8DDFFEDE8DEFFEDE8DEFFEDE8DEFFEDE8DDFFECE8DDFFEDE8
+      DEFFEDE8DEFFEDE8DDFFECE9E0FFEEF0F0FFDE8E09FF7B5008FFDE9010FFFCEC
+      D1FFB57F12FF0000001500000000FFFFFF0000000016B67F12FFFBE9CCFFE094
+      17FF7E540EFFE0910FFFF1F2F3FFF1ECE4FFF6EFE5FFF7F1E6FFF6F0E4FFF5EE
+      E3FFF4EDE2FFF3EDE2FFF5EFE4FFF6EFE4FFF5EEE3FFF4EDE2FFF3EDE2FFF5EF
+      E4FFF5EFE4FFF3EDE2FFF0EBE3FFF1F1F2FFE0910FFF7E540EFFE09417FFFBE9
+      CCFFB67F12FF0000001600000000FFFFFF0000000016B68012FFF9E5C5FFDF95
+      1BFFA97218FFDF9213FFF2F3F3FFF5F0E7FF535457FF565759FF949597FF9293
+      95FF8F9193FFF8F1E7FF515355FF939496FF929395FF8F9193FFF8F1E7FF5153
+      55FF929496FF8F9092FFF3EEE5FFF2F2F3FFDF9213FFA97218FFDF951BFFF9E5
+      C5FFB68012FF0000001600000000FFFFFF0000000016B68013FFF9E2C0FFDD96
+      1FFFDF9925FFDC9217FFF4F4F5FFF5F0E7FFFAF4E9FFFCF6EAFFFAF4E9FFF9F3
+      E7FFF8F1E7FFF7F1E6FFF9F3E8FFFAF3E8FFF9F2E7FFF8F1E7FFF7F1E7FFFAF3
+      E9FFF9F3E8FFF7F1E6FFF4EEE6FFF4F4F5FFDC9217FFDF9925FFDD961FFFF9E2
+      C0FFB68013FF0000001600000000FFFFFF0000000016B68013FFF8E0BBFFDD97
+      24FFDE9A29FFDC941BFFF6F5F5FFF7F1E8FFFCF5EAFFFFF7ECFFFDF5EAFFFCF4
+      E9FFFBF4E8FFFBF4E8FFFBF4E8FFFAF2E8FFF9F2E7FFFCF5EAFFFEF6EBFFFDF5
+      EAFFFCF4E9FFF9F2E7FFF6EFE7FFF6F5F5FFDC941BFFDE9A29FFDD9724FFF8E0
+      BBFFB68013FF0000001600000000FFFFFF0000000016B68014FFF8DDB4FFDE9A
+      29FFDE9C2DFFDD961FFFF7F7F8FFFAF5ECFF515356FF555658FF939496FF9192
+      95FF919294FF919294FF909294FF8E8F92FFFEF7ECFF525356FF555658FF9394
+      96FF909294FF8D8F91FFF8F3EAFFF7F7F7FFDD961FFFDE9C2DFFDE9A29FFF8DD
+      B4FFB68014FF0000001600000000FFFFFF0000000016B68014FFF6DCB1FFDF9C
+      2DFFDF9E30FFDE9822FFF9F8F8FFFAF4EBFFFFF8EDFFFFFAEEFFFFF8EDFFFEF7
+      ECFFFFF7ECFFFFF7ECFFFEF7ECFFFDF5EBFFFCF5EAFFFFF8EDFFFFFAEEFFFFF8
+      EDFFFEF7ECFFFCF5EAFFF9F2EAFFF9F8F8FFDE9822FFDF9E30FFDF9C2DFFF6DC
+      B1FFB68014FF0000001600000000FFFFFF0000000016B68014FFF6D9ABFFDF9F
+      31FFDFA035FFDD9A27FFFBFAFAFFFCF6EDFFFFFAEFFFFFFAEFFFFFF8EDFFFFF7
+      EDFFFFFAF0FFFFFCF1FFFFFAEFFFFFF8EDFFFEF7ECFFFFFAEFFFFFFAF0FFFFFA
+      EFFFFFF9EEFFFFF7ECFFFBF5ECFFFBFAFAFFDD9A27FFDFA035FFDF9F31FFF6D9
+      ABFFB68014FF0000001600000000FFFFFF0000000016B68114FFF5D6A6FFE1A1
+      36FFE0A239FFDE9C2BFFFCFBFBFFFFF9F0FF4E5053FF909294FF8D8F91FFFFFB
+      F1FF515255FF535557FF919395FF8D8F91FFFFFBF0FF4F5153FF919295FF9092
+      94FF8F9193FF8C8D90FFFDF7EEFFFCFBFBFFDE9C2BFFE0A239FFE1A136FFF5D6
+      A6FFB68114FF0000001600000000FFFFFF0000000016B68115FFF5D5A2FFE2A3
+      3BFFE1A43DFFDF9E30FFFEFCFCFFFEF7EFFFFFFAEFFFFFFAEFFFFFF9EEFFFFF8
+      EEFFFFFBF1FFFFFCF2FFFFFBF0FFFFF9EEFFFFF8EDFFFFFAEFFFFFFBF0FFFFFA
+      EFFFFFFAEFFFFFF8EEFFFEF6EEFFFEFBFBFFDF9E30FFE1A43DFFE2A33BFFF5D5
+      A2FFB68115FF0000001600000000FFFFFF0000000016B68115FFF3D49FFFE3A6
+      3FFFE3A642FFE1A135FFFFFFFFFFFFF9F2FFFFF8EFFFFFF8EFFFFFF7EFFFFFF7
+      EEFFFFF8EFFFFFF8EFFFFFF8EFFFFFF7EFFFFFF7EEFFFFF8EFFFFFF8EFFFFFF8
+      EFFFFFF8EFFFFFF7EFFFFFF8F2FFFFFFFFFFE1A135FFE3A642FFE3A63FFFF3D4
+      9FFFB68115FF0000001600000000FFFFFF0000000016B68115FFF3D19BFFE3A7
+      44FFE3A847FFE1A43FFFF6DEBAFFFFFFFFFFFFFEFDFFFFFEFDFFFFFEFDFFFFFE
+      FDFFFFFEFDFFFFFEFDFFFFFEFDFFFFFEFDFFFFFEFDFFFFFEFDFFFFFEFDFFFFFE
+      FDFFFFFEFDFFFFFEFDFFFFFFFFFFF6DEBAFFE1A43FFFE3A847FFE3A744FFF3D1
+      9BFFB68115FF0000001600000000FFFFFF0000000016B68115FFF3D198FFE4A9
+      48FFE4AA4BFFE3A94AFFE2A643FFE1A43EFFE1A33CFFE1A33CFFE1A33CFFE1A3
+      3CFFE1A33CFFE1A33CFFE1A33CFFE1A33CFFE1A33CFFE1A33CFFE1A33CFFE1A3
+      3CFFE1A33CFFE1A33CFFE1A43EFFE2A643FFE3A94AFFE4AA4BFFE4A948FFF3D1
+      98FFB68115FF0000001600000000FFFFFF0000000016B68115FFF3CF95FFE5AB
+      4DFFE5AD50FFE5AD51FFE5AC4FFFE5AB4EFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB
+      4CFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB4CFFE4AB
+      4CFFE4AB4CFFE4AB4CFFE5AB4EFFE5AC4FFFE5AD51FFE5AD50FFE5AB4DFFF3CF
+      95FFB68115FF0000001600000000FFFFFF0000000016B68115FFF3CE92FFE6AE
+      52FFE6AF54FFE6AF55FFE6AE52FFE5AC4DFFE5AA48FFE4A946FFE4A946FFE4A9
+      46FFE4A946FFE4A946FFE4A946FFE4A946FFE4A946FFE4A946FFE4A946FFE4A9
+      46FFE4A946FFE5AA48FFE5AC4DFFE6AE52FFE6AF55FFE6AF54FFE6AE52FFF3CE
+      92FFB68115FF0000001600000000FFFFFF0000000016B68116FFF3CC8FFFE7B0
+      56FFE7B158FFE7B158FFE7AE51FFE7CCA6FFFAFCFFFFFAFAFFFFFBFBFFFFFCFC
+      FFFFFCFCFFFFFBFBFFFFFAFAFFFFFAFAFFFFFAFAFFFFFAFAFFFFFAFAFFFFFAFA
+      FFFFFAFAFFFFFAFCFFFFE7CCA6FFE7AE51FFE7B158FFE7B158FFE7B056FFF3CC
+      8FFFB68116FF0000001600000000FFFFFF0000000016B68116FFF3CB8EFFE7B2
+      5BFFE7B35DFFE7B25BFFE6AE50FFFBFCFFFFE9DCD1FFEDDED1FFF3E3D6FFF7E8
+      DAFFF7E8DAFFF2E3D6FFEDDED1FFEADCCFFFE9DCCFFFE9DCCFFFE9DCCFFFE9DC
+      CFFFE9DBCFFFE9DCD1FFFBFDFFFFE6AE50FFE7B25BFFE7B35DFFE7B25BFFF3CB
+      8EFFB68116FF0000001600000000FFFFFF0000000016B68116FFF2CB8BFFE8B5
+      5EFFE8B55FFFE8B45EFFE6AF52FFFCFCFFFFEEDED3FFFCF1E9FF87807BFF4244
+      46FF414346FF837E7AFFFCF1E9FFEFDFD3FFEEDED2FFEEDFD3FFEEDFD3FFEEDF
+      D3FFEEDED2FFEDDED2FFFCFCFFFFE6AF52FFE8B45EFFE8B55FFFE8B55EFFF2CB
+      8BFFB68116FF0000001600000000FFFFFF0000000016B68116FFF1CB8AFFE9B7
+      63FFE9B764FFE9B662FFE7B156FFFCFCFFFFF1E2D6FFFFFFF8FF484748FF8278
+      71FF817871FF786E67FFFFFDF7FFF1E2D6FFF0E2D6FFF0E2D6FFF0E2D6FFF0E2
+      D6FFF0E2D6FFEFE1D6FFFCFCFFFFE7B156FFE9B662FFE9B764FFE9B763FFF1CB
+      8AFFB68116FF0000001600000000FFFFFF0000000016B68116FFF3C988FFEBB9
+      67FFEAB968FFEAB866FFE8B35AFFFCFDFFFFF3E4D8FFFFFFFBFF4D4C4DFF877D
+      75FF857C74FF7D726BFFFFFEF9FFF3E4D8FFF2E4D8FFF2E4D8FFF2E4D8FFF2E4
+      D8FFF2E4D8FFF1E3D8FFFDFDFFFFE8B35AFFEAB866FFEAB968FFEBB967FFF3C9
+      88FFB68116FF0000001600000000FFFFFF0000000016B68116FFF1C986FFEABB
+      6CFFEABB6CFFEABA6AFFE8B55EFFFDFEFFFFF7E8DBFFFFFFFCFF515050FF8980
+      78FF897E77FF80756EFFFFFFFAFFF7E8DBFFF5E7DBFFF5E7DBFFF5E7DBFFF5E7
+      DBFFF5E7DBFFF5E7DBFFFDFEFFFFE8B55EFFEABA6AFFEABB6CFFEABB6CFFF1C9
+      86FFB68116FF0000001600000000FFFFFF0000000016B68116FFF1C985FFECBD
+      70FFEBBD70FFEBBC6EFFE9B763FFFEFFFFFFF9EADEFFFFFFFEFF545353FF8C83
+      7BFF8B817AFF827972FFFFFFFCFFF9EADEFFF7E9DEFFF7E9DEFFF7E9DEFFF7E9
+      DEFFF7E9DEFFF7E8DEFFFEFFFFFFE9B763FFEBBC6EFFEBBD70FFECBD70FFF1C9
+      85FFB68116FF0000001600000000FFFFFF0000000016B68116FFF3C985FFEEC1
+      76FFEDC076FFECBF73FFEBBA68FFFFFFFFFFFBEEE3FFFFFFFEFF575655FF8D84
+      7CFF8C837CFF847B74FFFFFFFDFFFBEEE2FFFAEDE1FFFAEDE1FFFAEDE1FFFAED
+      E1FFFAECE1FFF9ECE2FFFFFFFFFFEBBA68FFECBF73FFEDC076FFEEC176FFF3C9
+      85FFB68116FF0000001600000000FFFFFF0000000016B37F17EFF6CD89FFF3C8
+      83FFF2C782FFF2C680FFF0C173FFFFFFFFFFFFF3E9FFFFFFFFFF535352FF877E
+      78FF877F79FF827A76FFFFFFFFFFFFF2E8FFFFF1E7FFFFF1E7FFFFF1E7FFFFF1
+      E7FFFFF1E7FFFFF1E9FFFFFFFFFFF0C173FFF2C680FFF2C782FFF3C883FFF6CD
+      89FFA37415C10000001500000000FFFFFF000000001000000035B27E17F0B681
+      16FFB68116FFB58013FFB37A06FFD9D2D2FFD7CDC5FFD8CDC3FF666460697675
+      706A71716D6A9E865B96D9CFC8FFD7CCC4FFD7CCC3FFD7CCC3FFD7CCC3FFD7CC
+      C3FFD7CCC3FFD7CCC5FFD9D2D2FFB37A06FFB58013FFB68116FFB68116FFA072
+      15C50000002E0000000D00000000FFFFFF00000000050000001A000000350000
+      004200000043000000430000004300000043000000430000003A000000270000
+      001E000000210000002D0000003C000000430000004300000043000000430000
+      00430000004300000043000000430000004300000043000000430000003F0000
+      002E000000150000000400000000FFFFFF000000000000000005000000100000
+      0016000000160000001600000016000000160000001600000011000000080000
+      0004000000050000000B00000013000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000016000000150000
+      000D000000040000000000000000FFFFFF000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000000000000000000000000000001B4C9
+      DD4BCEE3F6FC3E759FFF00000006000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000000001A3B9CB22BFD6EBD1BDD6
+      EDFFD3E7F7FF4076A2FF00000011000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000000000000000000003B9D1E6ABC2DBEEFF9AC2E2FF5A9A
+      D0FFCFE3F5FF4177A3FF00000016000000000000000000000000000000000000
+      0000000000000000000000000004487CA5B44A82AEFF4B83B0FF4B83B1FF4B83
+      B1FF4B83B1FF4B83B1FF4B83B1FF4B83B1FF4B83B1FF4B83B1FF4B83B1FF4B83
+      B1FF4A82AFFF447CA9FF80A9CBFFB9D3EAFFA7C9E5FF6CA4D3FF5B9ACFFF5999
+      CFFFCDE2F3FF437AA6FF00000016000000000000000000000000000000000000
+      000000000000000000000000000D4980ACFF413730FF423B36FF423C37FF423C
+      37FF423C37FF423C37FF423C37FF423C37FF423C37FF423C37FF423C37FF423C
+      37FF413A35FF3B322AFFBCDCF7FF7AAED9FF5B9ACDFF5F9CCEFF5F9CCEFF5A9A
+      CDFFC9DFF2FF457CA7FF00000016000000000000000000000000000000000000
+      00000000000000000000000000154980ADFF453E39FF454241FF454342FF4543
+      42FF454342FF454342FF454342FF454342FF454342FF454342FF454342FF4543
+      42FF444140FF403934FF60A2DBFF5E9BD0FF5F9BCEFF619CCEFF5F9BCEFF5A98
+      CCFFC5DCF0FF467DAAFF00000016000000000000000000000000000000000000
+      00000000000000000000000000164A7FAEFF463F3BFF464443FF464545FF4645
+      45FF464545FF464545FF464545FF464545FF464545FF464545FF464545FF4645
+      45FF464343FF433C37FF62A4DAFF609CCEFF609BCCFF609BCCFF5F9ACCFF5997
+      CAFFC0D9EDFF477EABFF00000016000000000000000000000000000000000000
+      0000000000000000000000000016497FAEFF48423DFF484645FF484747FF4847
+      47FF484747FF484747FF484747FF484747FF484747FF484747FF484747FF4847
+      47FF484545FF463E39FF61A3D8FF5F9CCCFF5F9ACAFF5F9ACAFF5E99CAFF5996
+      C8FFBBD5EBFF4981ADFF00000016000000000000000000000000000000000000
+      00000000000000000000000000164B7DAFFF4B4440FF4A4847FF4A4949FF4A49
+      49FF4A4949FF4A4949FF4A4949FF4A4949FF4A4949FF4A4949FF4A4949FF4A49
+      49FF4A4847FF48413CFF60A1D7FF5E9BCBFF5E99C9FF5E99C9FF5D98C9FF5895
+      C7FFB6D2E8FF4A82B0FF00000016000000000000000000000000000000000000
+      0006008E4DFF008B47AE0000001A4C7AB1FF4E4542FF4C4948FF4C4A4AFF4C4A
+      4AFF4C4A4AFF4C4A4AFF4C4A4AFF4C4A4AFF4C4A4AFF4C4A4AFF4C4A4AFF4C4A
+      4AFF4C4948FF4A423DFF5F9FD4FF5D98C9FF5D97C7FF5D97C7FF5C96C7FF5793
+      C5FFB2CFE6FF4C84B1FF00000016000000000000000000000000000000000000
+      0011008C4AFF00AC85FF007E3AA34F77B2FF504645FF4D4B4BFF4D4C4CFF4D4C
+      4CFF4D4C4CFF4D4C4CFF4D4C4CFF4D4C4CFF4D4C4CFF4D4C4CFF4D4C4CFF4D4C
+      4CFF4D4B4AFF4B443FFF5E9ED3FF5C97C8FF5C96C6FF5C96C6FF5B95C6FF5693
+      C4FFADCAE3FF4D85B3FF00000016000000000000000000000000000000000000
+      0016008944FF79E3D8FF00AC7CFF16846AFF574548FF514C4DFF4F4E4EFF4F4E
+      4EFF4F4E4EFF4F4E4EFF4F4E4EFF4F4E4EFF4F4E4EFF4F4E4EFF4F4E4EFF4F4E
+      4EFF4F4D4CFF4E4641FF5C9DD1FF5B96C6FF5B95C4FF5B95C4FF5A94C3FF5691
+      C2FFA9C6E1FF4F87B6FF0000001600000005008C4BF0008946FF008744FF0086
+      42FF00823BFF82E3D6FF58DAC4FF00AF7DFF197346FF59474CFF544D4FFF514F
+      4FFF514F4FFF514F4FFF514F4FFF514F4FFF514F4FFF514F4FFF514F4FFF514F
+      4FFF514E4DFF504843FF5C9BCEFF5B95C4FF5B94C2FF5C94C1FF5C92BFFF588F
+      BEFFA5C3DDFF5089B7FF0000001600000010008946FF9DF0E6FF4EE9D4FF51E9
+      D4FF4DE7D1FF94E6D7FF00C097FF5EDDC6FF00B47FFF1A7547FF5B4A4FFF554F
+      51FF535151FF535151FF535151FF535151FF535151FF535151FF535151FF5351
+      51FF53504FFF524A45FF5B99CDFF5A93C3FF5A92C1FF5C90BFFF3BA9E1FF21B7
+      F6FFA0BFD9FF528ABAFF0000001600000016008744FF87E9D8FF00C397FF00C3
+      98FF00C398FF00C498FF00C599FF00C69AFF60E1C7FF00B781FF19774BFF594F
+      53FF555353FF545353FF545353FF545353FF545353FF545353FF545353FF5453
+      53FF545251FF534D48FF5997CAFF5992C1FF5A91BEFF5C8EBCFF27B9F7FF4A72
+      99FF9DBDD9FF538CBBFF0000001600000016008744FF6DE6CDFF00C897FF00C8
+      98FF00C999FF00C999FF00C99AFF00C999FF06CEA1FF28DFB6FF009347FF5D50
+      53FF575454FF565554FF565554FF565554FF565554FF565554FF565554FF5655
+      54FF565452FF564F49FF5896C9FF5891C0FF5990BDFF5C8DBAFF27BAF7FF4F7B
+      A4FF97B8D7FF558EBDFF0000001600000016008745FF52E5C3FF00CF9AFF00CF
+      9BFF00CF9BFF00CD9AFF00CD9AFF00CF9BFF00D39FFF00BC81FF1C794DFF5D52
+      56FF595556FF585656FF585656FF585656FF585656FF585656FF585656FF5856
+      56FF585554FF58504BFF5795C7FF5790BEFF588FBBFF5A8CB8FF27B8F5FF5482
+      AEFF92B4D2FF5590BEFF0000001600000016008948FF39E8BEFF00DAA1FF00D9
+      A1FF00D8A0FF00D39CFF00D39CFF00D79FFF00BE80FF1F754AFF615155FF5B56
+      57FF595857FF595857FF595857FF595857FF595857FF595857FF595857FF5958
+      57FF595755FF59524CFF5693C4FF568EBCFF568DBAFF588BB7FF3AA8DFFF23B8
+      F7FF8EB1CFFF5791C1FF0000001600000016008B4BF3008A49FF008847FF0087
+      46FF008342FF00DCA1FF00DCA0FF00C07EFF1F764BFF645357FF5E5859FF5B5A
+      59FF5B5A59FF5B5A59FF5B5A59FF5B5A59FF5B5A59FF5B5A59FF5B5A59FF5B5A
+      59FF5B5957FF5C554FFF5491C3FF558DBBFF558CB9FF568BB8FF578AB7FF4570
+      96FF87ADCDFF5892C4FF00000016000000100000003100000042000000430000
+      0048008848FF00E5A6FF00C27DFF157E68FF675358FF60595BFF5D5B5BFF5D5B
+      5BFF5D5B5BFF5D5B5BFF5D5B5BFF5D5B5BFF5D5B5BFF5D5B5BFF5D5B5BFF5D5B
+      5BFF5D5A59FF5E5651FF5390C1FF548CB9FF548BB7FF548BB7FF548BB7FF497B
+      A2FF82AACAFF5A95C5FF00000016000000050000001000000016000000160000
+      0027008B4BFF00C885FF007036B5496AA8FF655A57FF605C5BFF5F5D5CFF5F5D
+      5CFF5F5D5CFF5F5D5CFF5F5D5CFF5F5D5CFF5F5D5CFF5F5D5CFF5F5D5CFF5F5D
+      5CFF5F5C5AFF605853FF528EBFFF538AB8FF5389B6FF5389B6FF5389B6FF4D82
+      ADFF7CA5C6FF5B96C8FF00000016000000000000000000000000000000000000
+      0016008E4DFF007B40C300000042466CA5FF655D59FF615F5DFF615F5EFF615F
+      5EFF615F5EFF615F5EFF615F5EFF615F5EFF615F5EFF615F5EFF615F5EFF615F
+      5EFF615E5CFF635B55FF508CBDFF5289B6FF5288B4FF5288B4FF5288B4FF4F86
+      B3FF78A1C3FF5C98CAFF00000016000000000000000000000000000000000000
+      00110000002E0000002E0000002A416EA1FF655F5AFF62615FFF626160FF6261
+      60FF626160FF626160FF626160FF626160FF626160FF626160FF626160FF6261
+      60FF62605FFF645D57FF4F8BBCFF5188B5FF5187B3FF5187B3FF5187B3FF4E85
+      B1FF729CBFFF5E9ACCFF00000016000000000000000000000000000000000000
+      00060000000F0000000D0000001A3F6E9EFF67615BFF646260FF646261FF6462
+      61FF646261FF646261FF646261FF646261FF646261FF646261FF646261FF6462
+      61FF64615FFF665E59FF4E8AB9FF5087B2FF5086B1FF5086B1FF5086B1FF4D84
+      AFFF6C99BAFF609CCEFF00000016000000000000000000000000000000000000
+      00000000000000000000000000163F6D9DFF6A635EFF676462FF666463FF6664
+      63FF666463FF666463FF666463FF666463FF666463FF666463FF666463FF6664
+      63FF666462FF69615BFF4D87B7FF4F84B0FF4F84AFFF4F84AFFF4F84AFFF4D82
+      ADFF6694B8FF619DCFFF00000016000000000000000000000000000000000000
+      00000000000000000000000000163D6B9CFF6B6660FF686664FF676665FF6766
+      65FF676665FF676665FF676665FF676665FF676665FF676665FF676665FF6766
+      65FF676664FF69635DFF4B86B6FF4E83AFFF4E83AEFF4E83AEFF4E83AEFF4C81
+      ADFF628FB3FF629FD2FF00000016000000000000000000000000000000000000
+      00000000000000000000000000163C6B9CFF6D6761FF6A6765FF696766FF6967
+      66FF696766FF696766FF696766FF696766FF696766FF696766FF696766FF6967
+      66FF6A6765FF6C645FFF4B85B4FF4E83AEFF4E82ACFF4E82ACFF4E82ACFF4C80
+      ABFF5B8BB1FF64A1D3FF00000016000000000000000000000000000000000000
+      0000000000000000000000000016386CA1FF706B66FF6D6B69FF6D6B6AFF6D6B
+      6AFF6D6B6AFF6D6B6AFF6D6B6AFF6D6B6AFF6D6B6AFF6D6B6AFF6D6B6AFF6D6B
+      6AFF6D6A68FF6F6864FF4A86B5FF4C83AEFF4D82ACFF4D81AAFF4D81AAFF4C80
+      A9FF5786ACFF66A3D6FF00000016000000065C5C5CFF5C5C5CFF5C5C5CFF5C5C
+      5CFF5C5C5CFF5C5C5CFF5D5C5AFF5D5B59FF5C5A5AFF5A5A5AFF5A5A5BFF5A5A
+      5BFF5A5A5BFF5A5A5BFF5A5A5BFF5A5A5BFF5A5A5BFF5A5A5BFF5A5A5BFF5A5A
+      5BFF5A5A5AFF5C5957FF576570FF536E83FF4E7B9FFF4C7FAAFF4C7FA9FF4B7E
+      A8FF5081A8FF67A4D8FF000000160000000B000000220000002D0000002D0000
+      002D0000002D0000002D000000320000003D0000004300000043000000430000
+      0043000000430000004300000043000000430000004300000043000000430000
+      00430000004300000043000000430000004300000043090F144C365A7899426F
+      93D04B7CA4FF69A6DAFF00000016000000060000001100000016000000160000
+      0016000000160000001600000016000000160000001600000016000000160000
+      0016000000160000001600000016000000160000001600000016000000160000
+      001600000016000000160000001600000016000000170000001C000000280000
+      0036000000400000003200000011000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000003000000090000
+      0010000000150000001100000006
+    }
+  end
+  object SmallImages: TImageList
+    left = 456
+    top = 112
+    Bitmap = {
+      4C69050000001000000010000000B782187CB78114FFB57E0FFFB57C0BFFB57C
+      09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C
+      0BFFB57E0FFFB78114FFB782187CB78115FFFFECCDFFFCE7C3FFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFCE7C3FFFFECCDFFB78115FFB68012FFFDECD1FFDA8600FFFFFFFFFFF1E5
+      D8FFF2E5D8FFF2E5D7FFF0E3D6FFEFE2D5FFF1E4D7FFF1E4D6FFEFE3D6FFFFFF
+      FFFFDA8600FFFDECD1FFB68012FFB68012FFFEE9C6FF714100FFFFFFFFFF7979
+      7AFF7A7A7AFFA2A1A1FF9F9F9FFFF6ECDEFF777777FFA1A1A1FF9E9FA0FFFFFF
+      FFFF704100FFFEE9C6FFB68012FFB68113FFFCE3BCFF9B6104FFFDFCF9FFFDF5
+      E8FFFEF4E7FFFBF2E5FFFCF2E5FFFBF2E5FFFBF2E5FFFAF1E3FFF9F1E5FFFCFA
+      F7FF9A6104FFFCE3BCFFB68113FFB68014FFF8DCB0FFE0981CFFFBFBF8FF7978
+      7BFFA2A0A2FFFCF6EAFF797879FFA3A1A3FFA09FA1FFFAF4E9FF9D9DA0FFF9F9
+      F6FFE0981CFFF8DCB0FFB68014FFB68014FFF6D8A7FFE09C27FFFBFFFFFFFCFB
+      F3FFFCF9EFFFFBF8EEFFFCFAF0FFFCFAF0FFFBF9EEFFF9F8EDFFFAF9F1FFFAFE
+      FEFFE09B27FFF6D8A7FFB68014FFB68114FFF4D4A0FFE1A136FFF2DEB7FFFCFF
+      FFFFFBFFFDFFFBFFFCFFFBFFFDFFFBFFFDFFFBFFFDFFFBFFFDFFFBFFFFFFF2DE
+      B7FFE1A136FFF4D4A0FFB68114FFB68115FFF3D09AFFE5A845FFE3A640FFE2A1
+      36FFE29E2FFFE19D2DFFE19D2CFFE19D2CFFE19D2DFFE29E2FFFE2A136FFE3A6
+      40FFE5A845FFF3D09AFFB68115FFB68115FFF3CE94FFE6AE51FFE5AB4BFFE6C9
+      A4FFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFDFFFFFFFEFFFFFFE6C9A4FFE5AC
+      4BFFE6AE51FFF3CE94FFB68115FFB68116FFF3CC8EFFE8B25AFFE7AE51FFFCFF
+      FFFFECE0D7FFF1E4DAFFF1E5DAFFEDE0D5FFEADDD3FFE9DED5FFFBFFFFFFE7AE
+      51FFE8B25AFFF3CC8EFFB68116FFB68116FFF1CB89FFE9B762FFE7B257FFF9F8
+      FBFFFDF7F2FF877F79FF4A4441FFFEF7F2FFEEE3D8FFEDE2D9FFF8F7FBFFE8B2
+      57FFE9B762FFF1CB89FFB68116FFB68116FFF3CA87FFEDBC6DFFEBB761FFF8F5
+      F7FFFFFFFFFF4A4541FF948C88FFFFFFFFFFF1E8E0FFF0E7E0FFF7F4F7FFEBB7
+      61FFEDBC6DFFF3CA87FFB68116FFB78218FFF6CD8BFFF2C67DFFF0C171FFFAF7
+      FBFFFFFFFFFF4C4848FF989392FFFFFFFFFFF7EFEAFFF6EFEBFFF9F6FAFFF0C1
+      71FFF2C67DFFF6CD8BFFB78218FF976C1496B78218FFB68014FFB37A06FFD7CF
+      D2FFD8CEC9FF6C676653593A0053D9CFCEFFD5CAC3FFD4CAC4FFD6CFD2FFB37A
+      06FFB68014FFB78218FF976C1496000000000000003300000033000000330000
+      0033000000330000000800000008000000330000003300000033000000330000
+      0033000000330000003300000000B9851B77B78114FFB57E0FFFB57C0BFFB57C
+      09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C09FFB57C0BFFB57E0FFFB781
+      14FFB9851B77BB871E00BB871F00B78114FFFFECCDFFFCE6C3FFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCE6C3FFFFEC
+      CDFFB78114FFBB861D00BB871F00B67F12FFFBECD2FFD88400FFFFFFFFFFF1E5
+      DAFFF2E6DAFFF2E6DAFFF0E4D8FFEEE2D7FFEEE2D8FFFEFFFFFFD88300FFFBEC
+      D2FFB67F12FFBA851D00BB871F00B67F12FFFAE5C5FFDA8C09FFFEFEFFFF7878
+      79FF7A7979FFA2A1A1FF9F9E9EFFF5EBE0FF9B9B9DFFFCFCFFFFDA8C09FFFAE5
+      C5FFB67F12FFBA861D00BB871F00B68013FFF7DFB9FFDD9215FFFCFCFCFFFDF8
+      ECFFFFF8EAFFFDF6E8FFFCF6E8FFFBF4E7FFF9F4E8FFFAFAFAFFDC9115FFF7DF
+      B9FFB68013FFBA861D00BB871F00B68014FFF5DAAEFFDF9822FFFCFFFFFF797C
+      80FFA1A3A5FFFEFBF2FF797A7CFFA3A4A6FFA0A3A7FFFBFEFFFFDF9722FFF5DA
+      AEFFB68014FFBB861D00BC881E00B68114FFF4D5A4FFE09E31FFF4E0B7FFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4E1B8FFE19F32FFF5D6
+      A4FFB68114FFBB871C00B17D2B00B68115FFF3D39CFFE3A53EFFE2A237FFE4A1
+      32FFE6A437FFE7A53AFFE7A63AFFE7A63AFFE7A63CFFE7A840FFE8AA43FFF6D6
+      9EFFB88212FFAF7B2600B17D2900B68115FFF3D095FFE4AA46FFE8CBA5FFFFFF
+      FFFFA66D10FFA76F13FFA76D10FFA66D0EFFA66C0EFFA56C0EFFA56B0EFFA66C
+      0EFFA96F12FFAC7419FFB07A23FFB68115FFF3CB8FFFE6AD4DFFFDFFFFFFEEE7
+      E5FFA76B09FFF6EFE3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFAC7419FFB68116FFF1CA89FFE8B155FFF9F8FDFFFAF8
+      FBFFA66905FFF6ECDBFF8C8E92FF545556FF8B8B8CFFE3E2E3FFDFDEDEFFDEDE
+      DEFFDDDEE0FFFFFFFFFFAA7114FFB68116FFF3CA86FFEBB660FFF8F5F8FFFFFF
+      FFFFA56803FFF5EAD9FFFFFFFFFF575757FFFFFFFFFFFBFBFAFFF6F6F5FFF5F5
+      F4FFF5F7F7FFFFFFFFFFAA7113FFB78218FFF6CC8AFFF0C172FFF9F7FCFFFFFF
+      FFFFA66905FFF5EBDAFF979A9FFF535456FF959697FFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFAA7114FF976C1792B78216FFB37A06FFD7D0D4FFD8D1
+      D3FFA96D0BFFF7EFE3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFAC7419FF000000180000003300000033000000330000
+      0033AC7314FFAD7519FFAC7316FFAC7214FFAB7214FFAA7113FFAA7013FFAA70
+      13FFAA7113FFAC7419FFB07A23FF000000000000000000000000000000000000
+      0000000000330000003300000033000000330000003300000033000000330000
+      0033000000330000003300000033FFFFFF00FFFFFF0000000000000000000000
+      000000000000BAB8B6FC00000000000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000
+      000000000000D3D1D1FFAFADABEA000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00B9B7B5D3000000000000
+      000000000000D9D7D6FFC2C2C0FF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00D4D4D3FFDAD9D8EB0000
+      000000000000D4D2D1FFBDBBBAFF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF009694949DEBEAEBFFD7D5
+      D4E300000000CDCBCAFFC8C7C5FF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF000000001BAAA8A5EDEBEB
+      EBFFD2D1D1D3C4C3C3FFC7C6C6FF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF00000000000000002F9C9B
+      9BB9ECEDEFFFBDB4A8FFCACCD0FF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000
+      0022989BA1B6D37C1DFFB98B5EFF000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000
+      000000000021AB8968FF9E958EFFE09B4DFF0000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000
+      000000000000B3906DFF7171717DBE792DB5CC8538FFC7833BE6C2803BD7BE7E
+      3CFF00000000FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000D389
+      3726D08736FFC98235FF0000001300000021B67736BDBF7E3AEB0000002B9361
+      308BB6793EE3FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000CF86
+      39E08D5C2871C07F3CFF000000000000000000000023B97B3AE5BA7B3DAF0000
+      0016B0753FF6FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000C984
+      3AFF00000010B97B3DFF0000000000000000000000000000002DA9713AB0B077
+      3FFF9F6C3BBEFFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000C180
+      3CFF00000000B2773FFF00000000000000000000000000000000000000210000
+      003300000023FFFFFF00FFFFFF00FFFFFF00FFFFFF000000000000000000B97B
+      3DFFB0773FFF8458318400000000000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00FFFFFF00FFFFFF0000000000000000000000
+      0033000000330000001400000000000000000000000000000000000000000000
+      000000000000FFFFFF00FFFFFF00B3B3B1EFB0B0ADFFAEAEACFFAEAEABFFADAD
+      ABFFAEAEABFFAFAFADFFB0B0AED5000000000000000000000000000000000000
+      0000000000000000000000000000AFAFADFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFE9E9E9FFAFAFADA70000000000000000000000000000
+      0000000000000000000000000000AEAEACFFFFFFFFFFE0E0DFFFE0E0DFFFE0E0
+      DFFFFFFFFFFFA4A4A2FFFFFFFFFFE9E9E9FFB0B0AEA400000000000000000000
+      0000000000000000000000000000AEAEABFFFFFFFFFFE5E4E3FFE6E5E4FFE5E4
+      E3FFFFFFFFFFCACAC9FFA4A4A2FFFFFFFFFFADADAAFFAFAFADFFAEAEACFFAFAF
+      ADFFB0B0AEAC0000000000000000ADADABFFFFFFFFFFE9E8E8FFEAE8E9FFE9E8
+      E8FFF3F2F2FFFFFFFFFFFFFFFFFFFFFFFFFFA9A9A6FFFFFFFFFFFFFFFFFFFFFF
+      FFFFE9E9E9FFAFAFADA700000000ADADABFFFFFFFFFFECECEBFFEDEDECFFEDED
+      ECFFECECEBFFEBEBEAFFEBEBEAFFFFFFFFFFA8A8A5FFE4E4E3FFFFFFFFFFA4A4
+      A2FFFFFFFFFFE9E9E9FFB0B0AEACADADABFFFFFFFFFFF0F0EFFFF0F0EFFFF0F0
+      EFFFF0F0EFFFEFEFEEFFEFEFEEFFFFFFFFFFA8A8A5FFE9E8E7FFFFFFFFFFCACA
+      C9FFA4A4A2FFFFFFFFFFAFAFADFFADADABFFFFFFFFFFF4F3F3FFF4F3F3FFF4F3
+      F3FFF4F3F3FFF4F3F3FFF4F3F3FFFFFFFFFFA8A8A5FFEDECECFFF4F3F3FFFFFF
+      FFFFFFFFFFFFFFFFFFFFAEAEABFFADADABFFFFFFFFFFF7F6F6FFF7F6F6FFF7F6
+      F6FFF7F6F6FFF7F6F6FFF7F6F6FFFFFFFFFFA7A7A5FFF1F1F1FFEDEDECFFEBEB
+      EAFFEBEBEAFFFFFFFFFFADADABFFAEAEABFFFFFFFFFFFCFCFCFFFBFBFCFFFBFB
+      FCFFFBFBFCFFFBFBFCFFFCFCFCFFFFFFFFFFA7A7A5FFF5F5F4FFF1F1F0FFEFEF
+      EEFFEFEFEEFFFFFFFFFFADADABFFB0B0ADFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA8A8A5FFF9F8F8FFF5F4F4FFF4F3
+      F3FFF4F3F3FFFFFFFFFFADADABFFB0B0AEF1AFAFADFFAEAEABFFADADABFFADAD
+      ABFFADADABFFACACAAFFA9A9A7FFA8A8A6FFB8B7B6FFFBFAFAFFF8F6F6FFF7F6
+      F6FFF7F6F6FFFFFFFFFFADADABFF0000002F6868675F6464625C6464625C6161
+      60594E4E4D4EB0B0ADFFF6F6F5FFECECEBFFFBFAFAFFFDFDFDFFFCFCFCFFFBFB
+      FCFFFCFCFCFFFFFFFFFFAEAEABFF000000000000000B0000000A0000000A0000
+      000A00000007B0B0AEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFB0B0ADFF000000000000000000000000000000000000
+      000000000000B1B1AFF2B0B0AEFFAEAEACFFADADABFFADADABFFADADABFFADAD
+      ABFFAEAEABFFAFAFADFFB1B1AFF2000000000000000000000000000000000000
+      0000000000000000003000000033000000330000003300000033000000330000
+      00330000003300000033000000304A7CA500487CA600427BA9008D847D00807F
+      7EFF7E7E7EFF807F7EFF8D847D00427BA900487CA6004A7CA500487BA5003E76
+      A300C0BBB500B7B6B300B5B5B300477AA3B04378A2FF3D77A4FF888079FFB9B6
+      B6FFB7B5B5FFB9B6B6FF888079FF3D77A4FF4378A2FF4779A3B04479A4003973
+      A300BEBAB400B7B5B300B5B5B30042759FFFAFD2F2FFA9D0F3FF978E87FFCECA
+      C8FFCBC8C6FFCDCAC8FF968D87FFA8D0F4FFADD1F2FF3D739EFF3972A100C3BC
+      B500B9B7B400B5B5B300B5B5B3003E729DFFD4E7F7FF569BD3FFADA096FFAA9F
+      98FFA79E98FFA49E99FFA59D97FF4E98D5FFCCE4F8FF2F6A9AFFC0BAB300B8B7
+      B300B5B4B200B4B4B200B5B5B3003D709AFFC6DEF0FF5797CCFF5A9ACFFF589A
+      D1FF5398D2FF92AABEFFB5B2ADFFB2AFAAFFB2AEA9FFB3B0ABFFB1AFACFFAFAE
+      ACFFAEAEACFFB0B0ADFFB3B3B1B03E6F9AFFB9D5EAFF5794C7FF5B97C8FF5B98
+      C9FF5395CAFFBAB3ABFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFAFAFADFF3E6E99FFACCAE4FF5691C1FF5A93C3FF5993
+      C3FF508FC3FFB8B2AAFFFFFFFFFFE3E2E0FFE6E5E4FFE7E5E4FFE6E5E4FFE4E3
+      E2FFE2E1E0FFFFFFFFFFAEAEACFF3E6D97FF9FC1DDFF538EBDFF5791BFFF5691
+      BFFF4D8CBFFFB7B1AAFFFFFFFFFFE9E9E8FF858585FFB2B1B1FFB0AFAFFFAEAD
+      ADFFE8E8E6FFFFFFFFFFAEAEABFF3E6C97FF91B6D5FF528BBAFF558CBBFF548C
+      BBFF4B88BBFFB8B2ABFFFFFFFFFFEEEDEDFFF3F2F2FFF3F2F2FFF1F0F0FFF0EF
+      EFFFEDEBEBFFFFFFFFFFADADABFF3F6B97FF82ABCCFF5088B5FF528AB6FF5189
+      B6FF4784B5FFB8B2ABFFFFFFFFFFF3F2F2FF848484FFB2B2B3FFF5F4F4FFAEAE
+      AEFFF1F0F0FFFFFFFFFFADADABFF3F6B95FF74A1C3FF4F86B1FF5187B2FF4F86
+      B2FF4581B0FFB8B2ABFFFFFFFFFFF6F6F5FFFBFBFAFFFBFBFAFFF9F9F8FFF7F7
+      F6FFF4F4F3FFFFFFFFFFADADABFF3F6A95FF6594BBFF4C83AEFF4E83AEFF4C82
+      AEFF427DACFFB8B3ACFFFFFFFFFFFBFBFAFF818181FFB5B5B6FFB4B4B4FFB1B1
+      B1FFF9F9F8FFFFFFFFFFADADABFF3F6A94FF568AB0FF4C82ABFF4D82ABFF4B81
+      ABFF417BA8FFB9B4ADFFFFFFFFFFFDFDFDFFFFFFFFFFFFFFFFFFFFFFFFFFFEFE
+      FEFFFCFCFCFFFFFFFFFFAEAEABFF3B6088C0406893FF3F6893FF406893FF3E67
+      93FF335F8FFFBBB7B0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFB0B0ADFF000000230000003300000033000000330000
+      003300000033BBB7B0ECB1B0AEFFAEAEABFFADADABFFADADABFFADADABFFADAD
+      ABFFAEAEABFFAFAFADFFB1B1AFF2000000000000000000000000000000000000
+      0000000000000000002E00000033000000330000003300000033000000330000
+      0033000000330000003300000030
+    }
+  end
+end

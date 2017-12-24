@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonextcomponents"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="extcomp"/>
+        <OtherUnitFiles Value="extcomp"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Linking>
+        <Debugging>
+          <UseHeaptrc Value="True"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <Files Count="12">
+      <Item1>
+        <Filename Value="extcomp/PDBCheck.pas"/>
+        <UnitName Value="PDBCheck"/>
+      </Item1>
+      <Item2>
+        <Filename Value="extcomp/PCheck.pas"/>
+        <UnitName Value="PCheck"/>
+      </Item2>
+      <Item3>
+        <Filename Value="extcomp/u_extcolorcombos.pas"/>
+        <UnitName Value="U_ExtColorCombos"/>
+      </Item3>
+      <Item4>
+        <Filename Value="extcomp/u_extdbnavigator.pas"/>
+        <UnitName Value="U_ExtDBNavigator"/>
+      </Item4>
+      <Item5>
+        <Filename Value="extcomp/u_extradios.pas"/>
+        <UnitName Value="u_extradios"/>
+      </Item5>
+      <Item6>
+        <Filename Value="extcomp/u_extformatedits.pas"/>
+        <UnitName Value="u_extformatedits"/>
+      </Item6>
+      <Item7>
+        <Filename Value="extcomp/u_framework_components.pas"/>
+        <UnitName Value="u_framework_components"/>
+      </Item7>
+      <Item8>
+        <Filename Value="extcomp/u_framework_dbcomponents.pas"/>
+        <UnitName Value="u_framework_dbcomponents"/>
+      </Item8>
+      <Item9>
+        <Filename Value="extcomp/u_extsearchedit.pas"/>
+        <UnitName Value="u_extsearchedit"/>
+      </Item9>
+      <Item10>
+        <Filename Value="extcomp/U_ExtComboInsert.pas"/>
+        <UnitName Value="U_ExtComboInsert"/>
+      </Item10>
+      <Item11>
+        <Filename Value="extcomp/fonctions_search_edit.pas"/>
+        <UnitName Value="fonctions_search_edit"/>
+      </Item11>
+      <Item12>
+        <Filename Value="extcomp/u_extdbdirectoryedit.pas"/>
+        <UnitName Value="u_extDBDirectoryEdit"/>
+      </Item12>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="LANG"/>
+    </i18n>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="typhonextbase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lz_datetimectrls"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_rx"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_jvcl"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="typhonextcore"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

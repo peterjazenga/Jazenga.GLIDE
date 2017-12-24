@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <HelpOptions>
+    <Version Value="1"/>
+  </HelpOptions>
+  <Viewers>
+    <TChmHelpViewer>
+      <CHMHelp Exe="C:\fpcupdeluxe\lazarus\components\chmhelp\lhelp\lhelp.exe"/>
+    </TChmHelpViewer>
+  </Viewers>
+</CONFIG>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="opengpsx"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Prajuab Riabroy"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="This program is a Lazarus component to demonstrate the real-time tracking and monitoring NMEA-183 compliant from GPS receiver and decode NMEA sentences likes :
+- $GPGGA (Global Positioning System Fix Data)
+- $GPGSA (DOP and Active Satellites)
+- $GPGSV (Satellites in View)
+- $GPRMC (Recommended Minimum Specific GNSS Data)
+
+  Decoded parameters include: UTC time, date, position (lattitude, longitude), altitude, speed, course, heading and information about visible satellites.
+
+  I also write the new components TNMEADecode, TGPSSkyplot &amp; TGPSTarget which you can port to another application easily.
+  1. TGPSNMEADecode, this non-visaul component encapsulated the codes for decoding NMEA sentence and create events which are fired when the GPS reading is enable.
+    -OnGGA event for GGA data.
+    -OnGSV event for GSV data.
+    -OnGSA event for GSA data.
+    -OnRMC event for RMC data.
+  plus
+    -OnGSVInfos event needed for TGPSSkyplot.
+
+  2. TGPSSkyPlot use to display sky plot for GPS geometry with the flickerless moving of GPS legend.
+
+  3. TGPSTarget use to draw arrow to the assigned target point by user and also display azimuth and distance.
+
+  -The sample provides an interface over serial ports COM1 - COM4."/>
+    <License Value="GNU General Public License version 2.0 (GPLv2)"/>
+    <Version Minor="3" Release="23" Build="1001"/>
+    <Files Count="26">
+      <Item1>
+        <Filename Value="geocompute.pas"/>
+        <UnitName Value="geocompute"/>
+      </Item1>
+      <Item2>
+        <Filename Value="geoellipsoids.pas"/>
+        <UnitName Value="geoellipsoids"/>
+      </Item2>
+      <Item3>
+        <Filename Value="gpsskyplot.lrs"/>
+        <Type Value="LRS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="gpstarget.lrs"/>
+        <Type Value="LRS"/>
+      </Item4>
+      <Item5>
+        <Filename Value="gpsutilities.pas"/>
+        <UnitName Value="gpsutilities"/>
+      </Item5>
+      <Item6>
+        <Filename Value="nmeadecode.lrs"/>
+        <Type Value="LRS"/>
+      </Item6>
+      <Item7>
+        <Filename Value="gpssignalplot.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="gpssignalplot"/>
+      </Item7>
+      <Item8>
+        <Filename Value="gpsskyplot.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="gpsskyplot"/>
+      </Item8>
+      <Item9>
+        <Filename Value="gpstarget.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="gpstarget"/>
+      </Item9>
+      <Item10>
+        <Filename Value="gpsdatadef.pas"/>
+        <UnitName Value="gpsdatadef"/>
+      </Item10>
+      <Item11>
+        <Filename Value="nmeadecode.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="nmeadecode"/>
+      </Item11>
+      <Item12>
+        <Filename Value="nmea_gpvtg.pas"/>
+        <UnitName Value="nmea_gpvtg"/>
+      </Item12>
+      <Item13>
+        <Filename Value="nmea_gpgga.pas"/>
+        <UnitName Value="nmea_gpgga"/>
+      </Item13>
+      <Item14>
+        <Filename Value="nmea_gpgll.pas"/>
+        <UnitName Value="nmea_gpgll"/>
+      </Item14>
+      <Item15>
+        <Filename Value="nmea_gpgsa.pas"/>
+        <UnitName Value="nmea_gpgsa"/>
+      </Item15>
+      <Item16>
+        <Filename Value="nmea_gpgsv.pas"/>
+        <UnitName Value="nmea_gpgsv"/>
+      </Item16>
+      <Item17>
+        <Filename Value="nmea_gprmc.pas"/>
+        <UnitName Value="nmea_gprmc"/>
+      </Item17>
+      <Item18>
+        <Filename Value="nmea_gpwpl.pas"/>
+        <UnitName Value="nmea_gpwpl"/>
+      </Item18>
+      <Item19>
+        <Filename Value="nmea_gpbod.pas"/>
+        <UnitName Value="nmea_gpbod"/>
+      </Item19>
+      <Item20>
+        <Filename Value="nmea_gprte.pas"/>
+        <UnitName Value="nmea_gprte"/>
+      </Item20>
+      <Item21>
+        <Filename Value="gpssignalplot.lrs"/>
+        <Type Value="LRS"/>
+      </Item21>
+      <Item22>
+        <Filename Value="gpsportconnected.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="gpsportconnected"/>
+      </Item22>
+      <Item23>
+        <Filename Value="comportsetup.lrs"/>
+        <Type Value="LRS"/>
+      </Item23>
+      <Item24>
+        <Filename Value="nmea_gpgarmin.pas"/>
+        <UnitName Value="nmea_gpgarmin"/>
+      </Item24>
+      <Item25>
+        <Filename Value="gpsportconnected.lrs"/>
+        <Type Value="LRS"/>
+      </Item25>
+      <Item26>
+        <Filename Value="savetracktogpx.pas"/>
+        <UnitName Value="savetracktogpx"/>
+      </Item26>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="SdpoSerialLaz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

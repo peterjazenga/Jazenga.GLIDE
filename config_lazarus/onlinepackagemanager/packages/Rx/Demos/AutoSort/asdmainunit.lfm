@@ -1,0 +1,230 @@
+object Form1: TForm1
+  Left = 386
+  Height = 524
+  Top = 218
+  Width = 780
+  Caption = 'Auto sort demo'
+  ClientHeight = 524
+  ClientWidth = 780
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object RxDBGrid1: TRxDBGrid
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = CheckBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 452
+    Top = 66
+    Width = 768
+    ColumnDefValues.BlobText = '(данные)'
+    TitleButtons = True
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'ID'
+        Width = 88
+        FieldName = 'ID'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Пусто)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'NAME'
+        Width = 350
+        FieldName = 'NAME'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Пусто)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'DATE_ENTER'
+        Width = 100
+        FieldName = 'DATE_ENTER'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Пусто)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end    
+      item
+        Command = rxgcCopyCellValue
+        ShortCut = 16451
+        Enabled = True
+      end>
+    FooterOptions.DrawFullLine = False
+    OptionsRx = []
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Around = 6
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = Datasource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgHeaderPushedLook]
+    ParentColor = False
+    TabOrder = 0
+    TitleStyle = tsNative
+  end
+  object CheckBox1: TCheckBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = CheckBox2
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 24
+    Top = 36
+    Width = 107
+    BorderSpacing.Around = 6
+    Caption = 'Title buttons'
+    OnChange = CheckBox2Change
+    TabOrder = 1
+  end
+  object CheckBox2: TCheckBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 24
+    Top = 6
+    Width = 85
+    BorderSpacing.Around = 6
+    Caption = 'Auto sort'
+    OnChange = CheckBox2Change
+    TabOrder = 2
+  end
+  object RxMemoryData1: TRxMemoryData
+    AutoCalcFields = False
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'NAME'
+        DataType = ftString
+        Precision = -1
+        Size = 100
+      end    
+      item
+        Name = 'DATE_ENTER'
+        DataType = ftDate
+        Precision = -1
+      end>
+    PacketRecords = 0
+    left = 192
+    top = 16
+    object RxMemoryData1ID: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1NAME: TStringField
+      DisplayWidth = 100
+      FieldKind = fkData
+      FieldName = 'NAME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object RxMemoryData1DATE_ENTER: TDateField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'DATE_ENTER'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object Datasource1: TDataSource
+    DataSet = RxMemoryData1
+    left = 152
+    top = 16
+  end
+end

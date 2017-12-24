@@ -1,0 +1,77 @@
+object FrmFindFolder: TFrmFindFolder
+  Left = 700
+  Height = 294
+  Top = 630
+  Width = 822
+  Caption = 'FrmFindFolder'
+  ClientHeight = 294
+  ClientWidth = 822
+  Position = poMainFormCenter
+  LCLVersion = '1.4.2.0'
+  object btnFindFolders: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Find'
+    OnClick = btnFindFoldersClick
+    TabOrder = 0
+  end
+  object edtRootDir: TEdit
+    Left = 8
+    Height = 21
+    Top = 56
+    Width = 768
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 1
+    Text = 'c:\'
+  end
+  object lstFolders: TListBox
+    Left = 8
+    Height = 160
+    Hint = 'D64Double-Click to select!'
+    Top = 112
+    Width = 799
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    OnDblClick = lstFoldersDblClick
+    ScrollWidth = 798
+    TabOrder = 2
+  end
+  object btnSelectRootFolder: TSpeedButton
+    Left = 784
+    Height = 22
+    Top = 55
+    Width = 23
+    Anchors = [akTop, akRight]
+    Caption = '...'
+    OnClick = btnSelectRootFolderClick
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 20
+    Top = 274
+    Width = 822
+    Panels = <>
+  end
+  object lblInitialSearchDir: TLabel
+    Left = 8
+    Height = 13
+    Top = 40
+    Width = 59
+    Caption = 'Initial Folder'
+    ParentColor = False
+  end
+  object lblItemsFound: TLabel
+    Left = 8
+    Height = 13
+    Top = 96
+    Width = 253
+    Caption = 'Found items: (doubleclick to choose the correct item)'
+    ParentColor = False
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    left = 336
+    top = 16
+  end
+end

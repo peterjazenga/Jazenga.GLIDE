@@ -1,0 +1,78 @@
+object FormCertificates: TFormCertificates
+  Left = 580
+  Height = 338
+  Top = 250
+  Width = 702
+  ActiveControl = lvCertificates
+  Caption = 'Code Signing Certificates'
+  ClientHeight = 338
+  ClientWidth = 702
+  Color = clWindow
+  Position = poMainFormCenter
+  LCLVersion = '1.6.4.0'
+  object panelButtons: TButtonPanel
+    Left = 6
+    Height = 33
+    Top = 299
+    Width = 690
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 0
+    ShowButtons = [pbOK, pbCancel]
+    ShowGlyphs = []
+  end
+  object lvCertificates: TListView
+    Left = 0
+    Height = 293
+    Top = 0
+    Width = 702
+    Align = alClient
+    BorderStyle = bsNone
+    Color = clWindow
+    Columns = <    
+      item
+        AutoSize = True
+        Caption = 'Subject'
+        Width = 54
+      end    
+      item
+        AutoSize = True
+        Caption = 'Issuer'
+        Width = 45
+      end    
+      item
+        AutoSize = True
+        Caption = 'Valid From'
+        Width = 72
+      end    
+      item
+        AutoSize = True
+        Caption = 'Valid Till'
+        Width = 60
+      end    
+      item
+        AutoSize = True
+        Caption = 'Hash'
+        Width = 42
+      end    
+      item
+        AutoSize = True
+        Caption = 'Serial'
+        Width = 43
+      end>
+    HideSelection = False
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 1
+    ViewStyle = vsReport
+    OnCreateItemClass = lvCertificatesCreateItemClass
+    OnCustomDrawItem = lvCertificatesCustomDrawItem
+    OnDblClick = lvCertificatesDblClick
+  end
+end

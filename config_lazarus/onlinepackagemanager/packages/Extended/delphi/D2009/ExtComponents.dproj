@@ -1,0 +1,262 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{DD40F5DD-3C73-41C5-AD26-B712B4431F25}</ProjectGuid>
+			<MainSource>ExtComponents.dpk</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Package</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<ProjectVersion>14.4</ProjectVersion>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UnitSearchPath>..\..\base;..\..\btncomp;..\..\copy;..\..\core;..\..\extcomp;..\..\extdb;..\..\extnet;..\..\imgcomp;..\..\inicomp;..\..\reportcomp;bin;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\6.0\Bpl\ExtComponents.bpl</DCC_DependencyCheckOutputName>
+			<DCC_F>false</DCC_F>
+			<VerInfo_MajorVer>0</VerInfo_MajorVer>
+			<DCC_DcuOutput>bin</DCC_DcuOutput>
+			<DCC_DefaultNamespace>ExtComponents</DCC_DefaultNamespace>
+			<GenDll>true</GenDll>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<DCC_S>false</DCC_S>
+			<DCC_K>false</DCC_K>
+			<DCC_E>false</DCC_E>
+			<GenPackage>true</GenPackage>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=0.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Bde;Winapi;Data.Win;$(DCC_Namespace)</DCC_Namespace>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_WriteableConstants>true</DCC_WriteableConstants>
+			<DCC_N>true</DCC_N>
+			<VerInfo_Locale>1036</VerInfo_Locale>
+			<DCC_Description>Extended</DCC_Description>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="ExtComponents.dpk">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="..\..\copy\U_ExtFileCopy.dcr"/>
+			<DCCReference Include="..\..\copy\u_traducefile.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_extcolorcombos.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_extdbnavigator.dcr"/>
+			<DCCReference Include="..\..\extcomp\U_ExtNumEdits.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_regextracomponents.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_extmenucustomize.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_onforminfoini.dcr"/>
+			<DCCReference Include="..\..\btncomp\u_buttons_appli.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_extmenutoolbar.dcr"/>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="dbrtl.dcp"/>
+			<DCCReference Include="vcldb.dcp"/>
+			<DCCReference Include="vclx.dcp"/>
+			<DCCReference Include="bdertl.dcp"/>
+			<DCCReference Include="VclSmp.dcp"/>
+			<DCCReference Include="dclstd.dcp"/>
+			<DCCReference Include="designdgm.dcp"/>
+			<DCCReference Include="vcldesigner.dcp"/>
+			<DCCReference Include="dcldb.dcp"/>
+			<DCCReference Include="dsnap.dcp"/>
+			<DCCReference Include="vclactnband.dcp"/>
+			<DCCReference Include="ExpertSuperForm.dcp"/>
+			<DCCReference Include="IndyProtocols.dcp"/>
+			<DCCReference Include="Jcl.dcp"/>
+			<DCCReference Include="JclVcl.dcp"/>
+			<DCCReference Include="JvCore.dcp"/>
+			<DCCReference Include="JvSystem.dcp"/>
+			<DCCReference Include="JvStdCtrls.dcp"/>
+			<DCCReference Include="JvDB.dcp"/>
+			<DCCReference Include="VirtualTreesR.dcp"/>
+			<DCCReference Include="JvXPCtrls.dcp"/>
+			<DCCReference Include="RLibWinD2009.dcp"/>
+			<DCCReference Include="VampyreImagingPackage.D2009.dcp"/>
+			<DCCReference Include="..\..\btncomp\u_buttons_appli.pas"/>
+			<DCCReference Include="..\..\btncomp\u_buttons_speed.pas"/>
+			<DCCReference Include="..\..\btncomp\u_regfwbuttons.pas"/>
+			<DCCReference Include="..\..\btncomp\u_regfwbuttons_appli.pas"/>
+			<DCCReference Include="..\..\btncomp\u_regsbbuttons.pas"/>
+			<DCCReference Include="..\..\extcomp\PCheck.pas"/>
+			<DCCReference Include="..\..\extcomp\PDBCheck.pas"/>
+			<DCCReference Include="..\..\extcomp\u_dblistview.pas"/>
+			<DCCReference Include="..\..\extcomp\u_extcolorcombos.pas"/>
+			<DCCReference Include="..\..\extcomp\U_ExtComboInsert.pas"/>
+			<DCCReference Include="..\..\extcomp\u_extdbnavigator.pas"/>
+			<DCCReference Include="..\..\extcomp\U_ExtNumEdits.pas"/>
+			<DCCReference Include="..\..\extcomp\u_extradios.pas"/>
+			<DCCReference Include="..\..\extcomp\u_extsearchedit.pas"/>
+			<DCCReference Include="..\..\extcomp\u_framework_components.pas"/>
+			<DCCReference Include="..\..\extcomp\u_framework_dbcomponents.pas"/>
+			<DCCReference Include="..\..\extcomp\U_GroupView.pas"/>
+			<DCCReference Include="..\..\extcomp\u_regextcomponents.pas"/>
+			<DCCReference Include="..\..\extcomp\u_regextracomponents.pas"/>
+			<DCCReference Include="..\..\extcomp\U_RegisterGroupView.pas"/>
+			<DCCReference Include="..\..\inicomp\fonctions_init.pas"/>
+			<DCCReference Include="..\..\inicomp\u_customizemenu.pas"/>
+			<DCCReference Include="..\..\inicomp\u_extmenucustomize.pas"/>
+			<DCCReference Include="..\..\inicomp\u_formadapt.pas"/>
+			<DCCReference Include="..\..\inicomp\u_formmainini.pas"/>
+			<DCCReference Include="..\..\inicomp\u_onforminfoini.pas"/>
+			<DCCReference Include="..\..\inicomp\u_reginicomponents.pas"/>
+			<DCCReference Include="..\..\reportcomp\fonctions_reports.pas"/>
+			<DCCReference Include="..\..\reportcomp\u_regreports_components.pas"/>
+			<DCCReference Include="..\..\reportcomp\u_reportform.pas"/>
+			<DCCReference Include="..\..\reportcomp\u_reports_components.pas"/>
+			<DCCReference Include="..\..\reportcomp\u_reports_rlcomponents.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_buttons_defs.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extdbgrid.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extdbimage.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extdbimagelist.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extdbpictcombo.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extimage.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extimagelist.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_extmapimageindex.pas"/>
+			<DCCReference Include="..\..\imgcomp\U_ExtPictCombo.pas"/>
+			<DCCReference Include="..\..\imgcomp\u_regimagecomponents.pas"/>
+			<DCCReference Include="..\..\inicomp\fonctions_forms.pas"/>
+			<DCCReference Include="..\..\inicomp\fonctions_vtree.pas"/>
+			<DCCReference Include="..\..\btncomp\fonctions_dialogs.pas"/>
+			<DCCReference Include="..\..\btncomp\u_form_msg.pas"/>
+			<DCCReference Include="..\..\btncomp\u_form_working.pas"/>
+			<DCCReference Include="..\..\extnet\fonctions_net.pas"/>
+			<DCCReference Include="..\..\extnet\u_netupdate.pas"/>
+			<DCCReference Include="..\..\extnet\u_register_net.pas"/>
+			<DCCReference Include="..\..\inicomp\u_extmenutoolbar.pas"/>
+			<DCCReference Include="..\..\inicomp\menutbar.pas"/>
+			<DCCReference Include="..\..\extcomp\u_extformatedits.pas"/>
+			<DCCReference Include="..\..\extnet\md5api.pas"/>
+			<DCCReference Include="..\..\extcomp\fonctions_search_edit.pas"/>
+			<DCCReference Include="..\..\base\fonctions_array.pas"/>
+			<DCCReference Include="..\..\base\fonctions_components.pas"/>
+			<DCCReference Include="..\..\base\fonctions_date.pas"/>
+			<DCCReference Include="..\..\base\fonctions_dbcomponents.pas"/>
+			<DCCReference Include="..\..\base\fonctions_images.pas"/>
+			<DCCReference Include="..\..\base\fonctions_numedit.pas"/>
+			<DCCReference Include="..\..\base\fonctions_version.pas"/>
+			<DCCReference Include="..\..\base\fonctions_web.pas"/>
+			<DCCReference Include="..\..\base\type_string_delphi.pas"/>
+			<DCCReference Include="..\..\base\U_About.pas"/>
+			<DCCReference Include="..\..\base\U_RegVersion.pas"/>
+			<DCCReference Include="..\..\core\fonctions_db.pas"/>
+			<DCCReference Include="..\..\core\fonctions_erreurs.pas"/>
+			<DCCReference Include="..\..\core\fonctions_languages.pas"/>
+			<DCCReference Include="..\..\core\fonctions_proprietes.pas"/>
+			<DCCReference Include="..\..\core\fonctions_scaledpi.pas"/>
+			<DCCReference Include="..\..\core\fonctions_string.pas"/>
+			<DCCReference Include="..\..\core\fonctions_system.pas"/>
+			<DCCReference Include="..\..\core\fonctions_variant.pas"/>
+			<DCCReference Include="..\..\core\type_string.pas"/>
+			<DCCReference Include="..\..\core\u_extcomponent.pas"/>
+			<DCCReference Include="..\..\core\unite_messages.pas"/>
+			<DCCReference Include="..\..\core\unite_messages_delphi.pas"/>
+			<DCCReference Include="..\..\copy\fonctions_file.pas"/>
+			<DCCReference Include="..\..\copy\u_extabscopy.pas"/>
+			<DCCReference Include="..\..\copy\u_extfilecomp.pas"/>
+			<DCCReference Include="..\..\copy\U_ExtFileCopy.pas"/>
+			<DCCReference Include="..\..\copy\u_extractfile.pas"/>
+			<DCCReference Include="..\..\copy\u_regextfilecopy.pas"/>
+			<DCCReference Include="..\..\copy\u_traducefile.pas"/>
+			<DCCReference Include="..\..\copy\unit_messagescopy_delphi.pas"/>
+			<DCCReference Include="..\..\copy\U_ExtFileCopy.dcr"/>
+			<DCCReference Include="..\..\copy\u_traducefile.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_extcolorcombos.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_extdbnavigator.dcr"/>
+			<DCCReference Include="..\..\extcomp\U_ExtNumEdits.dcr"/>
+			<DCCReference Include="..\..\extcomp\u_regextracomponents.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_extmenucustomize.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_onforminfoini.dcr"/>
+			<DCCReference Include="..\..\btncomp\u_buttons_appli.dcr"/>
+			<DCCReference Include="..\..\inicomp\u_extmenutoolbar.dcr"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">ExtComponents.dpk</Source>
+					</Source>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1036</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">0.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\6.0\Bpl\ExtIBX.bpl">(sans titre)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k120.bpl">Composants Microsoft Office 2000 Sample Automation Server Wrapper</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp120.bpl">Composants Microsoft Office XP Sample Automation Server Wrapper</Excluded_Packages>
+					</Excluded_Packages>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+					<Platform value="Win64">False</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

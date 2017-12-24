@@ -1,0 +1,265 @@
+object RxDBGridPrintGrid_SetupForm: TRxDBGridPrintGrid_SetupForm
+  Left = 720
+  Height = 344
+  Top = 303
+  Width = 468
+  Caption = 'Print grid setup'
+  ClientHeight = 344
+  ClientWidth = 468
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.3'
+  object GroupBox1: TGroupBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = CheckGroup1
+    AnchorSideBottom.Control = CheckGroup1
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 173
+    Top = 6
+    Width = 294
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Right = 6
+    Caption = 'Page margins'
+    ClientHeight = 150
+    ClientWidth = 290
+    TabOrder = 0
+    object Label1: TLabel
+      AnchorSideLeft.Control = GroupBox1
+      AnchorSideBottom.Control = SpinEdit1
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 21
+      Top = 16
+      Width = 24
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Left = 6
+      Caption = 'Top'
+      ParentColor = False
+    end
+    object SpinEdit1: TSpinEdit
+      AnchorSideTop.Control = GroupBox1
+      AnchorSideRight.Control = Label5
+      Left = 79
+      Height = 31
+      Top = 6
+      Width = 60
+      Anchors = [akTop, akRight]
+      BorderSpacing.Around = 6
+      MaxValue = 1000
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      AnchorSideLeft.Control = GroupBox1
+      AnchorSideBottom.Control = SpinEdit2
+      AnchorSideBottom.Side = asrBottom
+      Left = 6
+      Height = 21
+      Top = 53
+      Width = 26
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Left = 6
+      Caption = 'Left'
+      ParentColor = False
+    end
+    object SpinEdit2: TSpinEdit
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = SpinEdit1
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = Label5
+      Left = 79
+      Height = 31
+      Top = 43
+      Width = 60
+      Anchors = [akTop, akRight]
+      BorderSpacing.Around = 6
+      MaxValue = 1000
+      TabOrder = 1
+    end
+    object SpinEdit3: TSpinEdit
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = GroupBox1
+      AnchorSideRight.Control = GroupBox1
+      AnchorSideRight.Side = asrBottom
+      Left = 224
+      Height = 31
+      Top = 6
+      Width = 60
+      Anchors = [akTop, akRight]
+      BorderSpacing.Around = 6
+      MaxValue = 1000
+      TabOrder = 2
+    end
+    object Label3: TLabel
+      AnchorSideLeft.Control = Label5
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideBottom.Control = SpinEdit3
+      AnchorSideBottom.Side = asrBottom
+      Left = 146
+      Height = 21
+      Top = 16
+      Width = 34
+      Anchors = [akLeft, akBottom]
+      Caption = 'Right'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      AnchorSideLeft.Control = Label5
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideBottom.Control = SpinEdit4
+      AnchorSideBottom.Side = asrBottom
+      Left = 146
+      Height = 21
+      Top = 53
+      Width = 49
+      Anchors = [akLeft, akBottom]
+      Caption = 'Bottom'
+      ParentColor = False
+    end
+    object SpinEdit4: TSpinEdit
+      AnchorSideTop.Control = SpinEdit3
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = GroupBox1
+      AnchorSideRight.Side = asrBottom
+      Left = 224
+      Height = 31
+      Top = 43
+      Width = 60
+      Anchors = [akTop, akRight]
+      BorderSpacing.Around = 6
+      MaxValue = 1000
+      TabOrder = 3
+    end
+    object Label5: TLabel
+      AnchorSideLeft.Control = GroupBox1
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = GroupBox1
+      Left = 145
+      Height = 1
+      Top = 0
+      Width = 1
+      ParentColor = False
+    end
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 41
+    Top = 297
+    Width = 456
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 1
+    ShowButtons = [pbOK, pbCancel, pbHelp]
+  end
+  object CheckGroup1: TCheckGroup
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 306
+    Height = 173
+    Top = 6
+    Width = 156
+    Anchors = [akTop, akRight]
+    AutoFill = True
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Print options'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 150
+    ClientWidth = 152
+    Items.Strings = (
+      'Show title'
+      'Show footer'
+      'Show footer color'
+      'Show grid color'
+      'Show report title'
+      'Hide zero values'
+    )
+    TabOrder = 2
+    Data = {
+      06000000020202020202
+    }
+  end
+  object RadioGroup1: TRadioGroup
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = GroupBox1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 69
+    Top = 185
+    Width = 106
+    AutoFill = True
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Orientation'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 46
+    ClientWidth = 102
+    Items.Strings = (
+      'Portrait'
+      'Landscape'
+    )
+    TabOrder = 3
+  end
+  object Label6: TLabel
+    AnchorSideLeft.Control = RadioGroup1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = GroupBox1
+    AnchorSideTop.Side = asrBottom
+    Left = 118
+    Height = 21
+    Top = 185
+    Width = 75
+    BorderSpacing.Around = 6
+    Caption = 'Report title'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label6
+    AnchorSideTop.Control = Label6
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 124
+    Height = 31
+    Top = 212
+    Width = 338
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 4
+  end
+  object CheckBox1: TCheckBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = RadioGroup1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 23
+    Top = 260
+    Width = 233
+    BorderSpacing.Around = 6
+    Caption = 'Show column header on all page'
+    TabOrder = 5
+  end
+end

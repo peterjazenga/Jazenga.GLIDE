@@ -1,0 +1,81 @@
+******************************************************************************
+*                                                                            *
+*                                 DMATH                                      *
+*                                                                            *
+*              MATHEMATICAL LIBRARY FOR DELPHI, FPC AND LAZARUS              *
+*                                                                            *
+*                      Version 0.80 (February 2011)                          *
+*                                                                            *
+******************************************************************************
+
+
+
+                           AUTHOR : Dr Jean DEBORD
+
+               Laboratoire de Pharmacologie, Faculte de Medecine
+               2 Rue du Docteur Marcland, 87025 Limoges (France)
+                            debord.jean@orange.fr
+                            jean.debord@unilim.fr                         
+
+
+******************************************************************************
+ This library is distributed under the terms of the GNU Lesser General Public
+ License (LGPL). See file LGPL.TXT for details.
+******************************************************************************
+
+
+INTRODUCTION
+============
+
+DMath is a mathematical library for Delphi, FreePascal (FPC) and Lazarus.
+It is entirely written in Pascal and does not depend on external libraries. 
+DMath provides routines and demo programs for numerical analysis, including 
+mathematical functions, probabilities, matrices, optimization, linear and nonlinear
+equations, integration, Fast Fourier Transform, random numbers, statistics.
+
+
+CONTENTS
+========
+
+Main directory
+--------------
+
+DMATH.TXT  : This file
+LGPL.TXT   : License
+DMATH.PDF  : Documentation of DMath in PDF format
+
+UNITS directory
+---------------
+
+Source files of individual units.
+
+DEMO directory
+--------------
+
+Source of demo programs.
+
+
+SYSTEM REQUIREMENTS
+===================
+
+PC computer with Delphi, FPC or Lazarus.
+
+
+INSTALLATION AND COMPILATION
+============================
+
+See the instructions in file DMATH.PDF (chapter 1)
+
+
+WEB LINKS
+=========
+
+TPMath web page:
+http://www.unilim.fr/pages_perso/jean.debord/tpmath/tpmath.htm
+
+SourceForge project page:
+http://sourceforge.net/projects/dmath/
+
+Mailing list:
+http://groups.yahoo.com/group/tpmathlib/
+

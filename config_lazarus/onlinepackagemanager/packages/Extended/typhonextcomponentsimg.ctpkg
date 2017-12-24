@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonextcomponentsimg"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="imgcomp"/>
+        <OtherUnitFiles Value="imgcomp"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Version Major="1" Minor="2" Release="9"/>
+    <Files Count="16">
+      <Item1>
+        <Filename Value="imgcomp/u_extdbimage.pas"/>
+        <UnitName Value="U_ExtDBImage"/>
+      </Item1>
+      <Item2>
+        <Filename Value="imgcomp/u_extimage.pas"/>
+        <UnitName Value="U_ExtImage"/>
+      </Item2>
+      <Item3>
+        <Filename Value="imgcomp/U_ExtPictCombo.pas"/>
+        <UnitName Value="U_ExtPictCombo"/>
+      </Item3>
+      <Item4>
+        <Filename Value="imgcomp/u_extmapimageindex.pas"/>
+        <UnitName Value="U_ExtMapImageIndex"/>
+      </Item4>
+      <Item5>
+        <Filename Value="imgcomp/u_extimagelist.pas"/>
+        <UnitName Value="u_extimagelist"/>
+      </Item5>
+      <Item6>
+        <Filename Value="imgcomp/u_extdbpictcombo.pas"/>
+        <UnitName Value="U_ExtDBPictCombo"/>
+      </Item6>
+      <Item7>
+        <Filename Value="imgcomp/u_extdbimagelist.pas"/>
+        <UnitName Value="U_ExtDBImageList"/>
+      </Item7>
+      <Item8>
+        <Filename Value="imgcomp/u_buttons_defs.pas"/>
+        <UnitName Value="u_buttons_defs"/>
+      </Item8>
+      <Item9>
+        <Filename Value="imgcomp/u_extdbgrid.pas"/>
+        <UnitName Value="u_extdbgrid"/>
+      </Item9>
+      <Item10>
+        <Filename Value="imgcomp/u_dblistview.pas"/>
+        <UnitName Value="U_DBListView"/>
+      </Item10>
+      <Item11>
+        <Filename Value="imgcomp/U_GroupView.pas"/>
+        <UnitName Value="U_GroupView"/>
+      </Item11>
+      <Item12>
+        <Filename Value="imgcomp/u_extcustomimages.pas"/>
+        <UnitName Value="u_extcustomimages"/>
+      </Item12>
+      <Item13>
+        <Filename Value="imgcomp/u_extdbimages.pas"/>
+        <UnitName Value="u_extdbimages"/>
+      </Item13>
+      <Item14>
+        <Filename Value="imgcomp/u_extimages.pas"/>
+        <UnitName Value="U_ExtImages"/>
+      </Item14>
+      <Item15>
+        <Filename Value="imgcomp/extjvxpcheckctrls.pas"/>
+        <UnitName Value="ExtJvXPCheckCtrls"/>
+      </Item15>
+      <Item16>
+        <Filename Value="imgcomp/extjvxpcoreutils.pas"/>
+        <UnitName Value="extjvxpcoreutils"/>
+      </Item16>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="LANG"/>
+    </i18n>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="typhonextinit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="typhonextcomponents"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_bgrabitmap"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="typhonextcore"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_rx"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="pl_jvcl"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

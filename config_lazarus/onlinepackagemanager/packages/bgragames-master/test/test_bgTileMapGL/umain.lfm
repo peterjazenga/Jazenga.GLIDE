@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 401
+  Height = 652
+  Top = 185
+  Width = 571
+  Caption = 'Form1'
+  ClientHeight = 652
+  ClientWidth = 571
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.4.0.4'
+  object OpenGLControl1: TOpenGLControl
+    Left = 0
+    Height = 652
+    Top = 0
+    Width = 571
+    Align = alClient
+    AutoResizeViewport = True
+    OnPaint = OpenGLControl1Paint
+  end
+end

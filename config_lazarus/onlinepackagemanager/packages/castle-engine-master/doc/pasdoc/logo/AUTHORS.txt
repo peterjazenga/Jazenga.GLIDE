@@ -1,0 +1,8 @@
+The Castle Game Engine logo in castle_game_engine_icon.svg ,
+along with some proposals (not yet used) in unused/ subdirectory, are
+Copyright 2016-2017 Paweł Wojciechowicz, Michalis Kamburelis.
+
+Distributed on the same license as the Castle Game Engine itself:
+- GNU GPL >= 2 or
+- GNU LGPL >= 2, with static linking exception
+- see ../../COPYING.txt for details.

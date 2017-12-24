@@ -1,0 +1,156 @@
+object ModelFieldEditorForm: TModelFieldEditorForm
+  Left = 438
+  Height = 324
+  Top = 161
+  Width = 385
+  Caption = 'Edit Field'
+  ClientHeight = 324
+  ClientWidth = 385
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.7'
+  object FieldNameEdit: TTIEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 294
+    Link.TIPropertyName = 'FieldName'
+    TabOrder = 0
+  end
+  object SaveButton: TBitBtn
+    Left = 133
+    Height = 30
+    Top = 287
+    Width = 123
+    Anchors = [akRight, akBottom]
+    Caption = 'Save'
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = SaveButtonClick
+    TabOrder = 3
+  end
+  object CancelButton: TBitBtn
+    Left = 261
+    Height = 30
+    Top = 287
+    Width = 120
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 60
+    Caption = 'Field Name'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 52
+    Width = 69
+    Caption = 'Display Label'
+    ParentColor = False
+  end
+  object DisplayLabelEdit: TTIEdit
+    Left = 8
+    Height = 23
+    Top = 68
+    Width = 294
+    Link.TIPropertyName = 'DisplayLabel'
+    TabOrder = 1
+  end
+  object FieldTypeComboBox: TTIComboBox
+    Left = 8
+    Height = 23
+    Top = 115
+    Width = 240
+    HistoryCaseSensitive = False
+    Link.TIPropertyName = 'FieldType'
+    MaxHistoryCount = 0
+    OnEditingDone = FieldTypeComboBoxEditingDone
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 99
+    Width = 53
+    Caption = 'Field Type'
+    ParentColor = False
+  end
+  object ConstraintsInspector: TVirtualJSONInspector
+    Left = 8
+    Height = 119
+    Top = 161
+    Width = 368
+    PropertyDefs = <    
+      item
+        DisplayName = 'Primary Key'
+        Name = 'primaryKey'
+      end    
+      item
+        DisplayName = 'Required'
+        Name = 'required'
+      end    
+      item
+        DisplayName = 'MinLength'
+        Name = 'minLength'
+      end    
+      item
+        DisplayName = 'MaxLength'
+        Name = 'maxLength'
+      end    
+      item
+        DisplayName = 'Minimum'
+        Name = 'minimum'
+      end    
+      item
+        DisplayName = 'Maximum'
+        Name = 'maximum'
+      end    
+      item
+        DisplayName = 'Pattern'
+        Name = 'pattern'
+      end>
+    OnFilterProperty = ConstraintsInspectorFilterProperty
+    OnFormatValue = ConstraintsInspectorFormatValue
+    EditDelay = 100
+    Header.AutoSizeIndex = -1
+    Header.Columns = <    
+      item
+        Position = 0
+        Text = 'Rule'
+        Width = 150
+      end    
+      item
+        Position = 1
+        Text = 'Value'
+        Width = 214
+      end>
+    Header.DefaultHeight = 17
+    Header.Height = 21
+    Header.Options = [hoAutoResize, hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible, hoAutoSpring]
+    TabOrder = 5
+    TreeOptions.AutoOptions = [toAutoDropExpand, toAutoScrollOnExpand, toAutoSpanColumns, toAutoTristateTracking, toAutoDeleteMovedNodes]
+    TreeOptions.MiscOptions = [toAcceptOLEDrop, toEditable, toFullRepaintOnResize, toGridExtensions, toInitOnSave, toToggleOnDblClick, toWheelPanning, toEditOnClick, toEditOnDblClick]
+    TreeOptions.PaintOptions = [toHideFocusRect, toHideSelection, toPopupMode, toShowButtons, toShowDropmark, toShowHorzGridLines, toShowVertGridLines, toThemeAware, toUseBlendedImages, toAlwaysHideSelection]
+    TreeOptions.SelectionOptions = [toExtendedFocus, toFullRowSelect]
+    OnAfterCellPaint = ConstraintsInspectorAfterCellPaint
+    OnClick = ConstraintsInspectorClick
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 15
+    Top = 144
+    Width = 60
+    Caption = 'Constraints'
+    ParentColor = False
+  end
+end

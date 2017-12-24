@@ -1,0 +1,2343 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestringsprotocols.rsblockincorrectlength
+msgid "Incorrect length in received block (%d)"
+msgstr ""
+
+#: idresourcestringsprotocols.rscannotbindrange
+msgid "Cannot bind to a LPR port from range %d to %d (No free Port)"
+msgstr ""
+
+#: idresourcestringsprotocols.rscmdnotrecognized
+msgctxt "idresourcestringsprotocols.rscmdnotrecognized"
+msgid "command not recognized"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodenoerror
+msgid "RCode NO Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequeryformat
+msgid "DNS Server Reports Query Format Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequeryname
+msgid "DNS Server Reports Query Name Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequerynotimplemented
+msgid "DNS Server Reports Query Not Implemented Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequeryqueryrefused
+msgid "DNS Server Reports Query Refused Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequeryserver
+msgid "DNS Server Reports Query Server Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rscodequeryunknownerror
+msgid "Server Returned Unknown Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rsdestinationfilealreadyexists
+msgid "Destination file already exists."
+msgstr ""
+
+#: idresourcestringsprotocols.rsdirsmtpcantassignhost
+msgid "Can not assign Host property, it is resolved by IdDirectSMTP on the fly."
+msgstr ""
+
+#: idresourcestringsprotocols.rsdirsmtpcantconnecttosmtpsvr
+msgid "Can not connect to MX servers for address %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsdirsmtpinvalidemailaddress
+msgid "Invalid Email Address %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsdirsmtpnomxrecordsfordomain
+msgid "No MX records for the domain %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsdnsmailaobsolete
+msgid "MailA is an Obsolete Command. USE MX."
+msgstr ""
+
+#: idresourcestringsprotocols.rsdnsmailbnotimplemented
+msgid "-Err 501 MailB is not implemented"
+msgstr ""
+
+#: idresourcestringsprotocols.rsdnsmdisobsolete
+msgid "MD is an Obsolete Command. Use MX."
+msgstr ""
+
+#: idresourcestringsprotocols.rsdnsmfisobsolete
+msgid "MF is an Obsolete Command. USE MX."
+msgstr ""
+
+#: idresourcestringsprotocols.rsdnstimeout
+msgid "TimedOut"
+msgstr ""
+
+#: idresourcestringsprotocols.rsemailsymboloutsideaddress
+msgid "@ Outside address"
+msgstr ""
+
+#: idresourcestringsprotocols.rsemptyhost
+msgid "Host is empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rsfipsalgorithmnotallowed
+msgid "Algorithm %s not permitted in FIPS mode"
+msgstr ""
+
+#: idresourcestringsprotocols.rsfspnotfound
+msgid "File Not Found"
+msgstr ""
+
+#: idresourcestringsprotocols.rsfsppackettoosmall
+msgid "Packet too small"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpactionaborted
+msgid "Requested action aborted: page type unknown."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpactionnottaken
+msgctxt "idresourcestringsprotocols.rsftpactionnottaken"
+msgid "Requested action not taken."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpanonymoususerlogged
+msgid "Anonymous user logged in, proceed."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpanonymoususerokay
+msgid "Anonymous login OK, send e-mail as password."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpauthssl
+msgid "AUTH Command OK. Initializing SSL"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcantopendata
+msgctxt "idresourcestringsprotocols.rsftpcantopendata"
+msgid "Can't open data connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcantopendataconn
+msgctxt "idresourcestringsprotocols.rsftpcantopendataconn"
+msgid "Can't open data connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpchmodsuccessful
+msgid "CHMOD command successful."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpclearcommandconnection
+msgid "Command channel switched to clear-text."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpclearcommandnotpermitted
+msgid "Clear command channel is not permitted."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpclntnoted
+msgid "Noted."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpclosingconnection
+msgctxt "idresourcestringsprotocols.rsftpclosingconnection"
+msgid "Service not available, closing control connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdendofstat
+msgid "End of Status"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdextssupportedend
+msgid "End of extentions."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdextssupportedstart
+msgctxt "idresourcestringsprotocols.rsftpcmdextssupportedstart"
+msgid "Extensions supported:"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdhelpnotknown
+msgid "Unknown command %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdnotimplemented
+msgid "\"%s\" Command not implemented."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdnotrecognized
+msgid "'%s': command not understood."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdstartofstat
+msgid "System status"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcmdsuccessful
+msgid "%s Command successful."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcompressornotready
+msgid "Compressor is not ready."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpcurrentdirectoryis
+msgid "\"%s\" is working directory."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconn
+msgid "Data connection open; no transfer in progress."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnassurancefailure
+msgid ""
+"Data connection assurance check failed.\n"
+"Server reported IP: %s  Port: %d\n"
+"Our socket IP: %s  Port: %d\n"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnclosed
+msgid "Closing data connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnclosedabnormally
+msgid "Data connection closed abnormally."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconneplfclosed
+msgid "Success."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnlist
+msgid "Opening ASCII mode data connection for /bin/ls."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnmlst
+msgid "Opening ASCII data connection for directory listing"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconnnlist
+msgid "Opening ASCII mode data connection for file list."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconntoopen
+msgid "File status okay; about to open data connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataconntoopenstou
+msgid "About to open data connection for %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdataprotbuffer0
+msgid "PBSZ Command OK. Protection buffer size set to 0."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdefaultgreeting
+msgid "Indy FTP Server ready."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdeniedforpolicyreasons
+msgid "Request denied for policy reasons."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdirectorystru
+msgid "%s directory structure."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdirfilecreated
+msgid "\"%s\" created."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpdirstyle
+msgid "MSDOS-like directory output is %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpenteringepsv
+msgid "Entering Extended Passive Mode (%s)"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpepsvallentered
+msgid " EPSV ALL sent, now only accepting EPSV connections"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfileactionaborted
+msgid "Requested action aborted: local error in processing."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfileactioncompleted
+msgid "Requested file action okay, completed."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfileactionnottaken
+msgid "Requested file action not taken."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfileactionpending
+msgid "Requested file action pending further information."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfilenamecannotbeempty
+msgid "The destination filename can not be empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfileopsuccess
+msgid "File Operation Successful"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpfsyserrmsg
+msgid "Permission Denied"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpftppassivemustbetruewithnatft
+msgid "Can not use active transfers with NAT fastracking."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftphelpbegining
+msgid "The following commands are recognized (* => unimplemented, + => extension)."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftphostnotfound
+msgid "Host not found."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpimplicittlsrequiresssl
+msgid "Implicit FTP requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidforparam
+msgid "Command not implemented for that parameter."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidip
+msgid "Invalid IP Address"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidnumberargs
+msgid "Invalid number of arguments %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidops
+msgid "Invalid %s options"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidport
+msgid "Invalid port number"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpinvalidprottypeformechanism
+msgid "Requested PROT level not supported by mechanism."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpiohandlerwrong
+msgid "IOHandler is of wrong type."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpisafile
+msgid "%s: Is a file."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmaxconnections
+msgid "Maximum connections limit exceeded. Try again later."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmissingcompressor
+msgid "No Compressor is assigned."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmodechanged
+msgid "Mode set to %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmodenotsupported
+msgid "Unimplemented mode."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmustuseextwithipv6
+msgid "UseExtensionDataPort must be true for IPv6 connections."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpmustuseextwithnatfasttrack
+msgid "UseExtensionDataPort must be true for NAT fasttracking."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpneedaccountforlogin
+msgid "Need account for login."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpneedloginwithuser
+msgid "Login with USER first."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnetprotnotsup
+msgid "Network protocol not supported, use (%s)"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnoauthcon
+msgid "Can not set AUTH while connected."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnoauthwossl
+msgid "Can not set AUTH without SSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnocccwoencryption
+msgid "Can not set CCC without encyption."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnodataportprotectionafterccc
+msgid "Can not set DataPortProtection after CCC issued."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnodataportprotectionwoencryption
+msgid "Can not set DataPortProtection with unencrypted connections."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnolistparseunitsregistered
+msgid "No FTP list parsers have been registered."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnoondirevent
+msgid "No OnListDirectory event found!"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnostoswithnatfasttrack
+msgid "No Site to Site transfers are permitted with a FTP NAT fastracked connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnotafterauthentication
+msgid "Not in authorization state, already logged in."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpnotallowedafterepsvall
+msgid "%s not allowed after EPSV ALL"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpoff
+msgid "off"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpon
+msgid "on"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftponcustomftpproxyreq
+msgid "OnCustomFTPProxy required but not assigned"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpopendataconn
+msgid "Data connection already open; transfer starting."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpoptnotrecog
+msgid "Option not recognized."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpotpmethod
+msgctxt "idresourcestringsprotocols.rsftpotpmethod"
+msgid "Unknown OTP method"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpparamerror
+msgid "Error in parameters to %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpparamnotimp
+msgid "Parameter %s Not Implemented"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppassivemode
+msgid "Entering Passive Mode (%s)."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppasvboundportmaxmustbegreater
+msgid "PASVBoundPortMax must be greater than PASVBoundPortMax."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppasvboundportminmustbeless
+msgid "PASVBoundPortMin must be less than PASVBoundPortMax."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppbszauthdatarequired
+msgid "AUTH Data required."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppbsznotafterccc
+msgid "Not permitted after CCC"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppermissiondenied
+msgid "Permission denied."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpportdisabled
+msgid "PORT/EPRT Command disabled."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpportrange
+msgid "PORT/EPRT Command disabled for reserved port range (1-1024)."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftppropnotneg
+msgid "Property can not be a negative number."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpprotocolnotsupported
+msgid "Protocol not supported, use"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpprotprotbufrequired
+msgid "PBSZ Data Buffer Size required."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpprottypeclear
+msgid "PROT Command OK. Using Clear data connection"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpprottypeprivate
+msgid "PROT Command OK. Using Private data connection"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpquitgoodby
+msgid "Goodbye."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftprequestedactionnottaken
+msgctxt "idresourcestringsprotocols.rsftprequestedactionnottaken"
+msgid "Requested action not taken."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftprequestedfileactionaborted
+msgid "Requested file action aborted."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftprequestedfileactionnottaken
+msgctxt "idresourcestringsprotocols.rsftprequestedfileactionnottaken"
+msgid "Requested action not taken."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpsameipaddress
+msgid "Data port can only be used by the same IP address used by the control connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpserverclosed
+msgid "Service closing control connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpserversentinvalidport
+msgid "Server sent invalid port number (%s)"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpservicenotavailable
+msgctxt "idresourcestringsprotocols.rsftpservicenotavailable"
+msgid "Service not available, closing control connection."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpserviceopen
+msgid "Service ready for new user."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpsiteattribdone
+msgid " done, total %s attributes changed."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpsiteattribinvalid
+msgid " failed, invalid attribute."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpsiteattribmsg
+msgid "site attrib"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpsitecmdssupported
+msgid "The following SITE commands are supported:"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstatusaborttransfer
+msgid "Transfer aborted"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstatusdonetransfer
+msgid "Transfer complete"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstatusready
+msgid "Connection established"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstatusstarttransfer
+msgid "Starting FTP transfer"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstosnodataprotection
+msgid "Can't use dataprotection on site to site transfer."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstosprotosmustbesame
+msgid "Transport protocols must be the same."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstossscnnotsupported
+msgid "SSCN is not supported on both servers."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstostransfermodesmusbtsame
+msgid "Transfer modes must be the same."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpstruchanged
+msgid "Structure set to %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftptypechanged
+msgid "Type set to %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpumaskis
+msgid "Current UMASK is %.3d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpumaskset
+msgid "UMASK set to %.3d (was %.3d)"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpunknownhost
+msgctxt "idresourcestringsprotocols.rsftpunknownhost"
+msgid "Unknown"
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpunsupportedtransfermode
+msgid "Unsupported transfer mode."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpunsupportedtransfertype
+msgid "Unsupported transfer type."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpuserlogged
+msgid "User logged in, proceed."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpusernotloggedin
+msgid "Not logged in."
+msgstr ""
+
+#: idresourcestringsprotocols.rsftpuserokay
+msgid "User name okay, need password."
+msgstr ""
+
+#: idresourcestringsprotocols.rsgophernotgopherplus
+msgid "%s is not a Gopher+ server"
+msgstr ""
+
+#: idresourcestringsprotocols.rsgopherservernoprogramcode
+msgid "Error: No program code to return request!"
+msgstr ""
+
+#: idresourcestringsprotocols.rsheaderdecodeerror
+msgid "Could not decode header data using charset \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rsheaderencodeerror
+msgid "Could not encode header data using charset \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7alreadystarted
+msgid "Interface was already started"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7alreadystopped
+msgid "Interface was already stopped"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7broken
+msgid "IdHL7 is broken in Indy 10 for the present"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7clientthreadnotstopped
+msgid "Unable to stop client thread"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7errinternalsrnone
+msgid "Internal error in IdHL7.pas: SynchronousSend returned srNone"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7errinternalsrsent
+msgid "Internal error in IdHL7.pas: SynchronousSend returned srSent"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7errinternalunknownval
+msgid "Internal error in IdHL7.pas: SynchronousSend returned an unknown value "
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7errnoresponse
+msgid "No response from remote system"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7errnotconn
+msgid "Not connected"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7impossiblemessage
+msgid "A message has been received but the commication mode is unknown"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7invalidport
+msgid "Assigned Port value %d is invalid"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7modenotset
+msgid "Mode is not initialised"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7noasynevent
+msgid "Component is in Asynchronous mode but OnMessageArrive has not been hooked"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7noconnectionfound
+msgid "Server Connection not locatable when sending message"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7nosynevent
+msgid "Component is in Synchronous mode but  OnMessageReceive has not been hooked"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7notfailedtostop
+msgid "Interface is unusable due to failure to stop"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7notwhileworking
+msgid "You cannot set %s while the HL7 Component is working"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7notworking
+msgid "Attempt to %s while the HL7 Component is not working"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7sendmessage
+msgid "Send a message"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusconnected
+msgid "Connected"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusconnecting
+msgctxt "idresourcestringsprotocols.rshl7statusconnecting"
+msgid "Connecting"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusfailedtostart
+msgid "Failed to Start: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusfailedtostop
+msgid "Failed to Stop: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusnotconnected
+msgid "Not Connected"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusreconnect
+msgid "Reconnect at %s: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7statusstopped
+msgid "Stopped"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7unexpectedmessage
+msgid "Unexpected message arrived to an interface that is not listening"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7unknownmode
+msgid "Unknown mode"
+msgstr ""
+
+#: idresourcestringsprotocols.rshl7waitforanswer
+msgid "You cannot send a message while you are still waiting for an answer"
+msgstr ""
+
+#: idresourcestringsprotocols.rshtmlviewerneeded
+msgid "An HTML viewer is required to see this message"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpaccepted
+msgid "Accepted"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpauthalreadyregistered
+msgid "This authentication method is already registered with class name %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpauthinvalidhash
+msgid "Unsupported hash algorithm. This implementation supports only MD5 encoding."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpbadgateway
+msgid "Bad Gateway"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpbadrequest
+msgid "Bad Request"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpcannotswitchsessionidcookienamewhenactive
+msgid "Cannot change session ID cookie name when the server is active."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpcannotswitchsessionlistwhenactive
+msgid "Cannot change session list when the server is active."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpcannotswitchsessionstatewhenactive
+msgid "Cannot change session state when the server is active."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpchunkstarted
+msgid "Chunk Started"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpconflict
+msgid "Conflict"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpcontinue
+msgid "Continue"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpcreated
+msgid "Created"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttperrorparsingcommand
+msgid "Error in parsing command."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpexpectationfailed
+msgid "Expectation Failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpforbidden
+msgid "Forbidden"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpgatewaytimeout
+msgid "Gateway timeout"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpgone
+msgid "Gone"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpheaderalreadywritten
+msgid "Header has already been written."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttphttpversionnotsupported
+msgid "HTTP version not supported"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpinternalservererror
+msgid "Internal Server Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttplengthrequired
+msgid "Length Required"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpmethodnotallowed
+msgid "Method not allowed"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpmethodrequiresversion
+msgid "Request method requires HTTP version 1.1"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpmovedpermanently
+msgid "Moved Permanently"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpmovedtemporarily
+msgid "Moved Temporarily"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnetworkauthenticationrequired
+msgid "Network Authentication Required"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnocontent
+msgid "No Content"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnonauthoritativeinformation
+msgid "Non-authoritative Information"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnotacceptable
+msgid "Not Acceptable"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnotfound
+msgid "Not Found"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnotimplemented
+msgid "Not Implemented"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpnotmodified
+msgid "Not Modified"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpok
+msgid "OK"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttppartialcontent
+msgid "Partial Content"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttppreconditionfailed
+msgid "Precondition Failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttppreconditionrequired
+msgid "Precondition Required"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpproxyauthenticationrequired
+msgid "Proxy Authentication Required"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttprequestentitytoolong
+msgid "Request Entity Too Long"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttprequestheaderfieldstoolarge
+msgid "Request Header Fields Too Large"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttprequesttimeout
+msgid "Request Timeout"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttprequesturitoolong
+msgid "Request-URI Too Long. 256 Chars max"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpresetcontent
+msgid "Reset Content"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpseeother
+msgid "See Other"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpserviceunavailable
+msgid "Service Unavailable"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpswitchingprotocols
+msgid "Switching protocols"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttptoomanyrequests
+msgid "Too Many Requests"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunauthorized
+msgid "Unauthorized"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunknowncookieversion
+msgid "Unsupported cookie version: %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunknownprotocol
+msgid "Unknown Protocol"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunknownresponsecode
+msgid "Unknown Response Code"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunsupportedauthorisationscheme
+msgid "Unsupported authorization scheme."
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpunsupportedmediatype
+msgid "Unsupported Media Type"
+msgstr ""
+
+#: idresourcestringsprotocols.rshttpuseproxy
+msgid "Use Proxy"
+msgstr ""
+
+#: idresourcestringsprotocols.rsidenthiddenuser
+msgid "Hidden User:  Information was not returned at a user's request"
+msgstr ""
+
+#: idresourcestringsprotocols.rsidentinvalidport
+msgid "Invalid Port:  The foreign or local port is not specified correctly or invalid"
+msgstr ""
+
+#: idresourcestringsprotocols.rsidentnouser
+msgid "No User:  Port pair is not used or not used by an identifiable user"
+msgstr ""
+
+#: idresourcestringsprotocols.rsidentreplytimeout
+msgid "Reply Timed Out:  The server did not return a response and the query has been abandoned"
+msgstr ""
+
+#: idresourcestringsprotocols.rsidentunknownerror
+msgid "Unknown or other error: Can not determine owner, other error, or the error can not be revealed."
+msgstr ""
+
+#: idresourcestringsprotocols.rsidmessagecannotload
+msgid "Cannot load message from file %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsihtchainednotassigned
+msgid "You must chain this component to another I/O Handler before using it"
+msgstr ""
+
+#: idresourcestringsprotocols.rsillegalcharininputstring
+msgid "Illegal character in input string."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstateany
+msgid "Any"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstateauthenticated
+msgid "Authenticated"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstateerror
+msgid "Unable to execute command, wrong connection state;Current connection state: %s."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstatenonauthenticated
+msgid "Non Authenticated"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstateselected
+msgid "Selected"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4connectionstateunexpectedlydisconnected
+msgid "Unexpectedly Disconnected"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4disconnectedprobablyidledout
+msgid "Server has gracefully disconnected you, possibly because the connection was idle for too long."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4numberinvalid
+msgid "Number parameter (relative message number or UID) is invalid; Must be 1 or greater."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4numberinvaliddigits
+msgid "Number parameter (relative message number or UID) is invalid; Cannot contain non-digit characters."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4numberinvalidstring
+msgid "Number parameter (relative message number or UID) is invalid; Cannot contain an empty string."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4svrbegintlsnegotiation
+msgid "Begin TLS negotiation now"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4svrimplicittlsrequiresssl
+msgid "Implicit IMAP4 requires that IOHandler be set to a TIdServerIOHandlerSSLBase."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4svrnotpermittedwithtls
+msgctxt "idresourcestringsprotocols.rsimap4svrnotpermittedwithtls"
+msgid "Command not permitted when TLS active"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4utfillegalbitshifting
+msgid "Illegal bit shifting in MUTF7 string"
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4utfillegalchar
+msgid "Illegal char #%d in UTF7 sequence."
+msgstr ""
+
+#: idresourcestringsprotocols.rsimap4utfusasciiinutf
+msgid "US-ASCII char #%d in UTF7 sequence."
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidftplistingformat
+msgid "Unknown FTP listing format"
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidhostname
+msgid "Invalid host name. A SYSLOG host name cannot contain any space (\"%s\")+"
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidsyslogpacketsize
+msgid "Invalid Syslog message: packet too large (%d bytes)"
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidsyslogpri
+msgid "Invalid syslog message: incorrect PRI section"
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidsyslogprinumber
+msgid "Invalid syslog message: incorrect PRI number \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rsinvalidsyslogtimestamp
+msgid "Invalid syslog message: incorrect timestamp \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rsiohandlerpropinvalid
+msgid "IOHandler value is not valid"
+msgstr ""
+
+#: idresourcestringsprotocols.rsirccannotconnect
+msgid "IRC Connect Failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdabortjob
+msgid "abort job"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdclosingconnection
+msgid "closing connection"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdconnectto
+msgid "connected with %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdcontrolfilesaved
+msgid "Control file save to %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpddatafilesaved
+msgid "Data file saved to %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpddirectorydoesnotexist
+msgid "Directory %s does not exist"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdnoqueuesdefined
+msgid "Error: no queues defined"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdqueuestatus
+msgid "Queue %s status: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdreceivecontrolfile
+msgid "Receive control file"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdreceivedatafile
+msgid "Receive data file"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdserveractive
+msgid "Server status: active"
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdserverstarttitle
+msgid "Winshoes LPD Server %s "
+msgstr ""
+
+#: idresourcestringsprotocols.rslpdunknownqueue
+msgid "Unknown queue %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslprerror
+msgid "Reply %d on Job ID %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rslprunknown
+msgctxt "idresourcestringsprotocols.rslprunknown"
+msgid "Unknown"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmessagecodermimeunrecognizedcontenttrasnferencoding
+msgid "Unrecognized content trasnfer encoding."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmessagedecodernotfound
+msgid "Message decoder not found"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmessageencodernotfound
+msgid "Message encoder not found"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmfdinvalidencoding
+msgid "Unsupported encoding. You can assign only one of the following values: Q, B, 8."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmfdinvalidobjecttype
+msgid "Unsupported object type. You can assign only one of the following types or their descendants: TStrings, TStream."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmfdinvalidtransfer
+msgid "Unsupported transfer type. You can assign only an empty string or one of the following values: 7bit, 8bit, binary, quoted-printable, base64."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmimeextensionempty
+msgid "Extension is empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmimemimeextalreadyexists
+msgid "Extension already exits"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmimemimetypeempty
+msgid "Mimetype is empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgclientencodingattachment
+msgid "Encoding attachment"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgclientencodingtext
+msgid "Encoding text"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgclientinvalidencoding
+msgid "Invalid Encoding. UU only allows Body and Attachments."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgclientinvalidfortransferencoding
+msgid "Message parts cannot be used in a message which has a ContentTransferEncoding value."
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgcmpedtrbodytext
+msgid "Body Text Editor"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgcmpedtrextrahead
+msgid "Extra Headers Text Editor"
+msgstr ""
+
+#: idresourcestringsprotocols.rsmsgcmpedtrnew
+msgid "&New Message Part..."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnetcalcinvalidnetworkmask
+msgid "Invalid network mask."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnetcalcinvalidvaluelength
+msgid "Invalid value length: Should be 32."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnetcalconfirmlongiplist
+msgid "There is too many IP addresses in the specified range (%d) to be displayed at design time."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnetcalinvalidipstring
+msgid "The string %s does not translate into a valid IP."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpconnectionrefused
+msgid "Connection explicitly refused by NNTP server."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpextsupported
+msgctxt "idresourcestringsprotocols.rsnntpextsupported"
+msgid "Extensions supported:"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpnoonnewgroupslist
+msgid "No OnNewGroupsList event has been defined."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpnoonnewnewslist
+msgid "No OnNewNewsList event has been defined."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpnoonnewsgrouplist
+msgid "No OnNewsgroupList event has been defined."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpnoonxhdrentry
+msgid "No OnXHDREntry event has been defined."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpnoonxover
+msgid "No OnXOVER event has been defined."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyarticlepostedok
+msgid "article posted ok"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyarticletransferedok
+msgid "article transferred ok"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyartnotwanted
+msgid "article not wanted - do not send it"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyartrejected
+msgid "article rejected - do not try again."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyauthaccepted
+msgid "Authentication accepted"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyauthorizationrejected
+msgid "Authorization rejected"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyauthorizationrequired
+msgid "Authorization required for this command"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyauthrejected
+msgid "Authentication required"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyclosinggoodby
+msgid "closing connection - goodbye!"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplycommandnotrec
+msgctxt "idresourcestringsprotocols.rsnntpreplycommandnotrec"
+msgid "command not recognized"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplycommandsyntax
+msgid "command syntax error"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplycontinuetlsnegot
+msgid "Continue with TLS negotiation"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyheadersfollow
+msgid "Headers follow"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplymoreauthrequired
+msgid "More authentication information required"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynewnewsgroupsfollow
+msgid "list of new newsgroups follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynewsgroupsfollow
+msgid "list of newsgroups follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynoartfound
+msgid "no such article found"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynoarticlesel
+msgid "no current article has been selected"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynoartnumber
+msgid "no such article number in this group"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynonewsgroupsel
+msgid "no newsgroup has been selected"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynonextart
+msgid "no next article in this group"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynoposting
+msgid "posting not allowed"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynoprevart
+msgid "no previous article in this group"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplynosuchnewsgroup
+msgid "no such news group"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyoverviewinfofollows
+msgid "Overview information follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplypermdenied
+msgid "access restriction or permission denied"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplypostingfailed
+msgid "posting failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyprogramfault
+msgid "program fault - command not performed"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplysecalreadyactive
+msgid "Security layer already active"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplysendartpost
+msgid "send article to be posted. End with <CR-LF>.<CR-LF>"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplysendarttransfer
+msgid "send article to be transferred. End with <CR-LF>.<CR-LF>"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyservicediscont
+msgid "service discontinued"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplyslavestatus
+msgid "slave status noted"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplystrongencryptionrequired
+msgid "Strong encryption layer is required"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplysvrreadynopostingallowed
+msgid "server ready - no posting allowed"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplysvrreadypostingallowed
+msgid "server ready - posting allowed"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplytlstempunavail
+msgid "TLS temporarily not available"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpreplytransferfailed
+msgid "transfer failed - try again later"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpretreivedarticlefollows
+msgid " article retrieved - head and body follow"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpretreivedastaticstsonly
+msgid " article retrieved - statistics only"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpretreivedbodyfollows
+msgid " article retrieved - body follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpretreivedheaderfollows
+msgid " article retrieved - head follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpservergoodbye
+msgid "Goodbye"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpservernotrecognized
+msgid "Command not recognized"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpstringlistnotinitialized
+msgid "Stringlist not initialized!"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnntpsvrimplicittlsrequiresssl
+msgid "Implicit NNTP requires that IOHandler be set to a TIdSSLIOHandlerSocketBase."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnttparticleretrievedrequesttextseparately
+msgid " article retrieved - request text separately"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnttpnewstomesendarticle
+msgid "News to me!  <CRLF.CRLF> to end."
+msgstr ""
+
+#: idresourcestringsprotocols.rsnttpnotinnewsgroup
+msgid "Not currently in newsgroup"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnttpreplydebugoutput
+msgid "debug output"
+msgstr ""
+
+#: idresourcestringsprotocols.rsnttpreplyhelptextfollows
+msgid "help text follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rsotpunknownmethod
+msgctxt "idresourcestringsprotocols.rsotpunknownmethod"
+msgid "Unknown OTP method"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3fieldnotspecified
+msgid " not specified"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3proxygreeting
+msgid "POP3 proxy ready"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3quitmsg
+msgid "POP3 proxy signing off"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3replyinvalidenhancedcode
+msgid "Invalid Enhanced Code: "
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3serverdonotsupportapop
+msgid "Server do not support APOP (no timestamp)"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrbegintlsnegotiation
+msgid "Begin TLS negotiation"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrcapalist
+msgid "Capability list follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrclosingconnection
+msgid "Closing Connection Channel."
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrhelpfollows
+msgid "Help follows"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrimplicittlsrequiresssl
+msgid "Implicit POP3 requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrinternalerror
+msgid "Unknown Internal Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrinvalidmsgno
+msgid "Invalid Message Number"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrinvalidsyntax
+msgid "Invalid Syntax"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrloginfailed
+msgid "Login failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrloginfirst
+msgid "Please login first"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrloginok
+msgid "Login OK"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrmustusestls
+msgid "Must use STLS"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrnoop
+msgid "NOOP"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrnothandled
+msgid "Command Not Handled: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrnotinthisstate
+msgid "Command not permitted in this state"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrnotpermittedwithtls
+msgctxt "idresourcestringsprotocols.rspop3svrnotpermittedwithtls"
+msgid "Command not permitted when TLS active"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrpasswordrequired
+msgid "Password required"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrreset
+msgid "Reset"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrtoomanycons
+msgid "Too many connections. Try again later."
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrunknowncmd
+msgid "Sorry, Unknown Command"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrunknowncmdfmt
+msgid "Sorry, Unknown Command: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrwelcome
+msgid "Welcome to Indy POP3 Server"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrwelcomeapop
+msgid "Welcome "
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3svrwrongstate
+msgid "Wrong State"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3unknowncommand
+msgid "command must be either USER or QUIT"
+msgstr ""
+
+#: idresourcestringsprotocols.rspop3unrecognizedpop3responseheader
+msgid ""
+"Unrecognized POP3 Response Header:\n"
+"\"%s\"\n"
+msgstr ""
+
+#: idresourcestringsprotocols.rsqueryinvalidheaderid
+msgid "Invalid Header Id %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsqueryinvalidipv6
+msgid "Invalid IP V6 Address. %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rsqueryinvalidpacketsize
+msgid "Invalid Packet Size %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsqueryinvalidquerycount
+msgid "Invalid Query Count %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsquerylessthanfour
+msgid "Received Packet is too small. Less than 4 bytes. %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsquerylessthantwelve
+msgid "Received Packet is too small. Less than 12 bytes. %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsquerymustprovidesoarecord
+msgid "You have to provide a TIdRR_SOA object with Serial number and Name to progress IXFR. %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsquerypackreceivedtoosmall
+msgid "Received Packet is too small. %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsqueryunknownerror
+msgid "Unknown Error %d, Id %d"
+msgstr ""
+
+#: idresourcestringsprotocols.rsregsasl
+msgid "Indy SASL"
+msgstr ""
+
+#: idresourcestringsprotocols.rsrtfviewerneeded
+msgid "An RTF viewer is required to see this message"
+msgstr ""
+
+#: idresourcestringsprotocols.rssasldigestauthconfnotsupported
+msgid "auth-conf not yet supported."
+msgstr ""
+
+#: idresourcestringsprotocols.rssasldigestinvalidalgorithm
+msgid "invalid algorithm in challange."
+msgstr ""
+
+#: idresourcestringsprotocols.rssasldigestmissingalgorithm
+msgid "missing algorithm in challange."
+msgstr ""
+
+#: idresourcestringsprotocols.rssaslnotready
+msgid "The specified SASL handlers are not ready!!"
+msgstr ""
+
+#: idresourcestringsprotocols.rssaslnotsupported
+msgid "Doesn't support AUTH or the specified SASL handlers!!"
+msgstr ""
+
+#: idresourcestringsprotocols.rssaslrequired
+msgid "Need SASL mechanisms to login with it!!"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpaccountdisabled
+msgid "%s Account Disabled"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtplocalprocessingerror
+msgid "Local Processing Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpmailboxunavailable
+msgid "Requested action not taken: mailbox unavailable"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpmsglenlimit
+msgid "Message length exceeds administrative limit"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpnoonrcptto
+msgid "No OnRcptTo event"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpnotloggedin
+msgid "Not logged in"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpreplyinvalidclass
+msgid "Invalid Reply Class."
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpreplyinvalidreplystr
+msgid "Invalid Reply String."
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvraddresserror
+msgid "%s Address Error"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvraddressok
+msgid "%s Address Okay"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvraddresswillforward
+msgid "%s User not local, Will forward"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrauthfailed
+msgid "Authentication Failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrbadsequence
+msgid "Bad sequence of commands"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrcmderrsecurity
+msgid "Command refused due to lack of security"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrcmdgeneralerror
+msgid "Syntax Error - Command not understood: %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrcmdnotrecognized
+msgid "Command Not Recognised"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrexceededstoragealloc
+msgid "Requested mail action aborted: exceeded storage allocation"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrhello
+msgid "Hello %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrimplicittlsrequiresssl
+msgid "Implicit SMTP TLS requires that IOHandler be set to a TIdServerIOHandlerSSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrinsufficientsysstorage
+msgid "Requested action not taken: insufficient system storage "
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrlocalerror
+msgid "Requested action aborted: local error in processing"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrmailboxnamenotallowed
+msgid "Requested action not taken: mailbox name not allowed"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrnohello
+msgid "Polite people say HELO"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrnorelay
+msgid "We do not relay %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrnotpermitted
+msgid "%s Sender Not Permitted"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrok
+msgid "Ok"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrparmerr
+msgid "Syntax error in parameters or arguments"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrparmerrmailfrom
+msgid "Parameter error! Example: mail from:<user@domain.com>"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrparmerrnoneallowed
+msgid "Syntax error (no parameters allowed)"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrparmerrrcptto
+msgid "Command parameter error! Example: rcpt to:<a@b.c>"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrquit
+msgid "Signing Off"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrreadyfortls
+msgid "Ready to start TLS"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrreceivedheader
+msgid "by DNSName [127.0.0.1] running Indy SMTP"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrreqstarttls
+msgid "Must issue a STARTTLS command first"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrspfcheckerror
+msgid "SPF %s check error"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrspfcheckfailed
+msgid "SPF %s check failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrstartdata
+msgid "Start mail input; end with <CRLF>.<CRLF>"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrtransactionfailed
+msgid " Transaction failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrwelcome
+msgid "Welcome to the INDY SMTP Server"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpsvrxserver
+msgid "Indy SMTP Server"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtptoomanyrecipients
+msgid "Too Many recipients."
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpusernotlocal
+msgid "User %s not local; please try <%s>"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpusernotlocalfwdaddr
+msgid "User %s not local; will forward to <%s>"
+msgstr ""
+
+#: idresourcestringsprotocols.rssmtpusernotlocalnoaddr
+msgid "User %s not local; no forwarding address"
+msgstr ""
+
+#: idresourcestringsprotocols.rssnppnomultiline
+msgid "TIdSNPP Mess command only supports single line Messages."
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvraccessdenied
+msgid "Access Denied"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrinvalidlogin
+msgid "Invalid Login"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrnotsupported
+msgid "Not supported"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrpeermismatch
+msgid "Peer IP mismatch"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrunexpectedclose
+msgid "Unexpected Close"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrwrongatyp
+msgid "Wrong SOCKS5-ATYP"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrwrongsockscommand
+msgid "Wrong SOCKS-Command"
+msgstr ""
+
+#: idresourcestringsprotocols.rssockssvrwrongsocksversion
+msgid "Wrong SOCKS-version"
+msgstr ""
+
+#: idresourcestringsprotocols.rssslaccepterror
+msgid "Error accepting connection with SSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslconnecterror
+msgid "Error connecting with SSL."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslcreatingcontexterror
+msgid "Error creating SSL context."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslcreatingsessionerror
+msgid "Error creating SSL session."
+msgstr ""
+
+#: idresourcestringsprotocols.rsssldatabindingerror
+msgid "Error binding data to SSL socket."
+msgstr ""
+
+#: idresourcestringsprotocols.rsssleofviolation
+msgid "EOF was observed that violates the protocol"
+msgstr ""
+
+#: idresourcestringsprotocols.rssslfdseterror
+msgid "Error setting File Descriptor for SSL"
+msgstr ""
+
+#: idresourcestringsprotocols.rssslgetmethoderror
+msgid "Error getting SSL method."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslloadingcerterror
+msgid "Could not load certificate."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslloadingdhparamserror
+msgid "Could not load DH Parameters."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslloadingkeyerror
+msgid "Could not load key, check password."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslloadingrootcerterror
+msgid "Could not load root certificate."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslsettingciphererror
+msgid "SetCipher failed."
+msgstr ""
+
+#: idresourcestringsprotocols.rssslsettingtlshostnameerror
+msgid "Error setting TLS hostname for SSL socket"
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetcliconnecterror
+msgid "server not responding"
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetclireaderror
+msgid "Server did not respond."
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvinvalidlogin
+msgid "Invalid Login."
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvmaxloginattempt
+msgid "Allowed login attempts exceeded, good bye."
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvnoauthhandler
+msgid "No authentication handler has been specified."
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvondataavailableisnil
+msgid "OnDataAvailable event is nil."
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvpasswordprompt
+msgid "Password: "
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvusernameprompt
+msgid "Username: "
+msgstr ""
+
+#: idresourcestringsprotocols.rstelnetsrvwelcomestring
+msgid "Indy Telnet Server"
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpaccessdenied
+msgid "Access to %s denied"
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpdiskfull
+msgid "Unable to complete write request, progress halted at %d bytes"
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpfilenotfound
+msgid "Unable to open %s"
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpunexpectedop
+msgid "Unexpected operation from %s:%d"
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpunsupportedoption
+msgid "Unsupported option: \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpunsupportedoptionvalue
+msgid "Unsupported value \"%s\" for option: \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rstftpunsupportedtrxmode
+msgid "Unsupported transfer mode: \"%s\""
+msgstr ""
+
+#: idresourcestringsprotocols.rstidmessageerrorattachmentblocked
+msgid "Attachment %s is blocked."
+msgstr ""
+
+#: idresourcestringsprotocols.rstidmessageerrorsavingattachment
+msgid "Error saving attachment."
+msgstr ""
+
+#: idresourcestringsprotocols.rstidmessagepartcreate
+msgid "TIdMessagePart can not be created.  Use descendant classes. "
+msgstr ""
+
+#: idresourcestringsprotocols.rstidtextinvalidcount
+msgid "Invalid Text count. Must have more than 1 TIdText object."
+msgstr ""
+
+#: idresourcestringsprotocols.rstimeout
+msgid "Timeout"
+msgstr ""
+
+#: idresourcestringsprotocols.rstlsslcannotsetwhileconnected
+msgid "This value can not be set while the client is connected."
+msgstr ""
+
+#: idresourcestringsprotocols.rstlsslsslcmdfailed
+msgid "Start SSL negotiation command failed."
+msgstr ""
+
+#: idresourcestringsprotocols.rstlsslsslhandshakefailed
+msgid "SSL negotiation failed."
+msgstr ""
+
+#: idresourcestringsprotocols.rstlsslsslnotavailable
+msgid "SSL is not available on this server."
+msgstr ""
+
+#: idresourcestringsprotocols.rstlssslcannotsetwhileactive
+msgid "This value can not be set while the server is active."
+msgstr ""
+
+#: idresourcestringsprotocols.rstlsssliohandlerrequired
+msgid "SSL IOHandler is required for this setting"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelconnectmsg
+msgctxt "idresourcestringsprotocols.rstunnelconnectmsg"
+msgid "Connecting"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelconnecttomasterfailed
+msgid "Cannt connect to the Master server"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelcrcfailed
+msgid "CRC Failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunneldisconnectmsg
+msgid "Disconnect"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunneldontallowconnections
+msgid "Do not allow connctions now"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelgetbyterange
+msgid "Call to %s.GetByte [property Bytes] with index <> [0..%d]"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelmessagecustominterpreterror
+msgid "Custom message interpretation failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelmessagehandlingerror
+msgid "Message handling failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelmessageinterpreterror
+msgid "Interpretation of message failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunnelmessagetypeerror
+msgid "Message type recognition error"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunneltransformerror
+msgid "Transform failed"
+msgstr ""
+
+#: idresourcestringsprotocols.rstunneltransformerrorbs
+msgid "Error in transformation before send"
+msgstr ""
+
+#: idresourcestringsprotocols.rsunassigneduserpassprov
+msgid "Unassigned UserPassProvider!"
+msgstr ""
+
+#: idresourcestringsprotocols.rsunevensizeindecodestream
+msgid "Uneven size in DecodeToStream."
+msgstr ""
+
+#: idresourcestringsprotocols.rsunevensizeinencodestream
+msgid "Uneven size in Encode."
+msgstr ""
+
+#: idresourcestringsprotocols.rsunrecognizedimap4responseheader
+msgid "Unrecognized IMAP4 Response Header."
+msgstr ""
+
+#: idresourcestringsprotocols.rsunrecognizeduueencodingscheme
+msgid "Unrecognized UUE encoding scheme."
+msgstr ""
+
+#: idresourcestringsprotocols.rsunsupportedoperation
+msgid "Unsupported operation."
+msgstr ""
+
+#: idresourcestringsprotocols.rsurinohost
+msgid "Host field is empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rsurinoproto
+msgid "Protocol field is empty"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxgetdatevariable
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetDateVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxgetintvariable
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetIntegerVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxgetstrvariable
+msgid "Invalid Index %s in TIdHTTPAppResponse.GetStringVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxsetdatevariable
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetDateVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxsetintvariable
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetIntegerVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalididxsetstringvar
+msgid "Invalid Index %s in TIdHTTPAppResponse.SetStringVariable"
+msgstr ""
+
+#: idresourcestringsprotocols.rswbbinvalidstringvar
+msgid "TIdHTTPAppResponse.SetStringVariable: Cannot set the version"
+msgstr ""
+
+#: idresourcestringsprotocols.rswsockstack
+msgid "Winsock stack"
+msgstr ""
+
+#: idresourcestringsprotocols.rsyencfilecorrupted
+msgid "File corrupted."
+msgstr ""
+
+#: idresourcestringsprotocols.rsyencinvalidcrc
+msgid "Invalid CRC"
+msgstr ""
+
+#: idresourcestringsprotocols.rsyencinvalidsize
+msgid "Invalid Size"
+msgstr ""
+
+#: idresourcestringsprotocols.rszlcompressionerror
+msgid "Compression error"
+msgstr ""
+
+#: idresourcestringsprotocols.rszlcompressorinitializefailure
+msgid "Unable to initialize compressor"
+msgstr ""
+
+#: idresourcestringsprotocols.rszldecompressionerror
+msgid "Decompression error"
+msgstr ""
+
+#: idresourcestringsprotocols.rszldecompressorinitializefailure
+msgid "Unable to initialize decompressor"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_alert
+msgid "log alert"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_audit
+msgid "log audit"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_clock1
+msgid "clock daemon (1)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_clock2
+msgid "clock daemon (2)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_ftp
+msgid "FTP daemon"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_internal
+msgid "messages generated internally by syslogd"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_kernel
+msgid "kernel messages"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local0
+msgid "local use 0  (local0)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local1
+msgid "local use 1  (local1)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local2
+msgid "local use 2  (local2)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local3
+msgid "local use 3  (local3)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local4
+msgid "local use 4  (local4)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local5
+msgid "local use 5  (local5)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local6
+msgid "local use 6  (local6)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_local7
+msgid "local use 7  (local7)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_lpr
+msgid "line printer subsystem"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_mail
+msgid "mail system"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_nntp
+msgid "network news subsystem"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_ntp
+msgid "NTP subsystem"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_security1
+msgid "security/authorization messages (1)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_security2
+msgid "security/authorization messages (2)"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_sys_daemon
+msgid "system daemons"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_unknown
+msgid "Unknown or illegale facility code"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_user
+msgid "user-level messages"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_facility_uucp
+msgid "UUCP subsystem"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_alert
+msgid "Alert: action must be taken immediately"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_critical
+msgid "Critical: critical conditions"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_debug
+msgid "Debug: debug-level messages"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_emergency
+msgid "Emergency: system is unusable"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_error
+msgid "Error: error conditions"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_informational
+msgid "Informational: informational messages"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_notice
+msgid "Notice: normal but significant condition"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_unknown
+msgid "Unknown or illegale security code"
+msgstr ""
+
+#: idresourcestringsprotocols.str_syslog_severity_warning
+msgid "Warning: warning conditions"
+msgstr ""
+

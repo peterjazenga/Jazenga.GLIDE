@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_traducefile
+  ====================================================================
+-->
+    <module name="u_traducefile">
+      <short/>
+      <descr/>
+      <!-- enumeration type Visibility: default -->
+      <element name="TEImageFileOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foJPEG">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foAutodesk">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foBMP">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foEPS">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foCUT">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foGIF">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPaintshop">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPCD">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPCX">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPhotoshop">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPortableMap">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foPNG">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foTIFF">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foRLA">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foSGI">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEImageFileOption.foTarga">
+        <short/>
+      </element>
+      <!-- set type Visibility: default -->
+      <element name="TEImageFilesOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- set type Visibility: default -->
+      <element name="TETraduceOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="lfo_TraduceDefault">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_IMAGING">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="EExtensionsImages">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TTraduceFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FTraduceOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FResizeHeight">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FResizeWidth">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FKeepProportion">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FTraduceImage">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FBeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FOnChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FBufferSize">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FSizeProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FOnSuccess">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FOnFailure">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FBeforeCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FOnProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FDestinationOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FHeader">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FEndOfFile">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FDestination">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TTraduceFile.FInProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TTraduceFile.SetDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SetDestination.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TTraduceFile.SetSource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SetSource.AValue">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TTraduceFile.FInited">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TTraduceFile.SaveToFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.Adata">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.as_source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.as_Destination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.AFormat">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.SaveToFile.AResized">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TTraduceFile.DoInit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.DoInit.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TTraduceFile.UnInit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.UnInit.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TTraduceFile.BeforeCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.BeforeCopy.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TTraduceFile.CreateDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.CreateDestination.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.CreateDestination.as_Destination">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TTraduceFile.Notification">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.Notification.AComponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.Notification.Operation">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TTraduceFile.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.Create.AOwner">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TTraduceFile.IsCopyOk">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.IsCopyOk.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.IsCopyOk.ai_Error">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.IsCopyOk.as_Message">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TTraduceFile.InternalDefaultCopyFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.InternalDefaultCopyFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.InternalDefaultCopyFile.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.InternalDefaultCopyFile.as_Destination">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TTraduceFile.InternalFinish">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.InternalFinish.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.InternalFinish.as_Destination">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TTraduceFile.PrepareCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TTraduceFile.InProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TTraduceFile.CopyFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TTraduceFile.CopyFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.CopyFile.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TTraduceFile.CopyFile.as_Destination">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TTraduceFile.CopySourceToDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TTraduceFile.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.TraduceOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.TraduceImage">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.BufferSize">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.Header">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.EndOfFile">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.ResizeHeight">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.ResizeWidth">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.KeepProportion">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.FileSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.FileDestination">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.ImageDestinationOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnSuccess">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnFailure">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnBeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnBeforeCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TTraduceFile.OnChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_traducefile -->
+  </package>
+</fpdoc-descriptions>

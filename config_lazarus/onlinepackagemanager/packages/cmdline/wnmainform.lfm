@@ -1,0 +1,168 @@
+object WMainForm: TWMainForm
+  Left = 536
+  Height = 529
+  Top = 288
+  Width = 707
+  Caption = 'TCmdBox Example Application'
+  ClientHeight = 529
+  ClientWidth = 707
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '0.9.27'
+  object RightPanel: TPanel
+    Left = 566
+    Height = 529
+    Top = 0
+    Width = 141
+    Align = alRight
+    ClientHeight = 529
+    ClientWidth = 141
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 16
+      Height = 14
+      Top = 8
+      Width = 35
+      Caption = 'History'
+      ParentColor = False
+    end
+    object Button1: TButton
+      Left = 16
+      Height = 25
+      Top = 489
+      Width = 109
+      Anchors = [akLeft, akRight, akBottom]
+      BorderSpacing.InnerBorder = 4
+      Caption = 'End Programm'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+    object HistoryList: TListBox
+      Left = 16
+      Height = 272
+      Top = 24
+      Width = 109
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      ItemHeight = 0
+      TabOrder = 1
+    end
+    object Button2: TButton
+      Left = 16
+      Height = 25
+      Top = 304
+      Width = 109
+      Anchors = [akLeft, akRight, akBottom]
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Clear'
+      OnClick = Button2Click
+      TabOrder = 2
+    end
+    object CbSetCaret: TComboBox
+      Left = 16
+      Height = 21
+      Top = 456
+      Width = 109
+      Anchors = [akLeft, akRight, akBottom]
+      AutoComplete = False
+      ItemHeight = 13
+      ItemIndex = 0
+      Items.Strings = (
+        'Caret-Line'
+        'Caret-Sub-Bar'
+        'Caret-Big-Bar'
+      )
+      ItemWidth = 0
+      OnChange = CbSetCaretChange
+      Style = csDropDownList
+      TabOrder = 3
+      Text = 'Caret-Line'
+    end
+    object Button3: TButton
+      Left = 16
+      Height = 25
+      Top = 336
+      Width = 109
+      Anchors = [akLeft, akRight, akBottom]
+      Caption = 'Process'
+      OnClick = Button3Click
+      TabOrder = 4
+    end
+    object cbWordWrap: TCheckBox
+      Left = 18
+      Height = 17
+      Top = 376
+      Width = 72
+      Anchors = [akLeft, akBottom]
+      Caption = 'WordWrap'
+      Checked = True
+      OnChange = cbWordWrapChange
+      State = cbChecked
+      TabOrder = 5
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 561
+    Height = 529
+    Top = 0
+    Width = 5
+    Align = alRight
+    Beveled = True
+    ResizeAnchor = akRight
+  end
+  object CmdBox: TCmdBox
+    Left = 0
+    Height = 529
+    Top = 0
+    Width = 561
+    Align = alClient
+    PopupMenu = PopupMenu1
+    CaretColor = 33023
+    CaretType = cartUser
+    CaretWidth = 1
+    CaretHeight = 15
+    CaretYShift = 3
+    OnInput = CmdBoxInput
+    LineCount = 1000
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clSilver
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    BackGroundColor = clNavy
+    TabWidth = 60
+    PassWordChar = '*'
+    HistoryMax = 10
+    InputSelColor = clPurple
+    InputSelBackGround = clSilver
+    CaretInterval = 500
+    EscapeCodeType = esctCmdBox
+    GraphicalCharacterWidth = 10
+  end
+  object ReaderTimer: TTimer
+    Interval = 500
+    OnTimer = ReaderTimerTimer
+    left = 66
+    top = 75
+  end
+  object ProcessTimer: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = ProcessTimerTimer
+    left = 104
+    top = 75
+  end
+  object FontDialog: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 144
+    top = 75
+  end
+  object PopupMenu1: TPopupMenu
+    left = 168
+    top = 196
+    object MenuItem1: TMenuItem
+      Caption = 'Nothing here'
+    end
+  end
+end

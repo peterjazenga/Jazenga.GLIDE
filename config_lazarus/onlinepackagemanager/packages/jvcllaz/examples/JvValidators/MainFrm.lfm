@@ -1,0 +1,208 @@
+object frmMain: TfrmMain
+  Left = 306
+  Height = 274
+  Top = 126
+  Width = 619
+  Caption = 'JvValidators demo'
+  ClientHeight = 274
+  ClientWidth = 619
+  Color = clBtnFace
+  Constraints.MinHeight = 270
+  Constraints.MinWidth = 560
+  DefaultMonitor = dmDesktop
+  Font.Color = clWindowText
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 167
+    Caption = 'This edit must have a(ny) value:'
+    FocusControl = edRequired
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 64
+    Width = 233
+    Caption = 'This edit must have more than 9  characters:'
+    FocusControl = edRequired10Chars
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 112
+    Width = 228
+    Caption = 'This edit must match the reg. expr."A.B.C.":'
+    FocusControl = edRegExpr
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 160
+    Width = 201
+    Caption = 'The value must be between 0 and 100:'
+    FocusControl = edRange0to100
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 280
+    Height = 15
+    Top = 16
+    Width = 35
+    Caption = 'Result:'
+    ParentColor = False
+  end
+  object edRequired: TEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 240
+    TabOrder = 0
+  end
+  object edRequired10Chars: TEdit
+    Left = 16
+    Height = 23
+    Top = 80
+    Width = 240
+    TabOrder = 1
+  end
+  object edRegExpr: TEdit
+    Left = 16
+    Height = 23
+    Top = 128
+    Width = 240
+    TabOrder = 2
+  end
+  object edRange0to100: TEdit
+    Left = 16
+    Height = 23
+    Top = 176
+    Width = 227
+    TabOrder = 3
+    Text = '-1'
+  end
+  object udRange0to100: TUpDown
+    Left = 243
+    Height = 23
+    Top = 176
+    Width = 15
+    Associate = edRange0to100
+    Max = 200
+    Min = -100
+    Position = -1
+    TabOrder = 4
+    Wrap = False
+  end
+  object btnCheck: TButton
+    Left = 336
+    Height = 25
+    Top = 224
+    Width = 137
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    Caption = 'Use OnValidateFailed'
+    OnClick = btnCheckClick
+    TabOrder = 7
+  end
+  object btnProviderCheck: TButton
+    Left = 16
+    Height = 25
+    Top = 224
+    Width = 130
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    Caption = 'Use JvErrorIndicator'
+    OnClick = btnProviderCheckClick
+    TabOrder = 5
+  end
+  object reResults: TMemo
+    Cursor = crArrow
+    Left = 280
+    Height = 167
+    Top = 32
+    Width = 326
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'This is a demo for the JvValidators component as well as the JvErrorProvider and, to some extent, the JvValidationSummary component.'
+      ''
+      'By creating and setting up different validators (at run-time in this demo but you can do it at design-time as well), the edit boxes can be checked for validity by a single call to the Validate method. When one of the validators finds that a control doesn''t match the validation criteria, that error can be handled in different ways depending on your needs.'
+      ''
+      'One option is to just check the boolean return value from Validate and display a standard message box telling the user that a value didn''t match.'
+      ''
+      'You can also handle the OnValidateFailed event of all validators at once (the TJvValidators event) or for each validator separately (the TJvBaseValidator event). Yet another option is to assign a TJvValidationSummary component to the ValidationSummary property of tJvValidators and handle it''s OnChange event.'
+      ''
+      'Finally, you can combine the work of the validators with the use of a TJvErrorIndicator.'
+      ''
+      'For more info on TJvErrorIndicator, see the demo for that component (also included).'
+      ''
+      'By clicking any of the buttons below, you can see how the different methods described work in real-time.'
+      ''
+      ''
+    )
+    OnEnter = reResultsEnter
+    ParentColor = True
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 8
+    TabStop = False
+    WordWrap = False
+  end
+  object btnValSum: TButton
+    Left = 160
+    Height = 25
+    Top = 224
+    Width = 162
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    Caption = 'Use JvValidationSummary'
+    OnClick = btnValSumClick
+    TabOrder = 6
+  end
+  object JvValidators1: TJvValidators
+    OnValidateFailed = JvValidators1ValidateFailed
+    left = 258
+    top = 104
+    object JvRequiredFieldValidator1: TJvRequiredFieldValidator
+      ControlToValidate = edRequired
+      PropertyToValidate = 'Text'
+      ErrorMessage = 'Value in edRequired cannot be empty'
+      AllowBlank = False
+    end
+    object JvCustomValidator1: TJvCustomValidator
+      ControlToValidate = edRequired10Chars
+      PropertyToValidate = 'Text'
+      ErrorMessage = 'Value in "edRequired10Chars" requires at least 10 characters'
+      OnValidate = JvCustomValidator1Validate
+    end
+    object JvRegularExpressionValidator1: TJvRegularExpressionValidator
+      ControlToValidate = edRegExpr
+      PropertyToValidate = 'Text'
+      ErrorMessage = 'Value in "edRegExpr" does not match "A.B.C."'
+      ValidationExpression = '^A.B.C.*'
+    end
+    object JvRangeValidator1: TJvRangeValidator
+      ControlToValidate = udRange0to100
+      PropertyToValidate = 'Position'
+      ErrorMessage = 'Value in "udRange0to100" must be between 0 and 100'
+      MinimumValue = 0
+      MaximumValue = 100
+    end
+  end
+  object JvErrorIndicator1: TJvErrorIndicator
+    ImageIndex = 0
+    DefaultUseAnchors = False
+    left = 296
+    top = 104
+  end
+  object JvValidationSummary1: TJvValidationSummary
+    OnChange = JvValidationSummary1Change
+    left = 328
+    top = 104
+  end
+end

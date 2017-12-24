@@ -1,0 +1,2 @@
+http://indy.fulgan.com/SSL/openssl-1.0.2j-i386-win32.zip
+http://indy.fulgan.com/SSL/openssl-1.0.2j-x64_86-win64.zip

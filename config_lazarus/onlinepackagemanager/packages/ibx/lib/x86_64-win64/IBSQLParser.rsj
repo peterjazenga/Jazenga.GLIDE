@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":62516807,"name":"ibsqlparser.snoendtothis","sourcebytes":[85,110,116,101,114,109,105,110,97,116,101,100,32,115,116,114,105,110,103],"value":"Unterminated string"},
+{"hash":162355523,"name":"ibsqlparser.sbadby","sourcebytes":[85,110,101,120,112,101,99,116,101,100,32,115,121,109,98,111,108,32,34,66,89,34,32,105,110,58,32,37,115],"value":"Unexpected symbol \"BY\" in: %s"},
+{"hash":9130652,"name":"ibsqlparser.sbadsymbol","sourcebytes":[85,110,107,110,111,119,110,32,83,121,109,98,111,108],"value":"Unknown Symbol"},
+{"hash":18901086,"name":"ibsqlparser.sincomplete","sourcebytes":[73,110,99,111,109,112,108,101,116,101,32,85,110,105,111,110],"value":"Incomplete Union"},
+{"hash":70406355,"name":"ibsqlparser.sbadsql","sourcebytes":[69,114,114,111,114,32,112,114,111,99,101,115,115,105,110,103,32,83,81,76,32,34,37,115,34,32,45,32,37,115],"value":"Error processing SQL \"%s\" - %s"},
+{"hash":223728007,"name":"ibsqlparser.sstackunderflow","sourcebytes":[83,116,97,99,107,32,85,110,100,101,114,102,108,111,119],"value":"Stack Underflow"},
+{"hash":112271783,"name":"ibsqlparser.sstackoverflow","sourcebytes":[83,116,97,99,107,32,79,118,101,114,102,108,111,119],"value":"Stack Overflow"},
+{"hash":7727634,"name":"ibsqlparser.sbadparameter","sourcebytes":[66,97,100,32,83,81,76,32,80,97,114,97,109,101,116,101,114],"value":"Bad SQL Parameter"}
+]}

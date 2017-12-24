@@ -1,0 +1,90 @@
+object AndroidModule1: TAndroidModule1
+  Left = 280
+  Top = 118
+  Width = 300
+  Height = 600
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  Text = 'AndroidModule1'
+  ActivityMode = actMain
+  BackgroundColor = colbrDefault
+  ActionBarTitle = abtDefault
+  OnActivityResult = AndroidModule1ActivityResult
+  object jTextView1: jTextView
+    Left = 67
+    Top = 5
+    Width = 166
+    Height = 20
+    MarginLeft = 5
+    MarginTop = 5
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    PosRelativeToAnchor = []
+    PosRelativeToParent = [rpTop, rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'App jIntentManager Demo 3'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    TextTypeFace = tfNormal
+    FontSizeUnit = unitDefault
+    Id = 2899912
+  end
+  object jButton1: jButton
+    Left = 2
+    Top = 34
+    Width = 294
+    Height = 40
+    MarginLeft = 2
+    MarginTop = 4
+    MarginRight = 2
+    MarginBottom = 4
+    Visible = True
+    Anchor = jTextView1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Call Number'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    FontSizeUnit = unitDefault
+    OnClick = jButton1Click
+    Id = 5615141
+  end
+  object jButton2: jButton
+    Left = 2
+    Top = 82
+    Width = 294
+    Height = 40
+    MarginLeft = 2
+    MarginTop = 4
+    MarginRight = 2
+    MarginBottom = 4
+    Visible = True
+    Anchor = jButton1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'People''s Phone Numbers'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    FontSizeUnit = unitDefault
+    OnClick = jButton2Click
+    Id = 3962920
+  end
+  object jIntentManager1: jIntentManager
+    IntentAction = iaNone
+    left = 144
+    top = 176
+  end
+end

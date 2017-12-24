@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <Flags>
+        <AlwaysBuild Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="5"/>
+    </General>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="ringwatch"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="ringchartwatch.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="13" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="60"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit1.lrs"/>
+        <UnitName Value="unit1"/>
+        <CursorPos X="73" Y="93"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\ringchart.pp"/>
+        <UnitName Value="RingChart"/>
+        <CursorPos X="34" Y="424"/>
+        <TopLine Value="407"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\analogwatch.pas"/>
+        <UnitName Value="AnalogWatch"/>
+        <CursorPos X="35" Y="484"/>
+        <TopLine Value="470"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="D:\mylazarus\components\ringwatch\RingChart.pp"/>
+        <UnitName Value="RingChart"/>
+        <CursorPos X="28" Y="157"/>
+        <TopLine Value="153"/>
+        <UsageCount Value="25"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="E:\mylazarus\components\ringwatch\RingChart.pp"/>
+        <UnitName Value="RingChart"/>
+        <CursorPos X="22" Y="330"/>
+        <TopLine Value="316"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="E:\LAZARUS\lcl\Graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="22" Y="946"/>
+        <TopLine Value="942"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="E:\LAZARUS\lcl\include\winapih.inc"/>
+        <CursorPos X="55" Y="176"/>
+        <TopLine Value="150"/>
+        <UsageCount Value="7"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="E:\mylazarus\components\ringwatch\ellipse.pas"/>
+        <UnitName Value="Ellipse"/>
+        <CursorPos X="1" Y="80"/>
+        <TopLine Value="64"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="F:\mylazarus\components\ringwatch\Ellipse.pas"/>
+        <UnitName Value="Ellipse"/>
+        <CursorPos X="29" Y="199"/>
+        <TopLine Value="180"/>
+        <UsageCount Value="7"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="F:\mylazarus\components\ringwatch\RingChart.pp"/>
+        <UnitName Value="RingChart"/>
+        <CursorPos X="39" Y="324"/>
+        <TopLine Value="298"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\WINDOWS\gnuutils\fpc211\rtl\inc\systemh.inc"/>
+        <CursorPos X="27" Y="418"/>
+        <TopLine Value="404"/>
+        <UsageCount Value="7"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="D:\mylazarus\components\ringwatch\ELLIPSE.PAS"/>
+        <UnitName Value="Ellipse"/>
+        <CursorPos X="18" Y="55"/>
+        <TopLine Value="55"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="D:\mylazarus\components\ringwatch\analogwatch.pas"/>
+        <UnitName Value="AnalogWatch"/>
+        <CursorPos X="53" Y="435"/>
+        <TopLine Value="415"/>
+        <UsageCount Value="23"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="D:\Lazarus\LCL\GRAPHICS.PP"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="20" Y="943"/>
+        <TopLine Value="941"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\WINDOWS\gnuutils\fpc211\rtl\objpas\sysutils\sysinth.inc"/>
+        <CursorPos X="57" Y="76"/>
+        <TopLine Value="63"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\TimeEditor.pas"/>
+        <ComponentName Value="TimeEditorForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="..\timeeditor.lrs"/>
+        <UnitName Value="TimeEditor"/>
+        <CursorPos X="43" Y="38"/>
+        <TopLine Value="54"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\LazTest2\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="8" Y="84"/>
+        <TopLine Value="84"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\LazTest2\lcl\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <CursorPos X="47" Y="35"/>
+        <TopLine Value="32"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="..\analogwatch.pas"/>
+        <Caret Line="487" Column="13" TopLine="475"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\LazTest2\lcl\graphics.pp"/>
+        <Caret Line="1017" Column="30" TopLine="995"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\analogwatch.pas"/>
+        <Caret Line="487" Column="18" TopLine="470"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\LazTest2\lcl\graphics.pp"/>
+        <Caret Line="1017" Column="32" TopLine="1004"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="252" Column="15" TopLine="239"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="308" Column="16" TopLine="295"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="347" Column="18" TopLine="334"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="384" Column="20" TopLine="371"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="389" Column="22" TopLine="376"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\ringchart.pp"/>
+        <Caret Line="390" Column="18" TopLine="377"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

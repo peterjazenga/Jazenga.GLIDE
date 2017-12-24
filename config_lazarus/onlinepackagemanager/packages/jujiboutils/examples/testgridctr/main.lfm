@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 311
+  Height = 347
+  Top = 162
+  Width = 419
+  Caption = 'Form1'
+  ClientHeight = 347
+  ClientWidth = 419
+  OnCreate = FormCreate
+  LCLVersion = '1.1'
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Height = 25
+    Top = 60
+    Width = 241
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 25
+    ClientWidth = 241
+    DataSource = Datasource1
+    Options = []
+    TabOrder = 0
+  end
+  object JDBGridControl1: TJDBGridControl
+    Left = 8
+    Height = 192
+    Top = 96
+    Width = 392
+    AlternateColor = clMoneyGreen
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'ID'
+        Width = 121
+        FieldName = 'ID'
+        Decimals = 0
+        MaxLength = 0
+      end    
+      item
+        Title.Caption = 'DATE'
+        Width = 121
+        FieldName = 'DATE'
+        DisplayFormat = 'dd/mm/yyyy'
+        Decimals = 0
+        MaxLength = 0
+      end    
+      item
+        Title.Caption = 'QUANTITY'
+        Width = 121
+        FieldName = 'QUANTITY'
+        DisplayFormat = '#,0.00000€'
+        Decimals = 0
+        MaxLength = 0
+      end>
+    DataSource = Datasource1
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 13
+    Height = 17
+    Top = 296
+    Width = 391
+    Caption = 'Press Alt+Down arrow key while editing date to show the calendar'
+    ParentColor = False
+  end
+  object Datasource1: TDatasource
+    DataSet = BufDataset1
+    left = 324
+    top = 7
+  end
+  object BufDataset1: TBufDataset
+    FieldDefs = <>
+    left = 232
+    top = 7
+  end
+end

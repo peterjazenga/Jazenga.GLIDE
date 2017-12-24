@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="dbutils"><short>Модуль dbutils содержит вспомогательные процедуры для работы с БД</short><descr>Модуль dbutils содержит вспомогательные процедуры для работы с объектами баз данных</descr><element name="IntegerDataTypes"><short>Гррупирующее множество целочисленных типов</short>
+      </element><element name="NumericDataTypes"><short>Гррупирующее множество числовых типов</short>
+      </element><element name="DataTimeTypes"><short>Гррупирующее множество типов для хранения даты и времени</short>
+      </element><element name="StringTypes"><short>Гррупирующее множество типов для хранения строк</short>
+      </element><element name="TRxSearchDirection"><short>Тип для определения направлений поиска</short><descr><p>rsdAll - искать везде</p><p>rsdForward - искать далее</p><p>rsdBackward - искать назад</p>
+        </descr>
+      </element><element name="TLocateObject"><short>Класс объекта для поиска данных в экземпляре наследника от TDataSet</short>
+      </element><element name="IsDataSetEmpty"><short>Функция проверяет наличие данных в объекте типа TDataSet</short>
+      </element><element name="RefreshQuery"><short>Функция перечитывает данные в объекте типа TDataSet</short>
+      </element><element name="TrueExpr"><short>Формальное представлени для истинного выражения</short>
+      </element><element name="_DBError"><short>Функция сообщения об ошибке</short>
+      </element><element name="FieldValueToStrings"><short>Функция заполняет массив List типа TStrings значениями поля FieldName из набора данных DataSet</short>
+      </element><element name="CloneRecord"><short>Функция создаёт дубликат текущей записи, за исключением полей, перечисленных в IgnoreFields</short>
+      </element><element name="FillValueForField"><short>Функция заполняет поле Field всех записей набора данных значением Value</short>
+      </element><element name="ConfirmDelete"><short>Функция выдаёт диалоговое окно подтверждения удаления данных</short>
+      </element><element name="ConfirmDataSetCancel"><short>Функция завершает редактирование набора данных вопросом о сохранении</short><descr>Функция завершает редактирование набора данных вопросом о сохранении
+При подтверждении сохранения вызывается метод Post
+При отмене - метод Cancel</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

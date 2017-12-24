@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":24203412,"name":"ditherunit.sinvalidbitmap","sourcebytes":[66,105,116,109,97,112,32,105,109,97,103,101,32,105,115,32,110,111,116,32,118,97,108,105,100],"value":"Bitmap image is not valid"},
+{"hash":76435972,"name":"ditherunit.sinvalidpixelformat","sourcebytes":[73,110,118,97,108,105,100,32,112,105,120,101,108,32,102,111,114,109,97,116],"value":"Invalid pixel format"}
+]}

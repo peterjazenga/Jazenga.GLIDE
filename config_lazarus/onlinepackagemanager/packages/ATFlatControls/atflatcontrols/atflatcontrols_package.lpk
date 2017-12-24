@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="atflatcontrols_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Alexey Torgashin"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Custom-drawn controls, used in CudaText:
+- ATButton
+- ATButtonsToolbar
+- ATGauge
+- ATListbox
+- ATScrollbar
+- ATStatusbar
+and several simple controls."/>
+    <License Value="MPL 2.0, LGPL"/>
+    <Version Major="1"/>
+    <Files Count="9">
+      <Item1>
+        <Filename Value="atbuttons.pas"/>
+        <UnitName Value="ATButtons"/>
+      </Item1>
+      <Item2>
+        <Filename Value="atflatcontrols_register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="atflatcontrols_register"/>
+      </Item2>
+      <Item3>
+        <Filename Value="atlistbox.pas"/>
+        <UnitName Value="ATListbox"/>
+      </Item3>
+      <Item4>
+        <Filename Value="atlinklabel.pas"/>
+        <UnitName Value="ATLinkLabel"/>
+      </Item4>
+      <Item5>
+        <Filename Value="atbuttonstoolbar.pas"/>
+        <UnitName Value="ATButtonsToolbar"/>
+      </Item5>
+      <Item6>
+        <Filename Value="atpanelsimple.pas"/>
+        <UnitName Value="ATPanelSimple"/>
+      </Item6>
+      <Item7>
+        <Filename Value="atpanelcolor.pas"/>
+        <UnitName Value="ATPanelColor"/>
+      </Item7>
+      <Item8>
+        <Filename Value="atscrollbar.pas"/>
+        <UnitName Value="ATScrollBar"/>
+      </Item8>
+      <Item9>
+        <Filename Value="atstatusbar.pas"/>
+        <UnitName Value="ATStatusBar"/>
+      </Item9>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

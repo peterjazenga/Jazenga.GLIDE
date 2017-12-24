@@ -1,0 +1,20 @@
+{"version":1,"strings":[
+{"hash":100629518,"name":"lremailexportfilter.ssendtoemail","sourcebytes":[83,101,110,100,32,116,111,32,101,109,97,105,108,46,46,46],"value":"Send to email..."},
+{"hash":63608709,"name":"lremailexportfilter.smessage","sourcebytes":[77,101,115,115,97,103,101],"value":"Message"},
+{"hash":127644148,"name":"lremailexportfilter.sattachment","sourcebytes":[65,116,116,97,99,104,109,101,110,116],"value":"Attachment"},
+{"hash":75205795,"name":"lremailexportfilter.sadress","sourcebytes":[65,100,114,101,115,115],"value":"Adress"},
+{"hash":179899380,"name":"lremailexportfilter.ssubject","sourcebytes":[83,117,98,106,101,99,116],"value":"Subject"},
+{"hash":371956,"name":"lremailexportfilter.stext","sourcebytes":[84,101,120,116],"value":"Text"},
+{"hash":81171332,"name":"lremailexportfilter.sformat","sourcebytes":[70,111,114,109,97,116],"value":"Format"},
+{"hash":150752165,"name":"lremailexportfilter.sapplicationname","sourcebytes":[65,112,112,108,105,99,97,116,105,111,110,32,110,97,109,101],"value":"Application name"},
+{"hash":13098877,"name":"lremailexportfilter.susemailprogram","sourcebytes":[85,115,101,32,109,97,105,108,32,112,114,111,103,114,97,109],"value":"Use mail program"},
+{"hash":170693876,"name":"lremailexportfilter.sdirectsend","sourcebytes":[68,105,114,101,99,116,32,115,101,110,100],"value":"Direct send"},
+{"hash":100076453,"name":"lremailexportfilter.sfromname","sourcebytes":[70,114,111,109,32,110,97,109,101],"value":"From name"},
+{"hash":104208723,"name":"lremailexportfilter.sfromadress","sourcebytes":[70,114,111,109,32,97,100,114,101,115,115],"value":"From adress"},
+{"hash":325284,"name":"lremailexportfilter.shost","sourcebytes":[72,111,115,116],"value":"Host"},
+{"hash":358036,"name":"lremailexportfilter.sport","sourcebytes":[80,111,114,116],"value":"Port"},
+{"hash":5463550,"name":"lremailexportfilter.slogin","sourcebytes":[76,111,103,105,110],"value":"Login"},
+{"hash":145417188,"name":"lremailexportfilter.spassword","sourcebytes":[80,97,115,115,119,111,114,100],"value":"Password"},
+{"hash":4995068,"name":"lremailexportfilter.semail","sourcebytes":[69,109,97,105,108],"value":"Email"},
+{"hash":127560724,"name":"lremailexportfilter.saccount","sourcebytes":[65,99,99,111,117,110,116],"value":"Account"}
+]}

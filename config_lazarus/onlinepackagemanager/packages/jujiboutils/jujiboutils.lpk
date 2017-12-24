@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="jujiboutils"/>
+    <Author Value="Julio Jiménez Borreguero"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="src"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Set of components to input and validate
+different kinds of data, floats, dates, etc. while working with 
+db and non db controls."/>
+    <License Value="LGPL with link exception. Read files license-jujiboutils and COPYING.LGPL"/>
+    <Version Major="2" Minor="1"/>
+    <Files Count="23">
+      <Item1>
+        <Filename Value="src/jcontrolutils.pas"/>
+        <UnitName Value="jcontrolutils"/>
+      </Item1>
+      <Item2>
+        <Filename Value="src/jdbgridcontrol.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBGridControl"/>
+      </Item2>
+      <Item3>
+        <Filename Value="src/jdblabelededit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBLabeledEdit"/>
+      </Item3>
+      <Item4>
+        <Filename Value="src/jdblabeledintegeredit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="jdblabeledintegeredit"/>
+      </Item4>
+      <Item5>
+        <Filename Value="src/jdblabeledfloatedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBLabeledFloatEdit"/>
+      </Item5>
+      <Item6>
+        <Filename Value="src/jdblabeledcurrencyedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="jdblabeledcurrencyedit"/>
+      </Item6>
+      <Item7>
+        <Filename Value="src/jdblabeleddateedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="jdblabeleddateedit"/>
+      </Item7>
+      <Item8>
+        <Filename Value="src/jlabeledintegeredit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledIntegerEdit"/>
+      </Item8>
+      <Item9>
+        <Filename Value="src/jlabeledfloatedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledFloatEdit"/>
+      </Item9>
+      <Item10>
+        <Filename Value="src/jlabeledcurrencyedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledCurrencyEdit"/>
+      </Item10>
+      <Item11>
+        <Filename Value="src/jlabeleddateedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledDateEdit"/>
+      </Item11>
+      <Item12>
+        <Filename Value="src/jdbgridutils.pas"/>
+        <UnitName Value="jdbgridutils"/>
+      </Item12>
+      <Item13>
+        <Filename Value="src/jlabeledtimeedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledTimeEdit"/>
+      </Item13>
+      <Item14>
+        <Filename Value="src/jdblabeledtimeedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBLabeledTimeEdit"/>
+      </Item14>
+      <Item15>
+        <Filename Value="src/jlabeleddatetimeedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabeledDateTimeEdit"/>
+      </Item15>
+      <Item16>
+        <Filename Value="src/jdblabeleddatetimeedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBLabeledDateTimeEdit"/>
+      </Item16>
+      <Item17>
+        <Filename Value="src/jinputconsts.pas"/>
+        <UnitName Value="jinputconsts"/>
+      </Item17>
+      <Item18>
+        <Filename Value="src/jdbenumcombo.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDbEnumCombo"/>
+      </Item18>
+      <Item19>
+        <Filename Value="src/jdbimageblob.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDBImageBlob"/>
+      </Item19>
+      <Item20>
+        <Filename Value="src/jlabel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JLabel"/>
+      </Item20>
+      <Item21>
+        <Filename Value="src/jdblabel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JDbLabel"/>
+      </Item21>
+      <Item22>
+        <Filename Value="src/jbutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JButton"/>
+      </Item22>
+      <Item23>
+        <Filename Value="src/jdbutils.pas"/>
+        <UnitName Value="jdbutils"/>
+      </Item23>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="languages"/>
+    </i18n>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

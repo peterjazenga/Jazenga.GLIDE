@@ -1,0 +1,347 @@
+object mainform: Tmainform
+  Left = 874
+  Height = 327
+  Top = 158
+  Width = 469
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'mainform'
+  ClientHeight = 307
+  ClientWidth = 469
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.1'
+  object lbl_Section: TLabel
+    Left = 8
+    Height = 15
+    Top = 88
+    Width = 74
+    Caption = 'Section Name'
+    ParentColor = False
+  end
+  object edt_Section: TEdit
+    Left = 88
+    Height = 23
+    Top = 88
+    Width = 195
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    Text = 'TestSection'
+  end
+  object lbl_Ident: TLabel
+    Left = 16
+    Height = 15
+    Top = 116
+    Width = 51
+    Caption = 'Test Ident'
+    ParentColor = False
+  end
+  object edt_Ident: TEdit
+    Left = 88
+    Height = 23
+    Top = 116
+    Width = 195
+    TabOrder = 1
+    Text = 'Password'
+  end
+  object lbl_Value: TLabel
+    Left = 16
+    Height = 15
+    Top = 144
+    Width = 55
+    Caption = 'Test String'
+    ParentColor = False
+  end
+  object edt_Value: TEdit
+    Left = 88
+    Height = 23
+    Top = 144
+    Width = 195
+    TabOrder = 2
+    Text = 'mypassword'
+  end
+  object cmd_Close: TBitBtn
+    Left = 368
+    Height = 26
+    Top = 263
+    Width = 75
+    AutoSize = True
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = mnu_fileCloseClick
+    TabOrder = 3
+  end
+  object lbl_Integer: TLabel
+    Left = 16
+    Height = 15
+    Top = 172
+    Width = 61
+    Caption = 'Test Integer'
+    ParentColor = False
+  end
+  object edt_Integer: TEdit
+    Left = 88
+    Height = 23
+    Top = 172
+    Width = 195
+    OnEditingDone = edt_IntegerEditingDone
+    TabOrder = 4
+    Text = '12345'
+  end
+  object cmd_ShowINI: TButton
+    Left = 16
+    Height = 25
+    Top = 264
+    Width = 186
+    Caption = 'Show/Edit INI'
+    OnClick = cmd_ShowINIClick
+    TabOrder = 5
+  end
+  object rg_Encryption: TRadioGroup
+    Left = 16
+    Height = 58
+    Top = 200
+    Width = 76
+    AutoFill = True
+    AutoSize = True
+    Caption = 'Encryption'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 38
+    ClientWidth = 72
+    ItemIndex = 0
+    Items.Strings = (
+      'On'
+      'Off'
+    )
+    OnSelectionChanged = rg_EncryptionSelectionChanged
+    TabOrder = 6
+  end
+  object rg_SectionHashing: TRadioGroup
+    Left = 96
+    Height = 58
+    Top = 200
+    Width = 105
+    AutoFill = True
+    AutoSize = True
+    Caption = 'Section Hashing'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 38
+    ClientWidth = 101
+    ItemIndex = 0
+    Items.Strings = (
+      'On'
+      'Off'
+    )
+    OnSelectionChanged = rg_SectionHashingSelectionChanged
+    TabOrder = 7
+  end
+  object GroupBox1: TGroupBox
+    Left = 304
+    Height = 163
+    Top = 8
+    Width = 139
+    AutoSize = True
+    Caption = 'Section Tests'
+    ChildSizing.VerticalSpacing = 5
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 143
+    ClientWidth = 135
+    TabOrder = 8
+    object cmd_WriteSection: TButton
+      Left = 0
+      Height = 25
+      Top = 0
+      Width = 135
+      AutoSize = True
+      Caption = 'Write Whole Section'
+      OnClick = cmd_WriteSectionClick
+      TabOrder = 0
+    end
+    object cmd_ReadSectionValues: TButton
+      Left = 0
+      Height = 25
+      Top = 30
+      Width = 135
+      AutoSize = True
+      Caption = 'Read Whole Section'
+      OnClick = cmd_ReadSectionValuesClick
+      TabOrder = 1
+    end
+    object cmd_VerifySectionValues: TButton
+      Left = 0
+      Height = 25
+      Top = 60
+      Width = 135
+      AutoSize = True
+      Caption = 'Verify Whole Section'
+      OnClick = cmd_VerifySectionValuesClick
+      TabOrder = 2
+    end
+    object cmd_EraseSection: TButton
+      Left = 0
+      Height = 25
+      Top = 90
+      Width = 135
+      AutoSize = True
+      Caption = 'Erase Whole Section'
+      OnClick = cmd_EraseSectionClick
+      TabOrder = 3
+    end
+    object cmb_Sections: TComboBox
+      Left = 0
+      Height = 23
+      Top = 120
+      Width = 135
+      ItemHeight = 15
+      OnSelect = cmb_SectionsSelect
+      Style = csDropDownList
+      TabOrder = 4
+    end
+  end
+  object Grp_DefaultValueTests: TGroupBox
+    Left = 16
+    Height = 70
+    Top = 8
+    Width = 284
+    AutoSize = True
+    Caption = 'Default Value Tests'
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 3
+    ClientHeight = 50
+    ClientWidth = 280
+    TabOrder = 9
+    object cmd_Write: TButton
+      Left = 0
+      Height = 25
+      Top = 0
+      Width = 91
+      AutoSize = True
+      Caption = 'Write Values'
+      OnClick = cmd_WriteClick
+      TabOrder = 0
+    end
+    object cmd_Read: TButton
+      Left = 91
+      Height = 25
+      Top = 0
+      Width = 96
+      AutoSize = True
+      Caption = 'Read Values'
+      OnClick = cmd_ReadClick
+      TabOrder = 1
+    end
+    object cmd_Verify: TButton
+      Left = 187
+      Height = 25
+      Top = 0
+      Width = 93
+      AutoSize = True
+      Caption = 'Verify Values'
+      OnClick = cmd_VerifyClick
+      TabOrder = 2
+    end
+    object cmd_ValueExists: TButton
+      Left = 0
+      Height = 25
+      Top = 25
+      Width = 91
+      AutoSize = True
+      Caption = 'Values Exist'
+      OnClick = cmd_ValueExistsClick
+      TabOrder = 3
+    end
+    object cmd_DeleteValue: TButton
+      Left = 91
+      Height = 25
+      Top = 25
+      Width = 96
+      AutoSize = True
+      Caption = 'Delete Values'
+      OnClick = cmd_DeleteValueClick
+      TabOrder = 4
+    end
+  end
+  object grp_convert: TGroupBox
+    Left = 304
+    Height = 45
+    Top = 176
+    Width = 133
+    AutoSize = True
+    Caption = 'Upgrade existing INI'
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 25
+    ClientWidth = 129
+    TabOrder = 10
+    object cmd_convertToCryptini: TButton
+      Left = 0
+      Height = 25
+      Top = 0
+      Width = 129
+      AutoSize = True
+      Caption = 'Convert to CryptINI'
+      OnClick = cmd_convertToCryptiniClick
+      TabOrder = 0
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 432
+    object mnu_file: TMenuItem
+      Caption = '&File'
+      object mnu_fileClose: TMenuItem
+        Caption = 'E&xit'
+        OnClick = mnu_fileCloseClick
+      end
+    end
+    object mnu_options: TMenuItem
+      Caption = '&Options'
+      object mnu_optionsEncryptionKey: TMenuItem
+        Caption = 'Integer En&cryption key...'
+        OnClick = mnu_optionsEncryptionKeyClick
+      end
+      object mnu_optionsEncryptINIFile: TMenuItem
+        Caption = 'Encrypt INI file'
+        OnClick = mnu_optionsEncryptINIFileClick
+      end
+      object mnu_optionsDecryptINIFile: TMenuItem
+        Caption = 'Decrypt INI file'
+        OnClick = mnu_optionsDecryptINIFileClick
+      end
+    end
+    object mnu_help: TMenuItem
+      Caption = '&Help'
+      object mnu_helpHelp: TMenuItem
+        Caption = 'Help'
+        OnClick = mnu_helpHelpClick
+      end
+      object mnu_helpAbout: TMenuItem
+        Caption = '&About..'
+        OnClick = mnu_helpAboutClick
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Open existing INI file'
+    Filter = 'INI file|*.ini|Any File|*.*'
+    Options = [ofReadOnly, ofNoTestFileCreate, ofEnableSizing, ofViewDetail]
+    left = 384
+    top = 8
+  end
+end

@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":17418273,"name":"dav_dsplightweightdynamics.rcstrattacktimeinvalid","sourcebytes":[65,116,116,97,99,107,32,116,105,109,101,32,109,117,115,116,32,98,101,32,108,97,114,103,101,114,32,116,104,97,110,32,122,101,114,111,33],"value":"Attack time must be larger than zero!"},
+{"hash":68826241,"name":"dav_dsplightweightdynamics.rcstrreleasetimeinvalid","sourcebytes":[82,101,108,101,97,115,101,32,116,105,109,101,32,109,117,115,116,32,98,101,32,108,97,114,103,101,114,32,116,104,97,110,32,122,101,114,111,33],"value":"Release time must be larger than zero!"}
+]}

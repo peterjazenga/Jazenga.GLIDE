@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="curredit">
+      <element name="TCurrencyEdit">
+        <short>TCurrencyEdit Component</short>
+        <descr>
+          <p>Компонента служит для ввода и редактирования чисел и денежных сумм. TCurrencyEdit имеет те же свойства, что и ее предок TEdit, но позволяет дополнительно указать формат отображения числа и символы для обозначения вида валюты с помощью свойства <link id="TCurrencyEdit.DisplayFormat">DisplayFormat</link>, а также максимальное число символов после десятичной точки (при вводе данных) с помощью свойства <link id="TCurrencyEdit.DecimalPlaces">DecimalPlaces</link>. Свойство Value позволяет получить или установить численную величину отображаемого в компоненте значения.</p>
+          <p>Если свойство BeepOnError установлено в True, то при вводе в строку недопустимых символов раздается звуковой сигнал.</p>
+        </descr>
+      </element>
+      <element name="TCurrencyEdit.Create"/>
+      <element name="TCurrencyEdit.Destroy"/>
+      <element name="TCurrencyEdit.Clear"/>
+      <element name="TCurrencyEdit.AsInteger">
+        <descr>
+          <p>Свойство позволяет обратиться к значению <link id="TCurrencyEdit.Value">Value</link>, сохраненному в компоненте - редакторе для ввода чисел, как к целому числу. </p>
+        </descr>
+      </element>
+      <element name="TCurrencyEdit.DisplayText">
+        <descr>Свойство служит для доступа на чтение к форматированному в соответствии со значением <link id="TCurrencyEdit.DisplayFormat">DisplayFormat</link> представлению значения <link id="TCurrencyEdit.Value">Value</link>Value (совпадает с отображаемой строкой в компоненте, когда элемент редактирования не имеет фокуса ввода). В отличие от этого свойства, свойство Text всегда возвращает неформатированную строку.</descr>
+      </element>
+      <element name="TCurrencyEdit.Value">
+        <descr>Свойство позволяет установить (или получить) численную величину значения, отображаемого в строке ввода. В случае пустой строки возвращается значение 0.</descr>
+      </element>
+      <element name="TCurrencyEdit.Alignment"/>
+      <element name="TCurrencyEdit.AutoSelect">
+        <descr>Определяет факт автоматического выделения всего текста при попадании фокуса клавиатурного ввода в компонент</descr>
+      </element>
+      <element name="TCurrencyEdit.AutoSize">
+        <descr>Свойство определяет, будет ли размер автоматически изменяться размер шрифта</descr>
+      </element>
+      <element name="TCurrencyEdit.BeepOnError">
+        <descr>Если значение этого свойства установлено в True (по умолчанию False), то при ошибках ввода с клавиатуры (недопустимых символов и т.д.) раздается звуковой сигнал.</descr>
+      </element>
+      <element name="TCurrencyEdit.BorderStyle"/>
+      <element name="TCurrencyEdit.BorderSpacing"/>
+      <element name="TCurrencyEdit.CheckOnExit">
+        <descr>
+          <p>Свойство определяет, будет ли проверяться  допустимый диапазон числа в компонентах TCurrencyEdit при потере фокуса строкой редактирования. </p>
+          <p>Если CheckOnExit = True, то в случае ввода недопустимого значения происходит исключение (exception). </p>
+        </descr>
+      </element>
+      <element name="TCurrencyEdit.Color"/>
+      <element name="TCurrencyEdit.DecimalPlaces">
+        <descr>Свойство определяет максимально допустимое число десятичных знаков при вводе и изменении данных в строке редактирования компоненты TCurrencyEdit. Используется, когда строка имеет фокус ввода. При отображении значения в несфокусированной строке редактирования свойство не используется - применяется маска, заданная свойством <link id="TCurrencyEdit.DisplayFormat">DisplayFormat.</link>
+        </descr>
+      </element>
+      <element name="TCurrencyEdit.DisplayFormat">
+        <descr>Свойство задает формат отображения данных в компоненте TCurrencyEdit. При получении компонентой фокуса ввода форматирование данных отменяется и ввод происходит как в обычную строку ввода TEdit. При потере фокуса ввода данные форматируются согласно заданному формату.</descr>
+      </element>
+      <element name="TCurrencyEdit.DragCursor"/>
+      <element name="TCurrencyEdit.DragMode"/>
+      <element name="TCurrencyEdit.Enabled"/>
+      <element name="TCurrencyEdit.Font"/>
+      <element name="TCurrencyEdit.FormatOnEditing">
+        <descr>Свойство определяет, будет ли автоматически форматироваться значение в строке редактора непосредственно при редактировании. 
+Формат ввода определяется переменными DecimalSeparator и ThousandSeparator из модуля SysUtils.pas и свойством <link id="TCurrencyEdit.DecimalPlaces">DecimalPlaces</link>
+        </descr>
+      </element>
+      <element name="TCurrencyEdit.HideSelection"/>
+      <element name="TCurrencyEdit.Anchors"/>
+      <element name="TCurrencyEdit.BiDiMode"/>
+      <element name="TCurrencyEdit.Constraints"/>
+      <element name="TCurrencyEdit.DragKind"/>
+      <element name="TCurrencyEdit.MaxLength"/>
+      <element name="TCurrencyEdit.MaxValue">
+        <descr>Максимально допустимое значение свойства <link id="TCurrencyEdit.Value">Value</link>. Значение MaxValue ограничивает максимальную величину числа, которое можно ввести в строку ввода.</descr>
+      </element>
+      <element name="TCurrencyEdit.MinValue">
+        <descr>Минимально допустимое значение свойства <link id="TCurrencyEdit.Value">Value</link>. Значение MinValue ограничивает минимальную величину числа, которое можно ввести в строку ввода.</descr>
+      </element>
+      <element name="TCurrencyEdit.ParentColor"/>
+      <element name="TCurrencyEdit.ParentFont"/>
+      <element name="TCurrencyEdit.ParentShowHint"/>
+      <element name="TCurrencyEdit.PopupMenu"/>
+      <element name="TCurrencyEdit.ReadOnly"/>
+      <element name="TCurrencyEdit.ShowHint"/>
+      <element name="TCurrencyEdit.TabOrder"/>
+      <element name="TCurrencyEdit.TabStop"/>
+      <element name="TCurrencyEdit.Text"/>
+      <element name="TCurrencyEdit.Value"/>
+      <element name="TCurrencyEdit.Visible"/>
+      <element name="TCurrencyEdit.ZeroEmpty">
+        <descr>Если значение этого свойства равно True, то когда редактор имеет фокус ввода и значение <link id="TCurrencyEdit.Value">Value</link>Value = 0, в нем с качестве текста отображается пустая строка. Если ZeroEmpty = False, то в этом случае текст '0'.</descr>
+      </element>
+      <element name="TCurrencyEdit.OnChange"/>
+      <element name="TCurrencyEdit.OnClick"/>
+      <element name="TCurrencyEdit.OnDblClick"/>
+      <element name="TCurrencyEdit.OnDragDrop"/>
+      <element name="TCurrencyEdit.OnDragOver"/>
+      <element name="TCurrencyEdit.OnEndDrag"/>
+      <element name="TCurrencyEdit.OnEnter"/>
+      <element name="TCurrencyEdit.OnExit"/>
+      <element name="TCurrencyEdit.OnKeyDown"/>
+      <element name="TCurrencyEdit.OnKeyPress"/>
+      <element name="TCurrencyEdit.OnKeyUp"/>
+      <element name="TCurrencyEdit.OnMouseDown"/>
+      <element name="TCurrencyEdit.OnMouseMove"/>
+      <element name="TCurrencyEdit.OnMouseUp"/>
+      <element name="TCurrencyEdit.OnContextPopup"/>
+      <element name="TCurrencyEdit.OnStartDrag"/>
+      <element name="TCurrencyEdit.OnEndDock"/>
+      <element name="TCurrencyEdit.OnStartDock"/>
+      <short>CurrEdit Unit</short>
+      <descr>
+        <p>The <b>CurrEdit unit</b> contains the declarations for the certain components on the <b>RX Controls</b> page of the Component palette and their associated objects, types, and constants.
+When you add a component declared in this unit to a form, the unit is automatically added to the uses clause of that form's unit.</p>
+        <p>The following items are declared in the CurrEdit unit:</p>
+        <p>
+          <b>Components and objects</b>
+        </p>
+        <p>
+          <link id="TCurrencyEdit">TCurrencyEdit</link>
+        </p>
+        <p>To see a listing of items declared in this unit including their declarations, use the ObjectBrower.</p>
+      </descr>
+    </module>
+
+
+</package>
+</fpdoc-descriptions>

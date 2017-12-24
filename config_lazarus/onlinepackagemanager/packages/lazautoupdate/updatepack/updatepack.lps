@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Linux 32 release"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="updatepack.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="58" Y="37"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mainform"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="1395"/>
+        <CursorPos X="69" Y="1437"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="umemoform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MemoForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="26"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="58"/>
+        <CursorPos X="16" Y="1050"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\laztrunk\lazarus\components\lazutils\lazfileutils.pas"/>
+        <UnitName Value="LazFileUtils"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="70"/>
+        <CursorPos X="23" Y="102"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\laztrunk\lazarus\components\lazutils\unixlazfileutils.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="40"/>
+        <CursorPos X="3" Y="42"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:\lazarustrunk\common_components\onlinepackagemanager\onlinepackagemanager\fpcmod\opkman_zip.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="2690"/>
+        <CursorPos X="12" Y="2736"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\ushortcut.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="155"/>
+        <CursorPos X="51" Y="170"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\applications\json_packager\umain.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="22" Y="83"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="343" Column="36" TopLine="329"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="326" Column="32" TopLine="300"/>
+      </Position2>
+      <Position3>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1339" Column="31" TopLine="1333"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="840" Column="24" TopLine="829"/>
+      </Position4>
+      <Position5>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1000" Column="45" TopLine="976"/>
+      </Position5>
+      <Position6>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="369" Column="3" TopLine="364"/>
+      </Position6>
+      <Position7>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="481" Column="3" TopLine="479"/>
+      </Position7>
+      <Position8>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="431" Column="17" TopLine="401"/>
+      </Position8>
+      <Position9>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="695" Column="16" TopLine="676"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="777" Column="39" TopLine="740"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="780" Column="7" TopLine="743"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="2149" Column="4" TopLine="2123"/>
+      </Position12>
+      <Position13>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="447" Column="53" TopLine="444"/>
+      </Position13>
+      <Position14>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="505" Column="3" TopLine="502"/>
+      </Position14>
+      <Position15>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="499" TopLine="496"/>
+      </Position15>
+      <Position16>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="515" TopLine="510"/>
+      </Position16>
+      <Position17>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="510" TopLine="506"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="2141" Column="26" TopLine="2122"/>
+      </Position18>
+      <Position19>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="519" Column="19" TopLine="514"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <Caret Line="1054" Column="30" TopLine="1026"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\ushortcut.pas"/>
+        <Caret Line="170" Column="51" TopLine="155"/>
+      </Position21>
+      <Position22>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="493" Column="48" TopLine="488"/>
+      </Position22>
+      <Position23>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="647" Column="30" TopLine="643"/>
+      </Position23>
+      <Position24>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="676" Column="6" TopLine="672"/>
+      </Position24>
+      <Position25>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="331" Column="3" TopLine="329"/>
+      </Position25>
+      <Position26>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1036" Column="8" TopLine="1012"/>
+      </Position26>
+      <Position27>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1424" TopLine="1372"/>
+      </Position27>
+      <Position28>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1428" Column="37" TopLine="1392"/>
+      </Position28>
+      <Position29>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="41" Column="81"/>
+      </Position29>
+      <Position30>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="42" Column="13" TopLine="27"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

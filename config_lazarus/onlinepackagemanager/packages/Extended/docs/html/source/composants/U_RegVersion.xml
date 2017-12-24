@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_RegVersion
+  ====================================================================
+-->
+    <module name="U_RegVersion">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TVersionProperty">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: default -->
+      <element name="TVersionProperty.GetAttributes">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TVersionProperty.GetAttributes.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: default -->
+      <element name="TVersionProperty.AboutDialog">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TVersionProperty.AboutDialog.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="TVersionProperty.Edit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_RegVersion -->
+  </package>
+</fpdoc-descriptions>

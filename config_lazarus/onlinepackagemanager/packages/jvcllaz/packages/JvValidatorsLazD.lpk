@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvValidatorsLazD"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lazarus port by: Michał Gawrycki"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\design\JvValidators"/>
+        <OtherUnitFiles Value="..\design\JvValidators"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\design\JvValidators"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Validator components of the JVCL library (https://sourceforge.net/projects/jvcl/) (designtime code)"/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="..\design\JvValidators\JvValidatorReg.pp"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JvValidatorReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\design\JvValidators\JvValidatorsEditorForm.lfm"/>
+        <Type Value="LFM"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\design\JvValidators\JvValidatorsEditorForm.pas"/>
+        <UnitName Value="JvValidatorsEditorForm"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="JvValidatorsLazR"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="JvCoreLazD"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="IDEIntf"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

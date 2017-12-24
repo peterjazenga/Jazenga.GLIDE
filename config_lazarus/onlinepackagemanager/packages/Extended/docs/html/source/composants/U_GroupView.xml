@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_GroupView
+  ====================================================================
+-->
+    <module name="U_GroupView">
+      <short/>
+      <descr/>
+      <!-- function type Visibility: default -->
+      <element name="EBasketAllEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="EBasketAllEvent.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EBasketAllEvent.Sender">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EBasketAllEvent.GetNullRecords">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EBasketAllEvent.GetCurrentGroup">
+        <short/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TDBGroupView">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- interface Visibility: default -->
+      <element name="IFWFormVerify">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="IFWFormVerify.Modifying">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="IFWFormVerify.VerifyModifying">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gb_CaseInSensitive">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gsts_SQLCommand">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gsts_SQLSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gsts_SQLQuery">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gstl_params">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gprs_ParamSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gds_Query1">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gds_Query2">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.ds_DatasourceQuery">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.ds_DataSourceQuery2">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gws_RecordValue">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gws_Oldfilter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gws_Filter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.ge_BasketGetAll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gb_Oldfiltered">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gb_Open">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gb_Record">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBGroupView.gb_Filtered">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fds_GetDatasourceQuery">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fds_GetDatasourceQuery.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fds_GetDatasourceQuery2">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fds_GetDatasourceQuery2.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetDataSourceQuery">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetDataSourceQuery.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetDataSourceQuery2">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetDataSourceQuery2.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetFilter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetFilter.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetFiltered">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetFiltered.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetDataSourceOwner">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetDataSourceOwner.a_Value">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fds_GetDatasourceOwner">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fds_GetDatasourceOwner.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_groupeMouseDownDisableEnableFleche">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_groupeMouseDownDisableEnableFleche.aLSV_groupe">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_groupeMouseDownDisableEnableFleche.abt_item">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetTotalList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetTotalList.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetBtnList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetBtnList.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetAutreTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetAutreTotal.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetOtherListBtn">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetOtherListBtn.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_setBtnBasket">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_setBtnBasket.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetOtherList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetOtherList.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_setEnregistre">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_setEnregistre.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_setAbandonne">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_setAbandonne.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_setGroupKey">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_setGroupKey.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_setUnitsField">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_setUnitsField.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetGroupField">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetGroupField.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetGroupTable">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetGroupTable.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetImageSupprime">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetImageSupprime.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBGroupView.p_SetImageInsere">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetImageInsere.a_Value">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ErreurBtnTotalIn">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ErreurBtnTotalIn.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ErreurBtnIn">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ErreurBtnIn.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ErreurBtnOut">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ErreurBtnOut.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ErreurBtnTotalOut">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ErreurBtnTotalOut.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ValideBoutons">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ValideBoutons.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fvar_PeutMettrePlus">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fvar_PeutMettrePlus.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fvar_PeutMettrePlus.aadoq_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fvar_PeutMettrePlus.aadoq_Query">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fvar_PeutMettrePlus.asi_ItemsSelected">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fi_FindList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fi_FindList.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fi_FindList.at_List">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fi_FindList.alsi_Item">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fi_SupprimeItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fi_SupprimeItem.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fi_SupprimeItem.at_List">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fi_SupprimeItem.alsi_Item">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fws_GetExistingFilter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fws_GetExistingFilter.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBGroupView.fb_ValueToValid">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ValueToValid.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_ValueToValid.afie_ChampTest">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gds_Querysource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gdat_QuerySource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gdat_Query1">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gdat_Query2">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gvar_WorkingOriginKey">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gvar_WorkingGroup">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gdl_DataLinkOwner">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gstl_GroupKey">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gstl_GroupField">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_GroupField">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_UnitsField">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_SortQuery">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_TableOwner">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_GroupKey">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gs_GroupTable">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gb_EstPrincipale">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_RecordedEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_FilterEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_QueryAll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_CancelledEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_RecordError">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_BasketClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_RecordClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_CancelClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_TotalListClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_BtnInvertClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.ge_ListClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_Basket">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_Optional">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_Record">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_Cancel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_TotalList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_List">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gbt_Exchange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_Other">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gBT_OtherTotal">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gi_ImageInsere">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gi_ImageSupprime">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.galv_OtherList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gb_SelfOpen">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gb_NoScroll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBGroupView.gb_Basket">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.Notification">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.Notification.AComponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.Notification.Operation">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_BeginOpen">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_BeginOpen.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetHintString">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetHintString.awin_Control">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetHintString.as_Hint">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetClickEvent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetClickEvent.awin_Control">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetClickEvent.as_procedure">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetClickEvent.AOldEvent">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilar">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilar.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferent.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_VerifyFields">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_VerifyFields.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQuery1N">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQuery1N.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferentTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferentTotal.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferentTotalOut">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceDifferentTotalOut.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilarTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilarTotal.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilarTotalOut">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryNotLinkedNNGroupSourceSimilarTotalOut.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryShowAllGroup">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryShowAllGroup.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryShowAllGroup.astl_KeysListOut">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryLinkedAllSelect">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryLinkedAllSelect.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ExecuteQueryLinkedAllSelectTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ExecuteQueryLinkedAllSelectTotal.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetDatasources">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_OpenParamsQuery">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_OpenParamsQuery.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_OpenQuery">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetButtonsOther">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetButtonsOther.ab_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetListImages">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_ListLoaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.EditingChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_DataSetChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_SetDataSourceGroup">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_SetDataSourceGroup.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_LocateInit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_LocateRestore">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_UndoRecord">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_AddOriginKey">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_AddOriginKey.avar_Add">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_ReinitialisePasTout">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_Locate">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_Locate.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_Locate.avar_Records">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_UpdateButtons">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_UpdateButtons.ai_ItemsAjoutes">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_DesactiveGrille">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_VerifieModifications">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_CanAdd">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_CanAdd.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_CanAdd.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_CanAdd.ab_AddItemPlus">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_ChangeEtatItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_ChangeEtatItem.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_ChangeEtatItem.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_ChangeEtatItem.ab_AddItemPlus">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_SetRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_SetRecords.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_SetRecords.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.fb_SetRecords.ab_InsereCles">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_SetList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_SetList.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBGroupView.fb_CanSort">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBGroupView.fb_CanSort.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.DoSelectItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DoSelectItem.llsi_ItemsSelected">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DoSelectItem.ab_selected">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.LoadList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.DataLinkScrolled">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.DataLinkClosed">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.DblClick">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.DragOver">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragOver.aobj_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragOver.ai_X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragOver.ai_Y">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragOver.ads_Etat">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragOver.ab_Accepte">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.KeyUp">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.KeyUp.Key">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.KeyUp.Shift">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.MouseDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.MouseDown.abt_Bouton">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.MouseDown.ass_EtatShift">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.MouseDown.ai_x">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.MouseDown.ai_y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_PostDataSourceOwner">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBGroupView.p_CreateSQL">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: public -->
+      <element name="TDBGroupView.gb_OptionTotalList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: public -->
+      <element name="TDBGroupView.gb_TotalListReal">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: public -->
+      <element name="TDBGroupView.gt_KeyOwners">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: public -->
+      <element name="TDBGroupView.gstl_KeysListOut">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.DataLinkLoadList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TDBGroupView.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.Create.acom_owner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TDBGroupView.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.p_AddSyncronousRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.p_Reinitialise">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.DragDrop">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragDrop.aobj_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragDrop.ai_X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.DragDrop.ai_Y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.p_TransfertTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.p_VideTotalList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.Refresh">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TDBGroupView.AllList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBGroupView.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_Cancel">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_Cancel.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_Record">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_Record.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_VideBasket">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_VideBasket.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_ClickTransfertTotal">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_ClickTransfertTotal.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_ClickTransfert">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_ClickTransfert.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: published -->
+      <element name="TDBGroupView.p_InvertClick">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBGroupView.p_InvertClick.Sender">
+        <short/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataTableGroup">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataTableOwner">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DatasourceQuery">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataSourceQuery2">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataSourceOwner">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataKeyOwner">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataFieldUnit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataFieldGroup">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataListPrimary">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonTotalIn">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonIn">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonExchange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonTotalOut">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonOut">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataListOpposite">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonRecord">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonCancel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataImgInsert">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataImgDelete">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.ButtonBasket">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataSensitiveBug">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataRecorded">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataCanceled">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataRecordError">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataFilter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataAllQuery">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataAllFilter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataAllFiltered">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataRecordValue">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.OnDataAllWhereBasket">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBGroupView.DataKeyUnit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: default -->
+      <element name="fb_WaitForLoadingFirstFetch">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="fb_WaitForLoadingFirstFetch.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: default -->
+      <element name="fb_BuildWhereBasket">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="fb_BuildWhereBasket.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_BuildWhereBasket.aalv_Primary">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_BuildWhereBasket.as_Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_BuildWhereBasket.ab_GetNull">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_BuildWhereBasket.ab_GetCurrent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_BuildWhereBasket.ab_Order">
+        <short/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_PAGES_CHARGER">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_COULEUR_FOCUS">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_TOTAL">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_SIMPLE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_RETOUR">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_DESTI">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_EXCLU">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurFocus">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurLignePaire">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurLigneImpaire">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="ge_GroupFetchLoading">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gim_GroupViewImageList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_GroupView -->
+  </package>
+</fpdoc-descriptions>

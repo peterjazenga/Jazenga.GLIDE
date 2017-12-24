@@ -1,0 +1,29 @@
+Pour LAZARUS
+
+Installez Indy 10 de https://indy.fulgan.com/ZIP/
+Il est dans les téléchargements aussi.
+
+Installez le paquet lazregisterextcomp ou bien le paquet typhonregisterextcomp.lpk, après avoir enregistré ExpertSuperForm par Mercurial.
+Installez votre paquet d'accèse aux données ibx, zeos, dbnet data.
+
+Nécessité de compiler le paquet lazextcore ou typhonextcore une fois avant linking de lazarus, ou bien modifiez en écriture u_traducefile dans le paquet extcopy.
+Utilisez pl_lnet de Code Typhon, en réutilisant IDEIntf de Lazarus.
+
+Le Versioning est dans chaque unité et la version élaborée est dans lazextcomponents.lpk
+
+Extended utilise les rx, JvXPBar et autres composants lazarus à partir du dépôt lazarus-ccr SVN. Dernière mise à jour CCR : 1 Novembre 2016.
+
+Vous devez chercher les nouvelles version dans les logs pour compiler (Update to version).
+
+Pour les extensions Extended : 
+
+extends.inc et dlcompilers.inc doivent être copiés vers les paquets hérités avec extendsinc.sh or extendsinc.bat à côté.
+
+ExtCopy pouvait utiliser la librairie imagemagick and magickwand.
+
+Utilisez Fortes Report version 3.24 du site officiel.
+
+Pour DELPHI
+
+Installez juste le paquet ExtComponents.
+ExtNumEdits, ExtOperations et ExtImages n'ont pas été testés sur Delphi.

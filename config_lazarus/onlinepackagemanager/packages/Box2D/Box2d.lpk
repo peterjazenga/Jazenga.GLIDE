@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="Box2d"/>
+    <Author Value="Erin Catto"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+          <CStyleMacros Value="True"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Box2D is a 2D physics engine for games."/>
+    <License Value="zlib License
+
+Copyright (c) 2006-2017 Erin Catto http://www.box2d.org
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution"/>
+    <Version Major="2" Minor="1"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="source\Physics2D.inc"/>
+        <Type Value="Include"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\UPhysics2D.pas"/>
+        <UnitName Value="UPhysics2D"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\UPhysics2DControllers.pas"/>
+        <UnitName Value="UPhysics2DControllers"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\UPhysics2DHelper.pas"/>
+        <UnitName Value="UPhysics2DHelper"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\UPhysics2DPolygonTool.pas"/>
+        <UnitName Value="UPhysics2DPolygonTool"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\UPhysics2DTypes.pas"/>
+        <UnitName Value="UPhysics2DTypes"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\USpring2DController.pas"/>
+        <UnitName Value="USpring2DController"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

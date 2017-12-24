@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="boxprocs"><short>Модуль предназначен для управления содержимым 2 элементов управления типа TListBox</short><descr>В основном используется в компоненте TDualListBox</descr><element name="BoxMoveSelectedItems"><short>Переносит выбранные элементы из списка источника в список приёмник</short>
+      </element><element name="BoxMoveAllItems"><short>Переносит все элементы из списка источника в список приёмник</short>
+      </element><element name="BoxMoveFocusedItem"><short>Переносит выбранный эелемент из списка источника в список приёмник</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

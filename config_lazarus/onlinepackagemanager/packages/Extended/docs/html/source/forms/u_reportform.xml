@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_reportform
+  ====================================================================
+-->
+    <module name="u_reportform">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TReportForm">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="TReportForm.AReport">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="TReportForm.Panel1">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="TReportForm.p_BeforePrintImage">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TReportForm.p_BeforePrintImage.Sender">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TReportForm.p_BeforePrintImage.PrintIt">
+        <short/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="ReportForm">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_reportform -->
+  </package>
+</fpdoc-descriptions>

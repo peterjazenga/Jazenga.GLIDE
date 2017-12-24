@@ -1,0 +1,1 @@
+del /s /q *.ppu *.o *.dbg *.or *.compiled

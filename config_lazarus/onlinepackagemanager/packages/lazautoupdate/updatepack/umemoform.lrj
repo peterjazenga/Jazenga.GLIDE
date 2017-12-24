@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":205771709,"name":"tmemoform.caption","sourcebytes":[77,101,109,111,70,111,114,109],"value":"MemoForm"},
+{"hash":249572213,"name":"tmemoform.cmd_close.caption","sourcebytes":[83,97,118,101,32,97,110,100,32,38,67,108,111,115,101],"value":"Save and &Close"},
+{"hash":265989989,"name":"tmemoform.cmd_saveasandclose.caption","sourcebytes":[83,97,118,101,32,97,115,46,46,46,32,97,110,100,32,38,67,108,111,115,101],"value":"Save as... and &Close"},
+{"hash":143769124,"name":"tmemoform.selectdirectorydialog1.title","sourcebytes":[83,101,108,101,99,116,32,68,105,114,101,99,116,111,114,121,32,102,111,114,32,119,104,97,116,115,110,101,119,46,116,120,116],"value":"Select Directory for whatsnew.txt"}
+]}

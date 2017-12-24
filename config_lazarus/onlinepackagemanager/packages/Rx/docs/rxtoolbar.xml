@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+    <module name="rxtoolbar">
+      <element name="TToolbarItem"/>
+      <element name="TToolbarItem.Create"/>
+      <element name="TToolbarItem.Destroy"/>
+      <element name="TToolbarItem.Action"/>
+      <element name="TToolbarItem.AutoSize"/>
+      <element name="TToolbarItem.Visible"/>
+      <element name="TToolbarItem.Left"/>
+      <element name="TToolbarItem.Height"/>
+      <element name="TToolbarItem.Top"/>
+      <element name="TToolbarItem.Width"/>
+      <element name="TToolbarItem.DropDownMenu"/>
+      <element name="TToolbarItem.ShowCaption">
+        <short>Отображать заголовок кнопки</short>
+        <descr>Отображать заголовок кнопки</descr>
+      </element>
+      <element name="TToolbarItem.GroupIndex"/>
+      <element name="TToolbarItem.Layout"/>
+      <element name="TToolbarItem.ButtonStyle"/>
+      <element name="TToolbarItem.Tag"/>
+      <element name="TToolPanel"/>
+      <element name="TToolPanel.Create"/>
+      <element name="TToolPanel.Destroy"/>
+      <element name="TToolPanel.Customize"/>
+      <element name="TToolPanel.Items"/>
+      <element name="TToolPanel.ImageList"/>
+      <element name="TToolPanel.ImageListSelected"/>
+      <element name="TToolPanel.PropertyStorage">
+        <descr>
+          <p>Свойство позволяет автоматически сохранять специфические установки компоненты в INI-файле или (для 32-разрядной версии) в системном регистре при помощи компонент TFormPlacement или TFormStorage. </p>
+          <p>При задании значения свойству IniStorage (и непустом имени компоненты), некоторые ее настройки, которые не являются published-свойствами и не могут быть заданы для TFormStorage напрямую, будут сохраняться и восстанавливаться одновременни с другими значениями, заданными для соответствующей компоненты TFormPlacement (TFormStorage). </p>
+          <p>Для TSpeedbar - это расположение кнопок на панели и положение самой панели, для TMRUManager - список строк, для TRxDBGrid - ширины и положение полей в таблице и т.д. Все компоненты, имеющие свойство IniStorage, имеют также методы для сохранения и восстановления их настроек вручную, такие как Save/RestoreLayout и т.д.</p>
+        </descr>
+      </element>
+      <element name="TToolPanel.BtnWidth"/>
+      <element name="TToolPanel.BtnHeight"/>
+      <element name="TToolPanel.ToolBarStyle"/>
+      <element name="TToolPanel.Options">
+        <descr>Свойство определяет поведение панели инструментов согласно типа 
+<link id="TToolPanelOption">TToolPanelOption</link>.</descr>
+      </element>
+      <element name="TToolPanel.Version"/>
+      <element name="TToolPanel.ButtonAllign">
+        <short>Выравнивание кнопок на панели инструментов</short>
+        <descr>Определяет выравнивание кнопок на панели инструментов</descr>
+        <seealso>
+          <link id="TToolButtonAllign"/>
+        </seealso>
+      </element>
+      <element name="TToolPanel.Align"/>
+      <element name="TToolPanel.Alignment"/>
+      <element name="TToolPanel.Anchors"/>
+      <element name="TToolPanel.AutoSize"/>
+      <element name="TToolPanel.BorderSpacing"/>
+      <element name="TToolPanel.BevelInner"/>
+      <element name="TToolPanel.BevelOuter"/>
+      <element name="TToolPanel.BevelWidth"/>
+      <element name="TToolPanel.BorderWidth"/>
+      <element name="TToolPanel.BorderStyle"/>
+      <element name="TToolPanel.ChildSizing"/>
+      <element name="TToolPanel.ClientHeight"/>
+      <element name="TToolPanel.ClientWidth"/>
+      <element name="TToolPanel.Color"/>
+      <element name="TToolPanel.Constraints"/>
+      <element name="TToolPanel.DragMode"/>
+      <element name="TToolPanel.Enabled"/>
+      <element name="TToolPanel.Font"/>
+      <element name="TToolPanel.FullRepaint"/>
+      <element name="TToolPanel.ParentColor"/>
+      <element name="TToolPanel.ParentFont"/>
+      <element name="TToolPanel.ParentShowHint"/>
+      <element name="TToolPanel.PopupMenu"/>
+      <element name="TToolPanel.ShowHint"/>
+      <element name="TToolPanel.TabOrder"/>
+      <element name="TToolPanel.TabStop"/>
+      <element name="TToolPanel.Visible"/>
+      <element name="TToolPanel.OnClick"/>
+      <element name="TToolPanel.OnDblClick"/>
+      <element name="TToolPanel.OnDragDrop"/>
+      <element name="TToolPanel.OnDragOver"/>
+      <element name="TToolPanel.OnEndDrag"/>
+      <element name="TToolPanel.OnEnter"/>
+      <element name="TToolPanel.OnExit"/>
+      <element name="TToolPanel.OnMouseDown"/>
+      <element name="TToolPanel.OnMouseMove"/>
+      <element name="TToolPanel.OnMouseUp"/>
+      <element name="TToolPanel.OnResize"/>
+      <element name="TToolPanel.OnStartDrag"/>
+      <element name="TToolbarButtonStyle">
+        <short>Стиль поведения кнопки на панели инструментов</short>
+        <descr>Стиль поведения кнопки на панели инструментов
+<table>
+            <th>
+              <td>Стиль</td>
+              <td>Описание</td>
+            </th>
+            <tr>
+              <td>tbrButton</td>
+              <td>Кнопка</td>
+            </tr>
+            <tr>
+              <td>tbrCheck</td>
+              <td>Чек-бокс</td>
+            </tr>
+            <tr>
+              <td>tbrDropDown</td>
+              <td>Выпадающее меню</td>
+            </tr>
+            <tr>
+              <td>tbrSeparator</td>
+              <td>Разделитель</td>
+            </tr>
+            <tr>
+              <td>tbrDivider</td>
+              <td>Разделитель с линией</td>
+            </tr>
+            <tr>
+              <td>tbrDropDownExtra</td>
+              <td>Кнопка с выпадающим меню</td>
+            </tr>
+          </table>
+        </descr>
+      </element>
+      <element name="TToolBarStyle">
+        <short>Стиль отображения на панели инструментов</short>
+        <descr>
+          <p>Стиль отображения на панели инструментов</p>
+          <table>
+            <th>
+              <td>Сталь</td>
+              <td>Описание</td>
+            </th>
+            <tr>
+              <td>tbsStandart</td>
+              <td>Отображение кнопок обёмными и квадратными (как было в Windows 95-2000)</td>
+            </tr>
+            <tr>
+              <td>tbsWindowsXP</td>
+              <td>Отображение "плоских" голубых кнопок (как в Windows XP)</td>
+            </tr>
+            <tr>
+              <td>tbsNative</td>
+              <td>При отображении кнопок используется внешний вид согласно текущей системной темы отрисовки элементов интерфейса</td>
+            </tr>
+          </table>
+        </descr>
+      </element>
+      <element name="TToolButtonAllign">
+        <short>Выравнивание кнопок на панели инструментов</short>
+        <descr>
+          <p>Выравнивание кнопок на панели инструментов</p>
+          <table>
+            <th>
+              <td>Выравнивание</td>
+              <td>Описание</td>
+            </th>
+            <tr>
+              <td>tbaNone</td>
+              <td>Нет автоматического выравнивания кнопок</td>
+            </tr>
+            <tr>
+              <td>tbaLeft</td>
+              <td>Выравнивани по левому краю</td>
+            </tr>
+            <tr>
+              <td>tbaRignt</td>
+              <td>Выравнивание по правому краю</td>
+            </tr>
+          </table>
+        </descr>
+        <seealso>
+          <link id="TToolPanel.ButtonAllign"/>
+        </seealso>
+      </element>
+      <element name="TToolPanelOption">
+        <descr>Параметры поведения панели инструментов
+
+<table>
+            <th>
+              <td>Элемент</td>
+              <td>Описание</td>
+            </th>
+            <tr>
+              <td>tpFlatBtns</td>
+              <td>Всплывающие кнопки</td>
+            </tr>
+            <tr>
+              <td>tpTransparentBtns</td>
+              <td>Прозрачные кнопки, актуально если сама панель инструментов отрисовывется не стандартно, например с фоновым рисунком</td>
+            </tr>
+            <tr>
+              <td>tpStretchBitmap</td>
+              <td>Растягивать изображения</td>
+            </tr>
+            <tr>
+              <td>tpCustomizable</td>
+              <td>Доступно во время работы приложения возможность настройки панели (скрывать или отображать кнопки)</td>
+            </tr>
+            <tr>
+              <td>tpGlyphPopup</td>
+              <td>При наведении указателя мышки изображения на кнопках будут "приподниматься"</td>
+            </tr>
+            <tr>
+              <td>tpCaptionPopup</td>
+              <td>При наведении указателя мышки текст на кнопках будет "приподниматься"</td>
+            </tr>
+          </table>
+        </descr>
+      </element>
+      <element name="TToolPanelOptions">
+        <descr>Комплексное тип, содержащий в себе множество элементов типа <link id="TToolPanelOption">TToolPanelOption</link>.</descr>
+      </element>
+      <element name="DefButtonWidth">
+        <short>Ширина кнопки по умолчанию</short>
+        <descr>Ширина кнопки по умолчанию</descr>
+        <seealso>
+          <link id="TToolbarItem.Width"/>
+          <link id="TToolPanel.BtnWidth"/>
+        </seealso>
+      </element>
+      <element name="DefButtonHeight">
+        <short>Высота кнопки по умолчанию</short>
+        <descr>Высота кнопки по умолчанию</descr>
+        <seealso>
+          <link id="TToolbarItem"/>
+          <link id="TToolPanel.BtnHeight"/>
+        </seealso>
+      </element>
+      <element name="DropDownExtraBtnWidth">
+        <short>Ширина вспомогательной кнопки по умолчанию</short>
+        <descr>Ширина вспомогательной кнопки по умолчанию</descr>
+        <seealso>
+          <link id="TToolbarItem.ButtonStyle"/>
+        </seealso>
+      </element>
+    </module>
+
+
+</package>
+</fpdoc-descriptions>

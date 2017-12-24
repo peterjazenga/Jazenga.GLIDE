@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="excompress"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Compress Library"/>
+    <License Value="GPL"/>
+    <Version Major="1"/>
+    <Files Count="18">
+      <Item1>
+        <Filename Value="source\AllExCompressRegister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AllExCompressRegister"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\compressbase.pas"/>
+        <UnitName Value="compressbase"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\TplLzmaUnit.pas"/>
+        <UnitName Value="TplLzmaUnit"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\TplZlibUnit.pas"/>
+        <UnitName Value="TplZlibUnit"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\ubittreedecoder.pas"/>
+        <UnitName Value="UBitTreeDecoder"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\ubittreeencoder.pas"/>
+        <UnitName Value="UBitTreeEncoder"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\ubufferedfs.pas"/>
+        <UnitName Value="UBufferedFS"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\ucrc.pas"/>
+        <UnitName Value="UCRC"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\ulzbintree.pas"/>
+        <UnitName Value="ULZBinTree"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\ulzinwindow.pas"/>
+        <UnitName Value="ULZInWindow"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\ulzmabase.pas"/>
+        <UnitName Value="ULZMABase"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\ulzmabench.pas"/>
+        <UnitName Value="ULZMABench"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\ulzmacommon.pas"/>
+        <UnitName Value="ULZMACommon"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\ulzmadecoder.pas"/>
+        <UnitName Value="ULZMADecoder"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\ulzmaencoder.pas"/>
+        <UnitName Value="ULZMAEncoder"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\ulzoutwindow.pas"/>
+        <UnitName Value="ULZOutWindow"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\urangedecoder.pas"/>
+        <UnitName Value="URangeDecoder"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source\urangeencoder.pas"/>
+        <UnitName Value="URangeEncoder"/>
+      </Item18>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

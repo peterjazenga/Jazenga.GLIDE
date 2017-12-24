@@ -1,0 +1,13 @@
+*.bak
+*.dbg
+*.exe
+*.lps
+backup
+lib
+debug
+*.res
+*.lrt
+*.o
+*.ppu
+*.or
+*.compiled

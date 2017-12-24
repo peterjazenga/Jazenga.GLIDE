@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <SaveClosedFiles Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InIDEConfig"/>
+      <MainUnit Value="0"/>
+      <Title Value="test_castle_game_engine"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="castle_components"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="castle_base"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FPCUnitTestRunner"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="test_castle_game_engine.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="castlebasetestcase.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit1>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="../src/base"/>
+      <OtherUnitFiles Value="../examples/research_special_rendering_methods/shadow_fields;../examples/curves_surfaces"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <IncludeAssertionCode Value="True"/>
+        <CStyleMacros Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Other>
+      <Verbosity>
+        <ShowHints Value="False"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="30">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EUnableToLoadImage"/>
+      </Item3>
+      <Item4>
+        <Name Value="EBox3DEmpty"/>
+      </Item4>
+      <Item5>
+        <Name Value="EInvalidLongOption"/>
+      </Item5>
+      <Item6>
+        <Name Value="EInvalidShortOption"/>
+      </Item6>
+      <Item7>
+        <Name Value="EInvalidParams"/>
+      </Item7>
+      <Item8>
+        <Name Value="EMissingOptionArgument"/>
+      </Item8>
+      <Item9>
+        <Name Value="EExcessiveOptionArgument"/>
+      </Item9>
+      <Item10>
+        <Name Value="ENodesManagerError"/>
+      </Item10>
+      <Item11>
+        <Name Value="EDeformatError"/>
+      </Item11>
+      <Item12>
+        <Name Value="EUnknownPercentFormat"/>
+      </Item12>
+      <Item13>
+        <Name Value="EKamAssignValueError"/>
+      </Item13>
+      <Item14>
+        <Name Value="EConvertError"/>
+      </Item14>
+      <Item15>
+        <Name Value="ECasScriptError"/>
+      </Item15>
+      <Item16>
+        <Name Value="ECasScriptFunctionArgumentsError"/>
+      </Item16>
+      <Item17>
+        <Name Value="ECasScriptParserError"/>
+      </Item17>
+      <Item18>
+        <Name Value="ECasScriptFunctionNoHandler"/>
+      </Item18>
+      <Item19>
+        <Name Value="ECasScriptAnyMathError"/>
+      </Item19>
+      <Item20>
+        <Name Value="EKambiOSError"/>
+      </Item20>
+      <Item21>
+        <Name Value="EDivByZero"/>
+      </Item21>
+      <Item22>
+        <Name Value="EOSError"/>
+      </Item22>
+      <Item23>
+        <Name Value="EInOutError"/>
+      </Item23>
+      <Item24>
+        <Name Value="EInternalError"/>
+      </Item24>
+      <Item25>
+        <Name Value="EX3DNotFound"/>
+      </Item25>
+      <Item26>
+        <Name Value="BreakTryFindNode"/>
+      </Item26>
+      <Item27>
+        <Name Value="ECasScriptAssignError"/>
+      </Item27>
+      <Item28>
+        <Name Value="Exception"/>
+      </Item28>
+      <Item29>
+        <Name Value="RunError(200)"/>
+      </Item29>
+      <Item30>
+        <Name Value="EDOMAttributeMissing"/>
+      </Item30>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

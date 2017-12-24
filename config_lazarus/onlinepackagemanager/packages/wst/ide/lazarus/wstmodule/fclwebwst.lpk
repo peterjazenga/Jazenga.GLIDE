@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="fclwebwst"/>
+    <Type Value="DesignTime"/>
+    <Author Value="Inoussa OUEDRAOGO"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="The  fcl-web integration package of the Web Services Toolkit. fcl-web is then used as the transport layer.
+
+The &quot;Web Service Toolkit”  (WST) is a web-services consumption and authoring toolkit for FPC/Lazarus and Delphi developers. WST has support for SOAP,XMLRPC, JSON-RPC, a custom binary serialization formats and WSDL for services description. The supported transport protocols include HTTP, TCP and a library-base (for an in-process communication) tranport."/>
+    <License Value="Modified LGPL
+"/>
+    <Version Minor="8"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="wstmodule.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="wstmodule"/>
+      </Item1>
+      <Item2>
+        <Filename Value="regwstmodule.pp"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="regwstmodule"/>
+      </Item2>
+      <Item3>
+        <Filename Value="README.txt"/>
+        <Type Value="Text"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="weblaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="wst_core"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

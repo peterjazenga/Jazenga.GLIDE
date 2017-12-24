@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="CeosMW"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="josebenedito@gmail.com"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="CeosMW - JSONRPC n-tier middleware
+https://github.com/jbsolucoes/ceosmw"/>
+    <License Value="This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."/>
+    <Version Release="3"/>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="ceosclient.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ceosclient"/>
+      </Item1>
+      <Item2>
+        <Filename Value="ceosserver.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ceosserver"/>
+      </Item2>
+      <Item3>
+        <Filename Value="ceostypes.pas"/>
+        <UnitName Value="ceostypes"/>
+      </Item3>
+      <Item4>
+        <Filename Value="ceosservermethods.pas"/>
+        <UnitName Value="ceosservermethods"/>
+      </Item4>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

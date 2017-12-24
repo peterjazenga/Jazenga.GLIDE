@@ -1,0 +1,34 @@
+object frmMain: TfrmMain
+  Left = 76
+  Height = 560
+  Top = 147
+  Width = 560
+  Caption = 'Test Platforms'
+  ClientHeight = 560
+  ClientWidth = 560
+  Color = clBlack
+  Constraints.MinHeight = 560
+  Constraints.MinWidth = 560
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object bgMap: TBGPanel
+    Left = 0
+    Height = 560
+    Top = 0
+    Width = 560
+    OnRedraw = bgMapRedraw
+  end
+  object mainTimer: TTimer
+    Interval = 15
+    OnTimer = mainTimerTimer
+    left = 74
+    top = 54
+  end
+end

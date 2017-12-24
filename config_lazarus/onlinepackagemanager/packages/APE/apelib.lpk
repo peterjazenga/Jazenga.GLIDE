@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="apelib"/>
+    <Author Value="Alec Cove, Vincent Gsell, Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <Verbosity>
+          <ShowWarn Value="False"/>
+          <ShowNotes Value="False"/>
+          <ShowHints Value="False"/>
+        </Verbosity>
+      </Other>
+    </CompilerOptions>
+    <Description Value="APE (Actionscript Physics Engine) 2D Physics Engine"/>
+    <License Value="GNU Library General Public License (LGPL)"/>
+    <Version Minor="1"/>
+    <Files Count="29">
+      <Item1>
+        <Filename Value="source\uAbstractCollection.pas"/>
+        <UnitName Value="uAbstractCollection"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\uAbstractConstraint.pas"/>
+        <UnitName Value="uAbstractConstraint"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\uAbstractItem.pas"/>
+        <UnitName Value="uAbstractItem"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\uAbstractParticle.pas"/>
+        <UnitName Value="uAbstractParticle"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\uApeEngine.pas"/>
+        <UnitName Value="uApeEngine"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\uBridge.pas"/>
+        <UnitName Value="uBridge"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\uCapsule.pas"/>
+        <UnitName Value="uCapsule"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\ucar.pas"/>
+        <UnitName Value="ucar"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\uCircleParticle.pas"/>
+        <UnitName Value="uCircleParticle"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\uCollision.pas"/>
+        <UnitName Value="uCollision"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\uCollisionDetector.pas"/>
+        <UnitName Value="uCollisionDetector"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\uCollisionResolver.pas"/>
+        <UnitName Value="uCollisionResolver"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\uComposite.pas"/>
+        <UnitName Value="uComposite"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\uGDIRender.pas"/>
+        <UnitName Value="uGDIRender"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\uGroup.pas"/>
+        <UnitName Value="uGroup"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\uInterval.pas"/>
+        <UnitName Value="uInterval"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\uMathUtil.pas"/>
+        <UnitName Value="uMathUtil"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source\uRectangleParticle.pas"/>
+        <UnitName Value="uRectangleParticle"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source\uRectComposite.pas"/>
+        <UnitName Value="uRectComposite"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source\uRender.pas"/>
+        <UnitName Value="uRender"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source\uRimParticle.pas"/>
+        <UnitName Value="uRimParticle"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source\uRotator.pas"/>
+        <UnitName Value="uRotator"/>
+      </Item22>
+      <Item23>
+        <Filename Value="source\uSpringConstraint.pas"/>
+        <UnitName Value="uSpringConstraint"/>
+      </Item23>
+      <Item24>
+        <Filename Value="source\uSpringConstraintParticle.pas"/>
+        <UnitName Value="uSpringConstraintParticle"/>
+      </Item24>
+      <Item25>
+        <Filename Value="source\uSprite.pas"/>
+        <UnitName Value="uSprite"/>
+      </Item25>
+      <Item26>
+        <Filename Value="source\uSurfaces.pas"/>
+        <UnitName Value="uSurfaces"/>
+      </Item26>
+      <Item27>
+        <Filename Value="source\uSwingDoor.pas"/>
+        <UnitName Value="uSwingDoor"/>
+      </Item27>
+      <Item28>
+        <Filename Value="source\uVector.pas"/>
+        <UnitName Value="uVector"/>
+      </Item28>
+      <Item29>
+        <Filename Value="source\uWheelParticle.pas"/>
+        <UnitName Value="uWheelParticle"/>
+      </Item29>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

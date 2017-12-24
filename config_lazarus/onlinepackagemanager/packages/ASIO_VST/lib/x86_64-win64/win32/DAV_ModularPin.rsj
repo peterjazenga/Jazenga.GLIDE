@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":118865828,"name":"dav_modularpin.rcstrpinalreadyremoved","sourcebytes":[80,105,110,32,97,108,114,101,97,100,121,32,114,101,109,111,118,101,100],"value":"Pin already removed"},
+{"hash":90072881,"name":"dav_modularpin.rcstroutputpinalreadyconnected","sourcebytes":[79,117,116,112,117,116,32,112,105,110,32,97,108,114,101,97,100,121,32,99,111,110,110,101,99,116,101,100,33],"value":"Output pin already connected!"},
+{"hash":180466385,"name":"dav_modularpin.rcstrdatatypeundefined","sourcebytes":[68,97,116,97,32,116,121,112,101,32,105,115,32,121,101,116,32,117,110,100,101,102,105,110,101,100,33],"value":"Data type is yet undefined!"},
+{"hash":81118625,"name":"dav_modularpin.rcstrdatatypemismatch","sourcebytes":[68,97,116,97,32,116,121,112,101,32,109,105,115,109,97,116,99,104,33],"value":"Data type mismatch!"},
+{"hash":253300600,"name":"dav_modularpin.rcstrtriggertypemismatch","sourcebytes":[80,114,111,99,101,115,115,32,116,121,112,101,32,109,105,115,109,97,116,99,104],"value":"Process type mismatch"}
+]}

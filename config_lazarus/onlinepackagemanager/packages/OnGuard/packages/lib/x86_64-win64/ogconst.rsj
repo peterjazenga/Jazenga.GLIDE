@@ -1,0 +1,12 @@
+{"version":1,"strings":[
+{"hash":144673572,"name":"ogconst.scnooncheck","sourcebytes":[37,115,32,104,97,115,32,110,111,32,79,110,67,104,101,99,107,101,100,32,101,118,101,110,116,32,104,97,110,100,108,101,114,32,97,115,115,105,103,110,101,100],"value":"%s has no OnChecked event handler assigned"},
+{"hash":198007652,"name":"ogconst.scnoongetcode","sourcebytes":[37,115,32,104,97,115,32,110,111,32,79,110,71,101,116,67,111,100,101,32,101,118,101,110,116,32,104,97,110,100,108,101,114,32,97,115,115,105,103,110,101,100],"value":"%s has no OnGetCode event handler assigned"},
+{"hash":70606420,"name":"ogconst.scnoongetkey","sourcebytes":[37,115,32,104,97,115,32,110,111,32,79,110,71,101,116,75,101,121,32,101,118,101,110,116,32,104,97,110,100,108,101,114,32,97,115,115,105,103,110,101,100],"value":"%s has no OnGetKey event handler assigned"},
+{"hash":256936516,"name":"ogconst.scnoonchangecode","sourcebytes":[37,115,32,104,97,115,32,110,111,32,79,110,67,104,97,110,103,101,67,111,100,101,32,101,118,101,110,116,32,104,97,110,100,108,101,114,32,97,115,115,105,103,110,101,100],"value":"%s has no OnChangeCode event handler assigned"},
+{"hash":126448559,"name":"ogconst.scdeletequery","sourcebytes":[65,114,101,32,121,111,117,32,115,117,114,101,32,121,111,117,32,119,97,110,116,32,116,111,32,100,101,108,101,116,101,32,116,104,105,115,32,105,116,101,109,63],"value":"Are you sure you want to delete this item?"},
+{"hash":50645509,"name":"ogconst.scinvalidstartdate","sourcebytes":[73,110,118,97,108,105,100,32,115,116,97,114,116,32,100,97,116,101],"value":"Invalid start date"},
+{"hash":206359333,"name":"ogconst.scinvalidenddate","sourcebytes":[73,110,118,97,108,105,100,32,101,110,100,32,100,97,116,101],"value":"Invalid end date"},
+{"hash":209699650,"name":"ogconst.scinvalidkeyormodifier","sourcebytes":[73,110,118,97,108,105,100,32,107,101,121,32,111,114,32,109,111,100,105,102,105,101,114],"value":"Invalid key or modifier"},
+{"hash":27791925,"name":"ogconst.scinvalidexdate","sourcebytes":[73,110,118,97,108,105,100,32,101,120,112,105,114,97,116,105,111,110,32,100,97,116,101],"value":"Invalid expiration date"},
+{"hash":22975892,"name":"ogconst.scnoongetfilename","sourcebytes":[70,105,108,101,78,97,109,101,32,105,115,32,101,109,112,116,121,32,97,110,100,32,79,110,71,101,116,70,105,108,101,78,97,109,101,32,105,115,32,110,111,116,32,97,115,115,105,103,110,101,100],"value":"FileName is empty and OnGetFileName is not assigned"}
+]}

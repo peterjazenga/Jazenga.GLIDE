@@ -1,0 +1,147 @@
+object Form1: TForm1
+  Left = 200
+  Height = 280
+  Top = 108
+  Width = 399
+  Caption = 'ChemLabel Demo'
+  ClientHeight = 280
+  ClientWidth = 399
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Arial'
+  Position = poScreenCenter
+  LCLVersion = '1.9.0.0'
+  object Panel1: TPanel
+    Left = 16
+    Height = 137
+    Top = 8
+    Width = 361
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 133
+    ClientWidth = 357
+    Color = clWhite
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Arial'
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object ChemLabel1: TChemLabel
+      AnchorSideLeft.Control = Spacer
+      AnchorSideLeft.Side = asrBottom
+      Left = 187
+      Height = 23
+      Top = 40
+      Width = 60
+      Caption = 'C3H7OH'
+      ParentColor = False
+    end
+    object ChemLabel2: TChemLabel
+      AnchorSideLeft.Control = Spacer
+      AnchorSideLeft.Side = asrBottom
+      Left = 187
+      Height = 23
+      Top = 68
+      Width = 121
+      Arrow = caUTF8Single
+      Caption = '2H2 + O2  -> H2O'
+      ParentColor = False
+    end
+    object ChemLabel3: TChemLabel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      Left = 110
+      Height = 19
+      Top = 8
+      Width = 136
+      Caption = 'Using ChemLabel'
+      Font.Color = clNavy
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object ChemLabel5: TChemLabel
+      AnchorSideLeft.Control = Spacer
+      AnchorSideLeft.Side = asrBottom
+      Left = 187
+      Height = 23
+      Top = 96
+      Width = 141
+      Arrow = caUTF8Single
+      Caption = 'H2+ + H2  --> H3+ + H'
+      ParentColor = False
+    end
+    object Spacer: TBevel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      Left = 170
+      Height = 136
+      Top = 0
+      Width = 17
+      Shape = bsSpacer
+    end
+    object Label3: TChemLabel
+      AnchorSideRight.Control = Spacer
+      Left = 16
+      Height = 18
+      Top = 96
+      Width = 154
+      Anchors = [akTop, akRight]
+      Caption = 'Ion\-molecule reaction:'
+      ParentColor = False
+    end
+    object Label2: TChemLabel
+      AnchorSideRight.Control = Spacer
+      Left = 40
+      Height = 18
+      Top = 68
+      Width = 130
+      Anchors = [akTop, akRight]
+      Caption = 'Chemical reaction:'
+      ParentColor = False
+    end
+    object Label1: TChemLabel
+      AnchorSideRight.Control = Spacer
+      Left = 103
+      Height = 18
+      Top = 40
+      Width = 67
+      Anchors = [akTop, akRight]
+      Caption = 'Propanol:'
+      ParentColor = False
+    end
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 26
+    Top = 184
+    Width = 329
+    OnChange = Edit1Change
+    TabOrder = 0
+    Text = '(CH3)3COH'
+  end
+  object ChemLabel4: TChemLabel
+    Left = 32
+    Height = 36
+    Top = 224
+    Width = 131
+    Arrow = caUTF8Single
+    Caption = '(CH3)3COH'
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Times New Roman'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 18
+    Top = 162
+    Width = 140
+    Caption = 'Type a formula here:'
+    ParentColor = False
+  end
+end

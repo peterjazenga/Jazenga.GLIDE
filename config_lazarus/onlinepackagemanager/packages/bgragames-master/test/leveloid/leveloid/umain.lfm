@@ -1,0 +1,47 @@
+object frmMain: TfrmMain
+  Cursor = crNone
+  Left = 222
+  Height = 400
+  Top = 205
+  Width = 720
+  BorderStyle = bsNone
+  Caption = 'leveloid'
+  ClientHeight = 400
+  ClientWidth = 720
+  Color = clBlack
+  Constraints.MinHeight = 400
+  Constraints.MinWidth = 720
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnKeyUp = FormKeyUp
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object bgMap: TOpenGLControl
+    Left = 0
+    Height = 400
+    Top = 0
+    Width = 720
+    AutoResizeViewport = True
+    OnPaint = bgMapPaint
+  end
+  object mainTimer: TTimer
+    Enabled = False
+    Interval = 15
+    OnTimer = mainTimerTimer
+    left = 56
+    top = 24
+  end
+  object psscript: TPSScript
+    CompilerOptions = []
+    OnCompile = psscriptCompile
+    OnExecute = psscriptExecute
+    Plugins = <>
+    UsePreProcessor = True
+    OnNeedFile = psscriptNeedFile
+    left = 153
+    top = 24
+  end
+end

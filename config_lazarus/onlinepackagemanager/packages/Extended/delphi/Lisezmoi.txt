@@ -1,0 +1,1 @@
+Si vous rencontrez des problèmes après la compilation du paquet Fortes Report, effacez le répertoire des dcp et des paquets dans les options de compilation du paquet, ou ajoutez les répertoires à l'environnement de recherche.

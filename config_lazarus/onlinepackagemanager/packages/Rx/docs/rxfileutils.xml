@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxtools"><module name="rxFileUtils"><short>Модуль содержит вспомогательные утилиты для работы с файлами и каталогами</short><element name="FileNameDisabledChars"><short>Список символов, которые нельзя использовать в имени фала</short><descr><p>Константа FileNameDisabledChars содержит список символов, которые нельзя использовать в имени файла.</p><p>Значения константы зависит от платформы</p>
+        </descr>
+      </element><element name="IsValidFileNameChar"><short>Функция проверяет допустимост использования символа в имени файла</short>
+      </element><element name="NormalizeFileName"><short>Функция приводит имя файла к правильному виду в зависимости от платформы</short><descr><p>Данная функция проверяет все символы в имени файла и заменяет запрещённые символы на указанный <b>AReplaceChar</b>.</p><p>По умолчанию вместо AReplaceChar подставляется символ "_" (подчёркивание)</p>
+        </descr>
+      </element><element name="GetFileOwnerUser"><short>Функция возвращает имя пользователя - владельца файла</short>
+      <descr><p>function <b>GetFileOwnerUser</b>(const SearchDomain, FileName:<b>String</b>):<b>String</b>;</p><p>Функция возвращает имя пользователя операционной системы владельца указанного файла.</p><p><b>Входные параметры:</b>
+          </p><p>SearchDomain - Домен, в котором будет производится поиск оператора (пустой для текущего домена оператора).</p><p>FileName - Полное имя файла.</p><remark>В данный момент функция реализована только для windows.</remark>
+        </descr>
+      </element><element name="GetFileOwnerData"><short>Функция возвращает данные о владельце файла</short>
+      <descr><p><b>procedure</b> GetFileOwnerData(<b>const</b> SearchDomain, FileName:<b>String</b>;<b>out</b> UserName, DomainName:<b>String</b>);</p><p>Процедура  возвращает имя и домен пользователя операционной системы владельца указанного файла. </p><p><b>Входные параметры:</b>
+          </p><p>- SearchDomain - Домен, в котором будет производится поиск оператора (пустой для текущего домена оператора).</p><p>- FileName - Полное имя файла.</p><p><b>Выходные параметры:</b>
+          </p><p>- UserName - Имя пльзователя.</p><p>- DomainName - Домен, в котором найден данный пользователь.</p><remark>В данный момент функция реализована только для windows.</remark>
+        </descr>
+      </element><element name="NormalizeDirectoryName"><short>Функция приводит все разделители в полном пути к файлу к виду принятом на текущей платформе</short>
+      <descr><p><b>function</b> NormalizeDirectoryName(<b>const</b> DirName:<b>string</b>):<b>string</b>;</p><p>Функция проверяет все разделители каталогов в указанном имени файла/каталога и, если нужно, меняет их на значение константы<b>DirectorySeparator</b>.</p>
+        </descr>
+      </element><element name="GetUserName"><short>Функция возвращяет имя текущего пользователя, зарегистрированного в операционной сиситеме на рабочем месте</short>
+      <descr><p><b>function</b> GetUserName: <b>string</b>;</p><p>Функция <b>GetUserName</b> возвращает имя оператора, зарегистрированного в системе</p>
+        </descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

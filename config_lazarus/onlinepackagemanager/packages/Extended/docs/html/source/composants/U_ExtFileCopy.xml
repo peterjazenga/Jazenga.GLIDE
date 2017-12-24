@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_ExtFileCopy
+  ====================================================================
+-->
+    <module name="U_ExtFileCopy">
+      <short/>
+      <descr/>
+      <!-- enumeration type Visibility: default -->
+      <element name="TEMultipleCopyOption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEMultipleCopyOption.cpCopyAll">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TEMultipleCopyOption.cpNoStructure">
+        <short/>
+      </element>
+      <!-- set type Visibility: default -->
+      <element name="TECopyFileOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- set type Visibility: default -->
+      <element name="TECopyFilesOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- alias type Visibility: default -->
+      <element name="IntCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="lsco_Default">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="lmco_Default">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_IS_READONLY">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_UNKNOWN">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_IS_DIRECTORY">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_IS_FILE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_DIRECTORY_CREATE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_CANT_COPY">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_CANT_READ">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_CANT_CREATE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_CANT_APPEND">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_FILE_DELETE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_PARTIAL_COPY">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_PARTIAL_COPY_SEEK">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COPYFILES_ERROR_CANT_CHANGE_DATE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TExtFileCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FTraduceCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FOnChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FDoEraseDir">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FSizeTotal">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FSizeProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FOnSuccess">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FBeforeCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FBeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FOnProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FBufferSize">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FFileOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FFilesOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FFilter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FDestination">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFileCopy.FInProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtFileCopy.SetBufferSize">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.SetBufferSize.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtFileCopy.SetDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.SetDestination.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtFileCopy.SetSource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.SetSource.Value">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TExtFileCopy.FBuffer">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.CreateDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.CreateDestination.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.CreateDestination.as_Destination">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.as_Destination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.li_HandleSource">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.li_HandleDestination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.ab_AppendFile">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.PrepareFileSourceAndDestination.ab_CreateBackup">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.fb_InternalCopyFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyFile.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyFile.as_Destination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyFile.ab_DestinationIsFile">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyFile.ab_CreateBackup">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.as_Destination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.as_Mask">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.ab_CopyStructure">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.ab_DestinationIsFile">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.ab_CopyAll">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.fb_InternalCopyDirectory.ab_CreateBackup">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.BeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.BeforeCopyBuffer.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.BeforeCopyBuffer.li_SizeRead">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.BeforeCopyBuffer.li_BytesTotal">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFileCopy.BeforeCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.BeforeCopy.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtFileCopy.AfterCopyBuffer">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtFileCopy.InternalDefaultCopyFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.InternalDefaultCopyFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.InternalDefaultCopyFile.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.InternalDefaultCopyFile.as_Destination">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtFileCopy.InternalFinish">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.InternalFinish.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.InternalFinish.as_Destination">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtFileCopy.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.Create.AOwner">
+        <short/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtFileCopy.InProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtFileCopy.CopyFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFileCopy.CopyFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.CopyFile.as_Source">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.CopyFile.as_Destination">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.CopyFile.ab_AppendFile">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFileCopy.CopyFile.ab_CreateBackup">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtFileCopy.CopySourceToDestination">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.TraduceCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.BufferSize">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.Source">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.Mask">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.Destination">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.FileOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.FilesOptions">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.OnSuccess">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.OnProgress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.OnBeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.OnBeforeCopy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.OnChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFileCopy.DoEraseDir">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TExtFilePartialCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFilePartialCopy.lb_ExcludedFound">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFilePartialCopy.FExcludeStart">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFilePartialCopy.FExcludeEnd">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtFilePartialCopy.FExcludeReading">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFilePartialCopy.BeforeCopyBuffer">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFilePartialCopy.BeforeCopyBuffer.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFilePartialCopy.BeforeCopyBuffer.li_SizeRead">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFilePartialCopy.BeforeCopyBuffer.li_BytesTotal">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtFilePartialCopy.BeforeCopy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtFilePartialCopy.BeforeCopy.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtFilePartialCopy.AfterCopyBuffer">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtFilePartialCopy.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtFilePartialCopy.Create.AOwner">
+        <short/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFilePartialCopy.ExcludeReading">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFilePartialCopy.ExcludeStart">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtFilePartialCopy.ExcludeEnd">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_ExtFileCopy -->
+  </package>
+</fpdoc-descriptions>

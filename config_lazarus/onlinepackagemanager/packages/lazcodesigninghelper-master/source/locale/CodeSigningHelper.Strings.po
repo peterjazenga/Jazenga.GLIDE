@@ -1,0 +1,337 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: codesigninghelper.strings.rscodesigningerrordoprojectclose
+msgid "An exception occured handling codesigning specific data in DoProjectClose(%s)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrordoprojectopened
+msgid "An exception occured handling codesigning specific data in DoProjectOpened(%s)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrorgetprimaryconfigpath
+msgid "Unable to get LazarusIDE.GetPrimaryConfigPath:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerroridemacrossubstitutemacrosfailed
+msgid "Unable to get target filename for codesigning, IDEMacros.SubstituteMacros(%s) failed!"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrorlazarusideactiveprojectmainfilefilename
+msgid "Unable to get LazarusIDE.ActiveProject.MainFile.Filename:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrormissingsigningexecutable
+msgid "Unable to find signing executable %s!"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrortargetosapplecodesign
+msgid "Apple CodeSign is not designed to sign files for the target platform \"%s\"!"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrortargetosmicrosoftsigntool
+msgid "Microsoft SignTool is not designed to sign files for the target platform \"%s\"!"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningerrorwritingconfig
+msgid ""
+"There was an issue trying to save CodeSigningHelper settings to %s:\n"
+"%s\n"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemsign
+msgid "Attach code signature to executable"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemsignbundle
+msgid "Attach code signature to bundle"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemsignother
+msgid "Attach code signature to other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemsignotherglobal
+msgid "Attach code signature with global options to other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemverify
+msgid "Verify code signature"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuitemverifyother
+msgid "Verify code signature of other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmenuname
+msgctxt "codesigninghelper.strings.rscodesigningmenuname"
+msgid "Codesign Project"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagecertificatesourcefile
+msgid "Certificate file: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagecertificatesourcehash
+msgid "Certificate SHA-1: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagecertificatesourcesubstring
+msgid "Certificate substring: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagecrosssigningactive
+msgid "Cross-signing active: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagecrosssigningfile
+msgid "Cross-signing certificate: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagedescriptiontext
+msgid "Description text: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagedescriptionurl
+msgid "Description URL: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessageerror
+msgid "Unable to sign file %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagepagehashingdefault
+msgid "Page Hashing: default"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagepagehashingno
+msgid "Page Hashing: no (/nph)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagepagehashingyes
+msgid "Page Hashing: yes (/ph)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessageprojectspecificalgoritms
+msgid "Using project-specific algorithms..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessageprojectspecificcertificate
+msgid "Using project-specific certificate..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessageprojectspecificflags
+msgid "Using project-specific flags..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessageprojectspecifictimestamping
+msgid "Using project-specific timestamping..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagesuccess
+msgid "Signed %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagetimestampingactive
+msgid "Timestamping active: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagetimestampingserver
+msgid "Timestamping server: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningmessagewindowssystemcomponentverification
+msgid "Windows System Component Verification: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsalgorithms
+msgid "Algorithms"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsautomation
+msgid "Automation"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsbooleanhint
+msgid "Global setting: %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsgroupname
+msgid "Code Signing Options"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsmoreoptions
+msgid "More options"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionspagehashingph
+msgid "Page hashing (/ph)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionssigningkey
+msgid "Signing Key"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionssigningtoolexecutable
+msgid "Signing tool executable"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionssignonsuccessfulcompileorbuild
+msgid "Sign on successful compile or build"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionssignwithsha1
+msgid "Sign with SHA-1"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionssignwithsha256
+msgid "Sign with SHA-256"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsspecifiykeyandcertificateaspfxfile
+msgid "Specifiy key and certificate as .pfx file:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsspecifiykeybypartofsubject
+msgid "Specifiy key by part of subject:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsspecifiykeyincertificatestorebyhash
+msgid "Specifiy key in certificate store by hash:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionstimestamping
+msgid "Timestamping"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionstitle
+msgid "Code Signing"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionstitleapplecodesign
+msgid "Apple CodeSign"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionstitlejavakeytool
+msgid "Java KeyTool"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionstitlemicrosoftsigntool
+msgid "Microsoft SignTool"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsusecrosssigningcertificate
+msgid "Use cross-signing certificate:"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionsusetimestamping
+msgid "Use timestamping"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningoptionswindowssystemcomponentverificationuw
+msgid "Windows System Component Verification (/uw)"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningprojectoptionsgroupname
+msgid "Code Signing Project Options"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatusbuildfailed
+msgid "Build not successful, skipping signing."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatusdeleteunbundledexecutablefail
+msgid "Unable to delete executable in old location at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatuserrorcode
+msgid "Error Code: %d"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatusexecutabletobundlecopiedfail
+msgid "Unable to copy executable into bundle at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatusexecutabletobundlecopiedgood
+msgid "Copied executable into bundle at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussignaturefolderremovedfail
+msgid "Unable to remove signature folder at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussignaturefolderremovedgood
+msgid "Removed signature folder at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussignatureremovedfail
+msgid "Unable to remove signature at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussignatureremovedgood
+msgid "Removed signature at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussigning
+msgid "Codesigning executable..."
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningstatussymlinkremovedfail
+msgid "Unable to delete symlink or old executable at %s"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningviewcodesign
+msgctxt "codesigninghelper.strings.rscodesigningviewcodesign"
+msgid "Codesign Project"
+msgstr ""
+
+#: codesigninghelper.strings.rscodesigningviewcodeverify
+msgid "Verify Project Signature"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuitemsign
+msgctxt "codesigninghelper.strings.rsgnupgsigningmenuitemsign"
+msgid "Create GnuPG signature for executable"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuitemsignother
+msgid "Create GnuPG signature for other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuitemsignotherglobal
+msgid "Create GnuPG signature with global options for other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuitemverify
+msgctxt "codesigninghelper.strings.rsgnupgsigningmenuitemverify"
+msgid "Verify GnuPG signature of executable"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuitemverifyother
+msgid "Verify GnuPG signature of other file..."
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningmenuname
+msgctxt "codesigninghelper.strings.rsgnupgsigningmenuname"
+msgid "GnuPG-sign Project"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningoptionsusenondefaultsigningkey
+msgid "Use non-default signing key:"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningstatussigning
+msgctxt "codesigninghelper.strings.rsgnupgsigningstatussigning"
+msgid "Signing executable with GnuPG..."
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningviewsign
+msgctxt "codesigninghelper.strings.rsgnupgsigningviewsign"
+msgid "GnuPG-sign Project"
+msgstr ""
+
+#: codesigninghelper.strings.rsgnupgsigningviewverify
+msgctxt "codesigninghelper.strings.rsgnupgsigningviewverify"
+msgid "Verify GnuPG Signature"
+msgstr ""
+

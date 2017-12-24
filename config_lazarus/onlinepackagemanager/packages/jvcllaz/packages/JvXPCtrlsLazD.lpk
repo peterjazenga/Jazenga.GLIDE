@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvXPCtrlsLazD"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lazarus port by: Sergio Samayoa, Werner Pamler"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\design\JvXPCtrls"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\design\JvXPCtrls"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="XP style controls of the JVCL library (https://sourceforge.net/projects/jvcl/) (designtime code)"/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="..\design\JvXPCtrls\JvXPCtrlsReg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="JvXPCtrlsReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\design\JvXPCtrls\JvXPPropertyEditors.pas"/>
+        <UnitName Value="JvXPPropertyEditors"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="JvCoreLazD"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="JvXPCtrlsLazR"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

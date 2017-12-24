@@ -1,0 +1,27 @@
+object MainForm: TMainForm
+  Left = 383
+  Height = 427
+  Top = 178
+  Width = 621
+  Caption = 'AddressBook LCL REST Client'
+  ClientHeight = 427
+  ClientWidth = 621
+  OnCreate = FormCreate
+  LCLVersion = '1.1'
+  object MainPageControl: TPageControl
+    Left = 0
+    Height = 427
+    Top = 0
+    Width = 621
+    ActivePage = JSONTabSheet
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object JSONTabSheet: TTabSheet
+      Caption = 'JSON'
+    end
+    object XMLTabSheet: TTabSheet
+      Caption = 'XML (Read Only)'
+    end
+  end
+end

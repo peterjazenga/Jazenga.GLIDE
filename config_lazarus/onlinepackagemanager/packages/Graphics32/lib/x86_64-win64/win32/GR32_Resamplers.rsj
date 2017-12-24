@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":241745084,"name":"gr32_resamplers.sdstnil","sourcebytes":[68,101,115,116,105,110,97,116,105,111,110,32,98,105,116,109,97,112,32,105,115,32,110,105,108],"value":"Destination bitmap is nil"},
+{"hash":180805148,"name":"gr32_resamplers.ssrcnil","sourcebytes":[83,111,117,114,99,101,32,98,105,116,109,97,112,32,105,115,32,110,105,108],"value":"Source bitmap is nil"},
+{"hash":185216724,"name":"gr32_resamplers.ssrcinvalid","sourcebytes":[83,111,117,114,99,101,32,114,101,99,116,97,110,103,108,101,32,105,115,32,105,110,118,97,108,105,100],"value":"Source rectangle is invalid"},
+{"hash":166431724,"name":"gr32_resamplers.ssamplernil","sourcebytes":[78,101,115,116,101,100,32,115,97,109,112,108,101,114,32,105,115,32,110,105,108],"value":"Nested sampler is nil"},
+{"hash":101330340,"name":"gr32_resamplers.rcstrinvalidsrcrect","sourcebytes":[73,110,118,97,108,105,100,32,83,114,99,82,101,99,116],"value":"Invalid SrcRect"}
+]}

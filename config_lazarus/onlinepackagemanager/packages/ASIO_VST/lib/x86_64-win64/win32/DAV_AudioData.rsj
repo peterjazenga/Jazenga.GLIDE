@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":77622772,"name":"dav_audiodata.rcstrnoaudiofileformat","sourcebytes":[78,111,32,97,117,100,105,111,32,102,105,108,101,32,102,111,114,109,97,116,32,114,101,103,105,115,116,101,114,101,100],"value":"No audio file format registered"},
+{"hash":122882777,"name":"dav_audiodata.rcstrindexoutofbounds","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,98,111,117,110,100,115,32,40,37,100,41],"value":"Index out of bounds (%d)"},
+{"hash":201043065,"name":"dav_audiodata.rcstrsampleoutofrange","sourcebytes":[83,97,109,112,108,101,32,111,117,116,32,111,102,32,114,97,110,103,101,32,40,37,100,41],"value":"Sample out of range (%d)"}
+]}

@@ -1,0 +1,19 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestringsuriutils.rsutf16indexoutofrange
+msgid "Character Index %d out of Range, Length = %d"
+msgstr ""
+
+#: idresourcestringsuriutils.rsutf16invalidhighsurrogate
+msgid "Character at Index %d is not a valid UTF-16 High Surrogate"
+msgstr ""
+
+#: idresourcestringsuriutils.rsutf16invalidlowsurrogate
+msgid "Character at Index %d is not a valid UTF-16 Low Surrogate"
+msgstr ""
+
+#: idresourcestringsuriutils.rsutf16missinglowsurrogate
+msgid "Missing a Low Surrogate in UTF-16 sequence"
+msgstr ""
+

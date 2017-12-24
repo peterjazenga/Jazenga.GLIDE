@@ -1,0 +1,155 @@
+object Form1: TForm1
+  Left = 676
+  Height = 330
+  Top = 298
+  Width = 632
+  Caption = 'RxIniPropStorage DEMO'
+  ClientHeight = 330
+  ClientWidth = 632
+  Position = poScreenCenter
+  SessionProperties = 'Edit1.Text;Edit2.Text'
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label5
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 32
+    Width = 48
+    BorderSpacing.Around = 6
+    Caption = 'Value 1'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Label5
+    Left = 12
+    Height = 37
+    Top = 58
+    Width = 267
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Label5
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Label5
+    AnchorSideTop.Side = asrBottom
+    Left = 354
+    Height = 20
+    Top = 32
+    Width = 48
+    BorderSpacing.Around = 6
+    Caption = 'Value 2'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = Label2
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 360
+    Height = 37
+    Top = 58
+    Width = 266
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    AnchorSideLeft.Control = Label3
+    AnchorSideTop.Control = Label3
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Label6
+    Left = 12
+    Height = 37
+    Top = 207
+    Width = 259
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 2
+  end
+  object SpinEdit1: TSpinEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideTop.Control = Label4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 368
+    Height = 37
+    Top = 207
+    Width = 258
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 3
+    Value = 1
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label6
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 181
+    Width = 96
+    BorderSpacing.Around = 6
+    Caption = 'Manual value 1'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    AnchorSideLeft.Control = Label6
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Label6
+    AnchorSideTop.Side = asrBottom
+    Left = 362
+    Height = 20
+    Top = 181
+    Width = 96
+    BorderSpacing.Around = 6
+    Caption = 'Manual value 2'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    Left = 285
+    Height = 20
+    Top = 6
+    Width = 63
+    BorderSpacing.Around = 6
+    Caption = 'Auto save'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    Left = 277
+    Height = 20
+    Top = 155
+    Width = 79
+    Caption = 'Manual save'
+    ParentColor = False
+  end
+  object RxIniPropStorage1: TRxIniPropStorage
+    StoredValues = <    
+      item
+        Name = 'STRING_VALUE1'
+      end    
+      item
+        Name = 'INT_VALUE2'
+      end>
+    OnSavingProperties = RxIniPropStorage1SavingProperties
+    OnRestoreProperties = RxIniPropStorage1RestoreProperties
+    SeparateFiles = True
+    left = 304
+    top = 96
+  end
+end

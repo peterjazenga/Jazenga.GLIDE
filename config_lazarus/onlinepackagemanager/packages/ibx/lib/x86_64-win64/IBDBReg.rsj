@@ -1,0 +1,12 @@
+{"version":1,"strings":[
+{"hash":93660898,"name":"ibdbreg.sinterbaseexpressversion","sourcebytes":[70,105,114,101,98,105,114,100,32,69,120,112,114,101,115,115,32,102,111,114,32,76,97,122,97,114,117,115,32,50,46,48,46,50],"value":"Firebird Express for Lazarus 2.0.2"},
+{"hash":184966380,"name":"ibdbreg.seditsql","sourcebytes":[69,100,105,116,32,83,81,76],"value":"Edit SQL"},
+{"hash":7245954,"name":"ibdbreg.sibsqleditor","sourcebytes":[73,66,83,81,76,32,69,100,105,116,111,114],"value":"IBSQL Editor"},
+{"hash":162353269,"name":"ibdbreg.sibserviceeditor","sourcebytes":[69,100,105,116,32,73,66,32,83,101,114,118,105,99,101],"value":"Edit IB Service"},
+{"hash":77763790,"name":"ibdbreg.sibupdatesqleditor","sourcebytes":[38,85,112,100,97,116,101,83,81,76,32,69,100,105,116,111,114,46,46,46],"value":"&UpdateSQL Editor..."},
+{"hash":198873662,"name":"ibdbreg.sibdataseteditor","sourcebytes":[38,68,97,116,97,115,101,116,32,69,100,105,116,111,114,46,46,46],"value":"&Dataset Editor..."},
+{"hash":233547989,"name":"ibdbreg.sexecute","sourcebytes":[69,38,120,101,99,117,116,101],"value":"E&xecute"},
+{"hash":35437950,"name":"ibdbreg.sibdatabaseeditor","sourcebytes":[68,97,38,116,97,98,97,115,101,32,69,100,105,116,111,114,46,46,46],"value":"Da&tabase Editor..."},
+{"hash":147708830,"name":"ibdbreg.sibtransactioneditor","sourcebytes":[38,84,114,97,110,115,97,99,116,105,111,110,32,69,100,105,116,111,114,46,46,46],"value":"&Transaction Editor..."},
+{"hash":155356388,"name":"ibdbreg.sibupdatelayout","sourcebytes":[85,112,100,97,116,101,32,76,97,121,111,117,116],"value":"Update Layout"}
+]}

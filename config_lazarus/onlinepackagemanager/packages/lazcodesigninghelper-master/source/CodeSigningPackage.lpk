@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="CodeSigningPackage"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Patrick Kolla-ten Venne"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)-package-cs"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <IgnoredMessages idx5023="True"/>
+        </CompilerMessages>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Adds Authenticode codesigning to the IDE on Windows on macOS, and GnuPG signing wherever GnuPG is available."/>
+    <License Value="Copyright (C) 2017 Patrick Michael Kolla-ten Venne
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/>."/>
+    <Version Minor="1" Release="3" Build="6"/>
+    <Files Count="17">
+      <Item1>
+        <Filename Value="CodeSigningHelper.Options.pas"/>
+        <UnitName Value="CodeSigningHelper.Options"/>
+      </Item1>
+      <Item2>
+        <Filename Value="RegCodeSigningHelper.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RegCodeSigningHelper"/>
+      </Item2>
+      <Item3>
+        <Filename Value="CodeSigningHelper.Menu.pas"/>
+        <UnitName Value="CodeSigningHelper.Menu"/>
+      </Item3>
+      <Item4>
+        <Filename Value="CodeSigningHelper.Strings.pas"/>
+        <UnitName Value="CodeSigningHelper.Strings"/>
+      </Item4>
+      <Item5>
+        <Filename Value="CodeSigningHelper.Options.GnuPG.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.Options.GnuPG.Frame"/>
+      </Item5>
+      <Item6>
+        <Filename Value="PepiMK.Signing.AppleCodeSign.pas"/>
+        <UnitName Value="PepiMK.Signing.AppleCodeSign"/>
+      </Item6>
+      <Item7>
+        <Filename Value="PepiMK.Signing.Base.pas"/>
+        <UnitName Value="PepiMK.Signing.Base"/>
+      </Item7>
+      <Item8>
+        <Filename Value="PepiMK.Signing.GnuPG.pas"/>
+        <UnitName Value="PepiMK.Signing.GnuPG"/>
+      </Item8>
+      <Item9>
+        <Filename Value="PepiMK.Signing.MicrosoftSignTool.pas"/>
+        <UnitName Value="PepiMK.Signing.MicrosoftSignTool"/>
+      </Item9>
+      <Item10>
+        <Filename Value="CodeSigningHelper.ProjectOptions.MicrosoftSignTool.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.ProjectOptions.MicrosoftSignTool.Frame"/>
+      </Item10>
+      <Item11>
+        <Filename Value="CodeSigningHelper.ProjectOptions.pas"/>
+        <UnitName Value="CodeSigningHelper.ProjectOptions"/>
+      </Item11>
+      <Item12>
+        <Filename Value="CodeSigningHelper.Options.AppleCodeSign.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.Options.AppleCodeSign.Frame"/>
+      </Item12>
+      <Item13>
+        <Filename Value="CodeSigningHelper.Options.JavaKeyTool.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.Options.JavaKeyTool.Frame"/>
+      </Item13>
+      <Item14>
+        <Filename Value="CodeSigningHelper.Options.MicrosoftSignTool.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.Options.MicrosoftSignTool.Frame"/>
+      </Item14>
+      <Item15>
+        <Filename Value="PepiMK.Signing.JavaKeyTool.pas"/>
+        <UnitName Value="PepiMK.Signing.JavaKeyTool"/>
+      </Item15>
+      <Item16>
+        <Filename Value="CodeSigningHelper.ProjectOptions.AppleCodeSign.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.ProjectOptions.AppleCodeSign.Frame"/>
+      </Item16>
+      <Item17>
+        <Filename Value="CodeSigningHelper.ProjectOptions.GnuPG.Frame.pas"/>
+        <UnitName Value="CodeSigningHelper.ProjectOptions.GnuPG.Frame"/>
+      </Item17>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="locale"/>
+      <EnableI18NForLFM Value="True"/>
+    </i18n>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

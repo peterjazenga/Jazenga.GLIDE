@@ -1,0 +1,23 @@
+﻿TCharEncStream Test.
+
+    * Български
+    * Deutsch
+    * English
+    * Español
+    * Suomi
+    * Français
+    * עברית
+    * Magyar
+    * Italiano
+    * 日本語
+    * 한국어
+    * Nederlands
+    * Polski
+    * Português
+    * Slovenčina
+    * Svenska
+    * Türkçe
+    * Українська
+    * 中文
+
+

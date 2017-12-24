@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_extmenucustomize
+  ====================================================================
+-->
+    <module name="u_extmenucustomize">
+      <short/>
+      <descr/>
+      <!-- constant Visibility: default -->
+      <element name="MENUINI_SECTION_BEGIN">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TExtMenuCustomize">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtMenuCustomize.FAutoIni">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtMenuCustomize.FMenuIni">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtMenuCustomize.FMainMenu">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtMenuCustomize.FOnMenuChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtMenuCustomize.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtMenuCustomize.LoadAMenuNode">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.LoadAMenuNode.AMenuItemToCopy">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.LoadAMenuNode.AMenuParent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.LoadAMenuNode.ALoadLevel">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.LoadAMenuNode.EndSection">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtMenuCustomize.SaveAMenuNode">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.SaveAMenuNode.AMenuItem">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.SaveAMenuNode.ASaveLevel">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.SaveAMenuNode.EndSection">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtMenuCustomize.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.Create.TheOwner">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtMenuCustomize.LoadIni">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtMenuCustomize.LoadIni.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.LoadIni.EndSection">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtMenuCustomize.SaveIni">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtMenuCustomize.SaveIni.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtMenuCustomize.SaveIni.EndSection">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtMenuCustomize.Click">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtMenuCustomize.MenuChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtMenuCustomize.AutoIni">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtMenuCustomize.MenuIni">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtMenuCustomize.MainMenu">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtMenuCustomize.OnMenuChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_extmenucustomize -->
+  </package>
+</fpdoc-descriptions>

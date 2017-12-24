@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="rxdbgrid_export_spreadsheet"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lagunov Aleksey"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="rxdbgrid_export_spreadsheet"/>
+        <UnitOutputDirectory Value="lib/rxdbgrid_export_spreadsheet/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <License Value="LGPL"/>
+    <Version Major="1" Release="1" Build="6"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="rxdbgrid_export_spreadsheet/rxdbgridexportspreadsheet.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RxDBGridExportSpreadSheet"/>
+      </Item1>
+      <Item2>
+        <Filename Value="rxdbgrid_export_spreadsheet/rxdbgridexportspreadsheet_paramsunit.pas"/>
+        <UnitName Value="RxDBGridExportSpreadSheet_ParamsUnit"/>
+      </Item2>
+    </Files>
+    <LazDoc Paths="docs"/>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="laz_fpspreadsheet"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="rxnew"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

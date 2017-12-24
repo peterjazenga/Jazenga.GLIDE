@@ -1,0 +1,67 @@
+Program leveloid;
+
+// tiene que coincidir con TileWidth / TileHeight en el archivo del mapa
+const
+  TileSize = 16;
+
+// Al tocar un bloque
+function OnHitWall(tile: String; id: Integer): THitWall;
+begin
+  case tile of
+    // vacío
+    '-1': Result := hwEmpty;
+	'0':
+	begin
+	  AccX := 0;
+	  AccY := 0;
+	  Result := hwResetPlayer;
+	end;
+    // reinicia al jugador
+    '5', '6', '7', '8':
+    begin
+      AccX := 0;
+      AccY := 0;
+      Result := hwResetPlayer;
+    end;
+    // sólido
+    '1', '2', '3', '4': Result := hwHitSolid;
+    // avanza al siguiente nivel
+    '9': Result := hwGoNextLevel;
+  end;
+end;
+
+// Sonido al reiniciar
+function OnPlayRestartSound: string;
+begin
+  Result := 'level_restart.wav';
+end;
+
+// Música de fondo
+function OnPlayBackgroundMusic: string;
+begin
+  Result := 'level_music.ogg';
+end;
+
+begin
+  // Bloque del personaje
+  PlayerTile := 0;
+  // Posición Inicial
+  PosX := TileSize;
+  PosY := TileSize;
+  // Aceleración
+  AccX := 0;
+  AccY := 0;
+  // Velocidad
+  SpdX := 0.5 / 2;
+  SpdY := 0.5 / 2;
+  // Rebote
+  BncX := SpdX * 1.5;
+  BncY := SpdY * 1.5;
+  // Ralentizar 0..1
+  SlwX := 1;
+  SlwY := 1;
+  // Gravedad (Vertical)
+  Gravity := 0.5 / 2;
+  // Fricción (Horizontal) 0..1
+  Stop := 0.99;
+end.

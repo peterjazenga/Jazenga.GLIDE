@@ -1,0 +1,434 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.caption
+msgid "mainform"
+msgstr ""
+
+#: tmainform.chk_debugmode.caption
+msgid "Run LazAutoUpdate in Debugging Mode"
+msgstr ""
+
+#: tmainform.chk_overrideuserprefs.caption
+msgid "Override user preferences for update schedule"
+msgstr ""
+
+#: tmainform.chk_overrideuserprefs.hint
+msgid "Leave this unchecked for the user to set their own schedule"
+msgstr ""
+
+#: tmainform.chk_showdialogs.caption
+msgid "Allow LazAutoUpdate to show dialogs"
+msgstr ""
+
+#: tmainform.chk_showupdateincaption.caption
+msgid "Show update progress in form caption bar"
+msgstr ""
+
+#: tmainform.chk_usecopytree.caption
+msgid "Use CopyTree"
+msgstr ""
+
+#: tmainform.cmb_intervaldate.text
+msgid "1"
+msgstr ""
+
+#: tmainform.cmb_intervalday.text
+msgid "Monday"
+msgstr ""
+
+#: tmainform.cmb_intervalhour.text
+msgid "Midnight"
+msgstr ""
+
+#: tmainform.cmb_intervaltype.text
+msgid "Day"
+msgstr ""
+
+#: tmainform.cmb_profile.hint
+msgid "List of current profiles"
+msgstr ""
+
+#: tmainform.cmb_profile.text
+msgctxt "tmainform.cmb_profile.text"
+msgid "Default"
+msgstr ""
+
+#: tmainform.cmd_close.hint
+msgid "Close the application"
+msgstr ""
+
+#: tmainform.cmd_deleteprofile.caption
+msgid "Delete"
+msgstr ""
+
+#: tmainform.cmd_deleteprofile.hint
+msgid "Deletes the current profile"
+msgstr ""
+
+#: tmainform.cmd_downloadlazautoupdate.caption
+msgid "Download Component"
+msgstr ""
+
+#: tmainform.cmd_downloadlazautoupdate.hint
+msgid ""
+"Use this to download or update the latest version\n"
+"of the LazAutoUpdate component\n"
+msgstr ""
+
+#: tmainform.cmd_makeupdatepack.caption
+msgid "Create Update Pack"
+msgstr ""
+
+#: tmainform.cmd_makeupdatepack.hint
+msgid ""
+"Once you are happy with the profile settings,\n"
+"click this to make the files ready to upload\n"
+"into your Sourceforge /updates folder\n"
+msgstr ""
+
+#: tmainform.cmd_newprofile.caption
+msgid "New"
+msgstr ""
+
+#: tmainform.cmd_newprofile.hint
+msgid "Creates a new profile"
+msgstr ""
+
+#: tmainform.cmd_saveprofile.caption
+msgid "Save this Profile..."
+msgstr ""
+
+#: tmainform.cmd_saveprofile.hint
+msgid ""
+"Click to save the current profile settings.\n"
+"This profile will show next time you sart this app.\n"
+msgstr ""
+
+#: tmainform.cmd_useappnameversionsini.caption
+msgctxt "tmainform.cmd_useappnameversionsini.caption"
+msgid "Use Appname"
+msgstr ""
+
+#: tmainform.cmd_useappnameversionsini.hint
+msgctxt "tmainform.cmd_useappnameversionsini.hint"
+msgid ""
+"Use this to assign a unique value to the\n"
+"INI file or Zipfile names\n"
+msgstr ""
+
+#: tmainform.cmd_useappnamezipfilename.caption
+msgctxt "tmainform.cmd_useappnamezipfilename.caption"
+msgid "Use Appname"
+msgstr ""
+
+#: tmainform.cmd_useappnamezipfilename.hint
+msgctxt "tmainform.cmd_useappnamezipfilename.hint"
+msgid ""
+"Use this to assign a unique value to the\n"
+"INI file or Zipfile names\n"
+msgstr ""
+
+#: tmainform.edt_appfilename.hint
+msgctxt "tmainform.edt_appfilename.hint"
+msgid ""
+"Use the directory mini-button.\n"
+"You cannot type into the box\n"
+msgstr ""
+
+#: tmainform.edt_outputdirectory.hint
+msgctxt "tmainform.edt_outputdirectory.hint"
+msgid ""
+"Use the directory mini-button.\n"
+"You cannot type into the box\n"
+msgstr ""
+
+#: tmainform.edt_sfprojectname.hint
+msgid ""
+"This is the project title as displayed by\n"
+"Sourceforge in the project URL\n"
+msgstr ""
+
+#: tmainform.edt_updates.text
+msgid "updates"
+msgstr ""
+
+#: tmainform.edt_versionsinifile.hint
+msgctxt "tmainform.edt_versionsinifile.hint"
+msgid ""
+"Type the filename \n"
+"or use the directory mini-button\n"
+"or click the [Use Appname] button\n"
+msgstr ""
+
+#: tmainform.edt_whatsnewtextfile.hint
+msgctxt "tmainform.edt_whatsnewtextfile.hint"
+msgid ""
+"Use the directory mini-button.\n"
+"You cannot type into the box\n"
+msgstr ""
+
+#: tmainform.edt_zipfilename.hint
+msgctxt "tmainform.edt_zipfilename.hint"
+msgid ""
+"Type the filename \n"
+"or use the directory mini-button\n"
+"or click the [Use Appname] button\n"
+msgstr ""
+
+#: tmainform.grp_copytree.caption
+msgid "Update a whole directory tree"
+msgstr ""
+
+#: tmainform.grp_dragfiles.caption
+msgid "Drag extra files that update to the app directory into this area (double-click to clear)"
+msgstr ""
+
+#: tmainform.grp_lazautoupdater.caption
+msgid "LazAutoUpdater Systray"
+msgstr ""
+
+#: tmainform.grp_lazautoupdater.hint
+msgid "Properties for the generated lauimport file"
+msgstr ""
+
+#: tmainform.grp_tweaks.caption
+msgid "Other LazAutoUpdate Tweaks"
+msgstr ""
+
+#: tmainform.label1.caption
+msgid "WhatsNew Textfile"
+msgstr ""
+
+#: tmainform.lbl_appfilename.caption
+msgid "Application to update: "
+msgstr ""
+
+#: tmainform.lbl_createwhatsnew.caption
+msgid "Create/Edit WhatsNew.txt :"
+msgstr ""
+
+#: tmainform.lbl_intervaldate.caption
+msgid "Use Monthdate.."
+msgstr ""
+
+#: tmainform.lbl_intervalday.caption
+msgid "Use Weekday.."
+msgstr ""
+
+#: tmainform.lbl_intervaltype.caption
+msgid "Check for updates every.."
+msgstr ""
+
+#: tmainform.lbl_newversion.caption
+msgid "New Version:"
+msgstr ""
+
+#: tmainform.lbl_onlineprojectname.caption
+msgid "Online Project Name:"
+msgstr ""
+
+#: tmainform.lbl_outputdirectory.caption
+msgid "Output directory:"
+msgstr ""
+
+#: tmainform.lbl_profile.caption
+msgid "Profile name"
+msgstr ""
+
+#: tmainform.lbl_sfupdatesdirectory2.caption
+msgid "...at..."
+msgstr ""
+
+#: tmainform.lbl_updates.caption
+msgid "Updates directory"
+msgstr ""
+
+#: tmainform.lbl_versionsinifile.caption
+msgid "versions.ini FileName"
+msgstr ""
+
+#: tmainform.lbl_zipfilename.caption
+msgid "Update Zipfile Name:"
+msgstr ""
+
+#: tmainform.mnuoptions.caption
+msgid "Options"
+msgstr ""
+
+#: tmainform.mnuoptionsaftercreatepack.caption
+msgid "After Create Pack.."
+msgstr ""
+
+#: tmainform.mnuoptionsdisplayfilemanger.caption
+msgid "Display file manager"
+msgstr ""
+
+#: tmainform.mnuoptionsshowcodeinfo.caption
+msgid "Show Code information"
+msgstr ""
+
+#: tmainform.mnuoptionsshowonlinewebsite.caption
+msgid "Show Online website"
+msgstr ""
+
+#: tmainform.mnu_file.caption
+msgid "&File"
+msgstr ""
+
+#: tmainform.mnu_fileclose.caption
+msgid "E&xit"
+msgstr ""
+
+#: tmainform.mnu_filesaveprofile.caption
+msgid "&Save profile"
+msgstr ""
+
+#: tmainform.mnu_help.caption
+msgid "&Help"
+msgstr ""
+
+#: tmainform.mnu_helpabout.caption
+msgid "About..."
+msgstr ""
+
+#: tmainform.mnu_helpcheckforupdates.caption
+msgid "Check for updates..."
+msgstr ""
+
+#: tmainform.spd_whatsnewcreate.caption
+msgid "..."
+msgstr ""
+
+#: tmainform.spd_whatsnewcreate.hint
+msgid "Edit WhatsNew text file"
+msgstr ""
+
+#: tmainform.spn1.hint
+msgctxt "tmainform.spn1.hint"
+msgid ""
+"This is the version number of your updated app.\n"
+"It should be greater than the version number\n"
+"of the user's installed app in order for an update\n"
+"to happen.\n"
+msgstr ""
+
+#: tmainform.spn2.hint
+msgctxt "tmainform.spn2.hint"
+msgid ""
+"This is the version number of your updated app.\n"
+"It should be greater than the version number\n"
+"of the user's installed app in order for an update\n"
+"to happen.\n"
+msgstr ""
+
+#: tmainform.spn3.hint
+msgctxt "tmainform.spn3.hint"
+msgid ""
+"This is the version number of your updated app.\n"
+"It should be greater than the version number\n"
+"of the user's installed app in order for an update\n"
+"to happen.\n"
+msgstr ""
+
+#: tmainform.spn4.hint
+msgctxt "tmainform.spn4.hint"
+msgid ""
+"This is the version number of your updated app.\n"
+"It should be greater than the version number\n"
+"of the user's installed app in order for an update\n"
+"to happen.\n"
+msgstr ""
+
+#: tmainform.tab_advanced.caption
+msgid "Advanced"
+msgstr ""
+
+#: tmainform.tab_configure.caption
+msgid "Configure"
+msgstr ""
+
+#: tmainform.tab_configure.hint
+msgid ""
+"Use this page to configure the current profile.\n"
+"Type in a different profile name in order to\n"
+"make a new profile.\n"
+msgstr ""
+
+#: tmainform.tab_intro.caption
+msgid "Introduction"
+msgstr ""
+
+#: tmainform.tab_intro.hint
+msgid "Getting Started information"
+msgstr ""
+
+#: tmemoform.caption
+msgid "MemoForm"
+msgstr ""
+
+#: tmemoform.cmd_close.caption
+msgid "Save and &Close"
+msgstr ""
+
+#: tmemoform.cmd_saveasandclose.caption
+msgid "Save as... and &Close"
+msgstr ""
+
+#: tmemoform.selectdirectorydialog1.title
+msgid "Select Directory for whatsnew.txt"
+msgstr ""
+
+#: umainform.rscannotdeletedefault
+msgid "Sorry, you cannot delete this profile"
+msgstr ""
+
+#: umainform.rsclosewithoutsaving
+msgid "Save current profile to disk?"
+msgstr ""
+
+#: umainform.rsconfigapplication
+msgid "Application"
+msgstr ""
+
+#: umainform.rsconfigversion
+msgid "Version"
+msgstr ""
+
+#: umainform.rscouldnotloca
+msgid "Could not locate %s on the server"
+msgstr ""
+
+#: umainform.rsdefaultprofilename
+msgctxt "umainform.rsdefaultprofilename"
+msgid "Default"
+msgstr ""
+
+#: umainform.rsdownloadisin
+msgid "Download is in progress.  Please wait"
+msgstr ""
+
+#: umainform.rsnewprofilecreated
+msgid "New profile '%s' created successfully"
+msgstr ""
+
+#: umainform.rsprofilesaved
+msgid "Profile '%s' saved successfully"
+msgstr ""
+
+#: umainform.rsthesourcefil
+msgid "The source files are located in %s"
+msgstr ""
+
+#: umainform.rsuseappnameversionsquestion
+msgid "Update VersionsINI to %s.ini?"
+msgstr ""
+
+#: umainform.rsuseappnamezipfilequestion
+msgid "Update Zipfile to %s.zip?"
+msgstr ""
+
+#: umainform.rsyourcopyofla
+msgid "Your copy of LazAutoUpdate v%s is the latest version."
+msgstr ""
+

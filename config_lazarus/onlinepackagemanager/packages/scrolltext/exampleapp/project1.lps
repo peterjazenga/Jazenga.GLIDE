@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="29" Y="32"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="scrolltext.txt"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="1"/>
+        <UsageCount Value="24"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2007"/>
+        <CursorPos X="19" Y="2025"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\lcl\include\customform.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="541"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="unit1.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="7" Y="11"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\aboutdialog\aboutboxunit.pas"/>
+        <UnitName Value="AboutboxUnit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="269"/>
+        <CursorPos X="39" Y="292"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="439"/>
+        <CursorPos X="35" Y="466"/>
+        <UsageCount Value="12"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\scrollingtext.pas"/>
+        <UnitName Value="ScrollingText"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="112"/>
+        <CursorPos X="45" Y="139"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\lcl\defaulttranslator.pas"/>
+        <UnitName Value="DefaultTranslator"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="25" Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\lazutils\lazconfigstorage.pas"/>
+        <UnitName Value="LazConfigStorage"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="106"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\fpc\2.6.2\source\rtl\objpas\typinfo.pp"/>
+        <UnitName Value="typinfo"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="205"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\multithreadprocs\mtprocs.pas"/>
+        <UnitName Value="MTProcs"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="163"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit12>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="33" Column="16" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="32" Column="10" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="28" Column="32" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="166" Column="68" TopLine="140"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="167" Column="1" TopLine="146"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="162" Column="65" TopLine="146"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="166" Column="40" TopLine="146"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="156" Column="92" TopLine="146"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="167" Column="1" TopLine="147"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\scrollingtext.pas"/>
+        <Caret Line="132" Column="1" TopLine="104"/>
+      </Position10>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

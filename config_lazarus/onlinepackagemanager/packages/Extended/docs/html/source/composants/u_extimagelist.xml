@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_extimagelist
+  ====================================================================
+-->
+    <module name="u_extimagelist">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TExtImageList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtImageList.FImages">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtImageList.FImageIndex">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtImageList.p_SetImages">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImageList.p_SetImages.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtImageList.p_setImageIndex">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImageList.p_setImageIndex.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtImageList.SetOrder">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtImageList.p_SetImage">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtImageList.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImageList.Create.AOwner">
+        <short/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtImageList.Filename">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtImageList.ImageIndex">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtImageList.Images">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_extimagelist -->
+  </package>
+</fpdoc-descriptions>

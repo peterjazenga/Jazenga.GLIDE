@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_ExtImage
+  ====================================================================
+-->
+    <module name="U_ExtImage">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TExtImage">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtImage.FShowErrors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtImage.p_SetFileName">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImage.p_SetFileName.Value">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TExtImage.FFileName">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtImage.LoadFromStream">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImage.LoadFromStream.astream">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtImage.LoadFromFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtImage.LoadFromFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImage.LoadFromFile.afile">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtImage.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtImage.Create.AOwner">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtImage.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtImage.FileName">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtImage.ShowErrors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_ExtImage -->
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_RegisterGroupView
+  ====================================================================
+-->
+    <module name="U_RegisterGroupView">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TDataFieldOwnerProperty">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDataFieldOwnerProperty.FillValues">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDataFieldOwnerProperty.FillValues.Values">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="Register">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_RegisterGroupView -->
+  </package>
+</fpdoc-descriptions>

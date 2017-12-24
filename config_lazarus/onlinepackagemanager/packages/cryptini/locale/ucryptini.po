@@ -1,0 +1,15 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ucryptini.rsnothingwasen
+msgid "Nothing was Entered!"
+msgstr ""
+
+#: ucryptini.rsnotyetinitia
+msgid "Not yet initialised"
+msgstr ""
+
+#: ucryptini.rsunknown
+msgid "unknown"
+msgstr ""
+

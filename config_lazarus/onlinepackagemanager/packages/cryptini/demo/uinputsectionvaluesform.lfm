@@ -1,0 +1,86 @@
+object InputSectionValuesForm: TInputSectionValuesForm
+  Left = 1154
+  Height = 314
+  Top = 456
+  Width = 535
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'InputSectionValuesForm'
+  ClientHeight = 314
+  ClientWidth = 535
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.7'
+  object Grp_NewSectionValues: TGroupBox
+    Left = 0
+    Height = 43
+    Top = 0
+    Width = 535
+    Align = alTop
+    AutoSize = True
+    Caption = 'Input new section values'
+    ChildSizing.HorizontalSpacing = 10
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 4
+    ClientHeight = 23
+    ClientWidth = 531
+    TabOrder = 0
+    object Lbl_SectionName: TLabel
+      Left = 0
+      Height = 23
+      Top = 0
+      Width = 183
+      Caption = 'New Section Name:'
+      ParentColor = False
+    end
+    object edt_NewSectionName: TEdit
+      Left = 193
+      Height = 23
+      Top = 0
+      Width = 159
+      AutoSize = False
+      OnEditingDone = edt_NewSectionNameEditingDone
+      TabOrder = 0
+      Text = 'My New Section'
+    end
+    object lbl_Invisible1: TLabel
+      Left = 362
+      Height = 23
+      Top = 0
+      Width = 80
+      ParentColor = False
+    end
+    object lbl_Invisible2: TLabel
+      Left = 452
+      Height = 23
+      Top = 0
+      Width = 79
+      ParentColor = False
+    end
+  end
+  object cmd_Close: TBitBtn
+    Left = 432
+    Height = 26
+    Top = 272
+    Width = 90
+    AutoSize = True
+    Caption = '&Finished'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 1
+  end
+  object cmd_Cancel: TBitBtn
+    Left = 344
+    Height = 26
+    Top = 273
+    Width = 82
+    AutoSize = True
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 2
+  end
+end

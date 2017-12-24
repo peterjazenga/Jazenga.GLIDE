@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="luirest_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Luiz Americo Pereira Camara"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Description Value="Rest API."/>
+    <License Value="GPL"/>
+    <Version Minor="1"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="luirestserver.pas"/>
+        <UnitName Value="LuiRESTServer"/>
+      </Item1>
+      <Item2>
+        <Filename Value="register_luirest.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="register_luirest"/>
+      </Item2>
+      <Item3>
+        <Filename Value="luirestfastcgi.pas"/>
+        <UnitName Value="LuiRESTFastCGI"/>
+      </Item3>
+      <Item4>
+        <Filename Value="luirestcgi.pas"/>
+        <UnitName Value="LuiRESTCGI"/>
+      </Item4>
+      <Item5>
+        <Filename Value="luirestsqldb.pas"/>
+        <UnitName Value="LuiRESTSqldb"/>
+      </Item5>
+      <Item6>
+        <Filename Value="luirestclient.pas"/>
+        <UnitName Value="LuiRESTClient"/>
+      </Item6>
+      <Item7>
+        <Filename Value="luirestswagger.pas"/>
+        <UnitName Value="LuiRESTSwagger"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="sqliteextensions_package"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="laz_synapse"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="luicomponents"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="IDEIntf"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="weblaz"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

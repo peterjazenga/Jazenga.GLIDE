@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxdbgrid_export_spreadsheet"><module name="RxDBGridExportSpreadSheet_ParamsUnit"><short>Модуль содержит форму для запроса параметров экспорта</short><descr>Модуль содержит форму для запроса параметров экспорта данных из RxDBGrid в элекронную таблицы</descr>
+    </module>
+  </package>
+</fpdoc-descriptions>

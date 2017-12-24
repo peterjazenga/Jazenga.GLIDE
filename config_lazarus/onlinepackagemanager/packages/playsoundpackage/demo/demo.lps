@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mainform"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="32" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="D:\Lazarusprojects\playsoundpackage\uplaysound.pas"/>
+        <TopLine Value="85"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\uplaysound.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="118"/>
+        <CursorPos X="28" Y="118"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="X:\TEMP\wzbed3\grille.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="67"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\aboutplaysound.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="580"/>
+        <CursorPos X="32" Y="589"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="umainform.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="44" Column="3" TopLine="10"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\aboutplaysound.pas"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

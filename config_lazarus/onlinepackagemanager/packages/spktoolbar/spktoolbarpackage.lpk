@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="SpkToolbarPackage"/>
+    <Author Value="Spook. Ported to Lazarus/LCL by Luiz Américo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="SpkToolbar;designtime"/>
+        <OtherUnitFiles Value="SpkToolbar;SpkMath;SpkGUITools;SpkGraphTools;SpkXML;designtime"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <UseMsgFile Value="True"/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Ribbon like toolbar"/>
+    <License Value="Modified LGPL"/>
+    <Version Minor="1"/>
+    <Files Count="26">
+      <Item1>
+        <Filename Value="SpkToolbar\spkt_Appearance.pas"/>
+        <UnitName Value="spkt_Appearance"/>
+      </Item1>
+      <Item2>
+        <Filename Value="SpkToolbar\spkt_BaseItem.pas"/>
+        <UnitName Value="spkt_BaseItem"/>
+      </Item2>
+      <Item3>
+        <Filename Value="SpkToolbar\spkt_Buttons.pas"/>
+        <UnitName Value="spkt_Buttons"/>
+      </Item3>
+      <Item4>
+        <Filename Value="SpkToolbar\spkt_Const.pas"/>
+        <UnitName Value="spkt_Const"/>
+      </Item4>
+      <Item5>
+        <Filename Value="SpkToolbar\spkt_Dispatch.pas"/>
+        <UnitName Value="spkt_Dispatch"/>
+      </Item5>
+      <Item6>
+        <Filename Value="SpkToolbar\spkt_Exceptions.pas"/>
+        <UnitName Value="spkt_Exceptions"/>
+      </Item6>
+      <Item7>
+        <Filename Value="SpkToolbar\spkt_Items.pas"/>
+        <UnitName Value="spkt_Items"/>
+      </Item7>
+      <Item8>
+        <Filename Value="SpkToolbar\spkt_Pane.pas"/>
+        <UnitName Value="spkt_Pane"/>
+      </Item8>
+      <Item9>
+        <Filename Value="SpkToolbar\spkt_Tab.pas"/>
+        <UnitName Value="spkt_Tab"/>
+      </Item9>
+      <Item10>
+        <Filename Value="SpkToolbar\spkt_Tools.pas"/>
+        <UnitName Value="spkt_Tools"/>
+      </Item10>
+      <Item11>
+        <Filename Value="SpkToolbar\spkt_Types.pas"/>
+        <UnitName Value="spkt_Types"/>
+      </Item11>
+      <Item12>
+        <Filename Value="SpkToolbar\SpkToolbar.pas"/>
+        <UnitName Value="SpkToolbar"/>
+      </Item12>
+      <Item13>
+        <Filename Value="SpkMath\SpkMath.pas"/>
+        <UnitName Value="SpkMath"/>
+      </Item13>
+      <Item14>
+        <Filename Value="SpkGUITools\SpkGUITools.pas"/>
+        <UnitName Value="SpkGUITools"/>
+      </Item14>
+      <Item15>
+        <Filename Value="SpkGraphTools\SpkGraphTools.pas"/>
+        <UnitName Value="SpkGraphTools"/>
+      </Item15>
+      <Item16>
+        <Filename Value="SpkXML\SpkXMLIni.pas"/>
+        <UnitName Value="SpkXMLIni"/>
+      </Item16>
+      <Item17>
+        <Filename Value="SpkXML\SpkXMLParser.pas"/>
+        <UnitName Value="SpkXMLParser"/>
+      </Item17>
+      <Item18>
+        <Filename Value="SpkXML\SpkXMLTools.pas"/>
+        <UnitName Value="SpkXMLTools"/>
+      </Item18>
+      <Item19>
+        <Filename Value="registerspktoolbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RegisterSpkToolbar"/>
+      </Item19>
+      <Item20>
+        <Filename Value="designtime\SpkToolbarEditor.pas"/>
+        <UnitName Value="SpkToolbarEditor"/>
+      </Item20>
+      <Item21>
+        <Filename Value="designtime\spkte_AppearanceEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item21>
+      <Item22>
+        <Filename Value="designtime\spkte_AppearanceEditor.pas"/>
+        <UnitName Value="spkte_AppearanceEditor"/>
+      </Item22>
+      <Item23>
+        <Filename Value="designtime\spkte_EditWindow.lfm"/>
+        <Type Value="LFM"/>
+      </Item23>
+      <Item24>
+        <Filename Value="designtime\spkte_EditWindow.pas"/>
+        <UnitName Value="spkte_EditWindow"/>
+      </Item24>
+      <Item25>
+        <Filename Value="SpkToolbar\spkt_Checkboxes.pas"/>
+        <UnitName Value="spkt_Checkboxes"/>
+      </Item25>
+      <Item26>
+        <Filename Value="designtime\SpkToolbar.lrs"/>
+        <Type Value="LRS"/>
+      </Item26>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

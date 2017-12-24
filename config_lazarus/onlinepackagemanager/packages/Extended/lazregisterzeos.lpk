@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="lazregisterzeos"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Matthieu GIROUX"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="extdb"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <License Value="GPL"/>
+    <Version Major="1"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="extdb/fonctions_startzeos.pas"/>
+        <UnitName Value="fonctions_startzeos"/>
+      </Item1>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="lazextcopy"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="zcomponent"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

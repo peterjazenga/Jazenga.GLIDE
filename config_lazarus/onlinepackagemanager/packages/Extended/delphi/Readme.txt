@@ -1,0 +1,1 @@
+If you have problems after compiling fortes, just erase dcp arnd package dir in Compiling Options of Fortes Package, or add directory of package in envirionment options.

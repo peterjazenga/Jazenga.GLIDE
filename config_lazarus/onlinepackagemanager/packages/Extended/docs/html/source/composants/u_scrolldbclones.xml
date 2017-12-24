@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_scrolldbclones
+  ====================================================================
+-->
+    <module name="u_scrolldbclones">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TExtDBClonedPanel">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtDBClonedPanel.FDataLink">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtDBClonedPanel.FTag">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtDBClonedPanel.FOrientation">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBClonedPanel.GetDatasource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBClonedPanel.GetDatasource.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBClonedPanel.SetDatasource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.SetDatasource.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBClonedPanel.WMPaint">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.WMPaint.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.SetPanelCloned">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.SetPanelCloned.Apanel">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.Notification">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.Notification.AComponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.Notification.AOperation">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.ActiveChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.DataSetChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.EditingChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.p_BeforePaintPanel">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.p_BeforePaintPanel.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.AutoCreateColsRows">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.ControlEvent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.ControlEvent.AControl">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBClonedPanel.PanelClonedEvent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.PanelClonedEvent.AControl">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtDBClonedPanel.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBClonedPanel.Create.AOwner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TExtDBClonedPanel.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtDBClonedPanel.Cols">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtDBClonedPanel.Rows">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBClonedPanel.Datasource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBClonedPanel.Orientation">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_scrolldbclones -->
+  </package>
+</fpdoc-descriptions>

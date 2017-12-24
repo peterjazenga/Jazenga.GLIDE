@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="pascalscada_db"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Fabio Luis Girardi &lt;fabio@pascalscada.com>"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="src\database"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="PascalSCADA database layer for historical, recipes and user management
+Built on top of ZeosLib"/>
+    <License Value="LGPL v2.1 with linking exception"/>
+    <Version Minor="7" Release="4"/>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="src\database\dbstructurechecker.pas"/>
+        <UnitName Value="dbstructurechecker"/>
+      </Item1>
+      <Item2>
+        <Filename Value="src\database\hmidbconnection.pas"/>
+        <UnitName Value="HMIDBConnection"/>
+      </Item2>
+      <Item3>
+        <Filename Value="src\database\psbufdataset.pas"/>
+        <UnitName Value="psbufdataset"/>
+      </Item3>
+      <Item4>
+        <Filename Value="src\database\pscada_dbreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="pscada_dbreg"/>
+      </Item4>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="pascalscada_common"/>
+        <MaxVersion Minor="7" Release="4"/>
+        <MinVersion Minor="7" Release="4" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="zcomponent"/>
+        <MaxVersion Major="7"/>
+        <MinVersion Major="7" Minor="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

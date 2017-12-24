@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_ExtColorCombos
+  ====================================================================
+-->
+    <module name="U_ExtColorCombos">
+      <short/>
+      <descr/>
+      <!-- constant Visibility: default -->
+      <element name="CST_COLOR_COMBO_DEFAULT_COLOR_VALUE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COLOR_COMBO_DEFAULT_COLOR">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COLOR_COMBO_DEFAULT_COLOR_HTML">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_COLOR_COMBO_DEFAULT_STYLE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Black">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Maroon">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Green">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Mgreen">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Olive">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Navy">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Purple">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Teal">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Gray">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Silver">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Red">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Lime">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Yellow">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_PYellow">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Blue">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_SBlue">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Fuchsia">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_Aqua">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_White">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- resource string Visibility: default -->
+      <element name="Color_Combo_None">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TExtColorCombo">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="TExtColorCombo.ColorDlg">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FBeforeEnter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FBeforeExit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FLabel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FOldColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FColorFocus">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FColorReadOnly">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FColorEdit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FColorLabel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FReadOnly">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FAlwaysSame">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FNotifyOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FColorValue">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtColorCombo.FHTMLColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.SetHTMLColor">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.SetHTMLColor.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.p_setLabel">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.p_setLabel.alab_Label">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.WMPaint">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMPaint.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.WMLButtonDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMLButtonDown.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.WMRButtonDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMRButtonDown.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.WMLButtonDblClk">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMLButtonDblClk.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtColorCombo.WMRButtonDblClk">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMRButtonDblClk.Message">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtColorCombo.WebColor">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtColorCombo.WebColor.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WebColor.AColor">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtColorCombo.p_SetColorValue">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.p_SetColorValue.AColor">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtColorCombo.MouseDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.MouseDown.Button">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.MouseDown.Shift">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.MouseDown.X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.MouseDown.Y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtColorCombo.WMKeyDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.WMKeyDown.Message">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtColorCombo.GetColorString">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtColorCombo.GetColorString.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.GetColorString.a">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtColorCombo.GetReadOnly">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtColorCombo.GetReadOnly.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtColorCombo.SetReadOnly">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.SetReadOnly.Value">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtColorCombo.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.Create.AOwner">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.DoEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.DoExit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.SetOrder">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.Change">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtColorCombo.DrawItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.DrawItem.Index">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.DrawItem.ARect">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtColorCombo.DrawItem.State">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtColorCombo.Focused">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtColorCombo.Focused.Result">
+        <short/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.HTMLcolor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Value">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ReadOnly">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.FWBeforeEnter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.FWBeforeExit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ColorLabel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ColorFocus">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ColorEdit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ColorReadOnly">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.MyLabel">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.AlwaysSame">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.AutoComplete">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.AutoDropDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Style">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Anchors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.BiDiMode">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Color">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Constraints">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.DragCursor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.DragKind">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.DragMode">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.DropDownCount">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Enabled">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Font">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ItemHeight">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ParentBiDiMode">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ParentColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ParentFont">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ParentShowHint">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.PopupMenu">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.ShowHint">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.TabOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.TabStop">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.Visible">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnChange">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnCloseUp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnContextPopup">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnDblClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnDragDrop">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnDragOver">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnDrawItem">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnDropDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnEndDock">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnEndDrag">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnEnter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnExit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnKeyDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnKeyPress">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnKeyUp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnMeasureItem">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnStartDock">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtColorCombo.OnStartDrag">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TExtDBColorCombo">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtDBColorCombo.FDataLink">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBColorCombo.GetDataField">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.GetDataField.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBColorCombo.GetDataSource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.GetDataSource.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBColorCombo.GetField">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.GetField.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.SetDataField">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.SetDataField.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.SetDataSource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.SetDataSource.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.WMCut">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.WMCut.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.WMPaste">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.WMPaste.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.CMExit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.CMExit.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBColorCombo.CMGetDataLink">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.CMGetDataLink.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.ActiveChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.ActiveChange.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.DataChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.DataChange.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.UpdateData">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.UpdateData.Sender">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TExtDBColorCombo.GetReadOnly">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.GetReadOnly.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.SetReadOnly">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.SetReadOnly.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.p_SetColorValue">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.p_SetColorValue.AColor">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.KeyDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.KeyDown.Key">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.KeyDown.Shift">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.KeyPress">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.KeyPress.Key">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBColorCombo.Notification">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.Notification.AComponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.Notification.Operation">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtDBColorCombo.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtDBColorCombo.Change">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtDBColorCombo.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.Create.AOwner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TExtDBColorCombo.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtDBColorCombo.ExecuteAction">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.ExecuteAction.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.ExecuteAction.AAction">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtDBColorCombo.UpdateAction">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBColorCombo.UpdateAction.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBColorCombo.UpdateAction.AAction">
+        <short/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtDBColorCombo.Field">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtDBColorCombo.Items">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBColorCombo.HTMLcolor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBColorCombo.Value">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBColorCombo.DataField">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBColorCombo.DataSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_ExtColorCombos -->
+  </package>
+</fpdoc-descriptions>

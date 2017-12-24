@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="atbinhex_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Alexey Torgashin"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Viewer control, for files and streams, of unlimited size. Modes: text with var-length, text with fixed length, hex, unicode, hex-unicode."/>
+    <License Value="MPL 2.0, LGPL"/>
+    <Version Major="1"/>
+    <Files Count="10">
+      <Item1>
+        <Filename Value="atbinhex.pas"/>
+        <UnitName Value="ATBinHex"/>
+      </Item1>
+      <Item2>
+        <Filename Value="atbinhex_register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="atbinhex_register"/>
+      </Item2>
+      <Item3>
+        <Filename Value="atbinhex_canvasproc.pas"/>
+        <UnitName Value="atbinhex_canvasproc"/>
+      </Item3>
+      <Item4>
+        <Filename Value="atstreamsearch.pas"/>
+        <UnitName Value="ATStreamSearch"/>
+      </Item4>
+      <Item5>
+        <Filename Value="atbinhex_stringproc.pas"/>
+        <UnitName Value="atbinhex_stringproc"/>
+      </Item5>
+      <Item6>
+        <Filename Value="atbinhex_msg.pas"/>
+        <UnitName Value="atbinhex_msg"/>
+      </Item6>
+      <Item7>
+        <Filename Value="atbinhex_clipboard.pas"/>
+        <UnitName Value="atbinhex_clipboard"/>
+      </Item7>
+      <Item8>
+        <Filename Value="atbinhex_encoding.pas"/>
+        <UnitName Value="atbinhex_encoding"/>
+      </Item8>
+      <Item9>
+        <Filename Value="atbinhex_hexproc.pas"/>
+        <UnitName Value="atbinhex_hexproc"/>
+      </Item9>
+      <Item10>
+        <Filename Value="atbinhex_strproc.pas"/>
+        <UnitName Value="atbinhex_strproc"/>
+      </Item10>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

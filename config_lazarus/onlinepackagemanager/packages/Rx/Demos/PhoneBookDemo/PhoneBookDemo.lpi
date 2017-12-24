@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <Title Value="Phone book demo"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="languages"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="DBFLaz"/>
+        <MinVersion Minor="1" Release="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="rxnew"/>
+        <MinVersion Major="1" Minor="1" Release="4" Build="93" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="PhoneBookDemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="27"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="pbmainunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="pbMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pbMainUnit"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="70"/>
+        <CursorPos X="137" Y="84"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usr/local/share/lazarus/components/rxnew/Demos/PhoneBookDemo/pbmainunit.pas"/>
+        <ComponentName Value="pbMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pbMainUnit"/>
+        <CursorPos X="5" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="usr/local/share/lazarus/components/rxnew/rxdbgrid.pas"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="pbeditdataunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="pbEditDataForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pbEditDataUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="3" Y="42"/>
+        <UsageCount Value="25"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../rxcloseformvalidator.pas"/>
+        <UnitName Value="RxCloseFormValidator"/>
+        <TopLine Value="195"/>
+        <CursorPos Y="211"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <TopLine Value="27"/>
+        <CursorPos X="13" Y="45"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../lcl/include/promptdialog.inc"/>
+        <TopLine Value="868"/>
+        <CursorPos Y="886"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <TopLine Value="716"/>
+        <CursorPos X="3" Y="723"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../rxaboutdialog.pas"/>
+        <UnitName Value="RxAboutDialog"/>
+        <TopLine Value="96"/>
+        <CursorPos X="18" Y="103"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../rxconst.pas"/>
+        <TopLine Value="88"/>
+        <CursorPos X="3" Y="113"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/home/alexs/install/source/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="471"/>
+        <CursorPos Y="503"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="18" HistoryIndex="17">
+      <Position1>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="82" Column="5" TopLine="55"/>
+      </Position1>
+      <Position2>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="83" Column="26" TopLine="56"/>
+      </Position2>
+      <Position3>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="84" Column="26" TopLine="57"/>
+      </Position3>
+      <Position4>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="91" Column="26" TopLine="58"/>
+      </Position4>
+      <Position5>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="95" Column="23" TopLine="65"/>
+      </Position5>
+      <Position6>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="101" Column="13" TopLine="80"/>
+      </Position6>
+      <Position7>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="101" Column="78" TopLine="80"/>
+      </Position7>
+      <Position8>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="91" Column="29" TopLine="79"/>
+      </Position8>
+      <Position9>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="101" Column="74" TopLine="79"/>
+      </Position9>
+      <Position10>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="75" Column="15" TopLine="41"/>
+      </Position10>
+      <Position11>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="74" Column="39" TopLine="40"/>
+      </Position11>
+      <Position12>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="101" Column="72" TopLine="81"/>
+      </Position12>
+      <Position13>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="106" TopLine="81"/>
+      </Position13>
+      <Position14>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="102" TopLine="80"/>
+      </Position14>
+      <Position15>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="101" TopLine="79"/>
+      </Position15>
+      <Position16>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="103" TopLine="81"/>
+      </Position16>
+      <Position17>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="108" Column="13" TopLine="86"/>
+      </Position17>
+      <Position18>
+        <Filename Value="pbmainunit.pas"/>
+        <Caret Line="36" Column="28" TopLine="18"/>
+      </Position18>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="PhoneBookDemo"/>
+    </Target>
+    <SearchPaths>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="W"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

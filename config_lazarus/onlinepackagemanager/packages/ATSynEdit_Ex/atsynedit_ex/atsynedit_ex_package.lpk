@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="atsynedit_ex_package"/>
+    <Type Value="RunTimeOnly"/>
+    <Author Value="Alexey Torgashin"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Package additional to ATSynEdit (to avoid build errors), contains syntax highlight adapters"/>
+    <License Value="MPL 2.0 or LGPL"/>
+    <Version Major="1"/>
+    <Files Count="5">
+      <Item1>
+        <Filename Value="atsynedit_adapter_econtrol.pas"/>
+        <UnitName Value="ATSynEdit_Adapter_EControl"/>
+      </Item1>
+      <Item2>
+        <Filename Value="atsynedit_form_complete.pas"/>
+        <UnitName Value="ATSynEdit_Form_Complete"/>
+      </Item2>
+      <Item3>
+        <Filename Value="atsynedit_form_complete_css.pas"/>
+        <UnitName Value="ATSynEdit_Form_Complete_CSS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="atsynedit_form_complete_html.pas"/>
+        <UnitName Value="ATSynEdit_Form_Complete_HTML"/>
+      </Item4>
+      <Item5>
+        <Filename Value="atsynedit_form_complete_synwrite.pas"/>
+        <UnitName Value="ATSynEdit_Form_Complete_SynWrite"/>
+      </Item5>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="atflatcontrols_package"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="econtrol_package"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="atsynedit_package"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

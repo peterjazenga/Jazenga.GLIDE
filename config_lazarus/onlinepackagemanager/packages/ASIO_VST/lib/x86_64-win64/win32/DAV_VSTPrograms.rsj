@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":137682745,"name":"dav_vstprograms.rcstrparametermismatch","sourcebytes":[80,97,114,97,109,101,116,101,114,32,109,105,115,109,97,116,99,104,32,40,37,100,41],"value":"Parameter mismatch (%d)"},
+{"hash":122882777,"name":"dav_vstprograms.rcstrindexoutofbounds","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,98,111,117,110,100,115,32,40,37,100,41],"value":"Index out of bounds (%d)"}
+]}

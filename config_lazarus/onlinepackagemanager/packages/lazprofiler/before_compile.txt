@@ -1,0 +1,1 @@
+before_compile.cmd $(LazarusDir) $PkgDir(etpackage)epiktimer.pas

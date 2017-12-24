@@ -1,0 +1,62 @@
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#150#1#6'Height'#3#141#1#3'Top'#3#215#0#5
+  +'Width'#3'B'#1#7'Caption'#6#5'Form1'#12'ClientHeight'#3#141#1#11'ClientWidth'
+  +#3'B'#1#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#6'0.9.29'#0#12'TNetGra'
+  +'dient'#12'NetGradient1'#4'Left'#2#6#6'Height'#2''''#3'Top'#2#3#5'Width'#3'9'
+  +#1#16'CaptionAlignment'#7#13'taLeftJustify'#13'CaptionLayout'#7#5'tlTop'#10
+  +'BevelInner'#7#9'bvLowered'#10'BevelOuter'#7#6'bvNone'#10'BeginColor'#7#6'cl'
+  +'Lime'#8'EndColor'#4'9m'#165#0#10'Font.Style'#11#6'fsBold'#0#7'Caption'#6#7
+  +'Caption'#7'TextTop'#2#0#8'TextLeft'#2#0#18'SubCaption.Caption'#6#12'SubCapt'
+  +'ion 1'#0#0#12'TNetGradient'#12'NetGradient2'#4'Left'#2#6#6'Height'#2' '#3'T'
+  +'op'#2'-'#5'Width'#3'8'#1#16'CaptionAlignment'#7#8'taCenter'#10'BevelInner'#7
+  +#9'bvLowered'#10'BevelOuter'#7#9'bvLowered'#10'BeginColor'#7#9'clSkyBlue'#8
+  +'EndColor'#7#6'clTeal'#10'Font.Style'#11#6'fsBold'#0#7'Caption'#6#7'Caption'
+  +#7'TextTop'#2#0#8'TextLeft'#2#0#18'SubCaption.Caption'#6#12'SubCaption 2'#0#0
+  +#12'TNetGradient'#12'NetGradient3'#4'Left'#2#6#6'Height'#2'/'#3'Top'#2'N'#5
+  +'Width'#3'8'#1#16'CaptionAlignment'#7#13'taLeftJustify'#13'CaptionLayout'#7#5
+  +'tlTop'#10'BevelInner'#7#9'bvLowered'#10'BeginColor'#7#8'clSilver'#8'EndColo'
+  +'r'#4'9m'#165#0#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#15'clMe'
+  +'nuHighlight'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7
+  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#7
+  +'Caption'#6#7'Caption'#7'TextTop'#2#0#8'TextLeft'#2#5#18'SubCaption.Caption'
+  +#6#13'Sub Caption 3'#20'SubCaption.MarginTop'#2#25#21'SubCaption.Font.Color'
+  +#7#6'clBlue'#21'SubCaption.Font.Style'#11#6'fsBold'#0#0#0#12'TNetGradient'#12
+  +'NetGradient4'#4'Left'#2#6#6'Height'#2'<'#3'Top'#3#216#0#5'Width'#3'9'#1#16
+  +'CaptionAlignment'#7#13'taLeftJustify'#10'BevelInner'#7#8'bvRaised'#10'Bevel'
+  +'Outer'#7#9'bvLowered'#10'BeginColor'#7#5'clRed'#8'EndColor'#7#8'clYellow'#10
+  +'Font.Style'#11#6'fsBold'#0#7'Caption'#6#7'Caption'#7'TextTop'#2#0#8'TextLef'
+  +'t'#2#2#18'SubCaption.Caption'#6#12'SubCaption 4'#21'SubCaption.Font.Color'#7
+  +#5'clRed'#21'SubCaption.Font.Style'#11#6'fsBold'#8'fsItalic'#0#0#0#12'TNetGr'
+  +'adient'#12'NetGradient5'#4'Left'#2#6#6'Height'#2','#3'Top'#2'~'#5'Width'#3
+  +'8'#1#16'CaptionAlignment'#7#13'taLeftJustify'#13'CaptionLayout'#7#5'tlTop'
+  +#10'BevelInner'#7#9'bvLowered'#10'BeginColor'#7#8'clSilver'#8'EndColor'#4'9m'
+  +#165#0#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#15'clMenuHighlig'
+  +'ht'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVar'
+  +'iable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#7'Captio'
+  +'n'#6#7'Caption'#7'TextTop'#2#0#8'TextLeft'#2#20#18'SubCaption.Caption'#6#13
+  +'Sub Caption 3'#20'SubCaption.MarginTop'#2#25#21'SubCaption.Font.Color'#7#6
+  +'clBlue'#21'SubCaption.Font.Style'#11#6'fsBold'#0#0#0#12'TNetGradient'#12'Ne'
+  +'tGradient6'#4'Left'#2#6#6'Height'#2','#3'Top'#3#171#0#5'Width'#3'8'#1#16'Ca'
+  +'ptionAlignment'#7#14'taRightJustify'#13'CaptionLayout'#7#5'tlTop'#10'BevelI'
+  +'nner'#7#9'bvLowered'#10'BeginColor'#7#8'clSilver'#8'EndColor'#4'9m'#165#0#12
+  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#15'clMenuHighlight'#11'Fo'
+  +'nt.Height'#2#240#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#7'Caption'#6#7'Cap'
+  +'tion'#7'TextTop'#2#0#8'TextLeft'#2#236#18'SubCaption.Caption'#6#13'Sub Capt'
+  +'ion 3'#20'SubCaption.MarginTop'#2#25#21'SubCaption.Font.Color'#7#6'clBlue'
+  +#21'SubCaption.Font.Style'#11#6'fsBold'#0#0#0#12'TNetGradient'#12'NetGradien'
+  +'t8'#4'Left'#2#5#6'Height'#2'<'#3'Top'#3'P'#1#5'Width'#3'9'#1#16'CaptionAlig'
+  +'nment'#7#13'taLeftJustify'#10'BevelInner'#7#8'bvRaised'#10'BevelOuter'#7#9
+  +'bvLowered'#10'BeginColor'#7#5'clRed'#8'EndColor'#7#8'clYellow'#13'FillDirec'
+  +'tion'#7#13'ftBottomToTop'#10'Font.Style'#11#6'fsBold'#0#7'Caption'#6#7'Capt'
+  +'ion'#7'TextTop'#2#236#8'TextLeft'#2#2#18'SubCaption.Caption'#6#12'SubCaptio'
+  +'n 4'#20'SubCaption.MarginTop'#2#18#21'SubCaption.Font.Color'#4#0'@'#128#0#21
+  +'SubCaption.Font.Style'#11#6'fsBold'#8'fsItalic'#0#0#0#12'TNetGradient'#12'N'
+  +'etGradient9'#4'Left'#2#6#6'Height'#2'<'#3'Top'#3#20#1#5'Width'#3'9'#1#16'Ca'
+  +'ptionAlignment'#7#13'taLeftJustify'#10'BevelInner'#7#8'bvRaised'#10'BevelOu'
+  +'ter'#7#9'bvLowered'#10'BeginColor'#7#5'clRed'#8'EndColor'#7#8'clYellow'#13
+  +'FillDirection'#7#13'ftTopToBottom'#10'Font.Style'#11#6'fsBold'#0#7'Caption'
+  +#6#7'Caption'#7'TextTop'#2#236#8'TextLeft'#2#2#18'SubCaption.Caption'#6#12'S'
+  +'ubCaption 4'#20'SubCaption.MarginTop'#2#18#21'SubCaption.Font.Color'#4#0'@'
+  +#128#0#21'SubCaption.Font.Style'#11#6'fsBold'#8'fsItalic'#0#0#0#0
+]);

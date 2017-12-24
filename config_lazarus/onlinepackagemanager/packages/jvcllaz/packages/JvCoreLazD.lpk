@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvCoreLazD"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Initial Lazarus port by Sergio Samayoa"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\resource"/>
+        <OtherUnitFiles Value="..\design\JvCore"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\design\JvCore"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="JVCL Core Components (Designtime). Must be installed before any of the other JvXXX packages can be installed."/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="..\design\JvCore\JvCoreReg.pas"/>
+        <UnitName Value="JvCoreReg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\design\JvCore\JvDsgnConsts.pas"/>
+        <UnitName Value="JvDsgnConsts"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="JvCoreLazR"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

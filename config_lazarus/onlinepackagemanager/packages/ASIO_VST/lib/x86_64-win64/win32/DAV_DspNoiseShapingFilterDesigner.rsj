@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":28790225,"name":"dav_dspnoiseshapingfilterdesigner.rcstrinvalidsampleframes","sourcebytes":[83,97,109,112,108,101,102,114,97,109,101,115,32,109,117,115,116,32,98,101,32,97,98,111,118,101,32,50,33],"value":"Sampleframes must be above 2!"},
+{"hash":235268609,"name":"dav_dspnoiseshapingfilterdesigner.rcstrinvalidloopcount","sourcebytes":[76,111,111,112,99,111,117,110,116,32,109,117,115,116,32,98,101,32,97,98,111,118,101,32,50,33],"value":"Loopcount must be above 2!"}
+]}

@@ -1,0 +1,269 @@
+object Form1: TForm1
+  Left = 256
+  Height = 468
+  Top = 122
+  Width = 582
+  Caption = 'JvHTControls'
+  ClientHeight = 468
+  ClientWidth = 582
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.7'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 422
+    Top = 0
+    Width = 582
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'TJvHTLabel'
+      ClientHeight = 394
+      ClientWidth = 574
+      object JvHTLabel1: TJvHTLabel
+        Left = 8
+        Height = 106
+        Hint = 'HTLabel with:<br>'#13#10'<b>bold</b><br>'#13#10'<i>italic</i><br>'#13#10'<u>underline</u><br>'#13#10'<s>strikeout</s><br>'#13#10'<font color="clRed">c</font><font color="clblue">o</font><font color="clGreen">l</font><font color="clFuchsia">o</font><font color="clMaroon">r</font><br>'#13#10'<a href="http://www.freepascal.org/">Links</a> and <a href="custom">custom links</a>'
+        Top = 8
+        Width = 120
+        Caption = 'HTLabel with:<br>'#13#10'<b>bold</b><br>'#13#10'<i>italic</i><br>'#13#10'<u>underline</u><br>'#13#10'<s>strikeout</s><br>'#13#10'<font color="clRed">c</font><font color="clblue">o</font><font color="clGreen">l</font><font color="clFuchsia">o</font><font color="clMaroon">r</font><br>'#13#10'<a href="http://www.freepascal.org/">Links</a> and <a href="custom">custom links</a>'
+        ParentColor = False
+        ParentShowHint = False
+        ShowHint = True
+        OnHyperLinkClick = JvHTLabel1HyperLinkClick
+      end
+      object Memo1: TMemo
+        Left = 0
+        Height = 122
+        Hint = '<b>HTML</b><br>'#13#10'<i>Enter HTML content</i>'
+        Top = 272
+        Width = 574
+        Align = alBottom
+        Lines.Strings = (
+          'HTLabel with:<br>'
+          '<b>bold</b><br>'
+          '<i>italic</i><br>'
+          '<u>underline</u><br>'
+          '<s>strikeout</s><br>'
+          '<font color="clRed">c</font><font color="clblue">o</font><font color="clGreen">l</font><font color="clFuchsia">o</font><font color="clMaroon">r</font><br>'
+          '<a href="http://www.freepascal.org/">Links</a> and <a href="custom">custom links</a>'
+        )
+        OnChange = Memo1Change
+        ParentFont = False
+        ParentShowHint = False
+        ScrollBars = ssAutoBoth
+        ShowHint = True
+        TabOrder = 0
+        WordWrap = False
+      end
+      object Splitter1: TSplitter
+        Cursor = crVSplit
+        Left = 0
+        Height = 5
+        Top = 267
+        Width = 574
+        Align = alBottom
+        ResizeAnchor = akBottom
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TJvHTListBox'
+      ClientHeight = 394
+      ClientWidth = 574
+      object JvHTListBox1: TJvHTListBox
+        Left = 0
+        Height = 394
+        Hint = '<b>TJvHTListBox</b><br>'#13#10'<i>ListBox with HT items</i>'
+        Top = 0
+        Width = 152
+        HideSel = False
+        OnHyperLinkClick = JvHTListBox1HyperLinkClick
+        Align = alLeft
+        ColorHighlight = clHighlight
+        ColorHighlightText = clHighlightText
+        ColorDisabledText = clGrayText
+        Items.Strings = (
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+        )
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 0
+      end
+      object Splitter2: TSplitter
+        Left = 152
+        Height = 394
+        Top = 0
+        Width = 5
+      end
+      object Memo2: TMemo
+        Left = 160
+        Height = 90
+        Hint = '<b>New item content</b><br><i>Enter new item contnent</i>'
+        Top = 8
+        Width = 406
+        Anchors = [akTop, akLeft, akRight]
+        Lines.Strings = (
+          'new item...'
+        )
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 2
+      end
+      object Button1: TButton
+        Left = 160
+        Height = 25
+        Hint = '<b>Add item</b><br>'#13#10'<i>Add item to ListBox and ComboBox</i>'
+        Top = 112
+        Width = 75
+        AutoSize = True
+        Caption = 'Add item'
+        OnClick = Button1Click
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 3
+      end
+      object JvHTComboBox1: TJvHTComboBox
+        Left = 160
+        Height = 24
+        Hint = '<b>TJvHTComboBox</b><br>'#13#10'<i>ComboBox with HT items</i>'
+        Top = 160
+        Width = 152
+        HideSel = False
+        ColorHighlight = clHighlight
+        ColorHighlightText = clHighlightText
+        ColorDisabledText = clGrayText
+        Items.Strings = (
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+          '<b>Lazarus</b><br><a href="http://www.lazarus-ide.org/">Home page</a> or <a hred="http://forum.lazarus.freepascal.org/">Forum</a>'
+          '<b>Free Pascal</b><br><a href="http://www.freepascal.org/">Home page</a>'
+          '<b>Other...</b><br><i>Other stuff</i> <font color="clred">d-oh!</font>...'
+        )
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 4
+        Text = 'JvHTComboBox1'
+      end
+      object Button2: TButton
+        Left = 264
+        Height = 25
+        Top = 112
+        Width = 53
+        AutoSize = True
+        Caption = 'Clear'
+        OnClick = Button2Click
+        TabOrder = 5
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'TJvDBHTLabel'
+      ClientHeight = 394
+      ClientWidth = 574
+      object JvDBHTLabel1: TJvDBHTLabel
+        Left = 8
+        Height = 16
+        Top = 8
+        Width = 297
+        DataSource = DataSource1
+        Mask = 'Numeric field: <b><field="Num"></b><br>Field 1: <b><font color="clRed"><field="fld1"></font></b><br><i>Field 2:</i> <b><font color="clGreen"><field="fld2"></font></b><br>And some link: <a href="url"><field="Fld1"></a><br><a href="qwe">#<field="num"></a> - <b><field="fld1"> <field="fld2"></b>'
+        ParentColor = False
+        OnHyperLinkClick = JvDBHTLabel1HyperLinkClick
+      end
+      object DBGrid1: TDBGrid
+        Left = 0
+        Height = 130
+        Top = 264
+        Width = 574
+        Align = alBottom
+        Color = clWindow
+        Columns = <>
+        DataSource = DataSource1
+        TabOrder = 0
+      end
+      object Splitter3: TSplitter
+        Cursor = crVSplit
+        Left = 0
+        Height = 5
+        Top = 259
+        Width = 574
+        Align = alBottom
+        ResizeAnchor = akBottom
+      end
+      object Memo3: TMemo
+        Left = 0
+        Height = 99
+        Top = 160
+        Width = 574
+        Align = alBottom
+        Lines.Strings = (
+          'Numeric field: <b><field="Num"></b><br>Field 1: <b><font color="clRed"><field="fld1"></font></b><br><i>Field 2:</i> <b><font color="clGreen"><field="fld2"></font></b><br>And some link: <a href="url"><field="Fld1"></a><br><a href="qwe">#<field="num"></a> - <b><field="fld1"> <field="fld2"></b>'
+        )
+        OnChange = Memo3Change
+        TabOrder = 2
+      end
+    end
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 34
+    Top = 428
+    Width = 570
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Hint = '<b>Exit</b><br>'#13#10'<i>Exit application</i>'
+    CloseButton.DefaultCaption = True
+    CloseButton.ShowHint = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 1
+    ShowButtons = [pbClose]
+  end
+  object MemDataset1: TMemDataset
+    Active = True
+    FieldDefs = <    
+      item
+        Name = 'Num'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'Fld1'
+        DataType = ftString
+        Size = 20
+      end    
+      item
+        Name = 'Fld2'
+        DataType = ftString
+        Size = 20
+      end>
+    left = 384
+    top = 112
+  end
+  object DataSource1: TDataSource
+    DataSet = MemDataset1
+    left = 464
+    top = 112
+  end
+end

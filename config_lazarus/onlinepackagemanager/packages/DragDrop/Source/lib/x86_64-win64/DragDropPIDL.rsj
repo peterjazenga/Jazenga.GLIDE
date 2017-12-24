@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":233826276,"name":"dragdroppidl.snofolderpidl","sourcebytes":[70,111,108,100,101,114,32,80,73,68,76,32,109,117,115,116,32,98,101,32,97,100,100,101,100,32,102,105,114,115,116],"value":"Folder PIDL must be added first"},
+{"hash":41952160,"name":"dragdroppidl.sbaddesktop","sourcebytes":[70,97,105,108,101,100,32,116,111,32,103,101,116,32,105,110,116,101,114,102,97,99,101,32,116,111,32,68,101,115,107,116,111,112],"value":"Failed to get interface to Desktop"},
+{"hash":87081187,"name":"dragdroppidl.sbadfilename","sourcebytes":[73,110,118,97,108,105,100,32,102,105,108,101,110,97,109,101,58,32,37,115],"value":"Invalid filename: %s"}
+]}

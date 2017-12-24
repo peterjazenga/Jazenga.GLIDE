@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="rxmemds">
+      <element name="TRxMemoryData"><short>TRxMemoryData - таблица в памяти. Является наследником от TDataSet</short><descr>TRxMemoryData - таблица в памяти. Является наследником от TDataSet</descr>
+      </element>
+      <element name="TRxMemoryData.Create"/>
+      <element name="TRxMemoryData.Destroy"/>
+      <element name="TRxMemoryData.BookmarkValid"/>
+      <element name="TRxMemoryData.CompareBookmarks"/>
+      <element name="TRxMemoryData.CreateBlobStream"/>
+      <element name="TRxMemoryData.GetFieldData"/>
+      <element name="TRxMemoryData.GetCurrentRecord"/>
+      <element name="TRxMemoryData.IsSequenced"/>
+      <element name="TRxMemoryData.Locate"/>
+      <element name="TRxMemoryData.SortOnFields"><short>Производит сортировку данных в таблице по полю</short>
+      </element>
+      <element name="TRxMemoryData.EmptyTable"><short>Очищает содержимое набора данных</short>
+      </element>
+      <element name="TRxMemoryData.CloseOpen"><short>Закрывает и открывает набор данных</short>
+      </element>
+      <element name="TRxMemoryData.CopyStructure"><short>Копирует структуру таблицы из другого источника данных</short><descr>Копирует структуру таблицы из другого источника данных</descr>
+      </element>
+      <element name="TRxMemoryData.LoadFromDataSet"><short>Копирует содержимое таблицы из другого источника данных</short><descr>Копирует содержимое таблицы из другого источника данных</descr>
+      </element>
+      <element name="TRxMemoryData.SaveToDataSet"><short>Копирует содержимое таблицы в другой источник данных</short>
+      </element>
+      <element name="TRxMemoryData.AppendRecord"><short>AppendRecord добавляет запись в таблицу и заполняет значения полей из массива Values</short>
+      </element>
+      <element name="TRxMemoryData.Capacity"/>
+      <element name="TRxMemoryData.Active"/>
+      <element name="TRxMemoryData.AutoCalcFields"/>
+      <element name="TRxMemoryData.Filtered"/>
+      <element name="TRxMemoryData.FieldDefs"/>
+      <element name="TRxMemoryData.BeforeOpen"/>
+      <element name="TRxMemoryData.AfterOpen"/>
+      <element name="TRxMemoryData.BeforeClose"/>
+      <element name="TRxMemoryData.AfterClose"/>
+      <element name="TRxMemoryData.BeforeInsert"/>
+      <element name="TRxMemoryData.AfterInsert"/>
+      <element name="TRxMemoryData.BeforeEdit"/>
+      <element name="TRxMemoryData.AfterEdit"/>
+      <element name="TRxMemoryData.BeforePost"/>
+      <element name="TRxMemoryData.AfterPost"/>
+      <element name="TRxMemoryData.BeforeCancel"/>
+      <element name="TRxMemoryData.AfterCancel"/>
+      <element name="TRxMemoryData.BeforeDelete"/>
+      <element name="TRxMemoryData.AfterDelete"/>
+      <element name="TRxMemoryData.BeforeScroll"/>
+      <element name="TRxMemoryData.AfterScroll"/>
+      <element name="TRxMemoryData.OnCalcFields"/>
+      <element name="TRxMemoryData.OnDeleteError"/>
+      <element name="TRxMemoryData.OnEditError"/>
+      <element name="TRxMemoryData.OnFilterRecord"/>
+      <element name="TRxMemoryData.OnFilterRecordEx"/>
+      <element name="TRxMemoryData.OnNewRecord"/>
+      <element name="TRxMemoryData.OnPostError"/>
+      <element name="TMemBlobStream"/>
+      <element name="TMemBlobStream.Create"/>
+      <element name="TMemBlobStream.Destroy"/>
+      <element name="TMemBlobStream.Read"/>
+      <element name="TMemBlobStream.Write"/>
+      <element name="TMemBlobStream.Seek"/>
+      <element name="TMemBlobStream.Truncate"/>
+      <element name="TMemoryRecord"/>
+      <element name="TMemoryRecord.Create"/>
+      <element name="TMemoryRecord.CreateEx"/>
+      <element name="TMemoryRecord.Destroy"/>
+      <element name="TMemoryRecord.MemoryData"/>
+      <element name="TMemoryRecord.ID"/>
+      <element name="TMemoryRecord.Index"/>
+      <element name="TMemoryRecord.Data"/>
+    <short>Модуль rxmemds содержит компонент TRxMemoryData</short><descr>Модуль rxmemds содержит компонент TRxMemoryData и вспомогательные методы для работы с данным компонентом</descr><element name="TRxMemoryData.SortOnFieldsEx"><short>Производит сортировку данных в таблице по нескольким полям</short>
+      </element>
+    </module>
+
+</package>
+</fpdoc-descriptions>

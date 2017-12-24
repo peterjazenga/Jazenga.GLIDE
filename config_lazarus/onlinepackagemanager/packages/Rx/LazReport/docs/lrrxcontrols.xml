@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rx_LazReport"><module name="lrRxControls"><short>Модуль lrRxControls содержит компоненты, расширяющие функционал LazReport</short><element name="TlrRxDBLookupComboBox.KeyField"><short>Ключевое поле</short>
+      </element><element name="TlrRxDBLookupComboBox.ListField"><short>Список полей для отображения пользователю</short>
+      </element><element name="TlrRxDBLookupComboBox.ListSource"><short>Источник данных</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

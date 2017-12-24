@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="cryptini"/>
+    <Type Value="RunTimeOnly"/>
+    <Author Value="user minesadorada at freepascal forum"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <RelocatableUnit Value="True"/>
+        <Checks>
+          <IOChecks Value="True"/>
+          <RangeChecks Value="True"/>
+        </Checks>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="-FcUTF8"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="This is a TiniFile implementation that is resistant to tampering.
+In normal (PlainTextMode = FALSE) mode, any calls to Write values are
+accompanied by an embedded MD5 hash value.  A demo app is available
+bundled with this component.
+(and also reversed then Base64/IDEA Encrypted)
+This is invisible in normal use (i.e. read methods return normal results)
+but there are added methods to internally verify any entries.
+It also is able to write a standard ident section containing various
+details including authorship and copyright.  A single function allows
+you to check on app startup whether this section has been altered.
+It also includes a useful 'First Run' functionality.
+It's intended purpose is to store information that cannot be easily altered
+in a text editor (such as HiScores etc) by a weekend scripter.
+The WriteInteger method is the most secure as it double-encrypts as well as
+embedding an MD5Hash value as a checksum.  Very handy to save scores etc.
+It is paired with ReadInteger and VerifyInteger."/>
+    <License Value="Modified LGPL
+You are free to use/alter/add/sell as you wish. 
+As a request, please only add to the existing attribution header.
+Please update this versioninfo alongside the constant C_VERSION"/>
+    <Version Minor="1"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="ucryptini.pas"/>
+        <UnitName Value="ucryptini"/>
+      </Item1>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="locale"/>
+      <EnableI18NForLFM Value="True"/>
+    </i18n>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="dcpcrypt"/>
+        <MinVersion Major="2" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCLBase"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="D:\Lazarusprojects\MDSUM\CryptINI\opm"/>
+    </PublishOptions>
+    <Provides Count="1">
+      <Item1 Value="TInifiles"/>
+    </Provides>
+  </Package>
+</CONFIG>

@@ -1,0 +1,148 @@
+package ExtComponents;
+
+{$R *.res}
+{$R '..\..\copy\U_ExtFileCopy.dcr'}
+{$R '..\..\copy\u_traducefile.dcr'}
+{$R '..\..\extcomp\u_extcolorcombos.dcr'}
+{$R '..\..\extcomp\u_extdbnavigator.dcr'}
+{$R '..\..\extnum\U_ExtNumEdits.dcr'}
+{$R '..\..\extcomp\u_regextracomponents.dcr'}
+{$R '..\..\inicomp\u_extmenucustomize.dcr'}
+{$R '..\..\inicomp\u_onforminfoini.dcr'}
+{$R '..\..\btncomp\u_buttons_appli.dcr'}
+{$R '..\..\inicomp\u_extmenutoolbar.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$DEFINE ADO}
+{$DEFINE ADO}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Composants améliorés LIBERLOG'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  vcldb,
+  vclx,
+  dbexpress,
+  VclSmp,
+  xmlrtl,
+  vclactnband,
+  IndyProtocols,
+  VampyreImagingPackage,
+  FortesReportCE_Win32_DXE3_vcl,
+  Jcl,
+  JvXPCtrls,
+  JvDB,
+  bdertl,
+  dcldb;
+
+contains
+  fonctions_languages in '..\..\core\fonctions_languages.pas',
+  fonctions_proprietes in '..\..\core\fonctions_proprietes.pas',
+  fonctions_scaledpi in '..\..\core\fonctions_scaledpi.pas',
+  fonctions_string in '..\..\core\fonctions_string.pas',
+  fonctions_system in '..\..\core\fonctions_system.pas',
+  fonctions_variant in '..\..\core\fonctions_variant.pas',
+  type_string in '..\..\core\type_string.pas',
+  u_extcomponent in '..\..\core\u_extcomponent.pas',
+  unite_messages_delphi in '..\..\core\unite_messages_delphi.pas',
+  u_buttons_appli in '..\..\btncomp\u_buttons_appli.pas',
+  u_buttons_speed in '..\..\btncomp\u_buttons_speed.pas',
+  fonctions_file in '..\..\copy\fonctions_file.pas',
+  u_extabscopy in '..\..\copy\u_extabscopy.pas',
+  U_ExtFileCopy in '..\..\copy\U_ExtFileCopy.pas',
+  u_extractfile in '..\..\copy\u_extractfile.pas',
+  u_traducefile in '..\..\copy\u_traducefile.pas',
+  unit_messagescopy in '..\..\copy\unit_messagescopy.pas',
+  unit_messagescopy_delphi in '..\..\copy\unit_messagescopy_delphi.pas',
+  PCheck in '..\..\extcomp\PCheck.pas',
+  PDBCheck in '..\..\extcomp\PDBCheck.pas',
+  u_extcolorcombos in '..\..\extcomp\u_extcolorcombos.pas',
+  U_ExtComboInsert in '..\..\extcomp\U_ExtComboInsert.pas',
+  u_extdbnavigator in '..\..\extcomp\u_extdbnavigator.pas',
+  u_extradios in '..\..\extcomp\u_extradios.pas',
+  u_extsearchedit in '..\..\extcomp\u_extsearchedit.pas',
+  u_framework_components in '..\..\extcomp\u_framework_components.pas',
+  u_framework_dbcomponents in '..\..\extcomp\u_framework_dbcomponents.pas',
+  fonctions_init in '..\..\inicomp\fonctions_init.pas',
+  u_customizemenu in '..\..\inicomp\u_customizemenu.pas',
+  u_extmenucustomize in '..\..\inicomp\u_extmenucustomize.pas',
+  u_formadapt in '..\..\inicomp\u_formadapt.pas',
+  u_formmainini in '..\..\inicomp\u_formmainini.pas',
+  u_onforminfoini in '..\..\inicomp\u_onforminfoini.pas',
+  fonctions_reports in '..\..\reportcomp\fonctions_reports.pas',
+  u_reports_components in '..\..\reportcomp\u_reports_components.pas',
+  u_reports_rlcomponents in '..\..\reportcomp\u_reports_rlcomponents.pas',
+  u_buttons_defs in '..\..\imgcomp\u_buttons_defs.pas',
+  u_extdbgrid in '..\..\imgcomp\u_extdbgrid.pas',
+  u_extdbimage in '..\..\imgcomp\u_extdbimage.pas',
+  u_extdbimagelist in '..\..\imgcomp\u_extdbimagelist.pas',
+  u_extdbpictcombo in '..\..\imgcomp\u_extdbpictcombo.pas',
+  u_extimage in '..\..\imgcomp\u_extimage.pas',
+  u_extimagelist in '..\..\imgcomp\u_extimagelist.pas',
+  u_extmapimageindex in '..\..\imgcomp\u_extmapimageindex.pas',
+  U_ExtPictCombo in '..\..\imgcomp\U_ExtPictCombo.pas',
+  fonctions_forms in '..\..\inicomp\fonctions_forms.pas',
+  fonctions_vtree in '..\..\inicomp\fonctions_vtree.pas',
+  fonctions_dialogs in '..\..\btncomp\fonctions_dialogs.pas',
+  u_form_msg in '..\..\btncomp\u_form_msg.pas',
+  u_form_working in '..\..\btncomp\u_form_working.pas',
+  fonctions_net in '..\..\extnet\fonctions_net.pas',
+  u_netupdate in '..\..\extnet\u_netupdate.pas',
+  u_extmenutoolbar in '..\..\inicomp\u_extmenutoolbar.pas',
+  menutbar in '..\..\inicomp\menutbar.pas',
+  u_extformatedits in '..\..\extcomp\u_extformatedits.pas',
+  md5api in '..\..\extnet\md5api.pas',
+  fonctions_search_edit in '..\..\extcomp\fonctions_search_edit.pas',
+  u_reportform in '..\..\reportcomp\u_reportform.pas' {ReportForm},
+  u_regfwbuttons in '..\..\btncomp\u_regfwbuttons.pas',
+  u_regfwbuttons_appli in '..\..\btncomp\u_regfwbuttons_appli.pas',
+  u_regsbbuttons in '..\..\btncomp\u_regsbbuttons.pas',
+  u_regextfilecopy in '..\..\copy\u_regextfilecopy.pas',
+  u_regextcomponents in '..\..\extcomp\u_regextcomponents.pas',
+  u_regextracomponents in '..\..\extcomp\u_regextracomponents.pas',
+  u_register_net in '..\..\extnet\u_register_net.pas',
+  u_regimagecomponents in '..\..\imgcomp\u_regimagecomponents.pas',
+  u_reginicomponents in '..\..\inicomp\u_reginicomponents.pas',
+  u_registerforms in '..\..\inicomp\u_registerforms.pas',
+  u_regreports_components in '..\..\reportcomp\u_regreports_components.pas',
+  u_extconstoperation in '..\..\extnum\u_extconstoperation.pas',
+  u_extmultioperation in '..\..\extnum\u_extmultioperation.pas',
+  U_ExtNumEdits in '..\..\extnum\U_ExtNumEdits.pas',
+  u_extoperate in '..\..\extnum\u_extoperate.pas',
+  U_ExtOperation in '..\..\extnum\U_ExtOperation.pas',
+  u_regextnumeric in '..\..\extnum\u_regextnumeric.pas',
+  fonctions_array in '..\..\core\fonctions_array.pas',
+  fonctions_components in '..\..\core\fonctions_components.pas',
+  fonctions_date in '..\..\core\fonctions_date.pas',
+  fonctions_db in '..\..\core\fonctions_db.pas',
+  fonctions_dbcomponents in '..\..\core\fonctions_dbcomponents.pas',
+  fonctions_erreurs in '..\..\core\fonctions_erreurs.pas',
+  u_dblistview in '..\..\imgcomp\u_dblistview.pas',
+  U_GroupView in '..\..\imgcomp\U_GroupView.pas',
+  U_RegisterGroupView in '..\..\imgcomp\U_RegisterGroupView.pas';
+
+end.

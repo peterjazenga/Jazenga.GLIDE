@@ -1,0 +1,186 @@
+object Form1: TForm1
+  Left = 697
+  Height = 391
+  Top = 481
+  Width = 441
+  Caption = 'Form1'
+  ClientHeight = 391
+  ClientWidth = 441
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object Button1: TButton
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 335
+    Height = 23
+    Top = 6
+    Width = 100
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Get information'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 21
+    Top = 54
+    Width = 423
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clSkyBlue
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = Label2
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 21
+    Top = 100
+    Width = 423
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clSkyBlue
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideTop.Control = Label4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 10
+    Height = 21
+    Top = 211
+    Width = 425
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clSkyBlue
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    AnchorSideLeft.Control = Label5
+    AnchorSideTop.Control = Label5
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 21
+    Top = 257
+    Width = 423
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clSkyBlue
+    ReadOnly = True
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Button1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 13
+    Top = 35
+    Width = 188
+    BorderSpacing.Around = 6
+    Caption = 'User name (from environment variable)'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Edit1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 13
+    Top = 81
+    Width = 59
+    BorderSpacing.Around = 6
+    Caption = 'User domain'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = DividerBevel1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 13
+    Top = 146
+    Width = 40
+    BorderSpacing.Around = 6
+    Caption = 'File info:'
+    ParentColor = False
+  end
+  object DividerBevel1: TDividerBevel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Edit2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 13
+    Top = 127
+    Width = 441
+    Caption = 'File owner'
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    BorderSpacing.Bottom = 6
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object FileNameEdit1: TFileNameEdit
+    AnchorSideLeft.Control = Label3
+    AnchorSideTop.Control = Label3
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 21
+    Top = 165
+    Width = 423
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    MaxLength = 0
+    Spacing = 0
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    AnchorSideTop.Control = FileNameEdit1
+    AnchorSideTop.Side = asrBottom
+    Left = 4
+    Height = 13
+    Top = 192
+    Width = 61
+    BorderSpacing.Around = 6
+    Caption = 'Owner name'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Edit3
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 13
+    Top = 238
+    Width = 69
+    BorderSpacing.Around = 6
+    Caption = 'Owner domain'
+    ParentColor = False
+  end
+end

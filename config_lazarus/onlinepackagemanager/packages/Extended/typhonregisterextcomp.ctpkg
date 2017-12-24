@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonregisterextcomp"/>
+    <Type Value="DesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="reportcomp"/>
+        <OtherUnitFiles Value="extcomp;inicomp;copy;extracomp;imgcomp;btncomp;reportcomp;extnet;extleon;extnum;register"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Version Major="1" Minor="1"/>
+    <Files Count="13">
+      <Item1>
+        <Filename Value="register/u_regextcomponents.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regextcomponents"/>
+      </Item1>
+      <Item2>
+        <Filename Value="register/u_regextfilecopy.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regextfilecopy"/>
+      </Item2>
+      <Item3>
+        <Filename Value="register/u_regextnumeric.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regextnumeric"/>
+      </Item3>
+      <Item4>
+        <Filename Value="register/u_regextracomponents.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regextracomponents"/>
+      </Item4>
+      <Item5>
+        <Filename Value="register/u_regfwbuttons.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regfwbuttons"/>
+      </Item5>
+      <Item6>
+        <Filename Value="register/u_regfwbuttons_appli.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regfwbuttons_appli"/>
+      </Item6>
+      <Item7>
+        <Filename Value="register/u_regimagecomponents.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regimagecomponents"/>
+      </Item7>
+      <Item8>
+        <Filename Value="register/u_reginicomponents.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_reginicomponents"/>
+      </Item8>
+      <Item9>
+        <Filename Value="register/u_registerforms.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_registerforms"/>
+      </Item9>
+      <Item10>
+        <Filename Value="register/U_RegisterGroupView.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="U_RegisterGroupView"/>
+      </Item10>
+      <Item11>
+        <Filename Value="register/u_register_net.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_register_net"/>
+      </Item11>
+      <Item12>
+        <Filename Value="register/u_regreports_components.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regreports_components"/>
+      </Item12>
+      <Item13>
+        <Filename Value="register/u_regsbbuttons.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="u_regsbbuttons"/>
+      </Item13>
+    </Files>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="typhonextnumeric"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="typhonextnet"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="typhonextinit"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="typhonextreports"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="typhonextcopy"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="typhonextcomponents"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

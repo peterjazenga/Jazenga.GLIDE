@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":163346244,"name":"dav_audiofile.rcstrfilealreadyloaded","sourcebytes":[70,105,108,101,32,97,108,114,101,97,100,121,32,108,111,97,100,101,100],"value":"File already loaded"},
+{"hash":263248437,"name":"dav_audiofile.rcstrstreaminuse","sourcebytes":[83,116,114,101,97,109,32,105,115,32,97,108,114,101,97,100,121,32,105,110,32,117,115,101],"value":"Stream is already in use"},
+{"hash":125397124,"name":"dav_audiofile.rcstrnostreamassigned","sourcebytes":[78,111,32,115,116,114,101,97,109,32,97,115,115,105,103,110,101,100],"value":"No stream assigned"},
+{"hash":64070529,"name":"dav_audiofile.rcstrtoomanysampleframes","sourcebytes":[84,111,111,32,109,97,110,121,32,115,97,109,112,108,101,102,114,97,109,101,115,33],"value":"Too many sampleframes!"}
+]}

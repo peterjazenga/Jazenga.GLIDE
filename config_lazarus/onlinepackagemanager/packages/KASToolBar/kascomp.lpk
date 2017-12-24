@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="KASComp"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Alexander Koblov"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="doublecmd"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Linking>
+        <Debugging>
+          <DebugInfoType Value="dsDwarf2Set"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <Description Value="ToolBar that loading from *.ini file. Format of *.ini file 
+KASBarMenu is popupmenu read *.bar file and uses *.bar buttons as menu items.
+"/>
+    <License Value="GNU GPL 2
+"/>
+    <Version Major="1" Minor="8"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="kastoolbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="KASToolBar"/>
+      </Item1>
+      <Item2>
+        <Filename Value="kasprogressbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="KASProgressBar"/>
+      </Item2>
+      <Item3>
+        <Filename Value="kaspathedit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="KASPathEdit"/>
+      </Item3>
+      <Item4>
+        <Filename Value="kastoolitems.pas"/>
+        <UnitName Value="KASToolItems"/>
+      </Item4>
+      <Item5>
+        <Filename Value="kascombobox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="KASComboBox"/>
+      </Item5>
+      <Item6>
+        <Filename Value="kascomp.lpk"/>
+        <Type Value="Text"/>
+      </Item6>
+      <Item7>
+        <Filename Value="doublecmd/dcxmlconfig.pas"/>
+        <UnitName Value="DCXmlConfig"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/07/03 17:53:13.376.pas,C:\Users\Matthieu\Documents\Lazarus Delphi\Extended\composants\u_buttons_appli.pas=</Transaction>
+    <Transaction>2011/07/03 17:53:55.599.pas,C:\Users\Matthieu\Documents\Lazarus Delphi\Extended\forms\u_customizemenu.pas=</Transaction>
+    <Transaction>2011/07/03 17:53:55.599.dfm,C:\Users\Matthieu\Documents\Lazarus Delphi\Extended\forms\u_customizemenu.dfm=</Transaction>
+    <Transaction>2011/07/03 18:15:48.291.pas,C:\Users\Matthieu\Documents\Lazarus Delphi\Extended\composants\u_regfwbuttons.pas=</Transaction>
+    <Transaction>2011/07/20 17:37:59.642.pas,C:\Users\Matthieu\Documents\Lazarus Delphi\Extended\composants\u_buttons_appli.pas=</Transaction>
+    <Transaction>2011/11/13 10:44:03.737.pas,C:\Matthieu\Programmation\Lazarus Delphi\extended\composants\U_ExtDBImageList.pas=C:\Matthieu\Programmation\Lazarus Delphi\extended\composants\U_ExtDBImage.pas</Transaction>
+    <Transaction>2012/01/02 10:58:39.009.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_buttons_appli.pas=</Transaction>
+    <Transaction>2012/04/27 17:43:01.299.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_buttons_appli.pas=</Transaction>
+    <Transaction>2012/04/27 17:43:01.326.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_regextfilecopy.pas=</Transaction>
+    <Transaction>2012/04/27 17:43:01.353.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_regfwbuttons.pas=</Transaction>
+    <Transaction>2012/04/27 17:43:32.853.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\U_RegisterAppIni.pas=</Transaction>
+    <Transaction>2012/11/06 16:22:26.247.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_extcomponent.pas=</Transaction>
+    <Transaction>2012/11/06 16:22:26.270.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_extdbgrid.pas=</Transaction>
+    <Transaction>2012/11/06 16:22:26.290.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_extmapimageindex.pas=</Transaction>
+    <Transaction>2012/12/10 11:49:04.268.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_regfsbuttons.pas=</Transaction>
+    <Transaction>2012/12/10 11:50:38.961.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_regfsbuttons.pas=</Transaction>
+    <Transaction>2012/12/10 11:51:27.243.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\U_RegisterAppIni.pas=</Transaction>
+    <Transaction>2012/12/10 11:52:48.291.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\U_RegisterAppIni.pas=</Transaction>
+    <Transaction>2012/12/10 11:53:05.020.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_buttons_speed.pas=</Transaction>
+    <Transaction>2012/12/19 14:16:20.493.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_extdbgrid.pas=</Transaction>
+    <Transaction>2013/01/02 08:02:07.822.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_traducefile.pas=</Transaction>
+    <Transaction>2013/01/11 17:04:00.978.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\fonctions\fonctions_reports.pas=</Transaction>
+    <Transaction>2013/01/24 10:38:02.596.pas,C:\Matthieu\Programmation\Lazarus Delphi\Extended\composants\u_reports_rlcomponents.pas=</Transaction>
+    <Transaction>2013/08/02 15:08:26.063.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\base\hh.pas=</Transaction>
+    <Transaction>2013/08/02 15:08:35.307.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\base\hh_funcs.pas=</Transaction>
+    <Transaction>2013/08/02 15:16:39.064.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\extcomp\u_extdbdirectoryedit.pas=</Transaction>
+    <Transaction>2013/08/02 15:17:03.826.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\extcomp\u_scrolldbclones.pas=</Transaction>
+    <Transaction>2013/08/02 15:17:07.511.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\extcomp\u_scrollclones.pas=</Transaction>
+    <Transaction>2013/08/02 15:20:51.098.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\inicomp\U_RegisterAppIni.pas=</Transaction>
+    <Transaction>2013/08/15 10:03:00.006.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\inicomp\u_registerforms.pas=</Transaction>
+    <Transaction>2013/10/22 08:47:29.681.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\core\unite_messages.pas=</Transaction>
+    <Transaction>2014/01/07 12:05:05.178.pas,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\inicomp\u_extmenutoolbar.pas=</Transaction>
+    <Transaction>2014/08/21 13:56:31.906.bdsproj,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\delphi\D2006ExtComponents.bdsproj=C:\Matthieu\Programmation\Lazarus-Delphi\Extended\ExtComponents.bdsproj</Transaction>
+    <Transaction>2014/08/22 11:33:36.649,C:\Matthieu\Programmation\Lazarus-Delphi\Extended\delphi\D2006\ExtComponents.dproj=C:\Matthieu\Programmation\Lazarus-Delphi\Extended\delphi\D2006ExtComponents.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

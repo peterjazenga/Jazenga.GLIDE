@@ -1,0 +1,16 @@
+  // Aceleración
+  AccX := 0;
+  AccY := 0;
+  // Velocidad
+  SpdX := 0.25;
+  SpdY := 0.25;
+  // Rebote
+  BncX := 1;
+  BncY := 1;
+  // Ralentizar 0..1
+  SlwX := 0;
+  SlwY := 0;
+  // Gravedad (Vertical)
+  Gravity := 0;
+  // Fricción (Horizontal) 0..1
+  Stop := 1;

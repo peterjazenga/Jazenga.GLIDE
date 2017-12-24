@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Android"/>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="templateandroid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="6"/>
+        <CursorPos X="50" Y="9"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="templatemain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTemplateMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="templatemain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="5" Y="11"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\RikMap\timertestform.pas"/>
+        <ComponentName Value="frmTimerTest"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <CursorPos X="16" Y="14"/>
+        <UsageCount Value="23"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\Extras\synapse40\source\lib\httpsend.pas"/>
+        <UsageCount Value="28"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\RikMap\mapform.pas"/>
+        <ComponentName Value="frmMap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="13"/>
+        <CursorPos X="66" Y="15"/>
+        <UsageCount Value="14"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\Test1Android\mapform.pas"/>
+        <ComponentName Value="frmMap"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="101"/>
+        <UsageCount Value="11"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\controls.pp"/>
+        <TopLine Value="31"/>
+        <CursorPos X="36" Y="44"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\lclclasses.pp"/>
+        <TopLine Value="19"/>
+        <CursorPos X="10" Y="32"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\stdctrls.pp"/>
+        <TopLine Value="20"/>
+        <CursorPos X="27" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\customdrawncontrols.pas"/>
+        <TopLine Value="218"/>
+        <CursorPos X="29" Y="239"/>
+        <UsageCount Value="14"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\customdrawndrawers.pas"/>
+        <TopLine Value="55"/>
+        <CursorPos X="19" Y="78"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\RikMap\statusform.pas"/>
+        <ComponentName Value="frmStatus"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="21"/>
+        <CursorPos X="55" Y="69"/>
+        <UsageCount Value="11"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\Auxiliary\WGS84.pas"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\Extras\Graphics32\GR32_Compiler.inc"/>
+        <CursorPos X="4" Y="225"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\customtimer.pas"/>
+        <TopLine Value="16"/>
+        <CursorPos X="33" Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lazarus1.1\lcl\interfaces\customdrawn\customdrawnint.pas"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="9" Column="10" TopLine="4"/>
+      </Position1>
+      <Position2>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="21" Column="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="53" Column="9" TopLine="53"/>
+      </Position3>
+      <Position4>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="54" Column="9" TopLine="54"/>
+      </Position4>
+      <Position5>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="53" Column="9" TopLine="53"/>
+      </Position5>
+      <Position6>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="54" Column="9" TopLine="54"/>
+      </Position6>
+      <Position7>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="78" Column="36" TopLine="57"/>
+      </Position7>
+      <Position8>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="54" Column="9" TopLine="40"/>
+      </Position8>
+      <Position9>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="26" TopLine="17"/>
+      </Position9>
+      <Position10>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="74" Column="48" TopLine="63"/>
+      </Position10>
+      <Position11>
+        <Filename Value="templateandroid.lpr"/>
+        <Caret Line="25" Column="45" TopLine="4"/>
+      </Position11>
+      <Position12>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="75" Column="48" TopLine="54"/>
+      </Position12>
+      <Position13>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="63" Column="18"/>
+      </Position13>
+      <Position14>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="63" Column="18"/>
+      </Position14>
+      <Position15>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="62" Column="18" TopLine="36"/>
+      </Position15>
+      <Position16>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="61" Column="18" TopLine="35"/>
+      </Position16>
+      <Position17>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="60" Column="18" TopLine="34"/>
+      </Position17>
+      <Position18>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="39" TopLine="8"/>
+      </Position18>
+      <Position19>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="38" TopLine="12"/>
+      </Position19>
+      <Position20>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="37" TopLine="12"/>
+      </Position20>
+      <Position21>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="9" Column="25"/>
+      </Position21>
+      <Position22>
+        <Filename Value="templatemain.pas"/>
+        <Caret Line="18" Column="35" TopLine="6"/>
+      </Position22>
+      <Position23>
+        <Filename Value="templateandroid.lpr"/>
+        <Caret Line="11" Column="3"/>
+      </Position23>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="FItemIndex"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

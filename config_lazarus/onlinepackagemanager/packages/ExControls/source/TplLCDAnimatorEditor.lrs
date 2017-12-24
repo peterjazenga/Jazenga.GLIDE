@@ -1,0 +1,104 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TLCDAnimatorCodeEditorForm','FORMDATA',[
+  'TPF0'#26'TLCDAnimatorCodeEditorForm'#25'LCDAnimatorCodeEditorForm'#4'Left'#3
+  +#152#1#6'Height'#3#212#1#3'Top'#3#229#0#5'Width'#3#21#2#11'BorderStyle'#7#13
+  +'bsSizeToolWin'#7'Caption'#6#26'TplLCDAnimator Code Editor'#12'ClientHeight'
+  +#3#212#1#11'ClientWidth'#3#21#2#11'Font.Height'#2#245#9'Font.Name'#6#13'MS S'
+  +'ans Serif'#12'OnCloseQuery'#7#14'FormCloseQuery'#8'Position'#7#14'poScreenC'
+  +'enter'#10'LCLVersion'#6#6'0.9.27'#0#6'TPanel'#11'PanelBottom'#4'Left'#2#0#6
+  +'Height'#2'l'#3'Top'#3'h'#1#5'Width'#3#21#2#5'Align'#7#8'alBottom'#12'Client'
+  +'Height'#2'l'#11'ClientWidth'#3#21#2#8'TabOrder'#2#0#0#6'TPanel'#12'SynthaxP'
+  +'anel'#4'Left'#2#2#6'Height'#2#25#3'Top'#2'$'#5'Width'#3#206#1#10'BevelOuter'
+  +#7#6'bvNone'#12'ClientHeight'#2#25#11'ClientWidth'#3#206#1#5'Color'#7#6'clGr'
+  +'ay'#10'Font.Color'#7#15'clActiveCaption'#11'Font.Height'#2#245#9'Font.Name'
+  +#6#13'MS Sans Serif'#11'ParentColor'#8#10'ParentFont'#8#8'TabOrder'#2#0#0#6
+  +'TLabel'#13'SynthaxLabel2'#4'Left'#2'x'#6'Height'#2#16#3'Top'#2#4#5'Width'#3
+  +'F'#1#9'Alignment'#7#8'taCenter'#7'Caption'#6'8 Ops_1(Param_1)  Ops_2(Param_'
+  +'2)  ...   Ops_x(Param_x)   '#10'Font.Color'#7#7'clWhite'#11'Font.Height'#2
+  +#244#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#8'fsItalic'#0#11'ParentColor'
+  +#8#10'ParentFont'#8#0#0#6'TLabel'#13'SynthaxLabel1'#4'Left'#2'v'#6'Height'#2
+  +#20#3'Top'#2#2#5'Width'#3'L'#1#9'Alignment'#7#8'taCenter'#7'Caption'#6'A[   '
+  +'                ;                   ;  ;                   ;]'#10'Font.Colo'
+  +'r'#7#6'clLime'#11'Font.Height'#2#239#9'Font.Name'#6#5'Arial'#10'Font.Style'
+  +#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#13'SynthaxL'
+  +'abel3'#4'Left'#2#16#6'Height'#2#17#3'Top'#2#3#5'Width'#2']'#7'Caption'#6#13
+  +'Line Synthax:'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#241#9'Font.Name'
+  +#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'Pare'
+  +'ntFont'#8#0#0#0#7'TButton'#12'CancelButton'#4'Left'#2'x'#6'Height'#2#25#3'T'
+  +'op'#2'H'#5'Width'#2'K'#6'Cancel'#9#7'Caption'#6#6'Cancel'#11'ModalResult'#2
+  +#2#8'TabOrder'#2#1#0#0#7'TButton'#8'OkButton'#4'Left'#2#24#6'Height'#2#25#3
+  +'Top'#2'H'#5'Width'#2'K'#7'Caption'#6#2'OK'#11'ModalResult'#2#1#8'TabOrder'#2
+  +#2#0#0#6'TPanel'#9'PanelEdit'#4'Left'#2#1#6'Height'#2#26#3'Top'#2#1#5'Width'
+  +#3#19#2#5'Align'#7#5'alTop'#12'ClientHeight'#2#26#11'ClientWidth'#3#19#2#8'T'
+  +'abOrder'#2#3#0#5'TEdit'#8'EditLine'#4'Left'#2#1#6'Height'#2#24#3'Top'#2#1#5
+  +'Width'#3#190#1#5'Align'#7#8'alClient'#5'Color'#7#7'clWhite'#8'TabOrder'#2#0
+  +#0#0#7'TButton'#8'ctUpdate'#4'Left'#3#191#1#6'Height'#2#24#4'Hint'#6#24'Clic'
+  +'k To update the Line'#3'Top'#2#1#5'Width'#2'S'#5'Align'#7#7'alRight'#7'Capt'
+  +'ion'#6#6'Update'#7'OnClick'#7#13'ctUpdateClick'#14'ParentShowHint'#8#8'Show'
+  +'Hint'#9#8'TabOrder'#2#1#0#0#0#7'TButton'#6'ctLoad'#4'Left'#3' '#1#6'Height'
+  +#2#25#4'Hint'#6#14'Load from file'#3'Top'#2'F'#5'Width'#2';'#7'Caption'#6#4
+  +'Load'#7'OnClick'#7#11'ctLoadClick'#14'ParentShowHint'#8#8'ShowHint'#9#8'Tab'
+  +'Order'#2#4#0#0#7'TButton'#6'ctSave'#4'Left'#3'`'#1#6'Height'#2#25#3'Top'#2
+  +'F'#5'Width'#2'@'#7'Caption'#6#4'Save'#7'OnClick'#7#11'ctSaveClick'#14'Paren'
+  +'tShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#5#0#0#0#6'TPanel'#8'PanelTop'#4'Le'
+  +'ft'#2#0#6'Height'#2'h'#3'Top'#2#0#5'Width'#3#21#2#5'Align'#7#5'alTop'#12'Cl'
+  +'ientHeight'#2'h'#11'ClientWidth'#3#21#2#8'TabOrder'#2#1#0#6'TLabel'#6'Label'
+  +'1'#4'Left'#3'0'#1#6'Height'#2#14#3'Top'#2#19#5'Width'#2#31#7'Caption'#6#5'P'
+  +'aram'#11'ParentColor'#8#0#0#7'TButton'#12'InsertButton'#4'Left'#3#160#1#6'H'
+  +'eight'#2#25#3'Top'#2'!'#5'Width'#2'a'#7'Caption'#6#11'Insert Line'#7'OnClic'
+  +'k'#7#15'InsertLineClick'#8'TabOrder'#2#0#0#0#7'TButton'#16'HorzScrollButton'
+  +#3'Tag'#2#1#4'Left'#2#7#6'Height'#2#25#3'Top'#2#8#5'Width'#2'Z'#7'Caption'#6
+  +#11'HorzScroll('#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#1#0#0#7'TButto'
+  +'n'#18'SetIntensityButton'#3'Tag'#2#1#4'Left'#2'a'#6'Height'#2#25#3'Top'#2#8
+  +#5'Width'#2'Z'#7'Caption'#6#13'SetIntensity('#7'OnClick'#7#13'xxButtonClick'
+  +#8'TabOrder'#2#2#0#0#7'TButton'#18'ResetDisplayButton'#3'Tag'#2#1#4'Left'#3
+  +#187#0#6'Height'#2#25#3'Top'#2#8#5'Width'#2'Z'#7'Caption'#6#13'ResetDisplay('
+  +#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#3#0#0#7'TButton'#14'GotoLineBu'
+  +'tton'#3'Tag'#2#1#4'Left'#3#187#0#6'Height'#2#25#3'Top'#2'!'#5'Width'#2'Z'#7
+  +'Caption'#6#9'GotoLine('#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#4#0#0#7
+  +'TButton'#20'AnimationDelayButton'#3'Tag'#2#1#4'Left'#2'a'#6'Height'#2#25#3
+  +'Top'#2'!'#5'Width'#2'Z'#7'Caption'#6#15'AnimationDelay('#7'OnClick'#7#13'xx'
+  +'ButtonClick'#8'TabOrder'#2#5#0#0#7'TButton'#16'VertScrollButton'#3'Tag'#2#1
+  +#4'Left'#2#7#6'Height'#2#25#3'Top'#2'!'#5'Width'#2'Z'#7'Caption'#6#11'VertSc'
+  +'roll('#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#6#0#0#7'TButton'#19'Lin'
+  +'eBeginningButton'#4'Left'#2#7#6'Height'#2#25#3'Top'#2'H'#5'Width'#2'Z'#7'Ca'
+  +'ption'#6#1'['#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#7#0#0#7'TButton'
+  +#23'InstructionEndingButton'#4'Left'#2'a'#6'Height'#2#25#3'Top'#2'H'#5'Width'
+  ,#2'Z'#7'Caption'#6#3'); '#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#8#0#0
+  +#7'TButton'#16'LineEndingButton'#4'Left'#3#187#0#6'Height'#2#25#3'Top'#2'H'#5
+  +'Width'#2'Z'#7'Caption'#6#1']'#7'OnClick'#7#13'xxButtonClick'#8'TabOrder'#2#9
+  +#0#0#7'TButton'#9'AddButton'#4'Left'#3#160#1#6'Height'#2#25#3'Top'#2#8#5'Wid'
+  +'th'#2'a'#7'Caption'#6#8'Add Line'#7'OnClick'#7#12'AddLineClick'#8'TabOrder'
+  +#2#10#0#0#7'TButton'#12'DeleteButton'#4'Left'#3#160#1#6'Height'#2#25#3'Top'#2
+  +'H'#5'Width'#2'a'#7'Caption'#6#11'Delete Line'#7'OnClick'#7#15'DeleteLineCli'
+  +'ck'#8'TabOrder'#2#11#0#0#9'TSpinEdit'#7'ctValue'#4'Left'#3'X'#1#6'Height'#2
+  +#23#3'Top'#2#16#5'Width'#2':'#8'MaxValue'#3#208#7#8'TabOrder'#2#12#5'Value'#2
+  +#1#0#0#0#8'TListBox'#4'Code'#4'Left'#2#0#6'Height'#3#0#1#3'Top'#2'h'#5'Width'
+  +#3#21#2#5'Align'#7#8'alClient'#5'Color'#4#248#254#235#0#11'Font.Height'#2#245
+  +#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeigh'
+  +'t'#2#0#7'OnClick'#7#9'CodeClick'#10'ParentFont'#8#9'PopupMenu'#7#11'CodeCel'
+  +'lPUM'#8'TabOrder'#2#2#0#0#10'TPopupMenu'#11'CodeCellPUM'#4'left'#3#152#1#3
+  +'top'#2'}'#0#9'TMenuItem'#10'InsertMenu'#7'Caption'#6#11'Insert Line'#8'Shor'
+  +'tCut'#2'-'#7'OnClick'#7#15'InsertLineClick'#0#0#9'TMenuItem'#7'AddMenu'#7'C'
+  +'aption'#6#8'Add Line'#8'ShortCut'#3'- '#7'OnClick'#7#12'AddLineClick'#0#0#9
+  +'TMenuItem'#10'DeleteMenu'#7'Caption'#6#11'Delete Line'#8'ShortCut'#3'. '#7
+  +'OnClick'#7#15'DeleteLineClick'#0#0#9'TMenuItem'#2'N2'#7'Caption'#6#1'-'#0#0
+  +#9'TMenuItem'#13'DeleteAllMenu'#7'Caption'#6#10'Delete All'#8'ShortCut'#3'.@'
+  +#7'OnClick'#7#14'DeleteAllClick'#0#0#9'TMenuItem'#2'N3'#7'Caption'#6#1'-'#0#0
+  +#9'TMenuItem'#18'SyntaxAnalysisMenu'#7'Caption'#6#15'Syntax Analysis'#8'Shor'
+  +'tCut'#3'S@'#7'OnClick'#7#23'SyntaxAnalysisMenuClick'#0#0#9'TMenuItem'#9'Men'
+  +'uItem1'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#13'Ins'
+  +'ert Sample'#0#9'TMenuItem'#9'MenuItem6'#3'Tag'#2#1#7'Caption'#6#7'Cycling'#7
+  +'OnClick'#7#13'xxSampleClick'#0#0#9'TMenuItem'#9'MenuItem5'#3'Tag'#2#2#7'Cap'
+  +'tion'#6#8'Flashing'#7'OnClick'#7#13'xxSampleClick'#0#0#9'TMenuItem'#9'MenuI'
+  +'tem4'#3'Tag'#2#3#7'Caption'#6#7'Gravity'#7'OnClick'#7#13'xxSampleClick'#0#0
+  +#9'TMenuItem'#9'MenuItem7'#3'Tag'#2#4#7'Caption'#6#6'Waving'#7'OnClick'#7#13
+  +'xxSampleClick'#0#0#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Title'#6#24'Open A'
+  +'nimation text file'#10'DefaultExt'#6#4'.txt'#6'Filter'#6#31'Animation text '
+  +'file (*.txt)|txt'#4'left'#3#240#0#3'top'#2'}'#0#0#11'TSaveDialog'#11'SaveDi'
+  +'alog1'#5'Title'#6#27'Save Animation to text file'#10'DefaultExt'#6#4'.txt'#6
+  +'Filter'#6#31'Animation text file (*.txt)|txt'#7'Options'#11#17'ofOverwriteP'
+  +'rompt'#14'ofEnableSizing'#12'ofViewDetail'#0#4'left'#3'@'#1#3'top'#2'}'#0#0
+  +#0
+]);

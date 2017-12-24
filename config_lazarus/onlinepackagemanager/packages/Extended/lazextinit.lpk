@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="lazextinit"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Matthieu GIROUX"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="inicomp"/>
+        <OtherUnitFiles Value="inicomp"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <CPPInline Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <License Value="GPL"/>
+    <Version Major="1"/>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="inicomp/u_extmenucustomize.pas"/>
+        <UnitName Value="u_extmenucustomize"/>
+      </Item1>
+      <Item2>
+        <Filename Value="inicomp/u_onforminfoini.pas"/>
+        <UnitName Value="U_OnFormInfoIni"/>
+      </Item2>
+      <Item3>
+        <Filename Value="inicomp/u_extmenutoolbar.pas"/>
+        <UnitName Value="u_extmenutoolbar"/>
+      </Item3>
+      <Item4>
+        <Filename Value="inicomp/u_formadapt.pas"/>
+        <UnitName Value="U_FormAdapt"/>
+      </Item4>
+      <Item5>
+        <Filename Value="inicomp/u_formmainini.pas"/>
+        <UnitName Value="U_FormMainIni"/>
+      </Item5>
+      <Item6>
+        <Filename Value="inicomp/u_customizemenu.lfm"/>
+        <Type Value="LFM"/>
+      </Item6>
+      <Item7>
+        <Filename Value="inicomp/u_customizemenu.pas"/>
+        <UnitName Value="U_CustomizeMenu"/>
+      </Item7>
+      <Item8>
+        <Filename Value="inicomp/fonctions_init.pas"/>
+        <UnitName Value="fonctions_init"/>
+      </Item8>
+      <Item9>
+        <Filename Value="inicomp/fonctions_vtree.pas"/>
+        <UnitName Value="fonctions_vtree"/>
+      </Item9>
+      <Item10>
+        <Filename Value="inicomp/menutbar.pas"/>
+        <UnitName Value="menutbar"/>
+      </Item10>
+      <Item11>
+        <Filename Value="inicomp/u_connection.lfm"/>
+        <Type Value="LFM"/>
+      </Item11>
+      <Item12>
+        <Filename Value="inicomp/u_connection.pas"/>
+        <UnitName Value="u_connection"/>
+      </Item12>
+      <Item13>
+        <Filename Value="inicomp/u_scrollclones.pas"/>
+        <UnitName Value="u_scrollclones"/>
+      </Item13>
+      <Item14>
+        <Filename Value="inicomp/fonctions_forms.pas"/>
+        <UnitName Value="fonctions_forms"/>
+      </Item14>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="LANG"/>
+    </i18n>
+    <RequiredPkgs Count="7">
+      <Item1>
+        <PackageName Value="lazextbase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazextcore"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="rxnew"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="ExpertSuperForm"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="virtualtreeview_package"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item7>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

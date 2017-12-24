@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="rxtools"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lagunov Aleksey "/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="rxtools"/>
+        <UnitOutputDirectory Value="lib/rxtools/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="
+"/>
+    <License Value="LGPL"/>
+    <Version Minor="2" Build="4"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="rxtools/rxcrc.pas"/>
+        <UnitName Value="rxCRC"/>
+      </Item1>
+      <Item2>
+        <Filename Value="rxtools/rxconfigvalues.pas"/>
+        <UnitName Value="rxConfigValues"/>
+      </Item2>
+      <Item3>
+        <HasRegisterProc Value="True"/>
+      </Item3>
+      <Item4>
+        <Filename Value="rxtools/rxconst.pas"/>
+        <UnitName Value="rxconst"/>
+      </Item4>
+      <Item5>
+        <Filename Value="rxtools/rxdateutil.pas"/>
+        <UnitName Value="rxdateutil"/>
+      </Item5>
+      <Item6>
+        <Filename Value="rxtools/rxdconst.pas"/>
+        <UnitName Value="rxdconst"/>
+      </Item6>
+      <Item7>
+        <Filename Value="rxtools/rxfileutils.pas"/>
+        <UnitName Value="rxFileUtils"/>
+      </Item7>
+      <Item8>
+        <Filename Value="rxtools/rxstrutils.pas"/>
+        <UnitName Value="rxstrutils"/>
+      </Item8>
+    </Files>
+    <LazDoc Paths="docs;/usr/local/share/lazarus/components/rxnew/docs"/>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

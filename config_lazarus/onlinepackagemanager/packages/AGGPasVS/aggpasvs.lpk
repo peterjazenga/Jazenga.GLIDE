@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="aggpasvs"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Maxim Shemanarev, Milan Marusinec, lazarus port PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="AggPas is an Object Pascal native port of the Anti-Grain Geometry library - AGG, originally written by Maxim Shemanarev in industrially standard C++. AGG as well as AggPas is Open Source and free of charge 2D vector graphics library.
+
+AGG (and AggPas too) doesn't depend on any graphic API or technology. Basically, you can think of AGG as of a rendering engine that produces pixel images in memory from some vectorial data. But of course, AGG can do much more than that.
+"/>
+    <License Value="See Licence.txt"/>
+    <Version Major="2" Minor="4"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="source\agg_allregister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="agg_AllRegister"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\agg_fpimage.pas"/>
+        <UnitName Value="agg_fpimage"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\agg_lcl.pas"/>
+        <UnitName Value="agg_lcl"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\agg_lclcontrols.pas"/>
+        <UnitName Value="agg_lclcontrols"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\agg_lclpaintbox.pas"/>
+        <UnitName Value="agg_lclpaintbox"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\agg_vsmode.inc"/>
+        <Type Value="Include"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\agx_canvas.pas"/>
+        <UnitName Value="agx_canvas"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\agx_lclpaintbox.pas"/>
+        <UnitName Value="agx_lclpaintbox"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="aggpas"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MaxVersion Major="1"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

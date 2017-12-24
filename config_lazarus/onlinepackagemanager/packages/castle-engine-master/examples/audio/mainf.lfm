@@ -1,0 +1,221 @@
+object Main: TMain
+  Left = 420
+  Height = 596
+  Top = 148
+  Width = 741
+  HorzScrollBar.Page = 770
+  VertScrollBar.Page = 496
+  ActiveControl = Memo1
+  Caption = 'Test OpenAL source allocator'
+  ClientHeight = 596
+  ClientWidth = 741
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object Memo1: TMemo
+    Left = 8
+    Height = 104
+    Top = 8
+    Width = 722
+    Anchors = [akTop, akLeft, akRight]
+    Lines.Strings = (
+      'For basic demo, just press "Allocate and play sound source" a couple of times, and note that multiple sources will be intelligently allocated.'
+      '- OpenAL sources are managed based on their Importance. '
+      '- It''s best to use some long sounds, so that you can get many sounds playing at once.'
+      '- See TALSourceAllocator class documentation for details.'
+    )
+    TabOrder = 0
+  end
+  object PanelLists: TPanel
+    AnchorSideTop.Control = PanelSourcePlaying
+    AnchorSideTop.Side = asrBottom
+    Left = 8
+    Height = 255
+    Top = 340
+    Width = 722
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 8
+    ClientHeight = 255
+    ClientWidth = 722
+    TabOrder = 1
+    object Label2: TLabel
+      Left = 24
+      Height = 25
+      Top = 0
+      Width = 184
+      Caption = 'Allocated sources:'
+      ParentColor = False
+    end
+    object ListAllocatedSources: TListBox
+      Left = 24
+      Height = 208
+      Top = 32
+      Width = 511
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      ItemHeight = 0
+      TabOrder = 0
+      TopIndex = -1
+    end
+    object ButtonRefreshUsed: TButton
+      Left = 552
+      Height = 44
+      Top = 32
+      Width = 149
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Refresh used'
+      OnClick = ButtonRefreshUsedClick
+      TabOrder = 1
+    end
+  end
+  object PanelAllocatorLimits: TPanel
+    Left = 8
+    Height = 84
+    Top = 120
+    Width = 722
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = True
+    ClientHeight = 84
+    ClientWidth = 722
+    TabOrder = 2
+    object LabelMaxAllocatedSources: TLabel
+      Left = 1
+      Height = 25
+      Top = 41
+      Width = 234
+      Caption = 'Max allocated sources :'
+      ParentColor = False
+    end
+    object LabelMinAllocatedSources: TLabel
+      Left = 4
+      Height = 25
+      Top = 1
+      Width = 230
+      Caption = 'Min allocated sources :'
+      ParentColor = False
+    end
+    object ButtonApplyAllocatorLimits: TButton
+      AnchorSideLeft.Control = SpinEditMaxAllocatedSources
+      AnchorSideLeft.Side = asrBottom
+      Left = 293
+      Height = 44
+      Top = 40
+      Width = 353
+      AutoSize = True
+      BorderSpacing.Left = 8
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Apply to existing source allocator'
+      OnClick = ButtonApplyAllocatorLimitsClick
+      TabOrder = 0
+    end
+    object SpinEditMaxAllocatedSources: TSpinEdit
+      AnchorSideLeft.Control = LabelMaxAllocatedSources
+      AnchorSideLeft.Side = asrBottom
+      Left = 235
+      Height = 34
+      Top = 41
+      Width = 50
+      MaxValue = 1000
+      MinValue = 1
+      TabOrder = 1
+      Value = 6
+    end
+    object SpinEditMinAllocatedSources: TSpinEdit
+      AnchorSideLeft.Control = LabelMinAllocatedSources
+      AnchorSideLeft.Side = asrBottom
+      Left = 234
+      Height = 34
+      Top = 1
+      Width = 50
+      MaxValue = 1000
+      MinValue = 1
+      TabOrder = 2
+      Value = 4
+    end
+  end
+  object PanelSourcePlaying: TPanel
+    Left = 8
+    Height = 116
+    Top = 216
+    Width = 722
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = True
+    ClientHeight = 116
+    ClientWidth = 722
+    TabOrder = 3
+    object LabelSourceImportance: TLabel
+      Left = 1
+      Height = 25
+      Top = 8
+      Width = 204
+      Caption = 'Source importance :'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 1
+      Height = 25
+      Top = 41
+      Width = 172
+      Caption = 'Sound filename :'
+      ParentColor = False
+    end
+    object FileNameEditSound: TFileNameEdit
+      AnchorSideLeft.Control = Label3
+      AnchorSideLeft.Side = asrBottom
+      Left = 173
+      Height = 34
+      Top = 32
+      Width = 288
+      FileName = 'tone.wav'
+      DialogOptions = []
+      Filter = 'WAV files (*.wav)|*.wav|All files (*)|*'
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      TabOrder = 0
+    end
+    object SpinEditSourceImportance: TSpinEdit
+      AnchorSideLeft.Control = LabelSourceImportance
+      AnchorSideLeft.Side = asrBottom
+      Left = 205
+      Height = 34
+      Top = 1
+      Width = 50
+      MaxValue = 1000
+      MinValue = -1000
+      TabOrder = 1
+    end
+    object ButtonAllocateAndPlay: TButton
+      Left = 1
+      Height = 44
+      Top = 72
+      Width = 332
+      AutoSize = True
+      BorderSpacing.InnerBorder = 4
+      Caption = 'Allocate and play sound source'
+      OnClick = ButtonAllocateAndPlayClick
+      TabOrder = 2
+    end
+    object CheckBoxPlayLooping: TCheckBox
+      AnchorSideLeft.Control = SpinEditSourceImportance
+      AnchorSideLeft.Side = asrBottom
+      Left = 263
+      Height = 28
+      Top = 1
+      Width = 146
+      BorderSpacing.Left = 8
+      Caption = 'Play looping'
+      TabOrder = 3
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 400
+    top = 48
+  end
+end

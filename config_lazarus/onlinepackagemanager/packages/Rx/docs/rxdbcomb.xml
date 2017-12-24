@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="rxdbcomb">
+      <element name="TRxDBComboBox"/>
+      <element name="TRxDBComboBox.Create"/>
+      <element name="TRxDBComboBox.Destroy"/>
+      <element name="TRxDBComboBox.ExecuteAction"/>
+      <element name="TRxDBComboBox.UpdateAction"/>
+      <element name="TRxDBComboBox.UseRightToLeftAlignment"/>
+      <element name="TRxDBComboBox.Field"/>
+      <element name="TRxDBComboBox.Items"/>
+      <element name="TRxDBComboBox.Text"/>
+      <element name="TRxDBComboBox.Anchors"/>
+      <element name="TRxDBComboBox.ArrowKeysTraverseList"/>
+      <element name="TRxDBComboBox.AutoDropDown"/>
+      <element name="TRxDBComboBox.AutoSize"/>
+      <element name="TRxDBComboBox.BorderSpacing"/>
+      <element name="TRxDBComboBox.Style"/>
+      <element name="TRxDBComboBox.Color"/>
+      <element name="TRxDBComboBox.DataField"/>
+      <element name="TRxDBComboBox.DataSource"/>
+      <element name="TRxDBComboBox.DragMode"/>
+      <element name="TRxDBComboBox.DragCursor"/>
+      <element name="TRxDBComboBox.DropDownCount"/>
+      <element name="TRxDBComboBox.Enabled"/>
+      <element name="TRxDBComboBox.EnableValues"/>
+      <element name="TRxDBComboBox.Font"/>
+      <element name="TRxDBComboBox.Constraints"/>
+      <element name="TRxDBComboBox.DragKind"/>
+      <element name="TRxDBComboBox.ItemHeight"/>
+      <element name="TRxDBComboBox.Items"/>
+      <element name="TRxDBComboBox.ItemWidth"/>
+      <element name="TRxDBComboBox.MaxLength"/>
+      <element name="TRxDBComboBox.ParentColor"/>
+      <element name="TRxDBComboBox.ParentFont"/>
+      <element name="TRxDBComboBox.ParentShowHint"/>
+      <element name="TRxDBComboBox.PopupMenu"/>
+      <element name="TRxDBComboBox.ReadOnly"/>
+      <element name="TRxDBComboBox.ShowHint"/>
+      <element name="TRxDBComboBox.Sorted"/>
+      <element name="TRxDBComboBox.TabOrder"/>
+      <element name="TRxDBComboBox.TabStop"/>
+      <element name="TRxDBComboBox.Values"/>
+      <element name="TRxDBComboBox.Visible"/>
+      <element name="TRxDBComboBox.OnChange"/>
+      <element name="TRxDBComboBox.OnClick"/>
+      <element name="TRxDBComboBox.OnDblClick"/>
+      <element name="TRxDBComboBox.OnDragDrop"/>
+      <element name="TRxDBComboBox.OnDragOver"/>
+      <element name="TRxDBComboBox.OnDrawItem"/>
+      <element name="TRxDBComboBox.OnDropDown"/>
+      <element name="TRxDBComboBox.OnEndDrag"/>
+      <element name="TRxDBComboBox.OnEnter"/>
+      <element name="TRxDBComboBox.OnExit"/>
+      <element name="TRxDBComboBox.OnKeyDown"/>
+      <element name="TRxDBComboBox.OnKeyPress"/>
+      <element name="TRxDBComboBox.OnKeyUp"/>
+      <element name="TRxDBComboBox.OnMeasureItem"/>
+      <element name="TRxDBComboBox.OnStartDrag"/>
+      <element name="TRxDBComboBox.OnContextPopup"/>
+      <element name="TRxDBComboBox.OnEndDock"/>
+      <element name="TRxDBComboBox.OnStartDock"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

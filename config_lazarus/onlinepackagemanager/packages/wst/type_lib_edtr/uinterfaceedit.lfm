@@ -1,0 +1,195 @@
+object fInterfaceEdit: TfInterfaceEdit
+  Left = 283
+  Height = 564
+  Top = 117
+  Width = 531
+  HorzScrollBar.Page = 530
+  VertScrollBar.Page = 563
+  ActiveControl = Button1
+  BorderStyle = bsSizeToolWin
+  Caption = 'fInterfaceEdit'
+  ClientHeight = 564
+  ClientWidth = 531
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.2.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 514
+    Width = 531
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 531
+    TabOrder = 0
+    object Button1: TButton
+      Left = 436
+      Height = 25
+      Top = 10
+      Width = 75
+      Anchors = [akTop, akRight]
+      BorderSpacing.InnerBorder = 4
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 346
+      Height = 25
+      Top = 10
+      Width = 75
+      Action = actOK
+      Anchors = [akTop, akRight]
+      BorderSpacing.InnerBorder = 4
+      Default = True
+      TabOrder = 1
+    end
+  end
+  object PC: TPageControl
+    Left = 0
+    Height = 514
+    Top = 0
+    Width = 531
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Interface definition'
+      ClientHeight = 486
+      ClientWidth = 523
+      object Label1: TLabel
+        Left = 20
+        Height = 15
+        Top = 26
+        Width = 32
+        Caption = 'Name'
+        ParentColor = False
+      end
+      object edtName: TEdit
+        Left = 60
+        Height = 23
+        Top = 26
+        Width = 443
+        Anchors = [akTop, akLeft, akRight]
+        TabOrder = 0
+      end
+      object GroupBox1: TGroupBox
+        Left = 20
+        Height = 366
+        Top = 74
+        Width = 484
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Caption = '  Methods  '
+        ClientHeight = 348
+        ClientWidth = 480
+        TabOrder = 1
+        object trvMethods: TTreeView
+          Left = 0
+          Height = 348
+          Top = 0
+          Width = 480
+          Align = alClient
+          DefaultItemHeight = 18
+          PopupMenu = PopupMenu1
+          ReadOnly = True
+          TabOrder = 0
+          OnDblClick = trvMethodsDblClick
+          Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+        end
+      end
+      object Button3: TButton
+        Left = 20
+        Height = 25
+        Top = 448
+        Width = 99
+        Action = actNewMethod
+        Anchors = [akLeft, akBottom]
+        BorderSpacing.InnerBorder = 4
+        TabOrder = 2
+      end
+      object Button4: TButton
+        Left = 132
+        Height = 25
+        Top = 448
+        Width = 107
+        Action = actUpdateOperation
+        Anchors = [akLeft, akBottom]
+        BorderSpacing.InnerBorder = 4
+        TabOrder = 3
+      end
+      object Button5: TButton
+        Left = 252
+        Height = 25
+        Top = 448
+        Width = 104
+        Action = actDeleteOperation
+        Anchors = [akLeft, akBottom]
+        BorderSpacing.InnerBorder = 4
+        TabOrder = 4
+      end
+      object Button6: TButton
+        Left = 396
+        Height = 25
+        Top = 448
+        Width = 107
+        Action = actBindingEdit
+        Anchors = [akRight, akBottom]
+        BorderSpacing.InnerBorder = 4
+        TabOrder = 5
+      end
+    end
+  end
+  object AL: TActionList
+    left = 130
+    top = 200
+    object actOK: TAction
+      Caption = 'OK'
+      OnExecute = actOKExecute
+      OnUpdate = actOKUpdate
+    end
+    object actNewMethod: TAction
+      Caption = 'New operation'
+      OnExecute = actNewMethodExecute
+    end
+    object actUpdateOperation: TAction
+      Caption = 'Edit Operation'
+      OnExecute = actUpdateOperationExecute
+      OnUpdate = actUpdateOperationUpdate
+    end
+    object actDeleteOperation: TAction
+      Caption = 'Delete Operation'
+      OnExecute = actDeleteOperationExecute
+      OnUpdate = actUpdateOperationUpdate
+    end
+    object actBindingEdit: TAction
+      Caption = 'Edit Binding'
+      OnExecute = actBindingEditExecute
+      OnUpdate = actBindingEditUpdate
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 84
+    top = 233
+    object MenuItem1: TMenuItem
+      Action = actNewMethod
+      OnClick = actNewMethodExecute
+    end
+    object MenuItem2: TMenuItem
+      Action = actUpdateOperation
+      OnClick = actUpdateOperationExecute
+    end
+    object MenuItem3: TMenuItem
+      Action = actDeleteOperation
+      OnClick = actDeleteOperationExecute
+    end
+    object MenuItem4: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem5: TMenuItem
+      Action = actBindingEdit
+      OnClick = actBindingEditExecute
+    end
+  end
+end

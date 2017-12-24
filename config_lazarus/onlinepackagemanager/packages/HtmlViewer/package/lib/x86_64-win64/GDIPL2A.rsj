@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":223270995,"name":"gdipl2a.sgdierror","sourcebytes":[37,115,32,71,68,73,32,101,114,114,111,114,32,37,115],"value":"%s GDI error %s"},
+{"hash":245990510,"name":"gdipl2a.scannotcreategraphics","sourcebytes":[67,97,110,39,116,32,67,114,101,97,116,101,32,71,114,97,112,104,105,99,115,46],"value":"Can't Create Graphics."}
+]}

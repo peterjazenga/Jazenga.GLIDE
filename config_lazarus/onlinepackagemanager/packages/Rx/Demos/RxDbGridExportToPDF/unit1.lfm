@@ -1,0 +1,535 @@
+object Form1: TForm1
+  Left = 558
+  Height = 397
+  Top = 319
+  Width = 1043
+  Caption = 'Form1'
+  ClientHeight = 397
+  ClientWidth = 1043
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 347
+    Width = 1043
+    Align = alBottom
+    AutoSize = True
+    ClientHeight = 50
+    ClientWidth = 1043
+    TabOrder = 0
+    object Button1: TButton
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = Panel1
+      Left = 476
+      Height = 36
+      Top = 7
+      Width = 90
+      AutoSize = True
+      BorderSpacing.Around = 6
+      Caption = 'Create PDF'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 347
+    Top = 0
+    Width = 1043
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Test data'
+      ClientHeight = 313
+      ClientWidth = 1033
+      object RxDBGrid1: TRxDBGrid
+        Left = 0
+        Height = 313
+        Top = 0
+        Width = 1033
+        ColumnDefValues.BlobText = '(данные)'
+        TitleButtons = True
+        AutoSort = True
+        Columns = <        
+          item
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'ID'
+            Width = 50
+            FieldName = 'ID'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footers = <>
+          end        
+          item
+            Color = clSkyBlue
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Дата поставки'
+            Width = 120
+            FieldName = 'PDATE'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footers = <>
+          end        
+          item
+            Color = clCream
+            Font.Color = clPurple
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Наименование продукта'
+            Width = 364
+            FieldName = 'NAME'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footer.Alignment = taRightJustify
+            Footer.Value = 'Итого:'
+            Footer.ValueType = fvtStaticText
+            Footers = <            
+              item
+                Alignment = taRightJustify
+                Value = 'Итого:'
+                ValueType = fvtStaticText
+              end            
+              item
+                Alignment = taRightJustify
+                Value = 'Минимум:'
+                ValueType = fvtStaticText
+              end            
+              item
+                Alignment = taRightJustify
+                Value = 'Максимум:'
+                ValueType = fvtStaticText
+              end>
+            WordWrap = True
+          end        
+          item
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Сумма'
+            Width = 100
+            FieldName = 'SUM'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footer.Alignment = taRightJustify
+            Footer.DisplayFormat = '#,##0.00'
+            Footer.FieldName = 'SUM'
+            Footer.ValueType = fvtSum
+            Footers = <            
+              item
+                Alignment = taRightJustify
+                DisplayFormat = '#,##0.00'
+                FieldName = 'SUM'
+                ValueType = fvtSum
+              end            
+              item
+                Alignment = taRightJustify
+                DisplayFormat = '#,##0.00'
+                FieldName = 'SUM'
+                ValueType = fvtMin
+              end            
+              item
+                Alignment = taRightJustify
+                DisplayFormat = '#,##0.00'
+                FieldName = 'SUM'
+                ValueType = fvtMax
+              end>
+          end        
+          item
+            Alignment = taCenter
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Статус'
+            Width = 60
+            FieldName = 'FLAG'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footers = <>
+            ImageList = ImageList1
+            KeyList.Strings = (
+              '0=0'
+              '1=1'
+              '2=2'
+              '3=3'
+            )
+          end        
+          item
+            Alignment = taCenter
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Адрес|Страна'
+            Width = 200
+            FieldName = 'Country'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footers = <>
+          end        
+          item
+            Title.Alignment = taCenter
+            Title.Orientation = toHorizontal
+            Title.Caption = 'Адрес|Город'
+            Width = 200
+            FieldName = 'Sity'
+            EditButtons = <>
+            Filter.DropDownRows = 0
+            Filter.EmptyValue = '(Нет)'
+            Filter.EmptyFont.Style = [fsItalic]
+            Filter.ItemIndex = -1
+            Footers = <>
+          end>
+        KeyStrokes = <        
+          item
+            Command = rxgcShowFindDlg
+            ShortCut = 16454
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowColumnsDlg
+            ShortCut = 16471
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowFilterDlg
+            ShortCut = 16468
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowSortDlg
+            ShortCut = 16467
+            Enabled = True
+          end        
+          item
+            Command = rxgcShowQuickFilter
+            ShortCut = 16465
+            Enabled = True
+          end        
+          item
+            Command = rxgcHideQuickFilter
+            ShortCut = 16456
+            Enabled = True
+          end        
+          item
+            Command = rxgcSelectAll
+            ShortCut = 16449
+            Enabled = True
+          end        
+          item
+            Command = rxgcDeSelectAll
+            ShortCut = 16429
+            Enabled = True
+          end        
+          item
+            Command = rxgcInvertSelection
+            ShortCut = 16426
+            Enabled = True
+          end        
+          item
+            Command = rxgcOptimizeColumnsWidth
+            ShortCut = 16427
+            Enabled = True
+          end        
+          item
+            Command = rxgcCopyCellValue
+            ShortCut = 16451
+            Enabled = True
+          end>
+        FooterOptions.Active = True
+        FooterOptions.Color = clYellow
+        FooterOptions.RowCount = 3
+        FooterOptions.DrawFullLine = True
+        OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgFooterRows, rdgAllowQuickFilter, rdgAllowToolMenu, rdgWordWrap]
+        FooterColor = clYellow
+        FooterRowCount = 3
+        Align = alClient
+        Color = clWindow
+        DrawFullLine = True
+        FocusColor = clRed
+        SelectedColor = clHighlight
+        GridLineStyle = psSolid
+        DataSource = DataSource1
+        Flat = True
+        Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgHeaderPushedLook]
+        ParentColor = False
+        TabOrder = 0
+        TitleStyle = tsNative
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Debug window'
+      ClientHeight = 313
+      ClientWidth = 1033
+      object Memo1: TMemo
+        Left = 0
+        Height = 313
+        Top = 0
+        Width = 1033
+        Align = alClient
+        Lines.Strings = (
+          'Memo1'
+        )
+        TabOrder = 0
+      end
+    end
+  end
+  object RxMemoryData1: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftAutoInc
+        Precision = -1
+      end    
+      item
+        Name = 'NAME'
+        DataType = ftString
+        Precision = -1
+        Size = 220
+      end    
+      item
+        Name = 'PDATE'
+        DataType = ftDate
+        Precision = -1
+      end    
+      item
+        Name = 'SUM'
+        DataType = ftCurrency
+        Precision = 2
+      end    
+      item
+        Name = 'Country'
+        DataType = ftString
+        Precision = -1
+        Size = 100
+      end    
+      item
+        Name = 'Sity'
+        DataType = ftString
+        Precision = -1
+        Size = 100
+      end    
+      item
+        Name = 'FLAG'
+        DataType = ftInteger
+      end>
+    PacketRecords = 0
+    left = 136
+    top = 88
+    object RxMemoryData1ID: TAutoIncField
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1NAME: TStringField
+      FieldKind = fkData
+      FieldName = 'NAME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 220
+    end
+    object RxMemoryData1PDATE: TDateField
+      FieldKind = fkData
+      FieldName = 'PDATE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      DisplayFormat = 'dd.mm.yyyy'
+    end
+    object RxMemoryData1SUM: TCurrencyField
+      FieldKind = fkData
+      FieldName = 'SUM'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+    object RxMemoryData1Country: TStringField
+      FieldKind = fkData
+      FieldName = 'Country'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object RxMemoryData1Sity: TStringField
+      FieldKind = fkData
+      FieldName = 'Sity'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object RxMemoryData1FLAG: TLongintField
+      FieldKind = fkData
+      FieldName = 'FLAG'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = RxMemoryData1
+    left = 104
+    top = 88
+  end
+  object RxDBGridExportPDF1: TRxDBGridExportPDF
+    RxDBGrid = RxDBGrid1
+    Caption = 'Export to PDF file'
+    FileName = 'test111.pdf'
+    Options = [repExportTitle, repExportColors, repExportFooter, repOverwriteExisting, repExportImages]
+    PdfOptions.PaperOrientation = ppoLandscape
+    PdfOptions.Options = [poCompressText, poCompressFonts, poCompressImages, poUseRawJPEG]
+    OpenAfterExport = True
+    AuthorPdf = 'Lagunov A.A.'
+    ProducerPdf = 'Test project'
+    PageMargin.Left = 40
+    PageMargin.Top = 40
+    PageMargin.Right = 40
+    PageMargin.Bottom = 40
+    left = 112
+    top = 160
+  end
+  object ImageList1: TImageList
+    left = 112
+    top = 224
+    Bitmap = {
+      4C6903000000100000001000000000000000000000FF000000FF000000000000
+      0000000000FF000000FF0000000000000000000000FF000000FF000000000000
+      000000000000000000000000000000000000000000FFFF0000FF000000FF0000
+      00FF800000FFFF0000FF000000FF000000FF800000FFFF0000FF000000FF0000
+      00FF000000FF000000FF000000000000000000000000000000FFFF0000FF8000
+      00FF800000FFFF0000FFFF0000FF800000FF800000FFFF0000FFFF0000FF8000
+      00FF000000FF00000000000000000000000000000000000000FFFF0000FF8000
+      00FF800000FFFF0000FFFF0000FF800000FF800000FFFF0000FFFF0000FF0000
+      00FF000000000000000000000000000000000000000000000000000000FFFF00
+      00FF800000FF800000FFFF0000FFFF0000FF800000FF800000FF000000FF0000
+      0000000000000000000000000000000000000000000000000000000000FFFF00
+      00FF800000FF800000FFFF0000FFFF0000FF000000FF000000FF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FFFF0000FF800000FF000000FF000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FFFF0000FF000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      000000000000000000000000000000000000000000FF000000FF000000000000
+      0000000000FF000000FF0000000000000000000000FF000000FF000000000000
+      000000000000000000000000000000000000000000FF0000FFFF000000FF0000
+      00FF000080FF0000FFFF000000FF000000FF000080FF0000FFFF000000FF0000
+      00FF000000FF000000FF000000000000000000000000000000FF0000FFFF0000
+      80FF000080FF0000FFFF0000FFFF000080FF000080FF0000FFFF0000FFFF0000
+      80FF000000FF00000000000000000000000000000000000000FF0000FFFF0000
+      80FF000080FF0000FFFF0000FFFF000080FF000080FF0000FFFF0000FFFF0000
+      00FF000000000000000000000000000000000000000000000000000000FF0000
+      FFFF000080FF000080FF0000FFFF0000FFFF000080FF000080FF000000FF0000
+      0000000000000000000000000000000000000000000000000000000000FF0000
+      FFFF000080FF000080FF0000FFFF0000FFFF000000FF000000FF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FF0000FFFF000080FF000000FF000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FF0000FFFF000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      000000000000000000000000000000000000000000FF000000FF000000000000
+      0000000000FF000000FF0000000000000000000000FF000000FF000000000000
+      000000000000000000000000000000000000000000FF00FFFFFF000000FF0000
+      00FF008080FF00FFFFFF000000FF000000FF008080FF00FFFFFF000000FF0000
+      00FF000000FF000000FF000000000000000000000000000000FF00FFFFFF0080
+      80FF008080FF00FFFFFF00FFFFFF008080FF008080FF00FFFFFF00FFFFFF0080
+      80FF000000FF00000000000000000000000000000000000000FF00FFFFFF0080
+      80FF008080FF00FFFFFF00FFFFFF008080FF008080FF00FFFFFF00FFFFFF0000
+      00FF000000000000000000000000000000000000000000000000000000FF00FF
+      FFFF008080FF008080FF00FFFFFF00FFFFFF008080FF008080FF000000FF0000
+      0000000000000000000000000000000000000000000000000000000000FF00FF
+      FFFF008080FF008080FF00FFFFFF00FFFFFF000000FF000000FF000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FF00FFFFFF008080FF000000FF000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00FF00FFFFFF000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000FF0000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      000000000000000000FF00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000FF0000000000000000000000000000
+      0000000000000000000000000000
+    }
+  end
+end

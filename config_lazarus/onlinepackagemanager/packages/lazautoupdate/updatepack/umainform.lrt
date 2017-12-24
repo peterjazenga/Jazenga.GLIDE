@@ -1,0 +1,104 @@
+TMAINFORM.CAPTION=mainform
+TMAINFORM.CMD_CLOSE.HINT=Close the application
+TMAINFORM.TAB_INTRO.HINT=Getting Started information
+TMAINFORM.TAB_INTRO.CAPTION=Introduction
+TMAINFORM.TAB_CONFIGURE.HINT=Use this page to configure the current profile.
+Type in a different profile name in order to
+make a new profile.
+TMAINFORM.TAB_CONFIGURE.CAPTION=Configure
+TMAINFORM.LBL_APPFILENAME.CAPTION=Application to update: 
+TMAINFORM.EDT_APPFILENAME.HINT=Use the directory mini-button.
+You cannot type into the box
+TMAINFORM.LBL_NEWVERSION.CAPTION=New Version:
+TMAINFORM.SPN1.HINT=This is the version number of your updated app.
+It should be greater than the version number
+of the user's installed app in order for an update
+to happen.
+TMAINFORM.SPN2.HINT=This is the version number of your updated app.
+It should be greater than the version number
+of the user's installed app in order for an update
+to happen.
+TMAINFORM.SPN3.HINT=This is the version number of your updated app.
+It should be greater than the version number
+of the user's installed app in order for an update
+to happen.
+TMAINFORM.SPN4.HINT=This is the version number of your updated app.
+It should be greater than the version number
+of the user's installed app in order for an update
+to happen.
+TMAINFORM.EDT_OUTPUTDIRECTORY.HINT=Use the directory mini-button.
+You cannot type into the box
+TMAINFORM.LBL_OUTPUTDIRECTORY.CAPTION=Output directory:
+TMAINFORM.CMB_PROFILE.HINT=List of current profiles
+TMAINFORM.CMB_PROFILE.TEXT=Default
+TMAINFORM.LBL_PROFILE.CAPTION=Profile name
+TMAINFORM.LBL_VERSIONSINIFILE.CAPTION=versions.ini FileName
+TMAINFORM.LABEL1.CAPTION=WhatsNew Textfile
+TMAINFORM.EDT_WHATSNEWTEXTFILE.HINT=Use the directory mini-button.
+You cannot type into the box
+TMAINFORM.SPD_WHATSNEWCREATE.HINT=Edit WhatsNew text file
+TMAINFORM.SPD_WHATSNEWCREATE.CAPTION=...
+TMAINFORM.LBL_CREATEWHATSNEW.CAPTION=Create/Edit WhatsNew.txt :
+TMAINFORM.LBL_SFPROJECTNAME.CAPTION=SourceForge Project Name:
+TMAINFORM.EDT_SFPROJECTNAME.HINT=This is the project title as displayed by
+Sourceforge in the project URL
+TMAINFORM.LBL_ZIPFILENAME.CAPTION=Update Zipfile Name:
+TMAINFORM.CMD_DELETEPROFILE.HINT=Deletes the current profile
+TMAINFORM.CMD_DELETEPROFILE.CAPTION=Delete
+TMAINFORM.CMD_NEWPROFILE.HINT=Creates a new profile
+TMAINFORM.CMD_NEWPROFILE.CAPTION=New
+TMAINFORM.CMD_USEAPPNAMEVERSIONSINI.HINT=Use this to assign a unique value to the
+INI file or Zipfile names
+TMAINFORM.CMD_USEAPPNAMEVERSIONSINI.CAPTION=Use Appname
+TMAINFORM.CMD_USEAPPNAMEZIPFILENAME.HINT=Use this to assign a unique value to the
+INI file or Zipfile names
+TMAINFORM.CMD_USEAPPNAMEZIPFILENAME.CAPTION=Use Appname
+TMAINFORM.EDT_VERSIONSINIFILE.HINT=Type the filename 
+or use the directory mini-button
+or click the [Use Appname] button
+TMAINFORM.EDT_ZIPFILENAME.HINT=Type the filename 
+or use the directory mini-button
+or click the [Use Appname] button
+TMAINFORM.GRP_LAZAUTOUPDATER.HINT=Properties for the generated lauimport file
+TMAINFORM.GRP_LAZAUTOUPDATER.CAPTION=LazAutoUpdater Systray
+TMAINFORM.LBL_INTERVALTYPE.CAPTION=Check for updates every..
+TMAINFORM.CMB_INTERVALTYPE.TEXT=Day
+TMAINFORM.LBL_SFUPDATESDIRECTORY2.CAPTION=...at...
+TMAINFORM.CMB_INTERVALHOUR.TEXT=Midnight
+TMAINFORM.LBL_INTERVALDAY.CAPTION=Use Weekday..
+TMAINFORM.CMB_INTERVALDAY.TEXT=Monday
+TMAINFORM.LBL_INTERVALDATE.CAPTION=Use Monthdate..
+TMAINFORM.CMB_INTERVALDATE.TEXT=1
+TMAINFORM.CHK_OVERRIDEUSERPREFS.HINT=Leave this unchecked for the user to set their own schedule
+TMAINFORM.CHK_OVERRIDEUSERPREFS.CAPTION=Override user preferences for update schedule
+TMAINFORM.TAB_ADVANCED.CAPTION=Advanced
+TMAINFORM.GRP_COPYTREE.CAPTION=Update a whole directory tree
+TMAINFORM.CHK_USECOPYTREE.CAPTION=Use CopyTree
+TMAINFORM.GRP_TWEAKS.CAPTION=Other LazAutoUpdate Tweaks
+TMAINFORM.CHK_SHOWUPDATEINCAPTION.CAPTION=Show update progress in form caption bar
+TMAINFORM.CHK_SHOWDIALOGS.CAPTION=Allow LazAutoUpdate to show dialogs
+TMAINFORM.CHK_DEBUGMODE.CAPTION=Run LazAutoUpdate in Debugging Mode
+TMAINFORM.LBL_UPDATES.CAPTION=Updates directory
+TMAINFORM.EDT_UPDATES.TEXT=updates
+TMAINFORM.GRP_DRAGFILES.CAPTION=Drag extra files that update to the app directory into this area (double-click to clear)
+TMAINFORM.CMD_SAVEPROFILE.HINT=Click to save the current profile settings.
+This profile will show next time you sart this app.
+TMAINFORM.CMD_SAVEPROFILE.CAPTION=Save this Profile...
+TMAINFORM.CMD_MAKEUPDATEPACK.HINT=Once you are happy with the profile settings,
+click this to make the files ready to upload
+into your Sourceforge /updates folder
+TMAINFORM.CMD_MAKEUPDATEPACK.CAPTION=Create Update Pack
+TMAINFORM.CMD_DOWNLOADLAZAUTOUPDATE.HINT=Use this to download or update the latest version
+of the LazAutoUpdate component
+TMAINFORM.CMD_DOWNLOADLAZAUTOUPDATE.CAPTION=Download Component
+TMAINFORM.MNU_FILE.CAPTION=&File
+TMAINFORM.MNU_FILESAVEPROFILE.CAPTION=&Save profile
+TMAINFORM.MNU_FILECLOSE.CAPTION=E&xit
+TMAINFORM.MNUOPTIONS.CAPTION=Options
+TMAINFORM.MNUOPTIONSAFTERCREATEPACK.CAPTION=After Create Pack..
+TMAINFORM.MNUOPTIONSSHOWCODEINFO.CAPTION=Show Code information
+TMAINFORM.MNUOPTIONSDISPLAYFILEMANGER.CAPTION=Display file manager
+TMAINFORM.MNUOPTIONSSHOWSFWEBSITE.CAPTION=Show Sourceforge website
+TMAINFORM.MNU_HELP.CAPTION=&Help
+TMAINFORM.MNU_HELPCHECKFORUPDATES.CAPTION=Check for updates...
+TMAINFORM.MNU_HELPABOUT.CAPTION=About...

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="rxdice">
+      <element name="TRxDice">
+        <short>Компонента позволяющая вам использовать в формах изображения игральных костей в различных положениях.</short>
+        <descr>
+          <p>Компонента из числа "безделушек", позволяющая вам использовать в формах изображения игральных костей в различных положениях. </p>
+          <p>Текущее состояние компоненты (положение игральной кости) задается свойством <link id="TRxDice.Value">Value</link>, которое может изменяться от 1 до 6. Вы можете установить свойство <link id="TRxDice.Value">Value</link> в случайное значение, вызвав метод <link id="TRxDice.RandomValue">RandomValue</link>. Если вы установите свойство <link id="TRxDice.Rotate">Rotate</link> в значение True, изображение игральной кости начнет случайным образом "вращаться", изменяя значение <link id="TRxDice.Value">Value</link>, с частотой, задаваемой свойством <link id="TRxDice.Interval">Interval</link>. Остановить вращение можно, присвоив значение False свойству <printshort id="TRxDice.Rotate"/>. Если свойство <link id="TRxDice.AutoStopInterval">AutoStopInterval</link> отлично от 0, то по прошествии этого времени вращение будет остановлено автоматически. </p>
+          <p>При изменении значения Value происходит событие OnChange.</p>
+        </descr>
+      </element>
+      <element name="TRxDice.Create"/>
+      <element name="TRxDice.Destroy"/>
+      <element name="TRxDice.RandomValue">
+        <short>procedure RandomValue;</short>
+        <descr>Вызов метода RandomValue позволяет установить значение свойства Value компоненты TrxDice случайным образом (в диапазоне целых чисел от 1 до 6).</descr>
+      </element>
+      <element name="TRxDice.Align"/>
+      <element name="TRxDice.AutoSize"/>
+      <element name="TRxDice.AutoStopInterval">
+        <short>Свойство задает интервал (в мсек), по прошествии которого после установки свойства Rotate в значение True вращение игральной кости будет остановлено</short>
+        <descr>
+          <p>Свойство задает интервал (в мсек), по прошествии которого после установки свойства <link id="TRxDice.Rotate">Rotate</link> в значение True вращение игральной кости будет остановлено. </p>
+          <p>Если значение AutoStopInterval = 0, то вращение автоматически не останавливается и может быть прекращено присваиванием <link id="TRxDice.Rotate">Rotate</link> = False.</p>
+        </descr>
+      </element>
+      <element name="TRxDice.Color"/>
+      <element name="TRxDice.Cursor"/>
+      <element name="TRxDice.DragMode"/>
+      <element name="TRxDice.DragCursor"/>
+      <element name="TRxDice.Enabled"/>
+      <element name="TRxDice.Interval">
+        <short>Свойство определяет временной интервал (в милисекундах), с которым происходит смена изображений в компоненте.</short>
+        <descr>
+          <p>Свойство определяет временной интервал (в милисекундах), с которым происходит смена изображений в компоненте. </p>
+          <p>при <link id="TRxDice.Rotate">Rotate</link> = True это частота смены битовых изображений.</p>
+        </descr>
+        <seealso>
+          <link id="TRxDice.Rotate"/>
+        </seealso>
+      </element>
+      <element name="TRxDice.ParentColor"/>
+      <element name="TRxDice.ParentShowHint"/>
+      <element name="TRxDice.PopupMenu"/>
+      <element name="TRxDice.Rotate">
+        <short>property Rotate: Boolean;</short>
+        <descr>Если вы установите свойство Rotate в значение True, изображение игральной кости начнет случайным образом "вращаться", изменяя значение Value, с частотой, задаваемой свойством Interval. Остановить вращение можно, присвоив свойству Rotate значение False.</descr>
+      </element>
+      <element name="TRxDice.ShowFocus"/>
+      <element name="TRxDice.ShowHint"/>
+      <element name="TRxDice.Anchors"/>
+      <element name="TRxDice.Constraints"/>
+      <element name="TRxDice.DragKind"/>
+      <element name="TRxDice.TabOrder"/>
+      <element name="TRxDice.TabStop"/>
+      <element name="TRxDice.Value">
+        <short>property Value: TrxDiceValue;</short>
+        <descr>Свойство задает текущее состояние (положение игральной кости) для компоненты TRxDice.</descr>
+      </element>
+      <element name="TRxDice.Visible"/>
+      <element name="TRxDice.OnClick"/>
+      <element name="TRxDice.OnDblClick"/>
+      <element name="TRxDice.OnEnter"/>
+      <element name="TRxDice.OnExit"/>
+      <element name="TRxDice.OnMouseMove"/>
+      <element name="TRxDice.OnMouseDown"/>
+      <element name="TRxDice.OnMouseUp"/>
+      <element name="TRxDice.OnKeyDown"/>
+      <element name="TRxDice.OnKeyUp"/>
+      <element name="TRxDice.OnKeyPress"/>
+      <element name="TRxDice.OnDragOver"/>
+      <element name="TRxDice.OnDragDrop"/>
+      <element name="TRxDice.OnEndDrag"/>
+      <element name="TRxDice.OnStartDrag"/>
+      <element name="TRxDice.OnContextPopup"/>
+      <element name="TRxDice.OnChange"/>
+      <element name="TRxDice.OnStart"/>
+      <element name="TRxDice.OnStop"/>
+      <element name="TRxDice.OnEndDock"/>
+      <element name="TRxDice.OnStartDock"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

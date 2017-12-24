@@ -1,0 +1,85 @@
+inherited FMsg: TFMsg
+  Left = 642
+  Height = 93
+  Top = 245
+  AutoSize = True
+  BorderIcons = []
+  Caption = 'FMsg'
+  ClientHeight = 93
+  Color = clWhite
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = [fsBold]
+  KeyPreview = True
+  OnShow = FormShow
+  Position = poMainFormCenter
+  object p_Main: TPanel[0]
+    Left = 0
+    Height = 119
+    Top = 0
+    Width = 318
+    AutoSize = True
+    BevelOuter = bvNone
+    ClientHeight = 119
+    ClientWidth = 318
+    Color = clBtnHighlight
+    ParentColor = False
+    TabOrder = 0
+    object p_Msg: TPanel
+      Left = 0
+      Height = 90
+      Top = 0
+      Width = 318
+      Align = alClient
+      AutoSize = True
+      BevelOuter = bvNone
+      ClientHeight = 90
+      ClientWidth = 318
+      Color = clBtnHighlight
+      ParentColor = False
+      TabOrder = 0
+      object Image: TExtImage
+        Left = 0
+        Height = 90
+        Top = 0
+        Width = 32
+        Align = alLeft
+        Transparent = True
+      end
+      object Panel1: TPanel
+        Left = 32
+        Height = 90
+        Top = 0
+        Width = 286
+        Align = alClient
+        BevelOuter = bvNone
+        ClientHeight = 90
+        ClientWidth = 286
+        TabOrder = 0
+        object lbMsg: TLabel
+          Left = 0
+          Height = 20
+          Top = 8
+          Width = 286
+          Constraints.MinHeight = 20
+          Constraints.MinWidth = 286
+          ParentColor = False
+          ParentShowHint = False
+          ShowHint = True
+          OnClick = lbMsgClick
+        end
+      end
+    end
+    object PanelButtons: TPanel
+      Left = 0
+      Height = 29
+      Top = 90
+      Width = 318
+      Align = alBottom
+      BevelOuter = bvNone
+      TabOrder = 1
+    end
+  end
+end

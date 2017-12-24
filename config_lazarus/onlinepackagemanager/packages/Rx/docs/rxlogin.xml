@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="rxlogin"><short>Модуль содержит компонент для авторизации пользователя в программе</short><element name="TRxLoginDialog"><short>Компонент авторизации</short>
+      </element><element name="TRxLoginForm"><short>Форма авторизации</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="laz_opengl"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Sascha Willems; port PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Conditionals Value="if LazOpenGLContext_VerboseMultiSampling='1' then
+  CustomOptions+='-dVerboseMultiSampling';
+
+if LCLWidgetType='cocoa' then begin
+  UsageLinkerOptions := ' -framework OpenGL'
+      +' ''-dylib_file'' ''/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib:/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib''';
+end;"/>
+      <BuildMacros>
+        <Count Value="1"/>
+        <Item1>
+          <Identifier Value="LazOpenGLContext_VerboseMultiSampling"/>
+          <Values Count="2">
+            <Item1 Value="1"/>
+            <Item2 Value="0"/>
+          </Values>
+          <ValueDescriptions Count="2"/>
+        </Item1>
+      </BuildMacros>
+    </CompilerOptions>
+    <Description Value="Delphi / Pascal OpenGL header translation, OpenGL Library
+"/>
+    <License Value="MPL"/>
+    <Version Major="4" Minor="5"/>
+    <Files Count="13">
+      <Item1>
+        <Filename Value="source\AllOpenGLRegister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AllOpenGLRegister"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\ctOpenGLES1x.pas"/>
+        <UnitName Value="ctOpenGLES1x"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\ctOpenGLES1xCanvas.pas"/>
+        <UnitName Value="ctOpenGLES1xCanvas"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\ctOpenGLES2x.pas"/>
+        <UnitName Value="ctOpenGLES2x"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\ctOpenGLES2xCanvas.pas"/>
+        <UnitName Value="ctOpenGLES2xCanvas"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\dglOpenGL.pas"/>
+        <UnitName Value="dglOpenGL"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\dglOpenGLES.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="dglOpenGLES"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\dglShader.pas"/>
+        <UnitName Value="dglshader"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\OpenGL_Particles.pas"/>
+        <UnitName Value="OpenGL_Particles"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\OpenGL_Textures.pas"/>
+        <UnitName Value="OpenGL_Textures"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\OpenGLCanvas.pas"/>
+        <UnitName Value="OpenGLCanvas"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\OpenGLPanel.pas"/>
+        <UnitName Value="OpenGLPanel"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\OpenGLPanel.inc"/>
+        <Type Value="Include"/>
+      </Item13>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="imagesforlazarus"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

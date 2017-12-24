@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":110908030,"name":"kxml.sparsenoopentag","sourcebytes":[88,77,76,32,112,97,114,115,105,110,103,32,101,114,114,111,114,58,32,79,112,101,110,32,116,97,103,32,110,111,116,32,102,111,117,110,100,46],"value":"XML parsing error: Open tag not found."},
+{"hash":113672046,"name":"kxml.sparsevalueoutsidetag","sourcebytes":[88,77,76,32,112,97,114,115,105,110,103,32,101,114,114,111,114,58,32,86,97,108,117,101,32,111,117,116,115,105,100,101,32,116,97,103,46],"value":"XML parsing error: Value outside tag."},
+{"hash":258079118,"name":"kxml.sparsenumericconverterror","sourcebytes":[88,77,76,32,112,97,114,115,105,110,103,32,101,114,114,111,114,58,32,67,97,110,110,111,116,32,99,111,110,118,101,114,116,32,118,97,108,117,101,32,37,115,32,116,111,32,110,117,109,98,101,114,46],"value":"XML parsing error: Cannot convert value %s to number."}
+]}

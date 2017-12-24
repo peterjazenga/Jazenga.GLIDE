@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":52570133,"name":"aboutplaysound.rs_componentname","sourcebytes":[67,111,109,112,111,110,101,110,116,32,110,97,109,101],"value":"Component name"},
+{"hash":4691652,"name":"aboutplaysound.rs_about","sourcebytes":[65,98,111,117,116],"value":"About"},
+{"hash":49923525,"name":"aboutplaysound.rs_license","sourcebytes":[76,105,99,101,110,115,101],"value":"License"},
+{"hash":1177,"name":"aboutplaysound.rs_by","sourcebytes":[66,121],"value":"By"},
+{"hash":19810,"name":"aboutplaysound.rs_for","sourcebytes":[70,111,114],"value":"For"},
+{"hash":221567191,"name":"aboutplaysound.rs_datafilemissing","sourcebytes":[82,101,115,111,117,114,99,101,32,100,97,116,97,102,105,108,101,32,108,105,99,101,110,115,101,46,108,114,115,32,105,115,32,109,105,115,115,105,110,103],"value":"Resource datafile license.lrs is missing"},
+{"hash":180943652,"name":"aboutplaysound.rs_licensetexterror","sourcebytes":[84,104,101,114,101,32,105,115,32,115,111,109,101,116,104,105,110,103,32,119,114,111,110,103,32,119,105,116,104,32,116,104,101,32,76,105,99,101,110,99,101,32,116,101,120,116],"value":"There is something wrong with the Licence text"},
+{"hash":18319794,"name":"aboutplaysound.rs_aboutboxerror","sourcebytes":[83,117,98,99,111,109,112,111,110,101,110,116,32,84,65,98,111,117,116,66,111,120,32,69,114,114,111,114],"value":"Subcomponent TAboutBox Error"}
+]}

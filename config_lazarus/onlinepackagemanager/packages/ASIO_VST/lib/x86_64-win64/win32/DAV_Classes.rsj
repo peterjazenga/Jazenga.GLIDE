@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":80645281,"name":"dav_classes.rcstrinvalidsamplerate","sourcebytes":[73,110,118,97,108,105,100,32,83,97,109,112,108,101,114,97,116,101,33],"value":"Invalid Samplerate!"},
+{"hash":174448457,"name":"dav_classes.rcstrdspprocessorduplicate","sourcebytes":[68,83,80,32,80,114,111,99,101,115,115,111,114,32,114,101,103,105,115,116,101,114,101,100,32,116,119,105,99,101,33,32,40,37,115,41],"value":"DSP Processor registered twice! (%s)"}
+]}

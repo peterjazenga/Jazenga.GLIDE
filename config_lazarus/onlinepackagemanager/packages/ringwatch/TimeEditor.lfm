@@ -1,0 +1,98 @@
+object TimeEditorForm: TTimeEditorForm
+  Left = 302
+  Height = 94
+  Top = 175
+  Width = 172
+  HorzScrollBar.Page = 171
+  VertScrollBar.Page = 93
+  ActiveControl = SpinEdit1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Time Editor'
+  OnActivate = FormActivate
+  object Label1: TLabel
+    Left = 10
+    Height = 14
+    Top = 8
+    Width = 15
+    AutoSize = False
+    Caption = 'HH'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Side = asrBottom
+    Left = 64
+    Height = 14
+    Top = 8
+    Width = 19
+    Caption = 'MM'
+    Color = clNone
+    ParentColor = False
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Side = asrBottom
+    Left = 112
+    Height = 14
+    Top = 8
+    Width = 15
+    Caption = 'SS'
+    Color = clNone
+    ParentColor = False
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 8
+    Height = 20
+    Top = 26
+    Width = 17
+    MaxValue = 23
+    TabOrder = 0
+  end
+  object SpinEdit2: TSpinEdit
+    AnchorSideLeft.Side = asrBottom
+    Left = 64
+    Height = 20
+    Top = 26
+    Width = 17
+    MaxValue = 59
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 10
+    Height = 26
+    Top = 58
+    Width = 62
+    AutoSize = True
+    BorderSpacing.Around = 10
+    BorderSpacing.InnerBorder = 2
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    NumGlyphs = 0
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 80
+    Height = 26
+    Top = 58
+    Width = 80
+    AutoSize = True
+    BorderSpacing.Around = 10
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    Kind = bkCancel
+    ModalResult = 2
+    NumGlyphs = 0
+    TabOrder = 3
+  end
+  object SpinEdit3: TSpinEdit
+    AnchorSideLeft.Side = asrBottom
+    Left = 112
+    Height = 20
+    Top = 26
+    Width = 17
+    MaxValue = 59
+    TabOrder = 4
+  end
+end

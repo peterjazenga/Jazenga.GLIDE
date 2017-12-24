@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":135289089,"name":"dav_dspphaser.rcstrstageslargezero","sourcebytes":[83,116,97,103,101,115,32,109,117,115,116,32,98,101,32,108,97,114,103,101,114,32,116,104,97,110,32,48,33],"value":"Stages must be larger than 0!"},
+{"hash":158775889,"name":"dav_dspphaser.rcstrfrequencypositive","sourcebytes":[70,114,101,113,117,101,110,99,121,32,109,117,115,116,32,98,101,32,112,111,115,105,116,105,118,101,33],"value":"Frequency must be positive!"},
+{"hash":262739785,"name":"dav_dspphaser.rcstrfrequencynyquist","sourcebytes":[70,114,101,113,117,101,110,99,121,32,109,117,115,116,32,98,101,32,98,101,108,111,119,32,116,104,101,32,110,121,113,117,105,115,116,32,102,114,101,113,117,101,110,99,121],"value":"Frequency must be below the nyquist frequency"}
+]}

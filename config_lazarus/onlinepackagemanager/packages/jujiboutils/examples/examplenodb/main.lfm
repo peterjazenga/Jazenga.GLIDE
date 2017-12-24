@@ -1,0 +1,124 @@
+object Form1: TForm1
+  Left = 365
+  Height = 184
+  Hint = 'Try Alt+Down arrow key to show the calendar'
+  Top = 261
+  Width = 445
+  Caption = 'Example'
+  ClientHeight = 184
+  ClientWidth = 445
+  ShowHint = True
+  LCLVersion = '1.1'
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 8
+    Width = 252
+    Caption = 'Testing non DB-Aware Input Controls'
+    Font.Height = 14
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 82
+    Top = 40
+    Width = 400
+    Caption = 'Labeled controls'
+    ClientHeight = 63
+    ClientWidth = 396
+    TabOrder = 0
+    object JLabeledIntegerEdit1: TJLabeledIntegerEdit
+      Left = 14
+      Height = 27
+      Top = 23
+      Width = 80
+      DisplayFormat = '0'
+      Value = 0
+      EditLabel.AnchorSideLeft.Control = JLabeledIntegerEdit1
+      EditLabel.AnchorSideRight.Control = JLabeledIntegerEdit1
+      EditLabel.AnchorSideRight.Side = asrBottom
+      EditLabel.AnchorSideBottom.Control = JLabeledIntegerEdit1
+      EditLabel.Left = 14
+      EditLabel.Height = 17
+      EditLabel.Top = 3
+      EditLabel.Width = 80
+      EditLabel.Caption = 'Integer'
+      EditLabel.ParentColor = False
+      TabOrder = 0
+    end
+    object JLabeledCurrencyEdit1: TJLabeledCurrencyEdit
+      Left = 102
+      Height = 27
+      Top = 23
+      Width = 80
+      DisplayFormat = '#,0.00 €'
+      Decimals = 2
+      Value = 0
+      EditLabel.AnchorSideLeft.Control = JLabeledCurrencyEdit1
+      EditLabel.AnchorSideRight.Control = JLabeledCurrencyEdit1
+      EditLabel.AnchorSideRight.Side = asrBottom
+      EditLabel.AnchorSideBottom.Control = JLabeledCurrencyEdit1
+      EditLabel.Left = 102
+      EditLabel.Height = 17
+      EditLabel.Top = 3
+      EditLabel.Width = 80
+      EditLabel.Caption = 'Currency'
+      EditLabel.ParentColor = False
+      TabOrder = 1
+    end
+    object JLabeledDateEdit1: TJLabeledDateEdit
+      Left = 190
+      Height = 27
+      Hint = 'Try Alt+Down Arrow key to show the calendar'
+      Top = 22
+      Width = 80
+      DisplayFormat = 'dd/mm/yy'
+      Value = 0
+      ButtonWidth = 23
+      EditLabel.AnchorSideLeft.Control = JLabeledDateEdit1
+      EditLabel.AnchorSideRight.Control = JLabeledDateEdit1
+      EditLabel.AnchorSideRight.Side = asrBottom
+      EditLabel.AnchorSideBottom.Control = JLabeledDateEdit1
+      EditLabel.Left = 190
+      EditLabel.Height = 17
+      EditLabel.Top = 2
+      EditLabel.Width = 80
+      EditLabel.Caption = 'Date'
+      EditLabel.ParentColor = False
+      TabOrder = 2
+    end
+    object JLabeledFloatEdit1: TJLabeledFloatEdit
+      Left = 298
+      Height = 27
+      Top = 22
+      Width = 80
+      DisplayFormat = '#,0.00'
+      Decimals = 2
+      Value = 0
+      EditLabel.AnchorSideLeft.Control = JLabeledFloatEdit1
+      EditLabel.AnchorSideRight.Control = JLabeledFloatEdit1
+      EditLabel.AnchorSideRight.Side = asrBottom
+      EditLabel.AnchorSideBottom.Control = JLabeledFloatEdit1
+      EditLabel.Left = 298
+      EditLabel.Height = 17
+      EditLabel.Top = 2
+      EditLabel.Width = 80
+      EditLabel.Caption = 'Float'
+      EditLabel.ParentColor = False
+      TabOrder = 3
+    end
+  end
+  object BitBtn1: TBitBtn
+    Left = 334
+    Height = 30
+    Top = 138
+    Width = 91
+    Anchors = [akRight, akBottom]
+    Caption = '&Cerrar'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 1
+  end
+end

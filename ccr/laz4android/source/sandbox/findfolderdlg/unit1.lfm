@@ -1,0 +1,27 @@
+object FrmMain: TFrmMain
+  Left = 227
+  Height = 240
+  Top = 112
+  Width = 854
+  Caption = 'Example how to use the function "ShowFindFolderDlg"'
+  ClientHeight = 240
+  ClientWidth = 854
+  LCLVersion = '1.1'
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object edtSelectedFolder: TEdit
+    Left = 27
+    Height = 21
+    Top = 60
+    Width = 792
+    TabOrder = 1
+    Text = 'edtSelectedFolder'
+  end
+end

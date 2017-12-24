@@ -1,0 +1,1 @@
+28.5.2012: Changes in charencstreams.WideSwapEndian from Keith. See http://forum.lazarus.freepascal.org/index.php/topic,16991.0.html

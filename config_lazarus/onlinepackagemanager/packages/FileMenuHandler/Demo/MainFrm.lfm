@@ -1,0 +1,151 @@
+object MainForm: TMainForm
+  Left = 207
+  Height = 375
+  Top = 148
+  Width = 534
+  ActiveControl = Edit1
+  Caption = 'TFileMenuTest'
+  ClientHeight = 355
+  ClientWidth = 534
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Menu = MainMenu1
+  OnShow = FormShow
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    Left = 216
+    Height = 16
+    Top = 7
+    Width = 45
+    Caption = 'MaxList'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 16
+    Top = 42
+    Width = 41
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 16
+    Top = 60
+    Width = 257
+    Caption = 'Try changing text, then opening, closing etc.'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 221
+    Top = 80
+    Width = 503
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'Memo1'
+    )
+    OnChange = Memo1Change
+    TabOrder = 0
+  end
+  object CheckBox1: TCheckBox
+    Left = 360
+    Height = 20
+    Top = 7
+    Width = 116
+    Caption = 'EnableMenuList'
+    Checked = True
+    OnClick = CheckBox1Click
+    State = cbChecked
+    TabOrder = 1
+  end
+  object UpDown1: TUpDown
+    Left = 313
+    Height = 24
+    Top = 3
+    Width = 15
+    Associate = Edit1
+    Min = 1
+    Position = 4
+    TabOrder = 2
+    Wrap = False
+  end
+  object Edit1: TEdit
+    Left = 272
+    Height = 24
+    Top = 3
+    Width = 41
+    OnChange = Edit1Change
+    TabOrder = 3
+    Text = '4'
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.txt'
+    Filter = 'txt files (*.txt)|*.txt'
+    left = 40
+    top = 248
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.txt'
+    Filter = 'txt files (*.txt)|*.txt'
+    left = 128
+    top = 248
+  end
+  object MainMenu1: TMainMenu
+    left = 216
+    top = 248
+    object FileMenu: TMenuItem
+      Caption = '&File'
+      object NewItem: TMenuItem
+        Caption = '&New'
+        OnClick = NewItemClick
+      end
+      object OpenItem: TMenuItem
+        Caption = '&Open...'
+        OnClick = OpenItemClick
+      end
+      object SaveItem: TMenuItem
+        Caption = '&Save'
+        OnClick = SaveItemClick
+      end
+      object SaveAsItem: TMenuItem
+        Caption = 'Save &As...'
+        OnClick = SaveAsItemClick
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object ExitItem: TMenuItem
+        Caption = 'E&xit'
+        OnClick = ExitItemClick
+      end
+      object TMenuItem
+        Caption = '-'
+        Visible = False
+      end
+    end
+  end
+  object FMH: TFileMenuHandler
+    IniFileName = 'Options.ini'
+    SaveDialog = SaveDialog1
+    OpenDialog = OpenDialog1
+    MaxList = 4
+    DefaultFileName = 'New File.txt'
+    FileMenu = FileMenu
+    NotFoundString = 'File %s not found.'
+    FileChangedString = 'File %s has changed. Should I save? (Custom String)'
+    FileChangedCaption = 'My Caption'
+    OnOpen = FMHOpen
+    OnSave = FMHSave
+    OnNew = FMHNew
+    OnNewFormCaption = FMHNewFormCaption
+    AddShortcut = True
+    NewItemImageIndex = -1
+    EnableMenuList = True
+    MoveToTop = False
+    ParamCountLook = 1
+    LoadNewOnStart = True
+    left = 288
+    top = 248
+  end
+end

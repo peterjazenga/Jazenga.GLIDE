@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_ExtDBImage
+  ====================================================================
+-->
+    <module name="U_ExtDBImage">
+      <short/>
+      <descr/>
+      <!-- class Visibility: default -->
+      <element name="TExtDBImage">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TExtDBImage.FDataLink">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBImage.p_SetDatafield">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.p_SetDatafield.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TExtDBImage.p_SetDatasource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.p_SetDatasource.Value">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBImage.fds_GetDatasource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBImage.fds_GetDatasource.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBImage.fs_GetDatafield">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBImage.fs_GetDatafield.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TExtDBImage.ff_Getfield">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBImage.ff_Getfield.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBImage.p_SetImage">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBImage.p_ActiveChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.p_ActiveChange.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBImage.p_DataChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.p_DataChange.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TExtDBImage.p_UpdateData">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.p_UpdateData.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtDBImage.LoadFromStream">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.LoadFromStream.astream">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtDBImage.LoadFromFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBImage.LoadFromFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.LoadFromFile.afile">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TExtDBImage.SaveToStream">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.SaveToStream.astream">
+        <short/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TExtDBImage.SavetoFile">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TExtDBImage.SavetoFile.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.SavetoFile.afile">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.SavetoFile.ali_newWidth">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.SavetoFile.ali_newHeight">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.SavetoFile.ab_KeepProportion">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TExtDBImage.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TExtDBImage.Create.AOwner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TExtDBImage.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TExtDBImage.Field">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBImage.Datafield">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TExtDBImage.Datasource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_ExtDBImage -->
+  </package>
+</fpdoc-descriptions>

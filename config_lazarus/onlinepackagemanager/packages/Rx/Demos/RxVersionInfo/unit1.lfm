@@ -1,0 +1,210 @@
+object Form1: TForm1
+  Left = 793
+  Height = 421
+  Top = 299
+  Width = 429
+  Caption = 'RxVersionInfo'
+  ClientHeight = 421
+  ClientWidth = 429
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Button2
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 44
+    Width = 280
+    BorderSpacing.Around = 6
+    Caption = 'Test file name ( empyt line = ParamStr(0) )'
+    ParentColor = False
+  end
+  object FileNameEdit1: TFileNameEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Button1
+    Left = 12
+    Height = 30
+    Top = 70
+    Width = 291
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    MaxLength = 0
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Edit1
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 142
+    Width = 62
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Left = 6
+    Caption = 'File name'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = DividerBevel1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 30
+    Top = 132
+    Width = 311
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clMoneyGreen
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Edit2
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 178
+    Width = 73
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Left = 6
+    Caption = 'File version'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Edit1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 30
+    Top = 168
+    Width = 311
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clMoneyGreen
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Button1: TButton
+    AnchorSideTop.Control = FileNameEdit1
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 309
+    Height = 32
+    Top = 70
+    Width = 114
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    BorderSpacing.Right = 6
+    Caption = 'Get version info'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object DividerBevel1: TDividerBevel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = FileNameEdit1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 20
+    Top = 106
+    Width = 429
+    Caption = 'Version info'
+    Anchors = [akTop, akLeft, akRight]
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button2: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    Left = 183
+    Height = 32
+    Top = 6
+    Width = 63
+    AutoSize = True
+    BorderSpacing.Top = 6
+    Caption = 'About...'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Edit3
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 214
+    Width = 100
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Left = 6
+    Caption = 'Company name'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Edit2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 30
+    Top = 204
+    Width = 311
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clMoneyGreen
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Label5: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Edit4
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 250
+    Width = 98
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Left = 6
+    Caption = 'File description'
+    ParentColor = False
+  end
+  object Edit4: TEdit
+    AnchorSideLeft.Control = Label4
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Edit3
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 112
+    Height = 30
+    Top = 240
+    Width = 311
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    Color = clMoneyGreen
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object RxAboutDialog1: TRxAboutDialog
+    Options = []
+    Caption = 'О системе'
+    left = 256
+  end
+end

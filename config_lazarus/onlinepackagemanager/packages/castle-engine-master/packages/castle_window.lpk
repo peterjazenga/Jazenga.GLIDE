@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="castle_window"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Michalis Kamburelis"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="../src/window/unix;../src/window/windows;../src/window/gtk;../src/base;../src/window"/>
+        <OtherUnitFiles Value="../src/window;../src/window/windows;../src/window/unix;../src/ui/windows"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleMacros Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Checks>
+          <IOChecks Value="True"/>
+        </Checks>
+        <Optimizations>
+          <OptimizationLevel Value="2"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Other>
+        <Verbosity>
+          <ShowNotes Value="False"/>
+          <ShowHints Value="False"/>
+        </Verbosity>
+        <CustomOptions Value="-dCASTLE_ENGINE_LAZARUS_PACKAGE"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Castle Game Engine - CastleWindow and units using it.
+This package cannot be installed under Lazarus, it's only for being used in other programs. CastleWindow unit initializes some things inside XWindows / WinAPI that may conflict with Lazarus reserving the same resources."/>
+    <License Value="GNU GPL >= 2
+(or LGPL >= 2, if compiled with CASTLE_ENGINE_LGPL)"/>
+    <Version Major="6" Minor="0"/>
+    <Files Count="19">
+      <Item1>
+        <Filename Value="../src/base/castleconf.inc"/>
+        <Type Value="Include"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../src/window/castlemessages.pas"/>
+        <UnitName Value="CastleMessages"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../src/window/castlesoundmenu.pas"/>
+        <UnitName Value="CastleSoundMenu"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../src/window/castleuistate.pas"/>
+        <UnitName Value="CastleUIState"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../src/window/castlewindow.pas"/>
+        <UnitName Value="CastleWindow"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../src/window/castlewindow_lcl.inc"/>
+        <Type Value="Include"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../src/window/castlewindow_winsystem.inc"/>
+        <Type Value="Include"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../src/window/castlewindowmodes.pas"/>
+        <UnitName Value="CastleWindowModes"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../src/window/castlewindowprogress.pas"/>
+        <UnitName Value="CastleWindowProgress"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../src/window/castlewindowrecentfiles.pas"/>
+        <UnitName Value="CastleWindowRecentFiles"/>
+      </Item10>
+      <Item11>
+        <Filename Value="../src/window/castlewindowtouch.pas"/>
+        <UnitName Value="CastleWindowTouch"/>
+      </Item11>
+      <Item12>
+        <Filename Value="../src/window/gtk/castlewindow_gtk.inc"/>
+        <Type Value="Include"/>
+      </Item12>
+      <Item13>
+        <Filename Value="../src/window/gtk/castlewindow_gtk_menu.inc"/>
+        <Type Value="Include"/>
+      </Item13>
+      <Item14>
+        <Filename Value="../src/window/unix/castleglx.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="CastleGlx"/>
+      </Item14>
+      <Item15>
+        <Filename Value="../src/window/unix/castlewindow_xf86vmode.inc"/>
+        <Type Value="Include"/>
+      </Item15>
+      <Item16>
+        <Filename Value="../src/window/unix/castlewindow_xlib.inc"/>
+        <Type Value="Include"/>
+      </Item16>
+      <Item17>
+        <Filename Value="../src/window/unix/castlexf86vmode.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="CastleXF86VMode"/>
+      </Item17>
+      <Item18>
+        <Filename Value="../src/window/unix/castlexlib.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="CastleXlib"/>
+      </Item18>
+      <Item19>
+        <Filename Value="../src/window/windows/castlewindow_winapi.inc"/>
+        <Type Value="Include"/>
+      </Item19>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="castle_base"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

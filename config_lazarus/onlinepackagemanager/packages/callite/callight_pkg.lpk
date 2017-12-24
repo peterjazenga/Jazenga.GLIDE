@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="callight_pkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Howard Page-Clark, Ariel Rodriguez and Werner Pamler"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="A lightweight calendar component"/>
+    <License Value="Modified LGL2 (with linking exception)"/>
+    <Version Minor="3"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="source/calendarlite.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CalendarLite"/>
+      </Item1>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

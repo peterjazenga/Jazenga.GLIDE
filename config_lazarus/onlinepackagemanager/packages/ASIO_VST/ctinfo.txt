@@ -1,0 +1,73 @@
+=============================================
+  CodeTyphon Studio
+  Typhon IDE
+  Information file
+=============================================
+
+pl_ASIOVST
+
+Ver 5.9.1 Date 04-10-2016 MOD of SVN Rev 1711
+
+------- MODs -----
+
+
+aDAV_VSTModuleLazIDE.pas ### at line: 83
+aDAV_VSTModuleLazIDE.pas ### at line: 86
+aDAV_VSTModuleLazIDE.pas ### at line: 87
+aDAV_VSTModuleLazIDE.pas ### at line: 88
+aDAV_VSTModuleLazIDE.pas ### at line: 89
+aDAV_VSTModuleLazIDE.pas ### at line: 90
+aDAV_VSTModuleLazIDE.pas ### at line: 105
+aDAV_VSTModuleLazIDE.pas ### at line: 124
+aDAV_VSTModuleLazIDE.pas ### at line: 125
+aDAV_VSTModuleLazIDE.pas ### at line: 126
+aDAV_VSTModuleLazIDE.pas ### at line: 131
+
+DAV_Common.pas ### at line: 193
+DAV_Common.pas ### at line: 1549
+DAV_Compiler.inc ### at line: 1419
+
+ASIO\DAV_AsioInterface.pas ### at line: 191
+ASIO\DAV_AsioInterface.pas ### at line: 223
+ASIO\DAV_AsioInterface.pas ### at line: 255
+ASIO\DAV_AsioInterface.pas ### at line: 286
+ASIO\DAV_AsioInterface.pas ### at line: 318
+ASIO\DAV_AsioInterface.pas ### at line: 349
+ASIO\DAV_AsioInterface.pas ### at line: 380
+ASIO\DAV_AsioInterface.pas ### at line: 413
+ASIO\DAV_AsioInterface.pas ### at line: 446
+ASIO\DAV_AsioInterface.pas ### at line: 481
+ASIO\DAV_AsioInterface.pas ### at line: 518
+ASIO\DAV_AsioInterface.pas ### at line: 550
+ASIO\DAV_AsioInterface.pas ### at line: 583
+ASIO\DAV_AsioInterface.pas ### at line: 616
+ASIO\DAV_AsioInterface.pas ### at line: 648
+ASIO\DAV_AsioInterface.pas ### at line: 683
+ASIO\DAV_AsioInterface.pas ### at line: 714
+ASIO\DAV_AsioInterface.pas ### at line: 748
+ASIO\DAV_AsioInterface.pas ### at line: 778
+ASIO\DAV_AsioInterface.pas ### at line: 808
+ASIO\DAV_AsioInterface.pas ### at line: 840
+GUI\DAV_GuiADSRGraph.pas ### at line: 234
+GUI\DAV_GuiAudioDataDisplay.pas ### at line: 277
+GUI\DAV_GuiButton.pas ### at line: 192
+GUI\DAV_GuiCorrelationMeter.pas ### at line: 95
+GUI\DAV_GuiDial.pas ### at line: 589
+GUI\DAV_GuiDial.pas ### at line: 848
+GUI\DAV_GuiDynamicWaveform.pas ### at line: 106
+GUI\DAV_GuiEQGraph.pas ### at line: 1241
+GUI\DAV_GuiEQSlide.pas ### at line: 358
+GUI\DAV_GuiFader.pas ### at line: 159
+GUI\DAV_GuiGraphicControl.pas ### at line: 108
+GUI\DAV_GuiGraphXY.pas ### at line: 1670
+GUI\DAV_GuiInscription.pas ### at line: 140
+GUI\DAV_GuiLabel.pas ### at line: 135
+GUI\DAV_GuiLED.pas ### at line: 187
+GUI\DAV_GuiMediaButton.pas ### at line: 192
+GUI\DAV_GuiMidiKeys.pas ### at line: 460
+GUI\DAV_GuiSelectBox.pas ### at line: 277
+GUI\DAV_GuiSlider.pas ### at line: 600
+GUI\DAV_GuiStaticWaveform.pas ### at line: 142
+GUI\DAV_GuiStitchedControls.pas ### at line: 271
+GUI\DAV_GuiVUMeter.pas ### at line: 73
+

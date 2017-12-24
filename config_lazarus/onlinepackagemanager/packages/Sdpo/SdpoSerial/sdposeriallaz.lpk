@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="SdpoSerialLaz"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="jpssilva, maferreira, p_costa, pmalheiros, pmarques"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="5dpo Component Library for Lazarus (Sdpo) provides a comport (serial port) component, an UVC video driver component for webcams, a Gtk fast painting form and a Joystick component."/>
+    <License Value="GPL"/>
+    <Version Minor="1" Release="5"/>
+    <Files Count="1">
+      <Item1>
+        <Filename Value="sdposerial.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SdpoSerial"/>
+      </Item1>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="laz_synapse40_1"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <CustomOptions Value="-dUseCThreads"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

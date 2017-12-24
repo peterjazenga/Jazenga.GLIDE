@@ -1,0 +1,321 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestrings.rsantifreezeonlyone
+msgid "Only one TIdAntiFreeze can exist per application."
+msgstr ""
+
+#: idresourcestrings.rscannotbindrange
+msgid "Can not bind in port range (%d - %d)"
+msgstr ""
+
+#: idresourcestrings.rscannotsetipversionwhenconnected
+msgid "Cannot change IPVersion when connected"
+msgstr ""
+
+#: idresourcestrings.rscharindexoutofbounds
+msgid "Character index out of bounds (%d)"
+msgstr ""
+
+#: idresourcestrings.rsconnectionclosedgracefully
+msgid "Connection Closed Gracefully."
+msgstr ""
+
+#: idresourcestrings.rscorruptservicesfile
+msgid "%s is corrupt."
+msgstr ""
+
+#: idresourcestrings.rscouldnotbindsocket
+msgid "Could not bind socket. Address and port are already in use."
+msgstr ""
+
+#: idresourcestrings.rsendofstream
+msgid "End of stream: Class %s at %d"
+msgstr ""
+
+#: idresourcestrings.rsfailedtimezoneinfo
+msgid "Failed attempting to retrieve time zone information."
+msgstr ""
+
+#: idresourcestrings.rsinvalidcharcount
+msgid "Invalid count (%d)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidcharset
+msgid "Invalid character set (%s)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidcharsetconv
+msgid "Invalid character set conversion (%s <-> %s)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidcharsetconvwithflags
+msgid "Invalid character set conversion (%s <-> %s, %s)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidcodepage
+msgid "Invalid codepage (%d)"
+msgstr ""
+
+#: idresourcestrings.rsinvaliddestinationarray
+msgid "Invalid destination array"
+msgstr ""
+
+#: idresourcestrings.rsinvaliddestinationindex
+msgid "Invalid destination index (%d)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidipv6address
+msgid "%s is not a valid IPv6 address"
+msgstr ""
+
+#: idresourcestrings.rsinvalidportrange
+msgid "Invalid Port Range (%d - %d)"
+msgstr ""
+
+#: idresourcestrings.rsinvalidservicename
+msgid "%s is not a valid service."
+msgstr ""
+
+#: idresourcestrings.rsinvalidsourcearray
+msgid "Invalid source array"
+msgstr ""
+
+#: idresourcestrings.rsipv6unavailable
+msgid "IPv6 unavailable"
+msgstr ""
+
+#: idresourcestrings.rsipversionunsupported
+msgid "The requested IPVersion / Address family is not supported."
+msgstr ""
+
+#: idresourcestrings.rsmaliciousptrrecord
+msgid "Malicious PTR Record"
+msgstr ""
+
+#: idresourcestrings.rsnoencodingspecified
+msgid "No encoding specified."
+msgstr ""
+
+#: idresourcestrings.rsnotallbytessent
+msgid "Not all bytes sent."
+msgstr ""
+
+#: idresourcestrings.rspackagesizetoobig
+msgid "Package Size Too Big."
+msgstr ""
+
+#: idresourcestrings.rssetsizeexceeded
+msgid "Set Size Exceeded."
+msgstr ""
+
+#: idresourcestrings.rsstackalreadycreated
+msgid "Stack already created."
+msgstr ""
+
+#: idresourcestrings.rsstackclassundefined
+msgid "Stack Class is undefined."
+msgstr ""
+
+#: idresourcestrings.rsstackeacces
+msgid "Access denied."
+msgstr ""
+
+#: idresourcestrings.rsstackeaddrinuse
+msgid "Address already in use."
+msgstr ""
+
+#: idresourcestrings.rsstackeaddrnotavail
+msgid "Cannot assign requested address."
+msgstr ""
+
+#: idresourcestrings.rsstackeafnosupport
+msgid "Address family not supported by protocol family."
+msgstr ""
+
+#: idresourcestrings.rsstackealready
+msgid "Operation already in progress."
+msgstr ""
+
+#: idresourcestrings.rsstackebadf
+msgid "Bad file number."
+msgstr ""
+
+#: idresourcestrings.rsstackeconnaborted
+msgid "Software caused connection abort."
+msgstr ""
+
+#: idresourcestrings.rsstackeconnrefused
+msgid "Connection refused."
+msgstr ""
+
+#: idresourcestrings.rsstackeconnreset
+msgid "Connection reset by peer."
+msgstr ""
+
+#: idresourcestrings.rsstackedestaddrreq
+msgid "Destination address required."
+msgstr ""
+
+#: idresourcestrings.rsstackefault
+msgid "Buffer fault."
+msgstr ""
+
+#: idresourcestrings.rsstackehostdown
+msgid "Host is down."
+msgstr ""
+
+#: idresourcestrings.rsstackehostunreach
+msgid "No route to host."
+msgstr ""
+
+#: idresourcestrings.rsstackeinprogress
+msgid "Operation now in progress."
+msgstr ""
+
+#: idresourcestrings.rsstackeintr
+msgid "Interrupted system call."
+msgstr ""
+
+#: idresourcestrings.rsstackeinval
+msgid "Invalid argument."
+msgstr ""
+
+#: idresourcestrings.rsstackeisconn
+msgid "Socket is already connected."
+msgstr ""
+
+#: idresourcestrings.rsstackeloop
+msgid "Too many levels of symbolic links."
+msgstr ""
+
+#: idresourcestrings.rsstackemfile
+msgid "Too many open files."
+msgstr ""
+
+#: idresourcestrings.rsstackemsgsize
+msgid "Message too long."
+msgstr ""
+
+#: idresourcestrings.rsstackenametoolong
+msgid "File name too long."
+msgstr ""
+
+#: idresourcestrings.rsstackenetdown
+msgid "Network is down."
+msgstr ""
+
+#: idresourcestrings.rsstackenetreset
+msgid "Net dropped connection or reset."
+msgstr ""
+
+#: idresourcestrings.rsstackenetunreach
+msgid "Network is unreachable."
+msgstr ""
+
+#: idresourcestrings.rsstackenobufs
+msgid "No buffer space available."
+msgstr ""
+
+#: idresourcestrings.rsstackenoprotoopt
+msgid "Bad protocol option."
+msgstr ""
+
+#: idresourcestrings.rsstackenotconn
+msgid "Socket is not connected."
+msgstr ""
+
+#: idresourcestrings.rsstackenotempty
+msgid "Directory not empty"
+msgstr ""
+
+#: idresourcestrings.rsstackenotsock
+msgid "Socket operation on non-socket."
+msgstr ""
+
+#: idresourcestrings.rsstackeopnotsupp
+msgid "Operation not supported on socket."
+msgstr ""
+
+#: idresourcestrings.rsstackepfnosupport
+msgid "Protocol family not supported."
+msgstr ""
+
+#: idresourcestrings.rsstackeprotonosupport
+msgid "Protocol not supported."
+msgstr ""
+
+#: idresourcestrings.rsstackeprototype
+msgid "Protocol wrong type for socket."
+msgstr ""
+
+#: idresourcestrings.rsstackerror
+msgid ""
+"Socket Error # %d\n"
+"%s\n"
+msgstr ""
+
+#: idresourcestrings.rsstackeshutdown
+msgid "Cannot send or receive after socket is closed."
+msgstr ""
+
+#: idresourcestrings.rsstackesocktnosupport
+msgid "Socket type not supported."
+msgstr ""
+
+#: idresourcestrings.rsstacketimedout
+msgid "Connection timed out."
+msgstr ""
+
+#: idresourcestrings.rsstacketoomanyrefs
+msgid "Too many references, cannot splice."
+msgstr ""
+
+#: idresourcestrings.rsstackewouldblock
+msgid "Operation would block."
+msgstr ""
+
+#: idresourcestrings.rsstackhost_not_found
+msgid "Host not found."
+msgstr ""
+
+#: idresourcestrings.rsstatusconnected
+msgid "Connected."
+msgstr ""
+
+#: idresourcestrings.rsstatusconnecting
+msgid "Connecting to %s."
+msgstr ""
+
+#: idresourcestrings.rsstatusdisconnected
+msgid "Disconnected."
+msgstr ""
+
+#: idresourcestrings.rsstatusdisconnecting
+msgid "Disconnecting."
+msgstr ""
+
+#: idresourcestrings.rsstatusresolving
+msgid "Resolving hostname %s."
+msgstr ""
+
+#: idresourcestrings.rsstatustext
+msgid "%s"
+msgstr ""
+
+#: idresourcestrings.rsunsupportedcharset
+msgid "Unsupported character set (%s)"
+msgstr ""
+
+#: idresourcestrings.rsunsupportedcodepage
+msgid "Unsupported codepage (%d)"
+msgstr ""
+
+#: idresourcestrings.rswinsockcallerror
+msgid "Error on call to Winsock2 library function %s"
+msgstr ""
+
+#: idresourcestrings.rswinsockloaderror
+msgid "Error on loading Winsock2 library (%s)"
+msgstr ""
+

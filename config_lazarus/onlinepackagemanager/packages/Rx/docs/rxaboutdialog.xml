@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxAboutDialog"><element name="TRxAboutDialogOption"><short>Параметры отображени окна информации о программе</short><descr><p>Параметры отображени окна информации о программе</p><table><th><td>Значение</td><td>Описание</td>
+            </th><tr><td>radHelpButton</td><td>Отображать кнопку "Помощь"</td>
+            </tr><tr><td>radLicenseTab</td><td>Отображать закладку лицензии</td>
+            </tr><tr><td>radShowImageLogo</td><td>Отображать логотип на первой закладке</td>
+            </tr>
+          </table>
+        </descr>
+      </element><short>Модуль содержит компонент для окна О Программе</short><element name="TRxAboutDialogOptions"><short>Параметры окна "О программе"</short>
+      </element><element name="TRxAboutDialog"><short>Компонента TRXAboutDialog предназначена для отображения информации о программе</short>
+      </element><element name="TRxAboutDialog.Create"><short>Конструктор создаёт экземпляр класса</short>
+      </element><element name="TRxAboutDialog.Destroy"><short>Уничтожает экземпляр класса</short>
+      </element><element name="TRxAboutDialog.Execute"><short>Метод отображет окно "О программе"</short>
+      </element><element name="TRxAboutDialog.Options"><short>Параметры окна "О программе"</short><descr><p>Набор флагов, определяющий 
+<link id="TRxAboutDialogOption">параметры</link> отображения окна информации о программе</p>
+        </descr><seealso>TRxAboutDialogOptions</seealso>
+      </element><element name="TRxAboutDialog.ApplicationTitle"><short>Заголовок программы, выводимый на первой странице она</short>
+      </element><element name="TRxAboutDialog.LicenseFileName"><short>Файл лицензии</short>
+      </element><element name="TRxAboutDialog.Caption"><short>Заголовок окна</short>
+      </element><element name="TRxAboutDialog.Picture"><short>Логотип, отображаемый в окне "О программе"</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

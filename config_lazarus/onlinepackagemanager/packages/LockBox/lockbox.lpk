@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="lockbox"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value=" Roman Kassebaum; PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="LockBox Library"/>
+    <License Value="MPL 1.1"/>
+    <Version Major="2"/>
+    <Files Count="15">
+      <Item1>
+        <Filename Value="source\alllockboxreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="alllockboxreg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\lbasym.pas"/>
+        <UnitName Value="LbAsym"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\lbbigint.pas"/>
+        <UnitName Value="LbBigInt"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\lbcipher.pas"/>
+        <UnitName Value="LbCipher"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\lbclass.pas"/>
+        <UnitName Value="LbClass"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\lbconst.pas"/>
+        <UnitName Value="LbConst"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\lbdespem.pas"/>
+        <UnitName Value="LbDESPEM"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\lbdsa.pas"/>
+        <UnitName Value="LbDSA"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\lbkeyed1.pas"/>
+        <UnitName Value="LbKeyEd1"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\lbkeyed2.pas"/>
+        <UnitName Value="LbKeyEd2"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\lbproc.pas"/>
+        <UnitName Value="LbProc"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\lbrandom.pas"/>
+        <UnitName Value="LbRandom"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\lbrsa.pas"/>
+        <UnitName Value="LbRSA"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\lbstring.pas"/>
+        <UnitName Value="LbString"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\lbutils.pas"/>
+        <UnitName Value="LbUtils"/>
+      </Item15>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

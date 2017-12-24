@@ -1,0 +1,344 @@
+object Form1: TForm1
+  Left = 455
+  Height = 746
+  Top = 191
+  Width = 1039
+  Caption = 'Form1'
+  ClientHeight = 746
+  ClientWidth = 1039
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  SessionProperties = 'Edit1.Text'
+  LCLVersion = '1.7'
+  object CheckBox1: TCheckBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 24
+    Top = 6
+    Width = 99
+    BorderSpacing.Around = 6
+    Caption = 'CheckBox1'
+    OnChange = CheckBox1Change
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = CheckBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 119
+    Height = 37
+    Top = 36
+    Width = 914
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = CheckBox1
+    AnchorSideBottom.Control = Edit1
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 53
+    Width = 107
+    Anchors = [akLeft, akBottom]
+    Caption = 'Filter expression'
+    ParentColor = False
+  end
+  object RxDBGrid1: TRxDBGrid
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Edit1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Memo1
+    Left = 0
+    Height = 521
+    Top = 79
+    Width = 1039
+    ColumnDefValues.BlobText = '(данные)'
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'ID'
+        Width = 90
+        FieldName = 'ID'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'NAME'
+        Width = 500
+        FieldName = 'NAME'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        ButtonStyle = cbsPickList
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'CODE'
+        Width = 200
+        FieldName = 'CODE'
+        EditButtons = <        
+          item
+            Glyph.Data = {
+              C6010000424DC60100000000000036000000280000000A0000000A0000000100
+              2000000000009001000064000000640000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000004141
+              41FF414141FF00000000414141FF414141FF00000000414141FF414141FF0000
+              000000000000414141FF414141FF00000000414141FF414141FF000000004141
+              41FF414141FF0000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              00000000000000000000
+            }
+            Style = ebsEllipsisRx
+          end        
+          item
+            Glyph.Data = {
+              C6010000424DC60100000000000036000000280000000A0000000A0000000100
+              2000000000009001000064000000640000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              000000000000000000000000000000000000414141FF414141FF000000000000
+              0000000000000000000000000000000000000000000000000000414141FF4141
+              41FF000000000000000000000000000000000000000000000000000000000000
+              0000414141FF414141FF00000000000000000000000000000000000000004141
+              41FF414141FF414141FF414141FF414141FF414141FF414141FF414141FF0000
+              000000000000414141FF414141FF414141FF414141FF414141FF414141FF4141
+              41FF414141FF0000000000000000000000000000000000000000414141FF4141
+              41FF000000000000000000000000000000000000000000000000000000000000
+              0000414141FF414141FF00000000000000000000000000000000000000000000
+              00000000000000000000414141FF414141FF0000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              00000000000000000000
+            }
+            Style = ebsPlusRx
+          end        
+          item
+            Glyph.Data = {
+              C6010000424DC60100000000000036000000280000000A0000000A0000000100
+              2000000000009001000064000000640000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000004141
+              41FF414141FF414141FF414141FF414141FF414141FF414141FF414141FF0000
+              000000000000414141FF414141FF414141FF414141FF414141FF414141FF4141
+              41FF414141FF0000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              0000000000000000000000000000000000000000000000000000000000000000
+              00000000000000000000
+            }
+            Style = ebsMinusRx
+          end>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end    
+      item
+        Command = rxgcCopyCellValue
+        ShortCut = 16451
+        Enabled = True
+      end>
+    FooterOptions.DrawFullLine = False
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgAllowQuickSearch, rdgAllowQuickFilter, rdgAllowToolMenu]
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = DataSource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowEditor, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentColor = False
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 146
+    Top = 600
+    Width = 1039
+    Align = alBottom
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 656
+    Height = 37
+    Top = 0
+    Width = 80
+    TabOrder = 4
+    Text = '64'
+  end
+  object Button1: TButton
+    Left = 832
+    Height = 36
+    Top = 1
+    Width = 83
+    AutoSize = True
+    Caption = 'Def height'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 736
+    Height = 36
+    Top = 0
+    Width = 86
+    AutoSize = True
+    Caption = ' Set height'
+    OnClick = Button2Click
+    TabOrder = 6
+  end
+  object RxMemoryData1: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'NAME'
+        DataType = ftString
+        Size = 100
+      end    
+      item
+        Name = 'CODE'
+        DataType = ftInteger
+      end>
+    PacketRecords = 0
+    left = 328
+    top = 270
+    object RxMemoryData1ID: TLongintField
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1NAME: TStringField
+      FieldKind = fkData
+      FieldName = 'NAME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object RxMemoryData1CODE: TLongintField
+      FieldKind = fkData
+      FieldName = 'CODE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = RxMemoryData1
+    left = 288
+    top = 272
+  end
+  object RxIniPropStorage1: TRxIniPropStorage
+    StoredValues = <>
+    SeparateFiles = True
+    left = 471
+    top = 27
+  end
+end

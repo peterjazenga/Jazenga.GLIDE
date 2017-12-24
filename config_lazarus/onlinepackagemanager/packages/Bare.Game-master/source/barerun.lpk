@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="barerun"/>
+    <Type Value="RunTimeOnly"/>
+    <Author Value="sysrpl"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="/home/delluser/Development/Pascal/Codebot/bare"/>
+        <Libraries Value="lib/$(TargetCPU)-$(TargetOS)"/>
+        <OtherUnitFiles Value="../.."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <CompilerMessages>
+          <IgnoredMessages idx5026="True" idx5024="True"/>
+        </CompilerMessages>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Bare Game is a open source modern minimal game cross platform gaming library. It was conceived to take the SDL 2.0 game library and pair it with the Free Pascal Compiler, combining Free Pascal's write once compile anywhere philosophy with with SDL 2.0 ability to empower games on every platform. Bear Game wraps SDL 2.0 functions and defines in an extremely easy to reuse class library. It takes care of all the boilerplate plumbing required to get a game started and running on a variety of platforms, empowering you, the game creator, to focus on what you want to do, designing your game. "/>
+    <License Value="GNU Library or &quot;Lesser&quot; General Public License (LGPL)"/>
+    <Version Major="1"/>
+    <Files Count="25">
+      <Item1>
+        <Filename Value="bare.inc"/>
+        <Type Value="Include"/>
+      </Item1>
+      <Item2>
+        <Filename Value="bare.system.pas"/>
+        <UnitName Value="Bare.System"/>
+      </Item2>
+      <Item3>
+        <Filename Value="bare.types.pas"/>
+        <UnitName Value="Bare.Types"/>
+      </Item3>
+      <Item4>
+        <Filename Value="bare.constants.pas"/>
+        <UnitName Value="Bare.Constants"/>
+      </Item4>
+      <Item5>
+        <Filename Value="bare.interop.sdl2.pas"/>
+        <UnitName Value="Bare.Interop.SDL2"/>
+      </Item5>
+      <Item6>
+        <Filename Value="bare.interop.posix.pas"/>
+        <UnitName Value="Bare.Interop.Posix"/>
+      </Item6>
+      <Item7>
+        <Filename Value="bare.interop.windows.pas"/>
+        <UnitName Value="Bare.Interop.Windows"/>
+      </Item7>
+      <Item8>
+        <Filename Value="bare.interop.opengl.pas"/>
+        <UnitName Value="Bare.Interop.OpenGL"/>
+      </Item8>
+      <Item9>
+        <Filename Value="bare.interop.openssl.pas"/>
+        <UnitName Value="Bare.Interop.OpenSSL"/>
+      </Item9>
+      <Item10>
+        <Filename Value="bare.interop.openvg.pas"/>
+        <UnitName Value="Bare.Interop.OpenVG"/>
+      </Item10>
+      <Item11>
+        <Filename Value="bare.interop.sockets.pas"/>
+        <UnitName Value="Bare.Interop.Sockets"/>
+      </Item11>
+      <Item12>
+        <Filename Value="bare.animation.pas"/>
+        <UnitName Value="Bare.Animation"/>
+      </Item12>
+      <Item13>
+        <Filename Value="bare.cryptography.pas"/>
+        <UnitName Value="Bare.Cryptography"/>
+      </Item13>
+      <Item14>
+        <Filename Value="bare.game.pas"/>
+        <UnitName Value="Bare.Game"/>
+      </Item14>
+      <Item15>
+        <Filename Value="bare.geometry.pas"/>
+        <UnitName Value="Bare.Geometry"/>
+      </Item15>
+      <Item16>
+        <Filename Value="bare.graphics.pas"/>
+        <UnitName Value="Bare.Graphics"/>
+      </Item16>
+      <Item17>
+        <Filename Value="bare.graphics.drawing.pas"/>
+        <UnitName Value="Bare.Graphics.Drawing"/>
+      </Item17>
+      <Item18>
+        <Filename Value="bare.graphics.imaging.linux.pas"/>
+        <UnitName Value="Bare.Graphics.Imaging.Linux"/>
+      </Item18>
+      <Item19>
+        <Filename Value="bare.graphics.imaging.windows.pas"/>
+        <UnitName Value="Bare.Graphics.Imaging.Windows"/>
+      </Item19>
+      <Item20>
+        <Filename Value="bare.graphics.imaging.pas"/>
+        <UnitName Value="Bare.Graphics.Imaging"/>
+      </Item20>
+      <Item21>
+        <Filename Value="bare.networking.pas"/>
+        <UnitName Value="Bare.Networking"/>
+      </Item21>
+      <Item22>
+        <Filename Value="bare.networking.web.pas"/>
+        <UnitName Value="Bare.Networking.Web"/>
+      </Item22>
+      <Item23>
+        <Filename Value="bare.text.pas"/>
+        <UnitName Value="Bare.Text"/>
+      </Item23>
+      <Item24>
+        <Filename Value="bare.text.xml.pas"/>
+        <UnitName Value="Bare.Text.Xml"/>
+      </Item24>
+      <Item25>
+        <Filename Value="bare.example.pas"/>
+        <UnitName Value="Bare.Example"/>
+      </Item25>
+    </Files>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

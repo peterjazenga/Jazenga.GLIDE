@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="3">
+    <Name Value="smnetgradientlaz"/>
+    <Author Value="Curtis White &amp; Heiko Webers (converted for lazarus by barko)"/>
+    <CompilerOptions>
+      <Version Value="8"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib"/>
+      </SearchPaths>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="A gradient fill like in the new Netscape Communicator Options Box."/>
+    <License Value="This component can be freely used and distributed in commercial and private environments, provided this notice is not modified in any way."/>
+    <Version Major="2" Release="6"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="smnetgradient.pas"/>
+        <UnitName Value="SMNetGradient"/>
+      </Item1>
+      <Item2>
+        <Filename Value="register_smnetgradient.pas"/>
+        <HasRegisterProc Value="True"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="register_smnetgradient"/>
+      </Item2>
+      <Item3>
+        <Filename Value="register_smnetgradient.lrs"/>
+        <Type Value="LRS"/>
+      </Item3>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)/"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="/home/barko/tempo/"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

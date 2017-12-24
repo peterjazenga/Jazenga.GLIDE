@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="laz_fpspreadsheet_visual"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Felipe Monteiro de Carvalho and others"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="visual"/>
+        <UnitOutputDirectory Value="visual\lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CustomOptions Value="$(IDEBuildOptions)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="laz_fpspreadsheet_visual is a visual component that allows you to use the fpspreadsheet package to read/write spreadsheet files in .xls (BIFF/Excel), .ods OpenDocument (LibreOffice/OpenOffice) and .xlsx Open XML (Excel) formats.
+
+It provides graphical components like a grid and chart."/>
+    <License Value="LGPL with static linking exception. This is the same license as is used in the LCL (Lazarus Component Library)."/>
+    <Version Major="1" Minor="8" Release="2"/>
+    <Files Count="5">
+      <Item1>
+        <Filename Value="visual\fpsactions.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="fpsActions"/>
+      </Item1>
+      <Item2>
+        <Filename Value="visual\fpspreadsheetchart.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="fpspreadsheetchart"/>
+      </Item2>
+      <Item3>
+        <Filename Value="visual\fpspreadsheetctrls.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="fpspreadsheetctrls"/>
+      </Item3>
+      <Item4>
+        <Filename Value="visual\fpspreadsheetgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="fpspreadsheetgrid"/>
+      </Item4>
+      <Item5>
+        <Filename Value="visual\fpsvisualutils.pas"/>
+        <UnitName Value="fpsvisualutils"/>
+      </Item5>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="laz_fpspreadsheet"/>
+        <MaxVersion Major="1" Minor="7"/>
+        <MinVersion Major="1" Minor="8" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="tachartlazaruspkg"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

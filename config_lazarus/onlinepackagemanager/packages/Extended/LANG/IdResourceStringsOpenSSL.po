@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestringsopenssl.rsossfailedtoload
+msgid "Failed to load %s."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslaccepterror
+msgid "Accept Error"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslacceptexit
+msgid "Accept Exit"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslacceptfailed
+msgid "Accept Failed"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslacceptloop
+msgid "Accept Loop"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslalert
+msgid "%s Alert"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslcertificatelookup
+msgid "SSL certificate request error."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslconnecterror
+msgid "Connect Error"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslconnectexit
+msgid "Connect Exit"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslconnectfailed
+msgid "Connect Failed"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslconnectiondropped
+msgid "SSL connection has dropped."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslconnectloop
+msgid "Connect Loop"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslcouldnotloadssllibrary
+msgid "Could not load SSL library."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslhandshakedone
+msgid "Handshake Done"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslhandshakestart
+msgid "Handshake Start"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslinternal
+msgid "SSL library internal error."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslmodenotset
+msgid "Mode has not been set."
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslreadalert
+msgid "%s Read Alert"
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslstatusstring
+msgid "SSL status: \"%s\""
+msgstr ""
+
+#: idresourcestringsopenssl.rsosslwritealert
+msgid "%s Write Alert"
+msgstr ""
+

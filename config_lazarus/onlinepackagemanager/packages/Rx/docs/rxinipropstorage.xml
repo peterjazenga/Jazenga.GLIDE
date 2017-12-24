@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxIniPropStorage"><short>Модуль содержит компонент для визуального сохранения данных формы</short><descr>Модуль содержит компонент для визуального сохранения данных формы</descr><element name="TRxIniPropStorage"><short>Компонент для визуального сохранения данных формы</short><descr><p>Компонент для визуального сохранения данных формы</p><p>Отличается от стандартного возможностью сохранения данных в разных конфигурационных файлах.</p><p>Если SeparateFiles = true, то данных сохраняется в индивидуальные файлы для каждой формы. Имя файла формируется по наименованию класса формы.</p>
+        </descr>
+      </element><element name="TRxIniPropStorage.SeparateFiles"><short>Признак хранения данных в индивидуальных файлах</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

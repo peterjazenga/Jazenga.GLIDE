@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":90311761,"name":"dav_audiofileau.rcstrnomagicfound","sourcebytes":[78,111,116,32,97,32,83,111,117,110,100,32,102,105,108,101,33],"value":"Not a Sound file!"},
+{"hash":75441425,"name":"dav_audiofileau.rcstrdatasizetoolarge","sourcebytes":[68,97,116,97,115,105,122,101,32,108,97,114,103,101,114,32,116,104,97,110,32,116,104,101,32,102,105,108,101,33],"value":"Datasize larger than the file!"}
+]}

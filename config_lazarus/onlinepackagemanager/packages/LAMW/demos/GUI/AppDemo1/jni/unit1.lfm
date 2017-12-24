@@ -1,0 +1,106 @@
+object AndroidModule1: TAndroidModule1
+  Left = 337
+  Top = 77
+  Width = 300
+  Height = 600
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  OnCreate = DataModuleCreate
+  Text = 'AndroidModule1'
+  ActivityMode = actSplash
+  BackgroundColor = colbrWhite
+  ActionBarTitle = abtDefault
+  OnCloseQuery = AndroidModule1CloseQuery
+  OnJNIPrompt = DataModuleJNIPrompt
+  OnClose = DataModuleClose
+  object jTextView1: jTextView
+    Left = 59
+    Top = 370
+    Width = 181
+    Height = 20
+    MarginLeft = 40
+    MarginTop = 40
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    Anchor = jImageView1
+    Id = 855478
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = [rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Powered by FPC/Lazarus/Lamw'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrMidnightBlue
+    FontSize = 0
+    TextTypeFace = tfNormal
+    FontSizeUnit = unitDefault
+  end
+  object jImageView1: jImageView
+    Left = 80
+    Top = 270
+    Width = 140
+    Height = 60
+    MarginLeft = 0
+    MarginTop = 0
+    MarginRight = 0
+    MarginBottom = 0
+    Visible = True
+    Id = 11952
+    PosRelativeToAnchor = []
+    PosRelativeToParent = [rpCenterInParent]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    ImageIndex = 0
+    Images = jImageList1
+    BackgroundColor = colbrDefault
+    ImageScaleType = scaleCenter
+  end
+  object jImageView2: jImageView
+    Left = 98
+    Top = 400
+    Width = 103
+    Height = 133
+    MarginLeft = 5
+    MarginTop = 5
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    Anchor = jTextView1
+    Id = 0
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = [rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    ImageIndex = 8
+    Images = jImageList1
+    BackgroundColor = colbrDefault
+    ImageScaleType = scaleFitCenter
+  end
+  object jTimer1: jTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = jTimer1Timer
+    left = 104
+    top = 128
+  end
+  object jImageList1: jImageList
+    Images.Strings = (
+      't1.png'
+      't2.png'
+      't3.png'
+      't4.png'
+      't5.png'
+      't6.png'
+      't7.png'
+      't8.png'
+      'lamw_logo1.png'
+    )
+    left = 184
+    top = 128
+  end
+end

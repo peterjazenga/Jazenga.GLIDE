@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rx_sort_zeos"><module name="exsortzeos"><short>Модуль содержит класс для сортировки данных, предоставляемых библиотекой ZEOS в RxDBGrid</short><element name="TZeosDataSetSortEngine"><short>Класс сортировки данных</short>
+      </element><element name="TZeosDataSetSortEngine.Sort"><short>Сортировка по одному полю</short>
+      </element><element name="TZeosDataSetSortEngine.SortList"><short>Сортировка по нескольким полям</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

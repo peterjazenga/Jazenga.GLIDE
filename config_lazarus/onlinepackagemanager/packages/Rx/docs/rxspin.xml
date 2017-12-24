@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="rxspin"><short>Модуль содержит</short><element name="TRxSpinEdit"><short>Строка ввода для работы с числовыми значениями с элементами управления</short>
+      </element><element name="TValueType"><short>Тип редактируемых значений</short><descr>vtInteger - число
+vtFloat - вещественное число
+vtHex - шестнадцатеричное число</descr>
+      </element><element name="TRxSpinEdit.AsInteger"><short>Значение в виде целого числа</short>
+      </element><element name="TRxSpinEdit.Alignment"><short>Выравнивание вводимых данных</short>
+      </element><element name="TRxSpinEdit.Decimal"><short>Кол-во десятичных знаков после запятой</short>
+      </element><element name="TRxSpinEdit.Increment"><short>Приращение при нажатии кнопок</short>
+      </element><element name="TRxSpinEdit.MaxValue"><short>Максимальное значение</short>
+      </element><element name="TRxSpinEdit.MinValue"><short>Минимальное значение</short>
+      </element><element name="TRxSpinEdit.ValueType"><short> Тип данных</short>
+      </element><element name="TRxSpinEdit.Value"><short>Значение</short>
+      </element><element name="TRxSpinEdit.OnBottomClick"><short>Событие возникает при нажатии кнопки вниз</short>
+      </element><element name="TRxSpinEdit.OnTopClick"><short>Событие возникает при нажатии кнопки вверх</short>
+      </element>
+    <element name="TRxSpinEdit.ArrowKeys"><short>Признак изменения значения с помщью клавиш Вверх и Вниз</short>
+      </element><element name="TRxSpinEdit.EditorEnabled"><short>Признак разрешения изменения значений прямым вводом с клавиатуры</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

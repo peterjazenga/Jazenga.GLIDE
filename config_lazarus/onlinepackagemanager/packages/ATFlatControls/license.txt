@@ -1,0 +1,2 @@
+This code is MPL 2.0 or LGPL licensed.
+Copyright (C) Alexey Torgashin (UVviewsoft.com)

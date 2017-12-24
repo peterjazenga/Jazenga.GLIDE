@@ -1,0 +1,19 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: jinputconsts.sinvaliddate
+msgid "%s is not a valid date"
+msgstr "%s no es una fecha válida"
+
+#: jinputconsts.sinvaliddatetime
+msgid "%s is not a valid date-time"
+msgstr "%s no es una fecha-hora válida"
+
+#: jinputconsts.sinvalidnumber
+msgid "%s is not a valid number"
+msgstr "%s no es un número válido"
+
+#: jinputconsts.sinvalidtime
+msgid "%s is not a valid time"
+msgstr "%s no es una hora válida"
+

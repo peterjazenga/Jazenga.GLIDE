@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <EnvironmentOptions>
+    <Version Value="110" Lazarus="1.9.0"/>
+    <Language ID="en"/>
+    <FormEditor>
+      <Rubberband>
+        <SelectionColor Value="8388608"/>
+        <CreationColor Value="128"/>
+      </Rubberband>
+    </FormEditor>
+    <LazarusDirectory Value="..\lazarus">
+      <History Count="2">
+        <Item1 Value="..\lazarus\"/>
+        <Item2 Value="C:\fpcupdeluxe\lazarus\"/>
+      </History>
+    </LazarusDirectory>
+    <CompilerFilename Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe">
+      <History Count="4">
+        <Item1 Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe"/>
+        <Item2 Value="C:\fpc\3.0.4\bin\x86_64-win64\fpc.exe"/>
+        <Item3 Value="C:\fpcupdeluxe\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe"/>
+        <Item4 Value="$(CompPath)"/>
+      </History>
+    </CompilerFilename>
+    <FPCSourceDirectory Value="C:\fpcupdeluxe\fpcsrc">
+      <History Count="1">
+        <Item1 Value="C:\fpcupdeluxe\fpcsrc"/>
+      </History>
+    </FPCSourceDirectory>
+    <MakeFilename Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\make.exe">
+      <History Count="3">
+        <Item1 Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\make.exe"/>
+        <Item2 Value="C:\fpc\3.0.4\bin\x86_64-win64\make.exe"/>
+        <Item3 Value="C:\fpcupdeluxe\lazarus\fpc\3.0.4\bin\x86_64-win64\make.exe"/>
+      </History>
+    </MakeFilename>
+    <TestBuildDirectory Value="C:\fpcupdeluxe\projects\">
+      <History Count="3">
+        <Item1 Value="C:\fpcupdeluxe\projects\"/>
+        <Item2 Value="C:\Windows\Temp\"/>
+        <Item3 Value="C:\Users\Public\Documents"/>
+      </History>
+    </TestBuildDirectory>
+    <LastCalledByLazarusFullPath Value="C:\fpcupdeluxe\lazarus\lazarus.exe"/>
+    <Debugger Class="TGDBMIDebugger">
+      <WatchesDlg ColumnNameWidth="-1" ColumnValueWidth="-1"/>
+      <CallStackDlg ViewCount="0"/>
+    </Debugger>
+    <DebuggerFilename Value="C:\fpcupdeluxe\fpcbootstrap\gdb\$(TargetCPU)-$(TargetOS)\gdb.exe"/>
+    <Recent AlreadyPopulated="True">
+      <OpenFiles Count="10">
+        <Item1 Value="C:\fpcupdeluxe\fpcsrc\utils\debugsvr\console\debugserver.pp"/>
+        <Item2 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcres\fpcres.pas"/>
+        <Item3 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcmkcfg\fpmake.pp"/>
+        <Item4 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcmkcfg\fpcmkcfg.pp"/>
+        <Item5 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\getrev.pp"/>
+        <Item6 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\fpcmpkg.pp"/>
+        <Item7 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\fpcmdic.pp"/>
+        <Item8 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\fpcmake.pp"/>
+        <Item9 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\fpmake.pp"/>
+        <Item10 Value="C:\fpcupdeluxe\fpcsrc\utils\dxegen\dxegen.pp"/>
+      </OpenFiles>
+      <ProjectFiles Count="5">
+        <Item1 Value="C:\fpcupdeluxe\lazarus\tools\jsonviewer\jsonviewer.lpi"/>
+        <Item2 Value="C:\fpcupdeluxe\lazarus\doceditor\fpdocupdater\fpdocupdater.lpi"/>
+        <Item3 Value="C:\fpcupdeluxe\lazarus\doceditor\lazde.lpi"/>
+        <Item4 Value="C:\fpcupdeluxe\lazarus\tools\apiwizz\apiwizz.lpi"/>
+        <Item5 Value="C:\fpcupdeluxe\lazarus\tools\chmmaker\chmmaker.lpi"/>
+      </ProjectFiles>
+      <PackageFiles Count="10">
+        <Item1 Value="C:\fpcupdeluxe\lazarus\components\pas2js\src\rtl\pas2js_rtl.lpk"/>
+        <Item2 Value="C:\fpcupdeluxe\lazarus\components\pas2js\src\packages\fpcunit\fpcunit_pas2js.lpk"/>
+        <Item3 Value="C:\fpcupdeluxe\lazarus\components\pas2js\src\packages\fcl-base\fcl_base_pas2js.lpk"/>
+        <Item4 Value="C:\fpcupdeluxe\lazarus\components\googleapis\lazgoogleapis.lpk"/>
+        <Item5 Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_indy.lpk"/>
+        <Item6 Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_fcltransport.lpk"/>
+        <Item7 Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_design.lpk"/>
+        <Item8 Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_core.lpk"/>
+        <Item9 Value="C:\fpcupdeluxe\lazarus\components\pas2js\src\packages\fcl-db\pas2js_fcldb.lpk"/>
+        <Item10 Value="C:\fpcupdeluxe\lazarus\components\pas2js\pas2jsdsgn.lpk"/>
+      </PackageFiles>
+    </Recent>
+    <ExternalTools Version="3"/>
+    <LazDoc Paths="C:\fpcupdeluxe\lazarus\docs\xml"/>
+    <CompilerMessagesFilename>
+      <History Count="1">
+        <Item2 Value="$(FPCSrcDir)\compiler\msg\errordu.msg"/>
+        <Item1 Value="$(FPCSrcDir)\compiler\msg\errordu.msg"/>
+      </History>
+    </CompilerMessagesFilename>
+    <AutoSave LastSavedProjectFile="C:\fpcupdeluxe\lazarus\tools\jsonviewer\jsonviewer.lpi"/>
+  </EnvironmentOptions>
+  <ObjectInspectorOptions ShowHints="False" InfoBoxHeight="50">
+    <Version Value="3"/>
+  </ObjectInspectorOptions>
+  <Desktops Count="1" ActiveDesktop="default">
+    <Desktop1 Name="default">
+      <Desktop Version="2" FormIdCount="59">
+        <FormIdList a1="MessagesView" a2="MainIDE" a3="SourceNotebook" a4="ProjectInspector" a5="ProjectGroupEditor" a6="ObjectInspectorDlg" a7="CodeExplorerView" a8="PackageEditor_LCL" a9="PackageEditor_FPCUnitTestRunner" a10="PackageEditor_fcl_base_pas2js" a11="PackageEditor_pas2js_rtl" a12="PackageEditor_fpcunit_pas2js" a13="PackageEditor_lazgoogleapis" a14="PackageEditor_wst_indy" a15="PackageEditor_wst_fcltransport" a16="PackageEditor_wst_design" a17="PackageEditor_wst_core" a18="PkgGraphExplorer" a19="PackageEditor_pas2js_fcldb" a20="PackageEditor_Pas2JSDsgn" a21="PackageEditor_wst_synapse" a22="PackageEditor_exdatabase" a23="PackageEditor_pckZeosConn" a24="PackageEditor_zcomponent" a25="PackageEditor_lazdbexport" a26="PackageEditor_LR_SqlDB" a27="PackageEditor_rx" a28="PackageEditor_JumpToImplementation" a29="PackageEditor_laz_synapse40_1" a30="PackageEditor_pckUCDataConnector" a31="PackageEditor_OnlinePackageManager" a32="PackageEditor_frce" a33="PackageEditor_fortes324forlaz" a34="PackageEditor_plot" a35="PackageEditor_JvCoreLazR" a36="Watches" a37="BreakPoints" a38="Locals" a39="CallStack" a40="EvaluateModify" a41="Registers" a42="Assembler" a43="DbgOutput" a44="Inspect" a45="DbgEvents" a46="PseudoTerminal" a47="Threads" a48="DbgHistory" a49="UnitDependencies" a50="FPDocEditor" a51="ClipBrdHistory" a52="EditorFileManager" a53="SearchResults" a54="AnchorEditor" a55="TabOrderEditor" a56="CodeBrowser" a57="IssueBrowser" a58="JumpHistory" a59="ComponentList"/>
+      </Desktop>
+      <MessagesView>
+        <Caption Value="MessagesView"/>
+        <CustomPosition Left="250" Top="683" Width="1593" Height="295"/>
+        <Visible Value="True"/>
+      </MessagesView>
+      <MainIDE>
+        <Caption Value="MainIDE"/>
+        <CustomPosition Width="1022" Height="78"/>
+        <WindowState Value="Maximized"/>
+        <Visible Value="True"/>
+      </MainIDE>
+      <SourceNotebook>
+        <Caption Value="SourceNotebook"/>
+        <CustomPosition Left="604" Top="104" Width="1020" Height="694"/>
+        <Visible Value="True"/>
+      </SourceNotebook>
+      <ProjectInspector>
+        <Caption Value="ProjectInspector"/>
+        <CustomPosition Left="203" Top="152" Width="300" Height="400"/>
+        <Visible Value="True"/>
+      </ProjectInspector>
+      <ProjectGroupEditor>
+        <CustomPosition Left="360" Top="270" Width="360" Height="360"/>
+      </ProjectGroupEditor>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Left="9" Top="105" Width="338" Height="825"/>
+        <Visible Value="True"/>
+      </ObjectInspectorDlg>
+      <CodeExplorerView>
+        <Caption Value="CodeExplorerView"/>
+        <CustomPosition Left="1496" Top="105" Width="410" Height="638"/>
+        <Visible Value="True"/>
+      </CodeExplorerView>
+      <PackageEditor_LCL>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_LCL>
+      <PackageEditor_FPCUnitTestRunner>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_FPCUnitTestRunner>
+      <PackageEditor_fcl_base_pas2js>
+        <Caption Value="PackageEditor_fcl_base_pas2js"/>
+        <CustomPosition Left="603" Top="394" Width="464" Height="455"/>
+      </PackageEditor_fcl_base_pas2js>
+      <PackageEditor_pas2js_rtl>
+        <Caption Value="PackageEditor_pas2js_rtl"/>
+        <CustomPosition Left="847" Top="109" Width="464" Height="455"/>
+      </PackageEditor_pas2js_rtl>
+      <PackageEditor_fpcunit_pas2js>
+        <Caption Value="PackageEditor_fpcunit_pas2js"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_fpcunit_pas2js>
+      <PackageEditor_lazgoogleapis>
+        <Caption Value="PackageEditor_lazgoogleapis"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="714"/>
+      </PackageEditor_lazgoogleapis>
+      <PackageEditor_wst_indy>
+        <Caption Value="PackageEditor_wst_indy"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_wst_indy>
+      <PackageEditor_wst_fcltransport>
+        <Caption Value="PackageEditor_wst_fcltransport"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_wst_fcltransport>
+      <PackageEditor_wst_design>
+        <Caption Value="PackageEditor_wst_design"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_wst_design>
+      <PackageEditor_wst_core>
+        <Caption Value="PackageEditor_wst_core"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_wst_core>
+      <PkgGraphExplorer>
+        <Caption Value="PkgGraphExplorer"/>
+        <WindowState Value="Maximized"/>
+      </PkgGraphExplorer>
+      <PackageEditor_pas2js_fcldb>
+        <Caption Value="PackageEditor_pas2js_fcldb"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_pas2js_fcldb>
+      <PackageEditor_Pas2JSDsgn>
+        <Caption Value="PackageEditor_Pas2JSDsgn"/>
+        <CustomPosition Left="454" Top="144" Width="464" Height="455"/>
+      </PackageEditor_Pas2JSDsgn>
+      <PackageEditor_wst_synapse>
+        <Caption Value="PackageEditor_wst_synapse"/>
+        <CustomPosition Left="974" Top="209" Width="464" Height="455"/>
+      </PackageEditor_wst_synapse>
+      <PackageEditor_exdatabase>
+        <Caption Value="PackageEditor_exdatabase"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_exdatabase>
+      <PackageEditor_pckZeosConn>
+        <Caption Value="PackageEditor_pckZeosConn"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_pckZeosConn>
+      <PackageEditor_zcomponent>
+        <Caption Value="PackageEditor_zcomponent"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_zcomponent>
+      <PackageEditor_lazdbexport>
+        <Caption Value="PackageEditor_lazdbexport"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_lazdbexport>
+      <PackageEditor_LR_SqlDB>
+        <Caption Value="PackageEditor_LR_SqlDB"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_LR_SqlDB>
+      <PackageEditor_rx>
+        <Caption Value="PackageEditor_rx"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_rx>
+      <PackageEditor_JumpToImplementation>
+        <Caption Value="PackageEditor_JumpToImplementation"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_JumpToImplementation>
+      <PackageEditor_laz_synapse40_1>
+        <Caption Value="PackageEditor_laz_synapse40_1"/>
+        <CustomPosition Left="250" Top="200" Width="692" Height="455"/>
+      </PackageEditor_laz_synapse40_1>
+      <PackageEditor_pckUCDataConnector>
+        <Caption Value="PackageEditor_pckUCDataConnector"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_pckUCDataConnector>
+      <PackageEditor_OnlinePackageManager>
+        <Caption Value="PackageEditor_OnlinePackageManager"/>
+        <CustomPosition Left="680" Top="131" Width="464" Height="655"/>
+      </PackageEditor_OnlinePackageManager>
+      <PackageEditor_frce>
+        <Caption Value="PackageEditor_frce"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_frce>
+      <PackageEditor_fortes324forlaz>
+        <Caption Value="PackageEditor_fortes324forlaz"/>
+        <CustomPosition Left="1190" Top="154" Width="594" Height="583"/>
+      </PackageEditor_fortes324forlaz>
+      <PackageEditor_plot>
+        <Caption Value="PackageEditor_plot"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_plot>
+      <PackageEditor_JvCoreLazR>
+        <Caption Value="PackageEditor_JvCoreLazR"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_JvCoreLazR>
+      <Watches>
+        <Caption Value="Watches"/>
+      </Watches>
+      <BreakPoints>
+        <Caption Value="BreakPoints"/>
+      </BreakPoints>
+      <Locals>
+        <Caption Value="Locals"/>
+      </Locals>
+      <CallStack>
+        <Caption Value="CallStack"/>
+      </CallStack>
+      <EvaluateModify>
+        <Caption Value="EvaluateModify"/>
+      </EvaluateModify>
+      <Registers>
+        <Caption Value="Registers"/>
+      </Registers>
+      <Assembler>
+        <Caption Value="Assembler"/>
+      </Assembler>
+      <DbgOutput>
+        <Caption Value="DbgOutput"/>
+      </DbgOutput>
+      <Inspect>
+        <Caption Value="Inspect"/>
+      </Inspect>
+      <DbgEvents>
+        <Caption Value="DbgEvents"/>
+      </DbgEvents>
+      <PseudoTerminal>
+        <Caption Value="PseudoTerminal"/>
+      </PseudoTerminal>
+      <Threads>
+        <Caption Value="Threads"/>
+      </Threads>
+      <DbgHistory>
+        <Caption Value="DbgHistory"/>
+      </DbgHistory>
+      <UnitDependencies>
+        <Caption Value="UnitDependencies"/>
+      </UnitDependencies>
+      <FPDocEditor>
+        <Caption Value="FPDocEditor"/>
+      </FPDocEditor>
+      <ClipBrdHistory>
+        <Caption Value="ClipBrdHistory"/>
+      </ClipBrdHistory>
+      <EditorFileManager>
+        <Caption Value="EditorFileManager"/>
+      </EditorFileManager>
+      <SearchResults>
+        <Caption Value="SearchResults"/>
+      </SearchResults>
+      <AnchorEditor>
+        <Caption Value="AnchorEditor"/>
+      </AnchorEditor>
+      <TabOrderEditor>
+        <Caption Value="TabOrderEditor"/>
+      </TabOrderEditor>
+      <CodeBrowser>
+        <Caption Value="CodeBrowser"/>
+      </CodeBrowser>
+      <IssueBrowser>
+        <Caption Value="IssueBrowser"/>
+      </IssueBrowser>
+      <JumpHistory>
+        <Caption Value="JumpHistory"/>
+      </JumpHistory>
+      <ComponentList>
+        <Caption Value="ComponentList"/>
+      </ComponentList>
+      <Dialogs Count="9">
+        <Dialog1>
+          <Name Value="TLazFindInFilesDialog"/>
+          <Size Width="0" Height="0"/>
+        </Dialog1>
+        <Dialog2>
+          <Name Value="TLazFindReplaceDialog"/>
+          <Size Width="487" Height="367"/>
+        </Dialog2>
+        <Dialog3>
+          <Name Value="TInstallPkgSetDialog"/>
+          <Size Width="813" Height="916"/>
+        </Dialog3>
+        <Dialog4>
+          <Name Value="TIDEFPCInfoDialog"/>
+          <Size Width="700" Height="450"/>
+        </Dialog4>
+        <Dialog5>
+          <Name Value="TIDEInfoDialog"/>
+          <Size Width="700" Height="450"/>
+        </Dialog5>
+        <Dialog6>
+          <Name Value="TOpenLoadedPackagesDlg"/>
+          <Size Width="861" Height="628"/>
+        </Dialog6>
+        <Dialog7>
+          <Name Value="TIDEOptionsDialog"/>
+          <Size Width="800" Height="500"/>
+        </Dialog7>
+        <Dialog8>
+          <Name Value="TViewUnitDialog"/>
+          <Size Width="450" Height="300"/>
+        </Dialog8>
+        <Dialog9>
+          <Name Value="TCheckLFMDialog"/>
+          <Size Width="600" Height="400"/>
+        </Dialog9>
+      </Dialogs>
+      <IDECoolBarOptions Count="2">
+        <Width Value="250"/>
+        <ToolBar1 Version="1" Count="12">
+          <Button1 Name="NewUnit"/>
+          <Button2 Name="NewForm"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Open"/>
+          <Button5 Name="Save"/>
+          <Button6 Name="SaveAll"/>
+          <Button7 Name="---------------"/>
+          <Button8 Name="Toggle between Unit and Form"/>
+          <Button9 Name="---------------"/>
+          <Button10 Name="Find in files"/>
+          <Button11 Name="General environment options"/>
+          <Button12 Name="View project options"/>
+        </ToolBar1>
+        <ToolBar2 Version="1" Count="11">
+          <Break Value="True"/>
+          <Button1 Name="View Units"/>
+          <Button2 Name="View Forms"/>
+          <Button3 Name="---------------"/>
+          <Button4 Name="Change build mode"/>
+          <Button5 Name="Run without debugging"/>
+          <Button6 Name="Run program"/>
+          <Button7 Name="Pause program"/>
+          <Button8 Name="Stop program"/>
+          <Button9 Name="Step over"/>
+          <Button10 Name="Step into"/>
+          <Button11 Name="Step out"/>
+        </ToolBar2>
+      </IDECoolBarOptions>
+      <EditorToolBarOptions Version="1" Count="4">
+        <Button1 Name="Jump to Implementation"/>
+        <Button2 Name="Jump back"/>
+        <Button3 Name="Jump forward"/>
+        <Button4 Name="---------------"/>
+      </EditorToolBarOptions>
+      <ComponentPaletteOptions>
+        <Pages Count="115">
+          <Item1 Value="Standard"/>
+          <Item2 Value="Additional"/>
+          <Item3 Value="Common Controls"/>
+          <Item4 Value="Dialogs"/>
+          <Item5 Value="Data Controls"/>
+          <Item6 Value="SQLdb"/>
+          <Item7 Value="Data Access"/>
+          <Item8 Value="System"/>
+          <Item9 Value="Misc"/>
+          <Item10 Value="Castle"/>
+          <Item11 Value="Google API"/>
+          <Item12 Value="Android Bridges"/>
+          <Item13 Value="Android Bridges Extra"/>
+          <Item14 Value="Abbrevia"/>
+          <Item15 Value="Barcodes"/>
+          <Item16 Value="Ceos"/>
+          <Item17 Value="Other"/>
+          <Item18 Value="DCPciphers"/>
+          <Item19 Value="DCPhashes"/>
+          <Item20 Value="Samples"/>
+          <Item21 Value="AR"/>
+          <Item22 Value="JujiboDB"/>
+          <Item23 Value="Jujibo"/>
+          <Item24 Value="KASComponents"/>
+          <Item25 Value="OpenGL"/>
+          <Item26 Value="LazSerial"/>
+          <Item27 Value="Multimedia"/>
+          <Item28 Value="mbColor Lib"/>
+          <Item29 Value="MultiLog"/>
+          <Item30 Value="PowerPdf"/>
+          <Item31 Value="Pascal Script"/>
+          <Item32 Value="Wile64"/>
+          <Item33 Value="Extra"/>
+          <Item34 Value="Python"/>
+          <Item35 Value="5dpo"/>
+          <Item36 Value="SMACE"/>
+          <Item37 Value="SeksiCmd"/>
+          <Item38 Value="BGRA Controls FX"/>
+          <Item39 Value="BGRA Controls"/>
+          <Item40 Value="OpenGPSX"/>
+          <Item41 Value="UC Connectors"/>
+          <Item42 Value="uEControls"/>
+          <Item43 Value="AggPas"/>
+          <Item44 Value="ASIO/VST Basics"/>
+          <Item45 Value="ASIO/VST DSP"/>
+          <Item46 Value="ASIO/VST GUI"/>
+          <Item47 Value="ASIO/VST GUI Stitched"/>
+          <Item48 Value="ASIO/VST Modular"/>
+          <Item49 Value="Astronomy"/>
+          <Item50 Value="BGRA Custom Drawn"/>
+          <Item51 Value="BGRA Games"/>
+          <Item52 Value="Cindy Base"/>
+          <Item53 Value="Cindy Non-Visual"/>
+          <Item54 Value="Cindy Data Visual"/>
+          <Item55 Value="Cindy Data Non-Visual"/>
+          <Item56 Value="LazControls"/>
+          <Item57 Value="DragDrop"/>
+          <Item58 Value="EC-C"/>
+          <Item59 Value="Extra Compress"/>
+          <Item60 Value="Extra Controls 1"/>
+          <Item61 Value="Extra Controls 2"/>
+          <Item62 Value="Extra Database"/>
+          <Item63 Value="Extra Design"/>
+          <Item64 Value="HtmlViewer/FrameViewer"/>
+          <Item65 Value="Fortes Report"/>
+          <Item66 Value="Graphics32 Base"/>
+          <Item67 Value="Industrial"/>
+          <Item68 Value="Indy Clients Protocols (am)"/>
+          <Item69 Value="Indy Clients Protocols (nz)"/>
+          <Item70 Value="Indy Servers Protocols (am)"/>
+          <Item71 Value="Indy Servers Protocols (nz)"/>
+          <Item72 Value="Indy Servers Mapped Port"/>
+          <Item73 Value="Indy Intercepts Protocols"/>
+          <Item74 Value="Indy SASL Protocols"/>
+          <Item75 Value="Indy I/O Handlers Protocols"/>
+          <Item76 Value="Indy Misc Protocols"/>
+          <Item77 Value="Indy Misc Protocols Encoder"/>
+          <Item78 Value="Indy Misc Protocols Decoder"/>
+          <Item79 Value="Indy Clients - Core"/>
+          <Item80 Value="Indy Servers - Core"/>
+          <Item81 Value="Indy I/O Handlers - Core"/>
+          <Item82 Value="Indy Intercepts - Core"/>
+          <Item83 Value="Indy Misc - Core"/>
+          <Item84 Value="ActiveX"/>
+          <Item85 Value="LazReport"/>
+          <Item86 Value="RichView"/>
+          <Item87 Value="lNet"/>
+          <Item88 Value="LockBox"/>
+          <Item89 Value="MyWidgets"/>
+          <Item90 Value="OpenWire"/>
+          <Item91 Value="PascalSCADA Ports"/>
+          <Item92 Value="PascalSCADA Protocols"/>
+          <Item93 Value="PascalSCADA Utils"/>
+          <Item94 Value="PascalSCADA Tags"/>
+          <Item95 Value="UC Main"/>
+          <Item96 Value="RTTI"/>
+          <Item97 Value="RX Controls"/>
+          <Item98 Value="RX Tools"/>
+          <Item99 Value="SpkToolbar"/>
+          <Item100 Value="SynEdit"/>
+          <Item101 Value="Chart"/>
+          <Item102 Value="OnGuard"/>
+          <Item103 Value="IPro"/>
+          <Item104 Value="Virtual Controls"/>
+          <Item105 Value="Graphics32 Extra"/>
+          <Item106 Value="TK"/>
+          <Item107 Value="FPSpreadsheet"/>
+          <Item108 Value="PascalSCADA HCl"/>
+          <Item109 Value="PascalSCADA User Management"/>
+          <Item110 Value="fpWeb"/>
+          <Item111 Value="PascalSCADA Database"/>
+          <Item112 Value="PascalSCADA - FreePascal"/>
+          <Item113 Value="Data Export"/>
+          <Item114 Value="RX DBAware"/>
+          <Item115 Value="Zeos Access"/>
+        </Pages>
+        <ComponentPages Count="2">
+          <Page1 Value="Data Access">
+            <Components Count="21">
+              <Item1 Value="TDataSource"/>
+              <Item2 Value="TBufDataset"/>
+              <Item3 Value="TSdfDataSet"/>
+              <Item4 Value="TFixedFormatDataSet"/>
+              <Item5 Value="TDbf"/>
+              <Item6 Value="TMemDataset"/>
+              <Item7 Value="TFPCodeGenerator"/>
+              <Item8 Value="TZConnection"/>
+              <Item9 Value="TZReadOnlyQuery"/>
+              <Item10 Value="TZQuery"/>
+              <Item11 Value="TZTable"/>
+              <Item12 Value="TZUpdateSQL"/>
+              <Item13 Value="TZConnectionGroup"/>
+              <Item14 Value="TZGroupedConnection"/>
+              <Item15 Value="TZStoredProc"/>
+              <Item16 Value="TZSQLMetadata"/>
+              <Item17 Value="TZSQLProcessor"/>
+              <Item18 Value="TZSQLMonitor"/>
+              <Item19 Value="TZSequence"/>
+              <Item20 Value="TZIBEventAlerter"/>
+              <Item21 Value="TZPgEventAlerter"/>
+            </Components>
+          </Page1>
+          <Page2 Value="Zeos Access"/>
+        </ComponentPages>
+      </ComponentPaletteOptions>
+    </Desktop1>
+  </Desktops>
+</CONFIG>

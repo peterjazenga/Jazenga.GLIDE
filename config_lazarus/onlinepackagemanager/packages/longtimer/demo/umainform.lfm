@@ -1,0 +1,187 @@
+object mainform: Tmainform
+  Left = 1050
+  Height = 264
+  Top = 186
+  Width = 437
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Application Title'
+  ClientHeight = 264
+  ClientWidth = 437
+  DefaultMonitor = dmPrimary
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object cmd_Close: TBitBtn
+    Left = 104
+    Height = 30
+    Top = 224
+    Width = 75
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 0
+  end
+  object memo_ReportTimerEvent: TMemo
+    Left = 192
+    Height = 240
+    Top = 8
+    Width = 232
+    Lines.Strings = (
+      'Memo1'
+    )
+    ReadOnly = True
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+  end
+  object cmd_StopTimer: TButton
+    Left = 16
+    Height = 25
+    Top = 197
+    Width = 75
+    Caption = 'Stop Timer'
+    OnClick = cmd_StopTimerClick
+    TabOrder = 2
+  end
+  object cmd_StartTimer: TButton
+    Left = 104
+    Height = 25
+    Top = 197
+    Width = 75
+    Caption = 'Start Timer'
+    OnClick = cmd_StartTimerClick
+    TabOrder = 3
+  end
+  object crp_SetTimer: TGroupBox
+    Left = 8
+    Height = 176
+    Top = 8
+    Width = 184
+    Caption = 'Set up LongTimer'
+    ClientHeight = 156
+    ClientWidth = 180
+    TabOrder = 4
+    object Label1: TLabel
+      Left = 16
+      Height = 15
+      Top = 16
+      Width = 28
+      Caption = 'Every'
+      ParentColor = False
+    end
+    object cmb_IntervalType: TComboBox
+      Left = 72
+      Height = 23
+      Top = 16
+      Width = 100
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'Day'
+        'Week'
+        'Month'
+      )
+      OnChange = cmb_IntervalTypeChange
+      Style = csDropDownList
+      TabOrder = 0
+      Text = 'Day'
+    end
+    object Label3: TLabel
+      Left = 0
+      Height = 15
+      Top = 48
+      Width = 61
+      Caption = 'Day or Date'
+      ParentColor = False
+    end
+    object cmb_weekordate: TComboBox
+      Left = 72
+      Height = 23
+      Top = 44
+      Width = 100
+      Enabled = False
+      ItemHeight = 15
+      OnChange = cmb_weekordateChange
+      Style = csDropDownList
+      TabOrder = 1
+    end
+    object Label2: TLabel
+      Left = 0
+      Height = 15
+      Top = 88
+      Width = 61
+      Caption = 'Time (24hr)'
+      ParentColor = False
+    end
+    object cmb_Daily24Hour: TComboBox
+      Left = 72
+      Height = 23
+      Top = 88
+      Width = 100
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'Midnight'
+      )
+      OnChange = cmb_Daily24HourChange
+      Style = csDropDownList
+      TabOrder = 2
+      Text = 'Midnight'
+    end
+    object cmb_SampleInterval: TComboBox
+      Left = 48
+      Height = 23
+      Top = 128
+      Width = 124
+      ItemHeight = 15
+      OnChange = cmb_SampleIntervalChange
+      Style = csDropDownList
+      TabOrder = 3
+    end
+    object Label4: TLabel
+      Left = 0
+      Height = 15
+      Top = 128
+      Width = 39
+      Caption = 'Sample'
+      ParentColor = False
+    end
+  end
+  object cmd_clearmemo: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 224
+    Width = 75
+    Caption = 'Clear'
+    Kind = bkCancel
+    ModalResult = 2
+    OnClick = cmd_clearmemoClick
+    TabOrder = 5
+  end
+  object LongTimer1: TLongTimer
+    About.Description.Strings = (
+      'LongTimer is a descendent of TIdleTimer'#13#10'and shares its properties and methods.'#13#10#13#10'Additional properties affect when the'#13#10'OnTimer event is fired.'#13#10#13#10'With LongTimer, the OnTimer event'#13#10'will be fired only ONCE - every time'#13#10'the interval that you set is reached.'
+    )
+    About.Title = 'About TLongTimer Component'
+    About.Height = 380
+    About.Width = 320
+    About.Font.Color = clNavy
+    About.Font.Height = -13
+    About.BackGroundColor = clWindow
+    About.Version = '0.0.1'
+    About.Authorname = 'Gordon Bamber'
+    About.Organisation = 'Public Domain'
+    About.AuthorEmail = 'minesadorada@charcodelvalle.com'
+    About.ComponentName = 'TLongTimer'
+    About.LicenseType = abLGPL
+    Enabled = False
+    OnTimer = LongTimer1Timer
+    OnStartTimer = LongTimer1StartTimer
+    OnStopTimer = LongTimer1StopTimer
+    Daily24Hour = 0
+    WeeklyDay = lt3Wednesday
+    OnSample = LongTimer1Sample
+    left = 8
+    top = 8
+  end
+end

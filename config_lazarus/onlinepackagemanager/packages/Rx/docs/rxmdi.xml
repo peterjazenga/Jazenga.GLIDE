@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+  <package name="rxnew">
+    <module name="RxMDI">
+      <element name="TRxMDIButton.DoActivateMenu"/>
+      <element name="TRxMDIButton">
+         <short>Кнопка на панели задач компонентов MDI</short>
+         <descr>Кнопка предназначена для управления окнами</descr>
+      </element>
+      <element name="TRxMDIButton.NavForm">
+        <short>Указатель на связанное с кнопкой окно</short>
+        <descr>Указатель на связанное с кнопкой окно</descr>
+      </element>
+      <element name="TRxMDIPanel">
+        <short>Основаня панель для управления окнами в режиме MDI</short>
+      </element>
+      <element name="TRxMDIPanel.CloseButton">
+        <short>Указатель на кнопку закрвтия MDI окон</short>
+      </element>
+      <element name="TRxMDIPanel.TaskPanel">
+        <short>Указатель на панель задач для MDI окон</short>
+      </element>
+      <element name="TRxMDIPanel.CloseAll">
+        <short>Закрыть все окна</short>
+      </element>
+      <element name="TRxMDIPanel.ShowWindow">
+        <short>Переключить в указанную MDI форму</short><descr>Переключить в указанную MDI форму</descr>
+      </element>
+      <element name="TRxMDIPanel.ChildWindowsAdd">
+        <short>Добавить указанную форму в список MDI</short><descr>Добавить указанную форму в список MDI</descr>
+      </element>
+      <element name="TRxMDIPanel.ChildWindowsCreate"><short>Создать экземпляр MDI формы</short><descr><p>Создать экземпляр указнной MDI формы, вставить в список форм и сделать активной</p><p>В случае, если указанный экземпляр существет, то форма просто активируется</p>
+        </descr>
+      </element><element name="TRxMDICloseButton"><short>Кнопка закрытия MDI окна</short>
+      </element>
+    <element name="TRxMDITasks"><short>Панель задач MDI режима</short><descr><p>Панель задач MDI режима</p><p>Содержит список кнопок для управления открытыми MDI окнами</p>
+        </descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,3 @@
+{"version":1,"strings":[
+{"hash":168299473,"name":"dav_sampleratesource.rcstrinvalidsamplerate","sourcebytes":[83,97,109,112,108,101,82,97,116,101,32,109,117,115,116,32,98,101,32,108,97,114,103,101,114,32,116,104,97,110,32,48,33],"value":"SampleRate must be larger than 0!"}
+]}

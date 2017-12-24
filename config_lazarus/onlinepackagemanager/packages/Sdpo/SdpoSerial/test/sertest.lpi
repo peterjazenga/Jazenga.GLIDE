@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SdpoSerialLaz"/>
+        <MinVersion Minor="1" Release="1" Valid="True"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="sertest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SerTest"/>
+        <CursorPos X="16" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="24"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <CursorPos X="36" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../share/fpcsrc/rtl/netwlibc/libc.pp"/>
+        <UnitName Value="libc"/>
+        <CursorPos X="27" Y="6443"/>
+        <TopLine Value="6416"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../sdposerial.pas"/>
+        <UnitName Value="SdpoSerial"/>
+        <CursorPos X="20" Y="303"/>
+        <TopLine Value="283"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../SdpoVideo1394/sdpovideo1394.pas"/>
+        <UnitName Value="SdpoVideo1394"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <Bookmarks Count="1">
+          <Item0 X="42" Y="641" ID="1"/>
+        </Bookmarks>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../share/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <CursorPos X="24" Y="1234"/>
+        <TopLine Value="1189"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../share/fpcsrc/rtl/unix/tthread.inc"/>
+        <CursorPos X="3" Y="254"/>
+        <TopLine Value="217"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../synaser.pas"/>
+        <UnitName Value="synaser"/>
+        <CursorPos X="18" Y="340"/>
+        <TopLine Value="322"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../synafpc.pas"/>
+        <UnitName Value="synafpc"/>
+        <CursorPos X="16" Y="69"/>
+        <TopLine Value="41"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../SdpoVideo4L2/sdpovideo4l2.pas"/>
+        <UnitName Value="SdpoVideo4L2"/>
+        <CursorPos X="43" Y="470"/>
+        <TopLine Value="469"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="268" Column="56" TopLine="256"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="277" Column="56" TopLine="256"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="296" Column="56" TopLine="284"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="305" Column="56" TopLine="284"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="90" Column="14" TopLine="78"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="287" Column="24" TopLine="274"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="143" Column="41" TopLine="127"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="47" Column="15" TopLine="35"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="197" Column="20" TopLine="189"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="196" Column="7" TopLine="189"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../sdposerial.pas"/>
+        <Caret Line="143" Column="68" TopLine="120"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

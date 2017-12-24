@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew">
+    <module name="rxlookup">
+      <element name="TRxLookupEdit">
+        <short>TRxLookupEdit Component</short>
+        <descr>
+          <p>Компонента TRxLookupEdit представляет собой редактор с возможностью как прямого ввода текста пользователем в строке редактирования, так и выбора текста из выпадающего списка, заполняемого значениями из базы данных. При открытом списке набор пользователем символов с клавиатуры приводит к позиционированию списка на ближайшую запись, совпадающую с введенным текстом. </p>
+          <p>Для заполнения выпадающего списка используются свойства LookupSource, LookupField, LookupDisplay и LookupDisplayIndex, аналогично списку компоненты TRxDBLookupCombo. </p>
+          <p>Введенное пользователем или выбранное из списка значение доступно через свойство Text. 
+Свойство LookupValue (read-only) позволяет получить значение ключевого поля из lookup-набора данных (заданного свойством LookupField), если пользвателем был сделан выбор из списка.</p>
+        </descr>
+      </element>
+      <element name="TRxLookupEdit.Create"/>
+      <element name="TRxLookupEdit.Destroy"/>
+      <element name="TRxLookupEdit.DropDownCount"/>
+      <element name="TRxLookupEdit.DropDownWidth"/>
+      <element name="TRxLookupEdit.LookupDisplay"/>
+      <element name="TRxLookupEdit.LookupDisplayIndex">
+        <descr>В случае, если свойство <link id="TRxLookupEdit.LookupDisplay">LookupDisplay</link> задает более одного поля для отображения в списке, значение свойства LookupDisplayIndex определяет номер поля, значение которого возвращается свойством DisplayValue.</descr>
+      </element>
+      <element name="TRxLookupEdit.LookupField"/>
+      <element name="TRxLookupEdit.LookupSource"/>
+      <element name="TRxLookupEdit.PopUpFormOptions"/>
+      <element name="TRxDBLookupCombo">
+        <short>TRxDBLookupCombo Component</short>
+        <descr>Unit
+RxLookup
+Description
+Компонента TRxDBLookupCombo почти полностью аналогична стандартной компоненте из VCL TDBLookupCombo и имеет те же самые свойства, методы и события. Однако по сравнению с TDBLookupCombo у этой компоненты есть некоторые дополнительные возможности и свойства. 
+TRxDBLookupCombo позволяет использовать в качестве LookupSource любой источник данных - как TTable, так и TQuery, при этом свойство LookupField не обязательно должно быть индексированным полем. 
+Компонента TRxDBLookupCombo также позволяет производить поиск нужного термина при наборе первых букв этого термина. 
+Например, у вас имеется таблица или результат запроса, седержащий поля CustNo и CustName. Тогда вы можете указать поле CustName как значение свойства LookupDisplay. Если пользователь вашего приложения наберет первые буквы нужной ему фамилии (находящейся в поле CustName), то если компонента TRxDBLookupCombo имеет фокус ввода, автоматически выпадет список доступных значений и выделенный элемент в списке установится в значение, первые буквы которого совпадают с введенными пользователем. 
+Если свойство IgnoreCase установлено в True, то при наборе пользователем первых букв термина регистр символов не учитывается. Надо иметь в виду, что при работе с русскоязычными значениями в полях БД не все драйвера поддерживают преобразование регистра символов. 
+Свойство IndexSwitch определяет, будет ли при необходимости производиться переключение индексов таблицы (если источником данных служит таблица, а не результат запроса). В случае использования больших SQL-таблиц переключение индексов может занять длительное время, поэтому в таких случаях свойство желательно устанавливать в значение False. 
+Свойтсво DisplayEmpty позволяет задать текстовую строку для отображения в строке TRxDBLookupCombo, когда не сделано никакого выбора. Вызов метода ResetField приводит к очистке содержимого компоненты, устоновке значения Value в пустую строку, и отображению значения DisplayEmpty. 
+В дополнение к событию OnDropDown, имеющемуся у TDBLookupCombo, компонента имеет событие OnCloseUp, вызываемое при закрытии выпадающего списка. Метод IsDropDown позволяет определить текущее состояние выпадающего списка выбора. Событие OnChange происходит при смене значения cвойства Value. 
+Компонента также позволяет задать изображения для рисования в левой части каждой строки списка, в зависимости от содержимого полей БД, с помощью события OnGetImage. 
+В остальном компонента TRxDBLookupCombo полностью аналогична компоненте TDBLookupCombo. 
+
+ВНИМАНИЕ 
+При присвоении значений свойству Value или DisplayValue компонент TRxDBLookupCombo или TRxDBLookupList безошибочное позиционирование на соответствующую запись в списке произойдет только в том случае, если соответствующее поле в подмножестве записей, заданном источником данных DataSource, имеет только уникальные неповторяющиеся значения. В противном случае Вы получите несколько "выбранных" элементов в списке (причем реально будет выбран только один самый первый), значения полей в которых равны заданному. Избегайте таких ситуаций! 
+
+При работе с некоторыми SQL-серверами БД установка свойств IndexSwitch или IgnoreCase в значение True может приводить к неожиданному поведению компоненты. В этом случае постарайтесь добиться "правильного" поведения за счет комбинирования разных значений свойств IgnoreCase и IndexSwitch.</descr>
+      </element>
+      <element name="TRxDBLookupCombo.PopupVisible"/>
+      <element name="TRxDBLookupCombo.Value"/>
+      <element name="TRxDBLookupCombo.KeyValue"/>
+      <element name="TRxDBLookupCombo.AutoSize"/>
+      <element name="TRxDBLookupCombo.Align"/>
+      <element name="TRxDBLookupCombo.Anchors"/>
+      <element name="TRxDBLookupCombo.BorderSpacing"/>
+      <element name="TRxDBLookupCombo.ButtonOnlyWhenFocused"/>
+      <element name="TRxDBLookupCombo.ButtonWidth"/>
+      <element name="TRxDBLookupCombo.Color"/>
+      <element name="TRxDBLookupCombo.DataField"/>
+      <element name="TRxDBLookupCombo.DataSource"/>
+      <element name="TRxDBLookupCombo.DirectInput"/>
+      <element name="TRxDBLookupCombo.DragCursor"/>
+      <element name="TRxDBLookupCombo.DragMode"/>
+      <element name="TRxDBLookupCombo.Enabled"/>
+      <element name="TRxDBLookupCombo.PopUpFormOptions"/>
+      <element name="TRxDBLookupCombo.Flat"/>
+      <element name="TRxDBLookupCombo.Font"/>
+      <element name="TRxDBLookupCombo.Glyph"/>
+      <element name="TRxDBLookupCombo.EmptyValue">
+        <short>property EmptyValue: string;</short>
+        <descr>Свойство задает значение, присвоение которого свойству Value будет восприниматься как присвоение "пустого" значения и приведет к очистке DataField. По умолчанию значение свойства есть пустая строка.</descr>
+      </element>
+      <element name="TRxDBLookupCombo.EmptyItemColor">
+        <short>property EmptyItemColor: TColor;</short>
+        <descr>Свойство задает значение цвета, которым будет рисоваться дополнительный нескролируемый элемент списка для "пустого" значения (т.е. которое совпадает с DisplayEmpty).</descr>
+      </element>
+      <element name="TRxDBLookupCombo.NumGlyphs"/>
+      <element name="TRxDBLookupCombo.OnButtonClick"/>
+      <element name="TRxDBLookupCombo.OnChange"/>
+      <element name="TRxDBLookupCombo.OnClick"/>
+      <element name="TRxDBLookupCombo.OnDblClick"/>
+      <element name="TRxDBLookupCombo.OnDragDrop"/>
+      <element name="TRxDBLookupCombo.OnDragOver"/>
+      <element name="TRxDBLookupCombo.OnEndDrag"/>
+      <element name="TRxDBLookupCombo.OnEnter"/>
+      <element name="TRxDBLookupCombo.OnExit"/>
+      <element name="TRxDBLookupCombo.OnKeyDown"/>
+      <element name="TRxDBLookupCombo.OnKeyPress"/>
+      <element name="TRxDBLookupCombo.OnKeyUp"/>
+      <element name="TRxDBLookupCombo.OnMouseDown"/>
+      <element name="TRxDBLookupCombo.OnMouseMove"/>
+      <element name="TRxDBLookupCombo.OnMouseUp"/>
+      <element name="TRxDBLookupCombo.OnStartDrag"/>
+      <element name="TRxDBLookupCombo.OnGetGridCellProps"/>
+      <element name="TRxDBLookupCombo.OnSelect"/>
+      <element name="TRxDBLookupCombo.ParentColor"/>
+      <element name="TRxDBLookupCombo.ParentFont"/>
+      <element name="TRxDBLookupCombo.ParentShowHint"/>
+      <element name="TRxDBLookupCombo.PopupMenu"/>
+      <element name="TRxDBLookupCombo.ReadOnly"/>
+      <element name="TRxDBLookupCombo.ShowHint"/>
+      <element name="TRxDBLookupCombo.TabOrder"/>
+      <element name="TRxDBLookupCombo.TabStop"/>
+      <element name="TRxDBLookupCombo.Visible"/>
+      <element name="TRxDBLookupCombo.DisplayAllFields"/>
+      <element name="TRxDBLookupCombo.DropDownCount"/>
+      <element name="TRxDBLookupCombo.DropDownWidth"/>
+      <element name="TRxDBLookupCombo.LookupDisplay"/>
+      <element name="TRxDBLookupCombo.LookupDisplayIndex"/>
+      <element name="TRxDBLookupCombo.LookupField"/>
+      <element name="TRxDBLookupCombo.LookupSource"/>
+      <element name="TRxDBLookupCombo.UnfindedValue"/>
+      <descr>
+        <p>The RxLookup unit contains the declarations for the certain components on the RX DBAware page of the Component palette and their associated objects, types, and constants.
+When you add a component declared in this unit to a form, the unit is automatically added to the uses clause of that form's unit.</p>
+      </descr>
+      <element name="TRxLookupEdit.OnClosePopup">
+        <descr>Событие возникает при закрытии PopUp окна выбора данных.</descr>
+      </element>
+      <element name="TRxDBLookupCombo.OnClosePopup">
+        <descr>Событие возникает при закрытии PopUp окна выбора данных.</descr>
+      </element>
+    </module>
+    <module name="dbdateedit">
+      <element name="TDBDateEdit">
+        <descr>Компонента TDBDateEdit - ориентированная на работу с базами данных компонента для редактирования даты. Установленное значение свойства Date становится новым значением поля в БД, если значение свойства ReadOnly компоненты TDBDateEdit - False. 
+TDBDateEdit является наследником TDateEdit и имеет все те же свойства и методы, и дополнительно имеет свойства, необходимые для работы с полями базы данных. 
+
+Компонента TDBDateEdit может быть применена к тем полям наборов данных, которые позволяют чтение и присвоение значений через свойство AsDateTime.</descr>
+      </element>
+      <element name="TDBDateEdit.Create"/>
+      <element name="TDBDateEdit.Destroy"/>
+      <element name="TDBDateEdit.DataField"/>
+      <element name="TDBDateEdit.DataSource"/>
+      <element name="TDBDateEdit.ReadOnly"/>
+      <element name="TDBDateEdit.DefaultToday">
+        <descr>Свойство DialogTitle задает заголовок диалогового окна, появляющегося при нажатии на кнопку компоненты TFilenameEdit (TOpenDialog) или TDateEdit, TDBDateEdit (диалог выбора даты).</descr>
+      </element>
+      <element name="TRxDBCalcEdit">
+        <descr>Компонента TRxDBCalcEdit - ориентированная на работу с базами данных компонента для редактирования чисел с возможностью импользования выпадающего калькулятора. Установленное значение свойства Value становится новым значением поля в БД, если значение свойства ReadOnly - False. 
+TRxDBCalcEdit является наследником TDBCalcEdit и имеет все те же свойства и методы, и дополнительно имеет свойства, необходимые для работы с полями базы данных. 
+Компонента TRxDBCalcEdit может быть применена к тем полям данных, которые позволяют чтение и присвоение значений через свойства AsFloat, AsInteger.</descr>
+      </element>
+      <element name="TRxDBCalcEdit.Create"/>
+      <element name="TRxDBCalcEdit.Destroy"/>
+      <element name="TRxDBCalcEdit.DataField"/>
+      <element name="TRxDBCalcEdit.DataSource"/>
+      <element name="TRxDBCalcEdit.ReadOnly"/>
+    </module>
+
+  </package>
+</fpdoc-descriptions>

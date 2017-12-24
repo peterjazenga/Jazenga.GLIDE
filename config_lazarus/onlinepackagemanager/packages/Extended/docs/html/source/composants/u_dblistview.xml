@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    U_DBListView
+  ====================================================================
+-->
+    <module name="U_DBListView">
+      <short/>
+      <descr/>
+      <!-- enumeration type Visibility: default -->
+      <element name="TSortOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TSortOrder.soAscending">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TSortOrder.soDescending">
+        <short/>
+      </element>
+      <!-- procedure type Visibility: default -->
+      <element name="EListScrollEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EListScrollEvent.Sender">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EListScrollEvent.Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="EListScrollEvent.LoadList">
+        <short/>
+      </element>
+      <!-- procedure type Visibility: default -->
+      <element name="ESortStartEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="ESortStartEvent.Sender">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="ESortStartEvent.Column">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="ESortStartEvent.Enable">
+        <short/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TDBListView">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TUltimListViewDatalink">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TUltimListViewDatalink.glst_View">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TUltimListViewDatalink.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TUltimListViewDatalink.Create.alsv_List">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TUltimListViewDatalink.ActiveChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TUltimListViewDatalink.DataSetChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TUltimListViewDatalink.EditingChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TUltimListViewDatalink.p_SetListNil">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TUltimListViewDatalink.DBListView">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.ge_BeforeScroll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.ge_AfterScroll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.FSortColumn">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.FSortOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.gc_FieldDelimiter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.gb_fetched">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.gi_Fetch">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.gi_FetchTotal">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TDBListView.gb_HasLoaded">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: private -->
+      <element name="TDBListView.fds_GetDatasource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fds_GetDatasource.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.WMVScroll">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.WMVScroll.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.WMMouseWheel">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.WMMouseWheel.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.p_PaintFondItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_PaintFondItem.aclv_Liste">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_PaintFondItem.alit_Item">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_PaintFondItem.acds_Etat">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_PaintFondItem.ab_Defaut">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.p_FreeKeyDataSource">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.p_FreeFieldsList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TDBListView.p_SetFieldsList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_SetFieldsList.Value">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gsts_FieldsList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_AllLoaded">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_AllFetched">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_CaseInSensitive">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_LoadList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_AllSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gt_ColonneCle">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gdip_OldOnDrawItemProp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gstl_KeyDataSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gt_OriginKey">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gvar_KeyDestination">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gdl_DataLink">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gVG_ListItem">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gVG_items_selected">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gcol_AncienneCouleur">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gs_UnitsKey">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gs_UnitsKeyFieldValues">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gs_TableSource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gs_FieldsListFieldValues">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gs_FieldsList">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_MontreTout">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TDBListView.gb_CouleursLignes">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_CanAddRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_CanAddRecords.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_scrolling">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_setSortOrder">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_setSortOrder.AValue">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fs_SortDataset">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fs_SortDataset.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fs_SortDataset.adat_Dataset">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_setSortColumn">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_setSortColumn.AValue">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_SetPrimaryPrimaryKeyList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_SetPrimaryPrimaryKeyList.a_Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_CreateListFieldsDisplay">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_CreateListFieldsDisplay.as_FieldsList">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_ListLoaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.EditingChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.GetNextItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.GetNextItem.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.GetNextItem.StartItem">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.GetNextItem.States">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_SetDataSourceGroup">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_SetDataSourceGroup.a_Value">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fs_PrepareSorting">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fs_PrepareSorting.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_DataSetChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_ScrollBarVisible">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_ScrollBarVisible.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_ScrollBarVisible.Code">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.Resize">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_UpdateButtons">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_UpdateButtons.ai_ItemsAjoutes">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_ReinitialisePasTout">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_CanSort">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_CanSort.Result">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_PrepareSorting">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_PrepareSorting.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_PrepareSorting.ai_column">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_CanAdd">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_CanAdd.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_CanAdd.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_CanAdd.ab_AddItemPlus">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_ChangeEtatItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_ChangeEtatItem.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_ChangeEtatItem.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_ChangeEtatItem.ab_AddItemPlus">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_SetRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_SetRecords.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_SetRecords.adat_Dataset">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fb_SetRecords.ab_InsereCles">
+        <short/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TDBListView.fb_SetList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_SetList.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.Notification">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.Notification.AComponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.Notification.Operation">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.DataLinkActiveChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.DoEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.DoExit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_AssignColumnsSubitems">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TDBListView.p_AssignSort">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_AssignSort.as_ChampsOrdonner">
+        <short/>
+      </element>
+      <!-- property Visibility: protected -->
+      <element name="TDBListView.HasLoad">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: public -->
+      <element name="TDBListView.gbm_DernierEnregistrement">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.SelectAll">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.DataLinkLoadList">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.DataLinkScrolled">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_FreeBookmark">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_MetAjour">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TDBListView.fb_FetchIsLoaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fb_FetchIsLoaded.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_SetSortDirectionAsc">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.p_SetSortDirectionAsc.ab_Ascendant">
+        <short/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TDBListView.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.Create.acom_owner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TDBListView.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_AddRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_AddSyncronousRecords">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.p_Reinitialise">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: public -->
+      <element name="TDBListView.fi_FindItem">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TDBListView.fi_FindItem.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.fi_FindItem.avar_TexteItem">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.ColClick">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TDBListView.ColClick.alsc_colonne">
+        <short/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TDBListView.Refresh">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TDBListView.ListLoaded">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: public -->
+      <element name="TDBListView.AllSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.Datasource">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.DataKeyUnit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.DataFieldsDisplay">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.FieldDelimiter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.DataRowColors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.DataShowAll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.BeforeDataScroll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.AfterDataScroll">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.DataTableUnit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.SortColumn">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TDBListView.SortOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_PAGES_CHARGER">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_COULEUR_FOCUS">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_TOTAL">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_SIMPLE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_RETOUR">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_DESTI">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GROUPE_TRANS_EXCLU">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurFocus">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurLignePaire">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gcol_CouleurLigneImpaire">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- U_DBListView -->
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,48 @@
+JUJIBOUTILS
+-----------
+
+Note: Lazarus > 1.0 required
+
+
+Version 2.1
+--------------------------------------------------
+2014-09-03 Released jujiboutils 2.1  (bug fix release)
+
+
+Version 2.0
+--------------------------------------------------
+2013-08-29 Released jujiboutils 2.0
+2013-08-29 Added:  TJLabel + TJButton example
+2013-08-28 Fixed:  A few bugs in design/runtime mode
+2013-08-25 Added:  New components: TJLabel, TJDBLabel, TJButton.
+2013-08-18 Added:  Calendar to Date/Date Time components and grid controls. Bug fixes
+2013-06-17 Added:  TJDBImageBlob. Display raw images from blob fields (read only)
+2013-04-29 Fixed:  TJDBGridControl Focus issues
+2013-01-03 Added:  TJDbEnumCombo, like TDbComboBox but, uses itemindex instead of text
+2012-09-20 Added:  TJLabeledIntegerEdit and TJLabeledFloatEdit property CurrentValue
+2012-06-12 Fixed:  TJDbGridTimeCtrl, store time value
+2012-03-14 Fixed:  Prevent double updates (QT widgetset) in edit widgets
+2012-03-06 Fixed:  Focus issues
+
+Version 1.0
+--------------------------------------------------
+2011-10-14  Released jujiboutils 1.0
+2011-09-30  Added: ftString support to TJDBGridControl. MaxLength property.
+                   Translations support: spanish
+2011-09-27  Added: ftDateTime support to TJDBGridControl
+                   TJFloatEdit, TJLabeledFloatEdit,
+                   TJDBFloatEdit, TJDBLabeledFloatEdit
+                   Examplenodb updated
+2011-09-26  Added: TJDateTimeEdit, TJLabeledDateTimeEdit
+                   TJDBDateTimeEdit, TJDBLabeledDateTimeEdit
+2011-09-23  Added: TJDBLabeledEdit, TJTimeEdit, TJLabeledTimeEdit,
+                   TJDBTimeEdit, TJDBLabeledTimeEdit
+2011-09-22  Added: ftTime support
+2011-09-21  Added: TJDBGridControl and example (testgridctr)
+2011-09-20  Added: TJIntegerEdit, TJLabeledIntegerEdit,
+                   TJCurrencyEdit, TJLabeledCurrencyEdit,
+                   TJDateEdit, TJLabeledDateEdit
+2011-09-19  Added: TJDBLabeledIntegerEdit, TJDBLabeledCurrencyEdit, TJDBLabeledDateEdit
+2011-09-19  First package: TJDBIntegerEdit, TJDBCurrencyEdit, TJDBDateEdit and example
+2011-09-14  Add Non Database input controls example
+2011-09-13  Initial commit to lazarus-ccr

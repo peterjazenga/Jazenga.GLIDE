@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="amw_ide_tools"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Jose Marques Pessoa,  Simon Choi, Anton A. Panferov"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="."/>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CustomOptions Value="$(IDEBuildOptions)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Lamw: Lazarus Android Module Wizard: 
+	:: RAD Android! Form Designer and Components Development Model! 
+	
+&quot;A wizard to create JNI Android loadable module (.so) and Android Apk
+	widh Lazarus/Free Pascal using Form Designer and Components!&quot; "/>
+    <License Value="LPGL"/>
+    <Version Minor="7"/>
+    <Files Count="30">
+      <Item1>
+        <Filename Value="amw_ide_menu_items.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="amw_ide_menu_items"/>
+      </Item1>
+      <Item2>
+        <Filename Value="lazandroidtoolsexpert.lfm"/>
+        <Type Value="LFM"/>
+      </Item2>
+      <Item3>
+        <Filename Value="lazandroidtoolsexpert.pas"/>
+        <UnitName Value="lazandroidtoolsexpert"/>
+      </Item3>
+      <Item4>
+        <Filename Value="uformsettingspaths.lfm"/>
+        <Type Value="LFM"/>
+      </Item4>
+      <Item5>
+        <Filename Value="uformsettingspaths.pas"/>
+        <UnitName Value="uformsettingspaths"/>
+      </Item5>
+      <Item6>
+        <Filename Value="AndroidXMLResString.pas"/>
+        <UnitName Value="AndroidXMLResString"/>
+      </Item6>
+      <Item7>
+        <Filename Value="ufrmEditor.lfm"/>
+        <Type Value="LFM"/>
+      </Item7>
+      <Item8>
+        <Filename Value="ufrmEditor.pas"/>
+        <UnitName Value="ufrmEditor"/>
+      </Item8>
+      <Item9>
+        <Filename Value="ufrmcompcreate.pas"/>
+        <UnitName Value="ufrmCompCreate"/>
+      </Item9>
+      <Item10>
+        <Filename Value="ufrmcompcreate.lfm"/>
+        <Type Value="LFM"/>
+      </Item10>
+      <Item11>
+        <Filename Value="uregistercompform.pas"/>
+        <UnitName Value="uregistercompform"/>
+      </Item11>
+      <Item12>
+        <Filename Value="uregistercompform.lfm"/>
+        <Type Value="LFM"/>
+      </Item12>
+      <Item13>
+        <Filename Value="apkbuild.pas"/>
+        <UnitName Value="ApkBuild"/>
+      </Item13>
+      <Item14>
+        <Filename Value="uformstartemulator.lfm"/>
+        <Type Value="LFM"/>
+      </Item14>
+      <Item15>
+        <Filename Value="uformstartemulator.pas"/>
+        <UnitName Value="uFormStartEmulator"/>
+      </Item15>
+      <Item16>
+        <Filename Value="androidprojoptions.pas"/>
+        <UnitName Value="AndroidProjOptions"/>
+      </Item16>
+      <Item17>
+        <Filename Value="androidprojoptions.lfm"/>
+        <Type Value="LFM"/>
+      </Item17>
+      <Item18>
+        <Filename Value="uFormBuildFPCCross.lfm"/>
+        <Type Value="LFM"/>
+      </Item18>
+      <Item19>
+        <Filename Value="uFormBuildFPCCross.pas"/>
+        <UnitName Value="uFormBuildFPCCross"/>
+      </Item19>
+      <Item20>
+        <Filename Value="uformgetfpcsource.lfm"/>
+        <Type Value="LFM"/>
+      </Item20>
+      <Item21>
+        <Filename Value="uformgetfpcsource.pas"/>
+        <UnitName Value="uFormGetFPCSource"/>
+      </Item21>
+      <Item22>
+        <AddToUsesPkgSection Value="False"/>
+      </Item22>
+      <Item23>
+        <Filename Value="uimportjavastuff.lfm"/>
+        <Type Value="LFM"/>
+      </Item23>
+      <Item24>
+        <Filename Value="uimportjavastuff.pas"/>
+        <UnitName Value="uimportjavastuff"/>
+      </Item24>
+      <Item25>
+        <AddToUsesPkgSection Value="False"/>
+      </Item25>
+      <Item26>
+        <Filename Value="uimportjavastuffchecked.lfm"/>
+        <Type Value="LFM"/>
+      </Item26>
+      <Item27>
+        <Filename Value="uimportjavastuffchecked.pas"/>
+        <UnitName Value="uimportjavastuffchecked"/>
+      </Item27>
+      <Item28>
+        <AddToUsesPkgSection Value="False"/>
+      </Item28>
+      <Item29>
+        <Filename Value="uimportcstuff.lfm"/>
+        <Type Value="LFM"/>
+      </Item29>
+      <Item30>
+        <Filename Value="uimportcstuff.pas"/>
+        <UnitName Value="uimportcstuff"/>
+      </Item30>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="LazAndroidWizardPack"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

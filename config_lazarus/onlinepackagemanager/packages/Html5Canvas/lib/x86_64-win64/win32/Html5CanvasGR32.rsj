@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":67072369,"name":"html5canvasgr32.rcstrwrongcolorformat","sourcebytes":[87,114,111,110,103,32,70,111,114,109,97,116,33],"value":"Wrong Format!"},
+{"hash":191618100,"name":"html5canvasgr32.rcstrdelimiterexpected","sourcebytes":[68,101,108,105,109,105,116,101,114,32,101,120,112,101,99,116,101,100],"value":"Delimiter expected"}
+]}

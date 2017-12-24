@@ -1,0 +1,85 @@
+object Form1: TForm1
+  Left = 839
+  Height = 585
+  Top = 528
+  Width = 856
+  Caption = 'Simple Target Demo'
+  ClientHeight = 585
+  ClientWidth = 856
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Shell Dlg 2'
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 41
+    Top = 0
+    Width = 856
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 41
+    ClientWidth = 856
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 6
+      Height = 13
+      Top = 14
+      Width = 257
+      Caption = 'Drop files from Windows Explorer onto this Listview...'
+      ParentColor = False
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 45
+    Top = 540
+    Width = 856
+    Align = alBottom
+    BevelOuter = bvNone
+    Caption = ' '
+    ClientHeight = 45
+    ClientWidth = 856
+    TabOrder = 1
+    object ButtonClose: TButton
+      Left = 387
+      Height = 25
+      Top = 10
+      Width = 75
+      Anchors = [akTop]
+      Cancel = True
+      Caption = '&Close'
+      Default = True
+      OnClick = ButtonCloseClick
+      TabOrder = 0
+    end
+  end
+  object ListView1: TListView
+    Left = 0
+    Height = 499
+    Top = 41
+    Width = 856
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'Filename'
+        Width = 380
+      end    
+      item
+        Caption = 'Original filename'
+        Width = 0
+      end>
+    ReadOnly = True
+    TabOrder = 2
+    ViewStyle = vsReport
+  end
+  object DropFileTarget1: TDropFileTarget
+    DragTypes = [dtCopy, dtMove, dtLink]
+    OnDrop = DropFileTarget1Drop
+    Target = ListView1
+    OptimizedMove = True
+    left = 329
+    top = 220
+  end
+end

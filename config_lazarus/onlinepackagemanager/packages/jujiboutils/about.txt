@@ -1,0 +1,13 @@
+JUJIBOUTILS
+------------
+
+Set of components to input and validate
+different kinds of data, floats, dates, etc. while working with 
+db and non db controls.
+
+Developers
+----------
+Julio Jiménez Borreguero  - jujibo at gmail dot com
+Jesús Reyes A.
+
+Info:  http://wiki.lazarus.freepascal.org/jujiboutils

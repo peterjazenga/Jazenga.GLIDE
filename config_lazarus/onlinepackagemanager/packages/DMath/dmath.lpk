@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="dmath"/>
+    <Author Value="Dr Jean DEBORD"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="DMath is a mathematical library for Delphi, FreePascal (FPC) and Lazarus.
+It is entirely written in Pascal and does not depend on external libraries. 
+DMath provides routines and demo programs for numerical analysis, including 
+mathematical functions, probabilities, matrices, optimization, linear and nonlinear
+equations, integration, Fast Fourier Transform, random numbers, statistics."/>
+    <License Value="GNU Lesser General Public License (LGPL)"/>
+    <Version Major="1"/>
+    <Files Count="118">
+      <Item1>
+        <Filename Value="source\types.inc"/>
+        <Type Value="Include"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\uanova1.pas"/>
+        <UnitName Value="uanova1"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\uanova2.pas"/>
+        <UnitName Value="uanova2"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\ubalance.pas"/>
+        <UnitName Value="ubalance"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\ubalbak.pas"/>
+        <UnitName Value="ubalbak"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\ubartlet.pas"/>
+        <UnitName Value="ubartlet"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\ubeta.pas"/>
+        <UnitName Value="ubeta"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\ubfgs.pas"/>
+        <UnitName Value="ubfgs"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\ubinom.pas"/>
+        <UnitName Value="ubinom"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\ubisect.pas"/>
+        <UnitName Value="ubisect"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\ubroyden.pas"/>
+        <UnitName Value="ubroyden"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\ucholesk.pas"/>
+        <UnitName Value="ucholesk"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\ucomplex.pas"/>
+        <UnitName Value="ucomplex"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\ucompvec.pas"/>
+        <UnitName Value="ucompvec"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\ucorrel.pas"/>
+        <UnitName Value="ucorrel"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\udigamma.pas"/>
+        <UnitName Value="udigamma"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\udistrib.pas"/>
+        <UnitName Value="udistrib"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source\ueigsym.pas"/>
+        <UnitName Value="ueigsym"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source\ueigval.pas"/>
+        <UnitName Value="ueigval"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source\ueigvec.pas"/>
+        <UnitName Value="ueigvec"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source\uelmhes.pas"/>
+        <UnitName Value="uelmhes"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source\ueltran.pas"/>
+        <UnitName Value="ueltran"/>
+      </Item22>
+      <Item23>
+        <Filename Value="source\ueval.pas"/>
+        <UnitName Value="ueval"/>
+      </Item23>
+      <Item24>
+        <Filename Value="source\uevalfit.pas"/>
+        <UnitName Value="uevalfit"/>
+      </Item24>
+      <Item25>
+        <Filename Value="source\uexlfit.pas"/>
+        <UnitName Value="uexlfit"/>
+      </Item25>
+      <Item26>
+        <Filename Value="source\uexpdist.pas"/>
+        <UnitName Value="uexpdist"/>
+      </Item26>
+      <Item27>
+        <Filename Value="source\uexpfit.pas"/>
+        <UnitName Value="uexpfit"/>
+      </Item27>
+      <Item28>
+        <Filename Value="source\ufact.pas"/>
+        <UnitName Value="ufact"/>
+      </Item28>
+      <Item29>
+        <Filename Value="source\ufft.pas"/>
+        <UnitName Value="ufft"/>
+      </Item29>
+      <Item30>
+        <Filename Value="source\ufracfit.pas"/>
+        <UnitName Value="ufracfit"/>
+      </Item30>
+      <Item31>
+        <Filename Value="source\ugamdist.pas"/>
+        <UnitName Value="ugamdist"/>
+      </Item31>
+      <Item32>
+        <Filename Value="source\ugamfit.pas"/>
+        <UnitName Value="ugamfit"/>
+      </Item32>
+      <Item33>
+        <Filename Value="source\ugamma.pas"/>
+        <UnitName Value="ugamma"/>
+      </Item33>
+      <Item34>
+        <Filename Value="source\ugausjor.pas"/>
+        <UnitName Value="ugausjor"/>
+      </Item34>
+      <Item35>
+        <Filename Value="source\ugausleg.pas"/>
+        <UnitName Value="ugausleg"/>
+      </Item35>
+      <Item36>
+        <Filename Value="source\ugenalg.pas"/>
+        <UnitName Value="ugenalg"/>
+      </Item36>
+      <Item37>
+        <Filename Value="source\ugoldsrc.pas"/>
+        <UnitName Value="ugoldsrc"/>
+      </Item37>
+      <Item38>
+        <Filename Value="source\uhillfit.pas"/>
+        <UnitName Value="uhillfit"/>
+      </Item38>
+      <Item39>
+        <Filename Value="source\uhqr.pas"/>
+        <UnitName Value="uhqr"/>
+      </Item39>
+      <Item40>
+        <Filename Value="source\uhqr2.pas"/>
+        <UnitName Value="uhqr2"/>
+      </Item40>
+      <Item41>
+        <Filename Value="source\uhsvrgb.pas"/>
+        <UnitName Value="uhsvrgb"/>
+      </Item41>
+      <Item42>
+        <Filename Value="source\uhyper.pas"/>
+        <UnitName Value="uhyper"/>
+      </Item42>
+      <Item43>
+        <Filename Value="source\uibeta.pas"/>
+        <UnitName Value="uibeta"/>
+      </Item43>
+      <Item44>
+        <Filename Value="source\uibtdist.pas"/>
+        <UnitName Value="uibtdist"/>
+      </Item44>
+      <Item45>
+        <Filename Value="source\uiexpfit.pas"/>
+        <UnitName Value="uiexpfit"/>
+      </Item45>
+      <Item46>
+        <Filename Value="source\uigamma.pas"/>
+        <UnitName Value="uigamma"/>
+      </Item46>
+      <Item47>
+        <Filename Value="source\uigmdist.pas"/>
+        <UnitName Value="uigmdist"/>
+      </Item47>
+      <Item48>
+        <Filename Value="source\uinterv.pas"/>
+        <UnitName Value="uinterv"/>
+      </Item48>
+      <Item49>
+        <Filename Value="source\uinvbeta.pas"/>
+        <UnitName Value="uinvbeta"/>
+      </Item49>
+      <Item50>
+        <Filename Value="source\uinvgam.pas"/>
+        <UnitName Value="uinvgam"/>
+      </Item50>
+      <Item51>
+        <Filename Value="source\uinvnorm.pas"/>
+        <UnitName Value="uinvnorm"/>
+      </Item51>
+      <Item52>
+        <Filename Value="source\ujacobi.pas"/>
+        <UnitName Value="ujacobi"/>
+      </Item52>
+      <Item53>
+        <Filename Value="source\ukhi2.pas"/>
+        <UnitName Value="ukhi2"/>
+      </Item53>
+      <Item54>
+        <Filename Value="source\ulambert.pas"/>
+        <UnitName Value="ulambert"/>
+      </Item54>
+      <Item55>
+        <Filename Value="source\ulineq.pas"/>
+        <UnitName Value="ulineq"/>
+      </Item55>
+      <Item56>
+        <Filename Value="source\ulinfit.pas"/>
+        <UnitName Value="ulinfit"/>
+      </Item56>
+      <Item57>
+        <Filename Value="source\ulinmin.pas"/>
+        <UnitName Value="ulinmin"/>
+      </Item57>
+      <Item58>
+        <Filename Value="source\ulinminq.pas"/>
+        <UnitName Value="ulinminq"/>
+      </Item58>
+      <Item59>
+        <Filename Value="source\ulogifit.pas"/>
+        <UnitName Value="ulogifit"/>
+      </Item59>
+      <Item60>
+        <Filename Value="source\ulu.pas"/>
+        <UnitName Value="ulu"/>
+      </Item60>
+      <Item61>
+        <Filename Value="source\umarq.pas"/>
+        <UnitName Value="umarq"/>
+      </Item61>
+      <Item62>
+        <Filename Value="source\umath.pas"/>
+        <UnitName Value="umath"/>
+      </Item62>
+      <Item63>
+        <Filename Value="source\umcmc.pas"/>
+        <UnitName Value="umcmc"/>
+      </Item63>
+      <Item64>
+        <Filename Value="source\umeansd.pas"/>
+        <UnitName Value="umeansd"/>
+      </Item64>
+      <Item65>
+        <Filename Value="source\umedian.pas"/>
+        <UnitName Value="umedian"/>
+      </Item65>
+      <Item66>
+        <Filename Value="source\umichfit.pas"/>
+        <UnitName Value="umichfit"/>
+      </Item66>
+      <Item67>
+        <Filename Value="source\uminbrak.pas"/>
+        <UnitName Value="uminbrak"/>
+      </Item67>
+      <Item68>
+        <Filename Value="source\uminmax.pas"/>
+        <UnitName Value="uminmax"/>
+      </Item68>
+      <Item69>
+        <Filename Value="source\umintfit.pas"/>
+        <UnitName Value="umintfit"/>
+      </Item69>
+      <Item70>
+        <Filename Value="source\umodels.pas"/>
+        <UnitName Value="umodels"/>
+      </Item70>
+      <Item71>
+        <Filename Value="source\umulfit.pas"/>
+        <UnitName Value="umulfit"/>
+      </Item71>
+      <Item72>
+        <Filename Value="source\unewteq.pas"/>
+        <UnitName Value="unewteq"/>
+      </Item72>
+      <Item73>
+        <Filename Value="source\unewteqs.pas"/>
+        <UnitName Value="unewteqs"/>
+      </Item73>
+      <Item74>
+        <Filename Value="source\unewton.pas"/>
+        <UnitName Value="unewton"/>
+      </Item74>
+      <Item75>
+        <Filename Value="source\unlfit.pas"/>
+        <UnitName Value="unlfit"/>
+      </Item75>
+      <Item76>
+        <Filename Value="source\unonpar.pas"/>
+        <UnitName Value="unonpar"/>
+      </Item76>
+      <Item77>
+        <Filename Value="source\unormal.pas"/>
+        <UnitName Value="unormal"/>
+      </Item77>
+      <Item78>
+        <Filename Value="source\upca.pas"/>
+        <UnitName Value="upca"/>
+      </Item78>
+      <Item79>
+        <Filename Value="source\upkfit.pas"/>
+        <UnitName Value="upkfit"/>
+      </Item79>
+      <Item80>
+        <Filename Value="source\upoidist.pas"/>
+        <UnitName Value="upoidist"/>
+      </Item80>
+      <Item81>
+        <Filename Value="source\upolev.pas"/>
+        <UnitName Value="upolev"/>
+      </Item81>
+      <Item82>
+        <Filename Value="source\upolfit.pas"/>
+        <UnitName Value="upolfit"/>
+      </Item82>
+      <Item83>
+        <Filename Value="source\upolutil.pas"/>
+        <UnitName Value="upolutil"/>
+      </Item83>
+      <Item84>
+        <Filename Value="source\upolynom.pas"/>
+        <UnitName Value="upolynom"/>
+      </Item84>
+      <Item85>
+        <Filename Value="source\upowfit.pas"/>
+        <UnitName Value="upowfit"/>
+      </Item85>
+      <Item86>
+        <Filename Value="source\uqr.pas"/>
+        <UnitName Value="uqr"/>
+      </Item86>
+      <Item87>
+        <Filename Value="source\uqsort.pas"/>
+        <UnitName Value="uqsort"/>
+      </Item87>
+      <Item88>
+        <Filename Value="source\urandom.pas"/>
+        <UnitName Value="urandom"/>
+      </Item88>
+      <Item89>
+        <Filename Value="source\urangaus.pas"/>
+        <UnitName Value="urangaus"/>
+      </Item89>
+      <Item90>
+        <Filename Value="source\uranmt.pas"/>
+        <UnitName Value="uranmt"/>
+      </Item90>
+      <Item91>
+        <Filename Value="source\uranmult.pas"/>
+        <UnitName Value="uranmult"/>
+      </Item91>
+      <Item92>
+        <Filename Value="source\uranmwc.pas"/>
+        <UnitName Value="uranmwc"/>
+      </Item92>
+      <Item93>
+        <Filename Value="source\uranuvag.pas"/>
+        <UnitName Value="uranuvag"/>
+      </Item93>
+      <Item94>
+        <Filename Value="source\uregtest.pas"/>
+        <UnitName Value="uregtest"/>
+      </Item94>
+      <Item95>
+        <Filename Value="source\urkf.pas"/>
+        <UnitName Value="urkf"/>
+      </Item95>
+      <Item96>
+        <Filename Value="source\urootpol.pas"/>
+        <UnitName Value="urootpol"/>
+      </Item96>
+      <Item97>
+        <Filename Value="source\uround.pas"/>
+        <UnitName Value="uround"/>
+      </Item97>
+      <Item98>
+        <Filename Value="source\urtpol1.pas"/>
+        <UnitName Value="urtpol1"/>
+      </Item98>
+      <Item99>
+        <Filename Value="source\urtpol2.pas"/>
+        <UnitName Value="urtpol2"/>
+      </Item99>
+      <Item100>
+        <Filename Value="source\urtpol3.pas"/>
+        <UnitName Value="urtpol3"/>
+      </Item100>
+      <Item101>
+        <Filename Value="source\urtpol4.pas"/>
+        <UnitName Value="urtpol4"/>
+      </Item101>
+      <Item102>
+        <Filename Value="source\usecant.pas"/>
+        <UnitName Value="usecant"/>
+      </Item102>
+      <Item103>
+        <Filename Value="source\usimann.pas"/>
+        <UnitName Value="usimann"/>
+      </Item103>
+      <Item104>
+        <Filename Value="source\usimplex.pas"/>
+        <UnitName Value="usimplex"/>
+      </Item104>
+      <Item105>
+        <Filename Value="source\uskew.pas"/>
+        <UnitName Value="uskew"/>
+      </Item105>
+      <Item106>
+        <Filename Value="source\usnedeco.pas"/>
+        <UnitName Value="usnedeco"/>
+      </Item106>
+      <Item107>
+        <Filename Value="source\ustdpair.pas"/>
+        <UnitName Value="ustdpair"/>
+      </Item107>
+      <Item108>
+        <Filename Value="source\ustrings.pas"/>
+        <UnitName Value="ustrings"/>
+      </Item108>
+      <Item109>
+        <Filename Value="source\ustudind.pas"/>
+        <UnitName Value="ustudind"/>
+      </Item109>
+      <Item110>
+        <Filename Value="source\usvd.pas"/>
+        <UnitName Value="usvd"/>
+      </Item110>
+      <Item111>
+        <Filename Value="source\usvdfit.pas"/>
+        <UnitName Value="usvdfit"/>
+      </Item111>
+      <Item112>
+        <Filename Value="source\utexplot.pas"/>
+        <UnitName Value="utexplot"/>
+      </Item112>
+      <Item113>
+        <Filename Value="source\utrapint.pas"/>
+        <UnitName Value="utrapint"/>
+      </Item113>
+      <Item114>
+        <Filename Value="source\utrigo.pas"/>
+        <UnitName Value="utrigo"/>
+      </Item114>
+      <Item115>
+        <Filename Value="source\utypes.pas"/>
+        <UnitName Value="utypes"/>
+      </Item115>
+      <Item116>
+        <Filename Value="source\uwinplot.pas"/>
+        <UnitName Value="uwinplot"/>
+      </Item116>
+      <Item117>
+        <Filename Value="source\uwinstr.pas"/>
+        <UnitName Value="uwinstr"/>
+      </Item117>
+      <Item118>
+        <Filename Value="source\uwoolf.pas"/>
+        <UnitName Value="uwoolf"/>
+      </Item118>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

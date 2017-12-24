@@ -1,0 +1,127 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tpbeditdataform.caption
+msgid "Phone book data"
+msgstr ""
+
+#: tpbeditdataform.label1.caption
+msgid "Patronymic"
+msgstr ""
+
+#: tpbeditdataform.label2.caption
+msgid "Name"
+msgstr ""
+
+#: tpbeditdataform.label3.caption
+msgid "Surname"
+msgstr ""
+
+#: tpbeditdataform.label4.caption
+msgid "Phone"
+msgstr ""
+
+#: tpbeditdataform.label5.caption
+msgctxt "TPBEDITDATAFORM.LABEL5.CAPTION"
+msgid "ICQ"
+msgstr ""
+
+#: tpbeditdataform.label6.caption
+msgid "Memo"
+msgstr ""
+
+#: tpbmainform.caption
+msgid "Phone book"
+msgstr ""
+
+#: tpbmainform.edtdelete.caption
+msgid "Delete"
+msgstr ""
+
+#: tpbmainform.edtedit.caption
+msgctxt "TPBMAINFORM.EDTEDIT.CAPTION"
+msgid "Edit"
+msgstr ""
+
+#: tpbmainform.edtfind.caption
+msgid "Find"
+msgstr ""
+
+#: tpbmainform.edtnew.caption
+msgid "New"
+msgstr ""
+
+#: tpbmainform.edtprint.caption
+msgid "Print"
+msgstr ""
+
+#: tpbmainform.hlpabout.caption
+msgid "About"
+msgstr ""
+
+#: tpbmainform.menuitem1.caption
+msgid "System"
+msgstr ""
+
+#: tpbmainform.menuitem10.caption
+msgctxt "TPBMAINFORM.MENUITEM10.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tpbmainform.menuitem14.caption
+msgctxt "TPBMAINFORM.MENUITEM14.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tpbmainform.menuitem16.caption
+msgctxt "TPBMAINFORM.MENUITEM16.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tpbmainform.menuitem18.caption
+msgid "Help"
+msgstr ""
+
+#: tpbmainform.menuitem3.caption
+msgctxt "TPBMAINFORM.MENUITEM3.CAPTION"
+msgid "Edit"
+msgstr ""
+
+#: tpbmainform.menuitem7.caption
+msgctxt "TPBMAINFORM.MENUITEM7.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[0].title.caption
+msgid "ID"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[1].title.caption
+msgid "PATRONYMIC"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[2].title.caption
+msgid "NAME"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[3].title.caption
+msgid "SURNAME"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[4].title.caption
+msgid "PHONE"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[5].title.caption
+msgctxt "TPBMAINFORM.RXDBGRID1.COLUMNS[5].TITLE.CAPTION"
+msgid "ICQ"
+msgstr ""
+
+#: tpbmainform.rxdbgrid1.columns[6].title.caption
+msgid "MEMO"
+msgstr ""
+
+#: tpbmainform.sysexit.caption
+msgid "Exit"
+msgstr ""
+

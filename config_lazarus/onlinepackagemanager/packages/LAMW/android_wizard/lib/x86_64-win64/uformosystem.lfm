@@ -1,0 +1,60 @@
+object FormOSystem: TFormOSystem
+  Left = 280
+  Height = 145
+  Top = 146
+  Width = 254
+  BorderIcons = [biSystemMenu, biMinimize, biHelp]
+  Caption = 'OSystem'
+  ClientHeight = 145
+  ClientWidth = 254
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object RadioGroup1: TRadioGroup
+    Left = 6
+    Height = 101
+    Top = 6
+    Width = 242
+    Align = alClient
+    AutoFill = True
+    BorderSpacing.Around = 6
+    Caption = 'Select  [prebuilt] System :'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 81
+    ClientWidth = 238
+    Columns = 2
+    ItemIndex = 0
+    Items.Strings = (
+      'Windows'
+      'Windows-x86_64'
+      'Linux-x86'
+      'Linux-x86_64'
+      'Mac'
+    )
+    TabOrder = 0
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 26
+    Top = 113
+    Width = 242
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 1
+    ShowButtons = [pbOK]
+    ShowBevel = False
+  end
+end

@@ -1,0 +1,571 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestringscore.rsaccepttimeout
+msgid "Accept timed out."
+msgstr ""
+
+#: idresourcestringscore.rsalreadyconnected
+msgid "Already connected."
+msgstr ""
+
+#: idresourcestringscore.rsbufferinvalidstartpos
+msgid "Buffer start position is invalid."
+msgstr ""
+
+#: idresourcestringscore.rsbufferisempty
+msgid "No bytes in buffer."
+msgstr ""
+
+#: idresourcestringscore.rsbuffermissingterminator
+msgid "Buffer terminator must be specified."
+msgstr ""
+
+#: idresourcestringscore.rsbufferrangeerror
+msgid "Index out of bounds."
+msgstr ""
+
+#: idresourcestringscore.rscannotallocatesocket
+msgid "Cannot allocate socket."
+msgstr ""
+
+#: idresourcestringscore.rscannotperformtaskwhileserverisactive
+msgid "Cannot perform task while server is active."
+msgstr ""
+
+#: idresourcestringscore.rscannotusenonsocketiohandler
+msgid "Cannot use a non-socket IOHandler"
+msgstr ""
+
+#: idresourcestringscore.rscapacitytoosmall
+msgid "Capacity cannot be smaller than Size."
+msgstr ""
+
+#: idresourcestringscore.rschedmaxthreadex
+msgid "The maximum number of threads for this scheduler is exceeded."
+msgstr ""
+
+#: idresourcestringscore.rsconnecttimeout
+msgid "Connect timed out."
+msgstr ""
+
+#: idresourcestringscore.rsdatatoolarge
+msgid "Data is too large for stream"
+msgstr ""
+
+#: idresourcestringscore.rsfibersnotsupported
+msgid "Fibers are not supported on this system."
+msgstr ""
+
+#: idresourcestringscore.rsfilenotfound
+msgid "File \"%s\" not found"
+msgstr ""
+
+#: idresourcestringscore.rsicmpaadmindestprohibitted
+msgid "communication with destination administratively prohibited"
+msgstr ""
+
+#: idresourcestringscore.rsicmpadminprohibitted
+msgid "Communication Administratively Prohibited"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconv32bitrollovermissingandackset
+msgid "32 Bit Rollover missing and ACK set"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvdontconvoptpresent
+msgid "Don't Convert option present"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvipheaderlengthexceeded
+msgid "IP header length exceeded"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvknownunsupportedoptionpresent
+msgid "Known unsupported option present"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvoveralllengthexceeded
+msgid "Overall length exceeded"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvportconversionoutofrange
+msgid "Port conversion out of range"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvtransportheaderlengthexceeded
+msgid "Transport header length exceeded"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvtransportprotocol_255
+msgid "Transport protocol > 255"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvunknownmandatorytransportoptionpresent
+msgid "Unknown mandatory transport option present"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvunknownmandoptpresent
+msgid "Unknown mandatory option present"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvunknownunspecerror
+msgid "Unknown/unspecified error"
+msgstr ""
+
+#: idresourcestringscore.rsicmpconvunsupportedtransportprotocol
+msgid "Unsupported transport protocol"
+msgstr ""
+
+#: idresourcestringscore.rsicmpdesthostprohibitted
+msgid "Communication with Destination Host is Administratively Prohibited"
+msgstr ""
+
+#: idresourcestringscore.rsicmpdesthostunknown
+msgid "Destination Host Unknown"
+msgstr ""
+
+#: idresourcestringscore.rsicmpdestnetprohibitted
+msgid "Communication with Destination Network is Administratively Prohibited"
+msgstr ""
+
+#: idresourcestringscore.rsicmpdestnetunknown
+msgid "Destination Network Unknown"
+msgstr ""
+
+#: idresourcestringscore.rsicmpecho
+msgid "Echo"
+msgstr ""
+
+#: idresourcestringscore.rsicmpfragasmexceeded
+msgid "fragment reassembly time exceeded."
+msgstr ""
+
+#: idresourcestringscore.rsicmpfragmentneeded
+msgid "Fragmentation Needed and Don't Fragment was Set"
+msgstr ""
+
+#: idresourcestringscore.rsicmphoplimitexceeded
+msgid "hop limit exceeded in transit"
+msgstr ""
+
+#: idresourcestringscore.rsicmphostprecviolation
+msgid "Host Precedence Violation"
+msgstr ""
+
+#: idresourcestringscore.rsicmphostunreachable
+msgid "host unreachable;"
+msgstr ""
+
+#: idresourcestringscore.rsicmpinforequest
+msgid "Information Request"
+msgstr ""
+
+#: idresourcestringscore.rsicmpipv6iamhere
+msgid "IPv6 I-Am-Here"
+msgstr ""
+
+#: idresourcestringscore.rsicmpipv6whereareyou
+msgid "IPv6 Where-Are-You"
+msgstr ""
+
+#: idresourcestringscore.rsicmpmaskrequest
+msgid "Address Mask Request"
+msgstr ""
+
+#: idresourcestringscore.rsicmpmobilehostredirect
+msgid "Mobile Host Redirect"
+msgstr ""
+
+#: idresourcestringscore.rsicmpmobreg
+msgid "Mobile Registration Request"
+msgstr ""
+
+#: idresourcestringscore.rsicmpnetunreachable
+msgid "net unreachable;"
+msgstr ""
+
+#: idresourcestringscore.rsicmpnonechoresponse
+msgid "Non-echo type response received"
+msgstr ""
+
+#: idresourcestringscore.rsicmpnoroutetodest
+msgid "no route to destination"
+msgstr ""
+
+#: idresourcestringscore.rsicmpnotenoughtbytes
+msgid "Not enough bytes received"
+msgstr ""
+
+#: idresourcestringscore.rsicmppackettoobig
+msgid "Packet Too Big (MTU = %d)"
+msgstr ""
+
+#: idresourcestringscore.rsicmpparamerror
+msgid "Parameter Problem (offset %d)"
+msgstr ""
+
+#: idresourcestringscore.rsicmpparamheader
+msgid "erroneous header field encountered (offset %d)"
+msgstr ""
+
+#: idresourcestringscore.rsicmpparamnextheader
+msgid "unrecognized Next Header type encountered (offset %d)"
+msgstr ""
+
+#: idresourcestringscore.rsicmpportunreachable
+msgid "Port Unreachable"
+msgstr ""
+
+#: idresourcestringscore.rsicmpprecedencecutoffineffect
+msgid "Precedence cutoff in effect"
+msgstr ""
+
+#: idresourcestringscore.rsicmpprotunreachable
+msgid "protocol unreachable;"
+msgstr ""
+
+#: idresourcestringscore.rsicmpredirhost
+msgid "Redirect datagrams for the Host."
+msgstr ""
+
+#: idresourcestringscore.rsicmpredirnet
+msgid "Redirect datagrams for the Network."
+msgstr ""
+
+#: idresourcestringscore.rsicmpredirtoshost
+msgid "Redirect datagrams for the Type of Service and Host."
+msgstr ""
+
+#: idresourcestringscore.rsicmpredirtosnet
+msgid "Redirect datagrams for the Type of Service and Network."
+msgstr ""
+
+#: idresourcestringscore.rsicmprejectrouttodest
+msgid "reject route to destination"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecauthenticationfailed
+msgid "Authentication Failed"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecbadspi
+msgid "Bad SPI"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecdecompressionfailed
+msgid "Decompression Failed"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecdecryptionfailed
+msgid "Decryption Failed"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecneedauthentication
+msgid "Need Authentication"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsecneedauthorization
+msgid "Need Authorization"
+msgstr ""
+
+#: idresourcestringscore.rsicmpskip
+msgid "SKIP"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsourcefilterfailed
+msgid "source address failed ingress/egress policy"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsourceisolated
+msgid "Source Host Isolated"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsourcequenchmsg
+msgid "Source Quench Message"
+msgstr ""
+
+#: idresourcestringscore.rsicmpsourceroutefailed
+msgid "Source Route Failed"
+msgstr ""
+
+#: idresourcestringscore.rsicmptimeout
+msgid "Timeout"
+msgstr ""
+
+#: idresourcestringscore.rsicmptimestamp
+msgid "Timestamp"
+msgstr ""
+
+#: idresourcestringscore.rsicmptoshostunreach
+msgid "Destination Host Unreachable for Type of Service"
+msgstr ""
+
+#: idresourcestringscore.rsicmptosnetunreach
+msgid "Destination Network Unreachable for Type of Service"
+msgstr ""
+
+#: idresourcestringscore.rsicmptracenoroute
+msgid "No route for Outbound Packet; packet discarded"
+msgstr ""
+
+#: idresourcestringscore.rsicmptracepacketforwarded
+msgid "Outbound Packet successfully forwarded"
+msgstr ""
+
+#: idresourcestringscore.rsicmpttlexceeded
+msgid "time to live exceeded in transit"
+msgstr ""
+
+#: idresourcestringscore.rsicmpunrecognizedopt
+msgid "unrecognized IPv6 option encountered (offset %d)"
+msgstr ""
+
+#: idresourcestringscore.rsidnodatatoread
+msgid "No data to read."
+msgstr ""
+
+#: idresourcestringscore.rsinterceptcircularlink
+msgid "%s: Circular links are not allowed"
+msgstr ""
+
+#: idresourcestringscore.rsinterceptisdifferent
+msgid "The IOHandler already has a different Intercept assigned"
+msgstr ""
+
+#: idresourcestringscore.rsinvalidipaddress
+msgid "Invalid IP Address"
+msgstr ""
+
+#: idresourcestringscore.rsiohandlercannotchange
+msgid "Cannot change a connected IOHandler."
+msgstr ""
+
+#: idresourcestringscore.rsiohandlertypenotinstalled
+msgid "No IOHandler of type %s is installed."
+msgstr ""
+
+#: idresourcestringscore.rsipmcastinvalidmulticastaddress
+msgid "The supplied IP address is not a valid multicast address."
+msgstr ""
+
+#: idresourcestringscore.rsipmcastnotsupportedonwin32
+msgid "This function is not supported on Win32."
+msgstr ""
+
+#: idresourcestringscore.rsipmcastreceiveerror0
+msgid "IP Broadcast Receive Error = 0."
+msgstr ""
+
+#: idresourcestringscore.rslogconnected
+msgid "Connected."
+msgstr ""
+
+#: idresourcestringscore.rslogcr
+msgid "<CR>"
+msgstr ""
+
+#: idresourcestringscore.rslogdisconnected
+msgid "Disconnected."
+msgstr ""
+
+#: idresourcestringscore.rslogeol
+msgid "<EOL>"
+msgstr ""
+
+#: idresourcestringscore.rslogfilealreadyopen
+msgid "Unable to set Filename while log file is open."
+msgstr ""
+
+#: idresourcestringscore.rsloglf
+msgid "<LF>"
+msgstr ""
+
+#: idresourcestringscore.rslogrecv
+msgid "Recv "
+msgstr ""
+
+#: idresourcestringscore.rslogsent
+msgid "Sent "
+msgstr ""
+
+#: idresourcestringscore.rslogstat
+msgid "Stat "
+msgstr ""
+
+#: idresourcestringscore.rsmaximumnumberofcapturelineexceeded
+msgid "Maximum number of line allowed exceeded"
+msgstr ""
+
+#: idresourcestringscore.rsnobindingsspecified
+msgid "No bindings specified."
+msgstr ""
+
+#: idresourcestringscore.rsnocommandhandlerfound
+msgid "No command handler found."
+msgstr ""
+
+#: idresourcestringscore.rsnocreatelisteningthread
+msgid "Cannot create listening thread."
+msgstr ""
+
+#: idresourcestringscore.rsnoexecutespecified
+msgid "No execute handler found."
+msgstr ""
+
+#: idresourcestringscore.rsnoonexecute
+msgid "You must have an OnExecute event."
+msgstr ""
+
+#: idresourcestringscore.rsnotconnected
+msgid "Not Connected"
+msgstr ""
+
+#: idresourcestringscore.rsnotenoughdatainbuffer
+msgid "Not enough data in buffer. (%d/%d)"
+msgstr ""
+
+#: idresourcestringscore.rsobjecttypenotsupported
+msgid "Object type not supported."
+msgstr ""
+
+#: idresourcestringscore.rsreadlnmaxlinelengthexceeded
+msgid "Max line length exceeded."
+msgstr ""
+
+#: idresourcestringscore.rsreadlnwaitmaxattemptsexceeded
+msgid "Max line read attempts exceeded."
+msgstr ""
+
+#: idresourcestringscore.rsreadtimeout
+msgid "Read timed out."
+msgstr ""
+
+#: idresourcestringscore.rsreplycodealreadyexists
+msgid "Reply Code already exists: %s"
+msgstr ""
+
+#: idresourcestringscore.rsreplyinvalidcode
+msgid "Reply Code is not valid: %s"
+msgstr ""
+
+#: idresourcestringscore.rsrequireslargestream
+msgid "Set LargeStream to True to send streams greater than 2GB"
+msgstr ""
+
+#: idresourcestringscore.rssocksautherror
+msgid "Authentication error to socks server."
+msgstr ""
+
+#: idresourcestringscore.rssocksauthmethoderror
+msgid "Invalid socks authentication method."
+msgstr ""
+
+#: idresourcestringscore.rssocksrequestfailed
+msgid "Request rejected or failed."
+msgstr ""
+
+#: idresourcestringscore.rssocksrequestidentfailed
+msgid "Request rejected because the client program and identd report different user-ids."
+msgstr ""
+
+#: idresourcestringscore.rssocksrequestserverfailed
+msgid "Request rejected because SOCKS server cannot connect."
+msgstr ""
+
+#: idresourcestringscore.rssocksserveraddresserror
+msgid "Address type not supported."
+msgstr ""
+
+#: idresourcestringscore.rssocksservercommanderror
+msgid "Command not supported."
+msgstr ""
+
+#: idresourcestringscore.rssocksserverconnectionrefusederror
+msgid "Connection refused."
+msgstr ""
+
+#: idresourcestringscore.rssocksservergeneralerror
+msgid "General SOCKS server failure."
+msgstr ""
+
+#: idresourcestringscore.rssocksserverhostunreachableerror
+msgid "Host unreachable."
+msgstr ""
+
+#: idresourcestringscore.rssocksservernetunreachableerror
+msgid "Network unreachable."
+msgstr ""
+
+#: idresourcestringscore.rssocksserverpermissionerror
+msgid "Connection not allowed by ruleset."
+msgstr ""
+
+#: idresourcestringscore.rssocksserverresponderror
+msgid "Socks server did not respond."
+msgstr ""
+
+#: idresourcestringscore.rssocksserverttlexpirederror
+msgid "TTL expired."
+msgstr ""
+
+#: idresourcestringscore.rssocksudpnotsupported
+msgid "UDP is not support in this SOCKS version."
+msgstr ""
+
+#: idresourcestringscore.rssocksunknownerror
+msgid "Unknown socks error."
+msgstr ""
+
+#: idresourcestringscore.rsstreamproxynostack
+msgid "A Stack has not been created for converting the data type."
+msgstr ""
+
+#: idresourcestringscore.rstcpserverscheduleralreadyactive
+msgid "Cannot change the scheduler while the server is Active."
+msgstr ""
+
+#: idresourcestringscore.rsterminatethreadtimeout
+msgid "Terminate Thread Timeout"
+msgstr ""
+
+#: idresourcestringscore.rsthreadclassnotspecified
+msgid "Thread Class Not Specified."
+msgstr ""
+
+#: idresourcestringscore.rsthreadcomponentloopalreadyrunning
+msgid "Cannot set Loop property when the Thread is already running."
+msgstr ""
+
+#: idresourcestringscore.rsthreadcomponentthreadnamealreadyrunning
+msgid "Cannot set ThreadName when the Thread is already running."
+msgstr ""
+
+#: idresourcestringscore.rsthreadschedulerthreadrequired
+msgid "Thread must be specified for the scheduler."
+msgstr ""
+
+#: idresourcestringscore.rsthreadterminateandwaitfor
+msgid "Cannot call TerminateAndWaitFor on FreeAndTerminate threads"
+msgstr ""
+
+#: idresourcestringscore.rstoomuchdatainbuffer
+msgid "Too much data in buffer."
+msgstr ""
+
+#: idresourcestringscore.rstransparentproxycannotbind
+msgid "Transparent proxy cannot bind."
+msgstr ""
+
+#: idresourcestringscore.rstransparentproxycannotsupportudp
+msgid "UDP Not supported by this proxy."
+msgstr ""
+
+#: idresourcestringscore.rstransparentproxycyclic
+msgid "Transparent Proxy Cyclic error."
+msgstr ""
+
+#: idresourcestringscore.rsudpmustuseproxyopen
+msgid "You must use proxyOpen"
+msgstr ""
+

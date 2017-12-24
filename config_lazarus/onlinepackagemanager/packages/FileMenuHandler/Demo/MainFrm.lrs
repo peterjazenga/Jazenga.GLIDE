@@ -1,0 +1,44 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMainForm','FORMDATA',[
+  'TPF0'#9'TMainForm'#8'MainForm'#4'Left'#3#207#0#6'Height'#3'w'#1#3'Top'#3#148
+  +#0#5'Width'#3#22#2#13'ActiveControl'#7#5'Edit1'#7'Caption'#6#13'TFileMenuTes'
+  +'t'#12'ClientHeight'#3'c'#1#11'ClientWidth'#3#22#2#11'Font.Height'#2#243#9'F'
+  +'ont.Name'#6#13'MS Sans Serif'#4'Menu'#7#9'MainMenu1'#6'OnShow'#7#8'FormShow'
+  +#10'LCLVersion'#6#3'1.7'#0#6'TLabel'#6'Label1'#4'Left'#3#216#0#6'Height'#2#16
+  +#3'Top'#2#7#5'Width'#2'-'#7'Caption'#6#7'MaxList'#11'ParentColor'#8#0#0#6'TL'
+  +'abel'#6'Label2'#4'Left'#2#8#6'Height'#2#16#3'Top'#2'*'#5'Width'#2')'#7'Capt'
+  +'ion'#6#6'Label2'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#8#6'He'
+  +'ight'#2#16#3'Top'#2'<'#5'Width'#3#1#1#7'Caption'#6'-Try changing text, then'
+  +' opening, closing etc.'#11'ParentColor'#8#0#0#5'TMemo'#5'Memo1'#4'Left'#2#8
+  +#6'Height'#3#221#0#3'Top'#2'P'#5'Width'#3#247#1#7'Anchors'#11#5'akTop'#6'akL'
+  +'eft'#7'akRight'#8'akBottom'#0#13'Lines.Strings'#1#6#5'Memo1'#0#8'OnChange'#7
+  +#11'Memo1Change'#8'TabOrder'#2#0#0#0#9'TCheckBox'#9'CheckBox1'#4'Left'#3'h'#1
+  +#6'Height'#2#20#3'Top'#2#7#5'Width'#2't'#7'Caption'#6#14'EnableMenuList'#7'C'
+  +'hecked'#9#7'OnClick'#7#14'CheckBox1Click'#5'State'#7#9'cbChecked'#8'TabOrde'
+  +'r'#2#1#0#0#7'TUpDown'#7'UpDown1'#4'Left'#3'9'#1#6'Height'#2#24#3'Top'#2#3#5
+  +'Width'#2#15#9'Associate'#7#5'Edit1'#3'Min'#2#1#8'Position'#2#4#8'TabOrder'#2
+  +#2#4'Wrap'#8#0#0#5'TEdit'#5'Edit1'#4'Left'#3#16#1#6'Height'#2#24#3'Top'#2#3#5
+  +'Width'#2')'#8'OnChange'#7#11'Edit1Change'#8'TabOrder'#2#3#4'Text'#6#1'4'#0#0
+  +#11'TOpenDialog'#11'OpenDialog1'#10'DefaultExt'#6#4'.txt'#6'Filter'#6#23'txt'
+  +' files (*.txt)|*.txt'#4'left'#2'('#3'top'#3#248#0#0#0#11'TSaveDialog'#11'Sa'
+  +'veDialog1'#10'DefaultExt'#6#4'.txt'#6'Filter'#6#23'txt files (*.txt)|*.txt'
+  +#4'left'#3#128#0#3'top'#3#248#0#0#0#9'TMainMenu'#9'MainMenu1'#4'left'#3#216#0
+  +#3'top'#3#248#0#0#9'TMenuItem'#8'FileMenu'#7'Caption'#6#5'&File'#0#9'TMenuIt'
+  +'em'#7'NewItem'#7'Caption'#6#4'&New'#7'OnClick'#7#12'NewItemClick'#0#0#9'TMe'
+  +'nuItem'#8'OpenItem'#7'Caption'#6#8'&Open...'#7'OnClick'#7#13'OpenItemClick'
+  +#0#0#9'TMenuItem'#8'SaveItem'#7'Caption'#6#5'&Save'#7'OnClick'#7#13'SaveItem'
+  +'Click'#0#0#9'TMenuItem'#10'SaveAsItem'#7'Caption'#6#11'Save &As...'#7'OnCli'
+  +'ck'#7#15'SaveAsItemClick'#0#0#9'TMenuItem'#2'N3'#7'Caption'#6#1'-'#0#0#9'TM'
+  +'enuItem'#8'ExitItem'#7'Caption'#6#5'E&xit'#7'OnClick'#7#13'ExitItemClick'#0
+  +#0#9'TMenuItem'#0#7'Caption'#6#1'-'#7'Visible'#8#0#0#0#0#16'TFileMenuHandler'
+  +#3'FMH'#11'IniFileName'#6#11'Options.ini'#10'SaveDialog'#7#11'SaveDialog1'#10
+  +'OpenDialog'#7#11'OpenDialog1'#7'MaxList'#2#4#15'DefaultFileName'#6#12'New F'
+  +'ile.txt'#8'FileMenu'#7#8'FileMenu'#14'NotFoundString'#6#18'File %s not foun'
+  +'d.'#17'FileChangedString'#6'3File %s has changed. Should I save? (Custom St'
+  +'ring)'#18'FileChangedCaption'#6#10'My Caption'#6'OnOpen'#7#7'FMHOpen'#6'OnS'
+  +'ave'#7#7'FMHSave'#5'OnNew'#7#6'FMHNew'#16'OnNewFormCaption'#7#17'FMHNewForm'
+  +'Caption'#11'AddShortcut'#9#17'NewItemImageIndex'#2#255#14'EnableMenuList'#9
+  +#9'MoveToTop'#8#14'ParamCountLook'#2#1#14'LoadNewOnStart'#9#4'left'#3' '#1#3
+  +'top'#3#248#0#0#0#0
+]);

@@ -1,0 +1,47 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.caption
+msgid "mainform"
+msgstr ""
+
+#: tmainform.cmd_deleteshortcuticon.caption
+msgid "Delete Shortcut"
+msgstr ""
+
+#: tmainform.cmd_install.caption
+msgid "Install"
+msgstr ""
+
+#: tmainform.cmd_makeshortcuticon.caption
+msgid "Make Shortcut"
+msgstr ""
+
+#: tmainform.cmd_run.caption
+msgid "Run"
+msgstr ""
+
+#: tmainform.grp_action.caption
+msgid "Action"
+msgstr ""
+
+#: tmainform.grp_application.caption
+msgid "Application"
+msgstr ""
+
+#: tmainform.mnu_file.caption
+msgid "&File"
+msgstr ""
+
+#: tmainform.mnu_fileexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tmainform.mnu_help.caption
+msgid "&Help"
+msgstr ""
+
+#: tmainform.mnu_helpcheckforupdates.caption
+msgid "Check for updates..."
+msgstr ""
+

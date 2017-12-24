@@ -1,0 +1,144 @@
+object FormChangeDemoPathToNDK: TFormChangeDemoPathToNDK
+  Left = 350
+  Height = 319
+  Top = 159
+  Width = 609
+  Caption = 'Lamw: Change [Demo] Project Ndk/Sdk  Path: "*.lpi" and "build.xml"  '
+  ClientHeight = 319
+  ClientWidth = 609
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.5'
+  object Label1: TLabel
+    Left = 176
+    Height = 15
+    Top = 80
+    Width = 149
+    Caption = '[New] Path to Android NDK:'
+    ParentColor = False
+  end
+  object EditPathToAndroidNDK: TEdit
+    Left = 176
+    Height = 23
+    Top = 96
+    Width = 389
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 0
+  end
+  object SpeedButton1: TSpeedButton
+    AnchorSideTop.Control = EditPathToAndroidNDK
+    Left = 575
+    Height = 22
+    Top = 96
+    Width = 23
+    Anchors = [akTop, akRight]
+    Caption = '...'
+    OnClick = SpeedButton1Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 24
+    Width = 86
+    Caption = 'Project [Demo] :'
+    ParentColor = False
+  end
+  object BitBtn2: TBitBtn
+    Left = 280
+    Height = 30
+    Top = 224
+    Width = 285
+    Anchors = [akTop, akLeft, akRight]
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 224
+    Width = 264
+    Caption = 'Change [*.lpi] [build.xml] Ndk/Sdk  Path '
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 296
+    Width = 609
+    Panels = <>
+  end
+  object EditPathToAndroidSDK: TEdit
+    Left = 16
+    Height = 23
+    Top = 168
+    Width = 546
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 144
+    Width = 146
+    Caption = '[New] Path to Android SDK:'
+    ParentColor = False
+  end
+  object SpeedButton4: TSpeedButton
+    Left = 573
+    Height = 22
+    Top = 168
+    Width = 23
+    Anchors = [akTop, akRight]
+    Caption = '...'
+    OnClick = SpeedButton4Click
+  end
+  object RadioGroupNDK: TRadioGroup
+    Left = 18
+    Height = 41
+    Top = 80
+    Width = 152
+    AutoFill = True
+    Caption = 'NDK'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 4
+    ClientHeight = 21
+    ClientWidth = 148
+    Columns = 4
+    ItemIndex = 3
+    Items.Strings = (
+      '7'
+      '9'
+      '10c'
+      '10e'
+    )
+    TabOrder = 5
+  end
+  object EditSelectProject: TEdit
+    Left = 17
+    Height = 23
+    Top = 44
+    Width = 546
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 6
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    left = 264
+    top = 136
+  end
+  object SelectDirectoryDialog3: TSelectDirectoryDialog
+    left = 384
+    top = 176
+  end
+end

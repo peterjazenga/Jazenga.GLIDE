@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MObjFPC -Scghi -Cr -O1 -g -gl -l -vewnhibq -FiC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client\3.0\firebird -FiC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client\include -FiC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\include -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client\3.0\firebird -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client\2.5 -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf\client\3.0 -FuC:\fpcupdeluxe\lazarus\packager\units\x86_64-win64 -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\ -FUC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\lib\x86_64-win64\ fbintf.pas"/>
+</CONFIG>

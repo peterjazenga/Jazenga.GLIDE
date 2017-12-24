@@ -1,0 +1,775 @@
+object rxFilterByForm: TrxFilterByForm
+  Left = 464
+  Height = 445
+  Top = 115
+  Width = 644
+  ActiveControl = Edit1
+  Caption = 'Filter conditions'
+  ClientHeight = 445
+  ClientWidth = 644
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 20
+    Top = 6
+    Width = 214
+    BorderSpacing.Around = 6
+    Caption = 'Select filter expression for data'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 32
+    Width = 57
+    BorderSpacing.Around = 6
+    Caption = 'On field:'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 168
+    Height = 20
+    Top = 32
+    Width = 75
+    BorderSpacing.Around = 6
+    Caption = 'Operation :'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 271
+    Height = 20
+    Top = 32
+    Width = 80
+    BorderSpacing.Around = 6
+    Caption = 'Conditions :'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    AnchorSideLeft.Control = ComboBox3
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 533
+    Height = 20
+    Top = 32
+    Width = 66
+    BorderSpacing.Around = 6
+    Caption = 'Operand :'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    AnchorSideLeft.Control = ComboBox3
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = ComboBox25
+    AnchorSideBottom.Side = asrBottom
+    Left = 527
+    Height = 20
+    Top = 426
+    Width = 29
+    Anchors = [akLeft, akBottom]
+    Caption = 'End.'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ComboBox1: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 36
+    Top = 58
+    Width = 153
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object ComboBox2: TComboBox
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 58
+    Width = 96
+    BorderSpacing.Around = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 271
+    Height = 37
+    Top = 58
+    Width = 250
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    OnChange = EditChange
+    TabOrder = 2
+  end
+  object ComboBox3: TComboBox
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 58
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 3
+  end
+  object ComboBox4: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 102
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 4
+  end
+  object ComboBox5: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 100
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object Edit2: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 100
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 6
+  end
+  object ComboBox6: TComboBox
+    AnchorSideTop.Control = ComboBox1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 100
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 7
+  end
+  object ComboBox7: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 146
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 8
+  end
+  object ComboBox8: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 144
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 9
+  end
+  object Edit3: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 144
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 10
+  end
+  object ComboBox9: TComboBox
+    AnchorSideTop.Control = ComboBox4
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 144
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 11
+  end
+  object ComboBox10: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox7
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 190
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 12
+  end
+  object ComboBox11: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox7
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 188
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 13
+  end
+  object Edit4: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox7
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 188
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 14
+  end
+  object ComboBox12: TComboBox
+    AnchorSideTop.Control = ComboBox7
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 188
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 15
+  end
+  object ComboBox13: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox10
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 234
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 16
+  end
+  object ComboBox14: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox10
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 232
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 17
+  end
+  object Edit5: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox10
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 232
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 18
+  end
+  object ComboBox15: TComboBox
+    AnchorSideTop.Control = ComboBox10
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 232
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 19
+  end
+  object ComboBox16: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox13
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 278
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 20
+  end
+  object ComboBox17: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox13
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 276
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 21
+  end
+  object Edit6: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox13
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 276
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 22
+  end
+  object ComboBox18: TComboBox
+    AnchorSideTop.Control = ComboBox13
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 276
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 23
+  end
+  object ComboBox19: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox16
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 322
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 24
+  end
+  object ComboBox20: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox16
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 320
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 25
+  end
+  object Edit7: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox16
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 320
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 26
+  end
+  object ComboBox21: TComboBox
+    AnchorSideTop.Control = ComboBox16
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 320
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 27
+  end
+  object ComboBox22: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox19
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 366
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 28
+  end
+  object ComboBox23: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox19
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 364
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 29
+  end
+  object Edit8: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox19
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 364
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 30
+  end
+  object ComboBox24: TComboBox
+    AnchorSideTop.Control = ComboBox19
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 527
+    Height = 36
+    Top = 364
+    Width = 111
+    Anchors = [akTop, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 31
+  end
+  object ComboBox25: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = ComboBox22
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox1
+    AnchorSideRight.Side = asrBottom
+    Left = 8
+    Height = 36
+    Top = 410
+    Width = 149
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    BorderSpacing.Around = 2
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 32
+  end
+  object ComboBox26: TComboBox
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideTop.Control = ComboBox22
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox2
+    AnchorSideRight.Side = asrBottom
+    Left = 168
+    Height = 36
+    Top = 408
+    Width = 96
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 6
+    DropDownCount = 9
+    ItemHeight = 0
+    OnChange = ComboBoxChange
+    Style = csDropDownList
+    TabOrder = 33
+  end
+  object Edit9: TEdit
+    AnchorSideLeft.Control = ComboBox2
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = ComboBox22
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = ComboBox3
+    Left = 270
+    Height = 37
+    Top = 408
+    Width = 251
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    OnChange = EditChange
+    TabOrder = 34
+  end
+  object ComboBox27: TComboBox
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 6
+    Height = 36
+    Top = 403
+    Width = 58
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    Items.Strings = (
+      'And'
+      'Or'
+    )
+    Style = csDropDownList
+    TabOrder = 35
+    Visible = False
+  end
+  object Button1: TButton
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 585
+    Height = 36
+    Top = 403
+    Width = 53
+    Anchors = [akRight, akBottom]
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Apply'
+    Default = True
+    OnClick = Button1Click
+    TabOrder = 36
+  end
+  object Button2: TButton
+    AnchorSideRight.Control = Button1
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 519
+    Height = 36
+    Top = 403
+    Width = 60
+    Anchors = [akRight, akBottom]
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = Button2Click
+    TabOrder = 37
+  end
+  object Button3: TButton
+    AnchorSideRight.Control = Button2
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 429
+    Height = 36
+    Top = 403
+    Width = 84
+    Anchors = [akRight, akBottom]
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Clear filter'
+    OnClick = Button3Click
+    TabOrder = 38
+  end
+end

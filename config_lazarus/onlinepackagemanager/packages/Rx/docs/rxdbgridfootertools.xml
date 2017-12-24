@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxDBGridFooterTools"><element name="TRxDBGridFooterTools"><short>Инструменты управления итоговой строкий RxDBGrid</short>
+      </element><short>Модуль содержит инструменты управления итоговой строкий RxDBGrid</short>
+    </module>
+  </package>
+</fpdoc-descriptions>

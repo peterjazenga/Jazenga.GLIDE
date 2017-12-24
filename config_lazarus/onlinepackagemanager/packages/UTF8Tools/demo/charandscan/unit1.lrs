@@ -1,0 +1,44 @@
+{ Das ist eine automatisch erzeugte Lazarus-Ressourcendatei }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#175#1#6'Height'#3#176#1#3'Top'#3#173#0#5
+  +'Width'#3']'#2#13'ActiveControl'#7#6'Panel1'#7'Caption'#6#5'Form1'#12'Client'
+  +'Height'#3#176#1#11'ClientWidth'#3']'#2#10'LCLVersion'#6#6'0.9.27'#0#6'TPane'
+  +'l'#6'Panel1'#4'Left'#2#0#6'Height'#2'2'#3'Top'#2#0#5'Width'#3']'#2#5'Align'
+  +#7#5'alTop'#12'ClientHeight'#2'2'#11'ClientWidth'#3']'#2#8'TabOrder'#2#0#0#7
+  +'TButton'#7'Button1'#4'Left'#2#12#6'Height'#2#28#3'Top'#2#11#5'Width'#2'['#8
+  +'AutoSize'#9#7'Caption'#6#12'Replace Scan'#7'OnClick'#7#12'Button1Click'#8'T'
+  +'abOrder'#2#0#0#0#7'TButton'#7'Button2'#4'Left'#2'p'#6'Height'#2#28#3'Top'#2
+  +#11#5'Width'#2'\'#8'AutoSize'#9#7'Caption'#6#13'Replace Index'#7'OnClick'#7
+  +#12'Button2Click'#8'TabOrder'#2#1#0#0#7'TButton'#7'Button3'#4'Left'#3#216#0#6
+  +'Height'#2#28#3'Top'#2#11#5'Width'#2'@'#8'AutoSize'#9#7'Caption'#6#9'TitleCa'
+  +'se'#7'OnClick'#7#12'Button3Click'#8'TabOrder'#2#2#0#0#7'TButton'#7'Button4'
+  +#4'Left'#3'('#1#6'Height'#2#28#3'Top'#2#11#5'Width'#2'J'#8'AutoSize'#9#7'Cap'
+  +'tion'#6#9'LowerCase'#7'OnClick'#7#12'Button4Click'#8'TabOrder'#2#3#0#0#7'TB'
+  +'utton'#7'Button5'#4'Left'#3#128#1#6'Height'#2#28#3'Top'#2#11#5'Width'#2'D'#8
+  +'AutoSize'#9#7'Caption'#6#9'Case Test'#7'OnClick'#7#12'Button5Click'#8'TabOr'
+  +'der'#2#4#0#0#7'TButton'#7'Button6'#4'Left'#3#210#1#6'Height'#2#28#3'Top'#2
+  +#11#5'Width'#2'D'#8'AutoSize'#9#7'Caption'#6#9'Normalize'#7'OnClick'#7#12'Bu'
+  +'tton6Click'#8'TabOrder'#2#5#0#0#0#5'TMemo'#5'Memo1'#4'Left'#2#0#6'Height'#3
+  +'j'#1#3'Top'#2'2'#5'Width'#3']'#2#5'Align'#7#8'alClient'#13'Lines.Strings'#1
+  +#6#8'Examples'#6#16'Digraphs: '#199#137#199#137'an'#6#31'General Punctuation'
+  +': '#226#128#157'test'#226#128#158#6#22'Combined Chars: A'#204#138#226#132
+  +#171#6#0#6'YFree Pascal (FPC) ist ein Open-Source Pascal Compiler mit zwei b'
+  +'emerkenswerten Features: '#6'_ein hohes Ma'#195#159' an Delphi Kompatibilit'
+  +#195#164't und die Verf'#195#188'gbarkeit auf verschiedenen Plattformen, '#6
+  +'''inklusive Windows, Mac OS X und Linux. '#6'pDie Free Pascal Kompatibilit'
+  +#195#164't mit Delphi beinhaltet nicht nur die Unterst'#195#188'tzung f'#195
+  +#188'r die selbe Object Pascal '#6'dProgrammiersprache, die Delphi verwendet'
+  +', sondern auch f'#195#188'r viele Bibliotheken mit leistungsstarken '#6'=Ro'
+  +'utinen und Klassen, f'#195#188'r die Delphi mit Recht bekannt ist. '#6'qDie'
+  +'s beinhaltet vertraute Units wie System, SysUtils, StrUtils, DateUtils, Cla'
+  +'sses, Variants, Math, IniFiles und '#6'RRegistry, die in Free Pascal enthal'
+  +'ten sind auf allen unterst'#195#188'tzten Plattformen. '#6'gFree Pascal ent'
+  +'h'#195#164'lt auch Units wie Windows, ShellAPI, BaseUnix, Unix und DynLibs '
+  +'f'#195#188'r den Zugriff auf '#6']plattformspezifische Features. Dieses (un'
+  +'gef'#195#164'hre) Dutzend von Units bildet den Kern dessen, '#6'Jwas '#195
+  +#188'blicherweise die Free Pascal Laufzeitbibliothek (RTL) genannt wird. '#0
+  +#7'OnKeyUp'#7#10'Memo1KeyUp'#8'TabOrder'#2#1#0#0#10'TStatusBar'#10'StatusBar'
+  +'1'#4'Left'#2#0#6'Height'#2#20#3'Top'#3#156#1#5'Width'#3']'#2#6'Panels'#14#0
+  +#0#0#0
+]);

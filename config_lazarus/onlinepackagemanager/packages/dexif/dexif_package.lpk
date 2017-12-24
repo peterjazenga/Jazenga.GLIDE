@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="dexif_package"/>
+    <Author Value="Gerry McGuire"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Image Metadata Manipulators Written in Delphi/Lazarus. This is a fork of dEXIF specially for Lazarus and Freepascal (but works in Delphi too).
+It is possible to read EXIF and IPTC Data, manipulate some Data and write it back. Also is it possible to create a new picture from given data and add the EXIF data."/>
+    <License Value="Modified LGPL(see Copyright.txt)"/>
+    <Version Major="1"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="dEXIF.pas"/>
+        <UnitName Value="dEXIF"/>
+      </Item1>
+      <Item2>
+        <Filename Value="dIPTC.pas"/>
+        <UnitName Value="dIPTC"/>
+      </Item2>
+      <Item3>
+        <Filename Value="msData.pas"/>
+        <UnitName Value="msData"/>
+      </Item3>
+      <Item4>
+        <Filename Value="dexifwrite.pas"/>
+        <UnitName Value="dexifwrite"/>
+      </Item4>
+      <Item5>
+        <Filename Value="dglobal.pas"/>
+        <UnitName Value="dGlobal"/>
+      </Item5>
+      <Item6>
+        <Filename Value="dtags.pas"/>
+        <UnitName Value="dTags"/>
+      </Item6>
+      <Item7>
+        <Filename Value="dutils.pas"/>
+        <UnitName Value="dutils"/>
+      </Item7>
+      <Item8>
+        <Filename Value="dExif.inc"/>
+        <Type Value="Include"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LazUtils"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

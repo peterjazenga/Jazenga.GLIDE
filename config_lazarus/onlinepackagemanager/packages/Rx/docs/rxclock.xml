@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="rxclock">
+      <element name="TRxClock">
+        <descr>Компонента позволяет отображать время суток в цифровом или аналоговом виде (вид отображения задается с помощью свойства ShowMode). 
+При цифровом отображении формат времени задается комбинацией значений свойств LeadingZero, TwelveHour и ShowSeconds. 
+Дополнительно имеется функция будильника. При установке значения AlarmEnabled в True, при наступлении времени суток, заданного свойствами AlarmHour, AlarmMinute и AlarmSecond, происходит событие OnAlarm, в обработчике которого вы можете произвести необходимые действия.</descr>
+      </element>
+      <element name="TRxClock.Create"/>
+      <element name="TRxClock.Destroy"/>
+      <element name="TRxClock.SetAlarmTime"/>
+      <element name="TRxClock.UpdateClock"/>
+      <element name="TRxClock.AlarmEnabled">
+        <short>property AlarmEnabled: Boolean;</short>
+        <descr>При установке значения AlarmEnabled в True, при наступлении времени суток, заданного свойствами AlarmHour, AlarmMinute и AlarmSecond, происходит событие OnAlarm, в обработчике которого вы можете произвести необходимые действия.</descr>
+      </element>
+      <element name="TRxClock.AlarmHour">
+        <short>property AlarmHour: Byte;</short>
+        <descr>Свойство задает (совместно со значениями AlarmMinute и AlarmSecond) время срабатывания "будильника", т.е. время, в которое произойдет событие OnAlarm при установке в True свойства AlarmEnabled.</descr>
+      </element>
+      <element name="TRxClock.AlarmMinute">
+        <short>property AlarmMinute: Byte;</short>
+        <descr>Свойство задает (совместно со значениями AlarmHour и AlarmSecond) время срабатывания "будильника", т.е. время, в которое произойдет событие OnAlarm при установке в True свойства AlarmEnabled.</descr>
+      </element>
+      <element name="TRxClock.AlarmSecond">
+        <short>property AlarmSecond: Byte;</short>
+        <descr>Свойство задает (совместно со значениями AlarmHour и AlarmMinute) время срабатывания "будильника", т.е. время, в которое произойдет событие OnAlarm при установке в True свойства AlarmEnabled.</descr>
+      </element>
+      <element name="TRxClock.AutoSize">
+        <short>AutoSize Property</short>
+        <descr>Свойство определяет, будет ли размер автоматически изменяться размер шрифта, которым отображается время в цифровом виде (значение ShowMode равно scDigital), при изменении размера элемента управления TRxClock.</descr>
+      </element>
+      <element name="TRxClock.BevelInner"/>
+      <element name="TRxClock.BevelOuter"/>
+      <element name="TRxClock.DotsColor"/>
+      <element name="TRxClock.ShowMode">
+        <short>property ShowMode: TShowClock;</short>
+        <descr>Свойство управляет режимом отображения времени в компоненте TRxClock. Значение scDigital задает цифровое отображение времени шрифтом, заданным свойством Font, значение scAnalog задает аналоговый вид часов. 
+При цифровом отображении времени формат времени задается комбинацией значений свойств LeadingZero, TwelveHour и ShowSeconds. 
+При аналоговом отображении свойство ShowSeconds определяет, будет ли показываться секундная стрелка, свойство DotsColor - цвет для точек, обозначающих часы.</descr>
+      </element>
+      <element name="TRxClock.ShowSeconds">
+        <short>property ShowSeconds: Boolean;</short>
+        <descr>Свойство задает, будут ли отображаться секунды при цифровом изображении часов (при значении свойства ShowMode = scDigital) или секундная стрелка - при аналоговом.</descr>
+      </element>
+      <element name="TRxClock.TwelveHour">
+        <short>property TwelveHour: Boolean;</short>
+        <descr>Свойство определяет, как будет форматироваться время, если задано цифровое отображение часов (свойство ShowMode = scDigital). При значении TwelveHour = False (по умолчанию) диапазон значений часов 0..23; при значении True часы принимают значения 1..12 и при форматировании времени используются значения глобальных переменных модуля SysUtils TimeAMString и TimePMString.</descr>
+      </element>
+      <element name="TRxClock.LeadingZero">
+        <short>property LeadingZero: Boolean;</short>
+        <descr>Свойство определяет, будут ли добавляться лидирующие нули при форматировании времени (только для значения часов), если задано цифровое отображение часов (свойство ShowMode = scDigital).</descr>
+      </element>
+      <element name="TRxClock.Align"/>
+      <element name="TRxClock.BevelWidth"/>
+      <element name="TRxClock.BorderWidth"/>
+      <element name="TRxClock.BorderStyle"/>
+      <element name="TRxClock.Anchors"/>
+      <element name="TRxClock.Constraints"/>
+      <element name="TRxClock.UseDockManager"/>
+      <element name="TRxClock.DockSite"/>
+      <element name="TRxClock.DragKind"/>
+      <element name="TRxClock.FullRepaint"/>
+      <element name="TRxClock.Color"/>
+      <element name="TRxClock.Cursor"/>
+      <element name="TRxClock.DragMode"/>
+      <element name="TRxClock.DragCursor"/>
+      <element name="TRxClock.Enabled"/>
+      <element name="TRxClock.Font"/>
+      <element name="TRxClock.ParentColor"/>
+      <element name="TRxClock.ParentFont"/>
+      <element name="TRxClock.ParentShowHint"/>
+      <element name="TRxClock.PopupMenu"/>
+      <element name="TRxClock.ShowHint"/>
+      <element name="TRxClock.Visible"/>
+      <element name="TRxClock.OnAlarm">
+        <short>property OnAlarm: TNotifyEvent;</short>
+        <descr>Событие OnAlarm происходит при наступлении времени суток, заданного свойствами AlarmHour, AlarmMinute и AlarmSecond, если свойство AlarmEnabled установлено в значение True.</descr>
+      </element>
+      <element name="TRxClock.OnGetTime"/>
+      <element name="TRxClock.OnClick"/>
+      <element name="TRxClock.OnDblClick"/>
+      <element name="TRxClock.OnMouseMove"/>
+      <element name="TRxClock.OnMouseDown"/>
+      <element name="TRxClock.OnMouseUp"/>
+      <element name="TRxClock.OnDragOver"/>
+      <element name="TRxClock.OnDragDrop"/>
+      <element name="TRxClock.OnEndDrag"/>
+      <element name="TRxClock.OnResize"/>
+      <element name="TRxClock.OnContextPopup"/>
+      <element name="TRxClock.OnStartDrag"/>
+      <element name="TRxClock.OnConstrainedResize"/>
+      <element name="TRxClock.OnDockDrop"/>
+      <element name="TRxClock.OnDockOver"/>
+      <element name="TRxClock.OnEndDock"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

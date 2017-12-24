@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="bgragames"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="lainz, circular"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="joystick"/>
+        <OtherUnitFiles Value="joystick;sound\src;."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(FPCVer)"/>
+      </SearchPaths>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <Description Value="Some BGRABitmap games and related units."/>
+    <License Value="modified LGPL v2
+"/>
+    <Version Major="1"/>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="bgfilters.pas"/>
+        <UnitName Value="bgFilters"/>
+      </Item1>
+      <Item2>
+        <Filename Value="bgpanel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="bgPanel"/>
+      </Item2>
+      <Item3>
+        <Filename Value="bgtilemap.pas"/>
+        <UnitName Value="bgTileMap"/>
+      </Item3>
+      <Item4>
+        <Filename Value="bgtilemapgl.pas"/>
+        <UnitName Value="bgTileMapGL"/>
+      </Item4>
+      <Item5>
+        <Filename Value="bgtools.pas"/>
+        <UnitName Value="bgTools"/>
+      </Item5>
+      <Item6>
+        <Filename Value="joystick\sdpojoystick.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SdpoJoystick"/>
+      </Item6>
+      <Item7>
+        <Filename Value="joystick\sdpojoysticklinuxtype.inc"/>
+        <Type Value="Include"/>
+      </Item7>
+      <Item8>
+        <Filename Value="joystick\sdpojoystickwindows.inc"/>
+        <Type Value="Include"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sound\src\uos.pas"/>
+        <UnitName Value="uos"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sound\src\uos_flat.pas"/>
+        <UnitName Value="uos_flat"/>
+      </Item10>
+      <Item11>
+        <Filename Value="sound\src\uos_libsndfile.pas"/>
+        <UnitName Value="uos_libsndfile"/>
+      </Item11>
+      <Item12>
+        <Filename Value="sound\src\uos_mpg123.pas"/>
+        <UnitName Value="uos_mpg123"/>
+      </Item12>
+      <Item13>
+        <Filename Value="sound\src\uos_portaudio.pas"/>
+        <UnitName Value="uos_portaudio"/>
+      </Item13>
+      <Item14>
+        <Filename Value="sound\src\uos_soundtouch.pas"/>
+        <UnitName Value="uos_soundtouch"/>
+      </Item14>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="BGLControls"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="BGRABitmapPack"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: lazautoupdate_httpclient.serrchunklineendmissing
+msgid "Chunk line end missing"
+msgstr ""
+
+#: lazautoupdate_httpclient.serrchunktoobig
+msgid "Chunk too big"
+msgstr ""
+
+#: lazautoupdate_httpclient.serrinvalidprotocol
+msgid "Invalid protocol: \"%s\""
+msgstr ""
+
+#: lazautoupdate_httpclient.serrinvalidprotocolversion
+msgid "Invalid protocol version in response: \"%s\""
+msgstr ""
+
+#: lazautoupdate_httpclient.serrinvalidstatuscode
+msgid "Invalid response status code: %s"
+msgstr ""
+
+#: lazautoupdate_httpclient.serrmaxredirectsreached
+msgid "Maximum allowed redirects reached: %d"
+msgstr ""
+
+#: lazautoupdate_httpclient.serrreadingsocket
+msgid "Error reading data from socket"
+msgstr ""
+
+#: lazautoupdate_httpclient.serrunexpectedresponse
+msgid "Unexpected response status code: %d"
+msgstr ""
+

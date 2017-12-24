@@ -1,0 +1,93 @@
+inherited FWorking: TFWorking
+  Left = 449
+  Height = 96
+  Top = 349
+  Width = 372
+  AutoSize = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 96
+  ClientWidth = 372
+  Color = clWhite
+  Font.CharSet = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  FormStyle = fsSplash
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poMainFormCenter
+  object Panel1: TPanel[0]
+    Left = 0
+    Height = 96
+    Top = 0
+    Width = 372
+    BevelInner = bvLowered
+    BevelWidth = 3
+    BorderWidth = 3
+    BorderStyle = bsSingle
+    ClientHeight = 94
+    ClientWidth = 370
+    Color = 2774372
+    ParentColor = False
+    TabOrder = 0
+    object Panel2: TPanel
+      Left = 9
+      Height = 76
+      Top = 9
+      Width = 352
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 76
+      ClientWidth = 352
+      Color = clWindow
+      Constraints.MinHeight = 55
+      ParentColor = False
+      TabOrder = 0
+      object PleaseWait: TLabel
+        Left = 0
+        Height = 27
+        Top = 0
+        Width = 352
+        Align = alTop
+        Alignment = taCenter
+        Caption = 'Merci de patienter...'
+        Constraints.MinHeight = 27
+        Font.Color = clWindowFrame
+        Font.Height = 16
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object PanCancel: TPanel
+        Left = 0
+        Height = 36
+        Top = 40
+        Width = 352
+        Align = alBottom
+        BevelOuter = bvNone
+        ClientHeight = 36
+        ClientWidth = 352
+        TabOrder = 0
+        Visible = False
+        object BtnCancel: TFWCancel
+          Cursor = crHandPoint
+          Left = 133
+          Height = 32
+          Hint = 'Arrêtera l''opération en cours dès que possible.'
+          Top = 2
+          Width = 98
+          Caption = 'Annuler'
+          TabOrder = 0
+          Anchors = [akLeft, akRight, akBottom]
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+          OnClick = BtnCancelClick
+        end
+      end
+    end
+  end
+end

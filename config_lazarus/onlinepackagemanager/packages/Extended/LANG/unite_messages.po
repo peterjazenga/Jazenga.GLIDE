@@ -1,0 +1,515 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: unite_messages.gs_acces_direct_serveur
+msgid "Accès directs Serveur"
+msgstr ""
+
+#: unite_messages.gs_cancel
+msgid "Annuler"
+msgstr ""
+
+#: unite_messages.gs_canceledit
+msgid "Annuler les modifications"
+msgstr ""
+
+#: unite_messages.gs_caption_restore_database
+msgid "Restauration base @ARG."
+msgstr ""
+
+#: unite_messages.gs_caption_save_in
+msgid "Sauvegarde dans @ARG."
+msgstr ""
+
+#: unite_messages.gs_chargement_impossible_field_image
+msgid "Il est impossible de charger l'enregistrement de l'image."
+msgstr ""
+
+#: unite_messages.gs_chargement_impossible_file_image
+msgid "Il est impossible de charger le fichier image."
+msgstr ""
+
+#: unite_messages.gs_chargement_impossible_stream_field
+msgid "Il est impossible de charger le flux image dans le champ."
+msgstr ""
+
+#: unite_messages.gs_chargement_impossible_stream_image
+msgid "Il est impossible de charger le flux image."
+msgstr ""
+
+#: unite_messages.gs_close
+msgid "Fermer"
+msgstr ""
+
+#: unite_messages.gs_confirmation
+msgctxt "unite_messages.gs_confirmation"
+msgid "Confirmation"
+msgstr ""
+
+#: unite_messages.gs_confirmcaption
+msgctxt "unite_messages.gs_confirmcaption"
+msgid "Confirmation"
+msgstr ""
+
+#: unite_messages.gs_confirm_file_is_unavailable_do_i_erase_it_to_update_it
+msgid ""
+"Le fichier est innaccessible.\n"
+"L'effacer pour le mettre à jour ?\n"
+msgstr ""
+
+#: unite_messages.gs_connection_timeout
+msgid "Connection TimeOut"
+msgstr ""
+
+#: unite_messages.gs_deconnecter_annule
+msgid "Annulation de la déconnexion"
+msgstr ""
+
+#: unite_messages.gs_deletefilenamed
+msgid ""
+"Supprimer ce fichier :\n"
+"@ARG ?\n"
+msgstr ""
+
+#: unite_messages.gs_deleterecord
+msgid "Supprimer l'enregistrement"
+msgstr ""
+
+#: unite_messages.gs_details_techniques
+msgid "Détails techniques : "
+msgstr ""
+
+#: unite_messages.gs_downloading_in_progress
+msgid "Téléchargement de @ARG en cours…"
+msgstr ""
+
+#: unite_messages.gs_download_finished
+msgid "Téléchargement terminé."
+msgstr ""
+
+#: unite_messages.gs_download_update
+msgid "Télécharger mise à jour"
+msgstr ""
+
+#: unite_messages.gs_ecriture_impossible
+msgid "Impossible d'écrire sur le fichier @ARG."
+msgstr ""
+
+#: unite_messages.gs_ecriture_impossible_avec_attr
+msgid "Impossible d'écrire sur le fichier @ARG avec l'attribut de fichier @ARG."
+msgstr ""
+
+#: unite_messages.gs_editrecord
+msgid "Modifier l'enregistrement"
+msgstr ""
+
+#: unite_messages.gs_erreur_connexion
+msgid ""
+"Un problème est survenu pour la connexion aux données.\n"
+"Réessayez d'ouvrir la fiche.\n"
+msgstr ""
+
+#: unite_messages.gs_erreur_donnees
+msgid "Un problème est survenu dans l'accès aux données."
+msgstr ""
+
+#: unite_messages.gs_erreur_modification_maj
+msgid ""
+"Impossible de supprimer cet enregistrement.\n"
+"Il est utilisé dans une autre fonction.\n"
+msgstr ""
+
+#: unite_messages.gs_erreur_nombre_grand
+msgid ""
+"Problème à la validation du nombre :\n"
+"Un nombre saisi est trop grand.\n"
+"Modifier la saisie ou annuler.\n"
+msgstr ""
+
+#: unite_messages.gs_erreur_ouverture
+msgid "Erreur à l'ouverture @ARG."
+msgstr ""
+
+#: unite_messages.gs_erreur_reseau
+msgid ""
+"Erreur réseau.\n"
+"Vérifier la connexion réseau.\n"
+msgstr ""
+
+#: unite_messages.gs_error
+msgid "Erreur"
+msgstr ""
+
+#: unite_messages.gs_error_bad_connection
+msgid "Problème de connexion à @ARG."
+msgstr ""
+
+#: unite_messages.gs_error_bad_gateway
+msgid "Mauvaise passerelle"
+msgstr ""
+
+#: unite_messages.gs_error_bad_request
+msgid "Mauvaise requête"
+msgstr ""
+
+#: unite_messages.gs_error_bad_url
+msgid "Mauvaise URL : @ARG"
+msgstr ""
+
+#: unite_messages.gs_error_bad_web_connection
+msgid "Problème de connexion internet."
+msgstr ""
+
+#: unite_messages.gs_error_cannot_load_not_downloaded_file
+msgid "Impossible de lire le fichier. Il n'a pas été téléchargé."
+msgstr ""
+
+#: unite_messages.gs_error_cannot_write_on
+msgid "Écriture impossible de @ARG."
+msgstr ""
+
+#: unite_messages.gs_error_file_is_not_on_the_web_site
+msgid "Le fichier que vous essayez de télécharger est absent du site."
+msgstr ""
+
+#: unite_messages.gs_error_forbidden_access
+msgid "Accès interdit"
+msgstr ""
+
+#: unite_messages.gs_error_restore_directory_does_not_exists
+msgid ""
+"Opération impossible, le répertoire de sauvegarde\n"
+"@ARG\n"
+"n'existe pas et ne peut être créé.\n"
+msgstr ""
+
+#: unite_messages.gs_error_timeout_problem
+msgid "Problème de timeOut"
+msgstr ""
+
+#: unite_messages.gs_exe_do_not_exists_exiting
+msgid ""
+"L'exécutable suivant n'a pas été trouvé. L'application va s'arrếter.\n"
+"@ARG\n"
+msgstr ""
+
+#: unite_messages.gs_fichier_non_trouve
+msgid "Fichier @ARG non trouvé."
+msgstr ""
+
+#: unite_messages.gs_files_seems_to_be_the_same_reuse
+msgid "Il y a un fichier de même taille et nom déjà sauvegardé. Le réutilise-t-on ?"
+msgstr ""
+
+#: unite_messages.gs_firstrecord
+msgid "Premier enregistrement"
+msgstr ""
+
+#: unite_messages.gs_form_abandon_ouverture
+msgid "Abandon de l'ouverture de la fiche @ARG..."
+msgstr ""
+
+#: unite_messages.gs_gotobookmarkrecord
+msgid "Aller à l'enregistrement Marqué"
+msgstr ""
+
+#: unite_messages.gs_groupe_abandon
+msgid "Veuillez enregistrer ou abandonner avant de continuer."
+msgstr ""
+
+#: unite_messages.gs_groupe_exclure
+msgid "Exclure"
+msgstr ""
+
+#: unite_messages.gs_groupe_inclure
+msgid "Inclure"
+msgstr ""
+
+#: unite_messages.gs_groupe_mauvais_boutons
+msgid ""
+"Les boutons de transfert doivent s'inverser dans les deux listes. \n"
+"Les boutons de transfert sont identifiés par rapport à leur liste,\n"
+" à l'inverse des numéros d'images identifiés par rapport à la table. \n"
+msgstr ""
+
+#: unite_messages.gs_groupe_retour_origine
+msgid "Restaurer les données initiales"
+msgstr ""
+
+#: unite_messages.gs_groupe_tout_exclure
+msgid "Tout exclure"
+msgstr ""
+
+#: unite_messages.gs_groupe_tout_inclure
+msgid "Tout inclure"
+msgstr ""
+
+#: unite_messages.gs_groupe_vider
+msgid ""
+"Le panier utilisé pour les réaffectations n'est pas vide.\n"
+"Voulez-vous abandonner ces réaffectations ?\n"
+msgstr ""
+
+#: unite_messages.gs_groupview_abort
+msgid "Abandonner"
+msgstr ""
+
+#: unite_messages.gs_groupview_basket
+msgid "Retour origine"
+msgstr ""
+
+#: unite_messages.gs_groupview_record
+msgid "Enregistrer"
+msgstr ""
+
+#: unite_messages.gs_group_exclude_list
+msgid "Liste d'exclusion"
+msgstr ""
+
+#: unite_messages.gs_group_include_list
+msgid "Liste d'inclusion"
+msgstr ""
+
+#: unite_messages.gs_ignore
+msgid "Ignorer"
+msgstr ""
+
+#: unite_messages.gs_images_format_out
+msgid "Faut-il ajouter l'extension @ARG aux extensions d'images prohibées ?"
+msgstr ""
+
+#: unite_messages.gs_image_deformation
+msgid "L'image sera déformée, continuer ?"
+msgstr ""
+
+#: unite_messages.gs_image_doit_etre
+msgid "La taille de l'image doit être de "
+msgstr ""
+
+#: unite_messages.gs_image_hauteur
+msgid "L'image doit avoir une hauteur de "
+msgstr ""
+
+#: unite_messages.gs_image_mauvaise_image
+msgid "Mauvais format d'image."
+msgstr ""
+
+#: unite_messages.gs_image_mauvaise_taille
+msgid "La taille de l'image doit être au moins de 32 sur 32."
+msgstr ""
+
+#: unite_messages.gs_image_multiple_5
+msgid "L'image doit avoir une largeur multiple de "
+msgstr ""
+
+#: unite_messages.gs_image_trop_grande
+msgid "L'image est trop grande."
+msgstr ""
+
+#: unite_messages.gs_image_trop_petite
+msgid "L'image est trop petite."
+msgstr ""
+
+#: unite_messages.gs_imaging_filter
+msgid "Graphic (*.*)|*.bmp;*.BMP;*.xpm;*.XPM;*.pbm;*.PBM;*.pgm;*.PGM;*.ppm;*.PPM;*.ico;*.ICO;*.icns;*.ICNS;*.cur;*.CUR;*.jpeg;*.JPEG;*.jpg;*.JPG;*.jpe;*.jfif;*.JFIF;*.tif;*.TIF;*.tiff;*.TIFF;*.gif;*.GIF;*.gif;*.GIF;*.dagsky;*.dat;*.dagtexture;*.img;*.cif;*.rci;*.bsi;*.xpm;*.XPM;*.pcx;*.psd;*.pdd;*.jp2;*.j2k;*.j2c;*.jpx;*.jpc;*.pfm;*.pam;*.ppm;*.PPM;*.pgm;*.PGM;*.pbm;*.PBM;*.tga;*.TGA;*.dds;*.gif;*.GIF;*.jng;*.JNG;*.mng;*.png;*.PNG;*.jpg;*.JPG;*.jpeg;*.JPEG;*.jfif;*.JFIF;*.jpe;*.jif;*.bmp;*.BMP;*.dib;*.DIB;*.tga;*.TGA;*.dds;*.jng;*.JNG;*.mng;*.gif;*.GIF;*.png;*.PNG;*.jpg;*.JPG;*.jpeg;*.JPEG;*.jfif;*.JFIF;*.jpe;*.jif;*.bmp;*.BMP;*.dib;*.DIB|Bitmaps (*.bmp;*.BMP)|*.bmp;*.BMP|Pixmap (*.xpm;*.XPM)|*.xpm;*.XPM|Portable PixMap (*.pbm;*.PBM;*.pgm;*.PGM;*.ppm;*.PPM)|*.pbm;*.PBM;*.pgm;*.PGM;*.ppm;*.PPM|Icon (*.ico;*.ICO)|*.ico;*.ICO|Mac OS X Icon (*.icns;*.ICNS)|*.icns;*.ICNS|Cursor (*.cur;*.CUR)|*.cur;*.CUR|Joint Picture Expert Group (*.jpeg;*.JPEG;*.jpg;*.JPG;*.jpe;*.jfif;*.JFIF)|*.jpeg;*.JPEG;*.jpg;*.JPG;*.jpe;*.jfif;*.JFIF|Tagged Image File Format (*.tif;*.TIF;*.tiff;*.TIFF)|*.tif;*.TIF;*.tiff;*.TIFF|Graphics Interchange Format (*.gif;*.GIF)|*.gif;*.GIF|Animated GIF (*.gif;*.GIF)|*.gif;*.GIF|Imaging Graphic AllInOne (*.dagsky)|*.dagsky|Imaging Graphic AllInOne (*.dat)|*.dat|Imaging Graphic AllInOne (*.dagtexture)|*.dagtexture|Imaging Graphic AllInOne (*.img)|*.img|Imaging Graphic AllInOne (*.cif)|*.cif|Imaging Graphic AllInOne (*.rci)|*.rci|Imaging Graphic AllInOne (*.bsi)|*.bsi|Imaging Graphic AllInOne (*.xpm;*.XPM)|*.xpm;*.XPM|Imaging Graphic AllInOne (*.pcx)|*.pcx|Imaging Graphic AllInOne (*.psd)|*.psd|Imaging Graphic AllInOne (*.pdd)|*.pdd|Imaging Graphic AllInOne (*.jp2)|*.jp2|Imaging Graphic AllInOne (*.j2k)|*.j2k|Imaging Graphic AllInOne (*.j2c)|*.j2c|Imaging Graphic AllInOne (*.jpx)|*.jpx|Imaging Graphic AllInOne (*.jpc)|*.jpc|Imaging Graphic AllInOne (*.pfm)|*.pfm|Imaging Graphic AllInOne (*.pam)|*.pam|Imaging Graphic AllInOne (*.ppm;*.PPM)|*.ppm;*.PPM|Imaging Graphic AllInOne (*.pgm;*.PGM)|*.pgm;*.PGM|Imaging Graphic AllInOne (*.pbm;*.PBM)|*.pbm;*.PBM|Imaging Graphic AllInOne (*.tga;*.TGA)|*.tga;*.TGA|Imaging Graphic AllInOne (*.dds)|*.dds|Imaging Graphic AllInOne (*.gif;*.GIF)|*.gif;*.GIF|Imaging Graphic AllInOne (*.jng;*.JNG)|*.jng;*.JNG|Imaging Graphic AllInOne (*.mng)|*.mng|Imaging Graphic AllInOne (*.png;*.PNG)|*.png;*.PNG|Imaging Graphic AllInOne (*.jpg;*.JPG)|*.jpg;*.JPG|Imaging Graphic AllInOne (*.jpeg;*.JPEG)|*.jpeg;*.JPEG|Imaging Graphic AllInOne (*.jfif;*.JFIF)|*.jfif;*.JFIF|Imaging Graphic AllInOne (*.jpe)|*.jpe|Imaging Graphic AllInOne (*.jif)|*.jif|Imaging Graphic AllInOne (*.bmp;*.BMP)|*.bmp;*.BMP|Imaging Graphic AllInOne (*.dib;*.DIB)|*.dib;*.DIB|Truevision Targa Image (*.tga;*.TGA)|*.tga;*.TGA|DirectDraw Surface (*.dds)|*.dds|JPEG Network Graphics (*.jng;*.JNG)|*.jng;*.JNG|Multiple Network Graphics (*.mng)|*.mng|Graphics Interchange Format (*.gif;*.GIF)|*.gif;*.GIF|Portable Network Graphics (*.png;*.PNG)|*.png;*.PNG|Joint Photographic Experts Group Image (*.jpg;*.JPG)|*.jpg;*.JPG|Joint Photographic Experts Group Image (*.jpeg;*.JPEG)|*.jpeg;*.JPEG|Joint Photographic Experts Group Image (*.jfif;*.JFIF)|*.jfif;*.JFIF|Joint Photographic Experts Group Image (*.jpe)|*.jpe|Joint Photographic Experts Group Image (*.jif)|*.jif|Windows Bitmap Image (*.bmp;*.BMP)|*.bmp;*.BMP|Windows Bitmap Image (*.dib;*.DIB)|*.dib;*.DIB|Tous les fichiers (*)|*|"
+msgstr ""
+
+#: unite_messages.gs_information
+msgid "Informations"
+msgstr ""
+
+#: unite_messages.gs_ini_file_cant_write
+msgid ""
+"Chemin @ARG inaccessible.\n"
+"Démarrer l'application en tant qu'administrateur\n"
+msgstr ""
+
+#: unite_messages.gs_inserer_enregistrement
+msgid "Insérer un enregistrement"
+msgstr ""
+
+#: unite_messages.gs_insertrecord
+msgid "Insérer enregistrement"
+msgstr ""
+
+#: unite_messages.gs_lastrecord
+msgid "Dernier enregistrement"
+msgstr ""
+
+#: unite_messages.gs_mettre_a_jour_fiche
+msgid ""
+"L'enregistrement a été effacé ou modifié par un autre utilisateur.\n"
+"La fiche va être mise à jour.\n"
+msgstr ""
+
+#: unite_messages.gs_mode_asynchrone
+msgid "Mode Asynchrone"
+msgstr ""
+
+#: unite_messages.gs_mode_asynchrone_nb_enregistrements
+msgid "Mode Asynchrone Enregistrements"
+msgstr ""
+
+#: unite_messages.gs_mode_asynchrone_timeout
+msgid "Mode Asynchrone TimeOut"
+msgstr ""
+
+#: unite_messages.gs_mode_connexion_asynchrone
+msgid "Connection Asynchrone"
+msgstr ""
+
+#: unite_messages.gs_mot_passe_invalide
+msgid ""
+"Mot de passe invalide.\n"
+"Veuillez resaisir votre mot de passe.\n"
+msgstr ""
+
+#: unite_messages.gs_movenextrecord
+msgid "Déplacer l'enregistrement au suivant"
+msgstr ""
+
+#: unite_messages.gs_movepreviousrecord
+msgid "Déplacer l'enregistrement au précédent"
+msgstr ""
+
+#: unite_messages.gs_navigateur_vers_le_bas
+msgid "Déplacer la ligne vers le bas"
+msgstr ""
+
+#: unite_messages.gs_navigateur_vers_le_haut
+msgid "Déplacer la ligne vers le haut"
+msgstr ""
+
+#: unite_messages.gs_nextrecord
+msgid "Enregistrement suivant"
+msgstr ""
+
+#: unite_messages.gs_no
+msgid "Non"
+msgstr ""
+
+#: unite_messages.gs_notoall
+msgid "Non à tout"
+msgstr ""
+
+#: unite_messages.gs_of_dataset
+msgid "du Dataset "
+msgstr ""
+
+#: unite_messages.gs_ok
+msgid "OK"
+msgstr ""
+
+#: unite_messages.gs_optimising_database_is_a_success
+msgid "L'optimisation de la base s'est bien passée."
+msgstr ""
+
+#: unite_messages.gs_pas_groupes
+msgid "DatasourceOwnerTable ou DatasourceOwnerKey non trouvés."
+msgstr ""
+
+#: unite_messages.gs_pb_connexion
+msgid ""
+"La connexion a échouée.\n"
+"Veuillez contacter votre administrateur.\n"
+msgstr ""
+
+#: unite_messages.gs_please_wait
+msgid "Veuillez patienter…"
+msgstr ""
+
+#: unite_messages.gs_postedit
+msgid "Valider modifications"
+msgstr ""
+
+#: unite_messages.gs_press_ctrl_c_to_copy_text
+msgid "Appuyez sur Ctrl+C pour copier ce texte."
+msgstr ""
+
+#: unite_messages.gs_priorrecord
+msgid "Enregistrement précédent"
+msgstr ""
+
+#: unite_messages.gs_refreshrecord
+msgid "Rafraîchir les données"
+msgstr ""
+
+#: unite_messages.gs_retry
+msgctxt "unite_messages.gs_retry"
+msgid "Réessayer"
+msgstr ""
+
+#: unite_messages.gs_searchrecord
+msgid "Rechercher"
+msgstr ""
+
+#: unite_messages.gs_send_mail_caption
+msgid "Envoyer des mails"
+msgstr ""
+
+#: unite_messages.gs_setbookmarkrecord
+msgid "Marquer L'enregistrement"
+msgstr ""
+
+#: unite_messages.gs_set_keyset
+msgid "Set Keyset"
+msgstr ""
+
+#: unite_messages.gs_soft_image_not_found
+msgid ""
+"Image @ARG non tnouvée\n"
+"Veuillez copier le répertoire 'Images' dans le répertoire de votre exécutable.\n"
+msgstr ""
+
+#: unite_messages.gs_string_must_be_hexa
+msgid "La chaine doit représenter des hexadécimaux"
+msgstr ""
+
+#: unite_messages.gs_supprimer_question
+msgid "Confirmez-vous l'effacement de l'enregistrement ?"
+msgstr ""
+
+#: unite_messages.gs_testbad
+msgid "Error"
+msgstr ""
+
+#: unite_messages.gs_testok
+msgid "Test OK"
+msgstr ""
+
+#: unite_messages.gs_toolbarmenu_personnaliser
+msgid "Personnaliser"
+msgstr ""
+
+#: unite_messages.gs_valeurs_utilisees
+msgid ""
+"Les valeurs @ARG sont déjà utilisées.\n"
+"Saisir des valeurs différentes, annuler ou réeffectuer la validation si une valeur n'est pas modifiable.\n"
+msgstr ""
+
+#: unite_messages.gs_valeur_utilisee
+msgid ""
+"La valeur @ARG est déjà utilisée.\n"
+"Saisir une valeur différente, annuler ou réeffectuer la validation si une valeur n'est pas modifiable.\n"
+msgstr ""
+
+#: unite_messages.gs_valider_modifications
+msgid "Valider les modifications"
+msgstr ""
+
+#: unite_messages.gs_warning
+msgid "Attention"
+msgstr ""
+
+#: unite_messages.gs_yes
+msgid "Oui"
+msgstr ""
+
+#: unite_messages.gs_yestoall
+msgid "Oui à tout"
+msgstr ""
+
+#: unite_messages.sclosebutton
+msgid "&Fermer"
+msgstr ""
+

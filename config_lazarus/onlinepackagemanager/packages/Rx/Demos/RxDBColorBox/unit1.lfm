@@ -1,0 +1,239 @@
+object Form1: TForm1
+  Left = 390
+  Height = 454
+  Top = 236
+  Width = 930
+  Caption = 'Form1'
+  ClientHeight = 454
+  ClientWidth = 930
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object RxDBGrid1: TRxDBGrid
+    AnchorSideTop.Control = DBNavigator1
+    AnchorSideTop.Side = asrBottom
+    Left = 0
+    Height = 346
+    Top = 108
+    Width = 930
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'FIELD_ID'
+        Title.Orientation = toHorizontal
+        Width = 100
+        FieldName = 'FIELD_ID'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'COLOR_INT'
+        Title.Orientation = toHorizontal
+        Width = 150
+        FieldName = 'COLOR_INT'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'COLOR_STR'
+        Title.Orientation = toHorizontal
+        Width = 500
+        FieldName = 'COLOR_STR'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end>
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgAllowQuickFilter]
+    FooterColor = clYellow
+    Align = alBottom
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = Datasource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentColor = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object RxDBColorBox1: TRxDBColorBox
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Label2
+    Left = 12
+    Height = 29
+    Top = 30
+    Width = 385
+    DataField = 'COLOR_INT'
+    DataSource = Datasource1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object RxDBColorBox2: TRxDBColorBox
+    AnchorSideLeft.Control = Label2
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 409
+    Height = 29
+    Top = 30
+    Width = 515
+    DataField = 'COLOR_STR'
+    DataSource = Datasource1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object DBNavigator1: TDBNavigator
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = RxDBColorBox1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 25
+    Top = 77
+    Width = 241
+    BevelOuter = bvNone
+    BorderSpacing.Top = 12
+    BorderSpacing.Around = 6
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 25
+    ClientWidth = 241
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 18
+    Top = 6
+    Width = 133
+    BorderSpacing.Around = 6
+    Caption = 'Test for integer field'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    Left = 403
+    Height = 18
+    Top = 6
+    Width = 124
+    BorderSpacing.Around = 6
+    Caption = 'Test for string field'
+    ParentColor = False
+  end
+  object RxMemoryData1: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'FIELD_ID'
+        DataType = ftAutoInc
+        Precision = 0
+        Size = 0
+      end    
+      item
+        Name = 'COLOR_STR'
+        DataType = ftString
+        Precision = 0
+        Size = 50
+      end    
+      item
+        Name = 'COLOR_INT'
+        DataType = ftInteger
+        Precision = 0
+        Size = 0
+      end>
+    left = 368
+    top = 160
+    object RxMemoryData1FIELD_ID: TAutoIncField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'FIELD_ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1COLOR_STR: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'COLOR_STR'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object RxMemoryData1COLOR_INT: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'COLOR_INT'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object Datasource1: TDatasource
+    DataSet = RxMemoryData1
+    left = 336
+    top = 160
+  end
+end

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="graphics32"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Team Graphics32; port PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="source;source/platform"/>
+        <OtherUnitFiles Value="source;source/platform"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <CPPInline Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Features Some of Graphics32 features include: 
+    * Fast per-pixel access up to 100 times faster compared to standard TBitmap;
+    * High-performance Bitmap alpha blending (including per-pixel alpha blending);
+    * Pixel, line and polygon antialiasing with sub-pixel accuracy (combined with alpha blending);
+    * Arbitrary polygon transformations and custom fillings;
+    * Bitmap resampling with high quality reconstruction filters (e.g. Lanczos, Cubic, Mitchell);
+    * A unique state-of-the-art rasterization system;
+    * Affine transformations of bitmaps: rotations, scaling, etc with sub-pixel accuracy;
+    * Arbitrary projective transformations of bitmaps;
+    * Arbitrary remapping transformations of bitmaps (e.g. for Warping, Morphing);
+    * Flexible supersampling implementation for maximum sampling quality;
+    * Flicker-free image displaying components with optimized double buffering via advanced MicroTiles? based repaint optimizer;
+    * Multiple customizible easy-to-use overlay layers;
+    * Locking of bitmaps for safe multithreading;
+    * A property editor for RGB and alpha channel loading;
+    * Design-time loading of image formats supported by standard TPicture;
+    * Works on Borland Delphi, C++ Builder and Kylix (The last version that supported Kylix was 1.8.3). 
+"/>
+    <License Value="GNU Library or Lesser General Public License (LGPL)
+Mozilla Public License 1.1 (MPL 1.1)
+"/>
+    <Version Major="2"/>
+    <Files Count="53">
+      <Item1>
+        <Filename Value="source/AllGR32Register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AllGR32Register"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source/G32_ProgressBar.pas"/>
+        <UnitName Value="G32_ProgressBar"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source/GR32.pas"/>
+        <UnitName Value="GR32"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source/GR32.inc"/>
+        <Type Value="Include"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source/GR32_ArrowHeads.pas"/>
+        <UnitName Value="GR32_ArrowHeads"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source/GR32_Blend.pas"/>
+        <UnitName Value="GR32_Blend"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source/GR32_Blurs.pas"/>
+        <UnitName Value="GR32_Blurs"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source/GR32_Brushes.pas"/>
+        <UnitName Value="GR32_Brushes"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source/GR32_ColorGradients.pas"/>
+        <UnitName Value="GR32_ColorGradients"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source/GR32_ColorPicker.pas"/>
+        <UnitName Value="GR32_ColorPicker"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source/GR32_Containers.pas"/>
+        <UnitName Value="GR32_Containers"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source/GR32_Dsgn_Bitmap.pas"/>
+        <UnitName Value="GR32_Dsgn_Bitmap"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source/GR32_Dsgn_Color.pas"/>
+        <UnitName Value="GR32_Dsgn_Color"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source/GR32_Dsgn_Misc.pas"/>
+        <UnitName Value="GR32_Dsgn_Misc"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source/GR32_ExtImage.pas"/>
+        <UnitName Value="GR32_ExtImage"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source/GR32_Filters.pas"/>
+        <UnitName Value="GR32_Filters"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source/GR32_Geometry.pas"/>
+        <UnitName Value="GR32_Geometry"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source/GR32_Image.pas"/>
+        <UnitName Value="GR32_Image"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source/GR32_Layers.pas"/>
+        <UnitName Value="GR32_Layers"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source/GR32_LowLevel.pas"/>
+        <UnitName Value="GR32_LowLevel"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source/GR32_Math.pas"/>
+        <UnitName Value="GR32_Math"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source/GR32_MicroTiles.pas"/>
+        <UnitName Value="GR32_MicroTiles"/>
+      </Item22>
+      <Item23>
+        <Filename Value="source/GR32_OrdinalMaps.pas"/>
+        <UnitName Value="GR32_OrdinalMaps"/>
+      </Item23>
+      <Item24>
+        <Filename Value="source/GR32_Panel32.pas"/>
+        <UnitName Value="GR32_Panel32"/>
+      </Item24>
+      <Item25>
+        <Filename Value="source/GR32_Paths.pas"/>
+        <UnitName Value="GR32_Paths"/>
+      </Item25>
+      <Item26>
+        <Filename Value="source/GR32_Polygons.pas"/>
+        <UnitName Value="GR32_Polygons"/>
+      </Item26>
+      <Item27>
+        <Filename Value="source/GR32_RangeBars.pas"/>
+        <UnitName Value="GR32_RangeBars"/>
+      </Item27>
+      <Item28>
+        <Filename Value="source/GR32_Rasterizers.pas"/>
+        <UnitName Value="GR32_Rasterizers"/>
+      </Item28>
+      <Item29>
+        <Filename Value="source/GR32_RepaintOpt.pas"/>
+        <UnitName Value="GR32_RepaintOpt"/>
+      </Item29>
+      <Item30>
+        <Filename Value="source/GR32_Resamplers.pas"/>
+        <UnitName Value="GR32_Resamplers"/>
+      </Item30>
+      <Item31>
+        <Filename Value="source/GR32_Scrollbox.pas"/>
+        <UnitName Value="GR32_Scrollbox"/>
+      </Item31>
+      <Item32>
+        <Filename Value="source/GR32_System.pas"/>
+        <UnitName Value="GR32_System"/>
+      </Item32>
+      <Item33>
+        <Filename Value="source/GR32_Transforms.pas"/>
+        <UnitName Value="GR32_Transforms"/>
+      </Item33>
+      <Item34>
+        <Filename Value="source/GR32_VectorMaps.pas"/>
+        <UnitName Value="GR32_VectorMaps"/>
+      </Item34>
+      <Item35>
+        <Filename Value="source/GR32_VectorUtils.pas"/>
+        <UnitName Value="GR32_VectorUtils"/>
+      </Item35>
+      <Item36>
+        <Filename Value="source/GR32_VPR.pas"/>
+        <UnitName Value="GR32_VPR"/>
+      </Item36>
+      <Item37>
+        <Filename Value="source/GR32_VPR2.pas"/>
+        <UnitName Value="GR32_VPR2"/>
+      </Item37>
+      <Item38>
+        <Filename Value="source/platform/GR32_Backends_LCL_Carbon.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Carbon"/>
+      </Item38>
+      <Item39>
+        <Filename Value="source/platform/GR32_Backends_LCL_CustomDrawn.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_CustomDrawn"/>
+      </Item39>
+      <Item40>
+        <Filename Value="source/platform/GR32_Backends_LCL_FpGUI.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_FpGUI"/>
+      </Item40>
+      <Item41>
+        <Filename Value="source/platform/GR32_Backends_LCL_Gtk.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Gtk"/>
+      </Item41>
+      <Item42>
+        <Filename Value="source/platform/GR32_Backends_LCL_Qt.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Qt"/>
+      </Item42>
+      <Item43>
+        <Filename Value="source/platform/GR32_Backends_LCL_Qt5.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Qt5"/>
+      </Item43>
+      <Item44>
+        <Filename Value="source/platform/GR32_Backends_LCL_Win.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Win"/>
+      </Item44>
+      <Item45>
+        <Filename Value="source/platform/GR32_Backends_LCL_Wince.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Backends_LCL_Wince"/>
+      </Item45>
+      <Item46>
+        <Filename Value="source/platform/GR32_Text_LCL_Carbon.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Carbon"/>
+      </Item46>
+      <Item47>
+        <Filename Value="source/platform/GR32_Text_LCL_Gtk.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Gtk"/>
+      </Item47>
+      <Item48>
+        <Filename Value="source/platform/GR32_Text_LCL_Qt.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Qt"/>
+      </Item48>
+      <Item49>
+        <Filename Value="source/platform/GR32_Text_LCL_Qt5.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Qt5"/>
+      </Item49>
+      <Item50>
+        <Filename Value="source/platform/GR32_Text_LCL_Win.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Win"/>
+      </Item50>
+      <Item51>
+        <Filename Value="source/platform/GR32_Text_LCL_Wince.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_Wince"/>
+      </Item51>
+      <Item52>
+        <Filename Value="source/platform/GR32_Text_LCL_CustomDrawn.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_CustomDrawn"/>
+      </Item52>
+      <Item53>
+        <Filename Value="source/platform/GR32_Text_LCL_FpGUI.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="GR32_Text_LCL_FpGUI"/>
+      </Item53>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

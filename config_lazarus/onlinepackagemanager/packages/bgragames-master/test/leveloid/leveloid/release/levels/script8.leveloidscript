@@ -1,0 +1,56 @@
+Program leveloid;
+
+const
+  TileSize = 16;
+
+// Al tocar un bloque
+function OnHitWall(tile: String; id: Integer): THitWall;
+begin
+  case tile of
+    // vacío
+    '-1': Result := hwEmpty;
+    // reinicia al jugador
+    '0', '1', '2', '3':
+    begin
+      AccX := 0;
+      AccY := 0;
+      Result := hwResetPlayer;
+    end;
+    // sólido
+    '4', '5': Result := hwHitSolid;
+    // avanza al siguiente nivel
+    '6': 
+	begin
+	  if id = 1056 then
+	  begin
+	    Gravity := -(SpdY * 0.5)
+		PosX := 23 * TileSize;
+		PosY := 1 * TileSize;
+		Result := hwResetPlayer;
+	end
+	else
+	  Result := hwGoNextLevel;
+	end;
+  end;
+end;
+
+// Sonido al reiniciar
+function OnPlayRestartSound: string;
+begin
+  Result := 'level_restart.wav';
+end;
+
+// Música de fondo
+function OnPlayBackgroundMusic: string;
+begin
+  Result := 'level_music.ogg';
+end;
+
+begin
+  // Bloque del personaje
+  PlayerTile := 7;
+  // Posición Inicial
+  PosX := 16;
+  PosY := 16;
+  {$I player_normal.leveloidscript}
+end.

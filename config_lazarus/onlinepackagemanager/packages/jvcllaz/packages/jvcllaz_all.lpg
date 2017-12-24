@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectGroup FileVersion="1">
+    <Targets Count="14">
+      <Target0 FileName="JvCoreLazR.lpk"/>
+      <Target1 FileName="JvCoreLazD.lpk"/>
+      <Target2 FileName="JvCtrlsLazR.lpk"/>
+      <Target3 FileName="JvCtrlsLazD.lpk"/>
+      <Target4 FileName="JvStdCtrlsLazR.lpk"/>
+      <Target5 FileName="JvStdCtrlsLazD.lpk"/>
+      <Target6 FileName="JvDBLazR.lpk"/>
+      <Target7 FileName="JvDBLazD.lpk"/>
+      <Target8 FileName="JvPageCompsR.lpk"/>
+      <Target9 FileName="JvPageCompsD.lpk"/>
+      <Target10 FileName="JvValidatorsLazR.lpk"/>
+      <Target11 FileName="JvValidatorsLazD.lpk"/>
+      <Target12 FileName="JvXPCtrlsLazR.lpk"/>
+      <Target13 FileName="JvXPCtrlsLazD.lpk"/>
+    </Targets>
+  </ProjectGroup>
+</CONFIG>

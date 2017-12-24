@@ -1,0 +1,63 @@
+object MemoForm: TMemoForm
+  Left = 436
+  Height = 586
+  Top = 194
+  Width = 668
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsToolWindow
+  Caption = 'MemoForm'
+  ClientHeight = 586
+  ClientWidth = 668
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object memo_whatsnew: TMemo
+    Left = 0
+    Height = 514
+    Top = 0
+    Width = 668
+    Align = alTop
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'memo_whatsnew'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    WordWrap = False
+  end
+  object cmd_Close: TBitBtn
+    Left = 267
+    Height = 30
+    Top = 536
+    Width = 135
+    Caption = 'Save and &Close'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = cmd_CloseClick
+    TabOrder = 1
+  end
+  object cmd_SaveAsAndClose: TBitBtn
+    Left = 512
+    Height = 30
+    Top = 536
+    Width = 144
+    Caption = 'Save as... and &Close'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = cmd_SaveAsAndCloseClick
+    TabOrder = 2
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Title = 'Select Directory for whatsnew.txt'
+    Options = [ofEnableSizing, ofDontAddToRecent, ofViewDetail]
+    left = 44
+    top = 532
+  end
+end

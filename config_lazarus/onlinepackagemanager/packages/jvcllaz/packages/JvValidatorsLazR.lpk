@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvValidatorsLazR"/>
+    <Author Value="Lazarus port by: Michał Gawrycki"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\run\JvValidators"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\run\JvValidators"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Validator components of the JVCL library (https://sourceforge.net/projects/jvcl/) (runtime code)"/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="..\run\JvValidators\JvErrorIndicator.pas"/>
+        <UnitName Value="JvErrorIndicator"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\run\JvValidators\JvValidators.pas"/>
+        <UnitName Value="JvValidators"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="JvCoreLazR"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

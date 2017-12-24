@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Version Value="1"/>
+  <General>
+    <RemoteRepository Value="http://packages.lazarus-ide.org/
+"/>
+    <CheckForUpdates Value="2"/>
+    <LastUpdate Value="43087.9901549884"/>
+  </General>
+  <Folders>
+    <LocalRepositoryPackages Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\"/>
+    <LocalRepositoryArchive Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\archive\"/>
+    <LocalRepositoryUpdate Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\update\"/>
+  </Folders>
+  <Profiles>
+    <ExcludedFiles Value="*.,*.~,*.a,*.bak,*.compiled,*.dbg,*.exe,*.json,*.o,*.or,*.ppu,*.rsj,*.zip"/>
+    <ExcludedFolders Value=".git,.svn,backup,compiled,lib,updates"/>
+  </Profiles>
+</CONFIG>

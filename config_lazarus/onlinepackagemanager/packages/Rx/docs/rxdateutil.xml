@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+    <module name="dateutil">
+      <element name="CurrentYear">
+        <short>Возвращает текущий год</short>
+      </element>
+      <element name="IsLeapYear">
+        <short>Возвращает True если год високосный</short>
+      </element>
+      <element name="DaysPerMonth">
+        <short>Возвращает кол-во дней в месяце</short>
+      </element>
+      <element name="FirstDayOfPrevMonth">
+        <short>Возвращает первый день преведущего месяца</short>
+      </element>
+      <element name="LastDayOfPrevMonth">
+        <short>Возвращает последний день преведущего месяца</short>
+      </element>
+      <element name="ExtractDay">
+        <short>Возвращает день из даты</short>
+      </element>
+      <element name="ExtractMonth">
+        <short>Возвращает месяц из даты</short>
+      </element>
+      <element name="ExtractYear">
+        <short>Возвращает год из даты</short>
+      </element>
+      <element name="IncDate">
+        <short>Добавляет к дате заданное число дней\месяцев\лет</short>
+      </element>
+      <element name="IncDay">
+        <short>Добавляет к дате заданное число дней</short>
+      </element>
+      <element name="IncMonth">
+        <short>Добавляет к дате заданное число месяцев</short>
+      </element>
+      <element name="IncYear">
+        <short>Добавляет к дате заданное число лет</short>
+      </element>
+      <element name="ValidDate">
+        <short>Проверяет дату на правильность.</short>
+      </element>
+      <element name="DateDiff">
+        <short>Возвращает разницу между датами</short>
+      </element>
+      <element name="MonthsBetween">
+        <short>Возвращает разницу между датами в месяцах</short>
+      </element>
+      <element name="DaysInPeriod">
+        <short>Возвращает разницу между датами в месяцах</short>
+      </element>
+      <element name="DaysBetween">
+        <short>Возвращает разницу между датами в месяцах</short>
+      </element>
+      <element name="IncTime">
+        <short>Добавляет к дате заданное число часов\минут\секунд</short>
+      </element>
+      <element name="IncHour">
+        <short>Добавляет к дате заданное число часов</short>
+      </element>
+      <element name="IncMinute">
+        <short>Добавляет к дате заданное число минут</short>
+      </element>
+      <element name="IncSecond">
+        <short>Добавляет к дате заданное число секунд</short>
+      </element>
+      <element name="IncMSec">
+        <short>Добавляет к дате заданное число милисекунд</short>
+      </element>
+      <element name="CutTime">
+        <short>Округляет дату отрезая время</short>
+      </element>
+      <element name="TDateOrder">
+        <short>Порядок составление даты</short>
+      </element>
+      <element name="TDayOfWeekName">
+        <short>Дни недели</short>
+      </element>
+      <element name="NvlDate">
+        <short>Проверяет дату на нулевую </short>
+      </element>
+      <element name="DefDateMask">
+        <short>Возвращает маску даты по умолчанию</short>
+      </element>
+      <element name="GetDateOrder">
+        <short>Получить TDateOrder из заданного формата</short>
+      </element>
+      <element name="MonthFromName">
+        <short>Возвращает номер месяца по имени</short>
+      </element>
+      <element name="StrToDateDef">
+        <short>Переводит строку в дату, в случае ошибке возврощает заданую дату</short>
+      </element>
+      <element name="StrToDateFmt">
+        <short>Переводит строку в дату по заданному формату</short>
+      </element>
+      <element name="StrToDateFmtDef">
+        <short>Переводит строку в дату по формату, в случае ошибке возвращает заданную дату</short>
+      </element>
+      <element name="DefDateFormat">
+        <short>Возвращает формат даты по умолчанию</short>
+      </element>
+    </module>
+
+</package>
+</fpdoc-descriptions>

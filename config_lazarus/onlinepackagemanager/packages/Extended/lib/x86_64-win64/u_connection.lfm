@@ -1,0 +1,232 @@
+object F_ConnectionWindow: TF_ConnectionWindow
+  Left = 448
+  Height = 337
+  Top = 218
+  Width = 694
+  ActiveControl = cbx_Protocol
+  Caption = 'Se Connecter vers  une base de travail'
+  ClientHeight = 337
+  ClientWidth = 694
+  Color = clWindow
+  DefaultMonitor = dmDesktop
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Position = poScreenCenter
+  LCLVersion = '1.0.12.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 140
+    Width = 160
+    Caption = 'Nom de la base de données'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 117
+    Width = 27
+    Caption = 'Hote'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 189
+    Width = 76
+    Caption = 'Mot de passe'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 15
+    Top = 213
+    Width = 58
+    Caption = 'Catalogue'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 15
+    Top = 165
+    Width = 58
+    Caption = 'Utilisateur'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 15
+    Top = 92
+    Width = 54
+    Caption = 'Protocole'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object Label7: TLabel
+    Left = 136
+    Height = 34
+    Top = 16
+    Width = 477
+    Caption = 'Sauver une base dans le fichier INI'
+    Color = clBtnFace
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object lb_Collation: TLabel
+    Left = 24
+    Height = 15
+    Top = 237
+    Width = 141
+    Caption = 'Caractères de l''interface'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+  object ed_Base: TEdit
+    Left = 284
+    Height = 24
+    Top = 135
+    Width = 376
+    OnEnter = ed_BaseEnter
+    TabOrder = 0
+  end
+  object ed_Host: TEdit
+    Left = 284
+    Height = 24
+    Top = 111
+    Width = 376
+    OnEnter = ed_HostEnter
+    TabOrder = 1
+    Text = 'localhost'
+  end
+  object ed_Password: TEdit
+    Left = 284
+    Height = 24
+    Top = 183
+    Width = 160
+    EchoMode = emPassword
+    OnEnter = ed_PasswordEnter
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object ed_Catalog: TEdit
+    Left = 284
+    Height = 24
+    Top = 207
+    Width = 376
+    OnEnter = ed_CatalogEnter
+    TabOrder = 3
+  end
+  object ed_User: TEdit
+    Left = 284
+    Height = 24
+    Top = 159
+    Width = 376
+    OnEnter = ed_UserEnter
+    TabOrder = 4
+  end
+  object Test: TButton
+    Left = 56
+    Height = 32
+    Top = 279
+    Width = 75
+    Caption = 'Tester'
+    OnClick = TestClick
+    TabOrder = 5
+  end
+  object Save: TButton
+    Left = 181
+    Height = 33
+    Top = 279
+    Width = 139
+    Caption = 'Sauver et quitter'
+    OnClick = SaveClick
+    TabOrder = 6
+  end
+  object quitall: TButton
+    Left = 501
+    Height = 32
+    Top = 279
+    Width = 107
+    Caption = 'Tout quitter'
+    OnClick = quitallClick
+    TabOrder = 7
+  end
+  object quit: TButton
+    Left = 365
+    Height = 33
+    Top = 279
+    Width = 91
+    Caption = 'Quitter'
+    OnClick = quitClick
+    TabOrder = 8
+  end
+  object cbx_Protocol: TComboBox
+    Left = 284
+    Height = 25
+    Top = 84
+    Width = 376
+    ItemHeight = 0
+    MaxLength = 65535
+    TabOrder = 9
+  end
+  object ed_Collation: TEdit
+    Left = 284
+    Height = 24
+    Top = 231
+    Width = 376
+    OnEnter = ed_CollationEnter
+    TabOrder = 10
+    Text = 'latin1'
+  end
+  object ch_ServerConnect: TCheckBox
+    Left = 4
+    Height = 21
+    Top = 59
+    Width = 192
+    Caption = 'Se connecter à un serveur'
+    Color = clWindow
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 11
+  end
+  object ed_Password2: TEdit
+    Left = 500
+    Height = 24
+    Top = 183
+    Width = 160
+    EchoMode = emPassword
+    OnEnter = ed_PasswordEnter
+    PasswordChar = '*'
+    TabOrder = 12
+  end
+  object Label8: TLabel
+    Left = 448
+    Height = 15
+    Top = 189
+    Width = 42
+    Caption = 'Vérifier'
+    Color = clWindow
+    ParentColor = False
+    Transparent = False
+  end
+end

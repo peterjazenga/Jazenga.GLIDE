@@ -1,0 +1,5 @@
+The TCalendarLite palette icon is the image
+
+  calendar-day.png
+  
+of the Fugue Icons collection (http://p.yusukekamiyamane.com/)

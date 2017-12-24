@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonextcore"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="core"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Linking>
+        <Debugging>
+          <UseHeaptrc Value="True"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <Files Count="14">
+      <Item1>
+        <Filename Value="core/unite_messages.pas"/>
+        <UnitName Value="unite_messages"/>
+      </Item1>
+      <Item2>
+        <Filename Value="core/fonctions_proprietes.pas"/>
+        <UnitName Value="fonctions_proprietes"/>
+      </Item2>
+      <Item3>
+        <Filename Value="core/fonctions_string.pas"/>
+        <UnitName Value="fonctions_string"/>
+      </Item3>
+      <Item4>
+        <Filename Value="core/fonctions_system.pas"/>
+        <UnitName Value="fonctions_system"/>
+      </Item4>
+      <Item5>
+        <Filename Value="core/fonctions_variant.pas"/>
+        <UnitName Value="fonctions_variant"/>
+      </Item5>
+      <Item6>
+        <Filename Value="core/fonctions_db.pas"/>
+        <UnitName Value="fonctions_db"/>
+      </Item6>
+      <Item7>
+        <Filename Value="dlcompilers.inc"/>
+        <Type Value="Include"/>
+      </Item7>
+      <Item8>
+        <Filename Value="extends.inc"/>
+        <Type Value="Include"/>
+      </Item8>
+      <Item9>
+        <Filename Value="core/fonctions_array.pas"/>
+        <UnitName Value="fonctions_array"/>
+      </Item9>
+      <Item10>
+        <Filename Value="core/fonctions_objects.pas"/>
+        <UnitName Value="fonctions_objects"/>
+      </Item10>
+      <Item11>
+        <Filename Value="core/fonctions_dbobjects.pas"/>
+        <UnitName Value="fonctions_dbobjects"/>
+      </Item11>
+      <Item12>
+        <Filename Value="core/fonctions_file.pas"/>
+        <UnitName Value="fonctions_file"/>
+      </Item12>
+      <Item13>
+        <Filename Value="core/fonctions_ini.pas"/>
+        <UnitName Value="fonctions_ini"/>
+      </Item13>
+      <Item14>
+        <Filename Value="core/fonctions_filepath.pas"/>
+        <UnitName Value="fonctions_filepath"/>
+      </Item14>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="bs_Utils"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,9 @@
+{"version":1,"strings":[
+{"hash":122882777,"name":"gr32_colorgradients.rcstrindexoutofbounds","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,98,111,117,110,100,115,32,40,37,100,41],"value":"Index out of bounds (%d)"},
+{"hash":54523668,"name":"gr32_colorgradients.rcstrwrongformat","sourcebytes":[87,114,111,110,103,32,102,111,114,109,97,116],"value":"Wrong format"},
+{"hash":141662065,"name":"gr32_colorgradients.rcstronlyexactly3point","sourcebytes":[79,110,108,121,32,101,120,97,99,116,108,121,32,51,32,112,111,105,110,116,115,32,101,120,112,101,99,116,101,100,33],"value":"Only exactly 3 points expected!"},
+{"hash":6523976,"name":"gr32_colorgradients.rcstrpointcountmismatch","sourcebytes":[80,111,105,110,116,32,99,111,117,110,116,32,109,105,115,109,97,116,99,104],"value":"Point count mismatch"},
+{"hash":6686484,"name":"gr32_colorgradients.rcstrnotcolor32lookuptable","sourcebytes":[78,111,32,84,67,111,108,111,114,51,50,76,111,111,107,117,112,84,97,98,108,101,32,111,98,106,101,99,116,32,115,112,101,99,105,102,105,101,100],"value":"No TColor32LookupTable object specified"},
+{"hash":54116292,"name":"gr32_colorgradients.rcstrnotcolor32gradient","sourcebytes":[78,111,32,84,67,111,108,111,114,51,50,71,114,97,100,105,101,110,116,32,115,112,101,99,105,102,105,101,100],"value":"No TColor32Gradient specified"},
+{"hash":184183121,"name":"gr32_colorgradients.rcstrnolookuptablepassed","sourcebytes":[78,111,32,108,111,111,107,117,112,32,116,97,98,108,101,32,112,97,115,115,101,100,33],"value":"No lookup table passed!"}
+]}

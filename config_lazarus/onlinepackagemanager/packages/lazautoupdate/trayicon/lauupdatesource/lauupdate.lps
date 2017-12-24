@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Linux64 Release"/>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="lauupdate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="98"/>
+        <CursorPos X="68" Y="105"/>
+        <UsageCount Value="77"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\copydir.pas"/>
+        <TopLine Value="333"/>
+        <CursorPos X="22" Y="333"/>
+        <UsageCount Value="32"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\upoweredby.pas"/>
+        <TopLine Value="6"/>
+        <CursorPos X="47" Y="27"/>
+        <UsageCount Value="6"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="D:\Lazarus32_production\components\splashabout\usplashabout.pas"/>
+        <TopLine Value="65"/>
+        <CursorPos X="79" Y="86"/>
+        <UsageCount Value="6"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\ulazautoupdate.pas"/>
+        <TopLine Value="112"/>
+        <CursorPos X="43" Y="24"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\healthmonitor\svn\trunk\updatefromsourceforge.pas"/>
+        <TopLine Value="22"/>
+        <CursorPos X="44" Y="49"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:\Lazarus32_production\components\ideintf\propedits.pp"/>
+        <TopLine Value="619"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:\Lazarus32_production\components\lazutils\fileutil.pas"/>
+        <TopLine Value="76"/>
+        <CursorPos X="9" Y="77"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\copydir.pas"/>
+        <TopLine Value="94"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="D:\development\fpc\rtl\objpas\sysutils\osutilsh.inc"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D:\development\lazarus\lcl\extctrls.pp"/>
+        <TopLine Value="165"/>
+        <CursorPos X="47" Y="198"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="D:\development\lazarus\lcl\customtimer.pas"/>
+        <TopLine Value="91"/>
+        <CursorPos X="30" Y="129"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="D:\development\lazarus\lcl\interfacebase.pp"/>
+        <CursorPos X="19" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="D:\development\fpc\rtl\linux\linux.pp"/>
+        <CursorPos X="45" Y="28"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="D:\development\fpc\packages\fcl-base\src\eventlog.pp"/>
+        <TopLine Value="70"/>
+        <CursorPos X="30" Y="26"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="D:\development\lazarus\components\lazutils\fileutil.pas"/>
+        <TopLine Value="194"/>
+        <CursorPos X="21" Y="218"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="D:\development\lazarus\components\lazutils\fileutil.inc"/>
+        <TopLine Value="680"/>
+        <CursorPos X="3" Y="714"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="D:\development\fpc\rtl\objpas\dateutils.pp"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="D:\development\fpc\rtl\objpas\dateutil.inc"/>
+        <TopLine Value="196"/>
+        <CursorPos X="29" Y="214"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="D:\development\fpc\rtl\objpas\dateutil.pp"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="umainform.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="43" Y="126"/>
+        <UsageCount Value="11"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\updatepack\updatepack.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="89" Y="24"/>
+        <UsageCount Value="11"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\packagesource\ulazautoupdate.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1376"/>
+        <CursorPos X="54" Y="1392"/>
+        <UsageCount Value="11"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="D:\Lazarus32_production\fpc\2.6.4\source\rtl\objpas\strutils.pp"/>
+        <TopLine Value="277"/>
+        <CursorPos X="3" Y="279"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\updatehmsource\updatehm.lpr"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="124"/>
+        <CursorPos Y="162"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit24>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="lauupdate.pas"/>
+        <Caret Line="67" Column="12" TopLine="46"/>
+      </Position1>
+      <Position2>
+        <Filename Value="lauupdate.pas"/>
+        <Caret Line="49" Column="5" TopLine="26"/>
+      </Position2>
+      <Position3>
+        <Filename Value="lauupdate.pas"/>
+        <Caret Line="65" Column="21" TopLine="31"/>
+      </Position3>
+      <Position4>
+        <Filename Value="lauupdate.pas"/>
+        <Caret Line="44" Column="16" TopLine="20"/>
+      </Position4>
+      <Position5>
+        <Filename Value="lauupdate.pas"/>
+        <Caret Line="187" Column="25" TopLine="298"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

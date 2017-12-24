@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="atfilenotif_pkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Alexey Torgashin"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Component for file change notifications."/>
+    <License Value="MPL 2.0, LGPL"/>
+    <Version Major="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="atfilenotif.pas"/>
+        <UnitName Value="ATFileNotif"/>
+      </Item1>
+      <Item2>
+        <Filename Value="atfilenotif_reg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ATFileNotif_Reg"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

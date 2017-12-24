@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="vampyreimaging"/>
+    <Author Value="Marek Mauder; port PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source;source\JpegLib;source\ZLib;source\Extras\Extensions"/>
+        <OtherUnitFiles Value="source;source\JpegLib;source\ZLib;source\Extras\Extensions"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="0"/>
+          <VariablesInRegisters Value="True"/>
+        </Optimizations>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Description Value="Vampyre Imaging Library is cross-platform native Object Pascal (Delphi and Free Pascal) image loading, saving, and manipulation library. "/>
+    <License Value="MPL - Mozilla Public License
+LGPL - GNU Lesser General Public License
+"/>
+    <Version Minor="26" Release="4"/>
+    <Files Count="17">
+      <Item1>
+        <Filename Value="source\Extras\Extensions\ImagingBinary.pas"/>
+        <UnitName Value="ImagingBinary"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\Imaging.pas"/>
+        <UnitName Value="Imaging"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\ImagingBitmap.pas"/>
+        <UnitName Value="ImagingBitmap"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\ImagingCanvases.pas"/>
+        <UnitName Value="ImagingCanvases"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\ImagingClasses.pas"/>
+        <UnitName Value="ImagingClasses"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\ImagingColors.pas"/>
+        <UnitName Value="ImagingColors"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\ImagingComponents.pas"/>
+        <UnitName Value="ImagingComponents"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\ImagingCore.pas"/>
+        <UnitName Value="ImagingCore"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\ImagingDds.pas"/>
+        <UnitName Value="ImagingDds"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\ImagingGif.pas"/>
+        <UnitName Value="ImagingGif"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\ImagingJpeg.pas"/>
+        <UnitName Value="ImagingJpeg"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\ImagingNIF.pas"/>
+        <UnitName Value="ImagingNIF"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\ImagingNetworkGraphics.pas"/>
+        <UnitName Value="ImagingNetworkGraphics"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\ImagingOptions.inc"/>
+        <Type Value="Include"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\ImagingPortableMaps.pas"/>
+        <UnitName Value="ImagingPortableMaps"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\ImagingTarga.pas"/>
+        <UnitName Value="ImagingTarga"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\ImagingTypes.pas"/>
+        <UnitName Value="ImagingTypes"/>
+      </Item17>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="laz_opengl"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="graphics32"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

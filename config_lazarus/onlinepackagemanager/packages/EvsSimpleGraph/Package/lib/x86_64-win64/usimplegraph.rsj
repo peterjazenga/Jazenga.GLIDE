@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":45328281,"name":"usimplegraph.slistindexerror","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,114,97,110,103,101,32,40,37,100,41],"value":"Index out of range (%d)"},
+{"hash":7772884,"name":"usimplegraph.slistenumerateerror","sourcebytes":[76,105,115,116,32,101,110,117,109,101,114,97,116,105,111,110,32,105,115,32,110,111,116,32,105,110,105,116,105,97,108,105,122,101,100],"value":"List enumeration is not initialized"},
+{"hash":201635668,"name":"usimplegraph.sstreamcontenterror","sourcebytes":[73,110,118,97,108,105,100,32,115,116,114,101,97,109,32,99,111,110,116,101,110,116],"value":"Invalid stream content"},
+{"hash":162903875,"name":"usimplegraph.slinkcreateerror","sourcebytes":[67,97,110,110,111,116,32,99,114,101,97,116,101,32,108,105,110,107,32,119,105,116,104,32,116,104,101,32,115,112,101,99,105,102,105,101,100,32,112,97,114,97,109,101,116,101,114,115],"value":"Cannot create link with the specified parameters"}
+]}

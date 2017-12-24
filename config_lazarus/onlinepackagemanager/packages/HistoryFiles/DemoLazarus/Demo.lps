@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="Demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uDemo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDemo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uDemo"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="138"/>
+        <CursorPos X="1" Y="145"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\HistoryFiles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HistoryFiles"/>
+        <UsageCount Value="21"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\usr\share\lazarus\1.2.4\components\lazutils\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="242"/>
+        <CursorPos X="28" Y="252"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\usr\share\lazarus\1.2.4\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="77"/>
+        <CursorPos X="68" Y="82"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="61" Column="14" TopLine="59"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="144" Column="5" TopLine="142"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="143" Column="37" TopLine="137"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="147" Column="41" TopLine="138"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="142" Column="7" TopLine="138"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="154" Column="9" TopLine="144"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uDemo.pas"/>
+        <Caret Line="145" Column="28" TopLine="138"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

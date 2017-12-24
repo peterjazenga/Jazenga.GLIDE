@@ -1,0 +1,306 @@
+object Form1: TForm1
+  Left = 381
+  Height = 527
+  Top = 195
+  Width = 746
+  Caption = 'Form1'
+  ClientHeight = 527
+  ClientWidth = 746
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  ShowHint = True
+  LCLVersion = '1.7'
+  object RxDBGrid1: TRxDBGrid
+    Left = 0
+    Height = 450
+    Hint = 'Список данных'
+    Top = 77
+    Width = 746
+    ColumnDefValues.BlobText = '(blob)'
+    TitleButtons = True
+    AutoSort = True
+    Columns = <    
+      item
+        Color = clMoneyGreen
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'CODE'
+        Width = 90
+        FieldName = 'CODE'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(Все значения)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        Color = clAqua
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'NAME'
+        Width = 350
+        FieldName = 'NAME'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(Все значения)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <        
+          item
+            Alignment = taRightJustify
+            Value = 'Min value'
+            ValueType = fvtStaticText
+          end        
+          item
+            Alignment = taRightJustify
+            Value = 'Max value'
+            ValueType = fvtStaticText
+          end        
+          item
+            Alignment = taRightJustify
+            Value = 'Summa'
+            ValueType = fvtStaticText
+          end>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'PRICE'
+        Width = 120
+        FieldName = 'PRICE'
+        EditButtons = <>
+        Filter.IsNull = False
+        Filter.IsAll = True
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Нет)'
+        Filter.AllValue = '(Все значения)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footer.Alignment = taRightJustify
+        Footer.FieldName = 'PRICE'
+        Footer.ValueType = fvtSum
+        Footers = <        
+          item
+            Alignment = taRightJustify
+            FieldName = 'PRICE'
+            ValueType = fvtMin
+          end        
+          item
+            Alignment = taRightJustify
+            FieldName = 'PRICE'
+            ValueType = fvtMax
+          end        
+          item
+            Alignment = taRightJustify
+            FieldName = 'PRICE'
+            ValueType = fvtSum
+          end>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end    
+      item
+        Command = rxgcCopyCellValue
+        ShortCut = 16451
+        Enabled = True
+      end>
+    FooterOptions.Active = True
+    FooterOptions.Color = clYellow
+    FooterOptions.RowCount = 3
+    FooterOptions.DrawFullLine = False
+    SearchOptions.QuickSearchOptions = [loCaseInsensitive, loPartialKey]
+    SearchOptions.FromStart = False
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgFooterRows, rdgAllowToolMenu]
+    FooterColor = clYellow
+    FooterRowCount = 3
+    OnDataHintShow = RxDBGrid1DataHintShow
+    Align = alClient
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = DataSource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgMultiselect, dgHeaderPushedLook]
+    ParentColor = False
+    TabOrder = 0
+    TitleStyle = tsNative
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 77
+    Top = 0
+    Width = 746
+    Align = alTop
+    AutoSize = True
+    ClientHeight = 77
+    ClientWidth = 746
+    TabOrder = 1
+    object Label1: TLabel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideTop.Control = Panel1
+      Left = 7
+      Height = 20
+      Top = 7
+      Width = 145
+      BorderSpacing.Around = 6
+      Caption = 'SpeadSheet file name '
+      ParentColor = False
+    end
+    object FileNameEdit1: TFileNameEdit
+      AnchorSideLeft.Control = Label1
+      AnchorSideTop.Control = Label1
+      AnchorSideTop.Side = asrBottom
+      Left = 13
+      Height = 37
+      Hint = 'Укажите имя файла'
+      Top = 33
+      Width = 275
+      FilterIndex = 0
+      HideDirectories = False
+      ButtonWidth = 23
+      NumGlyphs = 1
+      BorderSpacing.Around = 6
+      MaxLength = 0
+      TabOrder = 0
+    end
+    object Button1: TButton
+      AnchorSideLeft.Control = FileNameEdit1
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = FileNameEdit1
+      AnchorSideTop.Side = asrCenter
+      Left = 294
+      Height = 33
+      Hint = 'Начать выгрузку'
+      Top = 35
+      Width = 87
+      Caption = 'Export data'
+      OnClick = Button1Click
+      TabOrder = 1
+    end
+  end
+  object RxMemoryData1: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'CODE'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'NAME'
+        DataType = ftString
+        Size = 300
+      end    
+      item
+        Name = 'PRICE'
+        DataType = ftCurrency
+      end>
+    PacketRecords = 0
+    left = 368
+    top = 184
+    object RxMemoryData1CODE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'CODE'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1NAME: TStringField
+      DisplayWidth = 300
+      FieldKind = fkData
+      FieldName = 'NAME'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 300
+    end
+    object RxMemoryData1PRICE: TCurrencyField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'PRICE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = RxMemoryData1
+    left = 328
+    top = 184
+  end
+  object RxDBGridExportSpreadSheet1: TRxDBGridExportSpreadSheet
+    RxDBGrid = RxDBGrid1
+    Caption = 'Экспорт в электронную таблицу'
+    ShowSetupForm = True
+    OnBeforeExecute = RxDBGridExportSpreadSheet1BeforeExecute
+    PageName = 'Test page'
+    Options = [ressExportTitle, ressExportColors, ressExportFooter, ressExportFormula, ressOverwriteExisting]
+    OpenAfterExport = True
+    left = 336
+    top = 256
+  end
+end

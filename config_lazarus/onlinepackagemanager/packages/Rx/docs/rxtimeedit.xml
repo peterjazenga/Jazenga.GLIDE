@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+    <module name="RxTimeEdit">
+      <element name="TRxTimeEdit">
+        <short>Визуальный объект предназначен для редактирования времени</short>
+        <descr>Визуальный объект предназначен для редактирования времени</descr>
+      </element>
+      <element name="TRxTimeEdit.Create"/>
+      <element name="TRxTimeEdit.Destroy"/>
+      <element name="TRxTimeEdit.Time">
+        <short>Свойство содержит время, введённое в поле</short>
+        <descr>Свойство содержит время, введённое в поле</descr>
+      </element>
+      <element name="TRxTimeEdit.AutoSize"/>
+      <element name="TRxTimeEdit.AutoSelect"/>
+      <element name="TRxTimeEdit.Align"/>
+      <element name="TRxTimeEdit.Anchors"/>
+      <element name="TRxTimeEdit.BorderSpacing"/>
+      <element name="TRxTimeEdit.ButtonOnlyWhenFocused"/>
+      <element name="TRxTimeEdit.ButtonHint"/>
+      <element name="TRxTimeEdit.CharCase"/>
+      <element name="TRxTimeEdit.Color"/>
+      <element name="TRxTimeEdit.DragCursor"/>
+      <element name="TRxTimeEdit.DragMode"/>
+      <element name="TRxTimeEdit.EchoMode"/>
+      <element name="TRxTimeEdit.Enabled"/>
+      <element name="TRxTimeEdit.Font"/>
+      <element name="TRxTimeEdit.MaxLength"/>
+      <element name="TRxTimeEdit.OnButtonClick"/>
+      <element name="TRxTimeEdit.OnChange"/>
+      <element name="TRxTimeEdit.OnClick"/>
+      <element name="TRxTimeEdit.OnDblClick"/>
+      <element name="TRxTimeEdit.OnDragDrop"/>
+      <element name="TRxTimeEdit.OnDragOver"/>
+      <element name="TRxTimeEdit.OnEditingDone"/>
+      <element name="TRxTimeEdit.OnEndDrag"/>
+      <element name="TRxTimeEdit.OnEnter"/>
+      <element name="TRxTimeEdit.OnExit"/>
+      <element name="TRxTimeEdit.OnKeyDown"/>
+      <element name="TRxTimeEdit.OnKeyPress"/>
+      <element name="TRxTimeEdit.OnKeyUp"/>
+      <element name="TRxTimeEdit.OnMouseDown"/>
+      <element name="TRxTimeEdit.OnMouseMove"/>
+      <element name="TRxTimeEdit.OnMouseUp"/>
+      <element name="TRxTimeEdit.OnStartDrag"/>
+      <element name="TRxTimeEdit.OnUTF8KeyPress"/>
+      <element name="TRxTimeEdit.ParentColor"/>
+      <element name="TRxTimeEdit.ParentFont"/>
+      <element name="TRxTimeEdit.ParentShowHint"/>
+      <element name="TRxTimeEdit.PasswordChar"/>
+      <element name="TRxTimeEdit.PopupMenu"/>
+      <element name="TRxTimeEdit.ReadOnly"/>
+      <element name="TRxTimeEdit.ShowHint"/>
+      <element name="TRxTimeEdit.TabOrder"/>
+      <element name="TRxTimeEdit.TabStop"/>
+      <element name="TRxTimeEdit.Text">
+        <short>Текстовое представление введённого времени</short>
+      </element>
+      <element name="TRxTimeEdit.Visible"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

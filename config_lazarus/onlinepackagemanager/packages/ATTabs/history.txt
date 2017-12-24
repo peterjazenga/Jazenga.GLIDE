@@ -1,0 +1,120 @@
+
+2017.11.09
++ add: IDE designer can design all props of Tabs items: caption/color/modified/fontstyle/etc.
+
+2017.11.07
++ add: can set special font color/ font style for hot (mouse-over) tabs, and active tab
+  + add: prop ColorFontActive
+  + add: prop ColorFontHot
+  + add: prop OptActiveFontStyle, OptActiveFontStyleUsed
+  + add: prop OptHotFontStyle, OptHotFontStyleUsed
++ add: custom-draw event called for spacer (rect below tabs) too
+* renamed prop to OptSpaceBetweenLines
+
+2017.11.05
++ add: tabs can be wrappable to several lines: prop OptMultiline
++ add: tabs can be auto-sized to captions: prop OptVarWidth
++ add: prop OptSpaceBetweenRows for multi-line mode
+
+2017.10.28
++ add: Delphi compatible
+
+2017.10.27
++ add: prop OptShowAngled
++ add: prop OptShowAngleTangent
++ add: paint of angled tabs made faster (not using Canvas.Pixels)
+* removed prop OptTabAngle
+
+2017.10.11
++ add: prop OptPosition (top/bottom/left/right)
++ add: demo which tests OptPosition
+* renamed prop OptSpaceOnTop to OptSpacer
++ add: prop OptSpacer2 for left/right view
+
+2017.09.24
++ add: close button in OptButtonLayout: "x"
++ add: user buttons in OptButtonLayout: "0".."4"
++ add: support OnTabDrawBefore/OnTabDrawAfter for all arrows, user buttons
++ add: wiki file about "options"
+
+2017.09.23
++ add: prop OptButtonLayout. allowed buttons: <>v+. 
++ add: was only plus-tab, now also plus-button. use via OptButtonLayout.
++ add: prop OptButtonSize
++ add: prop OptShowArrowsNear: paint <> buttons together
+* change: plus-tab is painted via lines (not font)
+* deleted: prop OptShowPlusText
+
+2017.09.16
+* changed: renamed most of options to OptNNNNNN (sorry, please fix your code)
+
+2017.09.15
++ add: scrolling arrows, they work when tabs painted out of right side (when lot of tabs)
++ add: scrolling mark (red on top if lot of tabs)
++ add: prop TabShowScrollArrows (note: it uses TabIndentInit)
++ add: prop TabShowScrollMark
++ add: prop TabScrollMarkX, TabScrollMarkY
++ add: prop ColorScrollMark
++ add: prop TabAngleMaxTabs: slow TabAngle will be used only until not much tabs
+* renamed prop to ColorDropMark
+* renamed type to TATTabTriangle, with values
+
+2017.09.11
++ reworked drag-drop (was drop in MouseUp, not ok)
+- fix: crDrag cursor if mouse-up on another control
+
+2017.07.24
++ prop Images (Imagelist)
++ each tab's Data has TabImageIndex: now icons can be painted on tabs, text is shifted to right
+
+2017.06.14
+- fix: middle click didn't close tabs
+- fix: double click didn't work: to close tabs, to make new tab
+
+2017.05.25
+- fix: right-click must not show drag-cursor
+
+2017.01.04
++ use LCLCapability
+
+2016.08.27
++ new value of TabShowClose: show "x" for mouseover tab only
++ improve demo (allow to set all vals for TabsShowClose, top tabs angle=0)
+
+2016.07.15
++ don't use temp-bitmap to paint text (faster)
++ don't use bitmaps if DoubleBuffered off
+
+2016.03.25
++ rework of DnD between controls, now ok on Win32
+
+2016.02.02
+* del prop TabIndentText, center now
+
+1.2.0
++ prop TabShowModifiedText
++ prop TabShowEntireColor
++ prop ColorFontModified
++ Data.TabModified used actually to show "*"
++ TntPopupMenu for Delphi7
+- show "cancel" for close one tab
+
+1.1.3
+- fix incorrect left indent for plus-tab
+
+1.1.2
++ event OnTabMove
++ prop TabMiddleClickClose
+
+1.1.0
++ widestring used in Delphi7
++ drag-drop of tabs works between all ATTabs controls, even no events needed
++ event OnTabOver
++ event OnTabEmpty
++ prop TabDragOutEnabled
++ parameter in DeleteTab
++ method SwitchTab
++ support for owner-draw of backgnd (e.g. with SpTbx theme)
+
+1.0.2
++ support for "bottom tabs" (TabBottom prop)

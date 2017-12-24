@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":14110933,"name":"ibarraygrid.sarraydimensionsoutofrange","sourcebytes":[65,114,114,97,121,32,68,105,109,101,110,115,105,111,110,115,32,40,37,100,41,32,111,117,116,32,111,102,32,114,97,110,103,101],"value":"Array Dimensions (%d) out of range"},
+{"hash":244807316,"name":"ibarraygrid.snotanarrayfield","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,110,32,65,114,114,97,121,32,70,105,101,108,100],"value":"%s is not an Array Field"}
+]}

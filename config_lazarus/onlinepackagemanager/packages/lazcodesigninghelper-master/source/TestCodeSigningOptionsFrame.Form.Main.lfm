@@ -1,0 +1,225 @@
+object FormOptionsFrameTestContainer: TFormOptionsFrameTestContainer
+  Left = 527
+  Height = 751
+  Top = 197
+  Width = 569
+  Caption = 'test'
+  ChildSizing.LeftRightSpacing = 6
+  ChildSizing.TopBottomSpacing = 6
+  ChildSizing.HorizontalSpacing = 6
+  ChildSizing.VerticalSpacing = 6
+  ClientHeight = 751
+  ClientWidth = 569
+  OnCreate = FormCreate
+  LCLVersion = '1.9.0.0'
+  object pcMain: TPageControl
+    Left = 6
+    Height = 739
+    Top = 6
+    Width = 557
+    ActivePage = tabGnuPG
+    Align = alClient
+    TabIndex = 2
+    TabOrder = 0
+    OnChange = pcMainChange
+    object tabMicrosoftSignTool: TTabSheet
+      Caption = 'Microsoft SignTool'
+      ClientHeight = 711
+      ClientWidth = 549
+      inline FrameCodeSigningOptionsMicrosoftSignTool1: TFrameCodeSigningOptionsMicrosoftSignTool
+        Height = 711
+        Width = 549
+        Align = alClient
+        ClientHeight = 711
+        ClientWidth = 549
+        inherited groupTimeStamping: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbTimeStampingServer: TComboBox
+            Width = 533
+          end
+          inherited cbUseTimeStamping: TCheckBox
+            Width = 533
+          end
+        end
+        inherited groupExecutable: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited editExecutable: TComboBox
+            Width = 533
+          end
+        end
+        inherited groupAutomation: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbAutoSign: TCheckBox
+            Width = 533
+          end
+        end
+        inherited groupKey: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited rbSignByCertificateHash: TRadioButton
+            Width = 533
+          end
+          inherited editXSignCert: TFileNameEdit
+            Width = 533
+          end
+          inherited cbXSignCert: TCheckBox
+            Width = 533
+          end
+          inherited rbSignByCertificatePFXFile: TRadioButton
+            Width = 533
+          end
+          inherited editFilenamePFX: TFileNameEdit
+            Width = 533
+          end
+          inherited editCertificateHash: TEditButton
+            Width = 533
+          end
+          inherited rbSignByCertificateSubstring: TRadioButton
+            Width = 533
+          end
+          inherited editCertificateSubjectSubstring: TEdit
+            Width = 533
+          end
+        end
+        inherited groupMoreOptions: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbWindowsSystemComponentVerification: TCheckBox
+            Width = 533
+          end
+          inherited cbPageHashing: TCheckBox
+            Width = 533
+          end
+        end
+        inherited groupAlgorithms: TGroupBox
+          Width = 549
+          ClientWidth = 545
+        end
+      end
+    end
+    object tabProjectMicrosoftSignTool: TTabSheet
+      Caption = 'Microsoft SignTool (Project)'
+      ClientHeight = 711
+      ClientWidth = 549
+      inline FrameCodeSigningProjectOptionsMicrosoftSignTool1: TFrameCodeSigningProjectOptionsMicrosoftSignTool
+        Height = 711
+        Width = 549
+        Align = alClient
+        ClientHeight = 711
+        ClientWidth = 549
+        inherited groupKey: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited rbSignByCertificateHash: TRadioButton
+            Width = 533
+          end
+          inherited editXSignCert: TFileNameEdit
+            Width = 533
+          end
+          inherited cbXSignCert: TCheckBox
+            Width = 533
+          end
+          inherited rbSignByCertificatePFXFile: TRadioButton
+            Width = 533
+          end
+          inherited editFilenamePFX: TFileNameEdit
+            Width = 533
+          end
+          inherited editCertificateHash: TEditButton
+            Width = 533
+          end
+          inherited rbSignByCertificateSubstring: TRadioButton
+            Width = 533
+          end
+          inherited editCertificateSubjectSubstring: TEdit
+            Width = 533
+          end
+        end
+        inherited cbCertificateOverride: TCheckBox
+          Width = 549
+        end
+        inherited cbTimestampingOverride: TCheckBox
+          Width = 549
+        end
+        inherited groupTimeStamping: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbTimeStampingServer: TComboBox
+            Width = 533
+          end
+          inherited cbUseTimeStamping: TCheckBox
+            Width = 533
+          end
+        end
+        inherited groupAlgorithms: TGroupBox
+          Width = 549
+          ClientWidth = 545
+        end
+        inherited cbAlgorithmsOverride: TCheckBox
+          Width = 549
+        end
+        inherited cbFlagsOverride: TCheckBox
+          Width = 549
+        end
+        inherited groupMoreOptions: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbWindowsSystemComponentVerification: TCheckBox
+            Width = 533
+          end
+          inherited cbPageHashing: TCheckBox
+            Width = 533
+          end
+        end
+      end
+    end
+    object tabGnuPG: TTabSheet
+      Caption = 'GPG Signing'
+      ClientHeight = 711
+      ClientWidth = 549
+      inline FrameCodeSigningOptionsGnuPG1: TFrameCodeSigningOptionsGnuPG
+        Height = 711
+        Width = 549
+        Align = alClient
+        ClientHeight = 711
+        ClientWidth = 549
+        inherited groupAutomation: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited cbAutoSign: TCheckBox
+            Width = 533
+          end
+        end
+        inherited groupExecutable: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited editExecutable: TComboBox
+            Width = 533
+          end
+        end
+        inherited groupKey: TGroupBox
+          Width = 549
+          ClientWidth = 545
+          inherited rbSignByCertificateHash: TRadioButton
+            Width = 533
+          end
+          inherited editCertificateHash: TEditButton
+            Width = 533
+          end
+          inherited rbSignByCertificateSubstring: TRadioButton
+            Width = 533
+          end
+          inherited editCertificateSubjectSubstring: TEdit
+            Width = 533
+          end
+        end
+        inherited cbCertificateOverride: TCheckBox
+          Width = 549
+        end
+      end
+    end
+  end
+end

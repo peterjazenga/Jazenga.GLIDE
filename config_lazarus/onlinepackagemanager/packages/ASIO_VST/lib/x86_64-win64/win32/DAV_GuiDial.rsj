@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":64462913,"name":"dav_guidial.rcstrglyphcountmustbepositive","sourcebytes":[71,108,121,112,104,67,111,117,110,116,32,109,117,115,116,32,98,101,32,62,32,48,33],"value":"GlyphCount must be > 0!"},
+{"hash":132909600,"name":"dav_guidial.rcstrpointeranglerange","sourcebytes":[82,97,110,103,101,32,109,117,115,116,32,98,101,32,49,46,46,51,54,48],"value":"Range must be 1..360"},
+{"hash":73630068,"name":"dav_guidial.rcstrpointerrangeresolution","sourcebytes":[82,101,115,111,108,117,116,105,111,110,32,109,117,115,116,32,98,101,32,97,98,111,118,101,32,48,32,97,110,100,32,108,101,115,115,32,116,104,97,110,32,37,100],"value":"Resolution must be above 0 and less than %d"},
+{"hash":85989913,"name":"dav_guidial.rcstrpointeranglestart","sourcebytes":[83,116,97,114,116,32,109,117,115,116,32,98,101,32,48,46,46,51,53,57],"value":"Start must be 0..359"}
+]}

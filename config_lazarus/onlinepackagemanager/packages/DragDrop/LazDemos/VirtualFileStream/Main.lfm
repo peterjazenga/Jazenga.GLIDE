@@ -1,0 +1,136 @@
+object FormMain: TFormMain
+  Left = 909
+  Height = 371
+  Top = 560
+  Width = 630
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Virtual File Stream (File Contents) Demo'
+  ClientHeight = 371
+  ClientWidth = 630
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Shell Dlg 2'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.6.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 312
+    Top = 0
+    Width = 630
+    Align = alClient
+    BevelOuter = bvNone
+    BorderWidth = 4
+    Caption = ' '
+    ClientHeight = 312
+    ClientWidth = 630
+    TabOrder = 0
+    object ListView1: TListView
+      Left = 4
+      Height = 304
+      Top = 4
+      Width = 622
+      Align = alClient
+      Columns = <      
+        item
+          Caption = 'File name'
+          Width = 100
+        end      
+        item
+          AutoSize = True
+          Caption = 'Contents'
+          Width = 96
+        end>
+      MultiSelect = True
+      PopupMenu = PopupMenu1
+      ReadOnly = True
+      TabOrder = 0
+      ViewStyle = vsReport
+      OnMouseDown = OnMouseDown
+      OnMouseMove = ListView1MouseMove
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 59
+    Top = 312
+    Width = 630
+    Align = alBottom
+    BevelOuter = bvNone
+    BorderWidth = 4
+    Caption = ' '
+    ClientHeight = 59
+    ClientWidth = 630
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 4
+      Height = 51
+      Top = 4
+      Width = 622
+      Align = alClient
+      Caption = 'Drag between the above list and any application which supports the FileContents format (e.g. the VirtualFile demo application, Firefox, Explorer or Outlook).'
+      ParentColor = False
+      ShowAccelChar = False
+      WordWrap = True
+    end
+  end
+  object DropDummy1: TDropDummy
+    DragTypes = []
+    Target = Owner
+    left = 120
+    top = 160
+  end
+  object DropEmptySource1: TDropEmptySource
+    DragTypes = [dtCopy, dtMove]
+    OnAfterDrop = DropEmptySource1AfterDrop
+    left = 24
+    top = 68
+  end
+  object DropEmptyTarget1: TDropEmptyTarget
+    DragTypes = [dtCopy, dtLink]
+    OnEnter = DropEmptyTarget1Enter
+    OnDrop = DropEmptyTarget1Drop
+    Target = ListView1
+    left = 120
+    top = 68
+  end
+  object DataFormatAdapterSource: TDataFormatAdapter
+    DragDropComponent = DropEmptySource1
+    DataFormatName = 'TVirtualFileStreamDataFormat'
+    left = 24
+    top = 116
+  end
+  object DataFormatAdapterTarget: TDataFormatAdapter
+    DragDropComponent = DropEmptyTarget1
+    DataFormatName = 'TVirtualFileStreamDataFormat'
+    left = 120
+    top = 116
+  end
+  object PopupMenu1: TPopupMenu
+    left = 224
+    top = 68
+    object MenuCopy: TMenuItem
+      Action = ActionCopy
+    end
+    object MenuPaste: TMenuItem
+      Action = ActionPaste
+    end
+  end
+  object ActionList1: TActionList
+    left = 224
+    top = 116
+    object ActionCopy: TAction
+      Caption = 'Copy'
+      OnExecute = ActionCopyExecute
+      OnUpdate = ActionCopyUpdate
+      ShortCut = 16451
+    end
+    object ActionPaste: TAction
+      Caption = 'Paste'
+      OnExecute = ActionPasteExecute
+      OnUpdate = ActionPasteUpdate
+      ShortCut = 16470
+    end
+  end
+end

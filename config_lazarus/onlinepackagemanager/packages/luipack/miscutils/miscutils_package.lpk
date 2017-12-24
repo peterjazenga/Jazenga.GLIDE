@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="miscutils_package"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Luiz Am,érico Pereira Câmara"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="include\$(LCLWidgetType)"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Miscellaneous functions and classes"/>
+    <License Value="Modified LGPL"/>
+    <Version Minor="1"/>
+    <Files Count="6">
+      <Item1>
+        <Filename Value="domutils.pas"/>
+        <UnitName Value="domutils"/>
+      </Item1>
+      <Item2>
+        <Filename Value="miscutils.pas"/>
+        <UnitName Value="miscutils"/>
+      </Item2>
+      <Item3>
+        <Filename Value="dbextensions.pas"/>
+        <UnitName Value="dbextensions"/>
+      </Item3>
+      <Item4>
+        <Filename Value="gnuplotchart.pas"/>
+        <UnitName Value="gnuplotchart"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sevenzipwrapper.pas"/>
+        <UnitName Value="sevenzipwrapper"/>
+      </Item5>
+      <Item6>
+        <Filename Value="virtualdataobjects.pas"/>
+        <UnitName Value="virtualdataobjects"/>
+      </Item6>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

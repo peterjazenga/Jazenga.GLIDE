@@ -1,0 +1,24 @@
+LazarusResources.Add('scrolling','TXT',[
+  'TScrollingText'#13#10'==========='#13#10#13#10'A visual component for Lazaru'
+  +'s/fpc'#13#10#13#10'Installation'#13#10'========'#13#10'Make a new folder '''
+  +'scrolltext'' in lazarus/components'#13#10'Unzip this archive into it'#13#10
+  +'In Lazarus open the file ''scrolltext.lpk'' as a package project'#13#10'Cli'
+  +'ck ''Compile'' then ''Use/Install'''#13#10'If asked ''do you want to recomp'
+  +'ile the IDE?'' then click ''Yes'''#13#10#13#10'After the compilation, the S'
+  +'crollingText component will be on the ''Additional'' component palette.'#13
+  +#10#13#10'Use'#13#10'==='#13#10'Drop a ScrollingText onto a form and set the'
+  +' properties as required'#13#10'If you want the text to come from an externa'
+  +'l text file (UseTextFile=TRUE)'#13#10'then name the file ''scrolling.txt'' '
+  +'and deploy it in the same folder as'#13#10'the executable.'#13#10#13#10'You'
+  +' can set Active=True when designing to see the scrolling text'#13#10'but re'
+  +'member than any http:// links are only clickable in runtime mode'#13#10#13
+  +#10'Download'#13#10'======='#13#10'This component is available at http://www'
+  +'.charcodelvalle.com/scrollingtext/scrollingtext_component.zip'#13#10#13#10
+  +'Version'#13#10'======'#13#10'This version is 1.0.0.0'#13#10#13#10'License'
+  +#13#10'======'#13#10'GPL License (see source code)'#13#10#13#10'Works With'
+  +#13#10'========='#13#10'Lazarus 1.x fpc 2.6x'#13#10'If when you click Lazaru'
+  +'s Help/''About Lazaus'' Contributors tab,'#13#10'you can see a scrolling sc'
+  +'reen, then this component is compatible with your IDE'#13#10#13#10'Support'
+  +#13#10'======'#13#10'minesadorada@charcodelvalle.com'#13#10'Note the GPL lic'
+  +'ense conditions'#13#10
+]);

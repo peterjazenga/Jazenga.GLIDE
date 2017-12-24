@@ -1,0 +1,28 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TTimeEditorForm','FORMDATA',[
+  'TPF0'#15'TTimeEditorForm'#14'TimeEditorForm'#4'Left'#3'.'#1#6'Height'#2'^'#3
+  +'Top'#3#175#0#5'Width'#3#172#0#18'HorzScrollBar.Page'#3#171#0#18'VertScrollB'
+  +'ar.Page'#2']'#13'ActiveControl'#7#9'SpinEdit1'#11'BorderIcons'#11#12'biSyst'
+  +'emMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#11'Time Editor'#10'OnA'
+  +'ctivate'#7#12'FormActivate'#0#6'TLabel'#6'Label1'#4'Left'#2#10#6'Height'#2
+  +#14#3'Top'#2#8#5'Width'#2#15#8'AutoSize'#8#7'Caption'#6#2'HH'#5'Color'#7#6'c'
+  +'lNone'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#19'AnchorSideLeft.Side'#7#9
+  +'asrBottom'#4'Left'#2'@'#6'Height'#2#14#3'Top'#2#8#5'Width'#2#19#7'Caption'#6
+  +#2'MM'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#19'Anc'
+  +'horSideLeft.Side'#7#9'asrBottom'#4'Left'#2'p'#6'Height'#2#14#3'Top'#2#8#5'W'
+  +'idth'#2#15#7'Caption'#6#2'SS'#5'Color'#7#6'clNone'#11'ParentColor'#8#0#0#9
+  +'TSpinEdit'#9'SpinEdit1'#4'Left'#2#8#6'Height'#2#20#3'Top'#2#26#5'Width'#2#17
+  +#8'MaxValue'#2#23#8'TabOrder'#2#0#0#0#9'TSpinEdit'#9'SpinEdit2'#19'AnchorSid'
+  +'eLeft.Side'#7#9'asrBottom'#4'Left'#2'@'#6'Height'#2#20#3'Top'#2#26#5'Width'
+  +#2#17#8'MaxValue'#2';'#8'TabOrder'#2#1#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#2#10
+  +#6'Height'#2#26#3'Top'#2':'#5'Width'#2'>'#8'AutoSize'#9#20'BorderSpacing.Aro'
+  +'und'#2#10#25'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#3'&OK'#7'Default'#9
+  +#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#9'NumGlyphs'#2#0#8'TabOrder'#2#2#0#0#7
+  +'TBitBtn'#7'BitBtn2'#4'Left'#2'P'#6'Height'#2#26#3'Top'#2':'#5'Width'#2'P'#8
+  +'AutoSize'#9#20'BorderSpacing.Around'#2#10#25'BorderSpacing.InnerBorder'#2#2
+  +#7'Caption'#6#6'Cancel'#4'Kind'#7#8'bkCancel'#11'ModalResult'#2#2#9'NumGlyph'
+  +'s'#2#0#8'TabOrder'#2#3#0#0#9'TSpinEdit'#9'SpinEdit3'#19'AnchorSideLeft.Side'
+  +#7#9'asrBottom'#4'Left'#2'p'#6'Height'#2#20#3'Top'#2#26#5'Width'#2#17#8'MaxV'
+  +'alue'#2';'#8'TabOrder'#2#4#0#0#0
+]);

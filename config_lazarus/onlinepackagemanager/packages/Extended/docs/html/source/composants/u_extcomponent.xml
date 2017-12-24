@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_extcomponent
+  ====================================================================
+-->
+    <module name="u_extcomponent">
+      <short/>
+      <descr/>
+      <!-- constant Visibility: default -->
+      <element name="CST_EXT_BACK">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_LBL_STD">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_LBL_SELECT">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_LBL_ACTIVE">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_EDIT_SELECT">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_EDIT_STD">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_EDIT_READ">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GRID_SELECT">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_GRID_STD">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- constant Visibility: default -->
+      <element name="CST_TEXT_INACTIF">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- interface Visibility: default -->
+      <element name="IFWComponent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- interface Visibility: default -->
+      <element name="IFWComponentEdit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="IFWComponentEdit.SetOrder">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure type Visibility: default -->
+      <element name="TPopUpMenuEvent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TPopUpMenuEvent.Sender">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TPopUpMenuEvent.APopupMenu">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TPopUpMenuEvent.AHandled">
+        <short/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_EditSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_EditRead">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_Edit">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_GridSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_Grid">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_TextInActive">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_Label">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_LabelActive">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="gCol_LabelSelect">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="p_setLabelColorEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setLabelColorEnter.FLabel">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setLabelColorEnter.FLabelColor">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setLabelColorEnter.FAlwaysSame">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="p_setCompColorEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorEnter.Fcomponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorEnter.FFocusColor">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorEnter.FAlwaysSame">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="p_setLabelColorExit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setLabelColorExit.FLabel">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setLabelColorExit.FAlwaysSame">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="p_setCompColorExit">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorExit.Fcomponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorExit.FColor">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorExit.FAlwaysSame">
+        <short/>
+      </element>
+      <!-- procedure Visibility: default -->
+      <element name="p_setCompColorReadOnly">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorReadOnly.Fcomponent">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorReadOnly.FEditColor">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorReadOnly.FReadOnlyColor">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorReadOnly.FAlwaysSame">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="p_setCompColorReadOnly.FReadOnly">
+        <short/>
+      </element>
+      <!-- function Visibility: default -->
+      <element name="fb_ShowPopup">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="fb_ShowPopup.Result">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_ShowPopup.AControl">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_ShowPopup.APopUpMenu">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_ShowPopup.ABeforePopup">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="fb_ShowPopup.AOnPopup">
+        <short/>
+      </element>
+    </module>
+    <!-- u_extcomponent -->
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="pascalscada_hmi"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Fabio Luis Girardi &lt;fabio@pascalscada.com>"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="src/hmi"/>
+        <OtherUnitFiles Value="src/hmi"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)-$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="PascalSCADA visual controls
+Built on top of LCL controls, added SCADA features like Tag link and security"/>
+    <License Value="LGPL v2.1 with linking exception"/>
+    <Version Minor="7" Release="4"/>
+    <Files Count="47">
+      <Item1>
+        <Filename Value="src/hmi/basicusermanagement.pas"/>
+        <UnitName Value="BasicUserManagement"/>
+      </Item1>
+      <Item2>
+        <Filename Value="src/hmi/controlsecuritymanager.pas"/>
+        <UnitName Value="ControlSecurityManager"/>
+      </Item2>
+      <Item3>
+        <Filename Value="src/hmi/crosskeyevents.pas"/>
+        <UnitName Value="crosskeyevents"/>
+      </Item3>
+      <Item4>
+        <Filename Value="src/hmi/customizedusermanagement.pas"/>
+        <UnitName Value="CustomizedUserManagement"/>
+      </Item4>
+      <Item5>
+        <Filename Value="src/hmi/hmi_draw_basic_horizontal_control.pas"/>
+        <UnitName Value="hmi_draw_basic_horizontal_control"/>
+      </Item5>
+      <Item6>
+        <Filename Value="src/hmi/hmi_draw_basiccontrol.pas"/>
+        <UnitName Value="hmi_draw_basiccontrol"/>
+      </Item6>
+      <Item7>
+        <Filename Value="src/hmi/hmi_draw_fita.pas"/>
+        <UnitName Value="hmi_draw_fita"/>
+      </Item7>
+      <Item8>
+        <Filename Value="src/hmi/hmi_draw_redler.pas"/>
+        <UnitName Value="hmi_draw_redler"/>
+      </Item8>
+      <Item9>
+        <Filename Value="src/hmi/hmi_draw_rosca.pas"/>
+        <UnitName Value="hmi_draw_rosca"/>
+      </Item9>
+      <Item10>
+        <Filename Value="src/hmi/hmi_polyline.pas"/>
+        <UnitName Value="hmi_polyline"/>
+      </Item10>
+      <Item11>
+        <Filename Value="src/hmi/hmianimation.pas"/>
+        <UnitName Value="HMIAnimation"/>
+      </Item11>
+      <Item12>
+        <Filename Value="src/hmi/hmibasiccolletion.pas"/>
+        <UnitName Value="hmibasiccolletion"/>
+      </Item12>
+      <Item13>
+        <Filename Value="src/hmi/hmibooleanpropertyconnector.pas"/>
+        <UnitName Value="hmibooleanpropertyconnector"/>
+      </Item13>
+      <Item14>
+        <Filename Value="src/hmi/hmibutton.pas"/>
+        <UnitName Value="HMIButton"/>
+      </Item14>
+      <Item15>
+        <Filename Value="src/hmi/hmicheckbox.pas"/>
+        <UnitName Value="HMICheckBox"/>
+      </Item15>
+      <Item16>
+        <Filename Value="src/hmi/hmicolorpropertyconnector.pas"/>
+        <UnitName Value="hmicolorpropertyconnector"/>
+      </Item16>
+      <Item17>
+        <Filename Value="src/hmi/hmicombobox.pas"/>
+        <UnitName Value="HMIComboBox"/>
+      </Item17>
+      <Item18>
+        <Filename Value="src/hmi/hmicontroldislocatoranimation.pas"/>
+        <UnitName Value="HMIControlDislocatorAnimation"/>
+      </Item18>
+      <Item19>
+        <Filename Value="src/hmi/hmiedit.pas"/>
+        <UnitName Value="HMIEdit"/>
+      </Item19>
+      <Item20>
+        <Filename Value="src/hmi/hmikeyboardmanager.pas"/>
+        <UnitName Value="HMIKeyboardManager"/>
+      </Item20>
+      <Item21>
+        <Filename Value="src/hmi/hmilabel.pas"/>
+        <UnitName Value="HMILabel"/>
+      </Item21>
+      <Item22>
+        <Filename Value="src/hmi/hmiobjectcolletion.pas"/>
+        <UnitName Value="hmiobjectcolletion"/>
+      </Item22>
+      <Item23>
+        <Filename Value="src/hmi/hmiprogressbar.pas"/>
+        <UnitName Value="HMIProgressBar"/>
+      </Item23>
+      <Item24>
+        <Filename Value="src/hmi/hmipropeditor.pas"/>
+        <UnitName Value="hmipropeditor"/>
+      </Item24>
+      <Item25>
+        <Filename Value="src/hmi/hmiradiobutton.pas"/>
+        <UnitName Value="HMIRadioButton"/>
+      </Item25>
+      <Item26>
+        <Filename Value="src/hmi/hmiradiogroup.pas"/>
+        <UnitName Value="HMIRadioGroup"/>
+      </Item26>
+      <Item27>
+        <Filename Value="src/hmi/hmiregister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="hmiregister"/>
+      </Item27>
+      <Item28>
+        <Filename Value="src/hmi/hmiscrollbar.pas"/>
+        <UnitName Value="HMIScrollBar"/>
+      </Item28>
+      <Item29>
+        <Filename Value="src/hmi/hmitext.pas"/>
+        <UnitName Value="HMIText"/>
+      </Item29>
+      <Item30>
+        <Filename Value="src/hmi/hmitrackbar.pas"/>
+        <UnitName Value="HMITrackBar"/>
+      </Item30>
+      <Item31>
+        <Filename Value="src/hmi/hmitypes.pas"/>
+        <UnitName Value="HMITypes"/>
+      </Item31>
+      <Item32>
+        <Filename Value="src/hmi/hmiupdown.pas"/>
+        <UnitName Value="HMIUpDown"/>
+      </Item32>
+      <Item33>
+        <Filename Value="src/hmi/hmizones.pas"/>
+        <UnitName Value="HMIZones"/>
+      </Item33>
+      <Item34>
+        <Filename Value="src/hmi/ualfakeyboard.pas"/>
+        <UnitName Value="ualfakeyboard"/>
+      </Item34>
+      <Item35>
+        <Filename Value="src/hmi/ualfakeyboard.lfm"/>
+        <Type Value="LFM"/>
+      </Item35>
+      <Item36>
+        <Filename Value="src/hmi/unumerickeyboard.pas"/>
+        <UnitName Value="unumerickeyboard"/>
+      </Item36>
+      <Item37>
+        <Filename Value="src/hmi/unumerickeyboard.lfm"/>
+        <Type Value="LFM"/>
+      </Item37>
+      <Item38>
+        <Filename Value="src/hmi/usrmgnt_login.pas"/>
+        <UnitName Value="usrmgnt_login"/>
+      </Item38>
+      <Item39>
+        <Filename Value="src/hmi/usrmgnt_login.lfm"/>
+        <Type Value="LFM"/>
+      </Item39>
+      <Item40>
+        <Filename Value="src/hmi/hmitransparentbutton.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="HMITransparentButton"/>
+      </Item40>
+      <Item41>
+        <Filename Value="src/hmi/hmi_computedimagelist.pas"/>
+        <UnitName Value="HMI_ComputedImageList"/>
+      </Item41>
+      <Item42>
+        <Filename Value="src/hmi/hmi_draw_valves.pas"/>
+        <UnitName Value="HMI_Draw_Valves"/>
+      </Item42>
+      <Item43>
+        <Filename Value="src/hmi/hmi_draw_elevador.pas"/>
+        <UnitName Value="hmi_draw_elevador"/>
+      </Item43>
+      <Item44>
+        <Filename Value="src/hmi/hmibasiceletricmotor.pas"/>
+        <UnitName Value="HMIBasicEletricMotor"/>
+      </Item44>
+      <Item45>
+        <Filename Value="src/hmi/hmi_flow_zones.pas"/>
+        <UnitName Value="hmi_flow_zones"/>
+      </Item45>
+      <Item46>
+        <Filename Value="src/hmi/hmi_draw_flow_valve.pas"/>
+        <UnitName Value="hmi_draw_flow_valve"/>
+      </Item46>
+      <Item47>
+        <Filename Value="src/hmi/hmi_draw_flow_pump.pas"/>
+        <UnitName Value="hmi_draw_flow_pump"/>
+      </Item47>
+    </Files>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="bgracontrols"/>
+        <MaxVersion Major="4" Minor="3"/>
+        <MinVersion Major="4" Minor="3" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="pascalscada"/>
+        <MaxVersion Minor="7" Release="4"/>
+        <MinVersion Minor="7" Release="4" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pascalscada_common"/>
+        <MaxVersion Minor="7" Release="4"/>
+        <MinVersion Minor="7" Release="4" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="BGRABitmapPack"/>
+        <MaxVersion Major="9" Minor="2" Release="3"/>
+        <MinVersion Major="9" Minor="2" Release="3" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="IDEIntf"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

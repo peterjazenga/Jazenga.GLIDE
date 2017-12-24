@@ -1,0 +1,196 @@
+object AndroidModule1: TAndroidModule1
+  Left = 298
+  Top = 61
+  Width = 340
+  Height = 600
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  Text = 'AndroidModule1'
+  ActivityMode = actMain
+  BackgroundColor = colbrBlack
+  ActionBarTitle = abtDefault
+  OnJNIPrompt = DataModuleJNIPrompt
+  OnSpecialKeyDown = AndroidModule1SpecialKeyDown
+  OnCreateOptionMenu = DataModuleCreateOptionMenu
+  OnClickOptionMenuItem = DataModuleClickOptionMenuItem
+  OnCreateContextMenu = DataModuleCreateContextMenu
+  OnClickContextMenuItem = DataModuleClickContextMenuItem
+  object jButton1: jButton
+    Left = 9
+    Top = 45
+    Width = 321
+    Height = 40
+    MarginLeft = 5
+    MarginTop = 5
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    Anchor = jTextView1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = [rpCenterInParent]
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Hello!'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    FontSizeUnit = unitDefault
+    OnClick = jButton1Click
+    Id = 8111758
+  end
+  object jTextView1: jTextView
+    Left = 75
+    Top = 10
+    Width = 190
+    Height = 20
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    PosRelativeToAnchor = []
+    PosRelativeToParent = [rpTop, rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Option and Context Menu Demo'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrSpringGreen
+    FontSize = 0
+    TextTypeFace = tfNormal
+    FontSizeUnit = unitDefault
+    Id = 7951916
+  end
+  object jTextView2: jTextView
+    Left = 32
+    Top = 148
+    Width = 276
+    Height = 20
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    Anchor = jButton2
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = [rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Hint 1: Press Device Menu to Get Option Menu!'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrSilver
+    FontSize = 0
+    TextTypeFace = tfNormal
+    FontSizeUnit = unitDefault
+    Id = 6398620
+  end
+  object jButton2: jButton
+    Left = 2
+    Top = 94
+    Width = 334
+    Height = 40
+    MarginLeft = 2
+    MarginTop = 4
+    MarginRight = 2
+    MarginBottom = 4
+    Visible = True
+    Anchor = jButton1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Open Form2 [ActivityMode=actRecyclable]'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    FontSizeUnit = unitDefault
+    OnClick = jButton2Click
+    Id = 4957801
+  end
+  object jListView1: jListView
+    Left = 3
+    Top = 211
+    Width = 331
+    Height = 96
+    Visible = True
+    Anchor = jTextView3
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Items.Strings = (
+      'Dark Khaki'
+      'Thistle'
+      'Peru'
+      'Sienna'
+    )
+    BackgroundColor = colbrDefault
+    FontColor = colbrSienna
+    FontSize = 0
+    WidgetItem = wgNone
+    Delimiter = '|'
+    TextDecorated = txtNormal
+    ItemLayout = layImageTextWidget
+    TextSizeDecorated = sdNone
+    TextAlign = alLeft
+    HighLightSelectedItemColor = colbrDefault
+    FontSizeUnit = unitDefault
+    OnClickItem = jListView1ClickItem
+    OnLongClickItem = jListView1LongClickItem
+    OnDrawItemTextColor = jListView1DrawItemTextColor
+    Id = 0
+  end
+  object jTextView3: jTextView
+    Left = 25
+    Top = 183
+    Width = 290
+    Height = 20
+    MarginLeft = 5
+    MarginTop = 5
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    Anchor = jTextView2
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = [rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Hint 2: Long Press List Item  to Get Context Menu!'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrAqua
+    FontSize = 0
+    TextTypeFace = tfNormal
+    FontSizeUnit = unitDefault
+    Id = 2804683
+  end
+  object jMenu1: jMenu
+    Options.Strings = (
+      'Orange'
+      'Blue...'
+      'Purple'
+    )
+    IconIdentifiers.Strings = (
+      'ic_bullet_orange'
+      'ic_bullet_blue'
+      'ic_bullet_purple'
+    )
+    left = 192
+    top = 408
+  end
+  object jContextMenu1: jContextMenu
+    Options.Strings = (
+      'Green'
+      'Red'
+      'Yellow'
+    )
+    left = 88
+    top = 408
+  end
+end

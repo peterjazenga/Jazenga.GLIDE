@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<definitions name="metadata_service" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="metadata_service" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="metadata_service">
+  <types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="metadata_service" targetNamespace="metadata_service">
+      <xsd:complexType name="TWSTMtdOperationParam">
+        <xsd:sequence/>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdServiceOperation">
+        <xsd:sequence>
+          <xsd:element name="Params" type="tns:TWSTMtdOperationParamArray"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdService">
+        <xsd:sequence>
+          <xsd:element name="Operations" type="tns:TWSTMtdServiceOperationArray"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdRepository">
+        <xsd:sequence>
+          <xsd:element name="Services" type="tns:TWSTMtdServiceArray"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdOperationParamArray">
+        <xsd:sequence>
+          <xsd:element name="item" type="tns:TWSTMtdOperationParam" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdServiceOperationArray">
+        <xsd:sequence>
+          <xsd:element name="item" type="tns:TWSTMtdServiceOperation" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TWSTMtdServiceArray">
+        <xsd:sequence>
+          <xsd:element name="item" type="tns:TWSTMtdService" maxOccurs="unbounded" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </types>
+  <message name="GetRepositoryList"/>
+  <message name="GetRepositoryListResponse">
+    <part name="Result" type="xsd:TArrayOfStringRemotable"/>
+  </message>
+  <message name="GetRepositoryInfo">
+    <part name="AName" type="tns:String"/>
+  </message>
+  <message name="GetRepositoryInfoResponse">
+    <part name="Result" type="tns:TWSTMtdRepository"/>
+  </message>
+  <portType name="IWSTMetadataService">
+    <documentation>
+      <GUID value="{804A3825-ADA5-4499-87BF-CF5491BFD674}"/>
+    </documentation>
+    <operation name="GetRepositoryList">
+      <input message="tns:GetRepositoryList"/>
+      <output message="tns:GetRepositoryListResponse"/>
+    </operation>
+    <operation name="GetRepositoryInfo">
+      <input message="tns:GetRepositoryInfo"/>
+      <output message="tns:GetRepositoryInfoResponse"/>
+    </operation>
+  </portType>
+  <binding name="IWSTMetadataServiceBinding" type="tns:IWSTMetadataService">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="GetRepositoryList">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal" namespace="metadata_service"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="metadata_service"/>
+      </output>
+    </operation>
+    <operation name="GetRepositoryInfo">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal" namespace="metadata_service"/>
+      </input>
+      <output>
+        <soap:body use="literal" namespace="metadata_service"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="IWSTMetadataService">
+    <port name="IWSTMetadataServicePort" binding="tns:IWSTMetadataServiceBinding">
+      <soap:address location=""/>
+    </port>
+  </service>
+</definitions>

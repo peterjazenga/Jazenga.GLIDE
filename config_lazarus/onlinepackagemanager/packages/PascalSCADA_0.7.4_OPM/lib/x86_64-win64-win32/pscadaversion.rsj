@@ -1,0 +1,15 @@
+{"version":1,"strings":[
+{"hash":80054838,"name":"pscadaversion.zeospackagerev","sourcebytes":[32,90,101,111,115,76,105,98,32,112,97,99,107,97,103,101,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib package Revision: 3986"},
+{"hash":216246678,"name":"pscadaversion.zeossourcesrev","sourcebytes":[32,90,101,111,115,76,105,98,32,115,111,117,114,99,101,115,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib sources Revision: 3986"},
+{"hash":96983718,"name":"pscadaversion.zeospqlibrev","sourcebytes":[32,90,101,111,115,76,105,98,32,80,111,115,116,103,114,101,83,81,76,32,76,105,98,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib PostgreSQL Lib Revision: 3986"},
+{"hash":154421350,"name":"pscadaversion.zeosmysqllibrev","sourcebytes":[32,90,101,111,115,76,105,98,32,77,121,83,81,76,32,76,105,98,114,97,114,121,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib MySQL Library Revision: 3986"},
+{"hash":191990614,"name":"pscadaversion.zeossqlitelibrev","sourcebytes":[32,90,101,111,115,76,105,98,32,83,81,76,105,116,101,32,76,105,98,114,97,114,121,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib SQLite Library Revision: 3986"},
+{"hash":162654358,"name":"pscadaversion.zeostestsrev","sourcebytes":[32,90,101,111,115,76,105,98,32,84,101,115,116,115,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib Tests Revision: 3986"},
+{"hash":258935190,"name":"pscadaversion.zeosdbaserev","sourcebytes":[32,90,101,111,115,76,105,98,32,100,97,116,97,98,97,115,101,115,32,82,101,118,105,115,105,111,110,58,32,51,57,56,54],"value":" ZeosLib databases Revision: 3986"},
+{"hash":44076392,"name":"pscadaversion.bgrabitmaprev","sourcebytes":[32,66,71,82,65,66,105,116,109,97,112,32,82,101,118,105,115,105,111,110,58,32,53,56],"value":" BGRABitmap Revision: 58"},
+{"hash":186829779,"name":"pscadaversion.bgracontrolsrev","sourcebytes":[32,66,71,82,65,67,111,110,116,114,111,108,115,32,82,101,118,105,115,105,111,110,58,32,50,52,51],"value":" BGRAControls Revision: 243"},
+{"hash":214093992,"name":"pscadaversion.pscadacommonrev","sourcebytes":[32,80,97,115,99,97,108,83,67,65,68,65,32,67,111,109,109,111,110,32,82,101,118,105,115,105,111,110,58,32,49,49,53,56],"value":" PascalSCADA Common Revision: 1158"},
+{"hash":9558344,"name":"pscadaversion.pscadadbaserev","sourcebytes":[32,80,97,115,99,97,108,83,67,65,68,65,32,68,97,116,97,98,97,115,101,32,82,101,118,105,115,105,111,110,58,32,49,49,53,56],"value":" PascalSCADA Database Revision: 1158"},
+{"hash":233175064,"name":"pscadaversion.pscadahclrev","sourcebytes":[32,80,97,115,99,97,108,83,67,65,68,65,32,72,67,108,32,82,101,118,105,115,105,111,110,58,32,49,49,53,56],"value":" PascalSCADA HCl Revision: 1158"},
+{"hash":95074376,"name":"pscadaversion.pscadascadarev","sourcebytes":[32,80,97,115,99,97,108,83,67,65,68,65,32,83,67,65,68,65,32,82,101,118,105,115,105,111,110,58,32,49,49,53,56],"value":" PascalSCADA SCADA Revision: 1158"}
+]}

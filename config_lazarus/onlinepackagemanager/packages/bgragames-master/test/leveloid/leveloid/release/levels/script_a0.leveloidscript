@@ -1,0 +1,91 @@
+Program leveloid;
+
+// tiene que coincidir con TileWidth / TileHeight en el archivo del mapa
+const
+  TileSize = 16;
+
+// Al tocar un bloque
+function OnHitWall(tile: String; id: Integer): THitWall;
+begin
+  case tile of
+    // vacío
+    '-1': Result := hwEmpty;
+	'0':
+	begin
+	  AccX := 0;
+	  AccY := 0;
+	  // primer portal
+	  if id = 244 then
+	  begin
+	    PosX := 4 * TileSize;
+	    PosY := 22 * TileSize;
+	  end
+	  // segundo portal
+	  else if id = 455 then
+	  begin
+		PosX := 44 * TileSize;
+		PosY := 10 * TileSize;
+	  end
+	  // tercer portal
+	  else if id = 765 then
+	  begin
+		PosX := 4 * TileSize;
+		PosY := 7 * TileSize;
+	  end
+	  // cuarto portal
+	  else if id = 1302 then
+	  begin
+	    PosX := 49 * TileSize;
+		PosY := 9 * TileSize;
+	  end;
+	  Result := hwResetPlayer;
+	end;
+    // reinicia al jugador
+    '5', '6', '7', '8':
+    begin
+      AccX := 0;
+      AccY := 0;
+      Result := hwResetPlayer;
+    end;
+    // sólido
+    '1', '2', '3', '4': Result := hwHitSolid;
+    // avanza al siguiente nivel
+    '9': Result := hwGoNextLevel;
+  end;
+end;
+
+// Sonido al reiniciar
+function OnPlayRestartSound: string;
+begin
+  Result := 'level_restart_a.wav';
+end;
+
+// Música de fondo
+function OnPlayBackgroundMusic: string;
+begin
+  Result := 'level_music_a.ogg';
+end;
+
+begin
+  // Bloque del personaje
+  PlayerTile := 0;
+  // Posición Inicial
+  PosX := TileSize;
+  PosY := TileSize;
+  // Aceleración
+  AccX := 0;
+  AccY := 0;
+  // Velocidad
+  SpdX := 0.35 / 2;
+  SpdY := 0.35  / 2;
+  // Rebote
+  BncX := 0;
+  BncY := 0;
+  // Ralentizar 0..1
+  SlwX := 0.95;
+  SlwY := 0.95;
+  // Gravedad (Vertical)
+  Gravity := SpdY * 0.8;
+  // Fricción (Horizontal) 0..1
+  Stop := 0.98;
+end.

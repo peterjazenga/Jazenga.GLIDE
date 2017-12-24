@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+    <module name="folderlister">
+      <element name="TFolderLister">
+        <short>Класс по управлению списком файлов</short>
+        <descr>Даный класс предназначен для чтения списка файлов из указанного каталога и формирования по этому списку меню.
+Папка, для сканирования определяется свойством FileFolder
+Пункт меню, куда в качестве подменю будут добавлен список файлов - MenuItem</descr>
+      </element>
+      <element name="TFolderLister.Execute">
+        <short>Метод запускает процесс сканирования папки с файлами</short>
+      </element>
+      <element name="TFolderLister.Create"/>
+      <element name="TFolderLister.Destroy"/>
+      <element name="TFolderLister.Files">
+        <short>Свойство содержит в себе имена всех фалов, которые были обнаружены в указанной папке</short>
+        <descr>
+          <p>Свойство - массив, содержит в себе список всех файлов и каталогов, которые были обнаружены в указанной папке.</p>
+Кол-во элементов данного массива находится в свойстве 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <b>Count</b>
+        </descr>
+        <seealso>
+          <link id="TFolderLister.FileFolder"/>
+          <link id="TFolderLister.Count"/>
+        </seealso>
+      </element>
+      <element name="TFolderLister.Count">
+        <short>Количество прочитанных файлов/каталогов</short>
+        <descr>
+          <p>Свойство содержит в себе кол-во прочитанных файлов</p>
+        </descr>
+        <seealso>
+          <link id="TFolderLister.Files"/>
+        </seealso>
+      </element>
+      <element name="TFolderLister.DefaultExt"><short>Маска для скнирования файлов</short>
+      </element>
+      <element name="TFolderLister.FileFolder">
+        <short>Папка, в которой будет производится поиск файлов</short>
+        <descr>
+          <b>property FileFolder:string</b>
+          <p>Свойство FileFolder определяет каталог с файлами, который будет сканироваться при вызове метода <link id="TFolderLister.Execute">Execute</link> и по содержимому которого будет произведено заполнение массива Files</p>
+        </descr>
+        <seealso>
+          <link id="TFolderLister.Execute"/>
+        </seealso>
+      </element>
+      <element name="TFolderLister.OnExecuteItem">
+        <short>Свойство OnExecuteItem</short>
+        <descr>
+          <b>property OnExecuteItem:TNotifyEvent</b>
+          <p>Свойство OnExecuteItem вызывается при выборе пункта меню, которые было сформировано по элементам массива <link id="TFolderLister.Files">Files</link>
+          </p>
+        </descr>
+      </element>
+      <element name="TFolderLister.MenuItem">
+        <short>Свойство MenuItem</short>
+        <descr>
+          <b>property MenuItem:TMenuItem;</b>
+          <p>Данное свойство определяет место в меню, где будет добавлено в виде подменю содержимое каталога <link id="TFolderLister.FileFolder">FileFolder</link>
+          </p>
+        </descr>
+        <seealso>
+          <link id="TFolderLister.Execute"/>
+        </seealso>
+      </element>
+    <short>Модуль содержит компонент предназначенные для просмотра содержимого указанной папки</short><element name="TCustomFolderLister.Execute"><short>Метод сканирует содержимое указанной папки и заполняет массив Files</short>
+      </element><element name="TCustomFolderLister.Files"><short>Свойство содержит список просканированных файлов</short>
+      </element><element name="TCustomFolderLister.Count"><short>Кол-во найденных файлов</short>
+      </element>
+    </module>
+
+
+</package>
+</fpdoc-descriptions>

@@ -1,0 +1,8 @@
+{"version":1,"strings":[
+{"hash":134533565,"name":"tmainform.caption","sourcebytes":[109,97,105,110,102,111,114,109],"value":"mainform"},
+{"hash":85488116,"name":"tmainform.mnu_fileexit.caption","sourcebytes":[83,104,117,116,100,111,119,110,32,97,110,100,32,69,38,120,105,116],"value":"Shutdown and E&xit"},
+{"hash":175001086,"name":"tmainform.mnu_configure.caption","sourcebytes":[67,111,110,102,105,103,117,114,101,46,46,46],"value":"Configure..."},
+{"hash":268321904,"name":"tmainform.mnu_startatosstartup.caption","sourcebytes":[82,117,110,115,32,97,116,32,115,116,97,114,116,117,112],"value":"Runs at startup"},
+{"hash":103935063,"name":"tmainform.mnu_selfcheck.caption","sourcebytes":[85,112,100,97,116,101,32,99,117,114,114,101,110,116,32,112,114,111,102,105,108,101,32,110,111,119],"value":"Update current profile now"},
+{"hash":158102910,"name":"tmainform.mnu_about.caption","sourcebytes":[65,98,111,117,116,46,46,46],"value":"About..."}
+]}

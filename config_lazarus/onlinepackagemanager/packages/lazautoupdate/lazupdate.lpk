@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="lazupdate"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="user minesadorada at freepascal forum"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
+      <Other>
+        <CustomOptions Value="$(IDEBuildOptions)
+-FcUTF8"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Laz AutoUpdater
+A component for SourceForge and GitHub Project Developers and end-users to update their apps easily.
+Drop onto a form, set a few properties and call the Method 'AutoUpdate' - as easy as pie!
+Fully configurable.
+Included in the source tree is Update Pack - an app that makes update maintenance simple and efficient.  Also TrayUpdater - a systray app that schedules updates automatically.
+Compiles and runs in Windows and Linux. 
+More information in the Wiki Home Page http://wiki.freepascal.org/LazAutoUpdater"/>
+    <License Value="  Modified GPL
+  Copyright (C)2014 minesadorada@charcodelvalle.com
+  This library is free software; you can redistribute it and/or modify it
+  under the terms of the GNU Library General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or (at your
+  option) any later version with the following modification:
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent modules,and
+  to copy and distribute the resulting executable under terms of your choice,
+  provided that you also meet, for each linked independent module, the terms
+  and conditions of the license of that module. An independent module is a
+  module which is not derived from or based on this library. If you modify
+  this library, you may extend this exception to your version of the library,
+  but you are not obligated to do so. If you do not wish to do so, delete this
+  exception statement from your version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License
+  for more details.
+
+  You should have received a copy of the GNU Library General Public License
+  along with this library; if not, write to the Free Software Foundation,
+  Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+"/>
+    <Version Minor="3" Release="8"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="ulazautoupdate.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ulazautoupdate"/>
+      </Item1>
+      <Item2>
+        <Filename Value="aboutlazautoupdateunit.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="aboutlazautoupdateunit"/>
+      </Item2>
+      <Item3>
+        <Filename Value="versionsupport.pas"/>
+        <UnitName Value="VersionSupport"/>
+      </Item3>
+      <Item4>
+        <Filename Value="uappisrunning.pas"/>
+        <UnitName Value="uappisrunning"/>
+      </Item4>
+      <Item5>
+        <Filename Value="lazautoupdate_httpclient.pas"/>
+        <UnitName Value="lazautoupdate_httpclient"/>
+      </Item5>
+      <Item6>
+        <Filename Value="open_ssl.pas"/>
+        <UnitName Value="open_ssl"/>
+      </Item6>
+      <Item7>
+        <Filename Value="ushortcut.pas"/>
+        <UnitName Value="ushortcut"/>
+      </Item7>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="locale"/>
+      <EnableI18NForLFM Value="True"/>
+    </i18n>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <CustomOptions Value="-dUseCThreads"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="C:\NewPascal\lazarus\components\lazautoupdate\published"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

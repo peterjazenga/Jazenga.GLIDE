@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="rxdbgridfootertools_setup"><short>Модуль содержит форму управления итоговой строки RxDBGrid</short><descr>Модуль содержит форму управления итоговой строки RxDBGrid</descr>
+    <element name="TRxDBGridFooterTools_SetupForm"><short>Форма параметров итоговой строки списка</short>
+      </element><element name="TRxDBGridFooterTools_SetupForm.InitData"><short>Метод инициализации формы параметров для указанного списка</short>
+      </element><element name="TRxDBGridFooterTools_SetupForm.SetData"><short>Установка параметров итоговой строки списка</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

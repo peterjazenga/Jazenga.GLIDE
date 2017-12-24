@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="tooledit">
+      <element name="TRxDateEdit"/>
+      <element name="TRxDateEdit.Create"/>
+      <element name="TRxDateEdit.Destroy"/>
+      <element name="TRxDateEdit.CheckValidDate"/>
+      <element name="TRxDateEdit.GetDateMask"/>
+      <element name="TRxDateEdit.UpdateMask"/>
+      <element name="TRxDateEdit.Date"/>
+      <element name="TRxDateEdit.Formatting"/>
+      <element name="TRxDateEdit.ValidDate"/>
+      <element name="TRxDateEdit.PopupVisible"/>
+      <element name="TRxDateEdit.Action"/>
+      <element name="TRxDateEdit.Align"/>
+      <element name="TRxDateEdit.Anchors"/>
+      <element name="TRxDateEdit.AutoSelect"/>
+      <element name="TRxDateEdit.AutoSize"/>
+      <element name="TRxDateEdit.BlanksChar"/>
+      <element name="TRxDateEdit.BorderSpacing"/>
+      <element name="TRxDateEdit.ButtonOnlyWhenFocused"/>
+      <element name="TRxDateEdit.ButtonWidth"/>
+      <element name="TRxDateEdit.CalendarStyle"/>
+      <element name="TRxDateEdit.CancelCaption"/>
+      <element name="TRxDateEdit.CharCase"/>
+      <element name="TRxDateEdit.Color"/>
+      <element name="TRxDateEdit.Constraints"/>
+      <element name="TRxDateEdit.DefaultToday"/>
+      <element name="TRxDateEdit.DialogTitle"/>
+      <element name="TRxDateEdit.DirectInput"/>
+      <element name="TRxDateEdit.DragMode"/>
+      <element name="TRxDateEdit.EchoMode"/>
+      <element name="TRxDateEdit.Enabled"/>
+      <element name="TRxDateEdit.Font"/>
+      <element name="TRxDateEdit.Glyph"/>
+      <element name="TRxDateEdit.MaxLength"/>
+      <element name="TRxDateEdit.NotInThisMonthColor"/>
+      <element name="TRxDateEdit.NumGlyphs"/>
+      <element name="TRxDateEdit.OKCaption"/>
+      <element name="TRxDateEdit.ParentFont"/>
+      <element name="TRxDateEdit.ParentShowHint"/>
+      <element name="TRxDateEdit.PasswordChar"/>
+      <element name="TRxDateEdit.PopupAlign"/>
+      <element name="TRxDateEdit.PopupColor"/>
+      <element name="TRxDateEdit.PopupMenu"/>
+      <element name="TRxDateEdit.ReadOnly"/>
+      <element name="TRxDateEdit.ShowHint"/>
+      <element name="TRxDateEdit.StartOfWeek"/>
+      <element name="TRxDateEdit.TabOrder"/>
+      <element name="TRxDateEdit.TabStop"/>
+      <element name="TRxDateEdit.Text"/>
+      <element name="TRxDateEdit.Visible"/>
+      <element name="TRxDateEdit.WeekendColor"/>
+      <element name="TRxDateEdit.Weekends"/>
+      <element name="TRxDateEdit.YearDigits"/>
+      <element name="TRxDateEdit.OnAcceptDate"/>
+      <element name="TRxDateEdit.OnChange"/>
+      <element name="TRxDateEdit.OnChangeBounds"/>
+      <element name="TRxDateEdit.OnClick"/>
+      <element name="TRxDateEdit.OnEditingDone"/>
+      <element name="TRxDateEdit.OnEnter"/>
+      <element name="TRxDateEdit.OnExit"/>
+      <element name="TRxDateEdit.OnKeyDown"/>
+      <element name="TRxDateEdit.OnKeyPress"/>
+      <element name="TRxDateEdit.OnKeyUp"/>
+      <element name="TRxDateEdit.OnMouseDown"/>
+      <element name="TRxDateEdit.OnMouseMove"/>
+      <element name="TRxDateEdit.OnMouseUp"/>
+      <element name="TRxDateEdit.OnResize"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

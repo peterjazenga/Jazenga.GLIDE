@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="baredsgn"/>
+    <Type Value="DesignTime"/>
+    <Author Value="sysrpl"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="../common"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Bare Game is a open source modern minimal game cross platform gaming library. It was conceived to take the SDL 2.0 game library and pair it with the Free Pascal Compiler, combining Free Pascal's write once compile anywhere philosophy with with SDL 2.0 ability to empower games on every platform. Bear Game wraps SDL 2.0 functions and defines in an extremely easy to reuse class library. It takes care of all the boilerplate plumbing required to get a game started and running on a variety of platforms, empowering you, the game creator, to focus on what you want to do, designing your game. "/>
+    <License Value="GNU Library or &quot;Lesser&quot; General Public License (LGPL)"/>
+    <Version Major="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="baregameregister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="baregameregister"/>
+      </Item1>
+      <Item2>
+        <Filename Value="baregamedescriptors.pas"/>
+        <UnitName Value="baregamedescriptors"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

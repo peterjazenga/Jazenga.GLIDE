@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="wst_synapse"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Inoussa OUEDRAOGO"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\.."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Web Services Toolkit  Synapse transport layer.
+
+The &quot;Web Service Toolkit”  (WST) is a web-services consumption and authoring toolkit for FPC/Lazarus and Delphi developers. WST has support for SOAP,XMLRPC, JSON-RPC, a custom binary serialization formats and WSDL for services description. The supported transport protocols include HTTP, TCP and a library-base (for an in-process communication) tranport."/>
+    <License Value="Modified LGPL
+"/>
+    <Version Minor="8"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="..\..\synapse_tcp_server.pas"/>
+        <UnitName Value="synapse_tcp_server"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\..\synapse_http_protocol.pas"/>
+        <UnitName Value="synapse_http_protocol"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\..\synapse_tcp_protocol.pas"/>
+        <UnitName Value="synapse_tcp_protocol"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="laz_synapse40_1"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="wst_core"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MObjFPC -Schi -O1 -l -vewnhibq -FuC:\fpcupdeluxe\lazarus\components\pas2js\src\rtl\ -FUC:\fpcupdeluxe\lazarus\components\pas2js\src\rtl\ -dPas2js pas2js_rtl.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>

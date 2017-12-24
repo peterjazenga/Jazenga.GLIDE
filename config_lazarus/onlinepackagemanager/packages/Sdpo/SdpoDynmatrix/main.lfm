@@ -1,0 +1,109 @@
+object FMain: TFMain
+  Left = 371
+  Height = 300
+  Top = 153
+  Width = 789
+  ActiveControl = BTest1
+  Caption = 'FMain'
+  ClientHeight = 300
+  ClientWidth = 789
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object BTest1: TButton
+    Left = 4
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Test1'
+    OnClick = BTest1Click
+    TabOrder = 0
+  end
+  object Memo: TMemo
+    Left = 128
+    Height = 294
+    Top = 4
+    Width = 659
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    TabOrder = 1
+  end
+  object BTest2: TButton
+    Left = 4
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Test2'
+    OnClick = BTest2Click
+    TabOrder = 2
+  end
+  object BTest3: TButton
+    Left = 4
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Test3'
+    OnClick = BTest3Click
+    TabOrder = 3
+  end
+  object EditHilbertDim: TEdit
+    Left = 84
+    Height = 23
+    Top = 72
+    Width = 36
+    TabOrder = 4
+    Text = '5'
+  end
+  object BTest4: TButton
+    Left = 4
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = 'Test4'
+    OnClick = BTest4Click
+    TabOrder = 5
+  end
+  object BTest5: TButton
+    Left = 4
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Test5'
+    OnClick = BTest5Click
+    TabOrder = 6
+  end
+  object BTest6: TButton
+    Left = 4
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Test6'
+    OnClick = BTest6Click
+    TabOrder = 7
+  end
+  object BTest7: TButton
+    Left = 4
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'Test7'
+    OnClick = BTest7Click
+    TabOrder = 8
+  end
+  object BTest8: TButton
+    Left = 4
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Test8'
+    OnClick = BTest8Click
+    TabOrder = 9
+  end
+  object BTest9: TButton
+    Left = 4
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'Test9'
+    OnClick = BTest9Click
+    TabOrder = 10
+  end
+end

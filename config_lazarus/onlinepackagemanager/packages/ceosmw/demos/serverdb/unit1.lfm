@@ -1,0 +1,156 @@
+object Form1: TForm1
+  Left = 425
+  Height = 506
+  Top = 183
+  Width = 925
+  Caption = 'Server'
+  ClientHeight = 506
+  ClientWidth = 925
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.4.2.0'
+  object btnStart: TButton
+    Left = 104
+    Height = 25
+    Top = 5
+    Width = 75
+    Caption = 'Start'
+    OnClick = btnStartClick
+    TabOrder = 0
+  end
+  object btnStop: TButton
+    Left = 192
+    Height = 25
+    Top = 5
+    Width = 75
+    Caption = 'Stop'
+    Enabled = False
+    OnClick = btnStopClick
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 441
+    Top = 42
+    Width = 925
+    Align = alBottom
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object btnClear: TButton
+    Left = 842
+    Height = 25
+    Top = 5
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'Clear'
+    OnClick = btnClearClick
+    TabOrder = 3
+  end
+  object cbxVerbose: TCheckBox
+    Left = 282
+    Height = 19
+    Top = 13
+    Width = 62
+    Caption = 'Verbose'
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 15
+    Top = 12
+    Width = 22
+    Caption = 'Port'
+    ParentColor = False
+  end
+  object sePort: TSpinEdit
+    Left = 38
+    Height = 23
+    Top = 9
+    Width = 58
+    MaxValue = 9999
+    MinValue = 81
+    TabOrder = 5
+    Value = 8080
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 483
+    Width = 925
+    Panels = <    
+      item
+        Width = 100
+      end    
+      item
+        Width = 150
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object cbxRequestsCount: TCheckBox
+    Left = 360
+    Height = 19
+    Top = 13
+    Width = 103
+    Caption = 'Requests Count'
+    Checked = True
+    State = cbChecked
+    TabOrder = 7
+  end
+  object CeosServer1: TCeosServer
+    OnRequestError = CeosServer1RequestError
+    OnException = CeosServer1Exception
+    OnGetRequest = CeosServer1GetRequest
+    OnRequest = CeosServer1Request
+    OnStart = CeosServer1Start
+    OnStop = CeosServer1Stop
+    left = 184
+    top = 120
+  end
+  object DatasetDemo: TBufDataset
+    FieldDefs = <>
+    left = 305
+    top = 125
+    object DatasetDemoCODIGO: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'codigo'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object DatasetDemoNOME: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'nome'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object DatasetDemoIDADE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'idade'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+end

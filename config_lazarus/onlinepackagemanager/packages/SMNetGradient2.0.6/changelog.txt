@@ -1,0 +1,17 @@
+﻿Changes 2.0.6 (By Vincenzo Scozzaro)
+* Added component icon
+
+Changes between 2.0.4 and 2.0.5 (By Luiz Américo)
+* Correctly set the version info in the package description
+* Removed About property since does not make sense at all
+* Made SubCaption a read only property
+* Removed unused variables and fields
+* Commented SbCapOffs since is not being used currently
+* Add const keyword for read only string parameters
+* Check is new value is equal to old one in set property methods
+* Comment initialization of fields with default values (False, 0)
+* Remove DestroyObjects function: was being used to destroy only one object
+* Format the code (remove excess of spaces) for more consistency
+* Added BeginUpdate and EndUpdate: protects against handle creation while loading
+* Published BorderSpacing
+* Fixed memory leaks

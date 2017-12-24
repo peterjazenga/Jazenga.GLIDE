@@ -1,0 +1,88 @@
+object JvHintEditor: TJvHintEditor
+  Left = 200
+  Height = 240
+  Top = 108
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  Caption = 'JvHtHint Editor'
+  ClientHeight = 240
+  ClientWidth = 320
+  Color = clBtnFace
+  Constraints.MinHeight = 150
+  Constraints.MinWidth = 200
+  Icon.Data = {
+    3E01000000000100010010101000010010002801000016000000280000001000
+    0000200000000100040000000000C00000000000000000000000000000000000
+    000000000000000080000080000000808000800000008000800080800000C0C0
+    C000808080000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFF
+    FF00000000000000000000000BBBB0000000000BB000BB000000000BB0000B00
+    0000000BBB000BB00000000BBB000BB00000000000000BB00000000000000BB0
+    0000000000000BB00000000000000BB00000000000000BB00000000000000BB0
+    0000000000000BB0000000000000BBBB00000000000BBBBBB000000000000000
+    0000FFFF0000F87F0000E73F0000E7BF0000E39F0000E39F0000FF9F0000FF9F
+    0000FF9F0000FF9F0000FF9F0000FF9F0000FF9F0000FF0F0000FE070000FFFF
+    0000
+  }
+  KeyPreview = True
+  Position = poScreenCenter
+  ShowHint = True
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 23
+    Caption = 'Hint'
+    ParentColor = False
+    ParentFont = False
+  end
+  object HintLabel: TLabel
+    Left = 114
+    Height = 15
+    Top = 8
+    Width = 198
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Drag mouse over this label to see hint'
+    ParentColor = False
+    ParentFont = False
+    WordWrap = True
+  end
+  object HintMemo: TMemo
+    Left = 8
+    Height = 157
+    Top = 32
+    Width = 304
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    OnChange = HintMemoChange
+    OnKeyDown = HintMemoKeyDown
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object BtnOk: TButton
+    Left = 151
+    Height = 25
+    Top = 204
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = '&OK'
+    Default = True
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 1
+  end
+  object BtnCancel: TButton
+    Left = 237
+    Height = 25
+    Top = 204
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    ParentFont = False
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="vulkan"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Vulkan API "/>
+    <License Value="MPL-2.0"/>
+    <Version Major="1"/>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="source\vulkanapi.pas"/>
+        <UnitName Value="vulkanapi"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\vulkanapi.inc"/>
+        <Type Value="Include"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\vulkanobjects.pas"/>
+        <UnitName Value="vulkanobjects"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\vulkanutils.pas"/>
+        <UnitName Value="vulkanutils"/>
+      </Item4>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <CustomOptions Value="-dUseCThreads"/>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

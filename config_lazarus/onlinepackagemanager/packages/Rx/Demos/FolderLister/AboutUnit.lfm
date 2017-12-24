@@ -1,0 +1,75 @@
+object AboutForm: TAboutForm
+  Left = 393
+  Height = 163
+  Top = 386
+  Width = 274
+  ActiveControl = BitBtn1
+  Caption = 'About...'
+  ClientHeight = 163
+  ClientWidth = 274
+  Position = poDesktopCenter
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 20
+    Top = 12
+    Width = 274
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Top = 12
+    Caption = 'FolderLister component demo'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 20
+    Top = 32
+    Width = 274
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    Caption = '(c) 2005-2016 by Alexs'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 0
+    Height = 20
+    Top = 52
+    Width = 274
+    Alignment = taCenter
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'alexs75@hotbox.ru'
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 107
+    Height = 36
+    Top = 121
+    Width = 60
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Bottom = 6
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 0
+  end
+end

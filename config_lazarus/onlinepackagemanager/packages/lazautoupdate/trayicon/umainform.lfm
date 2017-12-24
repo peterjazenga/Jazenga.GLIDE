@@ -1,0 +1,94 @@
+object mainform: Tmainform
+  Left = 1156
+  Height = 129
+  Top = 118
+  Width = 185
+  BorderIcons = [biSystemMenu]
+  Caption = 'mainform'
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnWindowStateChange = FormWindowStateChange
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '1.7'
+  WindowState = wsMinimized
+  object TrayIcon1: TTrayIcon
+    BalloonFlags = bfInfo
+    BalloonTimeout = 1000
+    PopUpMenu = PopupMenu1
+    Hint = 'LazAutoUpdate trayicon automatic updater'
+    Visible = True
+    OnClick = TrayIcon1Click
+    OnDblClick = mnu_configureClick
+    Left = 16
+    Top = 56
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 16
+    Top = 8
+    object mnu_fileExit: TMenuItem
+      Caption = 'Shutdown and E&xit'
+      OnClick = mnu_fileExitClick
+    end
+    object mnu_configure: TMenuItem
+      Caption = 'Configure...'
+      OnClick = mnu_configureClick
+    end
+    object mnu_startAtOSStartUp: TMenuItem
+      AutoCheck = True
+      Caption = 'Runs at startup'
+      ShowAlwaysCheckable = True
+      OnClick = mnu_startAtOSStartUpClick
+    end
+    object mnu_SelfCheck: TMenuItem
+      Caption = 'Update current profile now'
+      OnClick = mnu_SelfCheckClick
+    end
+    object mnu_About: TMenuItem
+      Caption = 'About...'
+      OnClick = mnu_AboutClick
+    end
+  end
+  object LazAutoUpdate1: TLazAutoUpdate
+    About.Description.Strings = (
+      'A component for updating your application'#13#10'Designed for projects hosted by SourceForge'#13#10#13#10'Main methods:'#13#10'Function NewVersionAvailable: Boolean'#13#10'Function DownloadNewVersion: Boolean'#13#10'Function UpdateToNewVersion: Boolean'#13#10'Procedure ShowWhatsNewIfAvailable'
+    )
+    About.Title = 'About LazAutoUpdate'
+    About.Height = 450
+    About.Width = 400
+    About.Font.Color = clNavy
+    About.Font.Height = -13
+    About.BackGroundColor = clWindow
+    About.Version = '0.0.8'
+    About.Authorname = 'Gordon Bamber'
+    About.Organisation = 'Public Domain'
+    About.AuthorEmail = 'minesadorada@gmail.com'
+    About.ComponentName = 'Laz Auto-update v0.0.8'
+    About.LicenseType = abLGPL
+    OnDebugEvent = LazAutoUpdate1DebugEvent
+    SFProjectName = 'healthdailymonitor'
+    UpdatesFolder = 'updates'
+    VersionsININame = 'versions.ini'
+    VersionCountLimit = 1000000
+    DownloadCountLimit = 10000000
+  end
+  object idleReminder: TIdleTimer
+    AutoEnabled = True
+    Interval = 60000
+    OnTimer = idleReminderTimer
+    Left = 128
+    Top = 16
+  end
+  object Logger: TEventLog
+    AppendContent = False
+    LogType = ltFile
+    Active = False
+    RaiseExceptionOnError = False
+    DefaultEventType = etCustom
+    CustomLogType = 0
+    EventIDOffset = 0
+    Paused = False
+    Left = 132
+    Top = 68
+  end
+end

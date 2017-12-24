@@ -1,0 +1,122 @@
+object fPropEdit: TfPropEdit
+  Left = 485
+  Height = 326
+  Top = 207
+  Width = 324
+  HorzScrollBar.Page = 323
+  VertScrollBar.Page = 325
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'fPropEdit'
+  ClientHeight = 326
+  ClientWidth = 324
+  Position = poDesktopCenter
+  LCLVersion = '1.2.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 276
+    Width = 324
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 324
+    TabOrder = 0
+    object Button1: TButton
+      Left = 236
+      Height = 25
+      Top = 10
+      Width = 75
+      Anchors = [akTop, akRight]
+      BorderSpacing.InnerBorder = 4
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 146
+      Height = 25
+      Top = 10
+      Width = 75
+      Action = actOK
+      Anchors = [akTop, akRight]
+      BorderSpacing.InnerBorder = 4
+      Default = True
+      TabOrder = 1
+    end
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 276
+    Top = 0
+    Width = 324
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Property'
+      ClientHeight = 250
+      ClientWidth = 316
+      object Label1: TLabel
+        Left = 20
+        Height = 13
+        Top = 24
+        Width = 27
+        Caption = 'Name'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 20
+        Height = 13
+        Top = 98
+        Width = 24
+        Caption = 'Type'
+        ParentColor = False
+      end
+      object edtName: TEdit
+        Left = 20
+        Height = 21
+        Top = 42
+        Width = 272
+        TabOrder = 0
+      end
+      object edtType: TComboBox
+        Left = 20
+        Height = 21
+        Top = 116
+        Width = 272
+        ItemHeight = 13
+        Style = csDropDownList
+        TabOrder = 1
+      end
+      object edtAttribute: TCheckBox
+        Left = 20
+        Height = 17
+        Top = 170
+        Width = 108
+        Caption = 'Attribute Property'
+        TabOrder = 2
+      end
+      object edtOptional: TCheckBox
+        Left = 20
+        Height = 17
+        Top = 218
+        Width = 105
+        Caption = 'Optional property'
+        Font.Style = [fsItalic]
+        ParentFont = False
+        TabOrder = 3
+      end
+    end
+  end
+  object ActionList1: TActionList
+    left = 104
+    top = 104
+    object actOK: TAction
+      Caption = 'OK'
+      OnExecute = actOKExecute
+      OnUpdate = actOKUpdate
+    end
+  end
+end

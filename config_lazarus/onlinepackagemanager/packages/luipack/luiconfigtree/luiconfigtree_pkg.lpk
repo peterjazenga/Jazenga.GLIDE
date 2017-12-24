@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="luiconfigtree_pkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Luiz Américo Pereira Câmara"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Config tree."/>
+    <License Value="GPL"/>
+    <Version Minor="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="luiconfigtree.pas"/>
+        <UnitName Value="luiconfigtree"/>
+      </Item1>
+      <Item2>
+        <Filename Value="register_luiconfigtree.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="register_luiconfigtree"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="virtualtreeview_package"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="luicomponents"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

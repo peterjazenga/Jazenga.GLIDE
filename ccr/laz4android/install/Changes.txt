@@ -1,0 +1,94 @@
+Important Note: 
+A)Please remove previous versions before installing a new version.
+B)Installation path containing “SPACE” char's do still not work.
+
+13.Dez. 2017 (v0.9.0.38)
+- updated to download laz4android1.8.0-FPC3.0.4.7z
+- updated to download android-ndk-r14b-windows-x86.zip
+- changed laztoapk to use new laz4android-path "laz4android1.8".
+- preparations to use this setup also with LAMW.
+- updated installation documentation.
+
+20.Nov. 2016 (v0.9.0.37)
+- updated to download laz4android1.7.0-53387-FPC3.1.1.7z
+
+09.Nov. 2016 (v0.9.0.36)
+- added more trace and warning messages.
+
+20.März 2016 (v0.9.0.35)
+- updated to download laz4android1.6.0-FPC3.0.0.7z
+- updated to download android-sdk_r24.4.1-windows.zip
+- added more trace and warning messages.
+
+07.Dezember 2015 (v0.9.0.34)
+- updated to download laz4android1.4.4-FPC3.0.0.7z
+- fixed uggly bug. Button "Step1: Select/Create Project Folder" on tabsheet "manual" did always reset/overwrite an existing project.
+- some source clean-up.
+- more fixes and rework for the tabsheet "manual".
+- added button to edit the project.
+
+06.Oktober 2015 (v0.9.0.33)
+- updated to download android-sdk_r24.3.4-windows.zip
+- updated to download android-ndk-r10e-windows-x86.exe
+- updated to download laz4android1.5-49903-FPC3.1.1.7z
+- updated ndk toolchain to toolchains\arm-linux-androideabi-4.9.
+- added option to select android api 23.
+- improved installer.
+
+02.August 2015 (v0.9.0.32)
+- updated to latest laz4android laz4android1.5-49563-FPC3.1.1.7z
+- fix in DetectInstalledSDKBuildTools
+- fix some memory leaks.
+
+21.April 2015 (v0.9.0.31)
+- read location of JDK path from regitstry.
+- added more info messages in case of problems.
+- use FileExistsUTF8,DirectoryExistsUTF8 methods.
+- added path to ndk toolchain into settings file. (NDKToolChainPath=toolchains\arm-linux-androideabi-4.8\prebuilt\windows\bin\)
+- added path to template project into settings file.
+- added option to select android api 22. 
+- updated ndk toolchain to toolchains\arm-linux-androideabi-4.8.
+- download now android-ndk-r10d-windows-x86.exe instead of android-ndk-r10c-windows-x86.exe.
+- download now android-sdk_r24.1.2-windows.zip instead of android-sdk_r23.0.2-windows.zip.
+
+01.März 2015 (v0.9.0.30)
+- updated setup to the latest laz4android package. (laz4android1.5-47987-FPC3.1.1.7z)
+
+24.Dezember 2014 (v0.9.0.29)
+- disable main form on application startup until all paths are setup/verified.
+ 
+19.November 2014 (v0.9.0.28)
+- updated installer to use/download the android-sdk_r23.0.2-windows.zip.
+- updated installer to use/download the android-ndk-r10c-windows-x86.exe.
+- minor gui tweaks.
+- updated installation tutorial.
+
+20.Oktober 2014 (v0.9.0.27)
+- updated setup to the latest laz4android package. (laz4android1.3-46592-FPC2.7.1.7z)
+- added version 5.0 lollipop to laztoapk selection box.
+
+15.August 2014 (V0.9.0.26)
+Note: If you have a running/working installation you do not need to upgrade to  V0.9.0.26.
+- some minor fixes.
+- display more info to the user.
+- improved and cleaned up installation document.
+
+23.April 2014 (V0.9.0.25)
+- updated installer to use/download the sdk android-sdk_r22.6.2.
+- updated installer to use/download the ndk android-ndk-r9d-windows-x86.
+- added Info-Form which will be displayed while the search for ndk/sdk stuff is running.
+
+09.April.2014 (v0.9.0.24)
+- changed laz4android to version 43585.(work around included http://bugs.freepascal.org/view.php?id=25686 Thanks to Leslie and TrueTom)
+- improved setup. (After install, build.bat will be started automatic to build startlazarus.exe and lazarus.exe)
+- tried to simplify installation. (removed folder 3rdParty, its all now in folder <downloads)
+
+07.März.2014 (v0.9.0.23)
+- only show available NDK/SDK combination in dropdown box.
+- automatic copy of ndk files <arm-linux-androideabi-*.exe> to fpc\bin folder.
+- some improvements if there is a space in the path-name. (e.g. c:\program files\)
+
+21.Feb.2014 (v0.9.0.22)
+- reverted back to laz4android 41139.
+- setup will now start laz4android\build.bat
+- setup will now copy the files from ndk\toolchains\arm-linux-androideabi-4.6\prebuilt\windows\bin into laz4android\fpc\2.7.1\bin\i386-win32

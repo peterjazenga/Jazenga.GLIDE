@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="lazextwebbase"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Matthieu GIROUX"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="extwebbase"/>
+        <OtherUnitFiles Value="extwebbase"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Linking>
+        <Debugging>
+          <UseHeaptrc Value="True"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <License Value="GPL"/>
+    <Version Major="1" Minor="9" Build="1"/>
+    <Files Count="16">
+      <Item12>
+        <Filename Value="extwebbase/fonctions_pcomponents.pas"/>
+        <UnitName Value="fonctions_pcomponents"/>
+      </Item12>
+      <Item13>
+        <Filename Value="extwebbase/fonctions_pdbcomponents.pas"/>
+        <UnitName Value="fonctions_pdbcomponents"/>
+      </Item13>
+      <Item14>
+        <Filename Value="extwebbase/fonctions_perreurs.pas"/>
+        <UnitName Value="fonctions_perreurs"/>
+      </Item14>
+      <Item15>
+        <Filename Value="extwebbase/fonctions_planguages.pas"/>
+        <UnitName Value="fonctions_planguages"/>
+      </Item15>
+      <Item16>
+        <Filename Value="extwebbase/u_extpcomponent.pas"/>
+        <UnitName Value="u_extpcomponent"/>
+      </Item16>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="LANG"/>
+    </i18n>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="weblaz"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazextpascal"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="ExtP_Grid"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="ExtP_Ctrls"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="lazextcore"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

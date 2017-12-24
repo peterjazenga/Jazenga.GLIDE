@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":84869570,"name":"jinputconsts.sinvalidnumber","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,110,117,109,98,101,114],"value":"%s is not a valid number"},
+{"hash":151322005,"name":"jinputconsts.sinvaliddate","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,100,97,116,101],"value":"%s is not a valid date"},
+{"hash":151386885,"name":"jinputconsts.sinvalidtime","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,116,105,109,101],"value":"%s is not a valid time"},
+{"hash":167043557,"name":"jinputconsts.sinvaliddatetime","sourcebytes":[37,115,32,105,115,32,110,111,116,32,97,32,118,97,108,105,100,32,100,97,116,101,45,116,105,109,101],"value":"%s is not a valid date-time"}
+]}

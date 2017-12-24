@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="OpenDocument"/>
+    <Type Value="RunTimeOnly"/>
+    <Author Value="Daniel F. Gaspary"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value=".."/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Linking>
+        <Debugging>
+          <UseExternalDbgSyms Value="True"/>
+        </Debugging>
+      </Linking>
+    </CompilerOptions>
+    <Description Value="Library to help to generate and to modify ODF files.
+
+http://en.wikipedia.org/wiki/OpenDocument"/>
+    <License Value="Modified LGPL.
+
+Read the file COPYING.modifiedLGPL.txt for more informations."/>
+    <Version Release="1"/>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="../odf_types.pas"/>
+        <UnitName Value="odf_types"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../odf_mimetypes.pas"/>
+        <UnitName Value="odf_mimetypes"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../odf_xmlutils.pas"/>
+        <UnitName Value="odf_xmlutils"/>
+      </Item3>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="xmlstreaming"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCLBase"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LazUtils"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

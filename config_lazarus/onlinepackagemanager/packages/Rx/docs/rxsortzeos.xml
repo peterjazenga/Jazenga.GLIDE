@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rx_sort_zeos"><module name="RxSortZeos"><short>Модуль содержит визуальный компонент для подключения модуля сортировки ZEOS</short><descr>Модуль содержит визуальный компонент для подключения модуля сортировки данных, предоставляемых библиотекой ZEOS в RxDBGrid</descr><element name="TRxSortZeos"><short>Визуальный компонент для подключения модуля сортировки данных, предоставляемых библиотекой ZEOS в RxDBGrid</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

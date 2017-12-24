@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="barcodes"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Roman Kassebaum, Sebastian Zierer, Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Barcode 1D and 2D"/>
+    <Version Major="4" Release="4"/>
+    <Files Count="22">
+      <Item1>
+        <Filename Value="source\allbarcodesreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="allbarcodesreg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source\burender.pas"/>
+        <UnitName Value="burender"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source\St2DBarC.pas"/>
+        <UnitName Value="St2DBarC"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source\StBarC.pas"/>
+        <UnitName Value="StBarC"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source\StBarPN.pas"/>
+        <UnitName Value="StBarPN"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source\stcommon.pas"/>
+        <UnitName Value="StCommon"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source\StDb2DBC.pas"/>
+        <UnitName Value="StDb2DBC"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source\StDbBarC.pas"/>
+        <UnitName Value="StDbBarC"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source\StDbPNBC.pas"/>
+        <UnitName Value="StDbPNBC"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source\uaztec.pas"/>
+        <UnitName Value="uaztec"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source\ubarcodes.pas"/>
+        <UnitName Value="ubarcodes"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source\ubasic.pas"/>
+        <UnitName Value="ubasic"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source\udatamatrix.pas"/>
+        <UnitName Value="udatamatrix"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source\udbbarcodeaztec.pas"/>
+        <UnitName Value="udbbarcodeaztec"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source\udbbarcodeaztecrune.pas"/>
+        <UnitName Value="udbbarcodeaztecrune"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source\udbbarcodedatamatrix.pas"/>
+        <UnitName Value="udbbarcodedatamatrix"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source\udbbarcodemicroqr.pas"/>
+        <UnitName Value="udbbarcodemicroqr"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source\udbbarcodeqr.pas"/>
+        <UnitName Value="udbbarcodeqr"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source\uhelper.pas"/>
+        <UnitName Value="uhelper"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source\uqr.pas"/>
+        <UnitName Value="uqr"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source\ureedsolomon.pas"/>
+        <UnitName Value="ureedsolomon"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source\usjis.pas"/>
+        <UnitName Value="usjis"/>
+      </Item22>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

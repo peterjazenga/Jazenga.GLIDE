@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_regreports_components
+  ====================================================================
+-->
+    <module name="u_regreports_components">
+      <short/>
+      <descr/>
+      <!-- procedure Visibility: default -->
+      <element name="Register">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_regreports_components -->
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=""/>
+      <UseAppBundle Value="False"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="SdpoFastFormLaz"/>
+        <MinVersion Minor="1" Release="2" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="formgradient.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="formgradient"/>
+        <CursorPos X="41" Y="15"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+        <CursorPos X="36" Y="67"/>
+        <TopLine Value="42"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../gtkvideoMMX_testeCanvas/main.pas"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <UnitName Value="main"/>
+        <CursorPos X="25" Y="170"/>
+        <TopLine Value="152"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../share/fpcsrc/rtl/inc/systemh.inc"/>
+        <CursorPos X="11" Y="413"/>
+        <TopLine Value="395"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../sdpofastform.pas"/>
+        <UnitName Value="SdpoFastForm"/>
+        <CursorPos X="13" Y="82"/>
+        <TopLine Value="54"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../gtkvideoMMX_testeCanvas/utils.pas"/>
+        <UnitName Value="utils"/>
+        <CursorPos X="1" Y="29"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../gtkvideoMMX_testeCanvas/videoutils.pas"/>
+        <UnitName Value="videoutils"/>
+        <CursorPos X="3" Y="36"/>
+        <TopLine Value="12"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../share/fpcsrc/2.2.2/packages/gtk2/src/gtk+/gtk/gtkwidget.inc"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../share/fpcsrc/2.2.2/packages/gtk2/src/gtk+/gtk/gtkwindow.inc"/>
+        <CursorPos X="36" Y="240"/>
+        <TopLine Value="226"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="14" Y="690"/>
+        <TopLine Value="663"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../sdpofastformwindows.inc"/>
+        <CursorPos X="1" Y="260"/>
+        <TopLine Value="254"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../fpc/2.2.4/source/rtl/objpas/classes/classesh.inc"/>
+        <CursorPos X="3" Y="110"/>
+        <TopLine Value="92"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <CursorPos X="3" Y="156"/>
+        <TopLine Value="138"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../../paulo/mysvn/FastFormWindows/main.pas"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <CursorPos X="1" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+    </Units>
+    <JumpHistory Count="24" HistoryIndex="23">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="9" Column="6" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="22" Column="5" TopLine="21"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="55" Column="20" TopLine="46"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="54" Column="9" TopLine="46"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="1" Column="12" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="89" Column="31" TopLine="62"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main.pas"/>
+        <Caret Line="9" Column="25" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main.pas"/>
+        <Caret Line="83" Column="21" TopLine="55"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="94" Column="38" TopLine="76"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main.pas"/>
+        <Caret Line="95" Column="33" TopLine="76"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main.pas"/>
+        <Caret Line="100" Column="7" TopLine="59"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="73" Column="17" TopLine="60"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="57" Column="3" TopLine="55"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="9" Column="11" TopLine="1"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="73" Column="28" TopLine="72"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="74" Column="28" TopLine="72"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="107" Column="16" TopLine="72"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="58" Column="14" TopLine="57"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="72" Column="6" TopLine="57"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="90" Column="29" TopLine="79"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="76" Column="13" TopLine="56"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="29" Column="27" TopLine="29"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="122" Column="20" TopLine="94"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="126" Column="22" TopLine="97"/>
+      </Position24>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Source Value="../teste_xshmpaint/main.pas"/>
+        <Line Value="71"/>
+      </Item1>
+      <Item2>
+        <Source Value="../videocanvas_image_canvas/gtkpaint.lpr"/>
+        <Line Value="1"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

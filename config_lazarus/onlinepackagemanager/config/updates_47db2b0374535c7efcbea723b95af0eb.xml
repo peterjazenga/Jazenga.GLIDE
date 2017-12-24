@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Version Value="1"/>
+  <Count Value="132"/>
+  <Package0 Name="Abrevia" Count="1">
+    <PackageFile0 Name="abbrevia.lpk"/>
+  </Package0>
+  <Package1 Name="acs" Count="1">
+    <PackageFile0 Name="laz_acs.lpk"/>
+  </Package1>
+  <Package2 Name="AGGPas" Count="1">
+    <PackageFile0 Name="aggpas.lpk"/>
+  </Package2>
+  <Package3 Name="AGGPasVS" Count="1">
+    <PackageFile0 Name="aggpasvs.lpk"/>
+  </Package3>
+  <Package4 Name="APE" Count="1">
+    <PackageFile0 Name="apelib.lpk"/>
+  </Package4>
+  <Package5 Name="ASIO_VST" Count="1">
+    <PackageFile0 Name="asiovst.lpk"/>
+  </Package5>
+  <Package6 Name="Astronomy" Count="1">
+    <PackageFile0 Name="astronomy.lpk"/>
+  </Package6>
+  <Package7 Name="ATBinHex-Lazarus-master" DownloadZipURL="https://github.com/Alexey-T/ATBinHex-Lazarus/archive/master.zip" Count="1">
+    <PackageFile0 Name="atbinhex_package.lpk" UpdateVersion="1.0.0.0" InternalVersion="1"/>
+  </Package7>
+  <Package8 Name="ATFileNotif-Lazarus" DownloadZipURL="https://github.com/Alexey-T/ATFileNotif-Lazarus/archive/master.zip" Count="1">
+    <PackageFile0 Name="atfilenotif_pkg.lpk" UpdateVersion="1.0.0.0" InternalVersion="1"/>
+  </Package8>
+  <Package9 Name="ATFlatControls" Count="1">
+    <PackageFile0 Name="atflatcontrols_package.lpk"/>
+  </Package9>
+  <Package10 Name="ATSynEdit" DownloadZipURL="https://github.com/Alexey-T/ATSynEdit/archive/master.zip" Count="1">
+    <PackageFile0 Name="atsynedit_package.lpk" UpdateVersion="1.0.0.0" InternalVersion="1"/>
+  </Package10>
+  <Package11 Name="ATSynEdit_Ex" Count="1">
+    <PackageFile0 Name="atsynedit_ex_package.lpk"/>
+  </Package11>
+  <Package12 Name="ATTabs" Count="1">
+    <PackageFile0 Name="attabs_package.lpk"/>
+  </Package12>
+  <Package13 Name="Barcodes" Count="1">
+    <PackageFile0 Name="barcodes.lpk"/>
+  </Package13>
+  <Package14 Name="Bare.Game-master" Count="2">
+    <PackageFile0 Name="barerun.lpk"/>
+    <PackageFile1 Name="baredsgn.lpk"/>
+  </Package14>
+  <Package15 Name="bgrabitmap-master" Count="2">
+    <PackageFile0 Name="bglcontrols.lpk"/>
+    <PackageFile1 Name="bgrabitmappack.lpk"/>
+  </Package15>
+  <Package16 Name="bgracontrols-master" DownloadZipURL="https://github.com/bgrabitmap/bgracontrols/archive/master.zip" Count="2">
+    <PackageFile0 Name="bgracontrols.lpk" UpdateVersion="4.4.0.0" ForceNotify="True" InternalVersion="6"/>
+    <PackageFile1 Name="bgrapascalscriptcomponent.lpk" UpdateVersion="1.0.0.0" InternalVersion="1"/>
+  </Package16>
+  <Package17 Name="bgracontrolsfx-master" DownloadZipURL="https://github.com/bgrabitmap/bgracontrolsfx/archive/master.zip" Count="1">
+    <PackageFile0 Name="bgracontrolsfx.lpk" UpdateVersion="0.1.6.1" InternalVersion="1"/>
+  </Package17>
+  <Package18 Name="bgragames-master" Count="1">
+    <PackageFile0 Name="bgragames.lpk"/>
+  </Package18>
+  <Package19 Name="Box2D" Count="1">
+    <PackageFile0 Name="Box2d.lpk"/>
+  </Package19>
+  <Package20 Name="callite" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/CalLite/callite-0.3.1.zip/download" Count="1">
+    <PackageFile0 Name="callight_pkg.lpk" UpdateVersion="0.3.1.0" InternalVersion="1"/>
+  </Package20>
+  <Package21 Name="castle-engine-master" Count="3">
+    <PackageFile0 Name="castle_base.lpk"/>
+    <PackageFile1 Name="castle_components.lpk"/>
+    <PackageFile2 Name="castle_window.lpk"/>
+  </Package21>
+  <Package22 Name="ceosmw" Count="1">
+    <PackageFile0 Name="ceosmw.lpk"/>
+  </Package22>
+  <Package23 Name="CGI" Count="2">
+    <PackageFile0 Name="cgi.lpk"/>
+    <PackageFile1 Name="cgiide.lpk"/>
+  </Package23>
+  <Package24 Name="chemtext" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/chemtext/chemtext-0.1.2.zip/download" Count="1">
+    <PackageFile0 Name="laz_chemtext.lpk" UpdateVersion="0.1.2.0" InternalVersion="1"/>
+  </Package24>
+  <Package25 Name="chsdet" Count="1">
+    <PackageFile0 Name="chsdet.lpk"/>
+  </Package25>
+  <Package26 Name="Cindy" Count="1">
+    <PackageFile0 Name="cindy.lpk"/>
+  </Package26>
+  <Package27 Name="cmdline" Count="1">
+    <PackageFile0 Name="cmdbox.lpk"/>
+  </Package27>
+  <Package28 Name="lazcodesigninghelper-master" Count="1">
+    <PackageFile0 Name="CodeSigningPackage.lpk"/>
+  </Package28>
+  <Package29 Name="colorpalette" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/ColorPalette/ColorPalette%200.2/LazColorPalette-0.2.4.zip/download" Count="1">
+    <PackageFile0 Name="lazcolorpalette.lpk" UpdateVersion="0.2.4.0" InternalVersion="1"/>
+  </Package29>
+  <Package30 Name="cryptini" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/cryptini/latest_stable/updates/cryptini.zip" Count="1">
+    <PackageFile0 Name="cryptini.lpk" UpdateVersion="0.1.3.0" InternalVersion="5"/>
+  </Package30>
+  <Package31 Name="DataPort" Count="1">
+    <PackageFile0 Name="dataportlasarus.lpk"/>
+  </Package31>
+  <Package32 Name="dcpcrypt-2.0.4.1" Count="2">
+    <PackageFile0 Name="dcpcrypt.lpk"/>
+    <PackageFile1 Name="dcpcrypt_laz.lpk"/>
+  </Package32>
+  <Package33 Name="dexif" Count="1">
+    <PackageFile0 Name="dexif_package.lpk"/>
+  </Package33>
+  <Package34 Name="DirectX" Count="1">
+    <PackageFile0 Name="directx.lpk"/>
+  </Package34>
+  <Package35 Name="DMath" Count="1">
+    <PackageFile0 Name="dmath.lpk"/>
+  </Package35>
+  <Package36 Name="DragDrop" Count="1">
+    <PackageFile0 Name="DragDropLazarus.lpk"/>
+  </Package36>
+  <Package37 Name="EControl" Count="1">
+    <PackageFile0 Name="econtrol_package.lpk"/>
+  </Package37>
+  <Package38 Name="epiktimer" Count="2">
+    <PackageFile0 Name="etpackage.lpk"/>
+    <PackageFile1 Name="etpackage_dsgn.lpk"/>
+  </Package38>
+  <Package39 Name="EvsSimpleGraph" Count="2">
+    <PackageFile0 Name="ugraphdsgn.lpk"/>
+    <PackageFile1 Name="ugraphrtm.lpk"/>
+  </Package39>
+  <Package40 Name="ExCompress" Count="1">
+    <PackageFile0 Name="excompress.lpk"/>
+  </Package40>
+  <Package41 Name="ExControls" Count="1">
+    <PackageFile0 Name="excontrols.lpk"/>
+  </Package41>
+  <Package42 Name="ExDatabase" Count="1">
+    <PackageFile0 Name="exdatabase.lpk"/>
+  </Package42>
+  <Package43 Name="ExDesign" Count="1">
+    <PackageFile0 Name="exdesign.lpk"/>
+  </Package43>
+  <Package44 Name="ExGeographic" Count="1">
+    <PackageFile0 Name="exgeographic.lpk"/>
+  </Package44>
+  <Package45 Name="Extended" Count="3">
+    <PackageFile0 Name="lazextcomponents.lpk"/>
+    <PackageFile1 Name="lazregisterextcomp.lpk"/>
+    <PackageFile2 Name="lazregisteribx.lpk"/>
+  </Package45>
+  <Package46 Name="EC_Controls" Count="1">
+    <PackageFile0 Name="eccontrols.lpk"/>
+  </Package46>
+  <Package47 Name="FileAssociation-master" Count="1">
+    <PackageFile0 Name="fileassociation.lpk"/>
+  </Package47>
+  <Package48 Name="FileMenuHandler" Count="1">
+    <PackageFile0 Name="FileMenuHandler.lpk"/>
+  </Package48>
+  <Package49 Name="fortes4lazarus 3.24" Count="1">
+    <PackageFile0 Name="fortes324forlaz.lpk"/>
+  </Package49>
+  <Package50 Name="fortesreport-ce4" Count="1">
+    <PackageFile0 Name="frce.lpk"/>
+  </Package50>
+  <Package51 Name="fpspreadsheet" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/FPSpreadsheet/fpspreadsheet-1.8.4.zip/download" Count="3">
+    <PackageFile0 Name="laz_fpspreadsheet.lpk" UpdateVersion="1.8.4.0" InternalVersion="1"/>
+    <PackageFile1 Name="laz_fpspreadsheetexport_visual.lpk" UpdateVersion="1.8.4.0" InternalVersion="1"/>
+    <PackageFile2 Name="laz_fpspreadsheet_visual.lpk" UpdateVersion="1.8.4.0" InternalVersion="1"/>
+  </Package51>
+  <Package52 Name="gifanim" Count="2">
+    <PackageFile0 Name="pkg_gifanim.lpk"/>
+    <PackageFile1 Name="pkg_gifanim_dsgn.lpk"/>
+  </Package52>
+  <Package53 Name="Graphics32" Count="1">
+    <PackageFile0 Name="graphics32.lpk"/>
+  </Package53>
+  <Package54 Name="Graphics32EXT" Count="1">
+    <PackageFile0 Name="graphics32_ext.lpk"/>
+  </Package54>
+  <Package55 Name="HashLib" Count="1">
+    <PackageFile0 Name="HashLib4PascalPackage.lpk"/>
+  </Package55>
+  <Package56 Name="HistoryFiles" Count="1">
+    <PackageFile0 Name="HistoryLazarus.lpk"/>
+  </Package56>
+  <Package57 Name="Html5Canvas" Count="1">
+    <PackageFile0 Name="html5canvas.lpk"/>
+  </Package57>
+  <Package58 Name="HtmlViewer" Count="1">
+    <PackageFile0 Name="FrameViewer09.lpk"/>
+  </Package58>
+  <Package59 Name="ibx" Count="6">
+    <PackageFile0 Name="dclibx.lpk"/>
+    <PackageFile1 Name="fbintf.lpk"/>
+    <PackageFile2 Name="ibcontrols.lpk"/>
+    <PackageFile3 Name="ibexpress.lpk"/>
+    <PackageFile4 Name="ibexpressconsolemode.lpk"/>
+    <PackageFile5 Name="iblocaldb.lpk"/>
+  </Package59>
+  <Package60 Name="industrialstuff" Count="1">
+    <PackageFile0 Name="industrial.lpk"/>
+  </Package60>
+  <Package61 Name="Indy10" Count="1">
+    <PackageFile0 Name="indylaz.lpk"/>
+  </Package61>
+  <Package62 Name="internettools-master" Count="2">
+    <PackageFile0 Name="internettools.lpk"/>
+    <PackageFile1 Name="internettools_utf8.lpk"/>
+  </Package62>
+  <Package63 Name="jujiboutils" Count="1">
+    <PackageFile0 Name="jujiboutils.lpk"/>
+  </Package63>
+  <Package64 Name="jvcllaz" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/jvcllaz/jvcllaz-1.0.1.zip/download" Count="14">
+    <PackageFile0 Name="JvCoreLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile1 Name="JvCoreLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile2 Name="JvCtrlsLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile3 Name="JvCtrlsLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile4 Name="JvDBLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile5 Name="JvDBLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile6 Name="JvPageCompsD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile7 Name="JvPageCompsR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile8 Name="JvStdCtrlsLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile9 Name="JvStdCtrlsLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile10 Name="JvValidatorsLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile11 Name="JvValidatorsLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile12 Name="JvXPCtrlsLazD.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+    <PackageFile13 Name="JvXPCtrlsLazR.lpk" UpdateVersion="1.0.1.0" InternalVersion="1"/>
+  </Package64>
+  <Package65 Name="jvdesign" Count="1">
+    <PackageFile0 Name="jvRuntimeDesign.lpk"/>
+  </Package65>
+  <Package66 Name="kaajcontrols-master" Count="1">
+    <PackageFile0 Name="kaaj_controls.lpk"/>
+  </Package66>
+  <Package67 Name="KASToolBar" Count="1">
+    <PackageFile0 Name="kascomp.lpk"/>
+  </Package67>
+  <Package68 Name="kcontrols_1.7" DownloadZipURL="https://bitbucket.org/tkweb/kcontrols/get/d35ac14451b2.zip" Count="2">
+    <PackageFile0 Name="kcontrolsbase.lpk" UpdateVersion="1.7.1.0" InternalVersion="1"/>
+    <PackageFile1 Name="kcontrolslaz.lpk" UpdateVersion="1.7.1.0" InternalVersion="1"/>
+  </Package68>
+  <Package69 Name="lainzcodestudio-master" Count="1">
+    <PackageFile0 Name="lcs_package.lpk"/>
+  </Package69>
+  <Package70 Name="LAMW" Count="3">
+    <PackageFile0 Name="tfpandroidbridge_pack.lpk"/>
+    <PackageFile1 Name="lazandroidwizardpack.lpk"/>
+    <PackageFile2 Name="amw_ide_tools.lpk"/>
+  </Package70>
+  <Package71 Name="Lape" Count="1">
+    <PackageFile0 Name="lape.lpk"/>
+  </Package71>
+  <Package72 Name="Lazarus AppExplore" Count="1">
+    <PackageFile0 Name="appexplore.lpk"/>
+  </Package72>
+  <Package73 Name="lazautoupdate" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/lazautoupdate/latest_stable/updates/lazautoupdate.zip" Count="1">
+    <PackageFile0 Name="lazupdate.lpk" UpdateVersion="0.3.8.0" InternalVersion="1"/>
+  </Package73>
+  <Package74 Name="lazbarcodes" Count="2">
+    <PackageFile0 Name="lazbarcodes.lpk"/>
+    <PackageFile1 Name="lazbarcodes_runtimeonly.lpk"/>
+  </Package74>
+  <Package75 Name="lazprofiler" Count="1">
+    <PackageFile0 Name="LazProfiler.lpk"/>
+  </Package75>
+  <Package76 Name="lazrichview" Count="1">
+    <PackageFile0 Name="lazrichview.lpk"/>
+  </Package76>
+  <Package77 Name="LazSerial" Count="1">
+    <PackageFile0 Name="LazSerialPort.lpk"/>
+  </Package77>
+  <Package78 Name="lclextensions-0.6" Count="1">
+    <PackageFile0 Name="lclextensions_package.lpk"/>
+  </Package78>
+  <Package79 Name="lnet" Count="2">
+    <PackageFile0 Name="lnetbase.lpk"/>
+    <PackageFile1 Name="lnetvisual.lpk"/>
+  </Package79>
+  <Package80 Name="LockBox" Count="1">
+    <PackageFile0 Name="lockbox.lpk"/>
+  </Package80>
+  <Package81 Name="longtimer" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/longtimer/latest_stable/updates/longtimer.zip" Count="1">
+    <PackageFile0 Name="longtimerpackage.lpk" UpdateVersion="0.0.3.0" ForceNotify="True" InternalVersion="2"/>
+  </Package81>
+  <Package82 Name="luipack" Count="14">
+    <PackageFile0 Name="chronolog_package.lpk"/>
+    <PackageFile1 Name="datahub_package.lpk"/>
+    <PackageFile2 Name="luiapp_package.lpk"/>
+    <PackageFile3 Name="luicomponents.lpk"/>
+    <PackageFile4 Name="luilazreportcomponents.lpk"/>
+    <PackageFile5 Name="luilclcomponents.lpk"/>
+    <PackageFile6 Name="luisqlitecomponents.lpk"/>
+    <PackageFile7 Name="luizeoscomponents.lpk"/>
+    <PackageFile8 Name="luicontrols.lpk"/>
+    <PackageFile9 Name="luimediators_package.lpk"/>
+    <PackageFile10 Name="luirest_package.lpk"/>
+    <PackageFile11 Name="miscutils_package.lpk"/>
+    <PackageFile12 Name="strbuf_package.lpk"/>
+    <PackageFile13 Name="sqliteextensions_package.lpk"/>
+  </Package82>
+  <Package83 Name="MapViewer" Count="1">
+    <PackageFile0 Name="mapviewer.lpk"/>
+  </Package83>
+  <Package84 Name="mbColorLib" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/mbcolorlib/mbColorLib-2.2.zip/download" Count="1">
+    <PackageFile0 Name="mbcolorliblaz.lpk" UpdateVersion="2.2.0.0" InternalVersion="1"/>
+  </Package84>
+  <Package85 Name="mplayer0.1.2" Count="1">
+    <PackageFile0 Name="mplayercontrollaz.lpk"/>
+  </Package85>
+  <Package86 Name="MultiLog" Count="1">
+    <PackageFile0 Name="multiloglaz.lpk"/>
+  </Package86>
+  <Package87 Name="multithreadprocs" Count="1">
+    <PackageFile0 Name="multithreadprocslaz.lpk"/>
+  </Package87>
+  <Package88 Name="OnGuard" Count="2">
+    <PackageFile0 Name="tponguard.lpk"/>
+    <PackageFile1 Name="tponguard_design.lpk"/>
+  </Package88>
+  <Package89 Name="onlinepackagemanager" Count="1">
+    <PackageFile0 Name="onlinepackagemanager.lpk"/>
+  </Package89>
+  <Package90 Name="OpenDocument" Count="1">
+    <PackageFile0 Name="OpenDocument.lpk"/>
+  </Package90>
+  <Package91 Name="OpenGL" Count="1">
+    <PackageFile0 Name="laz_opengl.lpk"/>
+  </Package91>
+  <Package92 Name="opengpsx" Count="1">
+    <PackageFile0 Name="opengpsx.lpk"/>
+  </Package92>
+  <Package93 Name="OpenWire" Count="1">
+    <PackageFile0 Name="openwire.lpk"/>
+  </Package93>
+  <Package94 Name="PascalSCADA_0.7.4_OPM" Count="4">
+    <PackageFile0 Name="pascalscada.lpk"/>
+    <PackageFile1 Name="pascalscada_common.lpk"/>
+    <PackageFile2 Name="pascalscada_db.lpk"/>
+    <PackageFile3 Name="pascalscada_hmi.lpk"/>
+  </Package94>
+  <Package95 Name="pasmp" Count="1">
+    <PackageFile0 Name="lazpasmp.lpk"/>
+  </Package95>
+  <Package96 Name="playsoundpackage" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/playsoundpackage/latest_stable/updates/playsoundpackage.zip" Count="1">
+    <PackageFile0 Name="playwavepackage.lpk" UpdateVersion="0.0.7.0" ForceNotify="True" InternalVersion="1"/>
+  </Package96>
+  <Package97 Name="plotpanel-lazarus-0.97.1" Count="1">
+    <PackageFile0 Name="plot.lpk"/>
+  </Package97>
+  <Package98 Name="poweredby" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/poweredby/latest_stable/updates/poweredby.zip" Count="1">
+    <PackageFile0 Name="poweredby.lpk" UpdateVersion="1.0.4.0" InternalVersion="2"/>
+  </Package98>
+  <Package99 Name="powerpdf_0.9.15" Count="1">
+    <PackageFile0 Name="pack_powerpdf.lpk"/>
+  </Package99>
+  <Package100 Name="PythonForLazarus" Count="1">
+    <PackageFile0 Name="python4lazarus_package.lpk"/>
+  </Package100>
+  <Package101 Name="RGBGraphics" Count="1">
+    <PackageFile0 Name="rgb_graphics.lpk"/>
+  </Package101>
+  <Package102 Name="richmemo" Count="1">
+    <PackageFile0 Name="richmemopackage.lpk"/>
+  </Package102>
+  <Package103 Name="ringwatch" Count="1">
+    <PackageFile0 Name="ringwatch.lpk"/>
+  </Package103>
+  <Package104 Name="Rx" Count="8">
+    <PackageFile0 Name="dcl_rx_ctrl.lpk"/>
+    <PackageFile1 Name="rxdbgrid_export_spreadsheet.lpk"/>
+    <PackageFile2 Name="rxdbgrid_print.lpk"/>
+    <PackageFile3 Name="rxnew.lpk"/>
+    <PackageFile4 Name="rxtools.lpk"/>
+    <PackageFile5 Name="rx_sort_sqldb.lpk"/>
+    <PackageFile6 Name="rx_sort_zeos.lpk"/>
+    <PackageFile7 Name="rx_lazreport.lpk"/>
+  </Package104>
+  <Package105 Name="sak" Count="1">
+    <PackageFile0 Name="sak.lpk"/>
+  </Package105>
+  <Package106 Name="scrolltext" DownloadZipURL="https://svn.code.sf.net/p/lazarus-ccr/svn/components/scrolltext/latest_stable/updates/scrolltext.zip" Count="1">
+    <PackageFile0 Name="scrolltext.lpk" UpdateVersion="1.1.2.0" InternalVersion="1"/>
+  </Package106>
+  <Package107 Name="Sdpo" Count="5">
+    <PackageFile0 Name="sdpodsmlaz.lpk"/>
+    <PackageFile1 Name="sdpodynmatrix.lpk"/>
+    <PackageFile2 Name="sdpofastformlaz.lpk"/>
+    <PackageFile3 Name="sdpojoysticklaz.lpk"/>
+    <PackageFile4 Name="sdposeriallaz.lpk"/>
+  </Package107>
+  <Package108 Name="grid_semaphor" Count="1">
+    <PackageFile0 Name="semaphorgridlpk.lpk"/>
+  </Package108>
+  <Package109 Name="SMNetGradient2.0.6" Count="1">
+    <PackageFile0 Name="smnetgradientlaz.lpk"/>
+  </Package109>
+  <Package110 Name="spktoolbar" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/SpkToolbar/spktoolbar-0.1.3.zip/download" Count="1">
+    <PackageFile0 Name="spktoolbarpackage.lpk" UpdateVersion="0.1.3.0" InternalVersion="1"/>
+  </Package110>
+  <Package111 Name="SuperFormExpert" Count="1">
+    <PackageFile0 Name="expertsuperform.lpk"/>
+  </Package111>
+  <Package112 Name="synapse40" Count="1">
+    <PackageFile0 Name="laz_synapse.lpk"/>
+  </Package112>
+  <Package113 Name="synapse40.1" Count="1">
+    <PackageFile0 Name="laz_synapse40_1.lpk"/>
+  </Package113>
+  <Package114 Name="TDINoteBook" DownloadZipURL="https://lazarus-ccr.svn.sourceforge.net/svnroot/lazarus-ccr/components/tdi/opm/update_tdi.json" Count="1">
+    <PackageFile0 Name="tdi.lpk" UpdateVersion="0.2.0.0" InternalVersion="1"/>
+  </Package114>
+  <Package115 Name="viewer" Count="1">
+    <PackageFile0 Name="viewerpackage.lpk"/>
+  </Package115>
+  <Package116 Name="tvplanit" DownloadZipURL="https://sourceforge.net/projects/lazarus-ccr/files/tvplanit/tvplanit-1.06.zip/download" Count="4">
+    <PackageFile0 Name="laz_visualplanit.lpk" UpdateVersion="1.0.6.0" InternalVersion="1"/>
+    <PackageFile1 Name="laz_visualplanit_design.lpk" UpdateVersion="1.0.6.0" InternalVersion="1"/>
+    <PackageFile2 Name="laz_visualplanit_zeos.lpk" UpdateVersion="1.0.6.0" InternalVersion="1"/>
+    <PackageFile3 Name="laz_visualplanit_zeos_design.lpk" UpdateVersion="1.0.6.0" InternalVersion="1"/>
+  </Package116>
+  <Package117 Name="uecontrols-master" Count="1">
+    <PackageFile0 Name="uecontrols.lpk"/>
+  </Package117>
+  <Package118 Name="uniqueinstance" Count="1">
+    <PackageFile0 Name="uniqueinstance_package.lpk"/>
+  </Package118>
+  <Package119 Name="uos" Count="1">
+    <PackageFile0 Name="uos.lpk"/>
+  </Package119>
+  <Package120 Name="UserControl" Count="5">
+    <PackageFile0 Name="pcksqldbconn.lpk"/>
+    <PackageFile1 Name="pckZeosConn.lpk"/>
+    <PackageFile2 Name="pckUCDataConnector.lpk"/>
+    <PackageFile3 Name="pckUserControlDesign.lpk"/>
+    <PackageFile4 Name="pckUserControlRuntime.lpk"/>
+  </Package120>
+  <Package121 Name="UTF8Tools" Count="1">
+    <PackageFile0 Name="utf8tools.lpk"/>
+  </Package121>
+  <Package122 Name="VampyreImaging" Count="1">
+    <PackageFile0 Name="vampyreimaging.lpk"/>
+  </Package122>
+  <Package123 Name="virtualdbgrid" Count="1">
+    <PackageFile0 Name="virtualdbgrid_package.lpk"/>
+  </Package123>
+  <Package124 Name="virtualdbtreeex" Count="1">
+    <PackageFile0 Name="virtualdbtreeexlaz.lpk"/>
+  </Package124>
+  <Package125 Name="virtualtreeview-4.8.7-R4" Count="1">
+    <PackageFile0 Name="virtualtreeview_package4.lpk"/>
+  </Package125>
+  <Package126 Name="virtualtreeview-5.5.3-R1" Count="1">
+    <PackageFile0 Name="virtualtreeview_package.lpk"/>
+  </Package126>
+  <Package127 Name="Vulkan" Count="1">
+    <PackageFile0 Name="vulkan.lpk"/>
+  </Package127>
+  <Package128 Name="wst" Count="6">
+    <PackageFile0 Name="wst_core.lpk"/>
+    <PackageFile1 Name="wst_design.lpk"/>
+    <PackageFile2 Name="wst_fcltransport.lpk"/>
+    <PackageFile3 Name="wst_indy.lpk"/>
+    <PackageFile4 Name="wst_synapse.lpk"/>
+    <PackageFile5 Name="fclwebwst.lpk"/>
+  </Package128>
+  <Package129 Name="wthread" Count="1">
+    <PackageFile0 Name="threading.lpk"/>
+  </Package129>
+  <Package130 Name="XMLStreaming" Count="1">
+    <PackageFile0 Name="xmlstreaming.lpk"/>
+  </Package130>
+  <Package131 Name="zeosdbo-7.1.4" Rating="5" Count="5">
+    <PackageFile0 Name="zcomponent.lpk"/>
+    <PackageFile1 Name="zcore.lpk"/>
+    <PackageFile2 Name="zdbc.lpk"/>
+    <PackageFile3 Name="zparsesql.lpk"/>
+    <PackageFile4 Name="zplain.lpk"/>
+  </Package131>
+</CONFIG>

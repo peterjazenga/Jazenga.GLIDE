@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\i386-win32\fpc.exe" Date="1210759786"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -Fic:\fpcupdeluxe\fpcsrc\utils\instantfpc\lib\i386-win32 -Fuc:\fpcupdeluxe\fpcsrc\utils\instantfpc\ -FUc:\fpcupdeluxe\fpcsrc\utils\instantfpc\lib\i386-win32\ instantfpc.pas"/>
+</CONFIG>

@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fpdoc-descriptions>
+  <package name="lazextcomponents">
+    <!--
+  ====================================================================
+    u_flatbutton
+  ====================================================================
+-->
+    <module name="u_flatbutton">
+      <short/>
+      <descr/>
+      <!-- range type Visibility: default -->
+      <element name="TAdvColors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- enumeration type Visibility: default -->
+      <element name="TTransparentMode">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TTransparentMode.tmAlways">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TTransparentMode.tmNotFocused">
+        <short/>
+      </element>
+      <!-- enumeration value Visibility: default -->
+      <element name="TTransparentMode.tmNone">
+        <short/>
+      </element>
+      <!-- class Visibility: default -->
+      <element name="TFlatButton">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FOnMouseEnter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FOnMouseLeave">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FTransparent">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FModalResult">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FUseAdvColors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FAdvColorFocused">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FAdvColorDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FAdvColorBorder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.TextBounds">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.GlyphPos">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FNumGlyphs">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FDownColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FBorderColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FColorHighlight">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FColorShadow">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FFocusedColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FGroupIndex">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FGlyph">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FDragging">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FAllowAllUp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FLayout">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FSpacing">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FMargin">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FMouseInControl">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: private -->
+      <element name="TFlatButton.FDefault">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetColors">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetColors.Index">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetColors.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetAdvColors">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetAdvColors.Index">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetAdvColors.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetUseAdvColors">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetUseAdvColors.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.UpdateExclusive">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetGlyph">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetGlyph.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetNumGlyphs">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetNumGlyphs.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetDown.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetAllowAllUp">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetAllowAllUp.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetGroupIndex">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetGroupIndex.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetLayout">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetLayout.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetSpacing">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetSpacing.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetMargin">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetMargin.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.UpdateTracking">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMLButtonDblClk">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMLButtonDblClk.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMEnabledChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMEnabledChanged.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMButtonPressed">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMButtonPressed.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMDialogChar">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMDialogChar.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMFontChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMFontChanged.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMTextChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMTextChanged.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMSysColorChange">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMSysColorChange.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMParentColorChanged">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMParentColorChanged.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.RemoveMouseTimer">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.MouseTimerHandler">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseTimerHandler.Sender">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetDefault">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetDefault.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMSetFocus">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMSetFocus.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMKillFocus">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMKillFocus.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMKeyDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMKeyDown.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMKeyUp">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMKeyUp.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMSize">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMSize.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.WMMove">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.WMMove.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.SetTransparent">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.SetTransparent.Value">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMMouseEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMMouseEnter.Message">
+        <short/>
+      </element>
+      <!-- procedure Visibility: private -->
+      <element name="TFlatButton.CMMouseLeave">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.CMMouseLeave.Message">
+        <short/>
+      </element>
+      <!-- variable Visibility: protected -->
+      <element name="TFlatButton.FState">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- function Visibility: protected -->
+      <element name="TFlatButton.GetPalette">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- function result Visibility: default -->
+      <element name="TFlatButton.GetPalette.Result">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.CalcAdvColors">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.Loaded">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.MouseDown">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseDown.Button">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseDown.Shift">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseDown.X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseDown.Y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.MouseMove">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseMove.Shift">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseMove.X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseMove.Y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.MouseUp">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseUp.Button">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseUp.Shift">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseUp.X">
+        <short/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.MouseUp.Y">
+        <short/>
+      </element>
+      <!-- procedure Visibility: protected -->
+      <element name="TFlatButton.Paint">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- constructor Visibility: public -->
+      <element name="TFlatButton.Create">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- argument Visibility: default -->
+      <element name="TFlatButton.Create.AOwner">
+        <short/>
+      </element>
+      <!-- destructor Visibility: public -->
+      <element name="TFlatButton.Destroy">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TFlatButton.Click">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TFlatButton.MouseEnter">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- procedure Visibility: public -->
+      <element name="TFlatButton.MouseLeave">
+        <short/>
+        <descr/>
+        <errors/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.TransparentMode">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Default">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.AllowAllUp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Color">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ColorFocused">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ColorDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ColorBorder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ColorHighLight">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ColorShadow">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.AdvColorFocused">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.AdvColorDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.AdvColorBorder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.UseAdvColors">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.GroupIndex">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Down">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Caption">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Enabled">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Font">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Glyph">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Layout">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Margin">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.NumGlyphs">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ParentFont">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ParentColor">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ParentShowHint">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.PopupMenu">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ShowHint">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.TabStop">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.TabOrder">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Spacing">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.ModalResult">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.Visible">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnDblClick">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnMouseDown">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnMouseMove">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnMouseUp">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnMouseEnter">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- property Visibility: published -->
+      <element name="TFlatButton.OnMouseLeave">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+      <!-- variable Visibility: default -->
+      <element name="MouseInControl">
+        <short/>
+        <descr/>
+        <seealso/>
+      </element>
+    </module>
+    <!-- u_flatbutton -->
+  </package>
+</fpdoc-descriptions>

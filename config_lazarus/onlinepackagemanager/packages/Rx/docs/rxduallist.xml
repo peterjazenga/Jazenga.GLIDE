@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="duallist">
+      <element name="TDualListDialog">
+        <short>TDualListDialog Component</short>
+        <descr>Unit
+DualList
+Description
+Компонента делает доступным вашему приложению диалог с двумя списками, где элементы можно перемещать из одного списка в другой, а также менять порядок следования элементов внутри списка. 
+По сравнению с одноименной формой из Delphi Gallery, кроме оформления в виде компоненты, добавлены возможность Drag Drop, задания порядка внутри списка, интерфейсные улучшения. 
+Задайте исходное состояние списков в свойствах List1 и List2, вызовите диалог функцией Execute и считайте новый состав списков.</descr>
+      </element>
+      <element name="TDualListDialog.Create"/>
+      <element name="TDualListDialog.Destroy"/>
+      <element name="TDualListDialog.Execute">
+        <short>function Execute: Boolean;</short>
+        <descr>Вызов диалога с двумя списками, где можно поменять элементы местами внутри списка или перенести элементы из одного списка в другой.</descr>
+      </element>
+      <element name="TDualListDialog.Ctl3D"/>
+      <element name="TDualListDialog.Sorted"/>
+      <element name="TDualListDialog.Title"/>
+      <element name="TDualListDialog.Label1Caption"/>
+      <element name="TDualListDialog.Label2Caption"/>
+      <element name="TDualListDialog.OkBtnCaption"/>
+      <element name="TDualListDialog.CancelBtnCaption"/>
+      <element name="TDualListDialog.HelpBtnCaption"/>
+      <element name="TDualListDialog.HelpContext"/>
+      <element name="TDualListDialog.List1">
+        <short>property List1: TStrings;</short>
+        <descr>Список слева.</descr>
+      </element>
+      <element name="TDualListDialog.List2">
+        <short>property List2: TStrings;</short>
+        <descr>Список справа.</descr>
+      </element>
+      <element name="TDualListDialog.ShowHelp"/>
+    </module>
+
+
+</package>
+</fpdoc-descriptions>

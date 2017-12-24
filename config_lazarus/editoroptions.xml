@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <EditorOptions Version="11">
+    <Display DoNotWarnForFont="Courier New"/>
+    <KeyMapping>
+      <default>
+        <Version Value="6"/>
+      </default>
+    </KeyMapping>
+    <CodeTools CodeTemplateFileName="C:\fpcupdeluxe\config_lazarus\lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly"/>
+    <Mouse>
+      <Default Version="1"/>
+    </Mouse>
+    <Color Version="11"/>
+  </EditorOptions>
+</CONFIG>

@@ -1,0 +1,11 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: idresourcestringsunix.rsresolveerror
+msgid "Error resolving host %s: %s (%d)"
+msgstr ""
+
+#: idresourcestringsunix.rsstacknonblockingnotsupported
+msgid "Non-blocking not supported."
+msgstr ""
+

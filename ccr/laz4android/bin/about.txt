@@ -1,0 +1,14 @@
+This application is based on the work from:
+
+- stab
+- felipemdc
+
+with help from:
+
+- truetom
+- leledumbo
+
+05.Nov.2013 - now the JDK 1.7 should be used.
+05.Okt.2013 - got patch from Prodigy. Thank you.
+
+Thanks.

@@ -1,0 +1,3 @@
+{"version":1,"strings":[
+{"hash":7238626,"name":"wst_resources_imp.serrnosuchresource","sourcebytes":[78,111,32,115,117,99,104,32,114,101,115,111,117,114,99,101,32,105,110,32,114,101,115,111,117,114,99,101,32,108,105,115,116,58,32,34,37,115,34],"value":"No such resource in resource list: \"%s\""}
+]}

@@ -1,0 +1,131 @@
+object fDemo: TfDemo
+  Left = 558
+  Height = 293
+  Top = 190
+  Width = 370
+  Caption = 'Demo THistoryFiles'
+  ClientHeight = 268
+  ClientWidth = 370
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Menu = MainMenu
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.2.4.0'
+  object Memo: TMemo
+    Left = 0
+    Height = 268
+    Top = 0
+    Width = 217
+    Align = alClient
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object GroupBox: TGroupBox
+    Left = 217
+    Height = 268
+    Top = 0
+    Width = 153
+    Align = alRight
+    Caption = 'Properties'
+    ClientHeight = 252
+    ClientWidth = 149
+    TabOrder = 1
+    object lblInfo: TLabel
+      Left = 104
+      Height = 14
+      Top = 191
+      Width = 30
+      Caption = '(0..n)'
+      ParentColor = False
+    end
+    object chkShowFullPath: TCheckBox
+      Left = 22
+      Height = 22
+      Top = 18
+      Width = 106
+      Caption = 'ShowFullPath'
+      OnClick = chkShowFullPathClick
+      TabOrder = 0
+    end
+    object chkShowNumber: TCheckBox
+      Left = 22
+      Height = 22
+      Top = 54
+      Width = 110
+      Caption = 'ShowNumber'
+      OnClick = chkShowNumberClick
+      TabOrder = 1
+    end
+    object chkSorted: TCheckBox
+      Left = 22
+      Height = 22
+      Top = 90
+      Width = 67
+      Caption = 'Sorted'
+      OnClick = chkSortedClick
+      TabOrder = 2
+    end
+    object EditDeleteItem: TEdit
+      Left = 104
+      Height = 24
+      Top = 167
+      Width = 33
+      TabOrder = 4
+    end
+    object btnDeleteItem: TButton
+      Left = 6
+      Height = 30
+      Top = 162
+      Width = 91
+      Caption = 'Delete Item #'
+      OnClick = btnDeleteItemClick
+      TabOrder = 5
+    end
+    object chkCheckLastItem: TCheckBox
+      Left = 22
+      Height = 22
+      Top = 127
+      Width = 119
+      Caption = 'CheckLastItem'
+      OnClick = chkCheckLastItemClick
+      TabOrder = 3
+    end
+  end
+  object MainMenu: TMainMenu
+    left = 56
+    top = 32
+    object mnuFile: TMenuItem
+      Caption = '&File'
+      object mnuOpen: TMenuItem
+        Caption = '&Open new file'
+        OnClick = mnuOpenClick
+      end
+      object mnuExit: TMenuItem
+        Caption = '&Exit'
+        OnClick = mnuExitClick
+      end
+    end
+  end
+  object HistoryFiles: THistoryFiles
+    MaxItems = 3
+    IniKey = 'History Files'
+    IniFile = 'History.ini'
+    ParentMenu = mnuFile
+    Separator = sepBoth
+    Position = 1
+    OnClickHistoryItem = HistoryFilesClickHistoryItem
+    OnCreateItem = HistoryFilesCreateItem
+    CheckLastItem = True
+    left = 88
+    top = 32
+  end
+  object OpenDialog: TOpenDialog
+    DefaultExt = '.txt'
+    Filter = 'Text files (*.txt)|*.txt|All files (*)|*'
+    left = 120
+    top = 32
+  end
+end

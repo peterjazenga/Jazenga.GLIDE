@@ -1,0 +1,22 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TFMain','FORMDATA',[
+  'TPF0'#6'TFMain'#5'FMain'#4'Left'#3#224#1#6'Height'#3'&'#1#3'Top'#3#201#0#5'W'
+  +'idth'#3'r'#1#18'HorzScrollBar.Page'#3'q'#1#18'VertScrollBar.Page'#3'%'#1#13
+  +'ActiveControl'#7#5'BSend'#7'Caption'#6#5'FMain'#12'ClientHeight'#3'&'#1#11
+  +'ClientWidth'#3'r'#1#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'FormCreate'#6
+  +'OnShow'#7#8'FormShow'#0#7'TButton'#5'BSend'#4'Left'#2#16#6'Height'#2#25#3'T'
+  +'op'#2'4'#5'Width'#2'K'#7'Caption'#6#4'Send'#7'OnClick'#7#10'BSendClick'#8'T'
+  +'abOrder'#2#0#0#0#5'TEdit'#8'EditSend'#4'Left'#2'h'#6'Height'#2#23#3'Top'#2
+  +'6'#5'Width'#2'P'#8'TabOrder'#2#1#4'Text'#6#8'EditSend'#0#0#5'TMemo'#4'Memo'
+  +#4'Left'#3#208#0#6'Height'#3#228#0#3'Top'#2'8'#5'Width'#3#150#0#13'Lines.Str'
+  +'ings'#1#6#0#0#8'TabOrder'#2#2#0#0#7'TButton'#5'BOpen'#4'Left'#2'l'#6'Height'
+  +#2#25#3'Top'#2#16#5'Width'#2'K'#7'Caption'#6#4'Open'#7'OnClick'#7#10'BOpenCl'
+  +'ick'#8'TabOrder'#2#3#0#0#7'TButton'#6'BClose'#4'Left'#3#200#0#6'Height'#2#25
+  +#3'Top'#2#16#5'Width'#2'K'#7'Caption'#6#5'Close'#7'OnClick'#7#11'BCloseClick'
+  +#8'TabOrder'#2#4#0#0#9'TCheckBox'#5'CBDTR'#4'Left'#2#16#6'Height'#2#26#3'Top'
+  +#2'X'#5'Width'#2'>'#7'Caption'#6#3'DTR'#7'Checked'#9#8'OnChange'#7#11'CBDTRC'
+  +'hange'#5'State'#7#9'cbChecked'#8'TabOrder'#2#5#0#0#11'TSdpoSerial'#6'Serial'
+  +#8'BaudRate'#7#8'br115200'#6'Device'#6#12'/dev/ttyUSB0'#8'OnRxData'#7#12'Ser'
+  +'ialRxData'#4'left'#2#16#3'top'#2#12#0#0#0
+]);

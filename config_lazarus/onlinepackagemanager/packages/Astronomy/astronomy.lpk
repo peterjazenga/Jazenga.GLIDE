@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="astronomy"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Sebastian Zierer, Lazarus port: PilotLogic Software House"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="source"/>
+        <OtherUnitFiles Value="source"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="Astronomy Library
+"/>
+    <License Value="Mozilla Public License 1.1"/>
+    <Version Major="4" Release="4"/>
+    <Files Count="28">
+      <Item1>
+        <Filename Value="source/allastronomyreg.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="allastronomyreg"/>
+      </Item1>
+      <Item2>
+        <Filename Value="source/moonapi.pas"/>
+        <UnitName Value="MoonAPI"/>
+      </Item2>
+      <Item3>
+        <Filename Value="source/mooncomp.pas"/>
+        <UnitName Value="mooncomp"/>
+      </Item3>
+      <Item4>
+        <Filename Value="source/mooncompeditors.pas"/>
+        <UnitName Value="MoonCompEditors"/>
+      </Item4>
+      <Item5>
+        <Filename Value="source/moonmath.pas"/>
+        <UnitName Value="MoonMath"/>
+      </Item5>
+      <Item6>
+        <Filename Value="source/moonvsop.pas"/>
+        <UnitName Value="MoonVSOP"/>
+      </Item6>
+      <Item7>
+        <Filename Value="source/solarsystems.pas"/>
+        <UnitName Value="solarsystems"/>
+      </Item7>
+      <Item8>
+        <Filename Value="source/StAstro.pas"/>
+        <UnitName Value="StAstro"/>
+      </Item8>
+      <Item9>
+        <Filename Value="source/StAstroPlanetary.pas"/>
+        <UnitName Value="StAstroPlanetary"/>
+      </Item9>
+      <Item10>
+        <Filename Value="source/StBase.pas"/>
+        <UnitName Value="StBase"/>
+      </Item10>
+      <Item11>
+        <Filename Value="source/StConst.pas"/>
+        <UnitName Value="StConst"/>
+      </Item11>
+      <Item12>
+        <Filename Value="source/StDate.pas"/>
+        <UnitName Value="StDate"/>
+      </Item12>
+      <Item13>
+        <Filename Value="source/StDateSt.pas"/>
+        <UnitName Value="StDateSt"/>
+      </Item13>
+      <Item14>
+        <Filename Value="source/StEclpse.pas"/>
+        <UnitName Value="StEclpse"/>
+      </Item14>
+      <Item15>
+        <Filename Value="source/StJup.pas"/>
+        <UnitName Value="StJup"/>
+      </Item15>
+      <Item16>
+        <Filename Value="source/StJupSat.pas"/>
+        <UnitName Value="StJupSat"/>
+      </Item16>
+      <Item17>
+        <Filename Value="source/StList.pas"/>
+        <UnitName Value="StList"/>
+      </Item17>
+      <Item18>
+        <Filename Value="source/StMars.pas"/>
+        <UnitName Value="StMars"/>
+      </Item18>
+      <Item19>
+        <Filename Value="source/StMath.pas"/>
+        <UnitName Value="StMath"/>
+      </Item19>
+      <Item20>
+        <Filename Value="source/StMerc.pas"/>
+        <UnitName Value="StMerc"/>
+      </Item20>
+      <Item21>
+        <Filename Value="source/StNeptun.pas"/>
+        <UnitName Value="StNeptun"/>
+      </Item21>
+      <Item22>
+        <Filename Value="source/StPluto.pas"/>
+        <UnitName Value="StPluto"/>
+      </Item22>
+      <Item23>
+        <Filename Value="source/StSaturn.pas"/>
+        <UnitName Value="StSaturn"/>
+      </Item23>
+      <Item24>
+        <Filename Value="source/StStrL.pas"/>
+        <UnitName Value="StStrL"/>
+      </Item24>
+      <Item25>
+        <Filename Value="source/StStrS.pas"/>
+        <UnitName Value="StStrS"/>
+      </Item25>
+      <Item26>
+        <Filename Value="source/StUranus.pas"/>
+        <UnitName Value="StUranus"/>
+      </Item26>
+      <Item27>
+        <Filename Value="source/StUtils.pas"/>
+        <UnitName Value="StUtils"/>
+      </Item27>
+      <Item28>
+        <Filename Value="source/StVenus.pas"/>
+        <UnitName Value="StVenus"/>
+      </Item28>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

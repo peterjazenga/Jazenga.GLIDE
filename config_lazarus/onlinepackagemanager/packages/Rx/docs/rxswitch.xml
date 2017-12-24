@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="rxswitch">
+      <element name="TRxSwitch"/>
+      <element name="TRxSwitch.Create"/>
+      <element name="TRxSwitch.Destroy"/>
+      <element name="TRxSwitch.ToggleSwitch"/>
+      <element name="TRxSwitch.Align"/>
+      <element name="TRxSwitch.BorderStyle"/>
+      <element name="TRxSwitch.Caption"/>
+      <element name="TRxSwitch.Color"/>
+      <element name="TRxSwitch.Cursor"/>
+      <element name="TRxSwitch.DragMode"/>
+      <element name="TRxSwitch.DragCursor"/>
+      <element name="TRxSwitch.Enabled"/>
+      <element name="TRxSwitch.Font"/>
+      <element name="TRxSwitch.GlyphOff"/>
+      <element name="TRxSwitch.GlyphOn"/>
+      <element name="TRxSwitch.ParentColor"/>
+      <element name="TRxSwitch.ParentFont"/>
+      <element name="TRxSwitch.ParentShowHint"/>
+      <element name="TRxSwitch.PopupMenu"/>
+      <element name="TRxSwitch.ShowFocus"/>
+      <element name="TRxSwitch.ToggleKey"/>
+      <element name="TRxSwitch.ShowHint"/>
+      <element name="TRxSwitch.StateOn"/>
+      <element name="TRxSwitch.TabOrder"/>
+      <element name="TRxSwitch.TabStop"/>
+      <element name="TRxSwitch.TextPosition"/>
+      <element name="TRxSwitch.Anchors"/>
+      <element name="TRxSwitch.Constraints"/>
+      <element name="TRxSwitch.DragKind"/>
+      <element name="TRxSwitch.Visible"/>
+      <element name="TRxSwitch.OnClick"/>
+      <element name="TRxSwitch.OnDblClick"/>
+      <element name="TRxSwitch.OnEnter"/>
+      <element name="TRxSwitch.OnExit"/>
+      <element name="TRxSwitch.OnMouseMove"/>
+      <element name="TRxSwitch.OnMouseDown"/>
+      <element name="TRxSwitch.OnMouseUp"/>
+      <element name="TRxSwitch.OnKeyDown"/>
+      <element name="TRxSwitch.OnKeyUp"/>
+      <element name="TRxSwitch.OnKeyPress"/>
+      <element name="TRxSwitch.OnDragOver"/>
+      <element name="TRxSwitch.OnDragDrop"/>
+      <element name="TRxSwitch.OnEndDrag"/>
+      <element name="TRxSwitch.OnStartDrag"/>
+      <element name="TRxSwitch.OnContextPopup"/>
+      <element name="TRxSwitch.OnEndDock"/>
+      <element name="TRxSwitch.OnStartDock"/>
+      <element name="TRxSwitch.OnOn"/>
+      <element name="TRxSwitch.OnOff"/>
+    </module>
+
+</package>
+</fpdoc-descriptions>

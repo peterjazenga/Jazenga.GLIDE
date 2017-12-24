@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: ulazautoupdate.c_cannotloadfromremote
+msgid "Cannot load document from remote server"
+msgstr ""
+
+#: ulazautoupdate.c_checking
+msgid "Checking for updates..."
+msgstr ""
+
+#: ulazautoupdate.c_componentprettyname
+msgid "Lazarus Auto-Update Component"
+msgstr ""
+
+#: ulazautoupdate.c_consoletitle
+msgid "Updating %s"
+msgstr ""
+
+#: ulazautoupdate.c_directoryproblems
+msgid "Problems with the % directory"
+msgstr ""
+
+#: ulazautoupdate.c_downloadedbytes
+msgid "Downloaded %s: %d bytes"
+msgstr ""
+
+#: ulazautoupdate.c_downloadfailederrorcode
+msgid "Download failed with error code "
+msgstr ""
+
+#: ulazautoupdate.c_downloading
+msgid "Please wait.  Downloading new version... "
+msgstr ""
+
+#: ulazautoupdate.c_downloadisempty
+msgid "Downloaded document is empty."
+msgstr ""
+
+#: ulazautoupdate.c_downloadsuccess
+msgid "Downloaded new version %s sucessfully."
+msgstr ""
+
+#: ulazautoupdate.c_error404
+msgid "Cannot find the file at this time. (error %d)  Try again later?"
+msgstr ""
+
+#: ulazautoupdate.c_error500
+msgid "There is a problem with the Internet connection (error %d)  Try again later?"
+msgstr ""
+
+#: ulazautoupdate.c_foldermissing
+msgid "Missing %s folder"
+msgstr ""
+
+#: ulazautoupdate.c_nosftypes
+msgid "Sorry only ProjectType = auSourceForge is supported in this version"
+msgstr ""
+
+#: ulazautoupdate.c_notapplicable
+msgid "<not applicable>"
+msgstr ""
+
+#: ulazautoupdate.c_notproperfilename
+msgid "This is not a proper file name"
+msgstr ""
+
+#: ulazautoupdate.c_ok
+msgid "OK"
+msgstr ""
+
+#: ulazautoupdate.c_pleasewaitprocessing
+msgid "Please wait. Processing...."
+msgstr ""
+
+#: ulazautoupdate.c_propisempty
+msgid "Property SFProjectName is empty!"
+msgstr ""
+
+#: ulazautoupdate.c_takingtoolong
+msgid "Check is taking too long (bad/slow internet connection?). Try again later?"
+msgstr ""
+
+#: ulazautoupdate.c_tempversionsininame
+msgid "new%s"
+msgstr ""
+
+#: ulazautoupdate.c_threaddownloadcrash
+msgctxt "ulazautoupdate.c_threaddownloadcrash"
+msgid "ThreadDownloadHTTP Crashed! (NewVersionAvailable)"
+msgstr ""
+
+#: ulazautoupdate.c_threaddownloadhttpcrash
+msgctxt "ulazautoupdate.c_threaddownloadhttpcrash"
+msgid "ThreadDownloadHTTP Crashed! (NewVersionAvailable)"
+msgstr ""
+
+#: ulazautoupdate.c_threadstarted
+msgid "Thread Started"
+msgstr ""
+
+#: ulazautoupdate.c_unabletodelete
+msgid "Sorry, unable to delete %s%sPlease delete it manually"
+msgstr ""
+
+#: ulazautoupdate.c_unabletodeleteold
+msgid "Unable to delete old files in %s"
+msgstr ""
+
+#: ulazautoupdate.c_unabletodownload
+msgid "Unable to download new version%sReturn code was %d"
+msgstr ""
+
+#: ulazautoupdate.c_updatermissing
+msgid "Missing %s"
+msgstr ""
+
+#: ulazautoupdate.c_whatsnewinversion
+msgid "What's new in version %s"
+msgstr ""
+
+#: ulazautoupdate.rsanewversions
+msgid "A new version %s is available.  Would you like to download it?"
+msgstr ""
+
+#: ulazautoupdate.rsapplicationu
+msgid "Application update"
+msgstr ""
+
+#: ulazautoupdate.rscancelledyou
+msgid "Cancelled.  You can download and update to the new version later."
+msgstr ""
+
+#: ulazautoupdate.rscancelledyou2
+msgid "Cancelled.  You can download the new version later."
+msgstr ""
+
+#: ulazautoupdate.rsdownloadfail
+msgid "Download failed. (HTTP Errorcode %d) Try again later"
+msgstr ""
+
+#: ulazautoupdate.rsnobuildinfor
+msgid "No build information available"
+msgstr ""
+
+#: ulazautoupdate.rsonlywindowsu
+msgid "Only Windows users whith Administrator status can update this application.%sPlease log off, then log on as an administrator (or switch users to an administrator account),%sthen try again.  This restriction is for the safety and security of your Windows system.%sClick OK to continue"
+msgstr ""
+
+#: ulazautoupdate.rssimportantme
+msgid "%sImportant message from LazAutoUpdate component:%sThere is no version information in your project!%sClick [Continue], and/or [Abort] to quit, and use%sIDE menu item Project/Project Options/Version Info%sto add Version Info by clicking the checkbox."
+msgstr ""
+
+#: ulazautoupdate.rsthisapplicat
+msgid "This application is up-to-date"
+msgstr ""
+
+#: ulazautoupdate.rsvewversionsh
+msgid "Vew version %s has downloaded. Click OK to update now."
+msgstr ""
+

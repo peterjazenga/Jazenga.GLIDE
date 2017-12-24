@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="SemaphorGridLPK"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Salvatore Coppola"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Other>
+        <ConfigFile>
+          <ConfigFilePath Value=".\fpc.cfg"/>
+        </ConfigFile>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Show colored &quot;traffic lights&quot; in StringGrid cells based on their contents.
+"/>
+    <License Value="LGPL with linking exception.
+"/>
+    <Version Major="1" Release="1"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="semaphorgrids.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SemaphorGrids"/>
+      </Item1>
+      <Item2>
+        <Filename Value="semaphordbgrids.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="SemaphorDBGrids"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

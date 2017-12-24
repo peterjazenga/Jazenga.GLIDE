@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-11-29 10:34+0800\n"
+"Last-Translator: 郑建平@夏宗萍 aka  robsean  <robsean@126.com>\n"
+"Language-Team: www.microsystem.studio\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: frmselectdataset.scancelbtn
+msgid "Cancel"
+msgstr "取消"
+
+#: frmselectdataset.scaption
+msgid "Select dataset to copy from"
+msgstr "选择Dataset来复制"
+
+#: frmselectdataset.scopymeta
+msgid "Copy only metadata"
+msgstr "仅复制metadata"
+
+#: frmselectdataset.sdataset
+msgid "&Dataset to copy from:"
+msgstr "Dataset来复制:(&D)"
+
+#: frmselectdataset.serrcomponentnotfound
+msgid "Error: Component \"%s\" not found"
+msgstr "错误:未找到 组件\"%s\""
+
+#: frmselectdataset.serrselectdataset
+msgid "Please select a dataset first"
+msgstr "请先选择一个dataset"
+
+#: frmselectdataset.smenucopydataset
+msgid "Copy data from Dataset"
+msgstr "从Dataset复制数据"
+
+#: frmselectdataset.smenucreatedataset
+msgid "Create dataset"
+msgstr "创建dataset"
+
+#: frmselectdataset.sokbtn
+msgid "OK"
+msgstr "确定"
+

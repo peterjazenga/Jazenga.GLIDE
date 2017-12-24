@@ -1,0 +1,9 @@
+{"version":1,"strings":[
+{"hash":180132084,"name":"dav_vstmodulewithprograms.rstrundefined","sourcebytes":[117,110,100,101,102,105,110,101,100],"value":"undefined"},
+{"hash":213005761,"name":"dav_vstmodulewithprograms.rstrnoparameteravailable","sourcebytes":[78,111,32,112,97,114,97,109,101,116,101,114,32,97,118,97,105,108,97,98,108,101,33],"value":"No parameter available!"},
+{"hash":27966165,"name":"dav_vstmodulewithprograms.rstrunknownparametername","sourcebytes":[85,110,107,110,111,119,110,32,112,97,114,97,109,101,116,101,114,32,110,97,109,101],"value":"Unknown parameter name"},
+{"hash":11015553,"name":"dav_vstmodulewithprograms.rstrnoprogramavailable","sourcebytes":[78,111,32,112,114,111,103,114,97,109,32,97,118,97,105,108,97,98,108,101,33],"value":"No program available!"},
+{"hash":94990709,"name":"dav_vstmodulewithprograms.rstrunknownprogramname","sourcebytes":[85,110,107,110,111,119,110,32,112,114,111,103,114,97,109,32,110,97,109,101],"value":"Unknown program name"},
+{"hash":122882777,"name":"dav_vstmodulewithprograms.rcstrindexoutofbounds","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,98,111,117,110,100,115,32,40,37,100,41],"value":"Index out of bounds (%d)"},
+{"hash":137682745,"name":"dav_vstmodulewithprograms.rcstrparametermismatch","sourcebytes":[80,97,114,97,109,101,116,101,114,32,109,105,115,109,97,116,99,104,32,40,37,100,41],"value":"Parameter mismatch (%d)"}
+]}

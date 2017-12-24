@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="sqliteextensions_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Luiz Américo Pereira Câmara"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="SqliteExtensions provides classes to manipulate sqlite databases"/>
+    <License Value="Modified LGPL"/>
+    <Version Minor="1"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="sqlitetrees.pas"/>
+        <UnitName Value="SqliteTrees"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sqlite3wrapper.pas"/>
+        <UnitName Value="Sqlite3Wrapper"/>
+      </Item2>
+      <Item3>
+        <Filename Value="sqlite3ext.pas"/>
+        <UnitName Value="Sqlite3Ext"/>
+      </Item3>
+      <Item4>
+        <Filename Value="sqliteutils.pas"/>
+        <UnitName Value="SqliteUtils"/>
+      </Item4>
+      <Item5>
+        <Filename Value="register_sqliteextensions.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="register_sqliteextensions"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sqlite3slimconn.pp"/>
+        <UnitName Value="sqlite3slimconn"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sqlite3jsonfunctions.pas"/>
+        <UnitName Value="sqlite3jsonfunctions"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="luicomponents"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(TestDir)\publishedpackage\"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

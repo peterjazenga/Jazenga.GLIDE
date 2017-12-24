@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="typhonextnet"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="extnet"/>
+        <OtherUnitFiles Value="extnet"/>
+        <UnitOutputDirectory Value="typhon\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="4">
+      <Item1>
+        <Filename Value="extnet\u_netupdate.pas"/>
+        <UnitName Value="u_netupdate"/>
+      </Item1>
+      <Item2>
+        <Filename Value="extnet\fonctions_net.pas"/>
+        <UnitName Value="fonctions_net"/>
+      </Item2>
+      <Item3>
+        <Filename Value="extnet\u_mailssendbutton.pas"/>
+        <UnitName Value="u_mailssendbutton"/>
+      </Item3>
+      <Item4>
+        <Filename Value="extnet\u_sendmail.pas"/>
+        <UnitName Value="u_sendmail"/>
+      </Item4>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="pl_indy"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="typhonextbuttons"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="typhonextcomponentsimg"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="typhonextcore"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

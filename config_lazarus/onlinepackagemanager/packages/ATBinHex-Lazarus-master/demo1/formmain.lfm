@@ -1,0 +1,203 @@
+object fmMain: TfmMain
+  Left = 378
+  Height = 441
+  Top = 261
+  Width = 779
+  Caption = 'ATBinHex demo'
+  ClientHeight = 441
+  ClientWidth = 779
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.5'
+  object PanelOpt: TPanel
+    Left = 609
+    Height = 441
+    Top = 0
+    Width = 170
+    Align = alRight
+    ClientHeight = 441
+    ClientWidth = 170
+    TabOrder = 0
+    object bOpen: TButton
+      Left = 7
+      Height = 25
+      Top = 11
+      Width = 97
+      Caption = 'open...'
+      OnClick = bOpenClick
+      TabOrder = 0
+    end
+    object GroupBox1: TGroupBox
+      Left = 7
+      Height = 144
+      Top = 100
+      Width = 149
+      Caption = 'mode'
+      ClientHeight = 124
+      ClientWidth = 145
+      TabOrder = 3
+      object bText: TRadioButton
+        Left = 7
+        Height = 19
+        Top = 0
+        Width = 39
+        Caption = 'text'
+        OnChange = bTextChange
+        TabOrder = 0
+      end
+      object bBin: TRadioButton
+        Left = 7
+        Height = 19
+        Top = 24
+        Width = 53
+        Caption = 'binary'
+        OnChange = bBinChange
+        TabOrder = 1
+      end
+      object bHex: TRadioButton
+        Left = 7
+        Height = 19
+        Top = 48
+        Width = 38
+        Caption = 'hex'
+        OnChange = bHexChange
+        TabOrder = 2
+      end
+      object bUni: TRadioButton
+        Left = 7
+        Height = 19
+        Top = 72
+        Width = 63
+        Caption = 'unicode'
+        OnChange = bUniChange
+        TabOrder = 3
+      end
+      object bUniHex: TRadioButton
+        Left = 7
+        Height = 19
+        Top = 96
+        Width = 86
+        Caption = 'unicode/hex'
+        OnChange = bUniHexChange
+        TabOrder = 4
+      end
+    end
+    object bFont: TButton
+      Left = 7
+      Height = 25
+      Top = 40
+      Width = 97
+      Caption = 'font...'
+      OnClick = bFontClick
+      TabOrder = 1
+    end
+    object edBin: TSpinEdit
+      Left = 10
+      Height = 23
+      Top = 248
+      Width = 59
+      MaxValue = 160
+      MinValue = 40
+      OnChange = edBinChange
+      TabOrder = 4
+      Value = 80
+    end
+    object Label1: TLabel
+      Left = 80
+      Height = 15
+      Top = 252
+      Width = 66
+      Caption = 'binary width'
+      ParentColor = False
+    end
+    object chkUnpr: TCheckBox
+      Left = 7
+      Height = 19
+      Top = 344
+      Width = 103
+      Caption = 'unprinted chars'
+      OnChange = chkUnprChange
+      TabOrder = 8
+    end
+    object chkGutter: TCheckBox
+      Left = 7
+      Height = 19
+      Top = 324
+      Width = 52
+      Caption = 'gutter'
+      Checked = True
+      OnChange = chkGutterChange
+      State = cbChecked
+      TabOrder = 7
+    end
+    object chkWrap: TCheckBox
+      Left = 7
+      Height = 19
+      Top = 304
+      Width = 46
+      Caption = 'wrap'
+      OnChange = chkWrapChange
+      TabOrder = 6
+    end
+    object chkEn: TCheckBox
+      Left = 7
+      Height = 19
+      Top = 364
+      Width = 62
+      Caption = 'enabled'
+      Checked = True
+      OnChange = chkEnChange
+      State = cbChecked
+      TabOrder = 9
+    end
+    object bGoto: TButton
+      Left = 7
+      Height = 25
+      Top = 70
+      Width = 97
+      Caption = 'go to...'
+      OnClick = bGotoClick
+      TabOrder = 2
+    end
+    object chkEnSel: TCheckBox
+      Left = 7
+      Height = 19
+      Top = 384
+      Width = 79
+      Caption = 'enabled sel'
+      Checked = True
+      OnChange = chkEnSelChange
+      State = cbChecked
+      TabOrder = 10
+    end
+    object edTabsize: TSpinEdit
+      Left = 10
+      Height = 23
+      Top = 275
+      Width = 59
+      MaxValue = 12
+      MinValue = 2
+      OnChange = edTabsizeChange
+      TabOrder = 5
+      Value = 8
+    end
+    object Label2: TLabel
+      Left = 79
+      Height = 15
+      Top = 280
+      Width = 39
+      Caption = 'tab size'
+      ParentColor = False
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    left = 480
+    top = 16
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 472
+    top = 52
+  end
+end

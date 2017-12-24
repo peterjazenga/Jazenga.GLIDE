@@ -1,0 +1,140 @@
+object MainForm: TMainForm
+  Left = 427
+  Height = 300
+  Top = 245
+  Width = 460
+  ActiveControl = Edit1
+  Caption = 'Main form'
+  ClientHeight = 272
+  ClientWidth = 460
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  ShowHint = True
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Edit1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 20
+    Top = 75
+    Width = 96
+    BorderSpacing.Around = 6
+    Caption = 'Folder for scan'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 20
+    Top = 6
+    Width = 72
+    BorderSpacing.Around = 6
+    Caption = 'Default ext'
+    ParentColor = False
+  end
+  object Button1: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = DirectoryEdit1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 36
+    Top = 144
+    Width = 47
+    Action = sysScan
+    AutoSize = True
+    BorderSpacing.Around = 6
+    TabOrder = 0
+  end
+  object DirectoryEdit1: TDirectoryEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 12
+    Height = 37
+    Top = 101
+    Width = 417
+    Directory = 'C:\lazarus\components\'
+    ShowHidden = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Left = 6
+    BorderSpacing.Top = 6
+    MaxLength = 0
+    TabOrder = 1
+    Text = 'C:\lazarus\components\'
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Label2
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    Left = 12
+    Height = 37
+    Top = 32
+    Width = 80
+    BorderSpacing.Around = 6
+    TabOrder = 2
+    Text = '.pas'
+  end
+  object ActionList1: TActionList
+    left = 144
+    top = 112
+    object sysExit: TAction
+      Category = 'System'
+      Caption = 'Exit'
+      Enabled = False
+      Hint = 'Exit form demo app'
+      OnExecute = sysExitExecute
+      ShortCut = 32856
+    end
+    object hlpAbout: TAction
+      Category = 'Help'
+      Caption = 'About'
+      Hint = 'Information of app'
+      OnExecute = hlpAboutExecute
+    end
+    object sysScan: TAction
+      Category = 'System'
+      Caption = 'Scan'
+      Hint = 'Scan folder'
+      OnExecute = sysRescanExecute
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 144
+    top = 48
+    object SystemItems: TMenuItem
+      Caption = 'System'
+      object MenuItem3: TMenuItem
+        Action = sysScan
+        OnClick = sysRescanExecute
+      end
+      object MenuItem4: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem2: TMenuItem
+        Action = sysExit
+      end
+    end
+    object FolderItems: TMenuItem
+      Caption = 'Folder'
+    end
+    object HelpItems: TMenuItem
+      Caption = 'Help'
+      object MenuItem1: TMenuItem
+        Action = hlpAbout
+        OnClick = hlpAboutExecute
+      end
+    end
+  end
+  object FolderLister1: TFolderLister
+    DefaultExt = '.pas'
+    OnExecuteItem = FolderLister1ExecuteItem
+    MenuItem = FolderItems
+    left = 144
+    top = 12
+  end
+end

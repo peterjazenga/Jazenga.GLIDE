@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":88471790,"name":"castleopendocument.scannotopenurl","sourcebytes":[66,114,111,119,115,101,114,32,110,111,116,32,102,111,117,110,100,32,111,110,32,121,111,117,114,32,115,121,115,116,101,109,46],"value":"Browser not found on your system."},
+{"hash":160116227,"name":"castleopendocument.lisprogramfilenotfound","sourcebytes":[112,114,111,103,114,97,109,32,102,105,108,101,32,110,111,116,32,102,111,117,110,100,32,37,115],"value":"program file not found %s"},
+{"hash":171227939,"name":"castleopendocument.liscannotexecute","sourcebytes":[99,97,110,32,110,111,116,32,101,120,101,99,117,116,101,32,37,115],"value":"can not execute %s"}
+]}

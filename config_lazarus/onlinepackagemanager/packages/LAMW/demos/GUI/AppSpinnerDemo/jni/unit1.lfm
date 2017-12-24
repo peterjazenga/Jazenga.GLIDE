@@ -1,0 +1,225 @@
+object AndroidModule1: TAndroidModule1
+  Left = 270
+  Top = 99
+  Width = 300
+  Height = 600
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  OnCreate = AndroidModule1Create
+  Text = 'AndroidModule1'
+  ActivityMode = actMain
+  BackgroundColor = colbrDefault
+  object jSpinner1: jSpinner
+    Tag = 1
+    Left = 8
+    Top = 128
+    Width = 287
+    Height = 40
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    Anchor = jTextView2
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Items.Strings = (
+      'Hello'
+      'Android'
+      'World!'
+    )
+    OnItemSelected = jSpinner1ItemSelected
+    BackgroundColor = colbrDefault
+    SelectedFontColor = colbrLime
+    DropListTextColor = colbrDefault
+    DropListBackgroundColor = colbrDefault
+    LastItemAsPrompt = False
+    FontSize = 0
+    Id = 1262173
+  end
+  object jTextView1: jTextView
+    Left = 93
+    Top = 10
+    Width = 114
+    Height = 20
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    PosRelativeToAnchor = []
+    PosRelativeToParent = [rpTop, rpCenterHorizontal]
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'App jSpinner Demo'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrLimeGreen
+    FontSize = 0
+    FontFace = ffMonospace
+    TextTypeFace = tfNormal
+    Id = 1581953
+  end
+  object jButton1: jButton
+    Left = 5
+    Top = 45
+    Width = 290
+    Height = 40
+    MarginLeft = 5
+    MarginTop = 5
+    MarginRight = 5
+    MarginBottom = 5
+    Visible = True
+    Anchor = jTextView1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Show Selected  Item [Spinner 1]'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    OnClick = jButton1Click
+    Id = 7036758
+  end
+  object jSpinner2: jSpinner
+    Left = 8
+    Top = 216
+    Width = 287
+    Height = 40
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    Anchor = jTextView3
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Items.Strings = (
+      'Yellow'
+      'Red'
+      'Blue'
+      'Green'
+      'Select Button Caption Color:'
+    )
+    OnItemSelected = jSpinner2ItemSelected
+    BackgroundColor = colbrDefault
+    SelectedFontColor = colbrDefault
+    DropListTextColor = colbrDefault
+    DropListBackgroundColor = colbrDefault
+    LastItemAsPrompt = True
+    FontSize = 0
+    Id = 7996405
+  end
+  object jTextView2: jTextView
+    Left = 10
+    Top = 100
+    Width = 160
+    Height = 20
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    Anchor = jButton1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Last Item as Prompt [False]:'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrBlue
+    FontSize = 0
+    FontFace = ffSerif
+    TextTypeFace = tfNormal
+    Id = 2832611
+  end
+  object jTextView3: jTextView
+    Left = 10
+    Top = 188
+    Width = 157
+    Height = 20
+    MarginLeft = 10
+    MarginTop = 10
+    MarginRight = 10
+    MarginBottom = 10
+    Visible = True
+    Anchor = jSpinner1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpWrapContent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Last Item as Prompt [True]:'
+    Alignment = taLeft
+    Enabled = True
+    BackgroundColor = colbrDefault
+    FontColor = colbrBlue
+    FontSize = 0
+    TextTypeFace = tfNormal
+    Id = 7712776
+  end
+  object jEditText1: jEditText
+    Left = 5
+    Top = 276
+    Width = 290
+    Height = 39
+    MarginLeft = 5
+    MarginTop = 10
+    MarginRight = 5
+    MarginBottom = 10
+    Visible = True
+    Anchor = jSpinner2
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'jEditText1'
+    Alignment = taLeft
+    InputTypeEx = itxText
+    MaxTextLength = 300
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    FontFace = ffSerif
+    TextTypeFace = tfItalic
+    HintTextColor = colbrSilver
+    ScrollBarStyle = scrNone
+    MaxLines = 1
+    HorScrollBar = True
+    VerScrollBar = False
+    WrappingLine = False
+    Editable = True
+    Id = 4365413
+  end
+  object jButton2: jButton
+    Left = 2
+    Top = 329
+    Width = 296
+    Height = 40
+    MarginLeft = 2
+    MarginTop = 4
+    MarginRight = 2
+    MarginBottom = 4
+    Visible = True
+    Anchor = jEditText1
+    PosRelativeToAnchor = [raBelow]
+    PosRelativeToParent = []
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpWrapContent
+    Text = 'Device Info'
+    BackgroundColor = colbrDefault
+    FontColor = colbrDefault
+    FontSize = 0
+    OnClick = jButton2Click
+    Id = 0
+  end
+end

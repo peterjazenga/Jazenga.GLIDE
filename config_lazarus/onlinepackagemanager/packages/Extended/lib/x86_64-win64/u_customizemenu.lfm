@@ -1,0 +1,158 @@
+object F_CustomizeMenu: TF_CustomizeMenu
+  Left = 359
+  Height = 400
+  Top = 212
+  Width = 600
+  Caption = 'Menu'
+  ClientHeight = 400
+  ClientWidth = 600
+  Color = clWindow
+  Font.Color = clWindowText
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '5.7'
+  object Panel1: TPanel
+    Left = 0
+    Height = 30
+    Top = 0
+    Width = 600
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 30
+    ClientWidth = 600
+    TabOrder = 0
+    object FWClose1: TSpeedButton
+      Left = 534
+      Height = 30
+      Top = 0
+      Width = 66
+      Align = alRight
+      Caption = 'Fermer'
+      OnClick = FWClose1Click
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 370
+    Top = 30
+    Width = 600
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 370
+    ClientWidth = 600
+    TabOrder = 1
+    object vt_MainMenu: TVirtualStringTree
+      Left = 245
+      Height = 340
+      Top = 0
+      Width = 355
+      Align = alClient
+      Colors.UnfocusedColor = clMedGray
+      DefaultText = 'Node'
+      Header.AutoSizeIndex = 0
+      Header.Columns = <      
+        item
+          Position = 0
+          Text = 'Menu complet'
+          Width = 353
+        end>
+      Header.DefaultHeight = 22
+      Header.Height = 22
+      Header.Options = [hoAutoResize, hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
+      ParentColor = True
+      TabOrder = 0
+      OnClick = vt_MainMenuClick
+      OnGetText = vt_MainMenuGetText
+      OnGetImageIndex = vt_MainMenuGetImageIndex
+      OnInitNode = vt_MainMenuInitNode
+    end
+    object Panel3: TPanel
+      Left = 0
+      Height = 30
+      Top = 340
+      Width = 600
+      Align = alBottom
+      BevelOuter = bvNone
+      ClientHeight = 30
+      ClientWidth = 600
+      TabOrder = 1
+      object FWDelete: TSpeedButton
+        Left = 0
+        Height = 30
+        Top = 0
+        Width = 105
+        Align = alLeft
+        Caption = 'Supprimer'
+        Enabled = False
+        OnClick = FWDeleteClick
+      end
+      object FWInsert: TSpeedButton
+        Left = 519
+        Height = 30
+        Top = 0
+        Width = 81
+        Align = alRight
+        Caption = 'Ajouter'
+        Enabled = False
+        OnClick = FWInsertClick
+      end
+      object Panel4: TPanel
+        Left = 105
+        Height = 30
+        Top = 0
+        Width = 31
+        Align = alLeft
+        BevelOuter = bvNone
+        TabOrder = 0
+      end
+      object ch_ajouteravant: TCheckBox
+        Left = 420
+        Height = 30
+        Top = 0
+        Width = 99
+        Align = alRight
+        Caption = 'Ajouter avant'
+        TabOrder = 1
+      end
+    end
+    object vt_MenuIni: TVirtualStringTree
+      Left = 0
+      Height = 340
+      Top = 0
+      Width = 240
+      Align = alLeft
+      Colors.UnfocusedColor = clMedGray
+      DefaultText = 'Node'
+      Header.AutoSizeIndex = 0
+      Header.Columns = <      
+        item
+          Position = 0
+          Text = 'Menu personnalisé'
+          Width = 238
+        end>
+      Header.DefaultHeight = 22
+      Header.Height = 22
+      Header.Options = [hoAutoResize, hoColumnResize, hoDrag, hoShowSortGlyphs, hoVisible]
+      ParentColor = True
+      TabOrder = 2
+      OnClick = vt_MenuIniClick
+      OnGetText = vt_MainMenuGetText
+      OnGetImageIndex = vt_MainMenuGetImageIndex
+      OnInitNode = vt_MainMenuInitNode
+    end
+    object Splitter1: TSplitter
+      Left = 240
+      Height = 340
+      Top = 0
+      Width = 5
+    end
+  end
+  object OnFormInfoIni: TOnFormInfoIni
+    SaveForm = [sfSavePos, sfSaveSizes]
+    Options = [loFreeIni, loAutoUpdate, loAutoLoad]
+    left = 145
+    top = 140
+  end
+end

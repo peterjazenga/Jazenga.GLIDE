@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonextbuttons"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="btncomp"/>
+        <OtherUnitFiles Value="btncomp"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <IncludeAssertionCode Value="True"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Version Minor="9" Release="5" Build="2"/>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="btncomp/u_buttons_appli.pas"/>
+        <UnitName Value="u_buttons_appli"/>
+      </Item1>
+      <Item2>
+        <Filename Value="btncomp/u_buttons_speed.pas"/>
+        <UnitName Value="u_buttons_speed"/>
+      </Item2>
+      <Item3>
+        <Filename Value="btncomp/u_form_msg.lfm"/>
+        <UnitName Value="u_form_msg"/>
+      </Item3>
+      <Item4>
+        <Filename Value="btncomp/u_form_msg.pas"/>
+        <UnitName Value="u_form_msg"/>
+      </Item4>
+      <Item5>
+        <Filename Value="btncomp/u_form_working.lfm"/>
+        <UnitName Value="u_form_working"/>
+      </Item5>
+      <Item6>
+        <Filename Value="btncomp/u_form_working.pas"/>
+        <UnitName Value="u_form_working"/>
+      </Item6>
+      <Item7>
+        <Filename Value="btncomp/fonctions_graphic_dialogs.pas"/>
+        <UnitName Value="fonctions_graphic_dialogs"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="typhonextinit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="typhonextcomponentsimg"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_jvcl"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

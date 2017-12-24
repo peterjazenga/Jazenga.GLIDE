@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="kaaj_controls"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="lainz"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Controls for fpGUI."/>
+    <License Value="modified LGPL"/>
+    <Version Major="1"/>
+    <Files Count="6">
+      <Item1>
+        <Filename Value="kaaj_button.pas"/>
+        <UnitName Value="kaaj_button"/>
+      </Item1>
+      <Item2>
+        <Filename Value="kaaj_combobox.pas"/>
+        <UnitName Value="kaaj_combobox"/>
+      </Item2>
+      <Item3>
+        <Filename Value="kaaj_edit.pas"/>
+        <UnitName Value="kaaj_edit"/>
+      </Item3>
+      <Item4>
+        <Filename Value="kaaj_panel.pas"/>
+        <UnitName Value="kaaj_panel"/>
+      </Item4>
+      <Item5>
+        <Filename Value="kaaj_progressbar.pas"/>
+        <UnitName Value="kaaj_progressbar"/>
+      </Item5>
+      <Item6>
+        <Filename Value="kaaj_theme.pas"/>
+        <UnitName Value="kaaj_theme"/>
+      </Item6>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="BGRABitmapPack4fpGUI"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="fpgui_toolkit"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

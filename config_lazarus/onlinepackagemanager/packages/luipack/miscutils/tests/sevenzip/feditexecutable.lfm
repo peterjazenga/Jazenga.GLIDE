@@ -1,0 +1,45 @@
+object FormEditExecutable: TFormEditExecutable
+  Left = 346
+  Height = 98
+  Top = 205
+  Width = 411
+  HorzScrollBar.Page = 410
+  VertScrollBar.Page = 97
+  Caption = 'Options'
+  ClientHeight = 98
+  ClientWidth = 411
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '0.9.25'
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 8
+    Width = 161
+    Caption = '7-Zip Executable Path'
+    ParentColor = False
+  end
+  object EditExecutablePath: TFileNameEdit
+    Left = 16
+    Height = 23
+    Top = 30
+    Width = 368
+    ButtonWidth = 23
+    NumGlyphs = 1
+    ParentColor = False
+    TabOrder = 0
+  end
+  object ButtonSave: TBitBtn
+    Left = 308
+    Height = 30
+    Top = 64
+    Width = 99
+    Caption = 'Save'
+    Default = True
+    Kind = bkYes
+    ModalResult = 6
+    NumGlyphs = 0
+    OnClick = ButtonSaveClick
+    TabOrder = 1
+  end
+end

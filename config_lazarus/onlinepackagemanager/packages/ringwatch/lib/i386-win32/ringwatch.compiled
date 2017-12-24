@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="c:\FPC\3.0.0\bin\i386-win32\fpc.exe" Date="1191858325"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq -FuC:\Users\Balazs\Desktop\Lazarus\packager\units\i386-win32 -FuC:\Users\Balazs\Desktop\Lazarus\components\lazutils\lib\i386-win32 -FuC:\Users\Balazs\Desktop\Lazarus\lcl\units\i386-win32 -FuC:\Users\Balazs\Desktop\Lazarus\lcl\units\i386-win32\win32 -FuC:\Users\Balazs\Desktop\Lazarus\components\lazcontrols\lib\i386-win32\win32 -FuC:\Users\Balazs\Desktop\Lazarus\components\ideintf\units\i386-win32\win32 -FuC:\xampp\htdocs\packages\ringwatch\ -FUC:\xampp\htdocs\packages\ringwatch\lib\i386-win32\ -dLCL -dLCLwin32 ringwatch.pas"/>
+</CONFIG>

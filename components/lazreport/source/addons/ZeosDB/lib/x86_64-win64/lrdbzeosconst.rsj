@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":237475924,"name":"lrdbzeosconst.slreditparamsform_caption","sourcebytes":[69,100,105,116,32,113,117,101,114,121,32,112,97,114,97,109,32,108,105,115,116],"value":"Edit query param list"},
+{"hash":67221540,"name":"lrdbzeosconst.slreditparamsform_paramslist","sourcebytes":[80,97,114,97,109,115,32,108,105,115,116],"value":"Params list"},
+{"hash":254479301,"name":"lrdbzeosconst.slreditparamsform_paramvalue","sourcebytes":[80,97,114,97,109,32,118,97,108,117,101],"value":"Param value"},
+{"hash":133359845,"name":"lrdbzeosconst.slreditparamsform_paramtype","sourcebytes":[80,97,114,97,109,32,116,121,112,101],"value":"Param type"},
+{"hash":204435598,"name":"lrdbzeosconst.slreditparamsform_selectexpresion","sourcebytes":[83,101,108,101,99,116,32,101,120,112,114,101,115,105,111,110],"value":"Select expresion"}
+]}

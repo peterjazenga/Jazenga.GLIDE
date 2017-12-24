@@ -1,0 +1,609 @@
+object fmMain: TfmMain
+  Left = 266
+  Height = 498
+  Top = 168
+  Width = 953
+  Caption = 'Demo'
+  ClientHeight = 475
+  ClientWidth = 953
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.9.0.0'
+  object PanelMain: TPanel
+    Left = 0
+    Height = 475
+    Top = 0
+    Width = 672
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 475
+    ClientWidth = 672
+    TabOrder = 0
+    object Status: TStatusBar
+      Left = 0
+      Height = 21
+      Top = 454
+      Width = 672
+      Panels = <>
+    end
+    object StatusMsg: TStatusBar
+      Left = 0
+      Height = 21
+      Top = 433
+      Width = 672
+      Font.Color = clBlue
+      Panels = <>
+      ParentFont = False
+    end
+    object progress: TProgressBar
+      AnchorSideLeft.Control = PanelMain
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideRight.Control = StatusMsg
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = StatusMsg
+      AnchorSideBottom.Side = asrCenter
+      Left = 507
+      Height = 14
+      Top = 436
+      Width = 160
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Right = 5
+      Smooth = True
+      Step = 1
+      TabOrder = 2
+      Visible = False
+    end
+    object btnStop: TButton
+      AnchorSideRight.Control = progress
+      AnchorSideBottom.Control = StatusMsg
+      AnchorSideBottom.Side = asrCenter
+      Left = 412
+      Height = 22
+      Top = 432
+      Width = 90
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Right = 5
+      Caption = 'stop'
+      OnClick = btnStopClick
+      TabOrder = 3
+      Visible = False
+    end
+  end
+  object PanelRt: TPanel
+    Left = 672
+    Height = 475
+    Top = 0
+    Width = 281
+    Align = alRight
+    BevelOuter = bvNone
+    ClientHeight = 475
+    ClientWidth = 281
+    TabOrder = 1
+    object chkGutter: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 8
+      Width = 68
+      Caption = 'gutter'
+      OnChange = chkGutterChange
+      TabOrder = 0
+    end
+    object chkRuler: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 30
+      Width = 58
+      Caption = 'ruler'
+      OnChange = chkRulerChange
+      TabOrder = 1
+    end
+    object chkMinimap: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 52
+      Width = 85
+      Caption = 'minimap'
+      OnChange = chkMinimapChange
+      TabOrder = 2
+    end
+    object edSpaceX: TSpinEdit
+      Left = 8
+      Height = 27
+      Top = 280
+      Width = 52
+      MaxValue = 10
+      MinValue = -5
+      OnChange = edSpaceXChange
+      TabOrder = 10
+    end
+    object Label1: TLabel
+      Left = 67
+      Height = 17
+      Top = 284
+      Width = 63
+      Caption = 'spacing-x'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 67
+      Height = 17
+      Top = 348
+      Width = 84
+      Caption = 'fixed margin'
+      ParentColor = False
+    end
+    object edMarginFixed: TSpinEdit
+      Left = 8
+      Height = 27
+      Top = 344
+      Width = 52
+      MaxValue = 200
+      MinValue = 20
+      OnChange = edMarginFixedChange
+      TabOrder = 12
+      Value = 20
+    end
+    object gWrap: TGroupBox
+      Left = 144
+      Height = 112
+      Top = 4
+      Width = 128
+      Caption = 'wrap'
+      ClientHeight = 93
+      ClientWidth = 124
+      TabOrder = 13
+      object chkWrapOff: TRadioButton
+        Left = 8
+        Height = 24
+        Top = 0
+        Width = 46
+        Caption = 'off'
+        Checked = True
+        OnChange = chkWrapOffChange
+        TabOrder = 0
+        TabStop = True
+      end
+      object chkWrapOn: TRadioButton
+        Left = 8
+        Height = 24
+        Top = 20
+        Width = 76
+        Caption = 'at edge'
+        OnChange = chkWrapOnChange
+        TabOrder = 1
+      end
+      object chkWrapMargin: TRadioButton
+        Left = 8
+        Height = 24
+        Top = 40
+        Width = 90
+        Caption = 'at margin'
+        OnChange = chkWrapMarginChange
+        TabOrder = 2
+      end
+      object chkWrapIndent: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 64
+        Width = 101
+        Caption = 'with indent'
+        OnChange = chkWrapIndentChange
+        TabOrder = 3
+      end
+    end
+    object edFontsize: TSpinEdit
+      Left = 8
+      Height = 27
+      Top = 216
+      Width = 52
+      MaxValue = 40
+      MinValue = 4
+      OnChange = edFontsizeChange
+      TabOrder = 8
+      Value = 10
+    end
+    object Label4: TLabel
+      Left = 67
+      Height = 17
+      Top = 220
+      Width = 58
+      Caption = 'font size'
+      ParentColor = False
+    end
+    object gUnpri: TGroupBox
+      Left = 144
+      Height = 104
+      Top = 120
+      Width = 128
+      Caption = 'unprintable'
+      ClientHeight = 85
+      ClientWidth = 124
+      TabOrder = 14
+      object chkUnprintVis: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 1
+        Width = 61
+        Caption = 'show'
+        OnChange = chkUnprintVisChange
+        TabOrder = 0
+      end
+      object chkUnprintSp: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 20
+        Width = 72
+        Caption = 'spaces'
+        OnChange = chkUnprintSpChange
+        TabOrder = 1
+      end
+      object chkUnprintEnd: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 40
+        Width = 58
+        Caption = 'ends'
+        OnChange = chkUnprintEndChange
+        TabOrder = 2
+      end
+      object chkUnprintEndDet: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 60
+        Width = 101
+        Caption = 'end-details'
+        OnChange = chkUnprintEndDetChange
+        TabOrder = 3
+      end
+    end
+    object edTabsize: TSpinEdit
+      Left = 8
+      Height = 27
+      Top = 248
+      Width = 52
+      MaxValue = 12
+      MinValue = 1
+      OnChange = edTabsizeChange
+      TabOrder = 9
+      Value = 8
+    end
+    object Label5: TLabel
+      Left = 67
+      Height = 17
+      Top = 252
+      Width = 52
+      Caption = 'tab size'
+      ParentColor = False
+    end
+    object bFont: TButton
+      Left = 144
+      Height = 25
+      Top = 232
+      Width = 96
+      Caption = 'font...'
+      OnClick = bFontClick
+      TabOrder = 15
+    end
+    object chkMicromap: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 96
+      Width = 95
+      Caption = 'micromap'
+      OnChange = chkMicromapChange
+      TabOrder = 4
+    end
+    object edSpaceY: TSpinEdit
+      Left = 8
+      Height = 27
+      Top = 312
+      Width = 52
+      MaxValue = 10
+      MinValue = -5
+      OnChange = edSpaceYChange
+      TabOrder = 11
+    end
+    object Label6: TLabel
+      Left = 67
+      Height = 17
+      Top = 316
+      Width = 62
+      Caption = 'spacing-y'
+      ParentColor = False
+    end
+    object bOpt: TButton
+      Left = 144
+      Height = 25
+      Top = 264
+      Width = 96
+      Caption = 'opts...'
+      OnClick = bOptClick
+      TabOrder = 16
+    end
+    object chkMinimapLeft: TCheckBox
+      Left = 30
+      Height = 24
+      Top = 74
+      Width = 67
+      Caption = 'at left'
+      OnChange = chkMinimapLeftChange
+      TabOrder = 3
+    end
+    object chkNewScroll: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 118
+      Width = 123
+      Caption = 'new scrollbars'
+      OnChange = chkNewScrollChange
+      TabOrder = 5
+    end
+    object chkTabSpaces: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 140
+      Width = 116
+      Caption = 'tab as spaces'
+      OnChange = chkTabSpacesChange
+      TabOrder = 6
+    end
+    object ListboxLog: TListBox
+      Left = 10
+      Height = 117
+      Top = 379
+      Width = 262
+      ItemHeight = 0
+      ScrollWidth = 260
+      TabOrder = 18
+      TopIndex = -1
+    end
+    object bClearLog: TButton
+      Left = 176
+      Height = 25
+      Top = 348
+      Width = 91
+      Caption = 'clear log'
+      OnClick = bClearLogClick
+      TabOrder = 17
+    end
+    object chkMouseEn: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 162
+      Width = 114
+      Caption = 'mouse select'
+      Checked = True
+      OnChange = chkMouseEnChange
+      State = cbChecked
+      TabOrder = 7
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Options = [ofFileMustExist, ofEnableSizing]
+    left = 472
+    top = 20
+  end
+  object FontDialog1: TFontDialog
+    Title = 'Font'
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 536
+    top = 20
+  end
+  object SaveDialog1: TSaveDialog
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 504
+    top = 20
+  end
+  object MainMenu1: TMainMenu
+    left = 432
+    top = 80
+    object mnuFile: TMenuItem
+      Caption = 'File'
+      object mnuFileOpen: TMenuItem
+        Caption = 'open..'
+        ShortCut = 16463
+        OnClick = mnuFileOpenClick
+      end
+      object mnuFileSave: TMenuItem
+        Caption = 'save'
+        OnClick = mnuFileSaveClick
+      end
+      object mnuFileSaveAs: TMenuItem
+        Caption = 'save as..'
+        OnClick = mnuFileSaveAsClick
+      end
+      object MenuItem10: TMenuItem
+        Caption = '-'
+      end
+      object mnuFileEnd: TMenuItem
+        Caption = 'set line-ends'
+        object mnuEndWin: TMenuItem
+          Caption = 'win'
+          OnClick = mnuEndWinClick
+        end
+        object mnuEndUnix: TMenuItem
+          Caption = 'unix'
+          OnClick = mnuEndUnixClick
+        end
+        object mnuEndMac: TMenuItem
+          Caption = 'mac'
+          OnClick = mnuEndMacClick
+        end
+      end
+      object mnuFileHtml: TMenuItem
+        Caption = 'export HTML'
+        OnClick = mnuFileHtmlClick
+      end
+      object MenuItem12: TMenuItem
+        Caption = '-'
+      end
+      object mnuFileExit: TMenuItem
+        Caption = 'quit'
+        OnClick = mnuFileExitClick
+      end
+    end
+    object MenuItem9: TMenuItem
+      Caption = 'Search'
+      object mnuFind: TMenuItem
+        Caption = 'find...'
+        ShortCut = 16454
+        OnClick = mnuFindClick
+      end
+      object mnuFindNext: TMenuItem
+        Caption = 'find next'
+        ShortCut = 114
+        OnClick = mnuFindNextClick
+      end
+      object mnuGoto: TMenuItem
+        Caption = 'go to..'
+        ShortCut = 16455
+        OnClick = bGotoClick
+      end
+    end
+    object mnuEnc: TMenuItem
+      Caption = 'Encoding'
+    end
+    object mnuTst: TMenuItem
+      Caption = 'Tests'
+      object mnuTestCaret1: TMenuItem
+        Caption = 'set 100 carets'
+        OnClick = mnuTestCaret1Click
+      end
+      object mnuTestCaret2: TMenuItem
+        Caption = 'set 2000 carets'
+        OnClick = bAddCrtClick
+      end
+      object mnuTestMargins: TMenuItem
+        Caption = 'set margins..'
+        OnClick = mnuTestMarginsClick
+      end
+      object mnuTestBookmk: TMenuItem
+        Caption = 'toggle bookmks at all lines'
+        OnClick = mnuTestBookmkClick
+      end
+      object mnuTestMarker: TMenuItem
+        Caption = 'place marker at caret'
+        OnClick = btnMarkerClick
+      end
+      object MenuItem5: TMenuItem
+        Caption = '-'
+      end
+      object mnuTestSyntax: TMenuItem
+        Caption = 'hilite "fake" syntax'
+        ShortCut = 16467
+        OnClick = mnuTestSyntaxClick
+      end
+      object mnuTestHiliteWww: TMenuItem
+        Caption = 'underline str "www"'
+        OnClick = mnuTestHiliteWwwClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object mnuTestGapAdd: TMenuItem
+        Caption = 'add gap..'
+        ShortCut = 113
+        OnClick = mnuTestGapAddClick
+      end
+      object mnuTestGapClear: TMenuItem
+        Caption = 'clear gaps'
+        OnClick = mnuTestGapClearClick
+      end
+      object MenuItem14: TMenuItem
+        Caption = '-'
+      end
+      object mnuShowPane: TMenuItem
+        Caption = 'show pane'
+        Checked = True
+        OnClick = mnuShowPaneClick
+      end
+    end
+    object mnuOpts: TMenuItem
+      Caption = 'Options'
+      object mnuOptDlg: TMenuItem
+        Caption = 'options..'
+        ShortCut = 120
+        OnClick = bOptClick
+      end
+    end
+    object mnuHlp: TMenuItem
+      Caption = 'Help'
+      object mnuHelpKey: TMenuItem
+        Caption = 'commands..'
+        ShortCut = 112
+        OnClick = bKeymapClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object mnuHelpMous: TMenuItem
+        Caption = 'mouse help..'
+        OnClick = mnuHelpMousClick
+      end
+    end
+  end
+  object PopupBookmk: TPopupMenu
+    left = 480
+    top = 104
+    object mnuBms: TMenuItem
+      Caption = 'toggle all bm''s'
+      OnClick = mnuBmsClick
+    end
+  end
+  object PopupNums: TPopupMenu
+    left = 523
+    top = 128
+    object MenuItem3: TMenuItem
+      Caption = 'test nums'
+      Enabled = False
+    end
+  end
+  object PopupFold: TPopupMenu
+    left = 568
+    top = 152
+    object MenuItem4: TMenuItem
+      Caption = 'test fold'
+      Enabled = False
+    end
+  end
+  object PopupMinimap: TPopupMenu
+    left = 448
+    top = 192
+    object MenuItem6: TMenuItem
+      Caption = 'minimap'
+      Enabled = False
+    end
+  end
+  object PopupMicromap: TPopupMenu
+    left = 496
+    top = 216
+    object MenuItem7: TMenuItem
+      Caption = 'micromap'
+      Enabled = False
+    end
+  end
+  object PopupRuler: TPopupMenu
+    left = 552
+    top = 240
+    object MenuItem8: TMenuItem
+      Caption = 'ruler'
+      Enabled = False
+    end
+  end
+  object TimerHint: TTimer
+    Enabled = False
+    Interval = 5500
+    OnTimer = TimerHintTimer
+    left = 560
+    top = 303
+  end
+  object ApplicationProperties1: TApplicationProperties
+    ShowButtonGlyphs = sbgNever
+    ShowMenuGlyphs = sbgNever
+    left = 548
+    top = 366
+  end
+end

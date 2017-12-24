@@ -1,0 +1,323 @@
+object RxDBGridExportPdfSetupForm: TRxDBGridExportPdfSetupForm
+  Left = 544
+  Height = 345
+  Top = 387
+  Width = 522
+  Caption = 'Export params'
+  ClientHeight = 345
+  ClientWidth = 522
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 20
+    Top = 6
+    Width = 105
+    BorderSpacing.Around = 6
+    Caption = 'Export file name'
+    FocusControl = FileNameEdit1
+    ParentColor = False
+  end
+  object FileNameEdit1: TFileNameEdit
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 37
+    Top = 32
+    Width = 504
+    Filter = 'All files (*.*)|*.*|LibreOffice/OpenOffice (*.ods)|*.ods|Excell 97-2003|*.xls|Excell 2007-2013|*.xlxs'
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    MaxLength = 0
+    Spacing = 0
+    TabOrder = 0
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 46
+    Top = 293
+    Width = 510
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 1
+    ShowButtons = [pbOK, pbCancel, pbHelp]
+  end
+  object PageControl1: TPageControl
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = FileNameEdit1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = ButtonPanel1
+    Left = 6
+    Height = 212
+    Top = 75
+    Width = 510
+    ActivePage = TabSheet2
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Around = 6
+    TabIndex = 1
+    TabOrder = 2
+    object TabSheet1: TTabSheet
+      Caption = 'Global'
+      ClientHeight = 178
+      ClientWidth = 500
+      object cbOpenAfterExport: TCheckBox
+        AnchorSideLeft.Control = Owner
+        AnchorSideTop.Control = TabSheet1
+        Left = 8
+        Height = 24
+        Top = 6
+        Width = 141
+        BorderSpacing.Around = 6
+        Caption = 'Open after export'
+        TabOrder = 0
+      end
+      object cbExportColumnHeader: TCheckBox
+        AnchorSideLeft.Control = Owner
+        AnchorSideTop.Control = cbOpenAfterExport
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 36
+        Width = 167
+        BorderSpacing.Around = 6
+        Caption = 'Export column header'
+        TabOrder = 1
+      end
+      object cbExportColumnFooter: TCheckBox
+        AnchorSideLeft.Control = Owner
+        AnchorSideTop.Control = cbExportColumnHeader
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 66
+        Width = 162
+        BorderSpacing.Around = 6
+        Caption = 'Export column footer'
+        TabOrder = 2
+      end
+      object cbExportCellColors: TCheckBox
+        AnchorSideLeft.Control = Owner
+        AnchorSideTop.Control = cbExportColumnFooter
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 96
+        Width = 138
+        BorderSpacing.Around = 6
+        Caption = 'Export cell colors'
+        TabOrder = 3
+      end
+      object cbOverwriteExisting: TCheckBox
+        AnchorSideLeft.Control = Label4
+        AnchorSideTop.Control = TabSheet1
+        Left = 256
+        Height = 24
+        Top = 6
+        Width = 168
+        BorderSpacing.Around = 6
+        Caption = 'Overwrite existing file'
+        Enabled = False
+        TabOrder = 4
+      end
+      object Label4: TLabel
+        AnchorSideLeft.Control = TabSheet1
+        AnchorSideLeft.Side = asrCenter
+        AnchorSideTop.Control = TabSheet1
+        Left = 250
+        Height = 1
+        Top = 0
+        Width = 1
+        ParentColor = False
+      end
+      object CheckBox6: TCheckBox
+        AnchorSideLeft.Control = Label4
+        AnchorSideTop.Control = cbOverwriteExisting
+        AnchorSideTop.Side = asrBottom
+        Left = 256
+        Height = 24
+        Top = 36
+        Width = 117
+        BorderSpacing.Around = 6
+        Caption = 'Export images'
+        TabOrder = 5
+      end
+      object Label5: TLabel
+        AnchorSideLeft.Control = Label4
+        AnchorSideTop.Control = CheckBox6
+        AnchorSideTop.Side = asrBottom
+        Left = 256
+        Height = 20
+        Top = 66
+        Width = 64
+        BorderSpacing.Around = 6
+        Caption = 'Title color'
+        ParentColor = False
+      end
+      object ColorBox1: TColorBox
+        AnchorSideLeft.Control = Label5
+        AnchorSideTop.Control = Label5
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = TabSheet1
+        AnchorSideRight.Side = asrBottom
+        Left = 262
+        Height = 36
+        Top = 92
+        Width = 232
+        Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbIncludeDefault, cbCustomColor, cbPrettyNames, cbCustomColors]
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Around = 6
+        ItemHeight = 0
+        TabOrder = 6
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'PDF Options'
+      ClientHeight = 178
+      ClientWidth = 500
+      object Label2: TLabel
+        AnchorSideLeft.Control = Label3
+        AnchorSideTop.Control = TabSheet2
+        Left = 256
+        Height = 20
+        Top = 6
+        Width = 70
+        BorderSpacing.Around = 6
+        Caption = 'Paper type'
+        ParentColor = False
+      end
+      object ComboBox1: TComboBox
+        AnchorSideLeft.Control = Label2
+        AnchorSideTop.Control = Label2
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = TabSheet2
+        AnchorSideRight.Side = asrBottom
+        Left = 262
+        Height = 36
+        Top = 32
+        Width = 232
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Around = 6
+        ItemHeight = 0
+        Style = csDropDownList
+        TabOrder = 0
+      end
+      object RadioGroup1: TRadioGroup
+        AnchorSideLeft.Control = Label4
+        AnchorSideTop.Control = ComboBox1
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = TabSheet2
+        AnchorSideRight.Side = asrBottom
+        Left = 265
+        Height = 69
+        Top = 74
+        Width = 229
+        Anchors = [akTop, akLeft, akRight]
+        AutoFill = True
+        AutoSize = True
+        BorderSpacing.Around = 6
+        Caption = 'Orientation'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 48
+        ClientWidth = 227
+        Items.Strings = (
+          'Portrait'
+          'Landscape'
+        )
+        TabOrder = 1
+      end
+      object Label3: TLabel
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideLeft.Side = asrCenter
+        AnchorSideTop.Control = TabSheet2
+        Left = 250
+        Height = 1
+        Top = 0
+        Width = 1
+        ParentColor = False
+      end
+      object CheckBox1: TCheckBox
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideTop.Control = TabSheet2
+        Left = 6
+        Height = 24
+        Top = 6
+        Width = 77
+        BorderSpacing.Around = 6
+        Caption = 'Out line'
+        TabOrder = 2
+      end
+      object CheckBox2: TCheckBox
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideTop.Control = CheckBox1
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 36
+        Width = 121
+        BorderSpacing.Around = 6
+        Caption = 'Compress text'
+        TabOrder = 3
+      end
+      object CheckBox3: TCheckBox
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideTop.Control = CheckBox2
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 66
+        Width = 128
+        BorderSpacing.Around = 6
+        Caption = 'Compress fonts'
+        TabOrder = 4
+      end
+      object CheckBox4: TCheckBox
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideTop.Control = CheckBox3
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 96
+        Width = 140
+        BorderSpacing.Around = 6
+        Caption = 'Compress images'
+        TabOrder = 5
+      end
+      object CheckBox5: TCheckBox
+        AnchorSideLeft.Control = TabSheet2
+        AnchorSideTop.Control = CheckBox4
+        AnchorSideTop.Side = asrBottom
+        Left = 6
+        Height = 24
+        Top = 126
+        Width = 116
+        BorderSpacing.Around = 6
+        Caption = 'Use raw JPEG'
+        TabOrder = 6
+      end
+    end
+  end
+end

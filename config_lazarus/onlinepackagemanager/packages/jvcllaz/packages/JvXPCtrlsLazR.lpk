@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvXPCtrlsLazR"/>
+    <Author Value="Lazarus port by: Sergio Samayoa, Werner Pamler"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="..\run\JvXPCtrls"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\run\JvXPCtrls"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="XP style controls of the JVCL library (https://sourceforge.net/projects/jvcl/) (runtime code)"/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="6">
+      <Item1>
+        <Filename Value="..\run\JvXPCtrls\JvXPBar.pas"/>
+        <UnitName Value="JvXPBar"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\run\JvXPCtrls\JvXPButtons.pas"/>
+        <UnitName Value="JvXPButtons"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\run\JvXPCtrls\JvXPCheckCtrls.pas"/>
+        <UnitName Value="JvXPCheckCtrls"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\run\JvXPCtrls\JvXPContainer.pas"/>
+        <UnitName Value="JvXPContainer"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\run\JvXPCtrls\JvXPCore.pas"/>
+        <UnitName Value="JvXPCore"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\run\JvXPCtrls\JvXPCoreUtils.pas"/>
+        <UnitName Value="JvXPCoreUtils"/>
+      </Item6>
+    </Files>
+    <RequiredPkgs Count="3">
+      <Item1>
+        <PackageName Value="JvStdCtrlsLazR"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="JvCoreLazR"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

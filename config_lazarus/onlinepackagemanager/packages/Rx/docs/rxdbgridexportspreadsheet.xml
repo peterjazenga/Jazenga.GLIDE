@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxdbgrid_export_spreadsheet"><module name="RxDBGridExportSpreadSheet"><short>Набор инструментов для экспорта данных из RXDBGrid в формат электронных таблиц</short><descr>Набор инструментов для экспорта данных из RXDBGrid в формат электронных таблиц
+Для экспорта используется библиотека fpspreadsheet</descr><element name="TRxDBGridExportSpreadSheetOption"><short>Параметры экспорта</short><descr>ressExportTitle - экспорт заголовков колонок
+ressExportColors - экспорт цвета ячеек
+ressExportFooter - экспорт строки итогов
+ressOverwriteExisting - при экспорте перезаписывать существующий файл</descr>
+      </element><element name="TRxDBGridExportSpreadSheetOption.ressExportTitle"><short>экспорт заголовков колонок</short>
+      </element><element name="TRxDBGridExportSpreadSheetOption.ressExportColors"><short>экспорт цвета ячеек</short>
+      </element><element name="TRxDBGridExportSpreadSheetOption.ressExportFooter"><short>экспорт строки итогов</short>
+      </element><element name="TRxDBGridExportSpreadSheetOption.ressOverwriteExisting"><short>при экспорте перезаписывать существующий файл</short>
+      </element><element name="TRxDBGridExportSpreadSheet"><short>Объект экспорта данных в электронную таблицу</short>
+      </element><element name="TRxDBGridExportSpreadSheet.FileName"><short>Имя файла для экспорта</short>
+      </element><element name="TRxDBGridExportSpreadSheet.PageName"><short>Имя страницы с данными</short>
+      </element><element name="TRxDBGridExportSpreadSheet.Options"><short>Параметры экспорта</short>
+      <descr><p>Параметры экспорта данных</p>
+ressExportTitle - экспорт заголовков колонок
+ressExportColors - экспорт цвета ячеек
+ressExportFooter - экспорт строки итогов
+ressOverwriteExisting - при экспорте перезаписывать существующий файл</descr>
+      </element><element name="TRxDBGridExportSpreadSheet.OpenAfterExport"><short>Открывать файл после экспорта</short>
+      </element>
+    <element name="TRxDBGridExportSpreadSheetOption.ressExportFormula"><short>Экспорт значений итоговой строки в виде формул</short><descr><p>При экспорте итоговой строки в случае если в итогах считается выражение <b>SUM</b>, <b>MIN</b>, <b>MAX</b> то в электронную таблицу будет выгружена формула. </p><p>Иначе будет выгружено фактическое значение</p>
+        </descr>
+      </element><element name="TRxDBGridExportSpreadSheetOptions"><short>Параметры экспорта данных в электронную таблицу</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

@@ -1,0 +1,455 @@
+object frmApkManager: TfrmApkManager
+  Left = 210
+  Height = 780
+  Top = 87
+  Width = 1176
+  Caption = 'laztoapk'
+  ClientHeight = 761
+  ClientWidth = 1176
+  Enabled = False
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.8.0.5'
+  object grpPathSettings: TGroupBox
+    Left = 0
+    Height = 169
+    Top = 592
+    Width = 1176
+    Align = alBottom
+    Caption = 'Current Settings'
+    ClientHeight = 151
+    ClientWidth = 1172
+    TabOrder = 0
+    object lblAndroidSDKPath: TLabel
+      Left = 14
+      Height = 13
+      Top = 4
+      Width = 16
+      Caption = 'n/a'
+      ParentColor = False
+    end
+    object lblAndroidNDKPath: TLabel
+      Left = 14
+      Height = 13
+      Top = 26
+      Width = 16
+      Caption = 'n/a'
+      ParentColor = False
+    end
+    object lblJavaSDKPath: TLabel
+      Left = 14
+      Height = 13
+      Top = 48
+      Width = 16
+      Caption = 'n/a'
+      ParentColor = False
+    end
+    object lblLazarusPath: TLabel
+      Left = 14
+      Height = 13
+      Top = 70
+      Width = 16
+      Caption = 'n/a'
+      ParentColor = False
+    end
+    object pnlState: TPanel
+      Left = 0
+      Height = 26
+      Top = 125
+      Width = 1172
+      Align = alBottom
+      Color = clSkyBlue
+      Constraints.MinHeight = 26
+      ParentColor = False
+      TabOrder = 0
+    end
+    object lblAntPath: TLabel
+      Left = 14
+      Height = 13
+      Top = 92
+      Width = 16
+      Caption = 'n/a'
+      ParentColor = False
+    end
+  end
+  object pgcMain: TPageControl
+    Left = 0
+    Height = 290
+    Top = 96
+    Width = 1176
+    ActivePage = tabAutomatic
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object tabAutomatic: TTabSheet
+      Caption = 'Automatic'
+      ClientHeight = 264
+      ClientWidth = 1168
+      object lblProjectFolder: TLabel
+        Left = 12
+        Height = 13
+        Top = 10
+        Width = 67
+        Caption = 'Project Folder'
+        ParentColor = False
+      end
+      object edtProjectFolder: TEdit
+        Left = 12
+        Height = 21
+        Top = 30
+        Width = 400
+        ReadOnly = True
+        TabOrder = 0
+      end
+      object BtnSelectProjectFolder: TButton
+        Left = 420
+        Height = 25
+        Hint = 'Select an existing project-folder or create a new project-folder.'
+        Top = 30
+        Width = 75
+        Caption = 'Select...'
+        Enabled = False
+        OnClick = BtnSelectProjectFolderClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+      end
+      object BtnAllInOne: TButton
+        Left = 12
+        Height = 25
+        Top = 64
+        Width = 296
+        Caption = 'Build && Deploy'
+        Enabled = False
+        OnClick = BtnAllInOneClick
+        TabOrder = 2
+      end
+      object cbxCreateNewKey: TCheckBox
+        Left = 324
+        Height = 17
+        Top = 66
+        Width = 98
+        Caption = 'Create New Key'
+        TabOrder = 3
+      end
+      object cbxAutoInstallAPK: TCheckBox
+        Left = 324
+        Height = 17
+        Top = 94
+        Width = 122
+        Caption = 'Automatic APK Install'
+        TabOrder = 4
+      end
+      object btnOpenOutputFolder: TButton
+        Left = 12
+        Height = 25
+        Top = 104
+        Width = 204
+        Caption = 'Open Output Folder (location of apk-file)'
+        OnClick = btnOpenOutputFolderClick
+        TabOrder = 5
+      end
+    end
+    object tabManual: TTabSheet
+      Caption = 'Manual'
+      ClientHeight = 264
+      ClientWidth = 1168
+      object btnBuildProject: TButton
+        Left = 16
+        Height = 25
+        Top = 112
+        Width = 200
+        Caption = 'Step 3: Build Project'
+        Enabled = False
+        OnClick = btnBuildProjectClick
+        TabOrder = 0
+      end
+      object btnNewAndroidProject: TButton
+        Left = 16
+        Height = 25
+        Top = 48
+        Width = 200
+        Caption = 'Step 1: Select/Create Project Folder'
+        Enabled = False
+        OnClick = btnNewAndroidProjectClick
+        TabOrder = 1
+      end
+      object btnCreateAndroidKey: TButton
+        Left = 16
+        Height = 25
+        Top = 144
+        Width = 200
+        Caption = 'Step 4: Create Android Key'
+        Enabled = False
+        OnClick = btnCreateAndroidKeyClick
+        TabOrder = 2
+      end
+      object btnCreateApkFile: TButton
+        Left = 16
+        Height = 25
+        Top = 176
+        Width = 200
+        Caption = 'Step 5: Create APK File'
+        Enabled = False
+        OnClick = btnCreateApkFileClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 3
+      end
+      object btnInstallAPK: TButton
+        Left = 316
+        Height = 25
+        Top = 48
+        Width = 200
+        Caption = 'Install APK'
+        Enabled = False
+        OnClick = btnInstallAPKClick
+        TabOrder = 4
+      end
+      object btnUnInstallAPK: TButton
+        Left = 316
+        Height = 25
+        Top = 80
+        Width = 200
+        Caption = 'UnInstall APK'
+        Enabled = False
+        OnClick = btnUnInstallAPKClick
+        TabOrder = 5
+      end
+      object btnEditProject: TButton
+        Left = 16
+        Height = 25
+        Top = 80
+        Width = 200
+        Caption = 'Step 2: Edit Project'
+        Enabled = False
+        OnClick = btnEditProjectClick
+        TabOrder = 6
+      end
+    end
+  end
+  object pnlTop: TPanel
+    Left = 0
+    Height = 96
+    Top = 0
+    Width = 1176
+    Align = alTop
+    ClientHeight = 96
+    ClientWidth = 1176
+    TabOrder = 2
+    object lblNDKPlatform: TLabel
+      Left = 8
+      Height = 13
+      Top = 8
+      Width = 64
+      Caption = 'NDK-Platform'
+      ParentColor = False
+    end
+    object cbxNDKPlatform: TComboBox
+      Left = 8
+      Height = 21
+      Top = 24
+      Width = 200
+      Enabled = False
+      ItemHeight = 13
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object rgrpDevice: TRadioGroup
+      Left = 224
+      Height = 64
+      Top = 8
+      Width = 110
+      AutoFill = True
+      AutoSize = True
+      Caption = 'Device'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 46
+      ClientWidth = 106
+      ItemIndex = 0
+      Items.Strings = (
+        'USB Connected'
+        'Emulator'
+      )
+      TabOrder = 1
+    end
+    object rgrpADBLog: TRadioGroup
+      Left = 392
+      Height = 64
+      Top = 8
+      Width = 83
+      AutoFill = True
+      AutoSize = True
+      Caption = 'Adb log'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 46
+      ClientWidth = 79
+      ItemIndex = 0
+      Items.Strings = (
+        'To screen'
+        'To File'
+      )
+      TabOrder = 2
+    end
+    object btnStartAdbLog: TButton
+      Left = 504
+      Height = 25
+      Top = 48
+      Width = 110
+      Caption = 'ADB-Log'
+      OnClick = btnStartAdbLogClick
+      TabOrder = 3
+    end
+    object cbxSDKBuildTools: TComboBox
+      Left = 8
+      Height = 21
+      Top = 70
+      Width = 200
+      Enabled = False
+      ItemHeight = 13
+      Style = csDropDownList
+      TabOrder = 4
+    end
+    object lblSDKBuildTool: TLabel
+      Left = 8
+      Height = 13
+      Top = 56
+      Width = 68
+      Caption = 'SDK Build-Tool'
+      ParentColor = False
+    end
+    object btnStartAVDManager: TButton
+      Left = 504
+      Height = 25
+      Top = 16
+      Width = 110
+      Caption = 'AVD Manager'
+      OnClick = btnStartAVDManagerClick
+      TabOrder = 5
+    end
+    object btnStartSDKManager: TButton
+      Left = 632
+      Height = 25
+      Top = 16
+      Width = 110
+      Caption = 'SDK Manager'
+      OnClick = btnStartSDKManagerClick
+      TabOrder = 6
+    end
+    object btnStartIDE: TButton
+      Left = 632
+      Height = 25
+      Top = 48
+      Width = 110
+      Caption = 'Lazarus'
+      OnClick = btnStartIDEClick
+      TabOrder = 7
+    end
+  end
+  object pgcInfo: TPageControl
+    Left = 0
+    Height = 206
+    Top = 386
+    Width = 1176
+    ActivePage = tbsBuildOutput
+    Align = alBottom
+    TabIndex = 0
+    TabOrder = 3
+    object tbsBuildOutput: TTabSheet
+      Caption = 'Build Output'
+      ClientHeight = 180
+      ClientWidth = 1168
+      object mmoOutput: TMemo
+        Left = 0
+        Height = 180
+        Top = 0
+        Width = 1168
+        Align = alClient
+        Color = clBlack
+        Font.Color = clWhite
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object tbsTrace: TTabSheet
+      Caption = 'Trace'
+      ClientHeight = 180
+      ClientWidth = 1161
+      object mmoTrace: TMemo
+        Left = 0
+        Height = 180
+        Top = 0
+        Width = 1161
+        Align = alClient
+        ReadOnly = True
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Markera batchfil'
+    DefaultExt = '.bat'
+    Filter = 'Batch-fil|*.bat'
+    left = 816
+    top = 128
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Title = 'Create project directory'
+    left = 720
+    top = 128
+  end
+  object MainMenu1: TMainMenu
+    left = 784
+    top = 24
+    object itmPathSetup: TMenuItem
+      Caption = 'Path Setup'
+      object itmSDKPath: TMenuItem
+        Caption = 'Android SDK'
+        OnClick = itmSDKPathClick
+      end
+      object itmNDKPath: TMenuItem
+        Caption = 'Android NDK'
+        OnClick = itmNDKPathClick
+      end
+      object itmJDKPath: TMenuItem
+        Caption = 'JDK'
+        OnClick = itmJDKPathClick
+      end
+      object itmBuildTool: TMenuItem
+        Caption = 'xxxxbuild.exe'
+        OnClick = itmBuildToolClick
+      end
+      object itmAntPath: TMenuItem
+        Caption = 'Ant Path'
+        OnClick = itmAntPathClick
+      end
+    end
+  end
+  object AppSetupTimer: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = AppSetupTimerTimer
+    left = 624
+    top = 240
+  end
+end

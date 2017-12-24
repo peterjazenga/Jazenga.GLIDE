@@ -1,0 +1,155 @@
+object frmMain: TfrmMain
+  Left = 712
+  Height = 480
+  Top = 193
+  Width = 664
+  HorzScrollBar.Page = 213
+  HorzScrollBar.Range = 213
+  VertScrollBar.Page = 136
+  VertScrollBar.Range = 136
+  Caption = 'TileMap Editor'
+  ClientHeight = 480
+  ClientWidth = 664
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  WindowState = wsMaximized
+  object toolsPanel: TPanel
+    Left = 555
+    Height = 480
+    Top = 0
+    Width = 109
+    Align = alRight
+    AutoSize = True
+    ChildSizing.LeftRightSpacing = 4
+    ChildSizing.TopBottomSpacing = 4
+    ChildSizing.HorizontalSpacing = 4
+    ChildSizing.VerticalSpacing = 4
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 480
+    ClientWidth = 109
+    TabOrder = 0
+    object lblPOS: TLabel
+      Left = 4
+      Height = 20
+      Top = 4
+      Width = 100
+      Caption = 'x: y:'
+      ParentColor = False
+    end
+    object lblID: TLabel
+      Left = 4
+      Height = 20
+      Top = 28
+      Width = 100
+      Caption = 'id:'
+      ParentColor = False
+    end
+    object cbTileID: TComboBox
+      Left = 4
+      Height = 28
+      Top = 52
+      Width = 100
+      ItemHeight = 20
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object cbZoom: TComboBox
+      Left = 4
+      Height = 28
+      Top = 84
+      Width = 100
+      ItemHeight = 20
+      ItemIndex = 3
+      Items.Strings = (
+        '25%'
+        '50%'
+        '75%'
+        '100%'
+        '125%'
+        '150%'
+        '175%'
+        '200%'
+        '300%'
+        '400%'
+      )
+      OnChange = cbZoomChange
+      Style = csDropDownList
+      TabOrder = 1
+      Text = '100%'
+    end
+    object Button1: TButton
+      Left = 4
+      Height = 30
+      Top = 116
+      Width = 100
+      Caption = 'Color...'
+      OnClick = Button1Click
+      TabOrder = 3
+    end
+    object btnClear: TButton
+      Left = 4
+      Height = 30
+      Top = 150
+      Width = 100
+      Caption = 'Clear'
+      OnClick = btnClearClick
+      TabOrder = 2
+    end
+  end
+  object mainScrollBox: TScrollBox
+    Left = 0
+    Height = 480
+    Top = 0
+    Width = 555
+    HorzScrollBar.Page = 112
+    HorzScrollBar.Tracking = True
+    VertScrollBar.Page = 88
+    VertScrollBar.Tracking = True
+    Align = alClient
+    ClientHeight = 476
+    ClientWidth = 551
+    TabOrder = 1
+    object bgMap: TBGPanel
+      Left = 0
+      Height = 88
+      Top = 0
+      Width = 112
+      OnRedraw = bgMapRedraw
+      OnMouseDown = bgMapMouseDown
+      OnMouseMove = bgMapMouseMove
+      OnMouseUp = bgMapMouseUp
+      OnMouseWheelDown = bgMapMouseWheelDown
+      OnMouseWheelUp = bgMapMouseWheelUp
+    end
+  end
+  object clDialog: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    left = 231
+    top = 116
+  end
+end

@@ -1,0 +1,83 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: u_extcolorcombos.color_combo_aqua
+msgid "Aqua"
+msgstr "Eau"
+
+#: u_extcolorcombos.color_combo_black
+msgid "Black"
+msgstr "Noir"
+
+#: u_extcolorcombos.color_combo_blue
+msgid "Blue"
+msgstr "Bleu"
+
+#: u_extcolorcombos.color_combo_fuchsia
+msgid "Fuchsia"
+msgstr "Fuchsia"
+
+#: u_extcolorcombos.color_combo_gray
+msgid "Gray"
+msgstr "Gris"
+
+#: u_extcolorcombos.color_combo_green
+msgid "Green"
+msgstr "Vert"
+
+#: u_extcolorcombos.color_combo_lime
+msgid "Lime"
+msgstr "Cuivre"
+
+#: u_extcolorcombos.color_combo_maroon
+msgid "Maroon"
+msgstr "Marron"
+
+#: u_extcolorcombos.color_combo_mgreen
+msgid "Money green"
+msgstr "Vert argent"
+
+#: u_extcolorcombos.color_combo_navy
+msgid "Navy"
+msgstr "Marine"
+
+#: u_extcolorcombos.color_combo_none
+msgid "None"
+msgstr "Indéfini"
+
+#: u_extcolorcombos.color_combo_olive
+msgid "Olive"
+msgstr "Olive"
+
+#: u_extcolorcombos.color_combo_purple
+msgid "Purple"
+msgstr "Pourpre"
+
+#: u_extcolorcombos.color_combo_pyellow
+msgid "Pale yellow"
+msgstr "Jaune pâle"
+
+#: u_extcolorcombos.color_combo_red
+msgid "Red"
+msgstr "Rouge"
+
+#: u_extcolorcombos.color_combo_sblue
+msgid "Sky blue"
+msgstr ""
+
+#: u_extcolorcombos.color_combo_silver
+msgid "Silver"
+msgstr ""
+
+#: u_extcolorcombos.color_combo_teal
+msgid "Teal"
+msgstr ""
+
+#: u_extcolorcombos.color_combo_white
+msgid "White"
+msgstr ""
+
+#: u_extcolorcombos.color_combo_yellow
+msgid "Yellow"
+msgstr "Jaune"
+

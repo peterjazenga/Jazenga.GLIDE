@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":149510110,"name":"imagingradiance.serrorbadheader","sourcebytes":[66,97,100,32,72,68,82,47,82,71,66,69,32,104,101,97,100,101,114,32,102,111,114,109,97,116,46],"value":"Bad HDR\/RGBE header format."},
+{"hash":96754142,"name":"imagingradiance.swrongscanlinewidth","sourcebytes":[87,114,111,110,103,32,115,99,97,110,108,105,110,101,32,119,105,100,116,104,46],"value":"Wrong scanline width."},
+{"hash":92274510,"name":"imagingradiance.sxyznotsupported","sourcebytes":[88,89,90,32,99,111,108,111,114,32,115,112,97,99,101,32,110,111,116,32,115,117,112,112,111,114,116,101,100,46],"value":"XYZ color space not supported."}
+]}

@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 313
+  Height = 354
+  Top = 232
+  Width = 734
+  Caption = 'ATTabs position demo'
+  ClientHeight = 354
+  ClientWidth = 734
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.9.0.0'
+  object chkPosTop: TRadioButton
+    Left = 208
+    Height = 23
+    Top = 112
+    Width = 46
+    Caption = 'top'
+    Checked = True
+    OnChange = chkPosTopChange
+    TabOrder = 0
+    TabStop = True
+  end
+  object chkPosBottom: TRadioButton
+    Left = 208
+    Height = 23
+    Top = 136
+    Width = 70
+    Caption = 'bottom'
+    OnChange = chkPosBottomChange
+    TabOrder = 1
+  end
+  object chkPosLeft: TRadioButton
+    Left = 208
+    Height = 23
+    Top = 160
+    Width = 45
+    Caption = 'left'
+    OnChange = chkPosLeftChange
+    TabOrder = 2
+  end
+  object chkPosRight: TRadioButton
+    Left = 208
+    Height = 23
+    Top = 184
+    Width = 55
+    Caption = 'right'
+    OnChange = chkPosRightChange
+    TabOrder = 3
+  end
+  object chkEmptyBtns: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 112
+    Width = 92
+    Caption = 'no buttons'
+    OnChange = chkEmptyBtnsChange
+    TabOrder = 4
+  end
+  object chkFlat: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 136
+    Width = 46
+    Caption = 'flat'
+    OnChange = chkFlatChange
+    TabOrder = 5
+  end
+  object chkFullColor: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 160
+    Width = 92
+    Caption = 'full colored'
+    OnChange = chkFullColorChange
+    TabOrder = 6
+  end
+  object chkColorAllowVert: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 184
+    Width = 156
+    Caption = 'color band: allow vert'
+    Checked = True
+    OnChange = chkColorAllowVertChange
+    State = cbChecked
+    TabOrder = 7
+  end
+  object chkAngled: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 208
+    Width = 97
+    Caption = 'angled tabs'
+    OnChange = chkAngledChange
+    TabOrder = 8
+  end
+  object chkBetween: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 232
+    Width = 147
+    Caption = 'space between tabs'
+    OnChange = chkBetweenChange
+    TabOrder = 9
+  end
+end

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions>
+<package name="rxnew">
+
+    <module name="RxViewsPanel">
+      <topic name="TRxViewsPanelItem"/>
+      <element name="TRxViewsPanelItem">
+        <descr>Коллекция TRxViewsPanelItems содержит в себе элементы "Кнопки" для переключателя представлений</descr>
+      </element>
+      <element name="TRxViewsPanelItem.Create"/>
+      <element name="TRxViewsPanelItem.Destroy"/>
+      <element name="TRxViewsPanelItem.Action"/>
+      <element name="TRxViewsPanelItem.Visible"/>
+      <element name="TRxViewsPanelItem.Caption"/>
+      <element name="TRxViewsPanelItem.Tag"/>
+      <element name="TRxViewsPanelItem.ImageIndex"/>
+      <element name="TRxViewsPanelItems">
+        <short>Коллекция TRxViewsPanelItems содержит в себе элементы "Кнопки" для переключателя представлений</short>
+        <descr>Коллекция TRxViewsPanelItems содержит в себе элементы "Кнопки" для переключателя представлений</descr>
+      </element>
+      <element name="TRxViewsPanelItems.Create"/>
+      <element name="TRxViewsPanelItems.Items"/>
+      <element name="TRxViewsPanelItems.UpdateImages"/>
+      <element name="TRxViewsPanel">
+        <short>Класс TRxViewsPanel представляет собой визуальный компонент в стиле переключателя представления из MS Project или Gnome Planer.</short>
+        <descr>Класс TRxViewsPanel представляет собой визуальный компонент в стиле переключателя представления из MS Project или Gnome Planer.</descr>
+      </element>
+      <short>Модуль RxViewsPanel содержит визуальный компонент для переключения представлений</short>
+      <descr>Модуль RxViewsPanel содержит визуальный компонент для переключения представлений</descr>
+      <element name="TRxViewsPanel.Create">
+        <short>Создаёт экземпляр</short>
+      </element>
+      <element name="TRxViewsPanel.Destroy"/>
+      <element name="TRxViewsPanel.ButtonHeght">
+        <short>Свойство определяет высоту кнопки в панели</short>
+        <descr>Свойство определяет высоту кнопки в панели</descr>
+      </element>
+      <element name="TRxViewsPanel.Color">
+        <short>Цвет фона панели</short>
+        <descr>Цвет фона панели</descr>
+      </element>
+      <element name="TRxViewsPanel.Items"/>
+      <element name="TRxViewsPanel.ImageList">
+        <short>Указатель на изображения для кнопок</short>
+        <descr>Указатель на изображения для кнопок на панели.</descr>
+      </element>
+      <element name="TRxViewsPanel.OnSelectViewEvent"/>
+      <element name="TRxViewsPanel.ItemIndex"/>
+      <element name="TSelectViewEvent">
+        <short>Событие возникает при нажатии на кнопку переключения вида</short>
+        <descr>
+          <p>Событие возникает при нажатии на кнопку переключения вида. 
+</p>
+          <table>
+            <tr>
+              <td>ItemIndex</td>
+              <td>Порядковый номер кнопку</td>
+            </tr>
+            <tr>
+              <td>Item</td>
+              <td>указатель на кнопку</td>
+            </tr>
+          </table>
+        </descr>
+        <example file="/usr/local/share/lazarus/components/rxnew/Demos/RxViewsPanel/unit1.pas"/>
+      </element>
+    </module>
+</package>
+</fpdoc-descriptions>

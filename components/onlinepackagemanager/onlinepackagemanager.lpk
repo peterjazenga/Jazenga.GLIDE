@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="OnlinePackageManager"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Balázs Székely"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="vst\include\intf\$(LCLWidgetType);vst\include\$(LCLWidgetType)"/>
+        <OtherUnitFiles Value="vst;vst\units\$(LCLWidgetType);fpcmod;frames"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CustomOptions Value="$(IDEBuildOptions)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Online package manger"/>
+    <License Value="GPL"/>
+    <Version Major="1" Release="1" Build="2"/>
+    <Files Count="26">
+      <Item1>
+        <Filename Value="onlinepackagemanagerintf.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="onlinepackagemanagerintf"/>
+      </Item1>
+      <Item2>
+        <Filename Value="opkman_mainfrm.pas"/>
+        <UnitName Value="opkman_mainfrm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Item2>
+      <Item3>
+        <Filename Value="opkman_optionsfrm.pas"/>
+        <UnitName Value="opkman_optionsfrm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Item3>
+      <Item4>
+        <Filename Value="opkman_const.pas"/>
+        <UnitName Value="opkman_const"/>
+      </Item4>
+      <Item5>
+        <Filename Value="opkman_visualtree.pas"/>
+        <UnitName Value="opkman_visualtree"/>
+      </Item5>
+      <Item6>
+        <Filename Value="opkman_serializablepackages.pas"/>
+        <UnitName Value="opkman_serializablepackages"/>
+      </Item6>
+      <Item7>
+        <Filename Value="opkman_downloader.pas"/>
+        <UnitName Value="opkman_downloader"/>
+      </Item7>
+      <Item8>
+        <Filename Value="opkman_common.pas"/>
+        <UnitName Value="opkman_common"/>
+      </Item8>
+      <Item9>
+        <Filename Value="opkman_progressfrm.pas"/>
+        <UnitName Value="opkman_progressfrm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Item9>
+      <Item10>
+        <Filename Value="opkman_zipper.pas"/>
+        <UnitName Value="opkman_zipper"/>
+      </Item10>
+      <Item11>
+        <Filename Value="opkman_timer.pas"/>
+        <UnitName Value="opkman_timer"/>
+      </Item11>
+      <Item12>
+        <Filename Value="opkman_installer.pas"/>
+        <UnitName Value="opkman_installer"/>
+      </Item12>
+      <Item13>
+        <Filename Value="opkman_packagelistfrm.pas"/>
+        <UnitName Value="opkman_packagelistfrm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Item13>
+      <Item14>
+        <Filename Value="opkman_options.pas"/>
+        <UnitName Value="opkman_options"/>
+      </Item14>
+      <Item15>
+        <Filename Value="opkman_createrepositorypackagefrm.pas"/>
+        <UnitName Value="opkman_createrepositorypackagefrm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Item15>
+      <Item16>
+        <Filename Value="opkman_categoriesfrm.pas"/>
+        <UnitName Value="opkman_categoriesfrm"/>
+      </Item16>
+      <Item17>
+        <Filename Value="opkman_packagedetailsfrm.pas"/>
+        <UnitName Value="opkman_packagedetailsfrm"/>
+      </Item17>
+      <Item18>
+        <Filename Value="opkman_updates.pas"/>
+        <UnitName Value="opkman_updates"/>
+      </Item18>
+      <Item19>
+        <Filename Value="opkman_createjsonforupdatesfrm.pas"/>
+        <UnitName Value="opkman_createjsonforupdatesfrm"/>
+      </Item19>
+      <Item20>
+        <Filename Value="opkman_uploader.pas"/>
+        <UnitName Value="opkman_uploader"/>
+      </Item20>
+      <Item21>
+        <Filename Value="opkman_repositories.pas"/>
+        <UnitName Value="opkman_repositories"/>
+      </Item21>
+      <Item22>
+        <Filename Value="opkman_createrepositoryfrm.pas"/>
+        <UnitName Value="opkman_createrepositoryfrm"/>
+      </Item22>
+      <Item23>
+        <Filename Value="opkman_repositorydetailsfrm.pas"/>
+        <UnitName Value="opkman_repositorydetailsfrm"/>
+      </Item23>
+      <Item24>
+        <Filename Value="opkman_addrepositorypackagefrm.pas"/>
+        <UnitName Value="opkman_addrepositorypackagefrm"/>
+      </Item24>
+      <Item25>
+        <Filename Value="opkman_intf.pas"/>
+        <UnitName Value="opkman_intf"/>
+      </Item25>
+      <Item26>
+        <Filename Value="opkman_intf_packagelistfrm.pas"/>
+        <UnitName Value="opkman_intf_packagelistfrm"/>
+      </Item26>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="languages"/>
+    </i18n>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

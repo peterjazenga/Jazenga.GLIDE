@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="attabs_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Alexey Torgashin"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Delphi/Lazarus component for lite tabs. OS independent, fully custom drawn.
+- can show x-icons in many styles
+- can show plus pseudo-tab
+- can show scroll arrows if lot of tabs
+- can show flat tabs (Material style)
+- can use multi-line mode
+- can show colored tabs
+- can show drop-down tab menu
+- can show icons/numbers on tabs
+- can confirm tab closing
+- allow tab owner-draw
+- drag-drop tabs, also to another control
+etc."/>
+    <License Value="MPL 2.0, LGPL"/>
+    <Version Major="1" Minor="6"/>
+    <Files Count="2">
+      <Item1>
+        <Filename Value="attabs_register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="attabs_register"/>
+      </Item1>
+      <Item2>
+        <Filename Value="attabs.pas"/>
+        <UnitName Value="ATTabs"/>
+      </Item2>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

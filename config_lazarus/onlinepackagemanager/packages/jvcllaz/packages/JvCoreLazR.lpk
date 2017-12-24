@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="JvCoreLazR"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Lazarus port by Sergio Samayoa"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\resource"/>
+        <OtherUnitFiles Value="..\run\JvCore"/>
+        <UnitOutputDirectory Value="..\lib\$(TargetCPU)-$(TargetOS)\run\JvCore"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Description Value="JVCL Core Components (Runtime). Must be compiled before any of the other JvXXX packages can be installed.
+"/>
+    <License Value="The JVCL is released in accordance with the MPL 1.1 license. To get your own copy or read it, go to http://www.mozilla.org/MPL/MPL-1.1.html. "/>
+    <Version Major="1" Release="1"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="..\run\JvCore\JvTypes.pas"/>
+        <UnitName Value="JvTypes"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\run\JvCore\JvComponent.pas"/>
+        <UnitName Value="JvComponent"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\run\JvCore\JvConsts.pas"/>
+        <UnitName Value="JvConsts"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\run\JvCore\JvExControls.pas"/>
+        <UnitName Value="JvExControls"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\run\JvCore\JvExExtCtrls.pas"/>
+        <UnitName Value="JvExExtCtrls"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\run\JvCore\JvJCLUtils.pas"/>
+        <UnitName Value="JvJCLUtils"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\run\JvCore\JvJVCLUtils.pas"/>
+        <UnitName Value="JvJVCLUtils"/>
+      </Item7>
+      <Item8>
+        <Filename Value="..\run\JvCore\JvResources.pas"/>
+        <UnitName Value="JvResources"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

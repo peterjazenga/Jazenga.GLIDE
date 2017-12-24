@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1255530236"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -gl -vewnhi -l -Fi/Extra/SW/FileMenuHandler/Demo/ -Fu/Extra/SW/FileMenuHandler/ -Fu/Extra/SW/FileMenuHandler/lib/i386-linux/ -Fu/Extra/SW/lazarus/lcl/units/i386-linux/ -Fu/Extra/SW/lazarus/lcl/units/i386-linux/gtk2/ -Fu/Extra/SW/lazarus/packager/units/i386-linux/ -Fu/Extra/SW/FileMenuHandler/Demo/ -Fu. -FE/Extra/SW/FileMenuHandler/Demo/ -oMainFrm -dLCL -dLCLgtk2 MainFrm.pas"/>
+</CONFIG>

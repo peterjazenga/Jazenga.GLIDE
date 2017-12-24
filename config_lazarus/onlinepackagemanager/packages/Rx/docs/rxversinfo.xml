@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="RxVersInfo"><element name="TRxVersionInfo"><short>Класс TRxVersionInfo предоставляет доступ к информации о версии программы</short><descr><p>Класс TRxVersionInfo предоставляет доступ к информации о версии программы. </p><p>После создания объекта этого класса вы можете получить доступ к информации из ресурса VERSIONINFO через свойства (только-для-чтения) объекта, если чтение ресурса из специфицированного файла окончилось успешно. Вы можете проверить результат чтения информации из файла по значению свойства <link id="TRxVersionInfo.Valid">Valid</link> - значение True соответствует успешному чтению данных. При изменении свойства, задающего имя исполняемого файла с ресурсом VERSIONINFO, происходит обновление данных объекта. Успешность обновления можно также проверить по значению свойства <link id="TRxVersionInfo.Valid">Valid</link>. 
+</p><p>Данный класс предоставляет информацию о наиболее часто используемых свойствах скомпилируемого исполняемого модуля. Фактически является надстройкой над пакетом fpc <b>fcl-res</b>
+          </p>
+        </descr>
+      </element><short>Модуль RxVersInfo содержит инструменты доступа к информации о версии программы</short><descr>Модуль RxVersInfo содержит инструменты доступа к информации о версии программы</descr><element name="TRxVersionInfo.LoadFromFile"><short>Процедура загружает данные о версии указанного исполняемого модуля</short>
+      </element><element name="TRxVersionInfo.FileName"><short>Файл, для которого определяется информация по версии</short>
+      </element><element name="TRxVersionInfo.Create"><short>Создаёт объект и загружает данные о версии программы</short><descr>Создаёт объект и загружает данные о версии программы вызовом метода <link id="TRxVersionInfo.LoadFromFile">LoadFromFile</link>
+        </descr>
+      </element><element name="TRxVersionInfo.Valid"><short>Свойство Valid (только-для-чтения) позволяет вам определить результат чтения данных с информацией о версии из специфицированного исполняемого файла. Значение True говорит о том, что чтение данных прошло успешно, в противном случае Valid = False.</short>
+      </element><element name="TRxVersionInfo.FileLongVersion"><short>Свойство задает имя исполняемого файла (EXE или DLL), из которого считывается информация о версии.</short><descr>Свойство задает имя исполняемого файла (EXE или DLL), из которого считывается информация о версии. При изменении значения свойства FileName происходит чтение ресурса VERSIONINFO из указанного файла. Если чтение данных окончилось успешно, свойство <link id="TRxVersionInfo.Valid">Valid</link> (только чтение) устанавливается в значение True, иначе - в False.</descr>
+      </element><element name="TRxVersionInfo.Translation"><short>Значение свойства представляет собой указатель на массив идентификаторов языка (language) и набора символов (character-set), используемых при чтении данных из ресурса с информацией о версии.</short>
+      </element><element name="TRxVersionInfo.VersionLanguage"><short>Идентификатор языка (language), используемого при чтении информации из ресурса</short>
+      </element><element name="TRxVersionInfo.VersionCharSet"><short>Идентификатор набора символов (character-set), используемого при чтении информации из ресурса</short>
+      </element><element name="TRxVersionInfo.VersionNum"><short>Свойство определяет номер версии файла как длинное целое.</short>
+      </element><element name="TRxVersionInfo.Comments"><short>Свойство позволяет получить строку из информации о версии, обозначенную как комментарий</short>
+      </element><element name="TRxVersionInfo.CompanyName"><short>Свойство для доступа к строке из иформации о версии, специфицирующей имя компании-производителя</short>
+      </element><element name="TRxVersionInfo.FileDescription"><short>Свойство для доступа к описанию исполнимого файла из информации о версии</short>
+      </element><element name="TRxVersionInfo.FileVersion"><short>Свойство для доступа к строке, содержащей номер версии файла, полученной из ресурса типа VERSIONINFO.</short>
+      </element><element name="TRxVersionInfo.InternalName"><short>Свойство для доступа к строке, содержашей "внутреннее" имя файла, если оно присутствует в информации о версии. Это, например, может быть имя модуля, если файл является динамически загружаемой библиотекой (DLL).</short>
+      </element><element name="TRxVersionInfo.LegalCopyright"><short>Свойство для доступа к строке из иформации о версии, специфицирующей авторские права</short>
+      </element><element name="TRxVersionInfo.LegalTrademarks"><short>Свойство для доступа к строке из иформации о версии, специфицирующей товарные знаки и зарегистрированные товарные знаки, применимые к файлу</short>
+      </element><element name="TRxVersionInfo.OriginalFilename"><short>Свойство для доступа к строке из иформации о версии, специфицирующей оригинальное (первоначальное) имя файла (не включая путь). Эта информация может понадобиться, если файл переименован пользователем</short>
+      </element><element name="TRxVersionInfo.ProductVersion"><short>Свойство для доступа к строке, содержащей номер версии продукта, полученной из ресурса типа VERSIONINFO, например "3.10" или "5.00.RC2"</short>
+      </element><element name="TRxVersionInfo.ProductName"><short>Свойство для доступа к имени продукта из информации о версии. Распространение продукта обычно производится с этим именем</short>
+      </element><element name="TRxVersionInfo.SpecialBuild"><short>Свойство для доступа к строке из иформации о версии, содержащей частную (конфиденциальную) информацию о предварительной версии продукта. Как правило, в окончательных версиях исполняемых файлов такая информация отсутствует</short>
+      </element><element name="TRxVersionInfo.PrivateBuild"><short>Свойство для доступа к строке из иформации о версии, содержащей частную (конфиденциальную) информацию о предварительной версии продукта. Как правило, в окончательных версиях исполняемых файлов такая информация отсутствует</short>
+      </element><element name="TRxVersionInfo.Values"><short>Свойство предоставляет доступ к любой текстовой информации из ресурса VERSIONINFO</short><descr>Свойство предоставляет доступ к любой текстовой информации из ресурса VERSIONINFO. Считываемая строка задается параметром Name.</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

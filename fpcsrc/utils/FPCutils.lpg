@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectGroup FileVersion="1">
+    <Targets Count="1">
+      <Target0 FileName="delp.lpi">
+        <BuildModes Count="1"/>
+        <Mode1 Name="Default"/>
+      </Target0>
+    </Targets>
+  </ProjectGroup>
+</CONFIG>

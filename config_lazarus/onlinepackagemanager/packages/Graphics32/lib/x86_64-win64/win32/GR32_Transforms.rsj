@@ -1,0 +1,8 @@
+{"version":1,"strings":[
+{"hash":37674574,"name":"gr32_transforms.rcstrreversetransformationnotimplemented","sourcebytes":[82,101,118,101,114,115,101,32,116,114,97,110,115,102,111,114,109,97,116,105,111,110,32,105,115,32,110,111,116,32,105,109,112,108,101,109,101,110,116,101,100,32,105,110,32,37,115,46],"value":"Reverse transformation is not implemented in %s."},
+{"hash":41200894,"name":"gr32_transforms.rcstrforwardtransformationnotimplemented","sourcebytes":[70,111,114,119,97,114,100,32,116,114,97,110,115,102,111,114,109,97,116,105,111,110,32,105,115,32,110,111,116,32,105,109,112,108,101,109,101,110,116,101,100,32,105,110,32,37,115,46],"value":"Forward transformation is not implemented in %s."},
+{"hash":15023260,"name":"gr32_transforms.rcstrtopbottomcurvenil","sourcebytes":[84,111,112,32,111,114,32,98,111,116,116,111,109,32,99,117,114,118,101,32,105,115,32,110,105,108],"value":"Top or bottom curve is nil"},
+{"hash":223904609,"name":"gr32_transforms.rcstrsrcrectisempty","sourcebytes":[83,114,99,82,101,99,116,32,105,115,32,101,109,112,116,121,33],"value":"SrcRect is empty!"},
+{"hash":175305953,"name":"gr32_transforms.rcstrmappingrectisempty","sourcebytes":[77,97,112,112,105,110,103,82,101,99,116,32,105,115,32,101,109,112,116,121,33],"value":"MappingRect is empty!"},
+{"hash":221437993,"name":"gr32_transforms.rstrstackempty","sourcebytes":[83,116,97,99,107,32,101,109,112,116,121],"value":"Stack empty"}
+]}

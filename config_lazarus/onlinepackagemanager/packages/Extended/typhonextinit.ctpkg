@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="typhonextinit"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="inicomp"/>
+        <OtherUnitFiles Value="inicomp"/>
+        <UnitOutputDirectory Value="typhon/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <CPPInline Value="False"/>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+    </CompilerOptions>
+    <Version Major="1" Minor="3" Release="3" Build="1"/>
+    <Files Count="15">
+      <Item1>
+        <Filename Value="inicomp/u_extmenucustomize.pas"/>
+        <UnitName Value="u_extmenucustomize"/>
+      </Item1>
+      <Item2>
+        <Filename Value="inicomp/u_onforminfoini.pas"/>
+        <UnitName Value="U_OnFormInfoIni"/>
+      </Item2>
+      <Item3>
+        <Filename Value="inicomp/u_extmenutoolbar.pas"/>
+        <UnitName Value="u_extmenutoolbar"/>
+      </Item3>
+      <Item4>
+        <Filename Value="inicomp/u_formadapt.pas"/>
+        <UnitName Value="U_FormAdapt"/>
+      </Item4>
+      <Item5>
+        <Filename Value="inicomp/u_formmainini.pas"/>
+        <UnitName Value="U_FormMainIni"/>
+      </Item5>
+      <Item6>
+        <Filename Value="inicomp/fonctions_forms.pas"/>
+        <UnitName Value="fonctions_forms"/>
+      </Item6>
+      <Item7>
+        <Filename Value="inicomp/u_customizemenu.lfm"/>
+        <UnitName Value="u_customizemenu"/>
+      </Item7>
+      <Item8>
+        <Filename Value="inicomp/u_customizemenu.pas"/>
+        <UnitName Value="U_CustomizeMenu"/>
+      </Item8>
+      <Item9>
+        <Filename Value="inicomp/fonctions_vtree.pas"/>
+        <UnitName Value="fonctions_vtree"/>
+      </Item9>
+      <Item10>
+        <Filename Value="inicomp/menutbar.pas"/>
+        <UnitName Value="menutbar"/>
+      </Item10>
+      <Item11>
+        <Filename Value="inicomp/u_connection.lfm"/>
+        <UnitName Value="u_connection"/>
+      </Item11>
+      <Item12>
+        <Filename Value="inicomp/u_connection.pas"/>
+        <UnitName Value="u_connection"/>
+      </Item12>
+      <Item13>
+        <Filename Value="inicomp/u_scrollclones.pas"/>
+        <UnitName Value="u_scrollclones"/>
+      </Item13>
+      <Item14>
+        <Filename Value="inicomp/fonctions_init.pas"/>
+        <UnitName Value="fonctions_init"/>
+      </Item14>
+      <Item15>
+        <Filename Value="inicomp/fonctions_scaledpi.pas"/>
+        <UnitName Value="fonctions_scaledpi"/>
+      </Item15>
+    </Files>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="LANG"/>
+    </i18n>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="typhonextbase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="expertsuperformtyphon"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="typhonextcore"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_rx"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_virtualtrees"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

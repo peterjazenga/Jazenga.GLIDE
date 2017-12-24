@@ -1,0 +1,193 @@
+<html>
+
+<head>
+
+<title>PlotPanel</title>
+
+</head>
+
+<body>
+
+
+<h1>PlotPanel</h1>
+
+<h4>
+PlotPanel is a component for Delphi or Lazarus to replace (more or less) the TChart component. <BR>
+
+With PlotPanel you can draw line- , dot- and bar-graphs. Animated graphs are also possible. <BR>
+
+This software is presented as is, without any written warranty. So use the software at your own risk.<BR> 
+
+<h3>Screenshot </h3>
+<IMG SRC="PlotPanel_files/image001.png" WIDTH=500 HEIGHT=327 BORDER=0 ALT="">
+<h2>Installation</h2>
+
+<p>To Install the PlotPanel component in Delphi you have to
+do the following: </p>
+
+<ul >
+ <li >Download the PlotPanelpackage 
+ <li l>Unzip plotpanel in a directory of your choice. 
+ <li >Start Delphi or Lazarus 
+ <li >Perform the necessairy actions to intall the package. 
+</ul>
+
+<p >After you have done that all, there must be
+a new Tab in the component palet with the name &quot;Extra&quot;. You can use
+the Plotpanel now  </p>
+
+<p> Run the PlotPanelDemo to explore the features of PlotPanel.
+N.B. You can try PlotPanel without installing the component by running
+TryPlotPanel!  </p>
+
+<h2><a name="Description_of_the_PlotPanel_component"></a> Description
+of the PlotPanel component  </h2>
+
+<P>This is a very rude description of the component. See the
+examples for an explanation of how to use the component. The PlotPanel
+component is derived from the TCustomPanel-component. To this Panel plotting
+capabilities are added.  </p>
+
+<h2><a name="Properties_inherited_from_TCustomPanel"></a> Properties
+inherited from TCustomPanel  </h2>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Align, Anchors,
+Autosize, BevelInner / Outer / Width  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Borderspacing,
+BorderStyle, Borderwidth  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Color is the
+color of the border of the plot  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Constraints,
+Cursor, Dragmode, Enabled  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Font is the font
+of the title of the plot  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Height,
+HelpContext, HelpKeyword, HelpType, Hint  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Left, Name,
+ParenColor, Parentfont, ParentShowHint  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> PopupMenu,
+ShowHint, TabOrder, TabStop  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'> Tag, Top,
+Visible, Width  </p>
+
+<h2><a name="The_following_properties_are_added"></a> The following
+properties are added  </h2>
+
+<b> BackColor </b>
+This is the background color of the plotting area 
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> GridColor  </b> 
+ When you make this the same as Backcolor, the grid is invisible  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> LayerOption  </b> 
+ For easy plotting of a single layer this can be set to False. It is
+not possible to set this to True directly (see methods)  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> Margin </b> 
+  The width of the border of the plot in pixels  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> PlotMode </b> 
+  Three plotmodes are possible: pmBar, pmLine and pmDot  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> PlotPen </b> 
+  Properties of the plotting pen. If LayerOption is False, then all
+sub-properties can be set. If LayerOption is True, then information about the
+plotting pen is transferred via the LayerOptions method (methods)  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> Title </b> 
+  The Title is at the top center of the plot and uses the Font
+property  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> PlotBMP </b> 
+  This is a bitmap holding the whole graph (see demo for its use)  </p>
+
+<p> <br>
+<b>The X-axis properties:</b>  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XLabel </b> 
+  The Label at the X-axis </p>
+  
+<p class=MsoNormal style='margin-left:36.0pt'><b> XMarks </b> 
+  When True, the X-axis has marks  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XMarksFont </b> 
+  Font used for the XMarks  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XMarksInterval </b> 
+  Interval between to lines in the grid (applies for linear scales
+only)  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XMax </b> 
+  Maximum value of X that is visible  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XMin  </b> 
+ Minimal value of X that is visible  </p>
+
+<p class=MsoNormal style='margin-left:36.0pt'><b> XScaleLog  </b> 
+ When TRUE the scale is logarithmic (the interval is determined by
+the component)  </p>
+
+<p> <br>
+<b>For the Y-axis the same applies.</b>  </p>
+
+<h2><a name="Methods:"></a>Methods: </h2>
+
+<p><b> AddXY(X,Y:Extended) </b>  With
+this method you can add points (or lines) to the plot Example for i:= -10 to 10
+do PlotPanel1.AddXY(i,i*i) This plots a parbola .The line is plotted with the
+PlotPen properties Note you can only plot a single layer.  </p>
+
+<p><b> AddXY(X,Y:Extended, Color:Tcolor,Layer:Integer) </b> With this method it is possible to plot up to 8 lines in different
+colors, plotmodes and penwidths (see LayerOptions how to set linewidth and
+plotmodes)  </p>
+
+<p><b> LayerOptions(Layer:Integer;PlotMode:TPlotMode;PenWidth:Integer) </b> 
+  Every Layer can use a different Plotmode and PenWidth When you call
+this method LayerOPtion will be set TRUE. When you want to use a single Layer
+again you have to set LayerOption False! Autoscale(Layer:Integer) With this
+method you can adjust the size of the plot automatically  </p>
+
+<p><b> ClearData </b>  Clears all the data on
+the plot.  </p>
+
+<p><b> ClearData(Layer:Integer) </b>  Clears only the data on of a single layer on the plot.  </p>
+
+<p><b> ConvertS2W(x,y: Extended; var WX,WY&nbsp;: Extended) </b> Converts the screen-coordinates in X,Y to the real coordinates WX,WY. When X and Y are out of bounds, the function returns False, otherwise True  </p>
+
+<p><b> Freeze(Boolean) </b>  When
+Freeze(True) is executed all plotting is done on a invisible bitmap. After a
+Freeze(False) the whole plot is displayed. This produces flicker-free
+animations.  </p>
+
+<p><b> HideLayer(Layer:Integer) </b>  Use
+this to hide a single layer in the plot  </p>
+
+<p><b> UnHideLayer(Layer:Integer) </b> 
+Shows the hidden layer again N.B. When you add points to a hidden layer, the
+old layer is deleted and the new points are the only points in this layer!  </p>
+
+<p><b> Paint </b>  Repaints the whole
+Graph (is done automatically by the system when necessary)  </p>
+
+<h2><a name="Events:"></a>Events: </h2>
+<p><b>OnXMarksWrite and OnYMarksWrite</b> Using these events the user can change the way the marks (values) on the axis are written</p>
+
+
+<p> <br>
+ September 2010 Marien van Westen </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

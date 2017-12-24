@@ -1,0 +1,211 @@
+object Form1: TForm1
+  Left = 534
+  Height = 368
+  Top = 234
+  Width = 498
+  ActiveControl = RxDBLookupCombo1
+  Caption = 'RxDBLookupCombo test'
+  ClientHeight = 368
+  ClientWidth = 498
+  OnCreate = FormCreate
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 6
+    Height = 20
+    Top = 6
+    Width = 85
+    BorderSpacing.Around = 6
+    Caption = 'Select item...'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Button1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Button1
+    AnchorSideTop.Side = asrCenter
+    Left = 106
+    Height = 20
+    Top = 78
+    Width = 42
+    BorderSpacing.Around = 6
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object RxDBLookupCombo1: TRxDBLookupCombo
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 12
+    Height = 32
+    Top = 32
+    Width = 480
+    AutoSize = True
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    ButtonOnlyWhenFocused = False
+    ButtonWidth = 15
+    Color = clWindow
+    DataField = 'ID'
+    DataSource = dsData1
+    PopUpFormOptions.Columns = <>
+    Flat = False
+    Glyph.Data = {
+      72000000424D7200000000000000360000002800000005000000030000000100
+      2000000000003C00000064000000640000000000000000000000000000000000
+      0000000000FF000000000000000000000000000000FF000000FF000000FF0000
+      0000000000FF000000FF000000FF000000FF000000FF
+    }
+    NumGlyphs = 1
+    ParentColor = False
+    ReadOnly = False
+    TabOrder = 0
+    TabStop = True
+    DisplayAllFields = True
+    LookupDisplay = 'ID;Price;Caption'
+    LookupDisplayIndex = 2
+    LookupField = 'ID'
+    LookupSource = dsLookUpData
+  end
+  object Button1: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = RxDBLookupCombo1
+    AnchorSideTop.Side = asrBottom
+    Left = 6
+    Height = 36
+    Top = 70
+    Width = 94
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Test caption'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    AnchorSideTop.Control = Button1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 424
+    Height = 36
+    Top = 112
+    Width = 68
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    BorderSpacing.Around = 6
+    Caption = 'Set text'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Button1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Button2
+    Left = 6
+    Height = 37
+    Top = 112
+    Width = 412
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Around = 6
+    TabOrder = 3
+    Text = 'Edit1'
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 208
+    Top = 160
+    Width = 498
+    Align = alBottom
+    Color = clWindow
+    Columns = <>
+    DataSource = dsLookUpData
+    TabOrder = 4
+  end
+  object rxData1: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+      end>
+    PacketRecords = 0
+    left = 320
+    top = 8
+    object rxData1ID: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object rxLookUpData: TRxMemoryData
+    FieldDefs = <    
+      item
+        Name = 'ID'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'Caption'
+        DataType = ftString
+        Size = 100
+      end    
+      item
+        Name = 'Price'
+        DataType = ftCurrency
+      end>
+    PacketRecords = 0
+    left = 208
+    top = 56
+    object rxLookUpDataID: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object rxLookUpDataCaption: TStringField
+      DisplayWidth = 100
+      FieldKind = fkData
+      FieldName = 'Caption'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object rxLookUpDataPrice: TCurrencyField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'Price'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+  end
+  object dsData1: TDataSource
+    DataSet = rxData1
+    left = 288
+    top = 8
+  end
+  object dsLookUpData: TDataSource
+    DataSet = rxLookUpData
+    left = 176
+    top = 56
+  end
+end

@@ -1,0 +1,62 @@
+object ShowINIForm: TShowINIForm
+  Left = 782
+  Height = 540
+  Top = 225
+  Width = 768
+  BorderStyle = bsToolWindow
+  Caption = 'INI'
+  ClientHeight = 540
+  ClientWidth = 768
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '1.7'
+  object Memo_INI: TMemo
+    Left = 0
+    Height = 482
+    Top = 0
+    Width = 768
+    Align = alTop
+    Lines.Strings = (
+      'Memo_INI'
+    )
+    OnChange = Memo_INIChange
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object cmd_Close: TBitBtn
+    Left = 347
+    Height = 26
+    Top = 500
+    Width = 75
+    AutoSize = True
+    Caption = '&Close'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = cmd_CloseClick
+    TabOrder = 1
+  end
+  object cmd_saveChanges: TButton
+    Left = 600
+    Height = 25
+    Top = 499
+    Width = 154
+    AutoSize = True
+    Caption = 'Save Changes and Close'
+    Enabled = False
+    OnClick = cmd_saveChangesClick
+    TabOrder = 2
+  end
+  object cmd_Abort: TBitBtn
+    Left = 264
+    Height = 26
+    Top = 500
+    Width = 76
+    Caption = '&Revert'
+    Kind = bkAbort
+    ModalResult = 3
+    TabOrder = 3
+    Visible = False
+  end
+end

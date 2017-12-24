@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":122882777,"name":"dav_guistitchedcontrols.rcstrindexoutofbounds","sourcebytes":[73,110,100,101,120,32,111,117,116,32,111,102,32,98,111,117,110,100,115,32,40,37,100,41],"value":"Index out of bounds (%d)"},
+{"hash":224340533,"name":"dav_guistitchedcontrols.rcstrglyphcountmustbepositive","sourcebytes":[84,104,101,32,103,108,121,112,104,32,99,111,117,110,116,32,109,117,115,116,32,98,101,32,112,111,115,105,116,105,118,101],"value":"The glyph count must be positive"}
+]}

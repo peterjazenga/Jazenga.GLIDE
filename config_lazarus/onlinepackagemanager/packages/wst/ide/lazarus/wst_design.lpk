@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="wst_design"/>
+    <Type Value="DesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Inoussa OUEDRAOGO"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\..;..\..\ws_helper;..\..\wst_rtti_filter;..\..\type_lib_edtr"/>
+        <OtherUnitFiles Value="..\..;..\..\ws_helper;..\..\wst_rtti_filter;..\..\type_lib_edtr"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <CustomOptions Value="-dWST_IDE
+-dWST_HANDLE_DOC"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Web Services Toolkit Lazarus IDE design time package. This package installs a WSDL import utility and a WSDL editor into Lazarus.
+
+The &quot;Web Service Toolkit”  (WST) is a web-services consumption and authoring toolkit for FPC/Lazarus and Delphi developers. WST has support for SOAP,XMLRPC, JSON-RPC, a custom binary serialization formats and WSDL for services description. The supported transport protocols include HTTP, TCP and a library-base (for an in-process communication) tranport."/>
+    <License Value="Modified LGPL"/>
+    <Version Minor="8"/>
+    <Files Count="53">
+      <Item1>
+        <Filename Value="wstimportdlg.lfm"/>
+        <Type Value="LFM"/>
+      </Item1>
+      <Item2>
+        <Filename Value="wstimportdlg.pas"/>
+        <UnitName Value="wstimportdlg"/>
+      </Item2>
+      <Item3>
+        <Filename Value="wst_register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="wst_register"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\..\type_lib_edtr\uwsttypelibraryedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\..\type_lib_edtr\uwsttypelibraryedit.pas"/>
+        <UnitName Value="uwsttypelibraryedit"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\..\type_lib_edtr\uabout.lfm"/>
+        <Type Value="LFM"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\..\type_lib_edtr\uabout.pas"/>
+        <UnitName Value="uabout"/>
+      </Item7>
+      <Item8>
+        <Filename Value="..\..\type_lib_edtr\udm.lfm"/>
+        <Type Value="LFM"/>
+      </Item8>
+      <Item9>
+        <Filename Value="..\..\type_lib_edtr\udm.pas"/>
+        <UnitName Value="udm"/>
+      </Item9>
+      <Item10>
+        <Filename Value="..\..\type_lib_edtr\ubindingedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item10>
+      <Item11>
+        <Filename Value="..\..\type_lib_edtr\ubindingedit.pas"/>
+        <UnitName Value="ubindingedit"/>
+      </Item11>
+      <Item12>
+        <Filename Value="..\..\type_lib_edtr\ueditoptions.lfm"/>
+        <Type Value="LFM"/>
+      </Item12>
+      <Item13>
+        <Filename Value="..\..\type_lib_edtr\ueditoptions.pas"/>
+        <UnitName Value="ueditoptions"/>
+      </Item13>
+      <Item14>
+        <Filename Value="..\..\type_lib_edtr\ufarrayedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item14>
+      <Item15>
+        <Filename Value="..\..\type_lib_edtr\ufarrayedit.pas"/>
+        <UnitName Value="ufarrayedit"/>
+      </Item15>
+      <Item16>
+        <Filename Value="..\..\type_lib_edtr\ufclassedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item16>
+      <Item17>
+        <Filename Value="..\..\type_lib_edtr\ufclassedit.pas"/>
+        <UnitName Value="ufclassedit"/>
+      </Item17>
+      <Item18>
+        <Filename Value="..\..\type_lib_edtr\ufenumedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item18>
+      <Item19>
+        <Filename Value="..\..\type_lib_edtr\ufenumedit.pas"/>
+        <UnitName Value="ufEnumedit"/>
+      </Item19>
+      <Item20>
+        <Filename Value="..\..\type_lib_edtr\ufpropedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item20>
+      <Item21>
+        <Filename Value="..\..\type_lib_edtr\ufpropedit.pas"/>
+        <UnitName Value="ufpropedit"/>
+      </Item21>
+      <Item22>
+        <Filename Value="..\..\type_lib_edtr\ufrecordedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item22>
+      <Item23>
+        <Filename Value="..\..\type_lib_edtr\ufrecordedit.pas"/>
+        <UnitName Value="ufrecordedit"/>
+      </Item23>
+      <Item24>
+        <Filename Value="..\..\type_lib_edtr\ufrmsaveoption.lfm"/>
+        <Type Value="LFM"/>
+      </Item24>
+      <Item25>
+        <Filename Value="..\..\type_lib_edtr\ufrmsaveoption.pas"/>
+        <UnitName Value="ufrmsaveoption"/>
+      </Item25>
+      <Item26>
+        <Filename Value="..\..\type_lib_edtr\uftypealiasedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item26>
+      <Item27>
+        <Filename Value="..\..\type_lib_edtr\uftypealiasedit.pas"/>
+        <UnitName Value="uftypealiasedit"/>
+      </Item27>
+      <Item28>
+        <Filename Value="..\..\type_lib_edtr\uinterfaceedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item28>
+      <Item29>
+        <Filename Value="..\..\type_lib_edtr\uinterfaceedit.pas"/>
+        <UnitName Value="uinterfaceedit"/>
+      </Item29>
+      <Item30>
+        <Filename Value="..\..\type_lib_edtr\umoduleedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item30>
+      <Item31>
+        <Filename Value="..\..\type_lib_edtr\umoduleedit.pas"/>
+        <UnitName Value="umoduleedit"/>
+      </Item31>
+      <Item32>
+        <Filename Value="..\..\type_lib_edtr\uprocedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item32>
+      <Item33>
+        <Filename Value="..\..\type_lib_edtr\uprocedit.pas"/>
+        <UnitName Value="uprocedit"/>
+      </Item33>
+      <Item34>
+        <Filename Value="..\..\type_lib_edtr\view_helper.pas"/>
+        <UnitName Value="view_helper"/>
+      </Item34>
+      <Item35>
+        <Filename Value="..\..\type_lib_edtr\uargedit.lfm"/>
+        <Type Value="LFM"/>
+      </Item35>
+      <Item36>
+        <Filename Value="..\..\type_lib_edtr\uargedit.pas"/>
+        <UnitName Value="uargedit"/>
+      </Item36>
+      <Item37>
+        <Filename Value="..\..\ws_helper\command_line_parser.pas"/>
+        <UnitName Value="command_line_parser"/>
+      </Item37>
+      <Item38>
+        <Filename Value="..\..\ws_helper\generator.pas"/>
+        <UnitName Value="generator"/>
+      </Item38>
+      <Item39>
+        <Filename Value="..\..\ws_helper\generatorbase.pas"/>
+        <UnitName Value="generatorbase"/>
+      </Item39>
+      <Item40>
+        <Filename Value="..\..\ws_helper\generatorj.pas"/>
+        <UnitName Value="generatorj"/>
+      </Item40>
+      <Item41>
+        <Filename Value="..\..\ws_helper\locators.pas"/>
+        <UnitName Value="locators"/>
+      </Item41>
+      <Item42>
+        <Filename Value="..\..\ws_helper\logger_intf.pas"/>
+        <UnitName Value="logger_intf"/>
+      </Item42>
+      <Item43>
+        <Filename Value="..\..\ws_helper\metadata_generator.pas"/>
+        <UnitName Value="metadata_generator"/>
+      </Item43>
+      <Item44>
+        <Filename Value="..\..\ws_helper\parserutils.pas"/>
+        <UnitName Value="parserutils"/>
+      </Item44>
+      <Item45>
+        <Filename Value="..\..\ws_helper\pascal_parser_intf.pas"/>
+        <UnitName Value="pascal_parser_intf"/>
+      </Item45>
+      <Item46>
+        <Filename Value="..\..\ws_helper\source_utils.pas"/>
+        <UnitName Value="source_utils"/>
+      </Item46>
+      <Item47>
+        <Filename Value="..\..\ws_helper\ws_parser_imp.pas"/>
+        <UnitName Value="ws_parser_imp"/>
+      </Item47>
+      <Item48>
+        <Filename Value="..\..\ws_helper\wsdl_generator.pas"/>
+        <UnitName Value="wsdl_generator"/>
+      </Item48>
+      <Item49>
+        <Filename Value="..\..\ws_helper\wsdl_parser.pas"/>
+        <UnitName Value="wsdl_parser"/>
+      </Item49>
+      <Item50>
+        <Filename Value="..\..\ws_helper\wst_resources_utils.pas"/>
+        <UnitName Value="wst_resources_utils"/>
+      </Item50>
+      <Item51>
+        <Filename Value="..\..\ws_helper\xsd_consts.pas"/>
+        <UnitName Value="xsd_consts"/>
+      </Item51>
+      <Item52>
+        <Filename Value="..\..\ws_helper\xsd_generator.pas"/>
+        <UnitName Value="xsd_generator"/>
+      </Item52>
+      <Item53>
+        <Filename Value="..\..\ws_helper\xsd_parser.pas"/>
+        <UnitName Value="xsd_parser"/>
+      </Item53>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

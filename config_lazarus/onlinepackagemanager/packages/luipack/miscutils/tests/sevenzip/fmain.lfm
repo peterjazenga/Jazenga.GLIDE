@@ -1,0 +1,89 @@
+object FormMain: TFormMain
+  Left = 260
+  Height = 526
+  Top = 144
+  Width = 606
+  HorzScrollBar.Page = 605
+  VertScrollBar.Page = 497
+  Caption = 'SevenZip Reader Basic Demo'
+  ClientHeight = 498
+  ClientWidth = 606
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poDesktopCenter
+  LCLVersion = '0.9.25'
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 8
+    Width = 65
+    Caption = 'File Path'
+    ParentColor = False
+  end
+  object ListViewFiles: TListView
+    Left = 8
+    Height = 440
+    Top = 56
+    Width = 592
+    Columns = <    
+      item
+        Caption = 'Name'
+        Width = 200
+      end    
+      item
+        Caption = 'Size'
+      end    
+      item
+        Caption = 'Packed'
+      end    
+      item
+        Caption = 'CRC'
+      end>
+    PopupMenu = PopupFiles
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+  object EditFileName: TFileNameEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 416
+    OnAcceptFileName = EditFileNameAcceptFileName
+    Filter = 'Supported Files|*.7z;*.zip;*.rar'
+    ButtonWidth = 23
+    NumGlyphs = 1
+    ParentColor = False
+    TabOrder = 1
+  end
+  object CheckGetDetails: TCheckBox
+    Left = 456
+    Height = 24
+    Top = 24
+    Width = 105
+    Caption = 'Get Details'
+    OnChange = CheckGetDetailsChange
+    TabOrder = 2
+  end
+  object MainMenu1: TMainMenu
+    left = 560
+    top = 144
+    object MIOptions: TMenuItem
+      Caption = 'Options'
+      OnClick = MIOptionsClick
+    end
+  end
+  object PopupFiles: TPopupMenu
+    OnPopup = PopupFilesPopup
+    left = 517
+    top = 147
+    object MIExtract: TMenuItem
+      Caption = 'Extract File...'
+      OnClick = MIExtractClick
+    end
+  end
+  object SelectDirectory: TSelectDirectoryDialog
+    left = 462
+    top = 153
+  end
+end

@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":53953278,"name":"edit_helper.s_cantdeletemainmodule","sourcebytes":[67,97,110,32,110,111,116,32,100,101,108,101,116,101,32,116,104,101,32,109,97,105,110,32,109,111,100,117,108,101,32,58,32,34,37,115,34,46],"value":"Can not delete the main module : \"%s\"."},
+{"hash":234827518,"name":"edit_helper.s_cantdeletestillreferencedobject","sourcebytes":[67,97,110,32,110,111,116,32,100,101,108,101,116,101,32,97,32,115,116,105,108,108,32,114,101,102,101,114,101,110,99,101,100,32,79,98,106,101,99,116,32,58,32,34,37,115,34,46],"value":"Can not delete a still referenced Object : \"%s\"."},
+{"hash":251043534,"name":"edit_helper.s_nohandlerfound","sourcebytes":[78,111,32,104,97,110,100,108,101,114,32,102,111,117,110,100,46],"value":"No handler found."}
+]}

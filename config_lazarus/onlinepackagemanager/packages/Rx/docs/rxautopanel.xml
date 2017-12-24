@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="rxnew"><module name="AutoPanel"><short>Модуль содержит класс TAutoPanel - компонент для масштабирование визуальных элементов</short><descr>Модуль содержит класс TAutoPanel - компонент для масштабирование визуальных элементов</descr><element name="TAutoPanel"><short>класс TAutoPanel - компонент для масштабирование визуальных элементов</short><descr><p>Класс TAutoPanel предназначен для управления размерами визуальных эелементов, расположенных на форме при изменении размеров формы
+Для нормальной работы масштабирования у всех компонентов, расположенных на данной панеле необходимо отключить параметр AutoSize
+</p><p>Непосредственно масштабированием управляют свойства AutoChildPosLeft, AutoChildPosTop, AutoChildWidth, AutoChildHeight</p>
+        </descr>
+      </element><element name="TAutoPanel.AutoChildPosLeft"><short>При масштабировании меняется левая позиция компонентов</short>
+      </element><element name="TAutoPanel.AutoChildPosTop"><short>При масштабировании меняется верхняя позиция компонентов</short>
+      </element><element name="TAutoPanel.AutoChildWidth"><short>При масштабировании меняется ширина компонентов</short>
+      </element><element name="TAutoPanel.AutoChildHeight"><short>При масштабировании меняется высота компонентов</short>
+      </element><element name="TAutoPanel.Resize"><short>Метод выполняет масштабирование всех элементов, расположенных на панеле</short><descr>Метод выполняет масштабирование всех элементов, расположенных на панеле</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

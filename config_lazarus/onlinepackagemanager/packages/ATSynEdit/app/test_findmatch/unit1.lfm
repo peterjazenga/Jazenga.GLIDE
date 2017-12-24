@@ -1,0 +1,138 @@
+object fmMain: TfmMain
+  Left = 396
+  Height = 321
+  Top = 258
+  Width = 667
+  BorderStyle = bsDialog
+  Caption = 'Test Finder.FindMatch'
+  ClientHeight = 321
+  ClientWidth = 667
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.7'
+  Visible = False
+  object Memo1: TMemo
+    Left = 8
+    Height = 48
+    Top = 24
+    Width = 407
+    Lines.Strings = (
+      'register'
+    )
+    TabOrder = 0
+  end
+  object Memo2: TMemo
+    Left = 8
+    Height = 216
+    Top = 96
+    Width = 407
+    Lines.Strings = (
+      'unit shapeline_reg;'
+      ''
+      'interface'
+      ''
+      'uses'
+      '  SysUtils, Classes, Controls, LResources, shapeline;'
+      ''
+      'procedure Register;'
+      ''
+      'implementation'
+      ''
+      'procedure Register;'
+      'begin'
+      '  RegisterComponents(''Misc'', [TShapeLine]);'
+      'end;'
+      ''
+      'initialization'
+      '  {$I res/icons.lrs}'
+      ''
+      'end.'
+    )
+    TabOrder = 1
+  end
+  object bFindNext: TButton
+    Left = 431
+    Height = 25
+    Top = 62
+    Width = 120
+    Caption = 'find next'
+    OnClick = bFindNextClick
+    TabOrder = 3
+  end
+  object bFind: TButton
+    Left = 431
+    Height = 25
+    Top = 30
+    Width = 120
+    Caption = 'find first'
+    OnClick = bFindClick
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 17
+    Top = 7
+    Width = 62
+    Caption = 'find what'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 17
+    Top = 80
+    Width = 70
+    Caption = 'find where'
+    ParentColor = False
+  end
+  object Memo3: TMemo
+    Left = 424
+    Height = 58
+    Top = 254
+    Width = 230
+    Lines.Strings = (
+      ''
+    )
+    ReadOnly = True
+    TabOrder = 8
+  end
+  object chkBack: TCheckBox
+    Left = 431
+    Height = 24
+    Top = 174
+    Width = 92
+    Caption = 'backward'
+    TabOrder = 7
+  end
+  object chkCase: TCheckBox
+    Left = 431
+    Height = 24
+    Top = 126
+    Width = 89
+    Caption = 'case sens'
+    TabOrder = 5
+  end
+  object chkWords: TCheckBox
+    Left = 431
+    Height = 24
+    Top = 150
+    Width = 111
+    Caption = 'whole words'
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 424
+    Height = 17
+    Top = 230
+    Width = 39
+    Caption = 'result'
+    ParentColor = False
+  end
+  object chkRegex: TCheckBox
+    Left = 431
+    Height = 24
+    Top = 102
+    Width = 64
+    Caption = 'regex'
+    TabOrder = 4
+  end
+end

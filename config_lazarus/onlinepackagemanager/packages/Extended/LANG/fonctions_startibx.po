@@ -1,0 +1,7 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: fonctions_startibx.gs_charset_ibx
+msgid "utf8"
+msgstr ""
+

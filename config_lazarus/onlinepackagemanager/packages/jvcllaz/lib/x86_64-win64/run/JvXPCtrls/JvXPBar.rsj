@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":95466868,"name":"jvxpbar.rsuntitled","sourcebytes":[117,110,116,105,116,108,101,100],"value":"untitled"},
+{"hash":180693833,"name":"jvxpbar.rsuntitledfmt","sourcebytes":[40,37,115,32,37,100,41],"value":"(%s %d)"},
+{"hash":206744697,"name":"jvxpbar.rshintshortcutfmt","sourcebytes":[37,115,32,40,37,115,41],"value":"%s (%s)"}
+]}
