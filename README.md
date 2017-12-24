@@ -1,10 +1,8 @@
 # Jazenga GLIDE
 
-  
 ### GLIDE is an acronym for Globalized Lazarus Development Environment
 
-
-### [Project goals:](#goals)
+#### [Project goals:](#project-goals)
 
 + Build a well rounded IDE suite which includes a good range of components
 
@@ -34,7 +32,7 @@
 
 <br>
 
-### [Secondary goals:](#goals-2)
+#### [Secondary goals:](#secondary-goals)
 + Install web data servers
 
 + Install local management tools
