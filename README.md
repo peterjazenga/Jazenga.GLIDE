@@ -1,6 +1,6 @@
 # Jazenga GLIDE
 
-### GLIDE is an acronym for Globalized Lazarus Development Environment
+### GLIDE is an acronym for Globalized Lazarus Integrated Development Environment
 
 #### [Project goals:](#project-goals)
 
