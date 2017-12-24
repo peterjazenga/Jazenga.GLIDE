@@ -33,7 +33,7 @@
 <br>
 
 #### [Secondary goals:](#secondary-goals)
-+ Install web data servers
++ Install web & data servers
 
 + Install local management tools
 
