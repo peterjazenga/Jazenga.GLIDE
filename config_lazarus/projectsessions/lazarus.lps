@@ -3,12 +3,12 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <Units Count="244">
+    <Units Count="248">
       <Unit0>
         <Filename Value="lazarus.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Lazarus"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit0>
       <Unit1>
         <Filename Value="frames\oi_options.pas"/>
@@ -16,42 +16,42 @@
         <ComponentName Value="OIOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit1>
       <Unit2>
         <Filename Value="frames\files_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FilesOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit2>
       <Unit3>
         <Filename Value="frames\desktop_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DesktopOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit3>
       <Unit4>
         <Filename Value="frames\window_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="WindowOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit4>
       <Unit5>
         <Filename Value="frames\formed_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormEditorOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit5>
       <Unit6>
         <Filename Value="frames\backup_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="BackupOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit6>
       <Unit7>
         <Filename Value="frames\naming_options.pas"/>
@@ -59,7 +59,7 @@
         <ComponentName Value="NamingOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit7>
       <Unit8>
         <Filename Value="frames\fpdoc_options.pas"/>
@@ -67,7 +67,7 @@
         <ComponentName Value="FpDocOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit8>
       <Unit9>
         <Filename Value="frames\editor_indent_options.pas"/>
@@ -75,14 +75,14 @@
         <ComponentName Value="EditorIndentOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit9>
       <Unit10>
         <Filename Value="frames\editor_display_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="EditorDisplayOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit10>
       <Unit11>
         <Filename Value="frames\editor_keymapping_options.pas"/>
@@ -90,7 +90,7 @@
         <ComponentName Value="EditorKeymappingOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit11>
       <Unit12>
         <Filename Value="frames\editor_color_options.pas"/>
@@ -101,21 +101,21 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1019"/>
         <CursorPos X="61" Y="1032"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit12>
       <Unit13>
         <Filename Value="frames\editor_codetools_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="EditorCodetoolsOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit13>
       <Unit14>
         <Filename Value="frames\editor_codefolding_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="EditorCodefoldingOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit14>
       <Unit15>
         <Filename Value="frames\codetools_general_options.pas"/>
@@ -123,35 +123,35 @@
         <ComponentName Value="CodetoolsGeneralOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit15>
       <Unit16>
         <Filename Value="frames\codetools_codecreation_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodetoolsCodeCreationOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit16>
       <Unit17>
         <Filename Value="frames\codetools_wordpolicy_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodetoolsWordPolicyOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit17>
       <Unit18>
         <Filename Value="frames\codetools_linesplitting_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodetoolsLineSplittingOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit18>
       <Unit19>
         <Filename Value="frames\codetools_space_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodetoolsSpaceOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit19>
       <Unit20>
         <Filename Value="frames\codetools_identifiercompletion_options.pas"/>
@@ -159,7 +159,7 @@
         <ComponentName Value="CodetoolsIndentifierCompletionOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit20>
       <Unit21>
         <Filename Value="frames\editor_general_misc_options.pas"/>
@@ -167,7 +167,7 @@
         <ComponentName Value="EditorGeneralMiscOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit21>
       <Unit22>
         <Filename Value="..\debugger\frames\debugger_general_options.pas"/>
@@ -175,48 +175,48 @@
         <ComponentName Value="DebuggerGeneralOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit22>
       <Unit23>
         <Filename Value="..\debugger\frames\debugger_eventlog_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DebuggerEventLogOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit23>
       <Unit24>
         <Filename Value="..\debugger\frames\debugger_language_exceptions_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DebuggerLanguageExceptionsOptions"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit24>
       <Unit25>
         <Filename Value="..\debugger\frames\debugger_signals_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DebuggerSignalsOptions"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit25>
       <Unit26>
         <Filename Value="projectresources.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit26>
       <Unit27>
         <Filename Value="w32manifest.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit27>
       <Unit28>
         <Filename Value="projecticon.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit28>
       <Unit29>
         <Filename Value="w32versioninfo.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit29>
       <Unit30>
         <Filename Value="sourceeditor.pp"/>
@@ -225,7 +225,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="SourceEditor"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit30>
       <Unit31>
         <Filename Value="componentlist.pas"/>
@@ -233,28 +233,28 @@
         <ComponentName Value="ComponentListForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit31>
       <Unit32>
         <Filename Value="frames\codeexplorer_update_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodeExplorerUpdateOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit32>
       <Unit33>
         <Filename Value="frames\codeexplorer_categories_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodeExplorerCategoriesOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit33>
       <Unit34>
         <Filename Value="frames\codeobserver_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CodeObserverOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit34>
       <Unit35>
         <Filename Value="frames\help_general_options.pas"/>
@@ -262,7 +262,7 @@
         <ComponentName Value="HelpGeneralOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit35>
       <Unit36>
         <Filename Value="frames\editor_mouseaction_options.pas"/>
@@ -270,7 +270,7 @@
         <ComponentName Value="EditorMouseOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit36>
       <Unit37>
         <Filename Value="frames\editor_mouseaction_options_advanced.pas"/>
@@ -278,23 +278,27 @@
         <ComponentName Value="EditorMouseOptionsAdvFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit37>
       <Unit38>
         <Filename Value="main.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Main"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="431"/>
+        <CursorPos X="32" Y="447"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit38>
       <Unit39>
         <Filename Value="..\designer\designer.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit39>
       <Unit40>
         <Filename Value="..\designer\designerprocs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit40>
       <Unit41>
         <Filename Value="codebrowser.pas"/>
@@ -303,18 +307,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CodeBrowser"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit41>
       <Unit42>
         <Filename Value="project.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Project"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit42>
       <Unit43>
         <Filename Value="customformeditor.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit43>
       <Unit44>
         <Filename Value="aboutfrm.pas"/>
@@ -323,9 +327,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="AboutFrm"/>
-        <TopLine Value="129"/>
-        <CursorPos X="40" Y="147"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="130"/>
+        <CursorPos X="40" Y="148"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit44>
@@ -335,14 +339,14 @@
         <ComponentName Value="HelpSelectorDialog"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit45>
       <Unit46>
         <Filename Value="..\designer\askcompnamedlg.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="AskCompNameDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit46>
       <Unit47>
         <Filename Value="frames\project_application_options.pas"/>
@@ -350,28 +354,28 @@
         <ComponentName Value="ProjectApplicationOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit47>
       <Unit48>
         <Filename Value="frames\project_forms_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="ProjectFormsOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit48>
       <Unit49>
         <Filename Value="frames\project_lazdoc_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="ProjectFPDocOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit49>
       <Unit50>
         <Filename Value="frames\project_save_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="ProjectSaveOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit50>
       <Unit51>
         <Filename Value="frames\project_versioninfo_options.pas"/>
@@ -379,21 +383,21 @@
         <ComponentName Value="ProjectVersionInfoOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit51>
       <Unit52>
         <Filename Value="frames\project_i18n_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="ProjectI18NOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit52>
       <Unit53>
         <Filename Value="frames\project_misc_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="ProjectMiscOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit53>
       <Unit54>
         <Filename Value="frames\compiler_messages_options.pas"/>
@@ -401,7 +405,7 @@
         <ComponentName Value="CompilerMessagesOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit54>
       <Unit55>
         <Filename Value="frames\compiler_path_options.pas"/>
@@ -409,7 +413,7 @@
         <ComponentName Value="CompilerPathOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit55>
       <Unit56>
         <Filename Value="frames\compiler_parsing_options.pas"/>
@@ -417,7 +421,7 @@
         <ComponentName Value="CompilerParsingOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit56>
       <Unit57>
         <Filename Value="frames\compiler_codegen_options.pas"/>
@@ -425,7 +429,7 @@
         <ComponentName Value="CompilerCodegenOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit57>
       <Unit58>
         <Filename Value="frames\compiler_verbosity_options.pas"/>
@@ -433,7 +437,7 @@
         <ComponentName Value="CompilerVerbosityOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit58>
       <Unit59>
         <Filename Value="frames\compiler_other_options.pas"/>
@@ -442,7 +446,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="Compiler_Other_Options"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit59>
       <Unit60>
         <Filename Value="frames\compiler_compilation_options.pas"/>
@@ -450,25 +454,25 @@
         <ComponentName Value="CompilerCompilationOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit60>
       <Unit61>
         <Filename Value="debugmanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit61>
       <Unit62>
         <Filename Value="progresswnd.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="IDEProgressWindow"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit62>
       <Unit63>
         <Filename Value="fpcsrcscan.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="FPCSrcScan"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit63>
       <Unit64>
         <Filename Value="idefpcinfo.pas"/>
@@ -477,21 +481,21 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="IDEFPCInfo"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit64>
       <Unit65>
         <Filename Value="buildmodediffdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="BuildModeDiffDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit65>
       <Unit66>
         <Filename Value="checkcompoptsfornewunitdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CheckCompOptsForNewUnitDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit66>
       <Unit67>
         <Filename Value="ideinfodlg.pas"/>
@@ -500,7 +504,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="IDEInfoDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit67>
       <Unit68>
         <Filename Value="inspectchksumchangeddlg.pas"/>
@@ -508,83 +512,83 @@
         <ComponentName Value="InspectChksumChgDialog"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="InspectChksumChangedDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit68>
       <Unit69>
         <Filename Value="..\packager\missingpkgfilesdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="MissingPkgFilesDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit69>
       <Unit70>
         <Filename Value="..\packager\frames\package_usage_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PackageUsageOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit70>
       <Unit71>
         <Filename Value="..\packager\frames\package_description_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PackageDescriptionOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit71>
       <Unit72>
         <Filename Value="..\packager\frames\package_integration_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PackageIntegrationOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit72>
       <Unit73>
         <Filename Value="..\packager\frames\package_provides_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PackageProvidesOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit73>
       <Unit74>
         <Filename Value="..\packager\frames\package_i18n_options.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PackageI18NOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit74>
       <Unit75>
         <Filename Value="buildprojectdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="BuildProjectDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit75>
       <Unit76>
         <Filename Value="ideguicmdline.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="IDEGuiCmdLine"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit76>
       <Unit77>
         <Filename Value="frames\env_file_filters.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FileFiltersOptionsFrame"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit77>
       <Unit78>
         <Filename Value="idefpdocfilesearch.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPDocFileSearchDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit78>
       <Unit79>
         <Filename Value="..\packager\newpkgcomponentdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="NewPkgComponentDialog"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit79>
       <Unit80>
         <Filename Value="frames\editor_multiwindow_options.pas"/>
@@ -592,25 +596,25 @@
         <ComponentName Value="EditorMultiWindowOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit80>
       <Unit81>
         <Filename Value="ideinfoneedbuild.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="IDEInfoNeedBuildDlg"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit81>
       <Unit82>
         <Filename Value="sourcefilemanager.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="SourceFileManager"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit82>
       <Unit83>
         <Filename Value="..\packager\lpkcache.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit83>
       <Unit84>
         <Filename Value="frames\editor_general_options.pas"/>
@@ -618,7 +622,7 @@
         <ComponentName Value="EditorGeneralOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit84>
       <Unit85>
         <Filename Value="frames\editor_markup_options.pas"/>
@@ -627,7 +631,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit85>
       <Unit86>
         <Filename Value="editormacrolistviewer.pas"/>
@@ -636,12 +640,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="EditorMacroListViewer"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit86>
       <Unit87>
         <Filename Value="sourcesyneditor.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit87>
       <Unit88>
         <Filename Value="editoroptions.pp"/>
@@ -653,7 +657,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2687"/>
         <CursorPos X="17" Y="2720"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit88>
       <Unit89>
         <Filename Value="..\packager\cleanpkgdeps.pas"/>
@@ -661,12 +665,12 @@
         <ComponentName Value="CleanPkgDepsDlg"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit89>
       <Unit90>
         <Filename Value="modematrixopts.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit90>
       <Unit91>
         <Filename Value="frames\compiler_modematrix.pas"/>
@@ -674,7 +678,7 @@
         <ComponentName Value="CompOptModeMatrixFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit91>
       <Unit92>
         <Filename Value="frames\compiler_config_target.pas"/>
@@ -682,24 +686,24 @@
         <ComponentName Value="CompilerConfigTargetFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit92>
       <Unit93>
         <Filename Value="..\converter\convertdelphi.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ConvertDelphi"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit93>
       <Unit94>
         <Filename Value="etfpcmsgparser.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="etFPCMsgParser"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit94>
       <Unit95>
         <Filename Value="etmakemsgparser.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit95>
       <Unit96>
         <Filename Value="etmessageframe.pas"/>
@@ -708,18 +712,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="etMessageFrame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit96>
       <Unit97>
         <Filename Value="etquickfixes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="etQuickFixes"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit97>
       <Unit98>
         <Filename Value="etsrceditmarks.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit98>
       <Unit99>
         <Filename Value="etmessageswnd.pas"/>
@@ -727,7 +731,7 @@
         <ComponentName Value="MessagesView"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit99>
       <Unit100>
         <Filename Value="frames\project_resources_options.pas"/>
@@ -735,7 +739,7 @@
         <ComponentName Value="ResourcesOptionsFrame"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit100>
       <Unit101>
         <Filename Value="..\debugger\debugattachdialog.pas"/>
@@ -744,7 +748,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="DebugAttachDialog"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit101>
       <Unit102>
         <Filename Value="frames\msgwnd_options.pas"/>
@@ -753,93 +757,93 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="MsgWnd_Options"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit102>
       <Unit103>
         <Filename Value="compileroptions.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="CompilerOptions"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit103>
       <Unit104>
         <Filename Value="exttools.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ExtTools"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit104>
       <Unit105>
         <Filename Value="compiler.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Compiler"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit105>
       <Unit106>
         <Filename Value="exttooldialog.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit106>
       <Unit107>
         <Filename Value="version.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit107>
       <Unit108>
         <Filename Value="idecmdline.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit108>
       <Unit109>
         <Filename Value="lazconf.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit109>
       <Unit110>
         <Filename Value="initialsetupdlgs.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="InitialSetupDlgs"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit110>
       <Unit111>
         <Filename Value="splash.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit111>
       <Unit112>
         <Filename Value="unitdependencies.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit112>
       <Unit113>
         <Filename Value="editorfilemanager.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit113>
       <Unit114>
         <Filename Value="lfmunitresource.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit114>
       <Unit115>
         <Filename Value="sourcemarks.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit115>
       <Unit116>
         <Filename Value="checklfmdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit116>
       <Unit117>
         <Filename Value="sortselectiondlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit117>
       <Unit118>
         <Filename Value="syncolorattribeditor.pas"/>
@@ -847,41 +851,40 @@
         <ComponentName Value="SynColorAttrEditor"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit118>
       <Unit119>
         <Filename Value="inputhistory.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="InputHistory"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit119>
       <Unit120>
         <Filename Value="makeresstrdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit120>
       <Unit121>
         <Filename Value="ideprocs.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="IDEProcs"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit121>
       <Unit122>
         <Filename Value="environmentopts.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="EnvironmentOpts"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit122>
       <Unit123>
         <Filename Value="lazarusidestrconsts.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="LazarusIDEStrConsts"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="1113"/>
-        <CursorPos Y="1129"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="3995"/>
+        <CursorPos X="3" Y="4010"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
       </Unit123>
       <Unit124>
@@ -891,30 +894,34 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CodeTemplatesDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit124>
       <Unit125>
         <Filename Value="mainintf.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MainIntf"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit125>
       <Unit126>
         <Filename Value="mainbase.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MainBase"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="181"/>
+        <CursorPos X="32" Y="196"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit126>
       <Unit127>
         <Filename Value="buildmanager.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="BuildManager"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit127>
       <Unit128>
         <Filename Value="basebuildmanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit128>
       <Unit129>
         <Filename Value="buildlazdialog.pas"/>
@@ -926,250 +933,268 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="811"/>
         <CursorPos X="42" Y="821"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit129>
       <Unit130>
         <Filename Value="componentpalette.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UnitName Value="ComponentPalette"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="740"/>
+        <CursorPos X="14" Y="766"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit130>
       <Unit131>
         <Filename Value="codecontextform.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit131>
       <Unit132>
         <Filename Value="mainbar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MainBar"/>
-        <UsageCount Value="26"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="54"/>
+        <CursorPos X="5" Y="74"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
       </Unit132>
       <Unit133>
         <Filename Value="procedurelist.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit133>
       <Unit134>
         <Filename Value="dialogprocs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit134>
       <Unit135>
         <Filename Value="abstractsmethodsdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit135>
       <Unit136>
         <Filename Value="projectuserresources.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit136>
       <Unit137>
         <Filename Value="buildfiledlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit137>
       <Unit138>
         <Filename Value="showdeletingfilesdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit138>
       <Unit139>
         <Filename Value="filereferencelist.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit139>
       <Unit140>
         <Filename Value="compatibilityrestrictions.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit140>
       <Unit141>
         <Filename Value="fpdochints.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit141>
       <Unit142>
         <Filename Value="genericlisteditor.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit142>
       <Unit143>
         <Filename Value="searchfrm.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit143>
       <Unit144>
         <Filename Value="codemacroselect.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit144>
       <Unit145>
         <Filename Value="projectinspector.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit145>
       <Unit146>
         <Filename Value="diskdiffsdialog.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit146>
       <Unit147>
         <Filename Value="unusedunitsdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit147>
       <Unit148>
         <Filename Value="fpdocselectlink.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit148>
       <Unit149>
         <Filename Value="srcedithintfrm.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit149>
       <Unit150>
         <Filename Value="findreplacedialog.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit150>
       <Unit151>
         <Filename Value="idecontexthelpedit.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit151>
       <Unit152>
         <Filename Value="extractprocdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit152>
       <Unit153>
         <Filename Value="buildmodesmanager.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit153>
       <Unit154>
         <Filename Value="codetoolsdefpreview.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit154>
       <Unit155>
         <Filename Value="newprojectdlg.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit155>
       <Unit156>
         <Filename Value="codetoolsoptions.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit156>
       <Unit157>
         <Filename Value="keymapshortcutdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit157>
       <Unit158>
         <Filename Value="restrictionbrowser.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit158>
       <Unit159>
         <Filename Value="emptymethodsdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit159>
       <Unit160>
         <Filename Value="newdialog.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit160>
       <Unit161>
         <Filename Value="transfermacros.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit161>
       <Unit162>
         <Filename Value="publishmodule.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit162>
       <Unit163>
         <Filename Value="checkcompileropts.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="CheckCompilerOpts"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit163>
       <Unit164>
         <Filename Value="inputfiledialog.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit164>
       <Unit165>
         <Filename Value="buildprofilemanager.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit165>
       <Unit166>
         <Filename Value="comppagespopup.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="DlgCompPagesPopup"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CompPagesPopup"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="228"/>
+        <CursorPos X="69" Y="250"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit166>
       <Unit167>
         <Filename Value="fpdoceditwindow.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit167>
       <Unit168>
         <Filename Value="unitinfodlg.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit168>
       <Unit169>
         <Filename Value="diffpatch.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit169>
       <Unit170>
         <Filename Value="lazarusmanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit170>
       <Unit171>
         <Filename Value="macropromptdlg.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit171>
       <Unit172>
         <Filename Value="ide.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit172>
       <Unit173>
         <Filename Value="publishprojectdlg.pas"/>
@@ -1178,18 +1203,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PublishProjectDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit173>
       <Unit174>
         <Filename Value="findoverloadsdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit174>
       <Unit175>
         <Filename Value="codeexplopts.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit175>
       <Unit176>
         <Filename Value="encloseselectiondlg.pas"/>
@@ -1198,81 +1223,81 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="EncloseSelectionDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit176>
       <Unit177>
         <Filename Value="fpmake.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit177>
       <Unit178>
         <Filename Value="miscoptions.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit178>
       <Unit179>
         <Filename Value="codeexplorer.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit179>
       <Unit180>
         <Filename Value="projectwizarddlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit180>
       <Unit181>
         <Filename Value="projectdefs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit181>
       <Unit182>
         <Filename Value="codemacroprompt.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit182>
       <Unit183>
         <Filename Value="helpfpcmessages.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit183>
       <Unit184>
         <Filename Value="genericchecklist.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit184>
       <Unit185>
         <Filename Value="patheditordlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit185>
       <Unit186>
         <Filename Value="fpdocselectinherited.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit186>
       <Unit187>
         <Filename Value="compoptsmodes.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit187>
       <Unit188>
         <Filename Value="applicationbundle.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ApplicationBundle"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit188>
       <Unit189>
         <Filename Value="msgvieweditor.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit189>
       <Unit190>
         <Filename Value="viewunit_dlg.pp"/>
@@ -1281,86 +1306,86 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ViewUnit_Dlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit190>
       <Unit191>
         <Filename Value="codetoolsdefines.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="CodeToolsDefines"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit191>
       <Unit192>
         <Filename Value="frmcustomapplicationoptions.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit192>
       <Unit193>
         <Filename Value="advhistorylist.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit193>
       <Unit194>
         <Filename Value="exttooleditdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit194>
       <Unit195>
         <Filename Value="addtoprojectdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit195>
       <Unit196>
         <Filename Value="sysvaruseroverridedlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit196>
       <Unit197>
         <Filename Value="raw_window.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit197>
       <Unit198>
         <Filename Value="codehelp.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit198>
       <Unit199>
         <Filename Value="diffdialog.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit199>
       <Unit200>
         <Filename Value="keymapschemedlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit200>
       <Unit201>
         <Filename Value="gotofrm.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit201>
       <Unit202>
         <Filename Value="ideoptiondefs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit202>
       <Unit203>
         <Filename Value="sourceeditprocs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit203>
       <Unit204>
         <Filename Value="helpoptions.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit204>
       <Unit205>
         <Filename Value="findinfilesdlg.pas"/>
@@ -1369,7 +1394,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FindInFilesDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit205>
       <Unit206>
         <Filename Value="ideoptionsdlg.pas"/>
@@ -1379,158 +1404,158 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="IDEOptionsDlg"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit206>
       <Unit207>
         <Filename Value="findunitdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit207>
       <Unit208>
         <Filename Value="idewindowhelp.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit208>
       <Unit209>
         <Filename Value="showcompileropts.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit209>
       <Unit210>
         <Filename Value="cleandirdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit210>
       <Unit211>
         <Filename Value="searchresultview.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit211>
       <Unit212>
         <Filename Value="invertassigntool.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit212>
       <Unit213>
         <Filename Value="wordcompletion.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit213>
       <Unit214>
         <Filename Value="editdefinetree.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit214>
       <Unit215>
         <Filename Value="runparamsopts.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="RunParamsOpts"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit215>
       <Unit216>
         <Filename Value="idetranslations.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit216>
       <Unit217>
         <Filename Value="useunitdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <UnitName Value="UseUnitDlg"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit217>
       <Unit218>
         <Filename Value="keymapping.pp"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit218>
       <Unit219>
         <Filename Value="redirect_stderr.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit219>
       <Unit220>
         <Filename Value="clipboardhistory.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit220>
       <Unit221>
         <Filename Value="allcompileroptions.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit221>
       <Unit222>
         <Filename Value="jumphistoryview.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit222>
       <Unit223>
         <Filename Value="ideprotocol.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit223>
       <Unit224>
         <Filename Value="progressdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit224>
       <Unit225>
         <Filename Value="findrenameidentifier.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit225>
       <Unit226>
         <Filename Value="charactermapdlg.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit226>
       <Unit227>
         <Filename Value="idedefs.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit227>
       <Unit228>
         <Filename Value="examplemanager.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit228>
       <Unit229>
         <Filename Value="formeditor.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="FormEditor"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit229>
       <Unit230>
         <Filename Value="revision.inc"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit230>
       <Unit231>
         <Filename Value="objectlists.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit231>
       <Unit232>
         <Filename Value="mouseactiondialog.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit232>
       <Unit233>
         <Filename Value="basedebugmanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit233>
       <Unit234>
         <Filename Value="imexportcompileropts.pas"/>
@@ -1538,13 +1563,13 @@
         <ComponentName Value="ImExportCompOptsDlg"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit234>
       <Unit235>
         <Filename Value="initialsetupproc.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="InitialSetupProc"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit235>
       <Unit236>
         <Filename Value="qfinitlocalvardlg.pas"/>
@@ -1552,13 +1577,13 @@
         <ComponentName Value="QFInitLocalVarDialog"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit236>
       <Unit237>
         <Filename Value="..\packager\interpkgconflictfiles.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit237>
       <Unit238>
         <Filename Value="encloseifdef.pas"/>
@@ -1567,7 +1592,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="EncloseIfDef"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit238>
       <Unit239>
         <Filename Value="definesgui.pas"/>
@@ -1576,13 +1601,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="DefinesGui"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit239>
       <Unit240>
         <Filename Value="inputhistorywithsearchopt.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="InputhistoryWithSearchOpt"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="31"/>
       </Unit240>
       <Unit241>
         <Filename Value="GLIDE.pp"/>
@@ -1594,78 +1619,171 @@
       </Unit241>
       <Unit242>
         <Filename Value="..\docs\Contributors.txt"/>
-        <EditorIndex Value="3"/>
-        <CursorPos Y="3"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="81" Y="8"/>
         <UsageCount Value="12"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit242>
       <Unit243>
         <Filename Value="..\docs\acknowledgements.txt"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <CursorPos Y="3"/>
         <UsageCount Value="12"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit243>
+      <Unit244>
+        <Filename Value="backup\main.pp"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="431"/>
+        <CursorPos X="32" Y="447"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit244>
+      <Unit245>
+        <Filename Value="backup\lazarusidestrconsts.pas"/>
+        <UnitName Value="LazarusIDEStrConsts"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="3994"/>
+        <CursorPos X="3" Y="4011"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit245>
+      <Unit246>
+        <Filename Value="backup\codebrowser.pas"/>
+        <UnitName Value="CodeBrowser"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="2812"/>
+        <CursorPos X="10" Y="2828"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit246>
+      <Unit247>
+        <Filename Value="..\fpcsrc\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="646"/>
+        <CursorPos X="14" Y="662"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit247>
     </Units>
-    <JumpHistory Count="14" HistoryIndex="13">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="215" Column="71" TopLine="198"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="62" Column="15" TopLine="45"/>
       </Position1>
       <Position2>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="195" Column="42" TopLine="173"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="247" Column="39" TopLine="225"/>
       </Position2>
       <Position3>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="147" Column="3" TopLine="234"/>
+        <Filename Value="mainbar.pas"/>
+        <Caret Line="70" Column="5" TopLine="54"/>
       </Position3>
       <Position4>
         <Filename Value="aboutfrm.pas"/>
-        <Caret Line="183" Column="41" TopLine="164"/>
+        <Caret Line="147" Column="40" TopLine="129"/>
       </Position4>
       <Position5>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="221" Column="21" TopLine="218"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="192" Column="14" TopLine="171"/>
       </Position5>
       <Position6>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="222" Column="11" TopLine="218"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="43" Column="125" TopLine="43"/>
       </Position6>
       <Position7>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="244" Column="54" TopLine="200"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="66" Column="15" TopLine="43"/>
       </Position7>
       <Position8>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="43" Column="3" TopLine="26"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="128" Column="11" TopLine="111"/>
       </Position8>
       <Position9>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="106" Column="12" TopLine="90"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="97" Column="8" TopLine="93"/>
       </Position9>
       <Position10>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="202" Column="13" TopLine="178"/>
+        <Filename Value="backup\main.pp"/>
       </Position10>
       <Position11>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="107" Column="21" TopLine="90"/>
+        <Filename Value="main.pp"/>
+        <Caret Line="5097" Column="39" TopLine="5087"/>
       </Position11>
       <Position12>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="251" Column="3" TopLine="246"/>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="245" Column="23" TopLine="226"/>
       </Position12>
       <Position13>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="195" Column="72" TopLine="185"/>
+        <Filename Value="main.pp"/>
+        <Caret Line="447" Column="32" TopLine="431"/>
       </Position13>
       <Position14>
-        <Filename Value="aboutfrm.pas"/>
-        <Caret Line="147" Column="40" TopLine="129"/>
+        <Filename Value="backup\main.pp"/>
+        <Caret Line="447" Column="32" TopLine="431"/>
       </Position14>
+      <Position15>
+        <Filename Value="main.pp"/>
+        <Caret Line="447" Column="32" TopLine="431"/>
+      </Position15>
+      <Position16>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="1129" TopLine="1113"/>
+      </Position16>
+      <Position17>
+        <Filename Value="backup\lazarusidestrconsts.pas"/>
+      </Position17>
+      <Position18>
+        <Filename Value="backup\codebrowser.pas"/>
+      </Position18>
+      <Position19>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="852" Column="21" TopLine="835"/>
+      </Position19>
+      <Position20>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="4011" Column="27" TopLine="3994"/>
+      </Position20>
+      <Position21>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="4012" Column="23" TopLine="3994"/>
+      </Position21>
+      <Position22>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="4267" Column="22" TopLine="4250"/>
+      </Position22>
+      <Position23>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="4012" Column="23" TopLine="3995"/>
+      </Position23>
+      <Position24>
+        <Filename Value="lazarusidestrconsts.pas"/>
+        <Caret Line="4011" Column="27" TopLine="3995"/>
+      </Position24>
+      <Position25>
+        <Filename Value="componentpalette.pas"/>
+      </Position25>
+      <Position26>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="26" Column="41" TopLine="13"/>
+      </Position26>
+      <Position27>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="62" Column="15" TopLine="80"/>
+      </Position27>
+      <Position28>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="247" Column="11" TopLine="225"/>
+      </Position28>
+      <Position29>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="192" Column="22" TopLine="166"/>
+      </Position29>
+      <Position30>
+        <Filename Value="comppagespopup.pas"/>
+        <Caret Line="251" Column="83" TopLine="226"/>
+      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

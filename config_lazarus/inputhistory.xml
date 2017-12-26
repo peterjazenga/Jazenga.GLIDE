@@ -4,15 +4,17 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="8">
-          <Item1 Value="typhon"/>
-          <Item2 Value="ParamStrUTF8"/>
-          <Item3 Value="the following people"/>
-          <Item4 Value="lazarus"/>
-          <Item5 Value=" lazarus"/>
-          <Item6 Value="LAZARUS"/>
-          <Item7 Value="(lazarus)"/>
-          <Item8 Value="glide"/>
+        <Find Count="10">
+          <Item1 Value="lisCompPalOpenPackage"/>
+          <Item2 Value="open package"/>
+          <Item3 Value="typhon"/>
+          <Item4 Value="ParamStrUTF8"/>
+          <Item5 Value="the following people"/>
+          <Item6 Value="lazarus"/>
+          <Item7 Value=" lazarus"/>
+          <Item8 Value="LAZARUS"/>
+          <Item9 Value="(lazarus)"/>
+          <Item10 Value="glide"/>
         </Find>
         <Replace Count="4">
           <Item1 Value="GLIDE"/>

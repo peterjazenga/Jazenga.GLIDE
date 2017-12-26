@@ -855,6 +855,7 @@
       <Unit130>
         <Filename Value="componentpalette.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ComponentPalette"/>
       </Unit130>
       <Unit131>
         <Filename Value="codecontextform.pas"/>
@@ -1024,7 +1025,10 @@
       <Unit166>
         <Filename Value="comppagespopup.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="DlgCompPagesPopup"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CompPagesPopup"/>
       </Unit166>
       <Unit167>
         <Filename Value="fpdoceditwindow.pas"/>

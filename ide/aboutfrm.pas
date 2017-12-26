@@ -83,6 +83,7 @@ type
     miVerToClipboard: TMenuItem;
     OfficialLabel: TLabel;
     OfficialURLLabel: TLabel;
+    historytab: TTabSheet;
     VersionPage: TTabSheet;
     ButtonPanel: TPanel;
     PlatformLabel: TLabel;

@@ -70,16 +70,16 @@
     </DebuggerFilename>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm.pas"/>
-        <Item2 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm2.pas"/>
-        <Item3 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDirFrm.pas"/>
-        <Item4 Value="d:\Jazenga.GLIDE\lcl\lclplatformdef.pas"/>
-        <Item5 Value="d:\Jazenga.GLIDE\lcl\interfacebase.pp"/>
-        <Item6 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\unit1.pas"/>
-        <Item7 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBuilder.pas"/>
-        <Item8 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBLnkFrm.pas"/>
-        <Item9 Value="D:\Jazenga.GLIDE\tools\chmmaker\chmmakermainform.pas"/>
-        <Item10 Value="d:\Jazenga.GLIDE\tools\chmmaker\chmmaker.lpi"/>
+        <Item1 Value="d:\Jazenga.GLIDE\docs\Contributors.txt"/>
+        <Item2 Value="d:\Jazenga.GLIDE\docs\acknowledgements.txt"/>
+        <Item3 Value="d:\Jazenga.GLIDE\ide\lazarusidestrconsts.pas"/>
+        <Item4 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm.pas"/>
+        <Item5 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm2.pas"/>
+        <Item6 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDirFrm.pas"/>
+        <Item7 Value="d:\Jazenga.GLIDE\lcl\lclplatformdef.pas"/>
+        <Item8 Value="d:\Jazenga.GLIDE\lcl\interfacebase.pp"/>
+        <Item9 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\unit1.pas"/>
+        <Item10 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBuilder.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="d:\Jazenga.GLIDE\ide\lazarus.lpi"/>
@@ -141,44 +141,42 @@
   <Desktops Count="1" ActiveDesktop="default">
     <Desktop1 Name="default">
       <Desktop Version="2" FormIdCount="64">
-        <FormIdList a1="SourceNotebook" a2="MainIDE" a3="MessagesView" a4="SearchResults" a5="CodeExplorerView" a6="ObjectInspectorDlg" a7="ProjectInspector" a8="PackageEditor_tponguard" a9="PkgGraphExplorer" a10="PackageEditor_SdpoSerialLaz" a11="PackageEditor_LCLBase" a12="PackageEditor_LCL" a13="PackageEditor_LazControls" a14="ProjectGroupEditor" a15="PackageEditor_packagetabs" a16="PackageEditor_FPCUnitTestRunner" a17="PackageEditor_fcl_base_pas2js" a18="PackageEditor_pas2js_rtl" a19="PackageEditor_fpcunit_pas2js" a20="PackageEditor_lazgoogleapis" a21="PackageEditor_wst_indy" a22="PackageEditor_wst_fcltransport" a23="PackageEditor_wst_design" a24="PackageEditor_wst_core" a25="PackageEditor_pas2js_fcldb" a26="PackageEditor_Pas2JSDsgn" a27="PackageEditor_wst_synapse" a28="PackageEditor_exdatabase" a29="PackageEditor_pckZeosConn" a30="PackageEditor_zcomponent" a31="PackageEditor_lazdbexport" a32="PackageEditor_LR_SqlDB" a33="PackageEditor_rx" a34="PackageEditor_JumpToImplementation" a35="PackageEditor_laz_synapse40_1" a36="PackageEditor_pckUCDataConnector" a37="PackageEditor_OnlinePackageManager" a38="PackageEditor_frce" a39="PackageEditor_fortes324forlaz" a40="PackageEditor_plot" a41="PackageEditor_JvCoreLazR" a42="Watches" a43="BreakPoints" a44="Locals" a45="CallStack" a46="EvaluateModify" a47="Registers" a48="Assembler" a49="DbgOutput" a50="Inspect" a51="DbgEvents" a52="PseudoTerminal" a53="Threads" a54="DbgHistory" a55="UnitDependencies" a56="FPDocEditor" a57="ClipBrdHistory" a58="EditorFileManager" a59="AnchorEditor" a60="TabOrderEditor" a61="CodeBrowser" a62="IssueBrowser" a63="JumpHistory" a64="ComponentList"/>
+        <FormIdList a1="MainIDE" a2="SearchResults" a3="MessagesView" a4="CodeExplorerView" a5="ProjectInspector" a6="ObjectInspectorDlg" a7="SourceNotebook" a8="PackageEditor_tponguard" a9="PkgGraphExplorer" a10="PackageEditor_SdpoSerialLaz" a11="PackageEditor_LCLBase" a12="PackageEditor_LCL" a13="PackageEditor_LazControls" a14="ProjectGroupEditor" a15="PackageEditor_packagetabs" a16="PackageEditor_FPCUnitTestRunner" a17="PackageEditor_fcl_base_pas2js" a18="PackageEditor_pas2js_rtl" a19="PackageEditor_fpcunit_pas2js" a20="PackageEditor_lazgoogleapis" a21="PackageEditor_wst_indy" a22="PackageEditor_wst_fcltransport" a23="PackageEditor_wst_design" a24="PackageEditor_wst_core" a25="PackageEditor_pas2js_fcldb" a26="PackageEditor_Pas2JSDsgn" a27="PackageEditor_wst_synapse" a28="PackageEditor_exdatabase" a29="PackageEditor_pckZeosConn" a30="PackageEditor_zcomponent" a31="PackageEditor_lazdbexport" a32="PackageEditor_LR_SqlDB" a33="PackageEditor_rx" a34="PackageEditor_JumpToImplementation" a35="PackageEditor_laz_synapse40_1" a36="PackageEditor_pckUCDataConnector" a37="PackageEditor_OnlinePackageManager" a38="PackageEditor_frce" a39="PackageEditor_fortes324forlaz" a40="PackageEditor_plot" a41="PackageEditor_JvCoreLazR" a42="Watches" a43="BreakPoints" a44="Locals" a45="CallStack" a46="EvaluateModify" a47="Registers" a48="Assembler" a49="DbgOutput" a50="Inspect" a51="DbgEvents" a52="PseudoTerminal" a53="Threads" a54="DbgHistory" a55="UnitDependencies" a56="FPDocEditor" a57="ClipBrdHistory" a58="EditorFileManager" a59="AnchorEditor" a60="TabOrderEditor" a61="CodeBrowser" a62="IssueBrowser" a63="JumpHistory" a64="ComponentList"/>
       </Desktop>
-      <SourceNotebook>
-        <Caption Value="SourceNotebook"/>
-        <CustomPosition Left="304" Top="178" Width="1421" Height="694"/>
-        <Visible Value="True"/>
-      </SourceNotebook>
       <MainIDE>
         <Caption Value="MainIDE"/>
         <CustomPosition Width="1022" Height="78"/>
         <WindowState Value="Maximized"/>
         <Visible Value="True"/>
       </MainIDE>
+      <SearchResults>
+        <Caption Value="SearchResults"/>
+        <CustomPosition Left="63" Top="229" Width="840" Height="615"/>
+      </SearchResults>
       <MessagesView>
         <Caption Value="MessagesView"/>
         <CustomPosition Left="307" Top="673" Width="1593" Height="295"/>
         <Visible Value="True"/>
       </MessagesView>
-      <SearchResults>
-        <Caption Value="SearchResults"/>
-        <CustomPosition Left="63" Top="229" Width="840" Height="615"/>
-        <Visible Value="True"/>
-      </SearchResults>
       <CodeExplorerView>
         <Caption Value="CodeExplorerView"/>
-        <CustomPosition Left="1341" Top="109" Width="410" Height="638"/>
+        <CustomPosition Left="1451" Top="170" Width="410" Height="638"/>
         <Visible Value="True"/>
       </CodeExplorerView>
-      <ObjectInspectorDlg>
-        <Caption Value="ObjectInspectorDlg"/>
-        <CustomPosition Left="9" Top="105" Width="338" Height="825"/>
-        <Visible Value="True"/>
-      </ObjectInspectorDlg>
       <ProjectInspector>
         <Caption Value="ProjectInspector"/>
         <CustomPosition Left="203" Top="152" Width="300" Height="400"/>
         <Visible Value="True"/>
       </ProjectInspector>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Left="9" Top="105" Width="338" Height="825"/>
+        <Visible Value="True"/>
+      </ObjectInspectorDlg>
+      <SourceNotebook>
+        <Caption Value="SourceNotebook"/>
+        <CustomPosition Left="391" Top="137" Width="1172" Height="694"/>
+      </SourceNotebook>
       <PackageEditor_tponguard>
         <Caption Value="PackageEditor_tponguard"/>
         <CustomPosition Left="250" Top="200" Width="464" Height="455"/>

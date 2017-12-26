@@ -233,7 +233,6 @@ end;
 procedure TDlgCompPagesPopup.BuildList;
 var
   i: integer;
-  flist: TStringList;
 begin
   TreeView1.Items.Clear;
   TreeView1.BeginUpdate;
@@ -243,17 +242,13 @@ begin
     Exit;
   end;
   fGroups := TStringList.Create;
-  flist := TStringList.Create;
-  flist.Sorted:=true;
+  fGroups.Sorted:=true;
   try
     FindGroups;
     for i:=0 to MainIDEBar.ComponentPageControl.PageCount-1 do
-      flist.add(MainIDEBar.ComponentPageControl.Page[i].Caption);
-    for i:=0 to flist.Count-1 do
-      BuildTreeItem(flist.Strings[i]);
+      BuildTreeItem(MainIDEBar.ComponentPageControl.Page[i].Caption);
   finally
     fGroups.Free;
-    fList.Free;
   end;
   TreeView1.EndUpdate;
   TreeView1.FullExpand;

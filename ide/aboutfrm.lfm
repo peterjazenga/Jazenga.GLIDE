@@ -18,9 +18,9 @@ object AboutForm: TAboutForm
     Height = 326
     Top = 0
     Width = 460
-    ActivePage = ContributorsPage
+    ActivePage = historytab
     Align = alClient
-    TabIndex = 2
+    TabIndex = 4
     TabOrder = 0
     OnChange = NotebookPageChanged
     object VersionPage: TTabSheet
@@ -205,6 +205,9 @@ object AboutForm: TAboutForm
     end
     object AcknowledgementsPage: TTabSheet
       Caption = 'Acknowledgements'
+    end
+    object historytab: TTabSheet
+      Caption = 'History'
     end
   end
   object ButtonPanel: TPanel
