@@ -1,3 +1,7 @@
+#The following people contributed to GLIDE:
+
+Peter Dunne
+
 #The following people contributed to Lazarus:
 
 A. J. Venter

@@ -5,7 +5,18 @@
   </HelpOptions>
   <Viewers>
     <TChmHelpViewer>
-      <CHMHelp Exe="C:\fpcupdeluxe\lazarus\components\chmhelp\lhelp\lhelp.exe"/>
+      <CHMHelp Exe="d:\jazenga.GLIDE\lazarus\components\chmhelp\lhelp\lhelp.exe"/>
     </TChmHelpViewer>
   </Viewers>
+  <Databases>
+    <RTLUnits>
+      <BaseURL Value=""/>
+    </RTLUnits>
+    <FCLUnits>
+      <BaseURL Value=""/>
+    </FCLUnits>
+    <LazUtilsUnits>
+      <BaseURL Value=""/>
+    </LazUtilsUnits>
+  </Databases>
 </CONFIG>

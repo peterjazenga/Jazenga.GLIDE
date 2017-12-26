@@ -3,20 +3,25 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="chmmaker.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="19" Y="24"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="unit1.pas"/>
+        <Filename Value="chmmakermainform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="CHMForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="545"/>
+        <CursorPos X="3" Y="512"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -27,10 +32,34 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="CHMSiteMapEditor"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="..\..\fpcsrc\packages\chm\src\chmfilewriter.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1172"/>
+        <CursorPos X="3" Y="1082"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="..\..\fpcsrc\packages\chm\src\chmfilewriter.pas"/>
+        <Caret Line="87" Column="20" TopLine="71"/>
+      </Position1>
+      <Position2>
+        <Filename Value="chmmaker.lpr"/>
+        <Caret Line="24" Column="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="chmmakermainform.pas"/>
+        <Caret Line="101" Column="22" TopLine="85"/>
+      </Position3>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode="default"/>

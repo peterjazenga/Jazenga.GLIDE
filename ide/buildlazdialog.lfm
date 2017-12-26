@@ -15,7 +15,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
   OnResize = FormResize
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '1.3'
+  LCLVersion = '1.9.0.0'
   object CBLDBtnPanel: TPanel
     AnchorSideTop.Side = asrBottom
     Left = 0
@@ -122,7 +122,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrCenter
           Left = 6
           Height = 15
-          Top = 10
+          Top = 11
           Width = 83
           BorderSpacing.Top = 5
           BorderSpacing.Around = 6
@@ -139,7 +139,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           Left = 95
           Height = 23
           Hint = 'Name of the active profile.'
-          Top = 6
+          Top = 7
           Width = 550
           Anchors = [akTop, akLeft, akRight]
           BorderSpacing.Left = 6
@@ -160,7 +160,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           Left = 651
           Height = 25
           Hint = 'Manage profiles'
-          Top = 5
+          Top = 6
           Width = 35
           Anchors = [akTop, akRight]
           AutoSize = True
@@ -178,7 +178,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 6
           Height = 15
-          Top = 79
+          Top = 80
           Width = 42
           Alignment = taRightJustify
           BorderSpacing.Top = 6
@@ -195,7 +195,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           Left = 6
           Height = 56
           Hint = 'Options passed to compiler'
-          Top = 94
+          Top = 95
           Width = 680
           Anchors = [akTop, akLeft, akRight]
           Lines.Strings = (
@@ -213,7 +213,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 6
           Height = 15
-          Top = 200
+          Top = 201
           Width = 39
           BorderSpacing.Left = 6
           BorderSpacing.Top = 6
@@ -227,9 +227,9 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Control = CleanUpGroupBox
           AnchorSideBottom.Control = CommonsDividerBevel
           Left = 6
-          Height = 134
+          Height = 133
           Hint = 'Defines without -d'
-          Top = 215
+          Top = 216
           Width = 491
           Anchors = [akTop, akLeft, akRight, akBottom]
           ItemHeight = 0
@@ -244,8 +244,8 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 6
           Height = 15
-          Top = 35
-          Width = 90
+          Top = 36
+          Width = 89
           BorderSpacing.Top = 6
           Caption = 'LCL Widget Type'
           ParentColor = False
@@ -257,7 +257,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Side = asrBottom
           Left = 6
           Height = 23
-          Top = 50
+          Top = 51
           Width = 209
           ItemHeight = 15
           Style = csDropDownList
@@ -269,8 +269,8 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 6
           Height = 15
-          Top = 156
-          Width = 85
+          Top = 157
+          Width = 84
           Alignment = taRightJustify
           BorderSpacing.Top = 6
           Caption = 'Target Directory'
@@ -283,7 +283,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Control = TargetDirectoryButton
           Left = 6
           Height = 23
-          Top = 171
+          Top = 172
           Width = 639
           Anchors = [akTop, akLeft, akRight]
           BorderSpacing.Right = 6
@@ -297,8 +297,8 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 221
           Height = 15
-          Top = 35
-          Width = 52
+          Top = 36
+          Width = 51
           Alignment = taRightJustify
           BorderSpacing.Left = 6
           BorderSpacing.Top = 6
@@ -312,8 +312,8 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideTop.Side = asrBottom
           Left = 451
           Height = 15
-          Top = 35
-          Width = 60
+          Top = 36
+          Width = 59
           Alignment = taRightJustify
           BorderSpacing.Left = 6
           BorderSpacing.Top = 6
@@ -344,7 +344,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Side = asrBottom
           Left = 451
           Height = 23
-          Top = 50
+          Top = 51
           Width = 235
           Anchors = [akTop, akLeft, akRight]
           ItemHeight = 15
@@ -428,7 +428,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideBottom.Side = asrBottom
           Left = 651
           Height = 25
-          Top = 170
+          Top = 171
           Width = 35
           Anchors = [akTop, akRight]
           AutoSize = True
@@ -446,7 +446,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Side = asrBottom
           Left = 221
           Height = 23
-          Top = 50
+          Top = 51
           Width = 224
           ItemHeight = 15
           TabOrder = 7
@@ -460,8 +460,8 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           AnchorSideRight.Side = asrBottom
           AnchorSideBottom.Control = CommonsDividerBevel
           Left = 503
-          Height = 149
-          Top = 200
+          Height = 148
+          Top = 201
           Width = 183
           Anchors = [akTop, akRight, akBottom]
           AutoSize = True
@@ -476,7 +476,7 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
           ChildSizing.ShrinkVertical = crsScaleChilds
           ChildSizing.Layout = cclLeftToRightThenTopToBottom
           ChildSizing.ControlsPerLine = 1
-          ClientHeight = 129
+          ClientHeight = 128
           ClientWidth = 179
           ParentShowHint = False
           ShowHint = True
@@ -555,7 +555,6 @@ object ConfigureBuildLazarusDlg: TConfigureBuildLazarusDlg
         Top = 0
         Width = 696
         Align = alClient
-        DefaultItemHeight = 18
         ReadOnly = True
         TabOrder = 0
         Options = [tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
-  <Params Value=" -MObjFPC -Sgi -O1 -g -gl -l -vewnhibq -FiC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst -FuC:\fpcupdeluxe\lazarus\packager\units\x86_64-win64 -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\ -FUC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\lib\x86_64-win64\ wst_core.pas"/>
+  <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MObjFPC -Sgi -O1 -g -gl -l -vewnhibq -FiD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst -FuD:\Jazenga.GLIDE\packager\units\x86_64-win64 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\ -FUD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\lib\x86_64-win64\ wst_core.pas"/>
 </CONFIG>

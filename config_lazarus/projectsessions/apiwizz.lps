@@ -3,18 +3,33 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <Units Count="1">
+    <Units Count="2">
       <Unit0>
         <Filename Value="apiwizz.pp"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="APIWizz"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="4"/>
+        <CursorPos X="8" Y="32"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="apiwizard.pp"/>
+        <UnitName Value="APIWizard"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="26" Y="75"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="apiwizz.pp"/>
+        <Caret Line="32" Column="8" TopLine="4"/>
+      </Position1>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode="default"/>

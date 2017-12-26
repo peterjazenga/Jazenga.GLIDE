@@ -292,13 +292,13 @@ begin
   inherited ToolExited;
   if Tool.Terminated then begin
     ToolState:=lmvtsFailed;
-    debugln('Error: (lazarus) ',Caption,': terminated');
+    debugln('Error: (GLIDE) ',Caption,': terminated');
   end else if (ExitStatus<>0) then begin
     ToolState:=lmvtsFailed;
-    debugln('Error: (lazarus) ',Caption,': stopped with exit code '+IntToStr(ExitStatus));
+    debugln('Error: (GLIDE) ',Caption,': stopped with exit code '+IntToStr(ExitStatus));
   end else if Tool.ErrorMessage<>'' then begin
     ToolState:=lmvtsFailed;
-    debugln('Error: (lazarus) ',Caption,': ',Tool.ErrorMessage);
+    debugln('Error: (GLIDE) ',Caption,': ',Tool.ErrorMessage);
   end else begin
     ToolState:=lmvtsSuccess;
   end;
@@ -659,7 +659,7 @@ procedure TExternalTool.DoExecute;
   begin
     if (FStage>=etsStopped) then exit(true);
     if (ErrorMessage='') then exit(false);
-    debugln(['Error: (lazarus) [TExternalTool.DoExecute.CheckError] Error=',ErrorMessage]);
+    debugln(['Error: (GLIDE) [TExternalTool.DoExecute.CheckError] Error=',ErrorMessage]);
     EnterCriticalSection;
     try
       if FStage>=etsStopped then exit(true);
@@ -802,11 +802,11 @@ begin
     FThread.FreeOnTerminate:=true;
   end;
   if ConsoleVerbosity>=-1 then begin
-    debugln(['Info: (lazarus) Execute Title="',Title,'"']);
-    debugln(['Info: (lazarus) Working Directory="',Process.CurrentDirectory,'"']);
-    debugln(['Info: (lazarus) Executable="',Process.Executable,'"']);
+    debugln(['Info: (GLIDE) Execute Title="',Title,'"']);
+    debugln(['Info: (GLIDE) Working Directory="',Process.CurrentDirectory,'"']);
+    debugln(['Info: (GLIDE) Executable="',Process.Executable,'"']);
     for i:=0 to Process.Parameters.Count-1 do
-      debugln(['Info: (lazarus) Param[',i,']="',Process.Parameters[i],'"']);
+      debugln(['Info: (GLIDE) Param[',i,']="',Process.Parameters[i],'"']);
   end;
   Thread.Start;
 end;
@@ -1127,13 +1127,13 @@ begin
       s:=ToolOptions.WorkingDirectory;
       if ToolOptions.ResolveMacros then begin
         if not GlobalMacroList.SubstituteStr(s) then begin
-          debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros of WorkerDirectory: "',ToolOptions.WorkingDirectory,'"']);
+          debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros of WorkerDirectory: "',ToolOptions.WorkingDirectory,'"']);
           exit;
         end;
       end;
       s:=ChompPathDelim(CleanAndExpandDirectory(s));
       if not DirectoryExistsUTF8(s) then begin
-        debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: missing directory "',s,'"']);
+        debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: missing directory "',s,'"']);
         exit;
       end;
       Proc.CurrentDirectory:=s;
@@ -1145,7 +1145,7 @@ begin
         for i:=0 to Proc.Environment.Count-1 do begin
           s:=Proc.Environment[i];
           if not GlobalMacroList.SubstituteStr(s) then begin
-            debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: environment override "',Proc.Environment,'"']);
+            debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: environment override "',Proc.Environment,'"']);
             exit;
           end;
           Proc.Environment[i]:=s;
@@ -1156,7 +1156,7 @@ begin
       s:=ToolOptions.Executable;
       if ToolOptions.ResolveMacros then begin
         if not GlobalMacroList.SubstituteStr(s) then begin
-          debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros of Executable: "',ToolOptions.Executable,'"']);
+          debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros of Executable: "',ToolOptions.Executable,'"']);
           exit;
         end;
       end;
@@ -1177,21 +1177,21 @@ begin
         end;
         {$ENDIF}
         if s='' then begin
-          debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: missing executable "',ToolOptions.Executable,'"']);
+          debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: missing executable "',ToolOptions.Executable,'"']);
           exit;
         end;
       end;
       if (not FilenameIsAbsolute(s))
       or (not FileExistsUTF8(s)) then begin
-        debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: missing executable: "',s,'"']);
+        debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: missing executable: "',s,'"']);
         exit;
       end;
       if DirectoryExistsUTF8(s) then begin
-        debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: executable is a directory: "',s,'"']);
+        debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: executable is a directory: "',s,'"']);
         exit;
       end;
       if not FileIsExecutable(s) then begin
-        debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: executable lacks permission to run: "',s,'"']);
+        debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,'  failed: executable lacks permission to run: "',s,'"']);
         exit;
       end;
       Proc.Executable:=s;
@@ -1200,7 +1200,7 @@ begin
       s:=ToolOptions.CmdLineParams;
       if ToolOptions.ResolveMacros then begin
         if not GlobalMacroList.SubstituteStr(s) then begin
-          debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros in cmd line params "',ToolOptions.CmdLineParams,'"']);
+          debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] ',ToolOptions.Title,' failed: macros in cmd line params "',ToolOptions.CmdLineParams,'"']);
           exit;
         end;
       end;
@@ -1257,7 +1257,7 @@ begin
         Tool.Process.ShowWindow:=swoShow;
       if ToolOptions.ResolveMacros then begin
         if not Tool.ResolveMacros then begin
-          debugln(['Error: (lazarus) [TExternalTools.OnRunExternalTool] failed to resolve macros']);
+          debugln(['Error: (GLIDE) [TExternalTools.OnRunExternalTool] failed to resolve macros']);
           exit;
         end;
       end;

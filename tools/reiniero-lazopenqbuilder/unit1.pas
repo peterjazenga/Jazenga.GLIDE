@@ -46,9 +46,9 @@ uses
 
 type
 
-  { TForm1 }
+  { TFirebirdQuerybuilder }
 
-  TForm1 = class(TForm)
+  TFirebirdQuerybuilder = class(TForm)
     Button1: TButton;
     Memo1: TMemo;
     {$IFDEF QBESQLDB}
@@ -69,13 +69,13 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FirebirdQuerybuilder: TFirebirdQuerybuilder;
 
 implementation
 
-{ TForm1 }
+{ TFirebirdQuerybuilder }
 
-procedure TForm1.Button1Click(Sender: TObject);
+procedure TFirebirdQuerybuilder.Button1Click(Sender: TObject);
 var
   meuqb: TOQBuilderDialog;
   {$IFDEF QBEIBX}
@@ -127,7 +127,7 @@ begin
   end;
 end;
 
-procedure TForm1.FormCreate(Sender: TObject);
+procedure TFirebirdQuerybuilder.FormCreate(Sender: TObject);
 begin
   // Example using Firebird embedded for both QBESQLDB and QBEZEOS
   //todo: add ibx code
@@ -147,7 +147,7 @@ begin
   FDbConnection.Password := ''; //leave empty to avoid lookup in FB security db
 end;
 
-procedure TForm1.FormDestroy(Sender: TObject);
+procedure TFirebirdQuerybuilder.FormDestroy(Sender: TObject);
 begin
   {$IFDEF QBESQLDB}
   FDBTrans.Free;

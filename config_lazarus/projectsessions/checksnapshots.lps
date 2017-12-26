@@ -3,7 +3,7 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <Units Count="7">
+    <Units Count="10">
       <Unit0>
         <Filename Value="checksnapshots.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -14,6 +14,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="SnapshotsUptodate"/>
         <IsVisibleTab Value="True"/>
+        <CursorPos X="39" Y="8"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -44,8 +45,62 @@
         <IsPartOfProject Value="True"/>
         <UsageCount Value="20"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="..\..\components\lazutils\fileutil.pas"/>
+        <UnitName Value="FileUtil"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="24"/>
+        <CursorPos X="3" Y="41"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\lcl\lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1504"/>
+        <CursorPos X="58" Y="1519"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="47"/>
+        <CursorPos X="10" Y="63"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit9>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="snapshotsuptodate.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="snapshotsuptodate.pas"/>
+        <Caret Line="145" Column="40" TopLine="8"/>
+      </Position2>
+      <Position3>
+        <Filename Value="snapshotsuptodate.pas"/>
+        <Caret Line="8" Column="26"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\components\lazutils\fileutil.pas"/>
+        <Caret TopLine="49"/>
+      </Position4>
+      <Position5>
+        <Filename Value="snapshotsuptodate.pas"/>
+        <Caret Line="8" Column="26"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\lcl\lclproc.pas"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\lcl\lclproc.pas"/>
+        <Caret Line="1519" Column="58" TopLine="1504"/>
+      </Position7>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode="default"/>

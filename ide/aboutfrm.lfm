@@ -5,7 +5,7 @@ object AboutForm: TAboutForm
   Width = 460
   ActiveControl = Notebook
   BorderIcons = [biSystemMenu, biMaximize]
-  Caption = 'About Lazarus'
+  Caption = 'About GLIDE'
   ClientHeight = 376
   ClientWidth = 460
   OnClose = FormClose
@@ -18,9 +18,9 @@ object AboutForm: TAboutForm
     Height = 326
     Top = 0
     Width = 460
-    ActivePage = VersionPage
+    ActivePage = ContributorsPage
     Align = alClient
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 0
     OnChange = NotebookPageChanged
     object VersionPage: TTabSheet
@@ -46,7 +46,7 @@ object AboutForm: TAboutForm
         Left = 199
         Height = 15
         Top = 120
-        Width = 55
+        Width = 54
         Alignment = taCenter
         BorderSpacing.Top = 115
         BorderSpacing.Around = 6
@@ -107,10 +107,10 @@ object AboutForm: TAboutForm
         AnchorSideLeft.Side = asrCenter
         AnchorSideTop.Control = BuildDateLabel
         AnchorSideTop.Side = asrBottom
-        Left = 182
+        Left = 183
         Height = 15
         Top = 162
-        Width = 88
+        Width = 87
         BorderSpacing.Around = 6
         Caption = 'FPCVersionLabel'
         Font.Color = clSilver
@@ -120,15 +120,15 @@ object AboutForm: TAboutForm
     end
     object AboutPage: TTabSheet
       Caption = 'About'
-      ClientHeight = 299
-      ClientWidth = 458
+      ClientHeight = 298
+      ClientWidth = 452
       object OfficialLabel: TLabel
         AnchorSideLeft.Control = AboutPage
         AnchorSideBottom.Control = DocumentationLabel
         Left = 6
-        Height = 14
-        Top = 259
-        Width = 59
+        Height = 15
+        Top = 256
+        Width = 66
         Anchors = [akLeft, akBottom]
         BorderSpacing.Around = 6
         Caption = 'OfficialLabel'
@@ -138,10 +138,10 @@ object AboutForm: TAboutForm
         AnchorSideLeft.Control = OfficialLabel
         AnchorSideLeft.Side = asrBottom
         AnchorSideBottom.Control = DocumentationLabel
-        Left = 71
-        Height = 14
-        Top = 259
-        Width = 78
+        Left = 78
+        Height = 15
+        Top = 256
+        Width = 87
         Anchors = [akLeft, akBottom]
         BorderSpacing.Around = 6
         Caption = 'OfficialURLLabel'
@@ -157,9 +157,9 @@ object AboutForm: TAboutForm
         AnchorSideBottom.Control = AboutPage
         AnchorSideBottom.Side = asrBottom
         Left = 6
-        Height = 14
-        Top = 279
-        Width = 98
+        Height = 15
+        Top = 277
+        Width = 111
         Anchors = [akLeft, akBottom]
         BorderSpacing.Around = 6
         Caption = 'DocumentationLabel'
@@ -170,10 +170,10 @@ object AboutForm: TAboutForm
         AnchorSideLeft.Side = asrBottom
         AnchorSideBottom.Control = AboutPage
         AnchorSideBottom.Side = asrBottom
-        Left = 110
-        Height = 14
-        Top = 279
-        Width = 117
+        Left = 123
+        Height = 15
+        Top = 277
+        Width = 132
         Anchors = [akLeft, akBottom]
         BorderSpacing.Around = 6
         Caption = 'DocumentationURLLabel'
@@ -191,9 +191,9 @@ object AboutForm: TAboutForm
         AnchorSideRight.Side = asrBottom
         AnchorSideBottom.Control = OfficialLabel
         Left = 0
-        Height = 253
+        Height = 250
         Top = 0
-        Width = 458
+        Width = 452
         Anchors = [akTop, akLeft, akRight, akBottom]
         ReadOnly = True
         ScrollBars = ssAutoBoth

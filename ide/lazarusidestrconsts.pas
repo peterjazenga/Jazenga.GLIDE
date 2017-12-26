@@ -146,13 +146,13 @@ resourcestring
   lisMoveFiles2 = 'Move files?';
   lrsPLDDeleteSelected = 'Delete selected';
 
-  dlgMultipleInstances = 'Multiple Lazarus instances';
+  dlgMultipleInstances = 'Multiple GLIDE instances';
   dlgMultipleInstances_AlwaysStartNew = 'always start a new instance';
   dlgMultipleInstances_OpenFilesInRunning = 'open files in a running instance';
   dlgMultipleInstances_ForceSingleInstance = 'do not allow multiple instances';
-  dlgRunningInstanceModalError = 'The running Lazarus instance cannot accept any files.'+sLineBreak+'Do you want to open them in a new IDE instance?'+sLineBreak+sLineBreak+'%s';
-  dlgForceUniqueInstanceModalError = 'The running Lazarus instance cannot accept any files.';
-  dlgRunningInstanceNotRespondingError = 'Lazarus instance is running but not responding.';
+  dlgRunningInstanceModalError = 'The running GLIDE instance cannot accept any files.'+sLineBreak+'Do you want to open them in a new IDE instance?'+sLineBreak+sLineBreak+'%s';
+  dlgForceUniqueInstanceModalError = 'The running GLIDE instance cannot accept any files.';
+  dlgRunningInstanceNotRespondingError = 'GLIDE instance is running but not responding.';
 
   // *** Rest of the resource strings ***
 
@@ -178,8 +178,8 @@ resourcestring
   // command line help
   listhisHelpMessage = 'this help message';
   lisprimaryConfigDirectoryWhereLazarusStoresItsConfig = 'primary config '+
-    'directory, where Lazarus stores its config files. Default is ';
-  lislazarusOptionsProjectFilename = 'lazarus [options] <project-filename>';
+    'directory, where GLIDE stores its config files. Default is ';
+  lislazarusOptionsProjectFilename = 'GLIDE [options] <project-filename>';
   lisIDEOptions = 'IDE Options:';
   lisCmdLineLCLInterfaceSpecificOptions = 'LCL Interface specific options:';
   lisDoNotShowSplashScreen = 'Do not show splash screen';
@@ -189,7 +189,7 @@ resourcestring
   lisOverrideLanguage = 'Override language. For example --language=de.'+
     ' For possible values see files in the languages directory.';
   lissecondaryConfigDirectoryWhereLazarusSearchesFor = 'secondary config '+
-    'directory, where Lazarus searches for config template files. Default is ';
+    'directory, where GLIDE searches for config template files. Default is ';
   lisFileWhereDebugOutputIsWritten =
     'file, where debug output is written to. If it is '+
     'not specified, debug output is written to the console.';
@@ -216,9 +216,9 @@ resourcestring
   lisWordAtCursorInCurrentEditor = 'Word at cursor in current editor';
   lisExpandedFilenameOfCurrentEditor = 'Expanded filename of current editor file';
   lisFreePascalSourceDirectory = 'Free Pascal source directory';
-  lisLazarusDirectory = 'Lazarus directory';
-  lisLazarusLanguageID = 'Lazarus language ID (e.g. en, de, br, fi)';
-  lisLazarusLanguageName = 'Lazarus language name (e.g. english, deutsch)';
+  lisLazarusDirectory = 'GLIDE directory';
+  lisLazarusLanguageID = 'GLIDE language ID (e.g. en, de, br, fi)';
+  lisLazarusLanguageName = 'GLIDE language name (e.g. english, deutsch)';
   lisLCLWidgetType = 'LCL widget type';
   lisTargetCPU = 'Target CPU';
   lisTargetOS = 'Target OS';
@@ -247,7 +247,7 @@ resourcestring
   lisOpenProject2 = 'Open project';
   lisFileHasNoProject = 'File has no project';
   lisTheFileIsNotALazarusProjectCreateANewProjectForThi = 'The file "%s" is '
-    +'not a Lazarus project.%sCreate a new project for this "%s"?';
+    +'not a GLIDE project.%sCreate a new project for this "%s"?';
   lisCreateProject = 'Create project';
   lisKMSaveProject = 'Save project';
   lisKMCloseProject = 'Close project';
@@ -260,7 +260,7 @@ resourcestring
     +'%sLoad this project again?';
   lisOpenProjectAgain = 'Open project again';
   lisStartWithANewProject = 'Start with a new project';
-  lisConfigDirectory = 'Lazarus config directory';
+  lisConfigDirectory = 'GLIDE config directory';
 
   lisPkgMacroPackageDirectoryParameterIsPackageID = 'Package directory. '
     +'Parameter is package ID, e.g. "Name" or "Name 1.0"';
@@ -582,16 +582,16 @@ resourcestring
   lisMenuConvertDFMtoLFM = 'Convert Binary DFM to Text LFM + Check Syntax ...';
   lisMenuCheckLFM = 'Check LFM File in Editor';
   lisMenuDelphiConversion = 'Delphi Conversion';
-  lisMenuConvertDelphiUnit = 'Convert Delphi Unit to Lazarus Unit ...';
-  lisMenuConvertDelphiProject = 'Convert Delphi Project to Lazarus Project ...';
-  lisMenuConvertDelphiPackage = 'Convert Delphi Package to Lazarus Package ...';
+  lisMenuConvertDelphiUnit = 'Convert Delphi Unit to GLIDE Unit ...';
+  lisMenuConvertDelphiProject = 'Convert Delphi Project to GLIDE Project ...';
+  lisMenuConvertDelphiPackage = 'Convert Delphi Package to GLIDE Package ...';
   lisMenuConvertEncoding = 'Convert Encoding of Projects/Packages ...';
   lisConvertEncodingOfProjectsPackages = 'Convert encoding of projects/packages';
   lisMenuExampleProjects = 'Example Projects ...';
   lisKMExampleProjects = 'Example Projects';
-  lisMenuBuildLazarus = 'Build Lazarus with Current Profile';
-  lisMenuBuildLazarusProf = 'Build Lazarus with Profile: %s';
-  lisMenuConfigureBuildLazarus = 'Configure "Build Lazarus" ...';
+  lisMenuBuildLazarus = 'Build GLIDE with Current Profile';
+  lisMenuBuildLazarusProf = 'Build GLIDE with Profile: %s';
+  lisMenuConfigureBuildLazarus = 'Configure "Build GLIDE" ...';
   lisManageSourceEditors = 'Manage Source Editors ...';
   lisSourceEditorWindowManager = 'Source Editor Window Manager';
   lisProjectCount = '%d projects';
@@ -677,7 +677,7 @@ resourcestring
   lisConvertTargetSupportDelphi = 'Support Delphi';
   lisConvertTargetSupportDelphiHint = 'Use conditional compilation to support Delphi';
   lisConvertTargetSameDfmFile = 'Use the same DFM form file';
-  lisConvertTargetSameDfmFileHint = 'Same DFM file for Lazarus and Delphi instead of copying it to LFM';
+  lisConvertTargetSameDfmFileHint = 'Same DFM file for GLIDE and Delphi instead of copying it to LFM';
   lisKeepFileOpen = 'Keep converted files open in editor';
   lisKeepFileOpenHint = 'All project files will be open in editor after conversion';
   lisScanFilesInParentDir = 'Scan files in parent directory';
@@ -716,7 +716,7 @@ resourcestring
   lisConvDelphiPackageNameExists = 'Package name exists';
   lisConvDelphiProjOmittedUnit = 'Omitted unit %s from project';
   lisConvDelphiAddedPackageDependency = 'Added Package %s as a dependency.';
-  lisConvDelphiPackageRequired = 'Package %s is required but not installed in Lazarus! Install it later.';
+  lisConvDelphiPackageRequired = 'Package %s is required but not installed in GLIDE! Install it later.';
   lisConvDelphiThereIsAlreadyAPackageWithTheNamePleaseCloseThisPa = 'There is '
     +'already a package with the name "%s"%sPlease close this package first.';
   lisConvUnknownProps = 'Unknown properties';
@@ -815,9 +815,9 @@ resourcestring
   lisFileNotFoundDoYouWantToCreateIt = 'File "%s" not found.%sDo you want to create it?';
   lisProjectInfoFileDetected = 'Project info file detected';
   lisTheFileSeemsToBeTheProgramFileOfAnExistingLazarusP = 'The file %s seems '
-    +'to be the program file of an existing Lazarus Project.';
+    +'to be the program file of an existing GLIDE Project.';
   lisTheFileSeemsToBeAProgramCloseCurrentProject = 'The file "%s" seems to be a program.'
-    +'%sClose current project and create a new Lazarus project for this program?'
+    +'%sClose current project and create a new GLIDE project for this program?'
     +'%s"No" will load the file as normal source.';
   lisProgramDetected = 'Program detected';
   lisUnableToConvertTextFormDataOfFileIntoBinaryStream = 'Unable to convert '
@@ -902,7 +902,7 @@ resourcestring
   lisNoProgramFileSFound = 'No program file "%s" found.';
   lisNotNow = 'Not now';
   lisYouCanNotBuildLazarusWhileDebuggingOrCompiling = 'You cannot build '
-    +'Lazarus while debugging or compiling.';
+    +'GLIDE while debugging or compiling.';
   lisReadError = 'Read Error';
   lisUnableToReadFile = 'Unable to read file';
   lisUnableToReadFile2 = 'Unable to read file "%s".';
@@ -932,7 +932,7 @@ resourcestring
   lisDeleteAmbiguousFile = 'Delete ambiguous file?';
   lisAmbiguousFileFoundThisFileCanBeMistakenWithDelete = 'Ambiguous file '
     +'found: "%s"%sThis file can be mistaken with "%s"%sDelete the ambiguous file?';
-  lisLazarusEditorV = 'Lazarus IDE v%s';
+  lisLazarusEditorV = 'GLIDE IDE v%s';
   lisnewProject = '(new project)';
   liscompiling = '%s (compiling ...)';
   lisdebugging = '%s (debugging ...)';
@@ -942,7 +942,7 @@ resourcestring
     +'%sIf it belongs to your project, check search path in'
     +'%sProject -> Compiler Options -> Search Paths -> Other Unit Files.'
     +' If this file belongs to a package, check the appropriate package compiler'
-    +' options. If this file belongs to Lazarus, make sure compiling clean.'
+    +' options. If this file belongs to GLIDE, make sure compiling clean.'
     +' If the file belongs to FPC then check fpc.cfg.'
     +' If unsure, check Project -> CompilerOptions -> Test';
   lisNOTECouldNotCreateDefineTemplateForFreePascal = 'NOTE: Could not create '
@@ -970,7 +970,7 @@ resourcestring
   lisSavingFileAsLoosesCharactersAtLineColumn = 'Saving file "%s" as "%s" '
     +'looses characters at line %s, column %s.';
   lisNOTECouldNotCreateDefineTemplateForLazarusSources = 'NOTE: Could not '
-    +'create Define Template for Lazarus Sources';
+    +'create Define Template for GLIDE Sources';
   lisInvalidExpressionHintTheMakeResourcestringFunction = 'Invalid expression.%s'
     +'Hint: The "Make Resourcestring" function expects a string constant in a '
     +'single file. Please select the expression and try again.';
@@ -1025,7 +1025,7 @@ resourcestring
     +'method. Please fix the error shown in the message window.';
   lisStopDebugging = 'Stop Debugging?';
   lisStopTheDebugging = 'Stop the debugging?';
-  lisCannotFindLazarusStarter = 'Cannot find Lazarus starter:%s%s';
+  lisCannotFindLazarusStarter = 'Cannot find GLIDE starter:%s%s';
   lisFPCTooOld = 'FPC too old';
   lisTheProjectUsesFPCResourcesWhichRequireAtLeast = 'The project uses '
     +'FPC resources, which require at least FPC 2.4';
@@ -1076,7 +1076,7 @@ resourcestring
   lisChooseDirectory = 'Choose directory';
   lisDestinationDirectory = 'Destination directory';
   lisCommandAfter = 'Command after';
-  lisChooseLazarusSourceDirectory = 'Choose Lazarus Directory';
+  lisChooseLazarusSourceDirectory = 'Choose GLIDE Directory';
   lisChooseCompilerExecutable = 'Choose compiler executable (%s)';
   lisChooseFPCSourceDir = 'Choose FPC source directory';
   lisChooseCompilerMessages = 'Choose compiler messages file';
@@ -1091,14 +1091,14 @@ resourcestring
   lisProjectSessionChanged = 'Project session changed';
   lisSaveSessionChangesToProject = 'Save session changes to project %s?';
 
-  lisAboutLazarus = 'About Lazarus';
+  lisAboutLazarus = 'About GLIDE';
   lisVersion = 'Version';
   lisVerToClipboard = 'Copy version information to clipboard';
   lisDate = 'Date';
   lisFPCVersion = 'FPC Version: ';
   lisSVNRevision = 'SVN Revision: ';
   lisPrior = 'prior %s';
-  lisWelcomeToLazarusThereIsAlreadyAConfigurationFromVe = 'Welcome to Lazarus %s'
+  lisWelcomeToLazarusThereIsAlreadyAConfigurationFromVe = 'Welcome to GLIDE %s'
     +'%sThere is already a configuration from version %s in'
     +'%s%s';
   lisTheOldConfigurationWillBeUpgraded = 'The old configuration will be '
@@ -1106,7 +1106,7 @@ resourcestring
   lisTheConfigurationWillBeDowngradedConverted = 'The configuration will be '
     +'downgraded/converted.';
   lisIfYouWantToUseTwoDifferentLazarusVersionsYouMustSt = 'If you want to use '
-    +'two different Lazarus versions you must start the second Lazarus with '
+    +'two different GLIDE versions you must start the second GLIDE with '
     +'the command line parameter primary-config-path or pcp.'
     +'%sFor example:';
   lisUpgradeConfiguration = 'Upgrade configuration';
@@ -1114,7 +1114,7 @@ resourcestring
   lisDowngradeConfiguration = 'Downgrade configuration';
   lisDowngrade = 'Downgrade';
   lisAboutLazarusMsg =
-       'License: GPL/LGPL. See Lazarus and Free Pascal sources for license details.'
+       'License: GPL/LGPL. See GLIDE and Free Pascal sources for license details.'
       +'%s'
       +'Lazarus is an IDE to create graphical and console applications '
       +'with Free Pascal. Free Pascal is Pascal and Object Pascal '
@@ -1124,7 +1124,10 @@ resourcestring
       +'develop programs for all of the above platforms in a Delphi like '
       +'environment. The IDE is a RAD tool that includes a form designer.'
       +'%s'
-      +'As Lazarus is growing we need more developers.';
+       +'GLIDE is built on the Lazarus codebase.'+LineEnding
+       +'GLIDE is an acronym for Globalized Lazarus Integrated Development Envirionment'+LineEnding
+      +'%s'
+      +'As GLIDE is growing we need more developers.';
   lisAboutNoContributors = 'Cannot find contributors list.';
   lisUnitNameAlreadyExistsCap = 'Unitname already in project';
   lisTheUnitAlreadyExists = 'The unit "%s" already exists.';
@@ -1384,9 +1387,9 @@ resourcestring
   lisWindowMenuWithNameForDesignedFormHint = 'Useful especially if the caption is left empty.';
   dlgWinPos = 'Window positions';
   lisTitleInTaskbarShowsForExampleProject1LpiLazarus = 'Title in taskbar '
-    +'shows for example: project1.lpi - Lazarus';
+    +'shows for example: project1.lpi - GLIDE';
   lisBuildModeInTitleInExample = 'Title in taskbar '
-    +'shows for example: project1.lpi - Release - Lazarus';
+    +'shows for example: project1.lpi - Release - GLIDE';
   lisProjectDirectoryIsShowedInIdeTitleBar = 'Title in taskbar '
     +'shows also directory path of the project';
 
@@ -1422,7 +1425,7 @@ resourcestring
   dlgMaxRecentFiles = 'Max recent files';
   dlgMaxRecentProjs = 'Max recent project files';
   dlgQOpenLastPrj = 'Open last project and packages at start';
-  dlgLazarusDir = 'Lazarus directory (default for all projects)';
+  dlgLazarusDir = 'GLIDE directory (default for all projects)';
   dlgFpcExecutable = 'Compiler executable (e.g. %s)';
   dlgFpcSrcPath = 'FPC source directory';
   dlgMakeExecutable = '"Make" executable';
@@ -1526,7 +1529,7 @@ resourcestring
   dlgOISpeedSettings = 'Speed settings';
   dlgOIItemHeight = 'Item height (0 = auto)';
   dlgHeightOfOnePropertyInGrid = 'Height of one property in the grid.';
-  dlgOIUseDefaultLazarusSettings = 'Use default Lazarus settings';
+  dlgOIUseDefaultLazarusSettings = 'Use default GLIDE settings';
   dlgOIUseDefaultDelphiSettings = 'Use default Delphi settings';
   lisShowComponentTreeInObjectInspector = 'Show component tree';
   lisShowsAllControlsInTreeHierarchy = 'Shows all controls in tree hierarchy.';
@@ -2505,7 +2508,7 @@ resourcestring
     +' correct:%s%s';
   lisTheFPCSourceDirectoryDoesNotLookCorrect = 'The FPC source directory "%s" '
     +'does not look correct:%s%s';
-  lisTheLazarusDirectoryDoesNotLookCorrect = 'The Lazarus directory "%s" does '
+  lisTheLazarusDirectoryDoesNotLookCorrect = 'The GLIDE directory "%s" does '
     +'not look correct:%s%s';
   lisTheContainsANotExistingDirectory = 'The %s contains a nonexistent directory:%s%s';
   lisTheProjectDoesNotUseTheLCLUnitInterfacesButItSeems = 'The project does '
@@ -2663,7 +2666,7 @@ resourcestring
   lisPutLrsFilesInOutputDirectory = 'Save .lrs files in the output directory';
   lisPutLrsFilesInOutputDirectoryHint = 'The resource will be available for FPC.';
   lisResourceTypeOfNewFiles = 'Resource type of project';
-  lisLrsIncludeFiles = 'Lazarus resources (.lrs) include files';
+  lisLrsIncludeFiles = 'GLIDE resources (.lrs) include files';
   lisAutomaticallyConvertLfmToLrs = 'Automatically convert .lfm files to .lrs resource files';
   lisFPCResources = 'FPC resources (.res)';
   lisDelphiCompatibleResources = 'Delphi compatible resources. Recommended.';
@@ -3314,7 +3317,7 @@ resourcestring
 
   // tools menu
   srkmecExtToolSettings           = 'External tools settings';
-  srkmecBuildLazarus              = 'Build Lazarus';
+  srkmecBuildLazarus              = 'Build GLIDE';
   srkmecExtTool                   = 'External tool %d';
   srkmecEnvironmentOptions        = 'IDE options';
   lisKMEditCodeTemplates          = 'Edit Code Templates';
@@ -3326,8 +3329,8 @@ resourcestring
   lisDesktops                     = 'Desktops ...';
   lisKMDiffEditorFiles            = 'Diff Editor Files';
   lisKMConvertDFMFileToLFM        = 'Convert DFM File to LFM';
-  lisKMConvertDelphiUnitToLazarusUnit = 'Convert Delphi Unit to Lazarus Unit';
-  lisKMConvertDelphiProjectToLazarusProject = 'Convert Delphi Project to Lazarus Project';
+  lisKMConvertDelphiUnitToLazarusUnit = 'Convert Delphi Unit to GLIDE Unit';
+  lisKMConvertDelphiProjectToLazarusProject = 'Convert Delphi Project to GLIDE Project';
   srkmecDiff                      = 'Diff';
   
   // help menu
@@ -3395,7 +3398,7 @@ resourcestring
   srkmCatPackageMenu = 'Package menu commands';
   srkmCatToolMenu       = 'Tools menu commands';
   lisKMExternalToolsSettings = 'External Tools settings';
-  lisKMConvertDelphiPackageToLazarusPackage = 'Convert Delphi package to Lazarus package';
+  lisKMConvertDelphiPackageToLazarusPackage = 'Convert Delphi package to GLIDE package';
   srkmCarHelpMenu       = 'Help menu commands';
   lisKeyCatDesigner     = 'Designer commands';
   lisKMCopySelectedComponentsToClipboard = 'Copy selected components';
@@ -3435,22 +3438,22 @@ resourcestring
   dlgUnitDepCaption      = 'Unit Dependencies';
   dlgUnitDepRefresh      = 'Refresh';
 
-  // Build Lazarus dialog
-  lisConfirmLazarusRebuild = 'Do you want to rebuild Lazarus with profile: %s?';
+  // Build GLIDE dialog
+  lisConfirmLazarusRebuild = 'Do you want to rebuild GLIDE with profile: %s?';
   lisConfirmation = 'Confirmation';
   lisPkgTheProjectOverridesTheOutputDirectoryOfTheFollowin = 'The project '
     +'overrides the output directory of the following packages.'
     +'%sSee Project / Project Options (compiler options section) / Additions and Overrides'
     +'%s%s';
-  lisConfirmBuildAllProfiles = 'Lazarus will be rebuilt with the following profiles:%sContinue?';
+  lisConfirmBuildAllProfiles = 'GLIDE will be rebuilt with the following profiles:%sContinue?';
   lisNoBuildProfilesSelected = 'No profiles are selected to be built.';
-  lisCleanLazarusSource = 'Clean Lazarus Source';
+  lisCleanLazarusSource = 'Clean GLIDE Source';
   lisBuildIDE = 'Build IDE';
   lisMakeNotFound = 'Make not found';
   lisTheProgramMakeWasNotFoundThisToolIsNeededToBuildLa = 'The program "make" '
-    +'was not found.%sThis tool is needed to build Lazarus.';
+    +'was not found.%sThis tool is needed to build GLIDE.';
   lisIDE = 'IDE';
-  lisConfigureBuildLazarus = 'Configure "Build Lazarus"';
+  lisConfigureBuildLazarus = 'Configure "Build GLIDE"';
   lisLazBuildOptions = 'Options:';
   lisLazBuildTargetOS = 'Target OS:';
   lisLazBuildTargetCPU = 'Target CPU:';
@@ -3499,8 +3502,8 @@ resourcestring
   lisLazBuildShowOptionsAndDefinesForCommandLine = 'Show options and defines '
     +'for command line';
   lisLazBuildUpdateRevisionInfoInAboutLazarusDialog = 'Update revision info '
-    +'in "About Lazarus" dialog';
-  lisLazBuildRestartLazarusAutomatically = 'Restart Lazarus automatically after '+
+    +'in "About GLIDE" dialog';
+  lisLazBuildRestartLazarusAutomatically = 'Restart GLIDE automatically after '+
     'building the IDE (has no effect when building other parts)';
   lisLazBuildShowConfirmationDialogWhenBuilding = 'Show confirmation dialog when '+
     'building directly from Tools menu';
@@ -4287,10 +4290,10 @@ resourcestring
   lisUnitInPackage = '%s unit %s in package %s';
   lisPkgMangSkipThisPackage = 'Skip this package';
   lisPkgMangInvalidFileExtension = 'Invalid file extension';
-  lisPkgMangTheFileIsNotALazarusPackage = 'The file "%s" is not a Lazarus package.';
+  lisPkgMangTheFileIsNotALazarusPackage = 'The file "%s" is not a GLIDE package.';
   lisPkgMangInvalidPackageFilename = 'Invalid package filename';
   lisPkgMangThePackageFileNameInIsNotAValidLazarusPackageName = 'The package '
-    +'file name "%s" in%s"%s" is not a valid Lazarus package name.';
+    +'file name "%s" in%s"%s" is not a valid GLIDE package name.';
   lisPkgMangFileNotFound = 'File "%s" not found.';
   lisOpenFileAtCursor = 'Open file at cursor';
   lisPkgMangErrorReadingPackage = 'Error Reading Package';
@@ -4350,12 +4353,12 @@ resourcestring
     +'the package %s will automatically install the packages:';
   lisPkgMangInstallingThePackageWillAutomaticallyInstallThePac = 'Installing '
     +'the package %s will automatically install the package:';
-  lisPkgMangRebuildLazarus = 'Rebuild Lazarus?';
+  lisPkgMangRebuildLazarus = 'Rebuild GLIDE?';
   lisPkgMangThePackageWasMarkedForInstallationCurrentlyLazarus = 'The package "%s" '
     +'was marked for installation.'
-    +'%sCurrently Lazarus only supports static linked packages. '
-    +'The real installation needs rebuilding and restarting of Lazarus.'
-    +'%sDo you want to rebuild Lazarus now?';
+    +'%sCurrently GLIDE only supports static linked packages. '
+    +'The real installation needs rebuilding and restarting of GLIDE.'
+    +'%sDo you want to rebuild GLIDE now?';
   lisPkgMangPackageIsRequired = 'Package is required';
   lisPkgMangThePackageIsRequiredByWhichIsMarkedForInstallation = 'The package %s '
     +'is required by %s, which is marked for installation.'
@@ -4363,23 +4366,23 @@ resourcestring
   lisPkgMangUninstallPackage = 'Uninstall package?';
   lisPkgMangUninstallPackage2 = 'Uninstall package %s?';
   lisPkgMangThePackageWasMarkedCurrentlyLazarus = 'The package "%s" was marked.'
-    +'%sCurrently Lazarus only supports static linked packages. The real un-installation '
-    +'needs rebuilding and restarting of Lazarus.'
-    +'%sDo you want to rebuild Lazarus now?';
+    +'%sCurrently GLIDE only supports static linked packages. The real un-installation '
+    +'needs rebuilding and restarting of GLIDE.'
+    +'%sDo you want to rebuild GLIDE now?';
   lisPkgMangThisIsAVirtualPackageItHasNoSourceYetPleaseSaveThe = 'This is a '
     +'virtual package. It has no source yet. Please save the package first.';
   lisPkgMangPleaseCompileThePackageFirst = 'Please compile the package first.';
   lisPkgMangThePackageIsMarkedForInstallationButCanNotBeFound = 'The package "%s" '
     +'is marked for installation, but cannot be found.'
     +'%sRemove dependency from the installation list of packages?';
-  lisERRORInvalidBuildMode = 'Error: (lazarus) invalid build mode "%s"';
+  lisERRORInvalidBuildMode = 'Error: (GLIDE) invalid build mode "%s"';
   lisAvailableProjectBuildModes = 'Available project build modes:';
   lisThisProjectHasOnlyTheDefaultBuildMode = 'This project has only the default build mode.';
   lisPkgMangstaticPackagesConfigFile = 'static packages config file';
   lisPkgMangUnableToCreateTargetDirectoryForLazarus = 'Unable to create '
-    +'target directory for Lazarus:'
+    +'target directory for GLIDE:'
     +'%s"%s".'
-    +'%sThis directory is needed for the new changed Lazarus IDE with your custom packages.';
+    +'%sThis directory is needed for the new changed GLIDE IDE with your custom packages.';
   lisPkgMangCompilePackage = 'Compile package %s';
   lisPkgMangErrorUpdatingPoFilesFailedForPackage = 'Error: updating po files '
     +'failed for package %s';
@@ -5263,7 +5266,7 @@ resourcestring
   lisDebugOptionsFrmDebugger = 'Debugger';
   lisDebugOptionsFrmLanguageExceptions = 'Language Exceptions';
   lisDebugOptionsFrmIgnoreTheseExceptions = 'Ignore these exceptions';
-  lisDebugOptionsFrmNotifyOnLazarusExceptions = 'Notify on Lazarus Exceptions';
+  lisDebugOptionsFrmNotifyOnLazarusExceptions = 'Notify on GLIDE Exceptions';
   lisDebugOptionsFrmOSExceptions = 'OS Exceptions';
   lisDebugOptionsFrmSignals = 'Signals';
   lisDebugOptionsFrmHandledBy = 'Handled by';
@@ -5534,7 +5537,7 @@ resourcestring
   lisPWOpenRecentProject = 'Open &Recent Project';
   lisPWViewExampleProjects = 'View &Example Projects';
   lisPWConvertProject = 'Convert &Delphi Project';
-  lisQuitLazarus = '&Quit Lazarus';
+  lisQuitLazarus = '&Quit GLIDE';
   lisIsAThisCircularDependencyIsNotAllowed = '%s is a %s.%sThis circular '
     +'dependency is not allowed.';
   lisTheComponentCanNotBeDeletedBecauseItIsNotOwnedBy = 'The component %s can '
@@ -5563,7 +5566,7 @@ resourcestring
     +'path of "%s" contains the source directory "%s" of package %s';
   lisFPCVersionEG222 = 'FPC Version (e.g. 2.2.2)';
   lisFPCFullVersionEG20701 = 'FPC version as one number (e.g. 20701)';
-  lisLAZVer = 'Lazarus Version (e.g. 1.2.4)';
+  lisLAZVer = 'GLIDE Version (e.g. 1.2.4)';
   lisMissingIdentifiers = 'Missing identifiers';
   lisChooseAFPDocLink = 'Choose a FPDoc link';
   lisLinkTarget = 'Link target';
@@ -5883,11 +5886,11 @@ resourcestring
   lisShowGlyphsFor = 'Show Glyphs for';
   lisDirectoryNotWritable = 'Directory not writable';
   lisTheDirectoryIsNotWritable = 'The directory "%s" is not writable.';
-  lisBuildingLazarusFailed = 'Building Lazarus failed';
+  lisBuildingLazarusFailed = 'Building GLIDE failed';
   lisThisSetOfOptionsToBuildLazarusIsNotSupportedByThis = 'This set of '
-    +'options to build Lazarus is not supported by this installation.%sThe '
-    +'directory "%s" is not writable.%sSee the Lazarus website for other '
-    +'ways to install Lazarus.';
+    +'options to build GLIDE is not supported by this installation.%sThe '
+    +'directory "%s" is not writable.%sSee the GLIDE website for other '
+    +'ways to install GLIDE.';
   lisIDEBuildOptions = 'IDE build options';
   lisPathOfTheInstantfpcCache = 'path of the instantfpc cache';
   lisPrimaryConfigPath = 'Primary config path';
@@ -6027,7 +6030,7 @@ resourcestring
   lisInsteadOfCompilePackageCreateASimpleMakefile = 'Instead of compile '
     +'package create a simple Makefile.';
   lisOnlyRegisterTheLazarusPackageFilesLpkDoNotBuild = 'Only register the '
-    +'Lazarus package files (.lpk). Do not build.';
+    +'GLIDE package files (.lpk). Do not build.';
 
   // Custom form editor
   lisCFEAnExceptionOccuredDuringDeletionOf = 'An exception occurred during '
@@ -6082,9 +6085,9 @@ resourcestring
     +'example it has the file "%s".';
   lisSelectPathTo = 'Select path to %s';
   lisSelectFPCSourceDirectory = 'Select FPC source directory';
-  lisSelectLazarusSourceDirectory = 'Select Lazarus source directory';
+  lisSelectLazarusSourceDirectory = 'Select GLIDE source directory';
   lisWithoutAProperLazarusDirectoryYouWillGetALotOfWarn = 'Without a proper '
-    +'Lazarus directory you will get a lot of warnings.';
+    +'GLIDE directory you will get a lot of warnings.';
   lisWithoutAProperCompilerTheCodeBrowsingAndCompilingW = 'Without a proper '
     +'compiler the code browsing and compiling will be disappointing.';
   lisWithoutAProperDebuggerDebuggingWillBeDisappointing = 'Without a proper '
@@ -6093,7 +6096,7 @@ resourcestring
     +'FPC sources code browsing and completion will be very limited.';
   lisWithoutAProperMakeExecutableTheCompilingOfTheIDEIs = 'Without a proper "'
     +'make" executable the compiling of the IDE is not possible.';
-  lisTheLazarusDirectoryContainsTheSourcesOfTheIDEAndTh = 'The Lazarus directory '
+  lisTheLazarusDirectoryContainsTheSourcesOfTheIDEAndTh = 'The GLIDE directory '
     +'contains the sources of the IDE and the package files of LCL and many '
     +'standard packages. For example it contains the file "ide%slazarus.lpi". '
     +'The translation files are located there too.';
@@ -6111,7 +6114,7 @@ resourcestring
   lisInvalidVersionIn = 'invalid version in %s';
   lisWrongVersionIn = 'wrong version in %s: %s';
   lisFPCSources = 'FPC sources';
-  lisConfigureLazarusIDE = 'Configure Lazarus IDE';
+  lisConfigureLazarusIDE = 'Configure GLIDE IDE';
   lisFileIsNotAnExecutable = 'File is not an executable';
   lisUnusualPas2jsCompilerFileNameUsuallyItStartsWithPa = 'Unusual pas2js '
     +'compiler file name. Usually it starts with pas2js.';
@@ -6122,7 +6125,7 @@ resourcestring
     +'file name. Usually it starts with fpc, ppc or ppcross.';
   lisFpcCfgIsMissing = 'fpc.cfg is missing.';
   lisSystemPpuNotFoundCheckYourFpcCfg = 'system.ppu not found. Check your fpc.cfg.';
-  lisWelcomeToLazarusIDE = 'Welcome to Lazarus IDE %s';
+  lisWelcomeToLazarusIDE = 'Welcome to GLIDE IDE %s';
   lisStartIDE = 'Start IDE';
   lisUnableToLoadFile2 = 'unable to load file %s: %s';
   lisDirectoryNotFound2 = 'directory %s not found';
@@ -6202,7 +6205,7 @@ resourcestring
 
   lisUIClearIncludedByReference = 'Clear include cache';
   lisChangeParent = 'Change Parent';
-  lisLazarusIDE = 'Lazarus IDE';
+  lisLazarusIDE = 'GLIDE IDE';
   lisProject = 'Project %s';
   lisWhatNeedsBuilding = 'What needs building';
   lisTarget = 'Target:';
@@ -6328,25 +6331,25 @@ resourcestring
     +'procedure signatures when only letter case has changed';
   lisTemplateFile = 'Template file';
   lisIncorrectConfigurationDirectoryFound = 'Incorrect configuration directory found';
-  lisIDEConficurationFoundMayBelongToOtherLazarus = 'Welcome to Lazarus.%0:s'
+  lisIDEConficurationFoundMayBelongToOtherLazarus = 'Welcome to GLIDE.%0:s'
     + 'The IDE configuration found was previously used by another '
-    + 'installation of Lazarus.%0:s'
-    + 'If you have two or more separate installations of Lazarus, they should not '
+    + 'installation of GLIDE.%0:s'
+    + 'If you have two or more separate installations of GLIDE, they should not '
     + 'share the same configuration. This may lead to conflicts, and your '
-    + 'Lazarus installations may become unusable.%0:s%0:s'
-    + 'If you have only one installation and copied or moved the Lazarus '
+    + 'GLIDE installations may become unusable.%0:s%0:s'
+    + 'If you have only one installation and copied or moved the GLIDE '
     + 'executable, then you may upgrade this configuration.%0:s'
     + '%1:s%0:s%0:s'       // %1:s = ConfDirWarning
     + 'Choose:%0:s%0:s'
     + '* Update info: Use this configuration and update it for being used with this '
-    + 'Lazarus in future. The old installation will no longer use this.%0:s'
+    + 'GLIDE in future. The old installation will no longer use this.%0:s'
     + '* Ignore: Use this configuration, but keep the warning. This may lead to '
     + 'conflicts with the other installation.%0:s'
-    + '* Abort: Exit now. You can then fix the problem by starting this Lazarus '
+    + '* Abort: Exit now. You can then fix the problem by starting this GLIDE '
     + 'with the correct configuration.%0:s%0:s'
     + 'Additional information:%0:s'
     + 'This configuration is at: %2:s%0:s'                     // %2:s = PrimaryConfPath
-    + 'It belongs to the Lazarus installation at: %3:s%0:s'     // %3:s = old install path
+    + 'It belongs to the GLIDE installation at: %3:s%0:s'     // %3:s = old install path
     + 'The current IDE was started from: %4:s%0:s'             // %4:s = current
     ;
   lisUpdateInfo = 'Update info';

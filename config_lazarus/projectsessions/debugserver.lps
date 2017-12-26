@@ -8,6 +8,7 @@
         <Filename Value="debugserver.lpr"/>
         <IsPartOfProject Value="True"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="frmmain.pp"/>
@@ -16,6 +17,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="163"/>
+        <CursorPos X="3" Y="167"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -24,9 +28,13 @@
         <Filename Value="frmoptions.pp"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="OptionsForm"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmOptions"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="README.txt"/>

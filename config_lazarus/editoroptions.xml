@@ -5,12 +5,33 @@
     <KeyMapping>
       <default>
         <Version Value="6"/>
+        <ExternalToolCount Value="7"/>
       </default>
     </KeyMapping>
-    <CodeTools CodeTemplateFileName="C:\fpcupdeluxe\config_lazarus\lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly"/>
+    <CodeTools CodeTemplateFileName="d:\jazenga.glide\config_lazarus\lazarus.dci" CompletionLongLineHintTypeCompletionLongLineHintType="sclpExtendRightOnly"/>
     <Mouse>
       <Default Version="1"/>
     </Mouse>
-    <Color Version="11"/>
+    <Color Version="11">
+      <Globals Version="11">
+        <SchemeDefault>
+          <ahaTextBlock Foreground="clNavy" Background="clAqua"/>
+          <ahaHighlightWord Background="clBlue" Foreground="clYellow" Style="fsBold"/>
+          <ahaGutter Background="clSilver"/>
+          <ahaFoldedCode Foreground="clBlack"/>
+          <ahaLineNumber Style="fsBold"/>
+          <ahaBracketMatch Background="clOlive" Foreground="clWhite"/>
+          <ahaFoldedCodeLine Foreground="clBlack"/>
+          <ahaCodeFoldingTree Foreground="clBlack"/>
+          <ahaIncrementalSearch Background="clGray" Foreground="clYellow" Style="fsBold"/>
+        </SchemeDefault>
+      </Globals>
+      <LangObjectPascal Version="11">
+        <ColorScheme Value="Default"/>
+      </LangObjectPascal>
+    </Color>
+    <General>
+      <Editor ShowTabCloseButtons="False"/>
+    </General>
   </EditorOptions>
 </CONFIG>

@@ -348,6 +348,7 @@
         <ComponentName Value="AboutForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AboutFrm"/>
       </Unit44>
       <Unit45>
         <Filename Value="idehelpmanager.pas"/>
@@ -787,7 +788,9 @@
       <Unit118>
         <Filename Value="syncolorattribeditor.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="SynColorAttrEditor"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
       </Unit118>
       <Unit119>
         <Filename Value="inputhistory.pas"/>
@@ -844,7 +847,9 @@
       <Unit129>
         <Filename Value="buildlazdialog.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConfigureBuildLazarusDlg"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="BuildLazDialog"/>
       </Unit129>
       <Unit130>
@@ -1220,6 +1225,7 @@
         <ComponentName Value="IDEOptionsDialog"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="IDEOptionsDlg"/>
       </Unit206>
       <Unit207>
         <Filename Value="findunitdlg.pas"/>

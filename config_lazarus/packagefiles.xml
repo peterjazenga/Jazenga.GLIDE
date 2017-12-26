@@ -4,355 +4,355 @@
     <Item1>
       <Name Value="Abbrevia"/>
       <Version Major="5"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Abrevia\packages\Lazarus\abbrevia.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Abrevia\packages\Lazarus\abbrevia.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item1>
     <Item2>
       <Name Value="aggpas"/>
       <Version Major="2" Minor="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\AGGPas\aggpas.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\AGGPas\aggpas.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item2>
     <Item3>
       <Name Value="aggpasvs"/>
       <Version Major="2" Minor="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\AGGPasVS\aggpasvs.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\AGGPasVS\aggpasvs.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item3>
     <Item4>
       <Name Value="amw_ide_tools"/>
       <Version Minor="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\LAMW\ide_tools\amw_ide_tools.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\LAMW\ide_tools\amw_ide_tools.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item4>
     <Item5>
       <Name Value="apelib"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\APE\apelib.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\APE\apelib.lpk"/>
       <LastUsed Value="2017/12/13 17:14:09"/>
     </Item5>
     <Item6>
       <Name Value="appexplore"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Lazarus AppExplore\appexplore.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Lazarus AppExplore\appexplore.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item6>
     <Item7>
       <Name Value="asiovst"/>
       <Version Major="1" Minor="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ASIO_VST\asiovst.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ASIO_VST\asiovst.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item7>
     <Item8>
       <Name Value="astronomy"/>
       <Version Major="4" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Astronomy\astronomy.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Astronomy\astronomy.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item8>
     <Item9>
       <Name Value="atbinhex_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATBinHex-Lazarus-master\atbinhex\atbinhex_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATBinHex-Lazarus-master\atbinhex\atbinhex_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item9>
     <Item10>
       <Name Value="atfilenotif_pkg"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATFileNotif-Lazarus\src\atfilenotif_pkg.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATFileNotif-Lazarus\src\atfilenotif_pkg.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item10>
     <Item11>
       <Name Value="atflatcontrols_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATFlatControls\atflatcontrols\atflatcontrols_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATFlatControls\atflatcontrols\atflatcontrols_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item11>
     <Item12>
       <Name Value="atsynedit_ex_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATSynEdit_Ex\atsynedit_ex\atsynedit_ex_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATSynEdit_Ex\atsynedit_ex\atsynedit_ex_package.lpk"/>
       <LastUsed Value="2017/12/13 16:44:35"/>
     </Item12>
     <Item13>
       <Name Value="atsynedit_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATSynEdit\atsynedit\atsynedit_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATSynEdit\atsynedit\atsynedit_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item13>
     <Item14>
       <Name Value="attabs_package"/>
       <Version Major="1" Minor="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ATTabs\attabs\attabs_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ATTabs\attabs\attabs_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item14>
     <Item15>
       <Name Value="barcodes"/>
       <Version Major="4" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Barcodes\barcodes.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Barcodes\barcodes.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item15>
     <Item16>
       <Name Value="baredsgn"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Bare.Game-master\tools\design\baredsgn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Bare.Game-master\tools\design\baredsgn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item16>
     <Item17>
       <Name Value="barerun"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Bare.Game-master\source\barerun.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Bare.Game-master\source\barerun.lpk"/>
       <LastUsed Value="2017/12/13 17:14:44"/>
     </Item17>
     <Item18>
       <Name Value="BGLControls"/>
       <Version Major="1" Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgrabitmap-master\bgrabitmap\bglcontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgrabitmap-master\bgrabitmap\bglcontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item18>
     <Item19>
       <Name Value="BGRABitmapPack"/>
       <Version Major="9" Minor="5"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgrabitmap-master\bgrabitmap\bgrabitmappack.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgrabitmap-master\bgrabitmap\bgrabitmappack.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item19>
     <Item20>
       <Name Value="bgracontrols"/>
       <Version Major="4" Minor="3" Release="3" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgracontrols-master\bgracontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgracontrols-master\bgracontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item20>
     <Item21>
       <Name Value="BGRAControlsFX"/>
       <Version Minor="1" Release="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgracontrolsfx-master\bgracontrolsfx.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgracontrolsfx-master\bgracontrolsfx.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item21>
     <Item22>
       <Name Value="bgragames"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgragames-master\bgragames.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgragames-master\bgragames.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item22>
     <Item23>
       <Name Value="bgrapascalscriptcomponent"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\bgracontrols-master\bgrapascalscriptcomponent.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\bgracontrols-master\bgrapascalscriptcomponent.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item23>
     <Item24>
       <Name Value="Box2d"/>
       <Version Major="2" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Box2D\Box2d.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Box2D\Box2d.lpk"/>
       <LastUsed Value="2017/12/13 17:15:05"/>
     </Item24>
     <Item25>
       <Name Value="callight_pkg"/>
       <Version Minor="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\callite\callight_pkg.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\callite\callight_pkg.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item25>
     <Item26>
       <Name Value="castle_base"/>
       <Version Major="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_base.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_base.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item26>
     <Item27>
       <Name Value="castle_components"/>
       <Version Major="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_components.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_components.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item27>
     <Item28>
       <Name Value="castle_window"/>
       <Version Major="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_window.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\castle-engine-master\packages\castle_window.lpk"/>
       <LastUsed Value="2017/12/13 17:15:49"/>
     </Item28>
     <Item29>
       <Name Value="CeosMW"/>
       <Version Release="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ceosmw\ceosmw.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ceosmw\ceosmw.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item29>
     <Item30>
       <Name Value="cgi"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\CGI\cgi.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\CGI\cgi.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item30>
     <Item31>
       <Name Value="cgiide"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\CGI\cgiide.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\CGI\cgiide.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item31>
     <Item32>
       <Name Value="chronolog_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\chronolog\chronolog_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\chronolog\chronolog_package.lpk"/>
       <LastUsed Value="2017/12/13 17:31:11"/>
     </Item32>
     <Item33>
       <Name Value="chsdet"/>
       <Version Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\chsdet\chsdet.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\chsdet\chsdet.lpk"/>
       <LastUsed Value="2017/12/13 17:16:22"/>
     </Item33>
     <Item34>
       <Name Value="cindy"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Cindy\cindy.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Cindy\cindy.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item34>
     <Item35>
       <Name Value="cmdbox"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\cmdline\cmdbox.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\cmdline\cmdbox.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item35>
     <Item36>
       <Name Value="CodeSigningPackage"/>
       <Version Minor="1" Release="3" Build="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazcodesigninghelper-master\source\CodeSigningPackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazcodesigninghelper-master\source\CodeSigningPackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item36>
     <Item37>
       <Name Value="cryptini"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\cryptini\cryptini.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\cryptini\cryptini.lpk"/>
       <LastUsed Value="2017/12/14 01:03:02"/>
     </Item37>
     <Item38>
       <Name Value="datahub_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\datahub\datahub_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\datahub\datahub_package.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item38>
     <Item39>
       <Name Value="DataPortLasarus"/>
       <Version Major="1" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\DataPort\dataportlasarus.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\DataPort\dataportlasarus.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item39>
     <Item40>
       <Name Value="dclibx"/>
       <Version Major="2" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\dclibx.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\dclibx.lpk"/>
       <LastUsed Value="2017/12/13 18:40:28"/>
     </Item40>
     <Item41>
       <Name Value="dcl_rx_ctrl"/>
       <Version Major="2" Minor="6" Release="5" Build="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\dcl_rx_ctrl.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\dcl_rx_ctrl.lpk"/>
       <LastUsed Value="2017/12/13 18:40:31"/>
     </Item41>
     <Item42>
       <Name Value="dcpcrypt"/>
       <Version Major="2" Release="4" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\dcpcrypt-2.0.4.1\dcpcrypt.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\dcpcrypt-2.0.4.1\dcpcrypt.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item42>
     <Item43>
       <Name Value="dcpcrypt_laz"/>
       <Version Major="2" Release="4" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\dcpcrypt-2.0.4.1\dcpcrypt_laz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\dcpcrypt-2.0.4.1\dcpcrypt_laz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item43>
     <Item44>
       <Name Value="dexif_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\dexif\dexif_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\dexif\dexif_package.lpk"/>
       <LastUsed Value="2017/12/13 17:16:59"/>
     </Item44>
     <Item45>
       <Name Value="directx"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\DirectX\directx.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\DirectX\directx.lpk"/>
       <LastUsed Value="2017/12/13 17:17:05"/>
     </Item45>
     <Item46>
       <Name Value="dmath"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\DMath\dmath.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\DMath\dmath.lpk"/>
       <LastUsed Value="2017/12/13 17:17:13"/>
     </Item46>
     <Item47>
       <Name Value="DragDropLazarus"/>
       <Version Major="5" Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\DragDrop\Source\DragDropLazarus.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\DragDrop\Source\DragDropLazarus.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item47>
     <Item48>
       <Name Value="eccontrols"/>
       <Version Minor="9" Release="20"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\EC_Controls\eccontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\EC_Controls\eccontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item48>
     <Item49>
       <Name Value="econtrol_package"/>
       <Version Major="1" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\EControl\econtrol\econtrol_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\EControl\econtrol\econtrol_package.lpk"/>
       <LastUsed Value="2017/12/13 16:44:30"/>
     </Item49>
     <Item50>
       <Name Value="etpackage"/>
       <Version Major="1" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\epiktimer\etpackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\epiktimer\etpackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item50>
     <Item51>
       <Name Value="etpackage_dsgn"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\epiktimer\etpackage_dsgn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\epiktimer\etpackage_dsgn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item51>
     <Item52>
       <Name Value="excompress"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ExCompress\excompress.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ExCompress\excompress.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item52>
     <Item53>
       <Name Value="excontrols"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ExControls\excontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ExControls\excontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item53>
     <Item54>
       <Name Value="exdatabase"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ExDatabase\exdatabase.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ExDatabase\exdatabase.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item54>
     <Item55>
       <Name Value="exdesign"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ExDesign\exdesign.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ExDesign\exdesign.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item55>
     <Item56>
       <Name Value="exgeographic"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ExGeographic\exgeographic.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ExGeographic\exgeographic.lpk"/>
       <LastUsed Value="2017/12/13 18:40:31"/>
     </Item56>
     <Item57>
       <Name Value="ExpertSuperForm"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\SuperFormExpert\expertsuperform.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\SuperFormExpert\expertsuperform.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item57>
     <Item58>
       <Name Value="fbintf"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\fbintf.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\fbintf.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item58>
     <Item59>
       <Name Value="fclwebwst"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wstmodule\fclwebwst.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wstmodule\fclwebwst.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item59>
     <Item60>
       <Name Value="fcl_base_pas2js"/>
@@ -363,18 +363,18 @@
     <Item61>
       <Name Value="FileAssociation"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\FileAssociation-master\fileassociation.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\FileAssociation-master\fileassociation.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item61>
     <Item62>
       <Name Value="FileMenuHandler"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\FileMenuHandler\FileMenuHandler.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\FileMenuHandler\FileMenuHandler.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item62>
     <Item63>
       <Name Value="fortes324forlaz"/>
       <Version Major="3" Minor="24" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\fortes4lazarus 3.24\fortes324forlaz.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\fortes4lazarus 3.24\fortes324forlaz.lpk"/>
       <LastUsed Value="2017/12/14 01:03:17"/>
     </Item63>
     <Item64>
@@ -386,541 +386,541 @@
     <Item65>
       <Name Value="FrameViewer09"/>
       <Version Major="11"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\HtmlViewer\package\FrameViewer09.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\HtmlViewer\package\FrameViewer09.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item65>
     <Item66>
       <Name Value="frce"/>
       <Version Major="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\fortesreport-ce4\Packages\frce.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\fortesreport-ce4\Packages\frce.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item66>
     <Item67>
       <Name Value="graphics32"/>
       <Version Major="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Graphics32\graphics32.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Graphics32\graphics32.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item67>
     <Item68>
       <Name Value="graphics32_ext"/>
       <Version Major="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Graphics32EXT\graphics32_ext.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Graphics32EXT\graphics32_ext.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item68>
     <Item69>
       <Name Value="HashLib4PascalPackage"/>
       <Version Major="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\HashLib\src\Packages\FPC\HashLib4PascalPackage.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\HashLib\src\Packages\FPC\HashLib4PascalPackage.lpk"/>
       <LastUsed Value="2017/12/13 17:22:22"/>
     </Item69>
     <Item70>
       <Name Value="HistoryLazarus"/>
       <Version Major="1" Minor="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\HistoryFiles\HistoryLazarus.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\HistoryFiles\HistoryLazarus.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item70>
     <Item71>
       <Name Value="html5canvas"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Html5Canvas\html5canvas.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Html5Canvas\html5canvas.lpk"/>
       <LastUsed Value="2017/12/13 17:22:40"/>
     </Item71>
     <Item72>
       <Name Value="ibcontrols"/>
       <Version Major="2" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\ibcontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\ibcontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item72>
     <Item73>
       <Name Value="ibexpress"/>
       <Version Major="2" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\ibexpress.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\ibexpress.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item73>
     <Item74>
       <Name Value="ibexpressconsolemode"/>
       <Version Major="1" Minor="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\ibexpressconsolemode.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\ibexpressconsolemode.lpk"/>
       <LastUsed Value="2017/12/13 17:23:29"/>
     </Item74>
     <Item75>
       <Name Value="iblocaldb"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ibx\iblocaldb.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ibx\iblocaldb.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item75>
     <Item76>
       <Name Value="industrial"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\industrialstuff\industrial.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\industrialstuff\industrial.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item76>
     <Item77>
       <Name Value="indylaz"/>
       <Version Major="10" Minor="6" Release="2" Build="5440"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Indy10\indylaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Indy10\indylaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item77>
     <Item78>
       <Name Value="internettools"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\internettools-master\internettools.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\internettools-master\internettools.lpk"/>
       <LastUsed Value="2017/12/13 17:23:45"/>
     </Item78>
     <Item79>
       <Name Value="internettools_utf8"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\internettools-master\internettools_utf8.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\internettools-master\internettools_utf8.lpk"/>
       <LastUsed Value="2017/12/13 17:23:53"/>
     </Item79>
     <Item80>
       <Name Value="jujiboutils"/>
       <Version Major="2" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jujiboutils\jujiboutils.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jujiboutils\jujiboutils.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item80>
     <Item81>
       <Name Value="JvCoreLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCoreLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCoreLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item81>
     <Item82>
       <Name Value="JvCoreLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCoreLazR.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCoreLazR.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item82>
     <Item83>
       <Name Value="JvCtrlsLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCtrlsLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCtrlsLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item83>
     <Item84>
       <Name Value="JvCtrlsLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCtrlsLazR.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvCtrlsLazR.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item84>
     <Item85>
       <Name Value="JvDBLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvDBLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvDBLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item85>
     <Item86>
       <Name Value="JvDBLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvDBLazR.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvDBLazR.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item86>
     <Item87>
       <Name Value="JvPageCompsD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvPageCompsD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvPageCompsD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item87>
     <Item88>
       <Name Value="JvPageCompsR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvPageCompsR.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvPageCompsR.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item88>
     <Item89>
       <Name Value="jvRuntimeDesign"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvdesign\jvRuntimeDesign.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvdesign\jvRuntimeDesign.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item89>
     <Item90>
       <Name Value="JvStdCtrlsLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvStdCtrlsLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvStdCtrlsLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item90>
     <Item91>
       <Name Value="JvStdCtrlsLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvStdCtrlsLazR.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvStdCtrlsLazR.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item91>
     <Item92>
       <Name Value="JvValidatorsLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvValidatorsLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvValidatorsLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item92>
     <Item93>
       <Name Value="JvValidatorsLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvValidatorsLazR.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvValidatorsLazR.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item93>
     <Item94>
       <Name Value="JvXPCtrlsLazD"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvXPCtrlsLazD.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvXPCtrlsLazD.lpk"/>
       <LastUsed Value="2017/12/13 17:59:05"/>
     </Item94>
     <Item95>
       <Name Value="JvXPCtrlsLazR"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvXPCtrlsLazR.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\jvcllaz\packages\JvXPCtrlsLazR.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item95>
     <Item96>
       <Name Value="kaaj_controls"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\kaajcontrols-master\kaaj_controls\kaaj_controls.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\kaajcontrols-master\kaaj_controls\kaaj_controls.lpk"/>
       <LastUsed Value="2017/12/13 17:25:37"/>
     </Item96>
     <Item97>
       <Name Value="KASComp"/>
       <Version Major="1" Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\KASToolBar\kascomp.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\KASToolBar\kascomp.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item97>
     <Item98>
       <Name Value="KControlsBase"/>
       <Version Major="1" Minor="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\kcontrols_1.7\packages\kcontrols\kcontrolsbase.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\kcontrols_1.7\packages\kcontrols\kcontrolsbase.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item98>
     <Item99>
       <Name Value="KControlsLaz"/>
       <Version Major="1" Minor="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\kcontrols_1.7\packages\kcontrols\kcontrolslaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\kcontrols_1.7\packages\kcontrols\kcontrolslaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item99>
     <Item100>
       <Name Value="LazAndroidWizardPack"/>
       <Version Minor="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\LAMW\android_wizard\lazandroidwizardpack.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\LAMW\android_wizard\lazandroidwizardpack.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item100>
     <Item101>
       <Name Value="lazbarcodes"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazbarcodes\packages\lazbarcodes.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazbarcodes\packages\lazbarcodes.lpk"/>
       <LastUsed Value="2017/12/13 16:47:02"/>
     </Item101>
     <Item102>
       <Name Value="lazbarcodes_runtimeonly"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazbarcodes\packages\lazbarcodes_runtimeonly.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazbarcodes\packages\lazbarcodes_runtimeonly.lpk"/>
       <LastUsed Value="2017/12/13 16:46:57"/>
     </Item102>
     <Item103>
       <Name Value="LazColorPalette"/>
       <Version Minor="2" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\colorpalette\lazcolorpalette.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\colorpalette\lazcolorpalette.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item103>
     <Item104>
       <Name Value="lazextbase"/>
       <Version Major="1" Minor="9" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextbase.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextbase.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item104>
     <Item105>
       <Name Value="lazextbuttons"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextbuttons.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextbuttons.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item105>
     <Item106>
       <Name Value="lazextcomponents"/>
       <Version Major="2" Release="6" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextcomponents.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextcomponents.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item106>
     <Item107>
       <Name Value="lazextcomponentsimg"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextcomponentsimg.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextcomponentsimg.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item107>
     <Item108>
       <Name Value="lazextcopy"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextcopy.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextcopy.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item108>
     <Item109>
       <Name Value="lazextcore"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextcore.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextcore.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item109>
     <Item110>
       <Name Value="lazextinit"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextinit.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextinit.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item110>
     <Item111>
       <Name Value="lazextnet"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextnet.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextnet.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item111>
     <Item112>
       <Name Value="lazextnumeric"/>
       <Version Major="1" Minor="7" Release="3" Build="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextnumeric.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextnumeric.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item112>
     <Item113>
       <Name Value="lazextreports"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazextreports.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazextreports.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item113>
     <Item114>
       <Name Value="lazpasmp"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\pasmp\lazpasmp.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\pasmp\lazpasmp.lpk"/>
       <LastUsed Value="2017/12/13 17:35:05"/>
     </Item114>
     <Item115>
       <Name Value="LazProfiler"/>
       <Version Minor="1" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazprofiler\LazProfiler.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazprofiler\LazProfiler.lpk"/>
       <LastUsed Value="2017/12/13 17:29:22"/>
     </Item115>
     <Item116>
       <Name Value="lazprojectgroups"/>
       <Version Minor="7"/>
       <Filename Value="components\projectgroups\lazprojectgroups.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item116>
     <Item117>
       <Name Value="lazregisterextcomp"/>
       <Version Major="1" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazregisterextcomp.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazregisterextcomp.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item117>
     <Item118>
       <Name Value="lazregisteribx"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Extended\lazregisteribx.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Extended\lazregisteribx.lpk"/>
       <LastUsed Value="2017/12/13 17:20:51"/>
     </Item118>
     <Item119>
       <Name Value="lazrichview"/>
       <Version Minor="5" Release="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazrichview\lazrichview.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazrichview\lazrichview.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item119>
     <Item120>
       <Name Value="LazSerialPort"/>
       <Version Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\LazSerial\LazSerialPort.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\LazSerial\LazSerialPort.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item120>
     <Item121>
       <Name Value="lazupdate"/>
       <Version Minor="3" Release="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lazautoupdate\lazupdate.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lazautoupdate\lazupdate.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item121>
     <Item122>
       <Name Value="laz_acs"/>
       <Version Major="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\acs\packages\laz_acs.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\acs\packages\laz_acs.lpk"/>
       <LastUsed Value="2017/12/13 17:13:45"/>
     </Item122>
     <Item123>
       <Name Value="laz_chemtext"/>
       <Version Minor="1" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\chemtext\laz_chemtext.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\chemtext\laz_chemtext.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item123>
     <Item124>
       <Name Value="laz_fpspreadsheet"/>
       <Version Major="1" Minor="8" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheet.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheet.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item124>
     <Item125>
       <Name Value="laz_fpspreadsheetexport_visual"/>
       <Version Major="1" Minor="8" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheetexport_visual.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheetexport_visual.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item125>
     <Item126>
       <Name Value="laz_fpspreadsheet_visual"/>
       <Version Major="1" Minor="8" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheet_visual.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\laz_fpspreadsheet_visual.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item126>
     <Item127>
       <Name Value="laz_opengl"/>
       <Version Major="4" Minor="5"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\OpenGL\laz_opengl.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\OpenGL\laz_opengl.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item127>
     <Item128>
       <Name Value="laz_synapse40_1"/>
       <Version Major="40" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\synapse40.1\laz_synapse40_1.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\synapse40.1\laz_synapse40_1.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item128>
     <Item129>
       <Name Value="lclextensions_package"/>
       <Version Minor="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lclextensions-0.6\lclextensions_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lclextensions-0.6\lclextensions_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item129>
     <Item130>
       <Name Value="lcs_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lainzcodestudio-master\lcs_package\lcs_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lainzcodestudio-master\lcs_package\lcs_package.lpk"/>
       <LastUsed Value="2017/12/13 17:29:08"/>
     </Item130>
     <Item131>
       <Name Value="lnetbase"/>
       <Version Minor="6" Release="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lnetbase.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lnetbase.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item131>
     <Item132>
       <Name Value="lnetvisual"/>
       <Version Minor="6" Release="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lnetvisual.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\lnet\lazaruspackage\lnetvisual.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item132>
     <Item133>
       <Name Value="lockbox"/>
       <Version Major="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\LockBox\lockbox.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\LockBox\lockbox.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item133>
     <Item134>
       <Name Value="longtimerpackage"/>
       <Version Release="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\longtimer\longtimerpackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\longtimer\longtimerpackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:19"/>
     </Item134>
     <Item135>
       <Name Value="luiapp_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luiapp\luiapp_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luiapp\luiapp_package.lpk"/>
       <LastUsed Value="2017/12/13 17:31:44"/>
     </Item135>
     <Item136>
       <Name Value="luicomponents"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luicomponents.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luicomponents.lpk"/>
       <LastUsed Value="2017/12/13 20:12:28"/>
     </Item136>
     <Item137>
       <Name Value="luicontrols"/>
       <Version Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicontrols\luicontrols.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicontrols\luicontrols.lpk"/>
       <LastUsed Value="2017/12/13 20:12:28"/>
     </Item137>
     <Item138>
       <Name Value="luilazreportcomponents"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luilazreportcomponents.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luilazreportcomponents.lpk"/>
       <LastUsed Value="2017/12/13 20:12:28"/>
     </Item138>
     <Item139>
       <Name Value="LuiLCLComponents"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luilclcomponents.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luilclcomponents.lpk"/>
       <LastUsed Value="2017/12/13 20:12:28"/>
     </Item139>
     <Item140>
       <Name Value="luimediators_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luimediators\luimediators_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luimediators\luimediators_package.lpk"/>
       <LastUsed Value="2017/12/13 20:12:28"/>
     </Item140>
     <Item141>
       <Name Value="luirest_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luirest\luirest_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luirest\luirest_package.lpk"/>
       <LastUsed Value="2017/12/13 20:06:22"/>
     </Item141>
     <Item142>
       <Name Value="LuiSqliteComponents"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luisqlitecomponents.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luisqlitecomponents.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item142>
     <Item143>
       <Name Value="LuiZeosComponents"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luizeoscomponents.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\luicomponents\luizeoscomponents.lpk"/>
       <LastUsed Value="2017/12/13 20:10:19"/>
     </Item143>
     <Item144>
       <Name Value="mapviewer"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\MapViewer\mapviewer.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\MapViewer\mapviewer.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item144>
     <Item145>
       <Name Value="mbColorLibLaz"/>
       <Version Major="2" Minor="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\mbColorLib\mbcolorliblaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\mbColorLib\mbcolorliblaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item145>
     <Item146>
       <Name Value="miscutils_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\miscutils\miscutils_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\miscutils\miscutils_package.lpk"/>
       <LastUsed Value="2017/12/13 17:32:48"/>
     </Item146>
     <Item147>
       <Name Value="MPlayerControlLaz"/>
       <Version Minor="1" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\mplayer0.1.2\mplayercontrollaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\mplayer0.1.2\mplayercontrollaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item147>
     <Item148>
       <Name Value="multiloglaz"/>
       <Version Minor="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\MultiLog\multiloglaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\MultiLog\multiloglaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item148>
     <Item149>
       <Name Value="MultiThreadProcsLaz"/>
       <Version Major="1" Minor="2" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\multithreadprocs\multithreadprocslaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\multithreadprocs\multithreadprocslaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item149>
     <Item150>
       <Name Value="OpenDocument"/>
       <Version Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\OpenDocument\package\OpenDocument.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\OpenDocument\package\OpenDocument.lpk"/>
       <LastUsed Value="2017/12/13 16:48:47"/>
     </Item150>
     <Item151>
       <Name Value="opengpsx"/>
       <Version Minor="3" Release="23" Build="1001"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\opengpsx\opengpsx.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\opengpsx\opengpsx.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item151>
     <Item152>
       <Name Value="openwire"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\OpenWire\openwire.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\OpenWire\openwire.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item152>
     <Item153>
       <Name Value="pack_powerpdf"/>
       <Version Minor="9" Release="15"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\powerpdf_0.9.15\pack_powerpdf.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\powerpdf_0.9.15\pack_powerpdf.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item153>
     <Item154>
       <Name Value="Pas2JSDsgn"/>
       <Version Major="1" Release="1"/>
       <Filename Value="components\pas2js\pas2jsdsgn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item154>
     <Item155>
       <Name Value="pas2js_fcldb"/>
@@ -936,864 +936,810 @@
     <Item157>
       <Name Value="pascalscada"/>
       <Version Minor="7" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item157>
     <Item158>
       <Name Value="pascalscada_common"/>
       <Version Minor="7" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_common.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_common.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item158>
     <Item159>
       <Name Value="pascalscada_db"/>
       <Version Minor="7" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_db.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_db.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item159>
     <Item160>
       <Name Value="pascalscada_hmi"/>
       <Version Minor="7" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_hmi.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\PascalSCADA_0.7.4_OPM\pascalscada_hmi.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item160>
     <Item161>
       <Name Value="pckSQLdbConn"/>
       <Version Major="2" Minor="32"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UserControl\package\connectors\UCSQLdbConn\pcksqldbconn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UserControl\package\connectors\UCSQLdbConn\pcksqldbconn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item161>
     <Item162>
       <Name Value="pckUCDataConnector"/>
       <Version Major="2" Minor="32"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUCDataConnector.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUCDataConnector.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item162>
     <Item163>
       <Name Value="pckUserControlDesign"/>
       <Version Major="2" Minor="33"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUserControlDesign.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUserControlDesign.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item163>
     <Item164>
       <Name Value="pckUserControlRuntime"/>
       <Version Major="2" Minor="33"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUserControlRuntime.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UserControl\package\lazarus\pckUserControlRuntime.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item164>
     <Item165>
       <Name Value="pckZeosConn"/>
       <Version Major="2" Minor="32"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UserControl\package\connectors\UCZeosConn\pckZeosConn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UserControl\package\connectors\UCZeosConn\pckZeosConn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item165>
     <Item166>
       <Name Value="pkg_gifanim"/>
       <Version Major="1" Minor="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\gifanim\pkg_gifanim.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\gifanim\pkg_gifanim.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item166>
     <Item167>
       <Name Value="pkg_gifanim_dsgn"/>
       <Version Major="1" Minor="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\gifanim\pkg_gifanim_dsgn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\gifanim\pkg_gifanim_dsgn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item167>
     <Item168>
       <Name Value="playwavepackage"/>
       <Version Release="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\playsoundpackage\playwavepackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\playsoundpackage\playwavepackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item168>
     <Item169>
       <Name Value="plot"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\plotpanel-lazarus-0.97.1\plot.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\plotpanel-lazarus-0.97.1\plot.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item169>
     <Item170>
       <Name Value="poweredby"/>
       <Version Major="1" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\poweredby\poweredby.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\poweredby\poweredby.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item170>
     <Item171>
       <Name Value="python4lazarus_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\PythonForLazarus\python4lazarus\python4lazarus_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\PythonForLazarus\python4lazarus\python4lazarus_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item171>
     <Item172>
       <Name Value="rgb_graphics"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\RGBGraphics\rgb_graphics.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\RGBGraphics\rgb_graphics.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item172>
     <Item173>
       <Name Value="richmemopackage"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\richmemo\richmemopackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\richmemo\richmemopackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item173>
     <Item174>
       <Name Value="ringwatch"/>
       <Version Minor="3"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\ringwatch\ringwatch.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\ringwatch\ringwatch.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item174>
     <Item175>
       <Name Value="rxdbgrid_export_spreadsheet"/>
       <Version Major="1" Release="1" Build="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rxdbgrid_export_spreadsheet.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rxdbgrid_export_spreadsheet.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item175>
     <Item176>
       <Name Value="rxdbgrid_print"/>
       <Version Major="1" Minor="1" Release="1" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rxdbgrid_print.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rxdbgrid_print.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item176>
     <Item177>
       <Name Value="rxnew"/>
       <Version Major="2" Minor="9" Release="5" Build="201"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rxnew.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rxnew.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item177>
     <Item178>
       <Name Value="rxtools"/>
       <Version Minor="2" Build="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rxtools.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rxtools.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item178>
     <Item179>
       <Name Value="rx_LazReport"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\LazReport\rx_lazreport.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\LazReport\rx_lazreport.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item179>
     <Item180>
       <Name Value="rx_sort_sqldb"/>
       <Version Major="1" Minor="1" Release="1" Build="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rx_sort_sqldb.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rx_sort_sqldb.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item180>
     <Item181>
       <Name Value="rx_sort_zeos"/>
       <Version Major="1" Minor="1" Release="1" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Rx\rx_sort_zeos.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Rx\rx_sort_zeos.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item181>
     <Item182>
       <Name Value="sak"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\sak\sak\sak_lcl\src\sak.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\sak\sak\sak_lcl\src\sak.lpk"/>
       <LastUsed Value="2017/12/13 17:36:51"/>
     </Item182>
     <Item183>
       <Name Value="scrolltext"/>
       <Version Major="1" Minor="1" Release="2"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\scrolltext\scrolltext.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\scrolltext\scrolltext.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item183>
     <Item184>
       <Name Value="SdpoDSMLaz"/>
       <Version Minor="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoDSM\sdpodsmlaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoDSM\sdpodsmlaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item184>
     <Item185>
       <Name Value="SdpoDynmatrix"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoDynmatrix\sdpodynmatrix.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoDynmatrix\sdpodynmatrix.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item185>
     <Item186>
       <Name Value="SdpoFastFormLaz"/>
       <Version Minor="1" Release="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoFastForm\sdpofastformlaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoFastForm\sdpofastformlaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item186>
     <Item187>
       <Name Value="SdpoJoystickLaz"/>
       <Version Minor="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoJoystick\sdpojoysticklaz.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoJoystick\sdpojoysticklaz.lpk"/>
       <LastUsed Value="2017/12/13 18:04:01"/>
     </Item187>
     <Item188>
       <Name Value="SdpoSerialLaz"/>
       <Version Minor="1" Release="5"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoSerial\sdposeriallaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoSerial\sdposeriallaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item188>
     <Item189>
       <Name Value="SemaphorGridLPK"/>
       <Version Major="1" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\grid_semaphor\semaphorgridlpk.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\grid_semaphor\semaphorgridlpk.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item189>
     <Item190>
       <Name Value="smnetgradientlaz"/>
       <Version Major="2" Release="6"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\SMNetGradient2.0.6\smnetgradientlaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\SMNetGradient2.0.6\smnetgradientlaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item190>
     <Item191>
       <Name Value="SpkToolbarPackage"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\spktoolbar\spktoolbarpackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\spktoolbar\spktoolbarpackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item191>
     <Item192>
       <Name Value="sqliteextensions_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\sqlite\extensions\sqliteextensions_package.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\sqlite\extensions\sqliteextensions_package.lpk"/>
       <LastUsed Value="2017/12/13 20:06:22"/>
     </Item192>
     <Item193>
       <Name Value="strbuf_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\luipack\miscutils\strbuf_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\luipack\miscutils\strbuf_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item193>
     <Item194>
       <Name Value="tfpandroidbridge_pack"/>
       <Version Minor="7"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\LAMW\android_bridges\tfpandroidbridge_pack.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\LAMW\android_bridges\tfpandroidbridge_pack.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item194>
     <Item195>
       <Name Value="Threading"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wthread\threading.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wthread\threading.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item195>
     <Item196>
       <Name Value="tponguard"/>
       <Version Major="1" Minor="20" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item196>
     <Item197>
       <Name Value="tponguard_design"/>
       <Version Major="1" Minor="20" Release="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard_design.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard_design.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item197>
     <Item198>
       <Name Value="uEControls"/>
       <Version Major="6" Release="9" Build="267"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\uecontrols-master\uecontrols.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\uecontrols-master\uecontrols.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item198>
     <Item199>
       <Name Value="uGraphDSGN"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\EvsSimpleGraph\Package\ugraphdsgn.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\EvsSimpleGraph\Package\ugraphdsgn.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item199>
     <Item200>
       <Name Value="uGraphRTM"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\EvsSimpleGraph\Package\ugraphrtm.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\EvsSimpleGraph\Package\ugraphrtm.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item200>
     <Item201>
       <Name Value="uniqueinstance_package"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\uniqueinstance\uniqueinstance_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\uniqueinstance\uniqueinstance_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item201>
     <Item202>
       <Name Value="uos"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\uos\src\uos.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\uos\src\uos.lpk"/>
       <LastUsed Value="2017/12/13 17:38:11"/>
     </Item202>
     <Item203>
       <Name Value="utf8tools"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\UTF8Tools\utf8tools.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\UTF8Tools\utf8tools.lpk"/>
       <LastUsed Value="2017/12/13 16:48:59"/>
     </Item203>
     <Item204>
       <Name Value="vampyreimaging"/>
       <Version Minor="26" Release="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\VampyreImaging\vampyreimaging.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\VampyreImaging\vampyreimaging.lpk"/>
       <LastUsed Value="2017/12/13 17:38:54"/>
     </Item204>
     <Item205>
       <Name Value="viewerpackage"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\viewer\viewerpackage.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\viewer\viewerpackage.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item205>
     <Item206>
       <Name Value="virtualdbgrid_package"/>
       <Version Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\virtualdbgrid\virtualdbgrid_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\virtualdbgrid\virtualdbgrid_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item206>
     <Item207>
       <Name Value="virtualdbtreeexlaz"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\virtualdbtreeex\lazarus\virtualdbtreeexlaz.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\virtualdbtreeex\lazarus\virtualdbtreeexlaz.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item207>
     <Item208>
       <Name Value="virtualtreeview_package"/>
       <Version Major="5" Minor="5" Release="3" Build="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\virtualtreeview-5.5.3-R1\virtualtreeview_package.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\virtualtreeview-5.5.3-R1\virtualtreeview_package.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item208>
     <Item209>
       <Name Value="virtualtreeview_package4"/>
       <Version Major="4" Minor="8" Release="7" Build="4"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\virtualtreeview-4.8.7-R4\virtualtreeview_package4.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\virtualtreeview-4.8.7-R4\virtualtreeview_package4.lpk"/>
       <LastUsed Value="2017/12/13 17:39:14"/>
     </Item209>
     <Item210>
       <Name Value="vulkan"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Vulkan\vulkan.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\Vulkan\vulkan.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:20"/>
     </Item210>
     <Item211>
       <Name Value="wst_core"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_core.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_core.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item211>
     <Item212>
       <Name Value="wst_design"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_design.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_design.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:18"/>
     </Item212>
     <Item213>
       <Name Value="wst_fcltransport"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_fcltransport.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_fcltransport.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item213>
     <Item214>
       <Name Value="wst_indy"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_indy.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_indy.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item214>
     <Item215>
       <Name Value="wst_synapse"/>
       <Version Minor="8"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_synapse.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_synapse.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item215>
     <Item216>
       <Name Value="xmlstreaming"/>
       <Version Major="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\XMLStreaming\xmlstreaming.lpk"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\XMLStreaming\xmlstreaming.lpk"/>
       <LastUsed Value="2017/12/13 16:48:42"/>
     </Item216>
     <Item217>
       <Name Value="zcomponent"/>
       <Version Major="7" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zcomponent.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zcomponent.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item217>
     <Item218>
       <Name Value="zcore"/>
       <Version Major="7" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zcore.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zcore.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item218>
     <Item219>
       <Name Value="zdbc"/>
       <Version Major="7" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zdbc.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zdbc.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item219>
     <Item220>
       <Name Value="zparsesql"/>
       <Version Major="7" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zparsesql.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zparsesql.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item220>
     <Item221>
       <Name Value="zplain"/>
       <Version Major="7" Minor="1"/>
-      <Filename Value="C:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zplain.lpk"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
+      <Filename Value="config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zplain.lpk"/>
+      <LastUsed Value="2017/12/26 23:51:17"/>
     </Item221>
   </UserPkgLinks>
-  <GlobalPkgLinks Version="3" Count="98">
+  <GlobalPkgLinks Version="3" Count="87">
     <Item1>
       <Name Value="aarrebase"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
+      <LastUsed Value="2017/12/26 23:51:21"/>
     </Item1>
     <Item2>
-      <Name Value="anchordocking"/>
-      <Version Minor="6"/>
-      <LastUsed Value="2017/12/13 18:37:16"/>
-    </Item2>
-    <Item3>
-      <Name Value="anchordockingdsgn"/>
-      <Version Minor="5"/>
-      <LastUsed Value="2017/12/13 18:37:16"/>
-    </Item3>
-    <Item4>
       <Name Value="appforms"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item4>
-    <Item5>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item2>
+    <Item3>
       <Name Value="cairocanvas_pkg"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item5>
-    <Item6>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item3>
+    <Item4>
       <Name Value="chmhelppkg"/>
       <Version Minor="2"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item6>
-    <Item7>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item4>
+    <Item5>
       <Name Value="codetools"/>
       <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item7>
-    <Item8>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item5>
+    <Item6>
       <Name Value="cody"/>
       <Version Major="1" Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item8>
-    <Item9>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item6>
+    <Item7>
       <Name Value="datetimectrls"/>
       <Version Major="1" Minor="5" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item9>
-    <Item10>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item7>
+    <Item8>
       <Name Value="datetimectrlsdsgn"/>
       <Version Major="1" Minor="5" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item10>
-    <Item11>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item8>
+    <Item9>
       <Name Value="dbflaz"/>
       <Version Minor="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item11>
-    <Item12>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item9>
+    <Item10>
       <Name Value="debuggerintf"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item12>
-    <Item13>
-      <Name Value="editormacroscript"/>
-      <LastUsed Value="2017/12/13 18:40:31"/>
-    </Item13>
-    <Item14>
-      <Name Value="educationlaz"/>
-      <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/13 18:40:31"/>
-    </Item14>
-    <Item15>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item10>
+    <Item11>
       <Name Value="exploreidemenu"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item15>
-    <Item16>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item11>
+    <Item12>
       <Name Value="externhelp"/>
       <Version Major="1" Minor="3"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item16>
-    <Item17>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item12>
+    <Item13>
       <Name Value="favorites"/>
       <Version Minor="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item17>
-    <Item18>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item13>
+    <Item14>
       <Name Value="fcl"/>
       <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:36"/>
-    </Item18>
-    <Item19>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item14>
+    <Item15>
       <Name Value="filefindlaz"/>
       <Version Major="1" Release="2"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item19>
-    <Item20>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item15>
+    <Item16>
       <Name Value="fpcunitconsolerunner"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 16:46:59"/>
-    </Item20>
-    <Item21>
+      <LastUsed Value="2017/12/26 05:08:33"/>
+    </Item16>
+    <Item17>
       <Name Value="fpcunitide"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:40"/>
-    </Item21>
-    <Item22>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item17>
+    <Item18>
       <Name Value="fpcunittestrunner"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 16:47:49"/>
-    </Item22>
-    <Item23>
+      <LastUsed Value="2017/12/26 05:13:15"/>
+    </Item18>
+    <Item19>
       <Name Value="fpdebug"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item23>
-    <Item24>
-      <Name Value="gdbmitestutils"/>
-      <Version Minor="1"/>
-      <LastUsed Value="2017/12/19 02:06:37"/>
-    </Item24>
-    <Item25>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item19>
+    <Item20>
       <Name Value="h2paswizard"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item25>
-    <Item26>
-      <Name Value="idefilebrowser"/>
-      <Version Minor="2"/>
-      <LastUsed Value="2017/12/13 18:54:03"/>
-    </Item26>
-    <Item27>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item20>
+    <Item21>
       <Name Value="ideinspector"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item27>
-    <Item28>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item21>
+    <Item22>
       <Name Value="ideintf"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item28>
-    <Item29>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item22>
+    <Item23>
       <Name Value="idelazlogger"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item29>
-    <Item30>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item23>
+    <Item24>
       <Name Value="imagesforlazarus"/>
       <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item30>
-    <Item31>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item24>
+    <Item25>
       <Name Value="instantfpclaz"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item31>
-    <Item32>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item25>
+    <Item26>
       <Name Value="jcfidelazarus"/>
       <Version Major="2"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item32>
-    <Item33>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item26>
+    <Item27>
       <Name Value="jumptoimplementation"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item33>
-    <Item34>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item27>
+    <Item28>
       <Name Value="lazactivex"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item34>
-    <Item35>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item28>
+    <Item29>
       <Name Value="lazc"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item35>
-    <Item36>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item29>
+    <Item30>
       <Name Value="lazcontroldsgn"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item36>
-    <Item37>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item30>
+    <Item31>
       <Name Value="lazcontrols"/>
       <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item37>
-    <Item38>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item31>
+    <Item32>
       <Name Value="lazcustforms"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item38>
-    <Item39>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item32>
+    <Item33>
       <Name Value="lazdaemon"/>
       <Version Minor="9" Release="9"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item39>
-    <Item40>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item33>
+    <Item34>
       <Name Value="lazdatadict"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item40>
-    <Item41>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item34>
+    <Item35>
       <Name Value="lazdbexport"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item41>
-    <Item42>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item35>
+    <Item36>
       <Name Value="lazdebuggerfp"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item42>
-    <Item43>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item36>
+    <Item37>
       <Name Value="lazdebuggerfpgdbmi"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item43>
-    <Item44>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item37>
+    <Item38>
       <Name Value="lazdebuggergdbmi"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item44>
-    <Item45>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item38>
+    <Item39>
       <Name Value="lazgoogleapis"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item45>
-    <Item46>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item39>
+    <Item40>
       <Name Value="lazmrumenu"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item46>
-    <Item47>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item40>
+    <Item41>
       <Name Value="lazopenglcontext"/>
       <Version Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item47>
-    <Item48>
-      <Name Value="lazprojectgroups"/>
-      <Version Minor="2"/>
-      <LastUsed Value="2017/12/18 22:05:48"/>
-    </Item48>
-    <Item49>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item41>
+    <Item42>
       <Name Value="lazreport"/>
       <Version Minor="9" Release="9"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item49>
-    <Item50>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item42>
+    <Item43>
       <Name Value="lazsvnpkg"/>
       <Version Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item50>
-    <Item51>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item43>
+    <Item44>
       <Name Value="lazthread"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item51>
-    <Item52>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item44>
+    <Item45>
       <Name Value="lazutils"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item52>
-    <Item53>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item45>
+    <Item46>
       <Name Value="lazvlc"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item53>
-    <Item54>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item46>
+    <Item47>
       <Name Value="lazwebextra"/>
       <Version Minor="9"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
-    </Item54>
-    <Item55>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item47>
+    <Item48>
       <Name Value="lazwiki"/>
       <Version Major="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:38"/>
-    </Item55>
-    <Item56>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item48>
+    <Item49>
       <Name Value="lcl"/>
       <Version Major="1" Minor="9"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item56>
-    <Item57>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item49>
+    <Item50>
       <Name Value="lclbase"/>
       <Version Major="1" Minor="9"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item57>
-    <Item58>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item50>
+    <Item51>
       <Name Value="leakview"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item58>
-    <Item59>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item51>
+    <Item52>
       <Name Value="lhelpcontrolpkg"/>
       <Version Minor="2"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item59>
-    <Item60>
-      <Name Value="lrcairoexport"/>
-      <Version Minor="9"/>
-      <LastUsed Value="2017/12/13 18:25:06"/>
-    </Item60>
-    <Item61>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item52>
+    <Item53>
       <Name Value="lremailexport"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item61>
-    <Item62>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item53>
+    <Item54>
       <Name Value="lrspreadsheetexport"/>
       <Version Minor="9"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item62>
-    <Item63>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item54>
+    <Item55>
       <Name Value="lr_add_function"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item63>
-    <Item64>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item55>
+    <Item56>
       <Name Value="lr_codereport_pkg"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item64>
-    <Item65>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item56>
+    <Item57>
       <Name Value="lr_dialogdesign"/>
       <Version Minor="3" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item65>
-    <Item66>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item57>
+    <Item58>
       <Name Value="lr_extexp"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item66>
-    <Item67>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item58>
+    <Item59>
       <Name Value="lr_officeimport"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item67>
-    <Item68>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item59>
+    <Item60>
       <Name Value="lr_pdfexport"/>
       <Version Minor="9"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item68>
-    <Item69>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item60>
+    <Item61>
       <Name Value="lr_sqldb"/>
       <Version Minor="2" Release="2"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item69>
-    <Item70>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item61>
+    <Item62>
       <Name Value="lr_tdbf"/>
       <Version Minor="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item70>
-    <Item71>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item62>
+    <Item63>
       <Name Value="lr_zeosdb"/>
       <Version Minor="2" Release="2"/>
-      <LastUsed Value="2017/12/23 01:49:44"/>
-    </Item71>
-    <Item72>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item63>
+    <Item64>
       <Name Value="memdslaz"/>
       <Version Major="1" Minor="2" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item72>
-    <Item73>
+      <LastUsed Value="2017/12/26 23:51:19"/>
+    </Item64>
+    <Item65>
       <Name Value="messagecomposerpkg"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item73>
-    <Item74>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item65>
+    <Item66>
       <Name Value="notlcldesigner"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item74>
-    <Item75>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item66>
+    <Item67>
       <Name Value="onlinepackagemanager"/>
       <Version Major="1" Release="1" Build="2"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item75>
-    <Item76>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item67>
+    <Item68>
       <Name Value="packagetabs"/>
       <Version Minor="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:41"/>
-    </Item76>
-    <Item77>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item68>
+    <Item69>
       <Name Value="pascalscript"/>
       <Version Build="1"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item77>
-    <Item78>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item69>
+    <Item70>
       <Name Value="pochecker"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item78>
-    <Item79>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item70>
+    <Item71>
       <Name Value="printer4lazarus"/>
       <Version Minor="5"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item79>
-    <Item80>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item71>
+    <Item72>
       <Name Value="printers4lazide"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item80>
-    <Item81>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item72>
+    <Item73>
       <Name Value="projtemplates"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item81>
-    <Item82>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item73>
+    <Item74>
       <Name Value="quickfixexample"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item82>
-    <Item83>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item74>
+    <Item75>
       <Name Value="runtimetypeinfocontrols"/>
       <Version Minor="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item83>
-    <Item84>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item75>
+    <Item76>
       <Name Value="rx"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item84>
-    <Item85>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item76>
+    <Item77>
       <Name Value="sdflaz"/>
       <Version Minor="1" Release="1"/>
-      <LastUsed Value="2017/12/23 01:49:39"/>
-    </Item85>
-    <Item86>
+      <LastUsed Value="2017/12/26 23:51:20"/>
+    </Item77>
+    <Item78>
       <Name Value="sqldblaz"/>
       <Version Major="1" Release="2"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item86>
-    <Item87>
-      <Name Value="sqlite3laz"/>
-      <Version Minor="4"/>
-      <LastUsed Value="2017/12/13 18:14:27"/>
-    </Item87>
-    <Item88>
-      <Name Value="sqlitelaz"/>
-      <Version Minor="4"/>
-      <LastUsed Value="2017/12/13 18:14:27"/>
-    </Item88>
-    <Item89>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item78>
+    <Item79>
       <Name Value="synedit"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:37"/>
-    </Item89>
-    <Item90>
+      <LastUsed Value="2017/12/26 23:51:21"/>
+    </Item79>
+    <Item80>
       <Name Value="syneditdsgn"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item90>
-    <Item91>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item80>
+    <Item81>
       <Name Value="synuni"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item91>
-    <Item92>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item81>
+    <Item82>
       <Name Value="tachartlazaruspkg"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item92>
-    <Item93>
-      <Name Value="tachartprint"/>
-      <Version Major="1"/>
-      <LastUsed Value="2017/12/13 18:42:43"/>
-    </Item93>
-    <Item94>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item82>
+    <Item83>
       <Name Value="todolistlaz"/>
       <Version Major="1" Release="2"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item94>
-    <Item95>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item83>
+    <Item84>
       <Name Value="turbopoweripro"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:42"/>
-    </Item95>
-    <Item96>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item84>
+    <Item85>
       <Name Value="turbopoweriprodsgn"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item96>
-    <Item97>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item85>
+    <Item86>
       <Name Value="weblaz"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item97>
-    <Item98>
+      <LastUsed Value="2017/12/26 23:51:17"/>
+    </Item86>
+    <Item87>
       <Name Value="xmlresource"/>
       <Version Major="1"/>
-      <LastUsed Value="2017/12/23 01:49:43"/>
-    </Item98>
+      <LastUsed Value="2017/12/26 23:51:18"/>
+    </Item87>
   </GlobalPkgLinks>
 </CONFIG>

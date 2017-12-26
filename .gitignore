@@ -1,1 +1,10 @@
 *.exe
+x86_64-win64
+
+/.svn
+/*.compiled
+*.ppu
+*.o
+*.exe
+*.dll
+/lib

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
-  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq &quot;-FuC:\Dokumente und Einstellungen\Nilius\Desktop\laz\CmdLine&quot; -FuC:\fpcupdeluxe\lazarus\packager\units\x86_64-win64 -FuC:\fpcupdeluxe\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\fpcupdeluxe\lazarus\lcl\units\x86_64-win64 -FuC:\fpcupdeluxe\lazarus\lcl\units\x86_64-win64\win32 -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\cmdline\ -FUC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\cmdline\lib\x86_64-win64\ -dLCL -dLCLwin32 cmdbox.pas"/>
+  <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq &quot;-FuC:\Dokumente und Einstellungen\Nilius\Desktop\laz\CmdLine&quot; -FuD:\Jazenga.GLIDE\packager\units\x86_64-win64 -FuD:\Jazenga.GLIDE\components\lazutils\lib\x86_64-win64 -FuD:\Jazenga.GLIDE\lcl\units\x86_64-win64 -FuD:\Jazenga.GLIDE\lcl\units\x86_64-win64\win32 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\cmdline\ -FUD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\cmdline\lib\x86_64-win64\ -dLCL -dLCLwin32 cmdbox.pas"/>
 </CONFIG>

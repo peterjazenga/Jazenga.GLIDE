@@ -192,7 +192,7 @@ begin
   Height:= 380;
 
   AboutMemo.Lines.Text:=
-    Format(lisAboutLazarusMsg,[DoubleLineEnding,DoubleLineEnding,DoubleLineEnding]);
+    Format(lisAboutLazarusMsg,[DoubleLineEnding,DoubleLineEnding,DoubleLineEnding,DoubleLineEnding]);
 
   OfficialLabel.Caption := lisAboutOfficial;
   OfficialURLLabel.Caption := 'http://www.lazarus-ide.org';

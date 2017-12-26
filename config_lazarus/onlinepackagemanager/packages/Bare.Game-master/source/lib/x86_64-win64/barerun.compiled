@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
-  <Params Value=" -MDelphi -Scghi -O1 -g -gl -l -vewnhibq -vm5026,5024 -FiC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Bare.Game-master\source\home\delluser\Development\Pascal\Codebot\bare -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Bare.Game-master\source\ -FUC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\Bare.Game-master\source\lib\x86_64-win64\ barerun.pas"/>
+  <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MDelphi -Scghi -O1 -g -gl -l -vewnhibq -vm5026,5024 -FiD:\Jazenga.GLIDE\config_glide\onlinepackagemanager\packages\Bare.Game-master\source\home\delluser\Development\Pascal\Codebot\bare -FuD:\Jazenga.GLIDE\config_glide\onlinepackagemanager\packages -FuD:\Jazenga.GLIDE\config_glide\onlinepackagemanager\packages\Bare.Game-master\source\ -FUD:\Jazenga.GLIDE\config_glide\onlinepackagemanager\packages\Bare.Game-master\source\lib\x86_64-win64\ barerun.pas"/>
 </CONFIG>

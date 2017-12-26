@@ -1,0 +1,10 @@
+Name=ibase
+Version=3.0.4
+Checksum=1267563708
+CPU=arm
+OS=android
+SourcePath=C:\fpcupdeluxe\fpcsrc\packages\ibase\
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FDC:\fpcupdeluxe\cross\bin\arm-android -o -vw-n-h-l-d-u-t-p-c- -o -dFPC_ARMHF -o -darm -o -dRELEASE -o -XParm-linux-androideabi- -o -Xd -o -FlC:\fpcupdeluxe\cross\lib\arm-android -o -CpARMV7A -o -CfVFPV3
+Depends=rtl
+NeedLibC=Y
+FPMakeAddIn=N

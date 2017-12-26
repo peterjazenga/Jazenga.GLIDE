@@ -1,14 +1,14 @@
-object Form1: TForm1
-  Left = 420
+object FirebirdQuerybuilder: TFirebirdQuerybuilder
+  Left = 697
   Height = 368
-  Top = 205
+  Top = 177
   Width = 489
-  Caption = 'Form1'
+  Caption = 'Firebird Query Builder'
   ClientHeight = 368
   ClientWidth = 489
   OnCreate = FormCreate
   OnDestroy = FormDestroy
-  LCLVersion = '1.3'
+  LCLVersion = '1.9.0.0'
   object Button1: TButton
     Left = 16
     Height = 25

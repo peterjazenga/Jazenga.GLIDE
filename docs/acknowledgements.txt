@@ -1,3 +1,5 @@
+#GLIDE is built on the Lazarus codebase
+
 #Lazarus uses the following third party libraries and tools
 
 

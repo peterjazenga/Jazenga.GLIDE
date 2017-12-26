@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="C:\fpcupdeluxe\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\callite\source -FuC:\fpcupdeluxe\lazarus\packager\units\x86_64-win64 -FuC:\fpcupdeluxe\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\fpcupdeluxe\lazarus\lcl\units\x86_64-win64 -FuC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\callite\ -FUC:\fpcupdeluxe\config_lazarus\onlinepackagemanager\packages\callite\lib\x86_64-win64\ callight_pkg.pas"/>
+  <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\callite\source -FuD:\Jazenga.GLIDE\packager\units\x86_64-win64 -FuD:\Jazenga.GLIDE\components\lazutils\lib\x86_64-win64 -FuD:\Jazenga.GLIDE\lcl\units\x86_64-win64 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\callite\ -FUD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\callite\lib\x86_64-win64\ callight_pkg.pas"/>
 </CONFIG>

@@ -1,0 +1,10 @@
+Name=fcl-db
+Version=3.0.4
+Checksum=1267563727
+CPU=arm
+OS=android
+SourcePath=C:\fpcupdeluxe\fpcsrc\packages\fcl-db\
+FPMakeOptions=-o -Tandroid -o -Parm -o -XParm-linux-androideabi- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FDC:\fpcupdeluxe\cross\bin\arm-android -o -vw-n-h-l-d-u-t-p-c- -o -dFPC_ARMHF -o -darm -o -dRELEASE -o -XParm-linux-androideabi- -o -Xd -o -FlC:\fpcupdeluxe\cross\lib\arm-android -o -CpARMV7A -o -CfVFPV3
+Depends=rtl,fcl-base|1267563702,fcl-xml|1267563705,rtl-objpas|1267563694,rtl-extra|1267563689,ibase|1267563708,mysql|1267563713,odbc|1267563713,oracle|1267563714,postgres|1267563715,sqlite|1267563715,dblib|1267563707,fcl-json|1267563716
+NeedLibC=N
+FPMakeAddIn=N

@@ -4,60 +4,53 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="6">
-          <Item1 Value="Form2"/>
-          <Item2 Value="RegisterComponentsProc"/>
-          <Item3 Value="componentpages"/>
-          <Item4 Value="TComponentPage "/>
-          <Item5 Value="tcomponentpage"/>
-          <Item6 Value="TComponent"/>
+        <Find Count="8">
+          <Item1 Value="typhon"/>
+          <Item2 Value="ParamStrUTF8"/>
+          <Item3 Value="the following people"/>
+          <Item4 Value="lazarus"/>
+          <Item5 Value=" lazarus"/>
+          <Item6 Value="LAZARUS"/>
+          <Item7 Value="(lazarus)"/>
+          <Item8 Value="glide"/>
         </Find>
-        <Replace Count="1">
-          <Item1 Value="AdvanceSettingsForm"/>
+        <Replace Count="4">
+          <Item1 Value="GLIDE"/>
+          <Item2 Value=" GLIDE"/>
+          <Item3 Value="(GLIDE)"/>
+          <Item4 Value="Lazarus"/>
         </Replace>
       </History>
       <Version Value="1"/>
-      <Options EntireScope="True"/>
+      <Options EntireScope="True" Prompt="True"/>
+      <SelOptions Prompt="True"/>
     </Find>
     <FindInFiles>
       <History>
-        <Paths Count="1">
-          <Item1 Value="C:\fpcupdeluxe\lazarus\"/>
+        <Paths Count="2">
+          <Item1 Value="d:\Jazenga.GLIDE\ide\"/>
+          <Item2 Value="d:\Jazenga.GLIDE\lcl\"/>
         </Paths>
-        <Masks Count="1">
+        <Masks Count="2">
           <Item1 Value="*.pas;*.pp;*.inc"/>
+          <Item2 Value="*.*"/>
         </Masks>
       </History>
       <Options SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="C:\fpcupdeluxe\lazarus\tools\jsonviewer\">
-      <HistoryList Count="20">
-        <Item1 Value="C:\fpcupdeluxe\lazarus\tools\jsonviewer\"/>
-        <Item2 Value="C:\fpcupdeluxe\lazarus\doceditor\fpdocupdater\"/>
-        <Item3 Value="C:\fpcupdeluxe\lazarus\doceditor\"/>
-        <Item4 Value="C:\fpcupdeluxe\lazarus\tools\apiwizz\"/>
-        <Item5 Value="C:\fpcupdeluxe\lazarus\tools\chmmaker\"/>
-        <Item6 Value="C:\fpcupdeluxe\lazarus\tools\debugserver\"/>
-        <Item7 Value="C:\fpcupdeluxe\lazarus\tools\glazres\"/>
-        <Item8 Value="C:\fpcupdeluxe\lazarus\tools\install\"/>
-        <Item9 Value="C:\fpcupdeluxe\lazarus\tools\install\win\ReplaceText\"/>
-        <Item10 Value="C:\fpcupdeluxe\lazarus\tools\lazdatadesktop\"/>
-        <Item11 Value="C:\fpcupdeluxe\lazarus\tools\reiniero-lazopenqbuilder\"/>
-        <Item12 Value="C:\fpcupdeluxe\lazarus\tools\snapshots\"/>
-        <Item13 Value="C:\fpcupdeluxe\lazarus\tools\xpm_to_png\"/>
-        <Item14 Value="C:\fpcupdeluxe\lazarus\tools\"/>
-        <Item15 Value="C:\fpcupdeluxe\fpcsrc\utils\debugsvr\console\"/>
-        <Item16 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcres\"/>
-        <Item17 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcmkcfg\"/>
-        <Item18 Value="C:\fpcupdeluxe\fpcsrc\utils\fpcm\"/>
-        <Item19 Value="C:\fpcupdeluxe\fpcsrc\utils\dxegen\"/>
-        <Item20 Value="C:\fpcupdeluxe\fpcsrc\utils\debugsvr\"/>
+    <FileDialog InitialDir="D:\Jazenga.GLIDE\ide\">
+      <HistoryList Count="10">
+        <Item1 Value="D:\Jazenga.GLIDE\ide\"/>
+        <Item2 Value="D:\Jazenga.GLIDE\tools\xpm_to_png\"/>
+        <Item3 Value="D:\Jazenga.GLIDE\tools\snapshots\"/>
+        <Item4 Value="D:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\"/>
+        <Item5 Value="D:\Jazenga.GLIDE\tools\lazdatadesktop\"/>
+        <Item6 Value="D:\Jazenga.GLIDE\tools\jsonviewer\"/>
+        <Item7 Value="D:\Jazenga.GLIDE\tools\glazres\"/>
+        <Item8 Value="D:\Jazenga.GLIDE\tools\debugserver\"/>
+        <Item9 Value="D:\Jazenga.GLIDE\tools\chmmaker\"/>
+        <Item10 Value="D:\Jazenga.GLIDE\tools\apiwizz\"/>
       </HistoryList>
     </FileDialog>
-    <HistoryLists Count="2"/>
-    <FileEncodings Count="2">
-      <Item0 Name="C:\Espressif\ESP8266_SDK\include\project1.lpr"/>
-      <Item1 Name="C:\fpcupdeluxe\lazarus\tools\reiniero-lazopenqbuilder\openqbuilder.lpr"/>
-    </FileEncodings>
   </InputHistory>
 </CONFIG>

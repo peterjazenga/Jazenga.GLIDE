@@ -138,7 +138,7 @@ begin
   // remove non files
   for i:=Files.Count-1 downto 0 do
     if ExtractFilename(Files[i])='' then begin
-      debugln(['Note: (lazarus) [FindRenameIdentifier.CleanUpFileList] invalid file "',Files[i],'"']);
+      debugln(['Note: (GLIDE) [FindRenameIdentifier.CleanUpFileList] invalid file "',Files[i],'"']);
       Files.Delete(i);
     end;
 end;

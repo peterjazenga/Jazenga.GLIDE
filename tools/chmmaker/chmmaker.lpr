@@ -8,7 +8,7 @@ uses
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, LazFileUtils,
-  unit1, CHMSiteMapEditor, lhelpcontrolpkg;
+  chmmakermainform, CHMSiteMapEditor, lhelpcontrolpkg;
 
 var
   i: Integer;
