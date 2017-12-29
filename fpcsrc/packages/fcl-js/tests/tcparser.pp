@@ -5,7 +5,7 @@ unit tcparser;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testregistry, jsParser, jstree, jsbase;
+  Classes, SysUtils, fpcunit, testutils, testregistry, jsParser, jstree, jsbase;
 
 type
 
@@ -172,6 +172,9 @@ Function TTestJSParser.GetFirstStatement: TJSElement;
 
 Var
   E : TJSElementNodes;
+  N : TJSElement;
+  X : TJSExpressionStatement;
+
 begin
   E:=GetStatements;
   AssertNotNull('Have statements',E);
@@ -183,6 +186,8 @@ end;
 Function TTestJSParser.GetFirstVar: TJSElement;
 Var
   E : TJSElementNodes;
+  N : TJSElement;
+  X : TJSExpressionStatement;
 begin
   E:=GetVars;
   AssertNotNull('Have statements',E);
@@ -197,6 +202,8 @@ Function TTestJSParser.GetExpressionStatement: TJSExpressionStatement;
 
 Var
   N : TJSElement;
+  X : TJSExpressionStatement;
+
 begin
   N:=GetFirstStatement;
   CheckClass(N,TJSExpressionStatement);
@@ -2240,6 +2247,8 @@ procedure TTestJSParser.TestSwitchEmpty;
 Var
   E : TJSElement;
   S : TJSSwitchStatement;
+  P : TJSPrimaryExpressionIdent;
+
 begin
   CreateParser('switch (a) {}');
   E:=GetFirstStatement;
@@ -2256,6 +2265,7 @@ procedure TTestJSParser.TestSwitchOne;
 Var
   E : TJSElement;
   S : TJSSwitchStatement;
+  P : TJSPrimaryExpressionIdent;
   C : TJSCaseElement;
 begin
   CreateParser('switch (a) { case c : {}}');
@@ -2276,6 +2286,7 @@ procedure TTestJSParser.TestSwitchTwo;
 Var
   E : TJSElement;
   S : TJSSwitchStatement;
+  P : TJSPrimaryExpressionIdent;
   C : TJSCaseElement;
 begin
   CreateParser('switch (a) { case c: {}'+sLineBreak+' case d: {}}');
@@ -2299,6 +2310,7 @@ procedure TTestJSParser.TestSwitchTwoDefault;
 Var
   E : TJSElement;
   S : TJSSwitchStatement;
+  P : TJSPrimaryExpressionIdent;
   C : TJSCaseElement;
 begin
   CreateParser('switch (a) { case c: {} case d: {} default: {}}');

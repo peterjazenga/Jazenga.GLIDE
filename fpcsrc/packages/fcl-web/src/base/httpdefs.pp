@@ -287,6 +287,7 @@ type
     FContentFields: TStrings;
     FCookieFields: TStrings;
     FHTTPVersion: String;
+    FHTTPXRequestedWith: String;
     FFields : THeadersArray;
     FVariables : THTTPVariables;
     FQueryFields: TStrings;
@@ -298,7 +299,7 @@ type
     Function GetFieldCount : Integer;
     Function GetContentLength : Integer;
     Procedure SetContentLength(Value : Integer);
-    Function GetFieldOrigin(AIndex : Integer; Out H : THeader; Out V : THTTPVAriableType) : Boolean;
+    Function GetFieldOrigin(AIndex : Integer; Out H : THeader; V : THTTPVAriableType) : Boolean;
     Function GetServerPort : Word;
     Procedure SetServerPort(AValue : Word);
     Function GetSetFieldValue(Index : Integer) : String; virtual;
@@ -382,7 +383,7 @@ type
     Property ProtocolVersion : String Index ord(hvHTTPVErsion) Read GetHTTPVariable Write SetHTTPVariable;
     // Specials, mostly from CGI protocol/Apache.
     Property PathInfo : String index Ord(hvPathInfo) read GetHTTPVariable Write SetHTTPVariable;
-    Property PathTranslated : String index Ord(hvPathTranslated) read GetHTTPVariable Write SetHTTPVariable;
+    Property PathTranslated : String index Ord(hvPathInfo) read GetHTTPVariable Write SetHTTPVariable;
     Property RemoteAddress : String Index Ord(hvRemoteAddress) read GetHTTPVariable Write SetHTTPVariable;
     Property RemoteAddr : String Index Ord(hvRemoteAddress) read GetHTTPVariable Write SetHTTPVariable; // Alias, Delphi-compat
     Property RemoteHost : String Index Ord(hvRemoteHost) read  GetHTTPVariable Write SetHTTPVariable;
@@ -411,12 +412,11 @@ type
     FFiles : TUploadedFiles;
     FReturnedPathInfo : String;
     FLocalPathPrefix : string;
+    FServerPort : String;
     FContentRead : Boolean;
-    FRouteParams : TStrings;
+    FContent : String;
     function GetLocalPathPrefix: string;
     function GetFirstHeaderLine: String;
-    function GetRP(AParam : String): String;
-    procedure SetRP(AParam : String; AValue: String);
   Protected
     Function AllowReadContent : Boolean; virtual;
     Function CreateUploadedFiles : TUploadedFiles; virtual;
@@ -441,7 +441,6 @@ type
     constructor Create; override;
     destructor destroy; override;
     Function GetNextPathInfo : String;
-    Property RouteParams[AParam : String] : String Read GetRP Write SetRP;
     Property ReturnedPathInfo : String Read FReturnedPathInfo Write FReturnedPathInfo;
     Property LocalPathPrefix : string Read GetLocalPathPrefix;
     Property CommandLine : String Read FCommandLine;
@@ -603,7 +602,9 @@ Resourcestring
   SErrInternalUploadedFileError = 'Internal uploaded file configuration error';
   SErrNoSuchUploadedFile        = 'No such uploaded file : "%s"';
   SErrUnknownCookie             = 'Unknown cookie: "%s"';
+  SErrUnsupportedContentType    = 'Unsupported content type: "%s"';
   SErrNoRequestMethod           = 'No REQUEST_METHOD passed from server.';
+  SErrInvalidRequestMethod      = 'Invalid REQUEST_METHOD passed from server: %s.';
 
 const
    hexTable = '0123456789ABCDEF';
@@ -811,7 +812,7 @@ end;
 
 
 function THTTPHeader.GetFieldOrigin(AIndex: Integer; out H: THeader;
-  Out V: THTTPVAriableType): Boolean;
+  V: THTTPVAriableType): Boolean;
 
 
 begin
@@ -1236,9 +1237,10 @@ end;
 procedure TMimeItems.CreateUploadFiles(Files: TUploadedFiles; Vars : TStrings);
 
 Var
-  I : Integer;
+  I,j : Integer;
   P : TMimeItem;
-  Name,Value : String;
+  LFN,Name,Value : String;
+  U : TUploadedFile;
 
 begin
   For I:=Count-1 downto 0 do
@@ -1451,7 +1453,6 @@ end;
 
 destructor TRequest.destroy;
 begin
-  FreeAndNil(FRouteParams);
   FreeAndNil(FFiles);
   inherited destroy;
 end;
@@ -1531,22 +1532,6 @@ begin
   Result := Command + ' ' + URI;
   if Length(HttpVersion) > 0 then
     Result := Result + ' HTTP/' + HttpVersion;
-end;
-
-function TRequest.GetRP(AParam : String): String;
-begin
-  if Assigned(FRouteParams) then
-    Result:=FRouteParams.Values[AParam]
-  else
-    Result:='';
-end;
-
-procedure TRequest.SetRP(AParam : String; AValue: String);
-begin
-  if (AValue<>GetRP(AParam)) And ((AValue<>'')<>Assigned(FRouteParams)) then
-    FRouteParams:=TStringList.Create;
-  if (AValue<>'') and Assigned(FRouteParams) then
-    FRouteParams.Values[AParam]:=AValue;
 end;
 
 function TRequest.AllowReadContent: Boolean;
@@ -1792,8 +1777,10 @@ procedure TRequest.ProcessMultiPart(Stream: TStream; const Boundary: String;
 Var
   L : TMimeItems;
   B : String;
-  I : Integer;
-  S : String;
+  I,J : Integer;
+  S,FF,key, Value : String;
+  FI : TMimeItem;
+  F : TStream;
 
 begin
 {$ifdef CGIDEBUG} SendMethodEnter('ProcessMultiPart');{$endif CGIDEBUG}
@@ -1927,6 +1914,9 @@ end;
   ---------------------------------------------------------------------}
 
 procedure TUploadedFile.DeleteTempUploadedFile;
+
+Var
+  s: String;
 
 begin
   if (FStream is TFileStream) then

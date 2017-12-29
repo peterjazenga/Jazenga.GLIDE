@@ -17,7 +17,7 @@ begin
 {$ifdef ALLPACKAGES}
     P.Directory:=ADirectory;
 {$endif ALLPACKAGES}
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Dependencies.Add('fcl-base');
     P.Author := 'Sebastian Guenther';
     P.License := 'LGPL with modification, ';
@@ -39,13 +39,7 @@ begin
           AddUnit('pastree');
           AddUnit('pscanner');
         end;
-    T:=P.Targets.AddUnit('pasresolver.pp');
-      with T.Dependencies do
-        begin
-          AddUnit('pastree');
-          AddUnit('pscanner');
-          AddUnit('pparser');
-        end;
+    T.ResourceStrings := True;
     T:=P.Targets.AddUnit('pastounittest.pp');
       with T.Dependencies do
         begin
@@ -67,19 +61,6 @@ begin
       with T.Dependencies do
         begin
           AddUnit('pastree');
-        end;
-    T:=P.Targets.AddUnit('pasresolveeval.pas');
-      with T.Dependencies do
-        begin
-          AddUnit('pastree');
-          AddUnit('pscanner');
-        end;
-    T.ResourceStrings := True;
-    T:=P.Targets.AddUnit('pasuseanalyzer.pas');
-      with T.Dependencies do
-        begin
-          AddUnit('pastree');
-          AddUnit('pasresolver');
         end;
 
 {$ifndef ALLPACKAGES}

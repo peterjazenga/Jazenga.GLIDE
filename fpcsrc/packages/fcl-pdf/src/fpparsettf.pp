@@ -23,201 +23,190 @@ unit fpparsettf;
 interface
 
 uses
-  Classes,
-  SysUtils,
-  fpttfencodings;
+  Classes, SysUtils, fpttfencodings;
 
 type
   ETTF = Class(Exception);
 
   // Tables recognized in this unit.
-  TTTFTableType = (
-    // these are for general font information
-    ttUnknown,ttHead,tthhea,ttmaxp,tthmtx,ttcmap,ttname,ttOS2,ttpost,
-    // these are used for font subsetting
-    ttglyf,ttloca,ttcvt,ttprep,ttfpgm);
+  TTTFTableType = (ttUnknown,ttHead,tthhea,ttmaxp,tthmtx,ttcmap,ttname,ttOS2,ttpost);
 
   TSmallintArray = Packed Array of Int16;
-  TWordArray = Packed Array of UInt16;    // redefined because the one in SysUtils is not a packed array
-
-  { Signed Fixed 16.16 Float }
-  TF16Dot16 = type Int32;
+  TWordArray = Packed Array of UInt16;
 
   TFixedVersionRec = packed record
     case Integer of
-      0:  (Minor, Major: UInt16);
-      1:  (Version: UInt32);
+      0:  (Minor, Major: Word);
+      1:  (Version: Cardinal);
   end;
 
-  { The file header record that starts at byte 0 of a TTF file }
   TTableDirectory = Packed Record
-    FontVersion : TFixedVersionRec; { UInt32}
-    Numtables : UInt16;
-    SearchRange : UInt16;
-    EntrySelector : UInt16;
-    RangeShift : UInt16;
+    FontVersion : TFixedVersionRec;
+    Numtables : Word;
+    SearchRange : Word;
+    EntrySelector : Word;
+    RangeShift : Word;
   end;
 
   TTableDirectoryEntry = Packed Record
-    Tag: Array[1..4] of AnsiChar;
-    checkSum : UInt32;
-    offset : UInt32;
-    Length : UInt32;
+    Tag: Array[1..4] of char;
+    checkSum : Cardinal;
+    offset : Cardinal;
+    Length : Cardinal;
   end;
   TTableDirectoryEntries = Array of TTableDirectoryEntry;
 
   TLongHorMetric = Packed record
-    AdvanceWidth : UInt16;
-    LSB: Int16;              { leftSideBearing }
+    AdvanceWidth : Word;
+    LSB: Smallint;              { leftSideBearing }
   end;
-  TLongHorMetricArray = Packed Array of TLongHorMetric;
+  TLongHorMetrics = Packed Array of TLongHorMetric;
 
 Type
   TPostScript = Packed Record
-    Format : TFixedVersionRec;  { UInt32 }
-    ItalicAngle : TF16Dot16;  { Int32 }
-    UnderlinePosition : Int16;
-    underlineThickness : Int16;
-    isFixedPitch : UInt32;
-    minMemType42 : UInt32;
-    maxMemType42 : UInt32;
-    minMemType1 : UInt32;
-    maxMemType1 : UInt32;
+    Format : TFixedVersionRec;
+    ItalicAngle : LongWord;
+    UnderlinePosition : SmallInt;
+    underlineThickness : SmallInt;
+    isFixedPitch : Cardinal;
+    minMemType42 : Cardinal;
+    maxMemType42 : Cardinal;
+    minMemType1 : Cardinal;
+    maxMemType1 : Cardinal;
   end;
 
   TMaxP = Packed Record
-    VersionNumber : TFixedVersionRec;  { UInt32 }
-    numGlyphs : UInt16;
-    maxPoints : UInt16;
-    maxContours : UInt16;
-    maxCompositePoints : UInt16;
-    maxCompositeContours : UInt16;
-    maxZones : UInt16;
-    maxTwilightPoints : UInt16;
-    maxStorage : UInt16;
-    maxFunctionDefs : UInt16;
-    maxInstructionDefs : UInt16;
-    maxStackElements : UInt16;
-    maxSizeOfInstructions : UInt16;
-    maxComponentElements : UInt16;
-    maxComponentDepth : UInt16;
+    VersionNumber : TFixedVersionRec;
+    numGlyphs : Word;
+    maxPoints : Word;
+    maxContours : Word;
+    maxCompositePoints : word;
+    maxCompositeContours : word;
+    maxZones : Word;
+    maxTwilightPoints : word;
+    maxStorage : Word;
+    maxFunctionDefs : Word;
+    maxInstructionDefs : Word;
+    maxStackElements : Word;
+    maxSizeOfInstructions : word;
+    maxComponentElements : Word;
+    maxComponentDepth : Word;
   end;
 
   TOS2Data = Packed Record
-    version : UInt16;
-    xAvgCharWidth : Int16;
-    usWeightClass : UInt16;
-    usWidthClass : UInt16;
-    fsType : Int16;
-    ySubscriptXSize : Int16;
-    ySubscriptYSize : Int16;
-    ySubscriptXOffset : Int16;
-    ySubscriptYOffset : Int16;
-    ySuperscriptXSize : Int16;
-    ySuperscriptYSize : Int16;
-    ySuperscriptXOffset : Int16;
-    ySuperscriptYOffset : Int16;
-    yStrikeoutSize : Int16;
-    yStrikeoutPosition : Int16;
-    sFamilyClass : Int16;    // we could split this into a record of Class & SubClass values.
+    version : Word;
+    xAvgCharWidth : SmallInt;
+    usWeightClass : Word;
+    usWidthClass : Word;
+    fsType : SmallInt;
+    ySubscriptXSize : SmallInt;
+    ySubscriptYSize : SmallInt;
+    ySubscriptXOffset : SmallInt;
+    ySubscriptYOffset : Smallint;
+    ySuperscriptXSize : Smallint;
+    ySuperscriptYSize : Smallint;
+    ySuperscriptXOffset : Smallint;
+    ySuperscriptYOffset : Smallint;
+    yStrikeoutSize : SmallInt;
+    yStrikeoutPosition : Smallint;
+    sFamilyClass : SmallInt;    // we could split this into a record of Class & SubClass values.
     panose : Array[0..9] of byte;
-    ulUnicodeRange1 : UInt32;
-    ulUnicodeRange2 : UInt32;
-    ulUnicodeRange3 : UInt32;
-    ulUnicodeRange4 : UInt32;
-    achVendID : Array[0..3] of AnsiChar;
-    fsSelection : UInt16;
-    usFirstCharIndex : UInt16;
-    usLastCharIndex : UInt16;
-    sTypoAscender: Int16;
-    sTypoDescender : Int16;
-    sTypoLineGap : Int16;
-    usWinAscent : UInt16;
-    usWinDescent : UInt16;
-    ulCodePageRange1 : UInt32;
-    ulCodePageRange2 : UInt32;
-    sxHeight : Int16;
-    sCapHeight : Int16;
-    usDefaultChar : UInt16;
-    usBreakChar : UInt16;
-    usMaxContext  : UInt16;
+    ulUnicodeRange1 : Cardinal;
+    ulUnicodeRange2 : Cardinal;
+    ulUnicodeRange3 : Cardinal;
+    ulUnicodeRange4 : Cardinal;
+    achVendID : Array[0..3] of char;
+    fsSelection : word;
+    usFirstCharIndex : Word;
+    usLastCharIndex : Word;
+    sTypoAscender: Smallint;
+    sTypoDescender : Smallint;
+    sTypoLineGap : Smallint;
+    usWinAscent : Word;
+    usWinDescent : Word;
+    ulCodePageRange1 : Cardinal;
+    ulCodePageRange2 : Cardinal;
+    sxHeight : smallint;
+    sCapHeight : smallint;
+    usDefaultChar : word;
+    usBreakChar : word;
+    usMaxContext  : word;
   end;
 
   { Nicely described at [https://www.microsoft.com/typography/otspec/head.htm] }
   THead = Packed record
-    FileVersion : TFixedVersionRec;  { UInt32 }
-    FontRevision : TFixedVersionRec;  { UInt32 }
-    CheckSumAdjustment : UInt32;
-    MagicNumber : UInt32;
-    Flags : UInt16;
-    UnitsPerEm: UInt16;
+    FileVersion : TFixedVersionRec;
+    FontRevision : TFixedVersionRec;
+    CheckSumAdjustment : Cardinal;
+    MagicNumber : Cardinal;
+    Flags : Word;
+    UnitsPerEm: word;
     Created : Int64;
     Modified : Int64;
-    BBox: Packed array[0..3] of Int16;
-    MacStyle : UInt16;
-    LowestRecPPEM : UInt16;
-    FontDirectionHint : Int16;
-    IndexToLocFormat : Int16;
-    glyphDataFormat : Int16;
+    BBox: Packed array[0..3] of Smallint;
+    MacStyle : word;
+    LowestRecPPEM : word;
+    FontDirectionHint : smallint;
+    IndexToLocFormat : Smallint;
+    glyphDataFormat : Smallint;
   end;
 
   { structure described at [https://www.microsoft.com/typography/otspec/hhea.htm] }
   THHead = packed record
-    TableVersion : TFixedVersionRec;  { UInt32 }
-    Ascender : Int16;
-    Descender : Int16;
-    LineGap : Int16;
-    AdvanceWidthMax : UInt16;
-    MinLeftSideBearing : Int16;
-    MinRightSideBearing : Int16;
-    XMaxExtent : Int16;
-    CaretSlopeRise : Int16;
-    CaretSlopeRun : Int16;
-    caretOffset: Int16; // reserved field
-    Reserved : Array[0..3] of Int16;
-    metricDataFormat : Int16;
-    numberOfHMetrics : UInt16;
+    TableVersion : TFixedVersionRec;
+    Ascender : Smallint;
+    Descender : Smallint;
+    LineGap : Smallint;
+    AdvanceWidthMax : Word;
+    MinLeftSideBearing : Smallint;
+    MinRightSideBearing : Smallint;
+    XMaxExtent : Smallint;
+    CaretSlopeRise : Smallint;
+    CaretSlopeRun : Smallint;
+    Reserved : Array[0..4] of Smallint;
+    metricDataFormat : Smallint;
+    numberOfHMetrics : Word;
   end;
 
   { Character to glyph mapping
     Structure described at [https://www.microsoft.com/typography/otspec/cmap.htm] }
   TCmapHeader = packed record
-    Version: UInt16;
-    SubTableCount: UInt16;
+    Version: word;
+    SubTableCount: word;
   end;
 
   TCmapSubTableEntry = packed record
-    PlatformID: UInt16;
-    EncodingID: UInt16;
-    Offset: UInt32;
+    PlatformID: word;
+    EncodingID: word;
+    Offset: Cardinal;
   end;
   TCmapSubTables = Array of TCmapSubTableEntry;
 
   TCmapFmt4 = packed record
-    Format: UInt16;
-    Length: UInt16;
-    LanguageID: UInt16;
-    SegmentCount2: UInt16;
-    SearchRange: UInt16;
-    EntrySelector: UInt16;
-    RangeShift: UInt16;
+    Format: word;
+    Length: word;
+    LanguageID: word;
+    SegmentCount2: word;
+    SearchRange: word;
+    EntrySelector: word;
+    RangeShift: word;
   end;
 
   TUnicodeMapSegment = Packed Record
-    StartCode : UInt16;
-    EndCode : UInt16;
-    IDDelta : Int16;
-    IDRangeOffset : UInt16;
+    StartCode : Word;
+    EndCode : Word;
+    IDDelta : Smallint;
+    IDRangeOffset : Word;
   end;
   TUnicodeMapSegmentArray = Array of TUnicodeMapSegment;
 
   TNameRecord = Packed Record
-    PlatformID : UInt16;
-    EncodingID : UInt16;
-    LanguageID : UInt16;
-    NameID : UInt16;
-    StringLength : UInt16;
-    StringOffset : UInt16;
+    PlatformID : Word;
+    EncodingID : Word;
+    LanguageID : Word;
+    NameID : Word;
+    StringLength : Word;
+    StringOffset : Word;
   end;
 
   TNameEntry = Packed Record
@@ -227,19 +216,6 @@ Type
   TNameEntries = Array of TNameEntry;
 
 
-  TGlyphHeader = packed record
-    numberOfContours: int16;
-    xMin: uint16;
-    yMin: uint16;
-    xMax: uint16;
-    yMax: uint16;
-  end;
-
-
-  { As per the TTF specification document...
-      https://www.microsoft.com/typography/tt/ttf_spec/ttch02.doc
-    ...all TTF files are always stored in Big-Endian byte ordering (pg.31 Data Types).
-  }
   TTFFileInfo = class(TObject)
   private
     FFilename: string;
@@ -254,7 +230,7 @@ Type
     FHHEad : THHead;
     FOS2Data : TOS2Data;
     FPostScript : TPostScript;
-    FWidths: TLongHorMetricArray; // hmtx data
+    FWidths: TLongHorMetrics; // hmtx data
     // Needed to create PDF font def.
     FOriginalSize : Cardinal;
     FMissingWidth: Integer;
@@ -264,9 +240,10 @@ Type
     function GetMissingWidth: integer;
   Protected
     // Stream reading functions.
-    function ReadInt16(AStream: TStream): Int16; inline;
-    function ReadUInt32(AStream: TStream): UInt32; inline;
-    function ReadUInt16(AStream: TStream): UInt16; inline;
+    Function IsNativeData : Boolean; virtual;
+    function ReadShort(AStream: TStream): Smallint; inline;
+    function ReadULong(AStream: TStream): Longword; inline;
+    function ReadUShort(AStream: TStream): Word; inline;
     // Parse the various well-known tables
     procedure ParseHead(AStream : TStream); virtual;
     procedure ParseHhea(AStream : TStream); virtual;
@@ -289,11 +266,9 @@ Type
     CharBase:  PTTFEncodingNames;
     PostScriptName: string;
     FamilyName: string;
-    HumanFriendlyName: string; // aka FullName
     destructor Destroy; override;
     { Returns the Glyph Index value in the TTF file, where AValue is the ordinal value of a character. }
     function  GetGlyphIndex(AValue: word): word;
-    function  GetTableDirEntry(const ATableName: string; var AEntry: TTableDirectoryEntry): boolean;
     // Load a TTF file from file or stream.
     Procedure LoadFromFile(const AFileName : String);
     Procedure LoadFromStream(AStream: TStream); virtual;
@@ -313,7 +288,7 @@ Type
     Function CapHeight: SmallInt;
     { Returns the glyph advance width, based on the AIndex (glyph index) value. The result is in font units. }
     function GetAdvanceWidth(AIndex: word): word;
-    function ItalicAngle: single;
+    function ItalicAngle: LongWord;
     { max glyph bounding box values - as space separated values }
     function BBox: string;
     property MissingWidth: Integer read GetMissingWidth;
@@ -329,7 +304,7 @@ Type
     property CmapSubtables : TCmapSubTables Read FSubtables;
     property CmapUnicodeMap : TCmapFmt4 Read FUnicodeMap;
     property CmapUnicodeMapSegments : TUnicodeMapSegmentArray Read FUnicodeMapSegments;
-    Property Widths : TLongHorMetricArray Read FWidths;
+    Property Widths : TLongHorMetrics Read FWidths;
     Property MaxP : TMaxP Read FMaxP;
     Property OS2Data : TOS2Data Read FOS2Data;
     Property PostScript : TPostScript Read FPostScript;
@@ -353,8 +328,7 @@ procedure FillMem(Dest: pointer; Size: longint; Data: Byte );
 
 Const
   TTFTableNames : Array[TTTFTableType] of String
-                 = ('','head','hhea','maxp','hmtx','cmap','name','OS/2','post',
-                 'glyf', 'loca', 'cvt ', 'prep', 'fpgm');
+                 = ('','head','hhea','maxp','hmtx','cmap','name','OS/2','post');
 
 
 Const
@@ -382,7 +356,6 @@ implementation
 
 resourcestring
   rsFontEmbeddingNotAllowed = 'Font licence does not allow embedding';
-  rsErrUnexpectedUnicodeSubtable = 'Unexpected unicode subtable format, expected 4, got %s';
 
 Function GetTableType(Const AName : String) : TTTFTableType;
 begin
@@ -412,23 +385,25 @@ begin
   FillChar(Dest^, Size, Data);
 end;
 
-function TTFFileInfo.ReadUInt32(AStream: TStream): UInt32;
+function TTFFileInfo.ReadULong(AStream: TStream): Longword;inline;
 begin
   Result:=0;
   AStream.ReadBuffer(Result,SizeOf(Result));
-  Result:=BEtoN(Result);
+  if Not IsNativeData then
+    Result:=BEtoN(Result);
 end;
 
-function TTFFileInfo.ReadUInt16(AStream: TStream): UInt16;
+function TTFFileInfo.ReadUShort(AStream: TStream): Word;inline;
 begin
   Result:=0;
   AStream.ReadBuffer(Result,SizeOf(Result));
-  Result:=BEtoN(Result);
+  if Not IsNativeData then
+    Result:=BEtoN(Result);
 end;
 
-function TTFFileInfo.ReadInt16(AStream: TStream): Int16;
+function TTFFileInfo.ReadShort(AStream: TStream): Smallint;inline;
 begin
-  Result:=Int16(ReadUInt16(AStream));
+  Result:=SmallInt(ReadUShort(AStream));
 end;
 
 procedure TTFFileInfo.ParseHead(AStream : TStream);
@@ -436,6 +411,8 @@ var
   i : Integer;
 begin
   AStream.ReadBuffer(FHead,SizeOf(FHead));
+  if IsNativeData then
+    exit;
   FHead.FileVersion.Version := BEtoN(FHead.FileVersion.Version);
   FHead.FileVersion.Minor := FixMinorVersion(FHead.FileVersion.Minor);
   FHead.FontRevision.Version := BEtoN(FHead.FontRevision.Version);
@@ -456,29 +433,34 @@ begin
 end;
 
 procedure TTFFileInfo.ParseHhea(AStream : TStream);
+
 begin
   AStream.ReadBuffer(FHHEad,SizeOf(FHHEad));
+  if IsNativeData then
+    exit;
   FHHEad.TableVersion.Version := BEToN(FHHEad.TableVersion.Version);
   FHHEad.TableVersion.Minor := FixMinorVersion(FHHEad.TableVersion.Minor);
   FHHEad.Ascender:=BEToN(FHHEad.Ascender);
   FHHEad.Descender:=BEToN(FHHEad.Descender);
   FHHEad.LineGap:=BEToN(FHHEad.LineGap);
-  FHHead.AdvanceWidthMax := BEToN(FHHead.AdvanceWidthMax);
   FHHEad.MinLeftSideBearing:=BEToN(FHHEad.MinLeftSideBearing);
   FHHEad.MinRightSideBearing:=BEToN(FHHEad.MinRightSideBearing);
   FHHEad.XMaxExtent:=BEToN(FHHEad.XMaxExtent);
   FHHEad.CaretSlopeRise:=BEToN(FHHEad.CaretSlopeRise);
   FHHEad.CaretSlopeRun:=BEToN(FHHEad.CaretSlopeRun);
-  FHHEad.caretOffset := BEToN(FHHEad.caretOffset);
   FHHEad.metricDataFormat:=BEToN(FHHEad.metricDataFormat);
   FHHEad.numberOfHMetrics:=BEToN(FHHEad.numberOfHMetrics);
+  FHHead.AdvanceWidthMax := BEToN(FHHead.AdvanceWidthMax);
 end;
 
 procedure TTFFileInfo.ParseMaxp(AStream : TStream);
+
 begin
   AStream.ReadBuffer(FMaxP,SizeOf(TMaxP));
+  if IsNativeData then
+    exit;
   With FMaxP do
-  begin
+    begin
     VersionNumber.Version := BEtoN(VersionNumber.Version);
     VersionNumber.Minor := FixMinorVersion(VersionNumber.Minor);
     numGlyphs:=BEtoN(numGlyphs);
@@ -495,20 +477,24 @@ begin
     maxSizeOfInstructions :=BEtoN(maxSizeOfInstructions);
     maxComponentElements :=BEtoN(maxComponentElements);
     maxComponentDepth :=BEtoN(maxComponentDepth);
-  end;
+    end;
 end;
 
 procedure TTFFileInfo.ParseHmtx(AStream : TStream);
+
 var
   i : Integer;
+
 begin
   SetLength(FWidths,FHHead.numberOfHMetrics);
   AStream.ReadBuffer(FWidths[0],SizeOf(TLongHorMetric)*Length(FWidths));
+  if IsNativeData then
+    exit;
   for I:=0 to FHHead.NumberOfHMetrics-1 do
-  begin
+    begin
     FWidths[I].AdvanceWidth:=BEtoN(FWidths[I].AdvanceWidth);
     FWidths[I].LSB:=BEtoN(FWidths[I].LSB);
-  end;
+    end;
 end;
 
 
@@ -520,57 +506,55 @@ var
   Segm : TUnicodeMapSegment;
   GlyphIDArray : Array of word;
   S : TStream;
+
 begin
   TableStartPos:=AStream.Position;
-  FCMapH.Version:=ReadUInt16(AStream);
-  FCMapH.SubtableCount:=ReadUInt16(AStream);
+  FCMapH.Version:=ReadUShort(AStream);
+  FCMapH.SubtableCount:=ReadUShort(AStream);
   SetLength(FSubtables,CMapH.SubtableCount);
   for I:= 0 to FCMapH.SubtableCount-1 do
     begin
-    FSubtables[i].PlatformID:=ReadUInt16(AStream);
-    FSubtables[i].EncodingID:=ReadUInt16(AStream);
-    FSubtables[i].Offset:=ReadUInt32(AStream); // 4 bytes - Offset of subtable
+    FSubtables[i].PlatformID:=ReadUShort(AStream);
+    FSubtables[i].EncodingID:=ReadUShort(AStream);
+    FSubtables[i].Offset:=ReadULong(AStream); // 4 bytes - Offset of subtable
     end;
   UE:=FCMapH.SubtableCount-1;
-  if UE=0 then
-    // No CMap subtable entries, this is not an error, just exit.
-    exit;
   While (UE>=0) and ((FSubtables[UE].PlatformID<>3) or (FSubtables[UE].EncodingID<> 1)) do
     Dec(UE);
   if (UE=-1) then
-    exit;
+    Raise ETTF.Create('No Format 4 map (unicode) table found <'+FFileName + ' - ' + PostScriptName+'>');
   TT:=TableStartPos+FSubtables[UE].Offset;
   AStream.Position:=TT;
-  FUnicodeMap.Format:= ReadUInt16(AStream);               // 2 bytes - Format of subtable
+  FUnicodeMap.Format:= ReadUShort(AStream);               // 2 bytes - Format of subtable
   if (FUnicodeMap.Format<>4) then
-    Raise ETTF.CreateFmt(rsErrUnexpectedUnicodeSubtable, [FUnicodeMap.Format]);
-  FUnicodeMap.Length:=ReadUInt16(AStream);
+    Raise ETTF.CreateFmt('Unexpected unicode subtable format, expected 4, got %s',[FUnicodeMap.Format]);
+  FUnicodeMap.Length:=ReadUShort(AStream);
   S:=TMemoryStream.Create;
   try
     // Speed up the process, read everything in a single mem block.
     S.CopyFrom(AStream,Int64(FUnicodeMap.Length)-4);
     S.Position:=0;
-    FUnicodeMap.LanguageID:=ReadUInt16(S);
-    FUnicodeMap.SegmentCount2:=ReadUInt16(S);            // 2 bytes - Segments count
-    FUnicodeMap.SearchRange:=ReadUInt16(S);
-    FUnicodeMap.EntrySelector:=ReadUInt16(S);
-    FUnicodeMap.RangeShift:=ReadUInt16(S);
+    FUnicodeMap.LanguageID:=ReadUShort(S);
+    FUnicodeMap.SegmentCount2:=ReadUShort(S);            // 2 bytes - Segments count
+    FUnicodeMap.SearchRange:=ReadUShort(S);
+    FUnicodeMap.EntrySelector:=ReadUShort(S);
+    FUnicodeMap.RangeShift:=ReadUShort(S);
     SegCount:=FUnicodeMap.SegmentCount2 div 2;
     SetLength(FUnicodeMapSegments,SegCount);
     for i:=0 to SegCount-1 do
-      FUnicodeMapSegments[i].EndCode:=ReadUInt16(S);
-    ReadUInt16(S);
+      FUnicodeMapSegments[i].EndCode:=ReadUShort(S);
+    ReadUShort(S);
     for i:=0 to SegCount-1 do
-      FUnicodeMapSegments[i].StartCode:=ReadUInt16(S);
+      FUnicodeMapSegments[i].StartCode:=ReadUShort(S);
     for i:=0 to SegCount-1 do
-      FUnicodeMapSegments[i].IDDelta:=ReadInt16(S);
+      FUnicodeMapSegments[i].IDDelta:=ReadShort(S);
     for i:=0 to SegCount-1 do
-      FUnicodeMapSegments[i].IDRangeOffset:=ReadUInt16(S);
+      FUnicodeMapSegments[i].IDRangeOffset:=ReadUShort(S);
     UE:=S.Position;
     UE:=(S.Size-UE) div 2;
     SetLength(GlyphIDArray,UE);
     For J:=0 to UE-1 do
-      GlyphIDArray[J]:=ReadUInt16(S);
+      GlyphIDArray[J]:=ReadUShort(S);
     J:=0;
     for i:=0 to SegCount-1 do
       With FUnicodeMapSegments[i] do
@@ -617,9 +601,9 @@ var
 
 begin
   TableStartPos:= AStream.Position;                   // memorize Table start position
-  ReadUInt16(AStream);                  // skip 2 bytes - Format
-  Count:=ReadUInt16(AStream);                        // 2 bytes
-  StringOffset:=ReadUInt16(AStream);                 // 2 bytes
+  ReadUShort(AStream);                  // skip 2 bytes - Format
+  Count:=ReadUShort(AStream);                        // 2 bytes
+  StringOffset:=ReadUShort(AStream);                 // 2 bytes
   E := FNameEntries;
   SetLength(E,Count);
   FillMem(@N, SizeOf(TNameRecord), 0);
@@ -661,23 +645,15 @@ begin
       writeln('NameID = ', E[i].Info.NameID);
       writeln('Value = ', E[i].Value);
     {$ENDIF}
-
     if (PostScriptName='')
        and (E[i].Info.NameID=NameIDPostScriptName)
        and (E[i].Info.EncodingID=NameMSEncodingUGL) then
       PostScriptName:=E[i].Value;
-
     if (FamilyName = '')
         and (E[i].Info.NameID = NameIDFontFamily)
         and (E[i].Info.LanguageID = 1033)
         and (E[i].Info.EncodingID = 1) then
       FamilyName := E[i].Value;
-
-    if (HumanFriendlyName = '')
-        and (E[i].Info.NameID = NameIDFullFontName)
-        and (E[i].Info.LanguageID = 1033)
-        and (E[i].Info.EncodingID = 1) then
-      HumanFriendlyName := E[i].Value;
   end; { for i ... }
 end;
 
@@ -687,76 +663,80 @@ begin
   FillWord(FOS2Data,SizeOf(TOS2Data) div 2,0);
   // -18, so version 1 will not overflow
   AStream.ReadBuffer(FOS2Data,SizeOf(TOS2Data)-18);
+  if Not isNativeData then
+    With FOS2Data do
+      begin
+      version:=BeToN(version);
+      xAvgCharWidth:=BeToN(xAvgCharWidth);
+      usWeightClass:=BeToN(usWeightClass);
+      usWidthClass:=BeToN(usWidthClass);
+      fsType:=BeToN(fsType);
+      ySubscriptXSize:=BeToN(ySubscriptXSize);
+      ySubscriptYSize:=BeToN(ySubscriptYSize);
+      ySubscriptXOffset:=BeToN(ySubscriptXOffset);
+      ySubscriptYOffset:=BeToN(ySubscriptYOffset);
+      ySuperscriptXSize:=BeToN(ySuperscriptXSize);
+      ySuperscriptYSize:=BeToN(ySuperscriptYSize);
+      ySuperscriptXOffset:=BeToN(ySuperscriptXOffset);
+      ySuperscriptYOffset:=BeToN(ySuperscriptYOffset);
+      yStrikeoutSize:=BeToN(yStrikeoutSize);
+      yStrikeoutPosition:=BeToN(yStrikeoutPosition);
+      sFamilyClass:=BeToN(sFamilyClass);
+      ulUnicodeRange1:=BeToN(ulUnicodeRange1);
+      ulUnicodeRange2:=BeToN(ulUnicodeRange2);
+      ulUnicodeRange3:=BeToN(ulUnicodeRange3);
+      ulUnicodeRange4:=BeToN(ulUnicodeRange4);
+      fsSelection:=BeToN(fsSelection);
+      usFirstCharIndex:=BeToN(usFirstCharIndex);
+      usLastCharIndex:=BeToN(usLastCharIndex);
+      sTypoAscender:=BeToN(sTypoAscender);
+      sTypoDescender:=BeToN(sTypoDescender);
+      sTypoLineGap:=BeToN(sTypoLineGap);
+      usWinAscent:=BeToN(usWinAscent);
+      usWinDescent:=BeToN(usWinDescent);
+      // We miss 7 fields
+      end;
   With FOS2Data do
-  begin
-    version:=BeToN(version);
-    xAvgCharWidth:=BeToN(xAvgCharWidth);
-    usWeightClass:=BeToN(usWeightClass);
-    usWidthClass:=BeToN(usWidthClass);
-    fsType:=BeToN(fsType);
-    ySubscriptXSize:=BeToN(ySubscriptXSize);
-    ySubscriptYSize:=BeToN(ySubscriptYSize);
-    ySubscriptXOffset:=BeToN(ySubscriptXOffset);
-    ySubscriptYOffset:=BeToN(ySubscriptYOffset);
-    ySuperscriptXSize:=BeToN(ySuperscriptXSize);
-    ySuperscriptYSize:=BeToN(ySuperscriptYSize);
-    ySuperscriptXOffset:=BeToN(ySuperscriptXOffset);
-    ySuperscriptYOffset:=BeToN(ySuperscriptYOffset);
-    yStrikeoutSize:=BeToN(yStrikeoutSize);
-    yStrikeoutPosition:=BeToN(yStrikeoutPosition);
-    sFamilyClass:=BeToN(sFamilyClass);
-    ulUnicodeRange1:=BeToN(ulUnicodeRange1);
-    ulUnicodeRange2:=BeToN(ulUnicodeRange2);
-    ulUnicodeRange3:=BeToN(ulUnicodeRange3);
-    ulUnicodeRange4:=BeToN(ulUnicodeRange4);
-    fsSelection:=BeToN(fsSelection);
-    usFirstCharIndex:=BeToN(usFirstCharIndex);
-    usLastCharIndex:=BeToN(usLastCharIndex);
-    sTypoAscender:=BeToN(sTypoAscender);
-    sTypoDescender:=BeToN(sTypoDescender);
-    sTypoLineGap:=BeToN(sTypoLineGap);
-    usWinAscent:=BeToN(usWinAscent);
-    usWinDescent:=BeToN(usWinDescent);
-    // We miss 7 fields
-  end;
-  With FOS2Data do
-  begin
+    begin
     // Read remaining 7 fields' data depending on version
     if Version>=1 then
-    begin
-      ulCodePageRange1:=ReadUInt32(AStream);
-      ulCodePageRange2:=ReadUInt32(AStream);
-    end;
+      begin
+      ulCodePageRange1:=ReadULong(AStream);
+      ulCodePageRange2:=ReadULong(AStream);
+      end;
     if Version>=2 then
-    begin
-      sxHeight:=ReadInt16(AStream);
-      sCapHeight:=ReadInt16(AStream);
-      usDefaultChar:=ReadUInt16(AStream);
-      usBreakChar:=ReadUInt16(AStream);
-      usMaxContext:=ReadUInt16(AStream);
+      begin
+      sxHeight:=ReadShort(AStream);
+      sCapHeight:=ReadShort(AStream);
+      usDefaultChar:=ReadUShort(AStream);
+      usBreakChar:=ReadUShort(AStream);
+      usMaxContext:=ReadUShort(AStream);
+      end;
     end;
-  end;
 end;
 
 procedure TTFFileInfo.ParsePost(AStream : TStream);
+
 begin
   AStream.ReadBuffer(FPostScript,SizeOf(TPostScript));
-  With FPostScript do
-  begin
-    Format.Version := BEtoN(Format.Version);
-    Format.Minor := FixMinorVersion(Format.Minor);
-    ItalicAngle:=BeToN(ItalicAngle);
-    UnderlinePosition:=BeToN(UnderlinePosition);
-    underlineThickness:=BeToN(underlineThickness);
-    isFixedPitch:=BeToN(isFixedPitch);
-    minMemType42:=BeToN(minMemType42);
-    maxMemType42:=BeToN(maxMemType42);
-    minMemType1:=BeToN(minMemType1);
-    maxMemType1:=BeToN(maxMemType1);
-  end;
+  if not IsNativeData then
+    With FPostScript do
+      begin
+      Format.Version := BEtoN(Format.Version);
+      Format.Minor := FixMinorVersion(Format.Minor);
+      ItalicAngle:=BeToN(ItalicAngle);
+      UnderlinePosition:=BeToN(UnderlinePosition);
+      underlineThickness:=BeToN(underlineThickness);
+      isFixedPitch:=BeToN(isFixedPitch);
+      minMemType42:=BeToN(minMemType42);
+      maxMemType42:=BeToN(maxMemType42);
+      minMemType1:=BeToN(minMemType1);
+      maxMemType1:=BeToN(maxMemType1);
+      end;
 end;
 
 procedure TTFFileInfo.LoadFromFile(const AFileName: String);
+
 Var
   AStream: TFileStream;
 begin
@@ -776,30 +756,31 @@ var
 begin
   FOriginalSize:= AStream.Size;
   AStream.ReadBuffer(FTableDir,Sizeof(TTableDirectory));
-  With FTableDir do
-  begin
-    FontVersion.Version := BEtoN(FontVersion.Version);
-    FontVersion.Minor := FixMinorVersion(FontVersion.Minor);
-    Numtables:=BeToN(Numtables);
-    SearchRange:=BeToN(SearchRange);
-    EntrySelector:=BeToN(EntrySelector);
-    RangeShift:=BeToN(RangeShift);
-  end;
+  if not isNativeData then
+    With FTableDir do
+      begin
+      FontVersion.Version := BEtoN(FontVersion.Version);
+      FontVersion.Minor := FixMinorVersion(FontVersion.Minor);
+      Numtables:=BeToN(Numtables);
+      SearchRange:=BeToN(SearchRange);
+      EntrySelector:=BeToN(EntrySelector);
+      RangeShift:=BeToN(RangeShift);
+      end;
   SetLength(FTables,FTableDir.Numtables);
   AStream.ReadBuffer(FTables[0],FTableDir.NumTables*Sizeof(TTableDirectoryEntry));
-  For I:=0 to Length(FTables)-1 do
-    With FTables[I] do
-    begin
-      // note: Tag field doesn't require BEtoN processing.
-      checkSum:=BeToN(checkSum);
-      offset:=BeToN(offset);
-      Length:=BeToN(Length);
-    end;
+  if Not IsNativeData then
+    For I:=0 to Length(FTables)-1 do
+      With FTables[I] do
+        begin
+        checkSum:=BeToN(checkSum);
+        offset:=BeToN(offset);
+        Length:=BeToN(Length);
+        end;
   for I:=0 to FTableDir.NumTables-1 do
-  begin
+    begin
     TT:=GetTableType(FTables[I].Tag);
     if (TT<>ttUnknown) then
-    begin
+      begin
       AStream.Position:=FTables[i].Offset;
       Case TT of
         tthead: ParseHead(AStream);
@@ -811,8 +792,8 @@ begin
         ttos2 : ParseOS2(AStream);
         ttPost: ParsePost(AStream);
       end;
+      end;
     end;
-  end;
 end;
 
 procedure TTFFileInfo.PrepareFontDefinition(const Encoding: string; Embed: Boolean);
@@ -825,13 +806,13 @@ begin
 //  MissingWidth:=ToNatural(Widths[Chars[CharCodes^[32]]].AdvanceWidth);  // Char(32) - Space character
   FMissingWidth := Widths[Chars[CharCodes^[32]]].AdvanceWidth;  // Char(32) - Space character
   for I:=0 to 255 do
-  begin
+    begin
     if (CharCodes^[i]>=0) and (CharCodes^[i]<=High(Chars))
     and (Widths[Chars[CharCodes^[i]]].AdvanceWidth> 0) and (CharNames^[i]<> '.notdef') then
       CharWidth[I]:= ToNatural(Widths[Chars[CharCodes^[I]]].AdvanceWidth)
     else
       CharWidth[I]:= FMissingWidth;
-  end;
+    end;
 end;
 
 procedure TTFFileInfo.PrepareEncoding(const AEncoding: String);
@@ -854,12 +835,12 @@ begin
   L:= 0;
   for i:=32 to 255 do
     if CharNames^[i]<>CharBase^[i]  then
-    begin
+      begin
       if (i<>l+1) then
         Result:= Result+IntToStr(i)+' ';
       l:=i;
       Result:= Result+'/'+CharNames^[i]+' ';
-    end;
+      end;
 end;
 
 function TTFFileInfo.Bold: Boolean;
@@ -912,31 +893,14 @@ begin
   result := Chars[AValue];
 end;
 
-function TTFFileInfo.GetTableDirEntry(const ATableName: string; var AEntry: TTableDirectoryEntry): boolean;
-var
-  i: integer;
-begin
-  FillMem(@AEntry, SizeOf(TTableDirectoryEntry), 0);
-  Result := False;
-  for i := Low(Tables) to High(Tables) do
-  begin
-    if CompareStr(Tables[i].Tag, ATableName) = 0 then
-    begin
-      Result := True;
-      AEntry := Tables[i];
-      Exit;
-    end;
-  end;
-end;
-
 function TTFFileInfo.GetAdvanceWidth(AIndex: word): word;
 begin
   Result := Widths[AIndex].AdvanceWidth;
 end;
 
-function TTFFileInfo.ItalicAngle: single;
+function TTFFileInfo.ItalicAngle: LongWord;
 begin
-  Result := FPostScript.ItalicAngle / 65536.0;
+  Result := FPostScript.ItalicAngle;
 end;
 
 function TTFFileInfo.BBox: string;
@@ -972,9 +936,14 @@ function TTFFileInfo.GetMissingWidth: integer;
 begin
   if FMissingWidth = 0 then
   begin
-    FMissingWidth := Widths[Chars[CharCodes^[32]]].AdvanceWidth;  // 32 is in reference to the Space character
+    FMissingWidth := Widths[Chars[CharCodes^[32]]].AdvanceWidth;  // Char(32) - Space character
   end;
   Result := FMissingWidth;
+end;
+
+function TTFFileInfo.IsNativeData: Boolean;
+begin
+  Result:=False;
 end;
 
 function TTFFileInfo.ToNatural(AUnit: Smallint): Smallint;

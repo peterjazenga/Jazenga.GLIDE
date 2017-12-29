@@ -2071,9 +2071,126 @@ method }
 { ---------------------------------------------------------------------
     General streaming and registration routines
   ---------------------------------------------------------------------}
-
+type
+  (* IMPORTANT NOTE:
+    the integer value of this enum is stored in PPU
+    files to recognize the target, so if you add new targets
+    allways add them at end PM
+    FURTHERMORE : Make sure that this branch values are
+    consistant with the main branch version always. (CEC)
+    copied from systems.inc file from the FPC source tree
+    for RegisterComponentsEX by Peter Dunne for GLIDE
+    *)
+  tsystem =
+  (
+        system_none,               { 0 }
+        obsolete_system_i386_GO32V1,{ 1 }
+        system_i386_GO32V2,        { 2 }
+        system_i386_linux,         { 3 }
+        system_i386_OS2,           { 4 }
+        system_i386_Win32,         { 5 }
+        system_i386_freebsd,       { 6 }
+        system_m68k_Amiga,         { 7 }
+        system_m68k_Atari,         { 8 }
+        system_m68k_Mac,           { 9 }
+        system_m68k_linux,         { 10 }
+        system_m68k_PalmOS,        { 11 }
+        system_alpha_linux,        { 12 }
+        system_powerpc_linux,      { 13 }
+        system_powerpc_macos,      { 14 }
+        system_i386_solaris,       { 15 }
+        system_i386_beos,          { 16 }
+        system_i386_netbsd,        { 17 }
+        system_m68k_netbsd,        { 18 }
+        system_i386_Netware,       { 19 }
+        system_i386_qnx,           { 20 }
+        system_i386_wdosx,         { 21 }
+        system_sparc_solaris,      { 22 }
+        system_sparc_linux,        { 23 }
+        system_i386_openbsd,       { 24 }
+        system_m68k_openbsd,       { 25 }
+        system_x86_64_linux,       { 26 }
+        system_powerpc_darwin,     { 27 }
+        system_i386_EMX,           { 28 }
+        system_powerpc_netbsd,     { 29 }
+        system_powerpc_openbsd,    { 30 }
+        system_arm_linux,          { 31 }
+        system_i386_watcom,        { 32 }
+        system_powerpc_MorphOS,    { 33 }
+        system_x86_64_freebsd,     { 34 }
+        system_i386_netwlibc,      { 35 }
+        system_powerpc_Amiga,      { 36 }
+        system_x86_64_win64,       { 37 }
+        system_arm_wince,          { 38 }
+        system_ia64_win64,         { 39 }
+        system_i386_wince,         { 40 }
+        system_x86_6432_linux,     { 41 }
+        system_arm_gba,            { 42 }
+        system_powerpc64_linux,    { 43 }
+        system_i386_darwin,        { 44 }
+        system_arm_palmos,         { 45 }
+        system_powerpc64_darwin,   { 46 }
+        system_arm_nds,            { 47 }
+        system_i386_embedded,      { 48 }
+        system_m68k_embedded,      { 49 }
+        system_alpha_embedded,     { 50 }
+        system_powerpc_embedded,   { 51 }
+        system_sparc_embedded,     { 52 }
+        system_vm_embedded,        { 53 }
+        system_iA64_embedded,      { 54 }
+        system_x86_64_embedded,    { 55 }
+        system_mips_embedded,      { 56 }
+        system_arm_embedded,       { 57 }
+        system_powerpc64_embedded, { 58 }
+        system_i386_symbian,       { 59 }
+        system_arm_symbian,        { 60 }
+        system_x86_64_darwin,      { 61 }
+        system_avr_embedded,       { 62 }
+        system_i386_haiku,         { 63 }
+        system_arm_darwin,         { 64 }
+        system_x86_64_solaris,     { 65 }
+        system_mipseb_linux,       { 66 }
+        system_mipsel_linux,       { 67 }
+        system_i386_nativent,      { 68 }
+        system_i386_iphonesim,     { 69 }
+        system_powerpc_wii,        { 70 }
+        system_x86_64_openbsd,     { 71 }
+        system_x86_64_netbsd,      { 72 }
+        system_powerpc_aix,        { 73 }
+        system_powerpc64_aix,      { 74 }
+        system_jvm_java32,         { 75 }
+        system_jvm_android32,      { 76 }
+        system_arm_android,        { 77 }
+        system_i386_android,       { 78 }
+        system_i8086_msdos,        { 79 }
+        system_mipsel_android,     { 80 }
+        system_mipseb_embedded,    { 81 }
+        system_mipsel_embedded,    { 82 }
+        system_i386_aros,          { 83 }
+        system_x86_64_aros,        { 84 }
+        system_x86_64_dragonfly    { 85 }
+  );
+// RegisterComponentsEX types by Peter Dunne for GLIDE
+  TSystems = set of TSystem;
+  TRegisterSubsystem = (subsysNET, subsysGUI, subsysDB, subsysAUDIO, subsysUSB, subsysSERIAL, subsysCLI, subsysSERVICE);
+  TRegisterSubsystems = set of TRegisterSubsystem;
+  TRegisterExtendedData = record
+    entity_id: int64; // the company or copyright owner ID
+    author_id: int64; // the library author
+    library_id: int64;
+    subsystems: TRegisterSubsystems;
+    ApplicableSystems: TSystems; // use system_none when there are no specific restrictions on the component
+    versionMajor: word;  // package version information
+    versionMinor: word;
+    revision: word;
+    licenseA: word;
+    licenseB: word;
+  end;
 
 var
+  // RegisterComponentsEX by Peter Dunne for GLIDE
+  RegisterComponentsEXProc: procedure(const Page: string; ExtendedData: TRegisterExtendedData;
+    ComponentClasses: array of TComponentClass);
   RegisterComponentsProc: procedure(const Page: string;
     ComponentClasses: array of TComponentClass);
   RegisterNoIconProc: procedure(ComponentClasses: array of TComponentClass);
@@ -2115,6 +2232,11 @@ function ClassGroupOf(Instance: TPersistent): TPersistentClass;
 
 procedure RegisterComponents(const Page: string;
   ComponentClasses: array of TComponentClass);
+
+// RegisterComponentsEX by Peter Dunne for GLIDE
+procedure RegisterComponentsEX(const Page: string; ExtendedData: TRegisterExtendedData;
+  ComponentClasses: array of TComponentClass);
+
 procedure RegisterNoIcon(ComponentClasses: array of TComponentClass);
 procedure RegisterNonActiveX(ComponentClasses: array of TComponentClass;
   AxRegType: TActiveXRegType);

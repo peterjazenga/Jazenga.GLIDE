@@ -70,35 +70,35 @@
     </DebuggerFilename>
     <Recent AlreadyPopulated="True">
       <OpenFiles Count="10">
-        <Item1 Value="d:\Jazenga.GLIDE\docs\Contributors.txt"/>
-        <Item2 Value="d:\Jazenga.GLIDE\docs\acknowledgements.txt"/>
-        <Item3 Value="d:\Jazenga.GLIDE\ide\lazarusidestrconsts.pas"/>
-        <Item4 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm.pas"/>
-        <Item5 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDBFrm2.pas"/>
-        <Item6 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBDirFrm.pas"/>
-        <Item7 Value="d:\Jazenga.GLIDE\lcl\lclplatformdef.pas"/>
-        <Item8 Value="d:\Jazenga.GLIDE\lcl\interfacebase.pp"/>
-        <Item9 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\unit1.pas"/>
-        <Item10 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\QBuilder.pas"/>
+        <Item1 Value="d:\Jazenga.GLIDE\lcl\registerlcl.pas"/>
+        <Item2 Value="d:\Jazenga.GLIDE\fpcsrc\packages\fcl-base\src\singleinstance.pp"/>
+        <Item3 Value="d:\Jazenga.GLIDE\components\codetools\definetemplates.pas"/>
+        <Item4 Value="d:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst\basex_encode.pas"/>
+        <Item5 Value="d:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\Rx\rxtools\rxstrutils.pas"/>
+        <Item6 Value="d:\Jazenga.GLIDE\packager\packagesystem.pas"/>
+        <Item7 Value="d:\Jazenga.GLIDE\fpcsrc\packages\a52\Makefile"/>
+        <Item8 Value="C:\fpcupdeluxe-master\m_any_to_aixpowerpc.pas"/>
+        <Item9 Value="d:\Jazenga.GLIDE\fpcsrc\installer\install.pas"/>
+        <Item10 Value="d:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\wst\date_utils.pas"/>
       </OpenFiles>
       <ProjectFiles Count="5">
         <Item1 Value="d:\Jazenga.GLIDE\ide\lazarus.lpi"/>
-        <Item2 Value="d:\Jazenga.GLIDE\tools\xpm_to_png\xpm_to_png.lpi"/>
-        <Item3 Value="d:\Jazenga.GLIDE\tools\snapshots\checksnapshotsgui.lpi"/>
-        <Item4 Value="d:\Jazenga.GLIDE\tools\snapshots\checksnapshots.lpi"/>
-        <Item5 Value="d:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\openqbuilder.lpi"/>
+        <Item2 Value="d:\Jazenga.GLIDE\tools\lazres.lpi"/>
+        <Item3 Value="d:\Jazenga.GLIDE\fpcupdeluxe-master\fpcupdeluxe.lpi"/>
+        <Item4 Value="d:\Jazenga.GLIDE\fpcsrc\installer\install.lpi"/>
+        <Item5 Value="d:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\lazautoupdate\updatepack\updatepack.lpi"/>
       </ProjectFiles>
       <PackageFiles Count="10">
-        <Item1 Value="d:\jazenga.glide\config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard.lpk"/>
-        <Item2 Value="d:\jazenga.glide\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoSerial\sdposeriallaz.lpk"/>
-        <Item3 Value="D:\Jazenga.GLIDE\lcl\interfaces\lcl.lpk"/>
-        <Item4 Value="D:\Jazenga.GLIDE\components\lazcontrols\lazcontrols.lpk"/>
-        <Item5 Value="d:\jazenga.glide\lazarus\components\packagetabs\packagetabs.lpk"/>
-        <Item6 Value="d:\jazenga.glide\lazarus\components\pas2js\src\rtl\pas2js_rtl.lpk"/>
-        <Item7 Value="d:\jazenga.glide\lazarus\components\pas2js\src\packages\fpcunit\fpcunit_pas2js.lpk"/>
-        <Item8 Value="d:\jazenga.glide\lazarus\components\pas2js\src\packages\fcl-base\fcl_base_pas2js.lpk"/>
-        <Item9 Value="d:\jazenga.glide\lazarus\components\googleapis\lazgoogleapis.lpk"/>
-        <Item10 Value="d:\jazenga.glide\config_lazarus\onlinepackagemanager\packages\wst\ide\lazarus\wst_indy.lpk"/>
+        <Item1 Value="D:\Jazenga.GLIDE\lcl\lclbase.lpk"/>
+        <Item2 Value="D:\Jazenga.GLIDE\packager\registration\fcl.lpk"/>
+        <Item3 Value="D:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\zeosdbo-7.1.4\packages\lazarus\zcomponent.lpk"/>
+        <Item4 Value="D:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\lazautoupdate\lazupdate.lpk"/>
+        <Item5 Value="D:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\uecontrols-master\uecontrols.lpk"/>
+        <Item6 Value="d:\jazenga.glide\config_lazarus\onlinepackagemanager\packages\OnGuard\packages\tponguard.lpk"/>
+        <Item7 Value="d:\jazenga.glide\config_lazarus\onlinepackagemanager\packages\Sdpo\SdpoSerial\sdposeriallaz.lpk"/>
+        <Item8 Value="D:\Jazenga.GLIDE\lcl\interfaces\lcl.lpk"/>
+        <Item9 Value="D:\Jazenga.GLIDE\components\lazcontrols\lazcontrols.lpk"/>
+        <Item10 Value="d:\jazenga.glide\lazarus\components\packagetabs\packagetabs.lpk"/>
       </PackageFiles>
     </Recent>
     <ExternalTools Version="3" Count="7">
@@ -137,11 +137,14 @@
   </EnvironmentOptions>
   <ObjectInspectorOptions ShowHints="False" InfoBoxHeight="50">
     <Version Value="3"/>
+    <Bounds>
+      <PropertyPage SplitterX="163"/>
+    </Bounds>
   </ObjectInspectorOptions>
   <Desktops Count="1" ActiveDesktop="default">
     <Desktop1 Name="default">
-      <Desktop Version="2" FormIdCount="64">
-        <FormIdList a1="MainIDE" a2="SearchResults" a3="MessagesView" a4="CodeExplorerView" a5="ProjectInspector" a6="ObjectInspectorDlg" a7="SourceNotebook" a8="PackageEditor_tponguard" a9="PkgGraphExplorer" a10="PackageEditor_SdpoSerialLaz" a11="PackageEditor_LCLBase" a12="PackageEditor_LCL" a13="PackageEditor_LazControls" a14="ProjectGroupEditor" a15="PackageEditor_packagetabs" a16="PackageEditor_FPCUnitTestRunner" a17="PackageEditor_fcl_base_pas2js" a18="PackageEditor_pas2js_rtl" a19="PackageEditor_fpcunit_pas2js" a20="PackageEditor_lazgoogleapis" a21="PackageEditor_wst_indy" a22="PackageEditor_wst_fcltransport" a23="PackageEditor_wst_design" a24="PackageEditor_wst_core" a25="PackageEditor_pas2js_fcldb" a26="PackageEditor_Pas2JSDsgn" a27="PackageEditor_wst_synapse" a28="PackageEditor_exdatabase" a29="PackageEditor_pckZeosConn" a30="PackageEditor_zcomponent" a31="PackageEditor_lazdbexport" a32="PackageEditor_LR_SqlDB" a33="PackageEditor_rx" a34="PackageEditor_JumpToImplementation" a35="PackageEditor_laz_synapse40_1" a36="PackageEditor_pckUCDataConnector" a37="PackageEditor_OnlinePackageManager" a38="PackageEditor_frce" a39="PackageEditor_fortes324forlaz" a40="PackageEditor_plot" a41="PackageEditor_JvCoreLazR" a42="Watches" a43="BreakPoints" a44="Locals" a45="CallStack" a46="EvaluateModify" a47="Registers" a48="Assembler" a49="DbgOutput" a50="Inspect" a51="DbgEvents" a52="PseudoTerminal" a53="Threads" a54="DbgHistory" a55="UnitDependencies" a56="FPDocEditor" a57="ClipBrdHistory" a58="EditorFileManager" a59="AnchorEditor" a60="TabOrderEditor" a61="CodeBrowser" a62="IssueBrowser" a63="JumpHistory" a64="ComponentList"/>
+      <Desktop Version="2" FormIdCount="67">
+        <FormIdList a1="MainIDE" a2="SearchResults" a3="ObjectInspectorDlg" a4="MessagesView" a5="CodeExplorerView" a6="ProjectInspector" a7="SourceNotebook" a8="AnchorEditor" a9="PackageEditor_LCLBase" a10="PackageEditor_zcomponent" a11="PackageEditor_FCL" a12="PackageEditor_lazupdate" a13="PackageEditor_uEControls" a14="PackageEditor_tponguard" a15="PkgGraphExplorer" a16="PackageEditor_SdpoSerialLaz" a17="PackageEditor_LCL" a18="PackageEditor_LazControls" a19="ProjectGroupEditor" a20="PackageEditor_packagetabs" a21="PackageEditor_FPCUnitTestRunner" a22="PackageEditor_fcl_base_pas2js" a23="PackageEditor_pas2js_rtl" a24="PackageEditor_fpcunit_pas2js" a25="PackageEditor_lazgoogleapis" a26="PackageEditor_wst_indy" a27="PackageEditor_wst_fcltransport" a28="PackageEditor_wst_design" a29="PackageEditor_wst_core" a30="PackageEditor_pas2js_fcldb" a31="PackageEditor_Pas2JSDsgn" a32="PackageEditor_wst_synapse" a33="PackageEditor_exdatabase" a34="PackageEditor_pckZeosConn" a35="PackageEditor_lazdbexport" a36="PackageEditor_LR_SqlDB" a37="PackageEditor_rx" a38="PackageEditor_JumpToImplementation" a39="PackageEditor_laz_synapse40_1" a40="PackageEditor_pckUCDataConnector" a41="PackageEditor_OnlinePackageManager" a42="PackageEditor_frce" a43="PackageEditor_fortes324forlaz" a44="PackageEditor_plot" a45="PackageEditor_JvCoreLazR" a46="Watches" a47="BreakPoints" a48="Locals" a49="CallStack" a50="EvaluateModify" a51="Registers" a52="Assembler" a53="DbgOutput" a54="Inspect" a55="DbgEvents" a56="PseudoTerminal" a57="Threads" a58="DbgHistory" a59="UnitDependencies" a60="FPDocEditor" a61="ClipBrdHistory" a62="EditorFileManager" a63="TabOrderEditor" a64="CodeBrowser" a65="IssueBrowser" a66="JumpHistory" a67="ComponentList"/>
       </Desktop>
       <MainIDE>
         <Caption Value="MainIDE"/>
@@ -151,11 +154,17 @@
       </MainIDE>
       <SearchResults>
         <Caption Value="SearchResults"/>
-        <CustomPosition Left="63" Top="229" Width="840" Height="615"/>
+        <CustomPosition Left="351" Top="324" Width="1018" Height="615"/>
+        <Visible Value="True"/>
       </SearchResults>
+      <ObjectInspectorDlg>
+        <Caption Value="ObjectInspectorDlg"/>
+        <CustomPosition Left="9" Top="105" Width="335" Height="877"/>
+        <Visible Value="True"/>
+      </ObjectInspectorDlg>
       <MessagesView>
         <Caption Value="MessagesView"/>
-        <CustomPosition Left="307" Top="673" Width="1593" Height="295"/>
+        <CustomPosition Left="285" Top="434" Width="1593" Height="535"/>
         <Visible Value="True"/>
       </MessagesView>
       <CodeExplorerView>
@@ -165,18 +174,37 @@
       </CodeExplorerView>
       <ProjectInspector>
         <Caption Value="ProjectInspector"/>
-        <CustomPosition Left="203" Top="152" Width="300" Height="400"/>
+        <CustomPosition Left="203" Top="152" Width="300" Height="777"/>
         <Visible Value="True"/>
       </ProjectInspector>
-      <ObjectInspectorDlg>
-        <Caption Value="ObjectInspectorDlg"/>
-        <CustomPosition Left="9" Top="105" Width="338" Height="825"/>
-        <Visible Value="True"/>
-      </ObjectInspectorDlg>
       <SourceNotebook>
         <Caption Value="SourceNotebook"/>
-        <CustomPosition Left="391" Top="137" Width="1172" Height="694"/>
+        <CustomPosition Left="535" Top="48" Width="1172" Height="694"/>
       </SourceNotebook>
+      <AnchorEditor>
+        <Caption Value="AnchorEditor"/>
+        <CustomPosition Left="1229" Top="186" Width="544" Height="361"/>
+      </AnchorEditor>
+      <PackageEditor_LCLBase>
+        <Caption Value="PackageEditor_LCLBase"/>
+        <CustomPosition Left="398" Top="181" Width="795" Height="638"/>
+      </PackageEditor_LCLBase>
+      <PackageEditor_zcomponent>
+        <Caption Value="PackageEditor_zcomponent"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_zcomponent>
+      <PackageEditor_FCL>
+        <Caption Value="PackageEditor_FCL"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_FCL>
+      <PackageEditor_lazupdate>
+        <Caption Value="PackageEditor_lazupdate"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_lazupdate>
+      <PackageEditor_uEControls>
+        <Caption Value="PackageEditor_uEControls"/>
+        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
+      </PackageEditor_uEControls>
       <PackageEditor_tponguard>
         <Caption Value="PackageEditor_tponguard"/>
         <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
@@ -189,10 +217,6 @@
         <Caption Value="PackageEditor_SdpoSerialLaz"/>
         <CustomPosition Left="250" Top="200" Width="808" Height="455"/>
       </PackageEditor_SdpoSerialLaz>
-      <PackageEditor_LCLBase>
-        <Caption Value="PackageEditor_LCLBase"/>
-        <CustomPosition Left="398" Top="181" Width="464" Height="455"/>
-      </PackageEditor_LCLBase>
       <PackageEditor_LCL>
         <Caption Value="PackageEditor_LCL"/>
         <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
@@ -265,10 +289,6 @@
         <Caption Value="PackageEditor_pckZeosConn"/>
         <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
       </PackageEditor_pckZeosConn>
-      <PackageEditor_zcomponent>
-        <Caption Value="PackageEditor_zcomponent"/>
-        <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
-      </PackageEditor_zcomponent>
       <PackageEditor_lazdbexport>
         <Caption Value="PackageEditor_lazdbexport"/>
         <CustomPosition Left="250" Top="200" Width="464" Height="455"/>
@@ -364,9 +384,6 @@
       <EditorFileManager>
         <Caption Value="EditorFileManager"/>
       </EditorFileManager>
-      <AnchorEditor>
-        <Caption Value="AnchorEditor"/>
-      </AnchorEditor>
       <TabOrderEditor>
         <Caption Value="TabOrderEditor"/>
       </TabOrderEditor>
@@ -382,7 +399,7 @@
       <ComponentList>
         <Caption Value="ComponentList"/>
       </ComponentList>
-      <Dialogs Count="10">
+      <Dialogs Count="14">
         <Dialog1>
           <Name Value="TLazFindInFilesDialog"/>
           <Size Width="461" Height="437"/>
@@ -413,7 +430,7 @@
         </Dialog7>
         <Dialog8>
           <Name Value="TViewUnitDialog"/>
-          <Size Width="450" Height="300"/>
+          <Size Width="450" Height="861"/>
         </Dialog8>
         <Dialog9>
           <Name Value="TCheckLFMDialog"/>
@@ -423,6 +440,22 @@
           <Name Value="TConfigureBuildLazarusDlg"/>
           <Size Width="700" Height="480"/>
         </Dialog10>
+        <Dialog11>
+          <Name Value="TAddPkgDependencyDialog"/>
+          <Size Width="400" Height="360"/>
+        </Dialog11>
+        <Dialog12>
+          <Name Value="TStringsPropEditorDlg"/>
+          <Size Width="400" Height="302"/>
+        </Dialog12>
+        <Dialog13>
+          <Name Value="TImageListEditorDlg"/>
+          <Size Width="616" Height="379"/>
+        </Dialog13>
+        <Dialog14>
+          <Name Value="TGraphicPropertyEditorForm"/>
+          <Size Width="436" Height="381"/>
+        </Dialog14>
       </Dialogs>
       <IDECoolBarOptions Count="2">
         <Width Value="250"/>

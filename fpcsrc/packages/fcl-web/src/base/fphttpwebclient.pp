@@ -113,16 +113,9 @@ end;
 { TFPHTTPWebClient }
 
 Function TFPHTTPWebClient.DoCreateRequest: TWebClientRequest;
-
-Var
-  C : TFPHTTPClient;
-
 begin
-  C:=TFPHTTPClient.Create(Self);
-  C.RequestHeaders.NameValueSeparator:=':';
-  C.ResponseHeaders.NameValueSeparator:=':';
-//  C.HTTPversion:='1.0';
-  Result:=TFPHTTPRequest.Create(C);
+  Result:=TFPHTTPRequest.Create(TFPHTTPClient.Create(Self));
+  Result.Headers.NameValueSeparator:=':';
 end;
 
 Function TFPHTTPWebClient.DoHTTPMethod(Const AMethod, AURL: String;
@@ -131,7 +124,7 @@ Function TFPHTTPWebClient.DoHTTPMethod(Const AMethod, AURL: String;
 Var
   U,S : String;
   h : TFPHTTPClient;
-
+  Res : Boolean;
 
 begin
   U:=AURL;
@@ -152,7 +145,7 @@ begin
       H.RequestBody:=ARequest.Content;
       H.RequestBody.Position:=0;
       end;
-    H.HTTPMethod(AMethod,U,Result.Content,[]); // Will raise an exception
+    H.HTTPMethod(AMethod,U,Result.Content,[]); // Will rais an exception
   except
     FreeAndNil(Result);
     Raise;

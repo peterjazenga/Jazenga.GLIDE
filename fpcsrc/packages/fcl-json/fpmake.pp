@@ -17,7 +17,7 @@ begin
 {$ifdef ALLPACKAGES}
     P.Directory:=ADirectory;
 {$endif ALLPACKAGES}
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Dependencies.Add('fcl-base');
     P.Dependencies.Add('rtl-objpas');
     P.Author := 'Michael van Canneyt';
@@ -31,42 +31,31 @@ begin
     P.SourcePath.Add('src');
 
     T:=P.Targets.AddUnit('fpjson.pp');
-    T.ResourceStrings:=true;
-
+      T.ResourceStrings:=true;
     T:=P.Targets.AddUnit('jsonconf.pp');
-    T.ResourceStrings:=true;
-    with T.Dependencies do
-      begin
-      AddUnit('fpjson');
-      AddUnit('jsonparser');
-     end;
-        
+      T.ResourceStrings:=true;
+      with T.Dependencies do
+        begin
+          AddUnit('fpjson');
+          AddUnit('jsonparser');
+        end;
     T:=P.Targets.AddUnit('jsonparser.pp');
-    T.ResourceStrings:=true;
-    with T.Dependencies do
-      begin
-      AddUnit('fpjson');
-      AddUnit('jsonscanner');
-      end;
-        
+      T.ResourceStrings:=true;
+      with T.Dependencies do
+        begin
+          AddUnit('fpjson');
+          AddUnit('jsonscanner');
+        end;
     T:=P.Targets.AddUnit('jsonscanner.pp');
-    T.ResourceStrings:=true;
-    
+      T.ResourceStrings:=true;
     T:=P.Targets.AddUnit('fpjsonrtti.pp');
-    T.ResourceStrings:=true;
-    with T.Dependencies do
-      begin
-      AddUnit('fpjson');
-      AddUnit('jsonparser');
-      end;
-      
-    T:=P.Targets.AddUnit('fpjsontopas.pp');
-    T.ResourceStrings:=true;
-    with T.Dependencies do
-      begin
-      AddUnit('fpjson');
-      AddUnit('jsonparser');
-      end;
+      T.ResourceStrings:=true;
+      with T.Dependencies do
+        begin
+          AddUnit('fpjson');
+          AddUnit('jsonparser');
+        end;
+      T.ResourceStrings:=true;
 
     P.ExamplePath.Add('examples');
     T:=P.Targets.AddExampleProgram('confdemo.pp');

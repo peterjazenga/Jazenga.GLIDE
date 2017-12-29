@@ -71,38 +71,35 @@ Const
   Plibvlc_media_track_info_t  = ^libvlc_media_track_info_t;
   Plibvlc_module_description_t  = ^libvlc_module_description_t;
   Plibvlc_track_description_t  = ^libvlc_track_description_t;
-  
-  
+
   int8_t = cschar;
   int16_t = csint;
   int32_t = cint;
-  int64_t = cint64;
+  int64_t = clong;
   uint8_t = cuchar;
   uint16_t = csint;
   uint32_t = cuint;
-  uint64_t = cuint64;
+  uint64_t = culong;
   int_least8_t = cschar;
   int_least16_t = csint;
   int_least32_t = cint;
-  int_least64_t = cint64;
+  int_least64_t = clong;
   uint_least8_t = cuchar;
   uint_least16_t = csint;
   uint_least32_t = cuint;
-  uint_least64_t = cuint64;
+  uint_least64_t = culong;
   int_fast8_t = cschar;
   int_fast16_t = clong;
   int_fast32_t = clong;
-  int_fast64_t = cint64;
+  int_fast64_t = clong;
   uint_fast8_t = cuchar;
   uint_fast16_t = culong;
   uint_fast32_t = culong;
-  uint_fast64_t = cuint64;
-
-  intptr_t = PtrInt;
-  uintptr_t = PtrUInt;
-  intmax_t = cint64;
-  uintmax_t = cuint64;
-
+  uint_fast64_t = culong;
+  intptr_t = clong;
+  uintptr_t = culong;
+  intmax_t = clong;
+  uintmax_t = culong;
 
   libvlc_time_t = int64_t;
   libvlc_log_message_t = record

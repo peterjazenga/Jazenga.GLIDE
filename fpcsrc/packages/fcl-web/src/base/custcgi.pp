@@ -353,7 +353,7 @@ procedure TCGIRequest.InitFromEnvironment;
 
 Var
   I : Integer;
-  R,V : String;
+  R,V,OV : String;
   M : TMap;
   
 begin

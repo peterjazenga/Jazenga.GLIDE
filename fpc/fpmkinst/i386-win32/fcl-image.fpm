@@ -1,0 +1,9 @@
+Name=fcl-image
+Version=3.0.2
+Checksum=1268591957
+CPU=i386
+OS=win32
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -vw-n-h-l-d-u-t-p-c- -o -dREVINC -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,pasjpeg|1268591953,paszlib|1268591954,fcl-base|1268591956
+NeedLibC=N
+FPMakeAddIn=N

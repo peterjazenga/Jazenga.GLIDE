@@ -7,7 +7,8 @@ unit TestBasics;
 interface
 
 uses
-  fpcunit, testutils, testregistry, testdecorator, Classes, SysUtils;
+  fpcunit, testutils, testregistry, testdecorator,
+  Classes, SysUtils;
 
 type
 
@@ -96,7 +97,7 @@ end;
 procedure TTestBasics.bug16395;
 var
   r: TRegistry;
-  s,t: string;
+  s: string;
 begin
   DeleteUserXmlFile;
   
@@ -143,19 +144,6 @@ begin
     r.OpenKey('FirstNode',false);
     s := r.ReadString('string1');
     AssertEquals('Failed changing non-empty string value to empty one', '', s);
-    r.CloseKey;
-  finally
-    r.Free;
-  end;
-
-  r := TRegistry.Create;
-  try
-    r.RootKey := HKEY_CURRENT_USER;
-    r.OpenKey('LongNode',true);
-    t:=StringOfChar('*',4000);
-    r.WriteString('LongString',T);
-    s := r.ReadString('LongString');
-    AssertEquals('Writing long string works OK', t, s);
     r.CloseKey;
   finally
     r.Free;

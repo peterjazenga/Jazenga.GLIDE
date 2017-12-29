@@ -193,25 +193,6 @@ type
     { Utility functions }
     procedure TestGetGlyphIndex;
     procedure TestGetAdvanceWidth;
-
-    { General info }
-    procedure TestPostScriptName;
-    procedure TestFamilyName;
-    procedure TestHumanFriendlyName;
-  end;
-
-
-  TTestLiberationItalicFont = class(TBaseTestParseTTF)
-  protected
-    procedure SetUp; override;
-  published
-    { PostScript data structure }
-    procedure TestPostScript_ItalicAngle;
-
-    { General info }
-    procedure TestPostScriptName;
-    procedure TestFamilyName;
-    procedure TestHumanFriendlyName;
   end;
 
 
@@ -368,11 +349,6 @@ type
     procedure TestPostScript_maxMemType42;
     procedure TestPostScript_minMemType1;
     procedure TestPostScript_maxMemType1;
-
-    { General info }
-    procedure TestPostScriptName;
-    procedure TestFamilyName;
-    procedure TestHumanFriendlyName;
   end;
 
 implementation
@@ -385,7 +361,6 @@ uses
 const
   cFont1 = 'fonts' + PathDelim + 'LiberationSans-Regular.ttf';
   cFont2 = 'fonts' + PathDelim + 'FreeSans.ttf';
-  cFont3 = 'fonts' + PathDelim + 'LiberationSans-Italic.ttf';
 
 { TTestEmptyParseTTF }
 
@@ -493,17 +468,22 @@ var
 begin
   // LONGDATETIME: Date represented in number of seconds since 12:00 midnight,
   //              January 1, 1904. The value is represented as a signed 64-bit integer.
+  //dt := EncodeDateTime(1904, 1, 1, 0, 0, 0, 0);
+  //s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
+  //AssertEquals('Failed on 1', '1904-01-01 00:00:00', s);
 
+  //dt := IncSecond(dt, FI.Head.Created);
+
+  // The above code equates to using MacToDateTime()
   dt := MacToDateTime(FI.Head.Created);
 
-  // value verified with Microsoft's ttfdump tool and GMT timezone (no daylight saving applied).
-  //    created:             Thu Oct 04 11:02:31 2012
-  //    modified:            Thu Oct 04 11:02:31 2012
-  AssertEquals('Failed on 1', EncodeDateTime(2012, 10, 4, 11, 2, 31, 0), dt);
+  // We don't use this AssertEquals() because it shows a huge Double data-type
+  // value as the result.
+  //AssertEquals('Failed on 1', EncodeDateTime(2012, 10, 4, 20, 2, 31, 0), dt);
 
   // Instead we use this - which shows human readable dates.
   s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
-  AssertEquals('Failed on 2', '2012-10-04 11:02:31', s);
+  AssertEquals('Failed on 2', '2012-10-04 20:02:31', s);
 end;
 
 procedure TTestLiberationFont.TestHead_Modified;
@@ -511,13 +491,9 @@ var
   dt: TDateTime;
   s: string;
 begin
-  // value verified with Microsoft's ttfdump tool and GMT timezone (no daylight saving applied).
-  //    created:             Thu Oct 04 11:02:31 2012
-  //    modified:            Thu Oct 04 11:02:31 2012
-
   dt := MacToDateTime(FI.Head.Modified);
   s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
-  AssertEquals('Failed on 2', '2012-10-04 11:02:31', s);
+  AssertEquals('Failed on 2', '2012-10-04 20:02:31', s);
 end;
 
 procedure TTestLiberationFont.TestHead_BBox_xMin;
@@ -986,7 +962,7 @@ end;
 
 procedure TTestLiberationFont.TestOS2Data_ulUnicodeRange1;
 begin
-//  AssertEquals('Failed on 1', '1110 0000 0000 0000 0000 1010 1111 1111', IntToBin(FI.OS2Data.ulUnicodeRange1, 32, 4));
+  AssertEquals('Failed on 1', '1110 0000 0000 0000 0000 1010 1111 1111', IntToBin(FI.OS2Data.ulUnicodeRange1, 32, 4));
   AssertEquals('Failed on 2', 'E0000AFF', IntToHex(FI.OS2Data.ulUnicodeRange1, 8));
 end;
 
@@ -1174,53 +1150,6 @@ begin
   AssertEquals('Failed on 12', 1139, FI.GetAdvanceWidth(20));  // '1'
 end;
 
-procedure TTestLiberationFont.TestPostScriptName;
-begin
-  AssertEquals('Failed on 1', 'LiberationSans', FI.PostScriptName);
-end;
-
-procedure TTestLiberationFont.TestFamilyName;
-begin
-  AssertEquals('Failed on 1', 'Liberation Sans', FI.FamilyName);
-end;
-
-procedure TTestLiberationFont.TestHumanFriendlyName;
-begin
-  AssertEquals('Failed on 1', 'Liberation Sans', FI.HumanFriendlyName);
-end;
-
-{ TTestLiberationItalicFont }
-
-procedure TTestLiberationItalicFont.SetUp;
-begin
-  inherited SetUp;
-  AssertTrue('Failed to find TTF font file <' + cFont3 + '>' + LineEnding +
-    'You can download it from [https://fedorahosted.org/releases/l/i/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz]',
-    FileExists(cFont3) = True);
-  LoadFont(cFont3);
-end;
-
-procedure TTestLiberationItalicFont.TestPostScript_ItalicAngle;
-begin
-  AssertEquals('Failed on 1', -12.0, FI.PostScript.ItalicAngle / 65536.0);
-  AssertEquals('Failed on 2', -12.0, FI.ItalicAngle);
-end;
-
-procedure TTestLiberationItalicFont.TestPostScriptName;
-begin
-  AssertEquals('Failed on 1', 'LiberationSans-Italic', FI.PostScriptName);
-end;
-
-procedure TTestLiberationItalicFont.TestFamilyName;
-begin
-  AssertEquals('Failed on 1', 'Liberation Sans', FI.FamilyName);
-end;
-
-procedure TTestLiberationItalicFont.TestHumanFriendlyName;
-begin
-  AssertEquals('Failed on 1', 'Liberation Sans Italic', FI.HumanFriendlyName);
-end;
-
 { TTestFreeSansFont }
 
 procedure TTestFreeSansFont.SetUp;
@@ -1303,20 +1232,22 @@ var
 begin
   // LONGDATETIME: Date represented in number of seconds since 12:00 midnight,
   //              January 1, 1904. The value is represented as a signed 64-bit integer.
+  //dt := EncodeDateTime(1904, 1, 1, 0, 0, 0, 0);
+  //s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
+  //AssertEquals('Failed on 1', '1904-01-01 00:00:00', s);
 
-  // value verified with Microsoft's ttfdump tool and GMT timezone (no daylight saving applied).
-  //  created:             Thu May 03 13:34:25 2012
-  //  modified:            Thu May 03 13:34:25 2012
+  //dt := IncSecond(dt, FI.Head.Created);
 
+  // The above code equates to using MacToDateTime()
   dt := MacToDateTime(FI.Head.Created);
 
   // We don't use this AssertEquals() because it shows a huge Double data-type
   // value as the result.
-  AssertEquals('Failed on 1', EncodeDateTime(2012, 5, 3, 13, 34, 25, 0), dt);
+  //AssertEquals('Failed on 1', EncodeDateTime(2012, 10, 4, 20, 2, 31, 0), dt);
 
   // Instead we use this - which shows human readable dates.
   s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
-  AssertEquals('Failed on 2', '2012-05-03 13:34:25', s);
+  AssertEquals('Failed on 2', '2012-05-02 22:34:25', s);
 end;
 
 procedure TTestFreeSansFont.TestHead_Modified;
@@ -1324,12 +1255,9 @@ var
   dt: TDateTime;
   s: string;
 begin
-  // value verified with Microsoft's ttfdump tool and GMT timezone (no daylight saving applied).
-  //  created:             Thu May 03 13:34:25 2012
-  //  modified:            Thu May 03 13:34:25 2012
   dt := MacToDateTime(FI.Head.Modified);
   s := FormatDateTime('yyyy-mm-dd hh:nn:ss', dt);
-  AssertEquals('Failed on 2', '2012-05-03 13:34:25', s);
+  AssertEquals('Failed on 2', '2012-05-02 22:34:25', s);
 end;
 
 procedure TTestFreeSansFont.TestHead_BBox_xMin;
@@ -1967,27 +1895,11 @@ begin
   AssertEquals('Failed on 1', 0, FI.PostScript.maxMemType1);
 end;
 
-procedure TTestFreeSansFont.TestPostScriptName;
-begin
-  AssertEquals('Failed on 1', 'FreeSans', FI.PostScriptName);
-end;
-
-procedure TTestFreeSansFont.TestFamilyName;
-begin
-  AssertEquals('Failed on 1', 'FreeSans', FI.FamilyName);
-end;
-
-procedure TTestFreeSansFont.TestHumanFriendlyName;
-begin
-  AssertEquals('Failed on 1', 'FreeSans', FI.HumanFriendlyName);
-end;
-
 
 initialization
   RegisterTest({$ifdef fptest}'fpParseTTF',{$endif}TTestEmptyParseTTF{$ifdef fptest}.Suite{$endif});
   RegisterTest({$ifdef fptest}'fpParseTTF',{$endif}TTestLiberationFont{$ifdef fptest}.Suite{$endif});
   RegisterTest({$ifdef fptest}'fpParseTTF',{$endif}TTestFreeSansFont{$ifdef fptest}.Suite{$endif});
-  RegisterTest({$ifdef fptest}'fpParseTTF',{$endif}TTestLiberationItalicFont{$ifdef fptest}.Suite{$endif});
 
 end.
 

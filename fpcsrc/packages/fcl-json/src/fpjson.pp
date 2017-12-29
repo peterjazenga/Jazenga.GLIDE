@@ -283,8 +283,6 @@ Type
     function GetAsJSON: TJSONStringType; override;
     function GetAsString: TJSONStringType; override;
     procedure SetAsString(const AValue: TJSONStringType); override;
-  Public
-    Class var StrictEscaping : Boolean;
   public
     Constructor Create(const AValue : TJSONStringType); reintroduce;
     Constructor Create(const AValue : TJSONUnicodeStringType); reintroduce;
@@ -537,12 +535,6 @@ Type
     Function IndexOfName(const AName: TJSONStringType; CaseInsensitive : Boolean = False): Integer;
     Function Find(Const AName : String) : TJSONData; overload;
     Function Find(Const AName : String; AType : TJSONType) : TJSONData; overload;
-    function Find(const key: TJSONStringType; out AValue: TJSONData): boolean;
-    function Find(const key: TJSONStringType; out AValue: TJSONObject): boolean;
-    function Find(const key: TJSONStringType; out AValue: TJSONArray): boolean;
-    function Find(const key: TJSONStringType; out AValue: TJSONString): boolean;
-    function Find(const key: TJSONStringType; out AValue: TJSONBoolean): boolean;
-    function Find(const key: TJSONStringType; out AValue: TJSONNumber): boolean;
     Function Get(Const AName : String) : Variant;
     Function Get(Const AName : String; ADefault : TJSONFloat) : TJSONFloat;
     Function Get(Const AName : String; ADefault : Integer) : Integer;
@@ -596,7 +588,7 @@ Type
 Function SetJSONInstanceType(AType : TJSONInstanceType; AClass : TJSONDataClass) : TJSONDataClass;
 Function GetJSONInstanceType(AType : TJSONInstanceType) : TJSONDataClass;
 
-Function StringToJSONString(const S : TJSONStringType; Strict : Boolean = False) : TJSONStringType;
+Function StringToJSONString(const S : TJSONStringType) : TJSONStringType;
 Function JSONStringToString(const S : TJSONStringType) : TJSONStringType;
 Function JSONTypeName(JSONType : TJSONType) : String;
 
@@ -607,10 +599,10 @@ Function CreateJSON(Data : Integer) : TJSONIntegerNumber;
 Function CreateJSON(Data : Int64) : TJSONInt64Number;
 Function CreateJSON(Data : QWord) : TJSONQWordNumber;
 Function CreateJSON(Data : TJSONFloat) : TJSONFloatNumber;
-Function CreateJSON(const Data : TJSONStringType) : TJSONString;
-Function CreateJSON(const Data : TJSONUnicodeStringType) : TJSONString;
-Function CreateJSONArray(const Data : Array of const) : TJSONArray;
-Function CreateJSONObject(const Data : Array of const) : TJSONObject;
+Function CreateJSON(Data : TJSONStringType) : TJSONString;
+Function CreateJSON(Data : TJSONUnicodeStringType) : TJSONString;
+Function CreateJSONArray(Data : Array of const) : TJSONArray;
+Function CreateJSONObject(Data : Array of const) : TJSONObject;
 
 // These functions rely on a callback. If the callback is not set, they will raise an error.
 // When the jsonparser unit is included in the project, the callback is automatically set.
@@ -631,6 +623,7 @@ Resourcestring
   SErrCannotConvertFromObject = 'Cannot convert data from object value';
   SErrCannotConvertToObject = 'Cannot convert data to object value';
   SErrInvalidFloat = 'Invalid float value : %s';
+  SErrInvalidInteger = 'Invalid float value : %s';
   SErrCannotSetNotIsNull = 'IsNull cannot be set to False';
   SErrCannotAddArrayTwice = 'Adding an array object to an array twice is not allowed';
   SErrCannotAddObjectTwice = 'Adding an object to an array twice is not allowed';
@@ -670,7 +663,7 @@ begin
   Result:=DefaultJSONInstanceTypes[AType]
 end;
 
-function StringToJSONString(const S: TJSONStringType; Strict : Boolean = False): TJSONStringType;
+function StringToJSONString(const S: TJSONStringType): TJSONStringType;
 
 Var
   I,J,L : Integer;
@@ -691,10 +684,7 @@ begin
       Result:=Result+Copy(S,J,I-J);
       Case C of
         '\' : Result:=Result+'\\';
-        '/' : if Strict then
-                Result:=Result+'\/'
-              else
-                Result:=Result+'/';
+        '/' : Result:=Result+'\/';
         '"' : Result:=Result+'\"';
         #8  : Result:=Result+'\b';
         #9  : Result:=Result+'\t';
@@ -793,30 +783,31 @@ begin
   Result:=TJSONFloatNumberCLass(DefaultJSONInstanceTypes[jitNumberFloat]).Create(Data);
 end;
 
-function CreateJSON(const Data: TJSONStringType): TJSONString;
+function CreateJSON(Data: TJSONStringType): TJSONString;
 begin
   Result:=TJSONStringCLass(DefaultJSONInstanceTypes[jitString]).Create(Data);
 end;
 
-function CreateJSON(const Data: TJSONUnicodeStringType): TJSONString;
+function CreateJSON(Data: TJSONUnicodeStringType): TJSONString;
 begin
   Result:=TJSONStringCLass(DefaultJSONInstanceTypes[jitString]).Create(Data);
 end;
 
-function CreateJSONArray(const Data: array of const): TJSONArray;
+function CreateJSONArray(Data: array of const): TJSONArray;
 begin
   Result:=TJSONArrayCLass(DefaultJSONInstanceTypes[jitArray]).Create(Data);
 end;
 
-function CreateJSONObject(const Data: array of const): TJSONObject;
+function CreateJSONObject(Data: array of const): TJSONObject;
 begin
-  Result:=TJSONObjectClass(DefaultJSONInstanceTypes[jitObject]).Create(Data);
+  Result:=TJSONObjectCLass(DefaultJSONInstanceTypes[jitObject]).Create(Data);
 end;
 
 Var
   JPH : TJSONParserHandler;
 
-function GetJSON(const JSON: TJSONStringType; const UseUTF8: Boolean): TJSONData;
+function GetJSON(const JSON: TJSONStringType; const UseUTF8: Boolean
+  ): TJSONData;
 
 Var
   SS : TStringStream;
@@ -1083,7 +1074,7 @@ procedure TJSONData.DumpJSON(S: TStream);
   end;
 
 Var
-  I: Integer;
+  I,C : Integer;
   O : TJSONObject;
 
 begin
@@ -1097,7 +1088,7 @@ begin
         if (I>0) then
           W(',');
         W('"');
-        W(StringToJSONString(O.Names[i],False));
+        W(StringToJSONString(O.Names[i]));
         W('":');
         O.Items[I].DumpJSON(S);
         end;
@@ -1314,7 +1305,7 @@ end;
 
 function TJSONString.GetAsJSON: TJSONStringType;
 begin
-  Result:='"'+StringToJSONString(FValue,StrictEscaping)+'"';
+  Result:='"'+StringToJSONString(FValue)+'"';
 end;
 
 function TJSONString.GetAsString: TJSONStringType;
@@ -2058,20 +2049,13 @@ function TJSONArray.GetAsJSON: TJSONStringType;
 Var
   I : Integer;
   Sep : String;
-  D : TJSONData;
-  V : TJSONStringType;
 
 begin
   Sep:=TJSONData.FElementSep;
   Result:='[';
   For I:=0 to Count-1 do
     begin
-    D:=Items[i];
-    if D<>Nil then
-      V:=D.AsJSON
-    else
-      V:='null';
-    Result:=Result+V;
+    Result:=Result+Items[i].AsJSON;
     If (I<Count-1) then
       Result:=Result+Sep;
     end;
@@ -2109,10 +2093,7 @@ begin
     begin
     if MultiLine then
       Result:=Result+Ind;
-    if Items[i]=Nil then
-      Result:=Result+'null'
-    else
-      Result:=Result+Items[i].DoFormatJSON(Options,CurrentIndent+Indent,Indent);
+    Result:=Result+Items[i].DoFormatJSON(Options,CurrentIndent+Indent,Indent);
     If (I<Count-1) then
       if MultiLine then
         Result:=Result+','
@@ -2690,8 +2671,6 @@ function TJSONObject.GetAsJSON: TJSONStringType;
 Var
   I : Integer;
   Sep : String;
-  V : TJSONStringType;
-  D : TJSONData;
 
 begin
   Sep:=TJSONData.FElementSep;
@@ -2700,12 +2679,7 @@ begin
     begin
     If (Result<>'') then
       Result:=Result+Sep;
-    D:=Items[i];
-    if Assigned(D) then
-      V:=Items[I].AsJSON
-    else
-      V:='null';
-    Result:=Result+FElementStart+StringToJSONString(Names[i])+FElementEnd+V;
+    Result:=Result+FElementStart+StringToJSONString(Names[i])+FElementEnd+Items[I].AsJSON;
     end;
   If (Result<>'') then
     Result:=FObjStartSep+Result+FObjEndSep
@@ -2833,9 +2807,6 @@ Var
   S : TJSONStringType;
   MultiLine,UseQuotes, SkipWhiteSpace : Boolean;
   NSep,Sep,Ind : String;
-  V : TJSONStringType;
-  D : TJSONData;
-
 begin
   Result:='';
   UseQuotes:=Not (foDoNotQuoteMembers in options);
@@ -2862,12 +2833,7 @@ begin
     S:=StringToJSONString(Names[i]);
     If UseQuotes then
       S:='"'+S+'"';
-    D:=Items[i];
-    if D=Nil then
-      V:='null'
-    else
-      v:=Items[I].DoFormatJSON(Options,CurrentIndent,Indent);
-    Result:=Result+S+NSep+V;
+    Result:=Result+S+NSep+Items[I].DoFormatJSON(Options,CurrentIndent,Indent);
     end;
   If (Result<>'') then
     begin
@@ -3159,87 +3125,6 @@ begin
   Result:=Find(AName);
   If Assigned(Result) and (Result.JSONType<>AType) then
     Result:=Nil;
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONData): boolean;
-begin
-  AValue := Find(key);
-  result := assigned(AValue);
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONObject): boolean;
-var
-  v: TJSONData;
-begin
-  v := Find(key);
-  if assigned(v) then
-  begin
-    result := v.JSONType = jtObject;
-    if result then
-      AValue := TJSONObject(v);
-  end
-  else
-    result := false;
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONArray): boolean;
-var
-  v: TJSONData;
-begin
-  v := Find(key);
-  if assigned(v) then
-  begin
-    result := v.JSONType = jtArray;
-    if result then
-      AValue := TJSONArray(v);
-  end
-  else
-    result := false;
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONString): boolean;
-var
-  v: TJSONData;
-begin
-  v := Find(key);
-  if assigned(v) then
-  begin
-    result := v.JSONType = jtString;
-    if result then
-      AValue := TJSONString(v);
-  end
-  else
-    result := false;
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONBoolean): boolean;
-var
-  v: TJSONData;
-begin
-  v := Find(key);
-  if assigned(v) then
-  begin
-    result := v.JSONType = jtBoolean;
-    if result then
-      AValue := TJSONBoolean(v);
-  end
-  else
-    result := false;
-end;
-
-function TJSONObject.Find(const key: TJSONStringType; out AValue: TJSONNumber): boolean;
-var
-  v: TJSONData;
-begin
-  v := Find(key);
-  if assigned(v) then
-  begin
-    result := v.JSONType = jtNumber;
-    if result then
-      AValue := TJSONNumber(v);
-  end
-  else
-    result := false;
 end;
 
 initialization

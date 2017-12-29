@@ -4,54 +4,77 @@
     <Version Value="1"/>
     <Find>
       <History>
-        <Find Count="10">
-          <Item1 Value="lisCompPalOpenPackage"/>
-          <Item2 Value="open package"/>
-          <Item3 Value="typhon"/>
-          <Item4 Value="ParamStrUTF8"/>
-          <Item5 Value="the following people"/>
-          <Item6 Value="lazarus"/>
-          <Item7 Value=" lazarus"/>
-          <Item8 Value="LAZARUS"/>
-          <Item9 Value="(lazarus)"/>
-          <Item10 Value="glide"/>
+        <Find Count="20">
+          <Item1 Value="TCustomApplication"/>
+          <Item2 Value="tapplication"/>
+          <Item3 Value="splash_logo"/>
+          <Item4 Value="clnavy"/>
+          <Item5 Value="clred"/>
+          <Item6 Value="svn"/>
+          <Item7 Value="system_x86_64_win64"/>
+          <Item8 Value="x86_64"/>
+          <Item9 Value="FPCOperatingSystemCaptions"/>
+          <Item10 Value="CPUARM"/>
+          <Item11 Value="RegisterComponentsProc"/>
+          <Item12 Value="longint"/>
+          <Item13 Value="FRegistrationFile"/>
+          <Item14 Value="RegisterComponents"/>
+          <Item15 Value="TBaseComponentPage"/>
+          <Item16 Value="registerComponents"/>
+          <Item17 Value="ComponentPages"/>
+          <Item18 Value="register"/>
+          <Item19 Value="contributors"/>
+          <Item20 Value="lisCompPalOpenPackage"/>
         </Find>
-        <Replace Count="4">
-          <Item1 Value="GLIDE"/>
-          <Item2 Value=" GLIDE"/>
-          <Item3 Value="(GLIDE)"/>
-          <Item4 Value="Lazarus"/>
+        <Replace Count="6">
+          <Item1 Value="int64"/>
+          <Item2 Value="History"/>
+          <Item3 Value="GLIDE"/>
+          <Item4 Value=" GLIDE"/>
+          <Item5 Value="(GLIDE)"/>
+          <Item6 Value="Lazarus"/>
         </Replace>
       </History>
       <Version Value="1"/>
-      <Options EntireScope="True" Prompt="True"/>
-      <SelOptions Prompt="True"/>
+      <Options WholeWord="True" EntireScope="True" Prompt="True"/>
+      <SelOptions WholeWord="True" Prompt="True"/>
     </Find>
     <FindInFiles>
       <History>
-        <Paths Count="2">
-          <Item1 Value="d:\Jazenga.GLIDE\ide\"/>
-          <Item2 Value="d:\Jazenga.GLIDE\lcl\"/>
+        <Paths Count="6">
+          <Item1 Value="D:\Jazenga.GLIDE\fpcsrc\"/>
+          <Item2 Value="D:\Jazenga.GLIDE\ide\"/>
+          <Item3 Value="D:\Jazenga.GLIDE\"/>
+          <Item4 Value="D:\Jazenga.GLIDE\fpcupdeluxe-master\"/>
+          <Item5 Value="D:\Jazenga.GLIDE\fpcsrc\compiler\"/>
+          <Item6 Value="d:\Jazenga.GLIDE\lcl\"/>
         </Paths>
         <Masks Count="2">
           <Item1 Value="*.pas;*.pp;*.inc"/>
           <Item2 Value="*.*"/>
         </Masks>
       </History>
-      <Options SearchOpen="False" SearchDirectories="True"/>
+      <Options WholeWord="True" SearchOpen="False" SearchDirectories="True"/>
     </FindInFiles>
-    <FileDialog InitialDir="D:\Jazenga.GLIDE\ide\">
-      <HistoryList Count="10">
-        <Item1 Value="D:\Jazenga.GLIDE\ide\"/>
-        <Item2 Value="D:\Jazenga.GLIDE\tools\xpm_to_png\"/>
-        <Item3 Value="D:\Jazenga.GLIDE\tools\snapshots\"/>
-        <Item4 Value="D:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\"/>
-        <Item5 Value="D:\Jazenga.GLIDE\tools\lazdatadesktop\"/>
-        <Item6 Value="D:\Jazenga.GLIDE\tools\jsonviewer\"/>
-        <Item7 Value="D:\Jazenga.GLIDE\tools\glazres\"/>
-        <Item8 Value="D:\Jazenga.GLIDE\tools\debugserver\"/>
-        <Item9 Value="D:\Jazenga.GLIDE\tools\chmmaker\"/>
-        <Item10 Value="D:\Jazenga.GLIDE\tools\apiwizz\"/>
+    <FileDialog InitialDir="D:\Jazenga.GLIDE\tools\">
+      <HistoryList Count="17">
+        <Item1 Value="D:\Jazenga.GLIDE\tools\"/>
+        <Item2 Value="C:\Users\Peter\Documents\"/>
+        <Item3 Value="D:\Jazenga.GLIDE\"/>
+        <Item4 Value="D:\Jazenga.GLIDE\fpcupdeluxe-master\"/>
+        <Item5 Value="D:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\lazautoupdate\"/>
+        <Item6 Value="D:\Jazenga.GLIDE\fpcsrc\compiler\x86_64\"/>
+        <Item7 Value="D:\Jazenga.GLIDE\projects\test\"/>
+        <Item8 Value="D:\Jazenga.GLIDE\ide\"/>
+        <Item9 Value="D:\Jazenga.GLIDE\tools\xpm_to_png\"/>
+        <Item10 Value="D:\Jazenga.GLIDE\tools\snapshots\"/>
+        <Item11 Value="D:\Jazenga.GLIDE\tools\reiniero-lazopenqbuilder\"/>
+        <Item12 Value="D:\Jazenga.GLIDE\tools\lazdatadesktop\"/>
+        <Item13 Value="D:\Jazenga.GLIDE\tools\jsonviewer\"/>
+        <Item14 Value="D:\Jazenga.GLIDE\tools\glazres\"/>
+        <Item15 Value="D:\Jazenga.GLIDE\tools\debugserver\"/>
+        <Item16 Value="D:\Jazenga.GLIDE\tools\chmmaker\"/>
+        <Item17 Value="D:\Jazenga.GLIDE\tools\apiwizz\"/>
       </HistoryList>
     </FileDialog>
   </InputHistory>

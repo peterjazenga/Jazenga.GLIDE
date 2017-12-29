@@ -290,7 +290,7 @@ type
     property HostName : string Read FHostName Write FHostName;
     Property OnLog : TDBLogNotifyEvent Read FOnLog Write FOnLog;
     Property LogEvents : TDBEventTypes Read FLogEvents Write FLogEvents Default LogAllEvents;
-    Property Options : TSQLConnectionOptions Read FOptions Write SetOptions default [];
+    Property Options : TSQLConnectionOptions Read FOptions Write SetOptions;
     Property Role :  String read FRole write FRole;
     property Connected;
     property DatabaseName;
@@ -340,7 +340,7 @@ type
     property Action : TCommitRollbackAction read FAction write FAction Default caRollBack;
     property Database;
     property Params : TStringList read FParams write SetParams;
-    Property Options : TSQLTransactionOptions Read FOptions Write SetOptions default [];
+    Property Options : TSQLTransactionOptions Read FOptions Write SetOptions;
   end;
 
 
@@ -578,8 +578,6 @@ type
     property AfterCancel;
     property BeforeDelete;
     property AfterDelete;
-    property BeforeRefresh;
-    property AfterRefresh;
     property BeforeScroll;
     property AfterScroll;
     property OnCalcFields;
@@ -598,7 +596,7 @@ type
     property UpdateSQL : TStringList read FUpdateSQL write SetUpdateSQL;
     property DeleteSQL : TStringList read FDeleteSQL write SetDeleteSQL;
     property RefreshSQL : TStringList read FRefreshSQL write SetRefreshSQL;
-    Property Options : TSQLQueryOptions Read FOptions Write SetOptions default [];
+    Property Options : TSQLQueryOptions Read FOptions Write SetOptions;
     property Params : TParams read GetParams Write SetParams;
     Property ParamCheck : Boolean Read GetParamCheck Write SetParamCheck default true;
     property ParseSQL : Boolean read GetParseSQL write SetParseSQL default true;
@@ -632,7 +630,6 @@ type
     Property AfterInsert;
     Property AfterOpen;
     Property AfterPost;
-    Property AfterRefresh;
     Property AfterScroll;
     Property BeforeCancel;
     Property BeforeClose;
@@ -641,7 +638,6 @@ type
     Property BeforeInsert;
     Property BeforeOpen;
     Property BeforePost;
-    Property BeforeRefresh;
     Property BeforeScroll;
     Property OnCalcFields;
     Property OnDeleteError;
@@ -1861,7 +1857,7 @@ Var
   Where : String;
 
 begin
-  Result:=Trim(Query.RefreshSQL.Text);
+  Result:=Query.RefreshSQL.Text;
   if (Result='') then
     begin
     Where:='';
@@ -1912,7 +1908,7 @@ var
 
 begin
   qry:=Nil;
-  ReturningClause:=(sqSupportReturning in ConnOptions) and not (sqoRefreshUsingSelect in Query.Options) and (Trim(Query.RefreshSQL.Text)='');
+  ReturningClause:=(sqSupportReturning in ConnOptions) and not (sqoRefreshUsingSelect in Query.Options) and (Query.RefreshSQL.Count=0);
   case UpdateKind of
     ukInsert : begin
                s := Trim(Query.FInsertSQL.Text);
@@ -1988,8 +1984,6 @@ function TSQLConnection.GetSchemaInfoSQL( SchemaType : TSchemaType; SchemaObject
 
 begin
   case SchemaType of
-    stTables    : Result := 'SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE=''BASE TABLE''';
-    stColumns   : Result := 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='+QuotedStr(SchemaObjectName);
     stProcedures: Result := 'SELECT *, ROUTINE_NAME AS PROCEDURE_NAME FROM INFORMATION_SCHEMA.ROUTINES';
     stSchemata  : Result := 'SELECT * FROM INFORMATION_SCHEMA.SCHEMATA';
     stSequences : Result := 'SELECT * FROM INFORMATION_SCHEMA.SEQUENCES';
@@ -2497,7 +2491,7 @@ Var
   DoReturning : Boolean;
 
 begin
-  Result:=(Trim(FRefreshSQL.Text)<>'');
+  Result:=(FRefreshSQL.Count<>0);
   DoReturning:=(sqSupportReturning in SQLConnection.ConnOptions) and not (sqoRefreshUsingSelect in Options);
   if Not (Result or DoReturning) then
     begin

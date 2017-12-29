@@ -26,7 +26,7 @@ begin
     P.ShortName:='fppk';
     P.Directory:=ADirectory;
 
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Dependencies.Add('fcl-base');
     P.Dependencies.Add('fcl-xml');
     P.Dependencies.Add('fcl-process');
@@ -45,8 +45,6 @@ begin
     P.Description := 'Libraries to create fppkg package managers.';
     P.NeedLibC:= false;
     P.OSes := P.OSes - [embedded,nativent,msdos];
-    if Defaults.CPU = powerpc then
-      P.OSes := P.OSes - [amiga];
 
     P.SourcePath.Add('src');
     P.IncludePath.Add('src');

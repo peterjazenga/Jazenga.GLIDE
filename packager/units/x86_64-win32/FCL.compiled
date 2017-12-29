@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
+  <Params Value=" -Twin32 -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuD:\Jazenga.GLIDE\packager\registration\ -FUD:\Jazenga.GLIDE\packager\units\x86_64-win32\ -O3 -g- -Xs fcllaz.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>

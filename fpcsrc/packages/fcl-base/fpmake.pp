@@ -17,7 +17,7 @@ begin
 {$ifdef ALLPACKAGES}
     P.Directory:=ADirectory;
 {$endif ALLPACKAGES}
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Dependencies.Add('univint',[Darwin,iPhoneSim]);
     P.Dependencies.Add('fcl-res');
     p.Dependencies.Add('rtl-objpas');
@@ -124,7 +124,7 @@ begin
       end;
     T:=P.Targets.addUnit('advancedipc.pp');
       T.ResourceStrings:=true;
-    T:=P.Targets.addUnit('advancedsingleinstance.pas');
+    T:=P.Targets.addUnit('advancedsingleinstance.pp');
       T.ResourceStrings:=true;	  
     // Additional sources
     P.Sources.AddSrcFiles('src/win/fclel.*', P.Directory);

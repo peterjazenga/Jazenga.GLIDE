@@ -1,17 +1,3 @@
-{ ********************************************************************* 
-    This file is part of the Free Component Library (FCL)
-    Copyright (c) 2016 Michael Van Canneyt.
-       
-    Javascript syntax tree definitions
-            
-    See the file COPYING.FPC, included in this distribution,
-    for details about the copyright.
-                   
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-                                
-  **********************************************************************}
 unit jstree;
 
 {$mode objfpc}{$H+}
@@ -87,81 +73,76 @@ Type
   TJSObject = Class(TObject);
 
 
-  { TJSLabelSet }
+    { TJSLabelSet }
 
-  TJSLabelSet = Class(TJSObject)
-  private
-    FCont: Boolean;
-    FNext: TJSLabelSet;
-    FTarget: Cardinal;
-  Public
-    Property Target : Cardinal Read FTarget Write FTarget;
-    Property Next : TJSLabelSet Read FNext Write FNext; // Linked list
-    Property Continuable : Boolean Read FCont Write FCont;
-  end;
+    TJSLabelSet = Class(TJSObject)
+    private
+      FCOnt: Boolean;
+      FNext: TJSLabelSet;
+      FTarget: Cardinal;
+    Public
+      Property Target : Cardinal Read FTarget Write FTarget;
+      Property Next : TJSLabelSet Read FNext Write FNext; // Linked list
+      Property Continuable : Boolean Read FCOnt Write FCont;
+    end;
 
-  { TJSLabel }
+    { TJSLabel }
 
-  TJSLabel = Class(TJSObject)
-  private
-    FLabelSet: TJSLabelSet;
-    FLocationLine: Integer;
-    FLocationPos: Integer;
-    FLocationSource: String;
-    FName: String;
-    FNext: TJSLabel;
-  Public
-    Property Name : String Read FName Write FName;
-    Property LabelSet : TJSLabelSet Read FLabelSet Write FLabelSet;
-    Property LocationSource : String Read FLocationSource Write FLocationSource;
-    Property LocationLine : Integer Read FLocationLine Write FLocationLine;
-    Property LocationPos : Integer Read FLocationPos Write FLocationPos;
-    Property Next : TJSLabel Read FNext Write FNext;
-  end;
+    TJSLabel = Class(TJSObject)
+    private
+      FLabelSet: TJSLabelSet;
+      FLocationLine: Integer;
+      FLocationPos: Integer;
+      FLocationSource: String;
+      FName: String;
+      FNext: TJSLabel;
+    Public
+      Property Name : String Read FName Write FName;
+      Property LabelSet : TJSLabelSet Read FLabelSet Write FLabelSet;
+      Property LocationSource : String Read FLocationSource Write FLocationSource;
+      Property LocationLine : Integer Read FLocationLine Write FLocationLine;
+      Property LocationPos : Integer Read FLocationPos Write FLocationPos;
+      Property Next : TJSLabel Read FNext Write FNext;
+    end;
 
-  TJSString = jsbase.TJSString; // beware of jstoken.tjsString
-
-  { TJSFuncDef - part of TJSFunctionDeclarationStatement, e.g. 'function Name(Params)Body' }
+  { TJSFuncDef }
 
   TJSFuncDef = Class(TJSObject)
   private
     FBody: TJSFunctionBody;
     FIsEmpty: Boolean;
-    FName: TJSString;
+    FName: String;
     FParams: TStrings;
     procedure SetParams(const AValue: TStrings);
   Public
     Constructor Create;
     Destructor Destroy; override;
     Property Params : TStrings Read FParams Write SetParams;
-    Property Body : TJSFunctionBody Read FBody Write FBody; // can be nil
-    Property Name : TJSString Read FName Write FName;
+    Property Body : TJSFunctionBody Read FBody Write FBody;
+    Property Name : String Read FName Write FName;
     Property IsEmpty : Boolean Read FIsEmpty Write FIsEmpty;
   end;
 
-  { TJSElement }
+  TJSString = WideString;
 
-  TJSElement = Class(TJSObject)
+  TJSElement = Class (TJSObject)
   private
     FFlags: TJSElementFlags;
     FLine: Integer;
-    FColumn: Integer;
+    FRow: Integer;
     FSource: String;
   Public
-    Constructor Create(ALine,AColumn : Integer; Const ASource : String = ''); virtual;
+    Constructor Create(ALine,ARow : Integer; Const ASource : String = ''); virtual;
     Property Source : String Read FSource Write FSource;
+    Property Row : Integer Read FRow Write FRow;
     Property Line : Integer Read FLine Write FLine;
-    Property Column : Integer Read FColumn Write FColumn;
     Property Flags : TJSElementFlags Read FFlags Write FFlags;
   end;
   TJSElementClass = Class of TJSElement;
 
-  { TJSEmptyBlockStatement - empty curly brackets }
+  { TJSEmptyBlockStatement }
 
   TJSEmptyBlockStatement = Class(TJSElement);
-
-  { TJSEmptyStatement - a dummy placeholder, needs sometimes a single semicolon }
-
   TJSEmptyStatement = Class(TJSElement);
 
   { TJSLiteral }
@@ -170,11 +151,20 @@ Type
   private
     FValue: TJSValue;
   Public
-    Constructor Create(ALine,AColumn : Integer; Const ASource : String = ''); override;
+    Constructor Create(ALine,ARow : Integer; Const ASource : String = ''); override;
     Destructor Destroy; override;
     Property Value : TJSValue Read FValue Write FValue;
   end;
 
+(*  { TJSStringLiteral }
+
+  TJSStringLiteral = Class(TJSElement)
+  private
+    FValue: TJSString;
+  Public
+    Property Value : TJSString Read FValue Write FValue;
+  end;
+*)
   { TJSRegularExpressionLiteral }
 
   TJSRegularExpressionLiteral = Class(TJSElement)
@@ -185,18 +175,15 @@ Type
     function GetA(AIndex : integer): TJSValue;
     procedure SetA(AIndex : integer; const AValue: TJSValue);
   Public
-    Constructor Create(ALine,AColumn : Integer; Const ASource : String = ''); override;
+    Constructor Create(ALine,ARow : Integer; Const ASource : String = ''); override;
     Destructor Destroy; override;
     Property Pattern : TJSValue Read FPattern Write FPattern;
     Property PatternFlags : TJSValue Read FPatternFlags Write FPatternFlags;
     Property Argv[AIndex : integer] : TJSValue Read GetA Write SetA;
   end;
 
-  TJSPrimaryExpression = Class(TJSElement);
-
-  TJSPrimaryExpressionThis = Class(TJSPrimaryExpression); // 'this'
-
   { TJSPrimaryExpressionIdent }
+  TJSPrimaryExpression = Class(TJSElement);
 
   TJSPrimaryExpressionIdent = Class(TJSPrimaryExpression)
   private
@@ -204,8 +191,9 @@ Type
   Public
     Property Name : TJSString Read FName Write FName;
   end;
+  TJSPrimaryExpressionThis = Class(TJSPrimaryExpression);
 
-  { TJSArrayLiteralElement - an item of a TJSArrayLiteralElements }
+  { TJSArrayLiteralElement }
 
   TJSArrayLiteralElement = Class(TCollectionItem)
   private
@@ -213,11 +201,11 @@ Type
     FFindex: Integer;
   Public
     Destructor Destroy; override;
-    Property Expr : TJSElement Read FExpr Write FExpr;
+    Property Expr : TJSelement Read FExpr Write FExpr;
     Property ElementIndex : Integer Read FFindex Write FFIndex;
   end;
 
-  { TJSArrayLiteralElements - Elements property of TJSArrayLiteral }
+  { TJSArrayLiteralElements }
 
   TJSArrayLiteralElements = Class(TCollection)
   private
@@ -233,13 +221,12 @@ Type
   private
     FElements: TJSArrayLiteralElements;
   Public
-    Constructor Create(ALine,AColumn : Integer; const ASource : String = ''); override;
-    procedure AddElement(El: TJSElement);
+    Constructor Create(ALine,ARow : Integer; const ASource : String = ''); override;
     Destructor Destroy; override;
     Property Elements : TJSArrayLiteralElements Read FElements;
   end;
 
-  { TJSObjectLiteralElement - an item of TJSObjectLiteralElements }
+  { TJSObjectLiteralElement }
 
   TJSObjectLiteralElement = Class(TCollectionItem)
   private
@@ -251,7 +238,7 @@ Type
     Property Name : TJSString Read FName Write FName;
   end;
 
-  { TJSObjectLiteralElements - Elements property of TJSObjectLiteral }
+  { TJSObjectLiteralElements }
 
   TJSObjectLiteralElements = Class(TCollection)
   private
@@ -267,7 +254,7 @@ Type
   private
     FElements: TJSObjectLiteralElements;
   Public
-    Constructor Create(ALine,AColumn : Integer; const ASource : String = ''); override;
+    Constructor Create(ALine,ARow : Integer; const ASource : String = ''); override;
     Destructor Destroy; override;
     Property Elements : TJSObjectLiteralElements Read FElements;
   end;
@@ -276,28 +263,27 @@ Type
 
   TJSArguments = Class(TJSArrayLiteral);
 
-  { TJSMemberExpression - base class }
+  { TJSMemberExpression }
 
   TJSMemberExpression = Class(TJSElement)
   private
     FMexpr: TJSElement;
   Public
     Destructor Destroy; override;
-    Property MExpr : TJSElement Read FMexpr Write FMexpr;
+    Property Mexpr : TJSElement Read FMexpr Write FMexpr;
   end;
 
-  { TJSNewMemberExpression - e.g. 'new MExpr(Args)' }
+  { TJSNewMemberExpression }
 
   TJSNewMemberExpression = Class(TJSMemberExpression)
   private
     FArgs: TJSArguments;
   Public
     Destructor Destroy; override;
-    procedure AddArg(El: TJSElement);
     Property Args : TJSArguments Read FArgs Write FArgs;
   end;
 
-  { TJSDotMemberExpression - e.g. 'MExpr.Name' }
+  { TJSDotMemberExpression }
 
   TJSDotMemberExpression = Class(TJSMemberExpression)
   private
@@ -306,7 +292,7 @@ Type
     Property Name : TJSString Read FName Write FName;
   end;
 
-  { TJSBracketMemberExpression - e.g. 'MExpr[Name]' }
+  { TJSBracketMemberExpression }
 
   TJSBracketMemberExpression = Class(TJSMemberExpression)
   private
@@ -316,7 +302,7 @@ Type
     Property Name : TJSElement Read FName Write FName;
   end;
 
-  { TJSCallExpression - e.g. 'Expr(Args)'}
+  { TJSCallExpression }
 
   TJSCallExpression = Class(TJSElement)
   private
@@ -324,12 +310,11 @@ Type
     FExpr: TJSElement;
   Public
     Destructor Destroy; override;
-    procedure AddArg(El: TJSElement);
     Property Expr : TJSElement Read FExpr Write FExpr;
     Property Args : TJSArguments Read FArgs Write FArgs;
   end;
 
-  { TJSUnary - e.g. 'PrefixOperator A PostFixOperator', '--i' }
+  { TJSUnary }
 
   TJSUnary = Class(TJSElement)
   private
@@ -344,102 +329,87 @@ Type
   end;
   TJSUnaryClass = class of TJSUnary;
 
-  { TJSVariableStatement - e.g. 'var A' }
-
+  { TJSVariableStatement }
   TJSVariableStatement = Class(TJSUnary);
-
-  { TJSExpressionStatement - A; }
-
   TJSExpressionStatement = Class(TJSUnary);
 
-  { TJSThrowStatement - e.g. 'throw A' }
+  { TJSThrowStatement }
 
   TJSThrowStatement = Class(TJSUnary)
-  Public
     Class function PrefixOperatorToken : tjsToken; Override;
   end;
 
   TJSUnaryExpression = Class(TJSUnary);
 
-  { TJSUnaryDeleteExpression - e.g. 'delete A' }
+  { TJSUnaryDeleteExpression }
 
   TJSUnaryDeleteExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryVoidExpression - e.g. 'void A' }
+  { TJSUnaryVoidExpression }
 
   TJSUnaryVoidExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryTypeOfExpression - e.g. 'typeof A' }
+  { TJSUnaryTypeOfExpression }
 
   TJSUnaryTypeOfExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryPrePlusPlusExpression - e.g. '++A' }
+  { TJSUnaryPrePlusPlusExpression }
 
   TJSUnaryPrePlusPlusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryPreMinusMinusExpression - e.g. '--A' }
+  { TJSUnaryPreMinusMinusExpression }
 
   TJSUnaryPreMinusMinusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryPlusExpression - e.g. '+A' }
+  { TJSUnaryPlusExpression }
 
   TJSUnaryPlusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryMinusExpression - e.g. '-A' }
+  { TJSUnaryMinusExpression }
 
   TJSUnaryMinusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryInvExpression - e.g. '~A' }
+  { TJSUnaryInvExpression }
 
   TJSUnaryInvExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryNotExpression - e.g. '!A' }
+  { TJSUnaryNotExpression }
 
   TJSUnaryNotExpression = Class(TJSUnaryExpression)
-  Public
     Class function PrefixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryPostPlusPlusExpression - e.g. 'A++' }
+  { TJSUnaryPostPlusPlusExpression }
 
   TJSUnaryPostPlusPlusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PostFixOperatorToken : tjsToken; override;
   end;
 
-  { TJSUnaryPostMinusMinusExpression - e.g. 'A--' }
+  { TJSUnaryPostMinusMinusExpression }
 
   TJSUnaryPostMinusMinusExpression = Class(TJSUnaryExpression)
-  Public
     Class function PostFixOperatorToken : tjsToken; override;
   end;
 
 
-  { TJSBinary - base class }
+
+  { TJSBinary }
 
   TJSBinary = Class(TJSElement)
   private
@@ -452,52 +422,45 @@ Type
   end;
   TJSBinaryClass = Class of TJSBinary;
 
-  { TJSStatementList - a list of statements enclosed in curly brackets }
+  { TJSStatementList }
 
   TJSStatementList = Class(TJSBinary); // A->first statement, B->next in list, chained.
-
-  { TJSVariableDeclarationList }
-
-  TJSVariableDeclarationList = Class(TJSBinary); // A->first variable, B->next in list, chained.
-
-  { TJSWithStatement - with(A)do B; }
-
+  TJSVariableDeclarationList = Class(TJSBinary);
   TJSWithStatement = Class(TJSBinary); // A-> with expression, B->statement(s)
 
-  { TJSBinaryExpression - e.g. A operator B }
+  { TJSBinaryExpression }
 
   TJSBinaryExpression = Class(TJSBinary)
-  Public
     Class function OperatorToken : tjsToken; virtual;
     Class function OperatorString : string;
     Class Function AllowCompact : Boolean; virtual;
   end;
 
-  { TJSLogicalOrExpression - e.g. A || B }
+  { TJSLogicalOrExpression }
 
   TJSLogicalOrExpression = Class (TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSLogicalAndExpression - e.g. A && B }
+  { TJSLogicalAndExpression }
 
   TJSLogicalAndExpression = Class (TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSBitwiseAndExpression - e.g. A & B }
+  { TJSBitwiseAndExpression }
 
   TJSBitwiseAndExpression = Class (TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSBitwiseOrExpression - e.g. A | B }
+  { TJSBitwiseOrExpression }
 
   TJSBitwiseOrExpression = Class (TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSBitwiseXOrExpression - e.g. A ^ B }
+  { TJSBitwiseXOrExpression }
 
   TJSBitwiseXOrExpression = Class (TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
@@ -505,25 +468,25 @@ Type
 
   TJSEqualityExpression = Class (TJSBinaryExpression);
 
-  { TJSEqualityExpressionEQ - e.g. A == B }
+  { TJSEqualityExpressionEQ }
 
   TJSEqualityExpressionEQ = Class(TJSEqualityExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSEqualityExpressionNE - e.g. A != B }
+  { TJSEqualityExpressionNE }
 
   TJSEqualityExpressionNE = Class(TJSEqualityExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSEqualityExpressionSEQ strict equal - e.g. A === B }
+  { TJSEqualityExpressionSEQ }
 
   TJSEqualityExpressionSEQ = Class(TJSEqualityExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSEqualityExpressionSNE not strict equal - e.g. A !== B }
+  { TJSEqualityExpressionSNE }
 
   TJSEqualityExpressionSNE = Class(TJSEqualityExpression)
     Class function OperatorToken : tjsToken; override;
@@ -531,38 +494,38 @@ Type
 
   TJSRelationalExpression = Class(TJSBinaryExpression);
 
-  { TJSRelationalExpressionLT lower than - e.g. A < B }
+  { TJSRelationalExpressionLT }
 
   TJSRelationalExpressionLT = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRelationalExpressionGT greater than - e.g. A > B }
+  { TJSRelationalExpressionGT }
 
   TJSRelationalExpressionGT = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRelationalExpressionLE lower equal - e.g. A <= B }
+  { TJSRelationalExpressionLE }
 
   TJSRelationalExpressionLE = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRelationalExpressionGE greater equal - e.g. A >= B }
+  { TJSRelationalExpressionGE }
 
   TJSRelationalExpressionGE = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRelationalExpressionIn - e.g. A in B }
+  { TJSRelationalExpressionIn }
 
   TJSRelationalExpressionIn = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
     Class Function AllowCompact : Boolean; override;
   end;
 
-  { TJSRelationalExpressionInstanceOf - e.g. A instanceof B }
+  { TJSRelationalExpressionInstanceOf }
 
   TJSRelationalExpressionInstanceOf = Class(TJSRelationalExpression)
     Class function OperatorToken : tjsToken; override;
@@ -571,19 +534,19 @@ Type
 
   TJSShiftExpression = Class(TJSBinaryExpression);
 
-  { TJSLShiftExpression - e.g. A << B }
+  { TJSLShiftExpression }
 
   TJSLShiftExpression = Class(TJSShiftExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRShiftExpression right shift keep sign - e.g. A >> B }
+  { TJSRShiftExpression }
 
   TJSRShiftExpression = Class(TJSShiftExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSURShiftExpression right shift unsigned, insert zeroes - e.g. A >>> B }
+  { TJSURShiftExpression }
 
   TJSURShiftExpression = Class(TJSShiftExpression)
     Class function OperatorToken : tjsToken; override;
@@ -591,13 +554,13 @@ Type
 
   TJSAdditiveExpression = Class(TJSBinaryExpression);
 
-  { TJSAdditiveExpressionPlus - e.g. A + B }
+  { TJSAdditiveExpressionPlus }
 
   TJSAdditiveExpressionPlus = Class(TJSAdditiveExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSAdditiveExpressionMinus - e.g. A - B }
+  { TJSAdditiveExpressionMinus }
 
   TJSAdditiveExpressionMinus = Class(TJSAdditiveExpression)
     Class function OperatorToken : tjsToken; override;
@@ -605,31 +568,31 @@ Type
 
   TJSMultiplicativeExpression = Class(TJSBinaryExpression);
 
-  { TJSMultiplicativeExpressionMul - e.g. A * B }
+  { TJSMultiplicativeExpressionMul }
 
   TJSMultiplicativeExpressionMul = Class(TJSMultiplicativeExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSMultiplicativeExpressionDiv - e.g. A / B }
+  { TJSMultiplicativeExpressionDiv }
 
   TJSMultiplicativeExpressionDiv = Class(TJSMultiplicativeExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSMultiplicativeExpressionMod - e.g. A % B }
+  { TJSMultiplicativeExpressionMod }
 
   TJSMultiplicativeExpressionMod = Class(TJSMultiplicativeExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSCommaExpression - e.g. A , B }
+  { TJSCommaExpression }
 
   TJSCommaExpression = Class(TJSBinaryExpression)
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSConditionalExpression - e.g. A ? B :C }
+  { TJSConditionalExpression }
 
   TJSConditionalExpression = Class(TJSElement)
   private
@@ -643,7 +606,7 @@ Type
     Property C : TJSElement Read FC Write FC;
   end;
 
-  { TJSAssignStatement - e.g. LHS operator Expr }
+  { TJSAssignStatement }
 
   TJSAssignStatement = Class(TJSElement)
   private
@@ -659,91 +622,79 @@ Type
 
   TJSAssignStatementClass = Class of TJSAssignStatement;
 
-  { TJSSimpleAssignStatement - e.g. LHS=Expr }
+  { TJSSimpleAssignStatement }
 
   TJSSimpleAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSMulEqAssignStatement - e.g. LHS*=Expr }
+  { TJSMulEqAssignStatement }
 
   TJSMulEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSDivEqAssignStatement - e.g. LHS/=Expr }
+  { TJSDivEqAssignStatement }
 
   TJSDivEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSModEqAssignStatement - e.g. LHS%=Expr }
+  { TJSModEqAssignStatement }
 
   TJSModEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSAddEqAssignStatement - e.g. LHS+=Expr }
+  { TJSAddEqAssignStatement }
 
   TJSAddEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSSubEqAssignStatement - e.g. LHS-=Expr }
+  { TJSSubEqAssignStatement }
 
   TJSSubEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSLShiftEqAssignStatement - e.g. LHS<<=Expr }
+  { TJSLShiftEqAssignStatement }
 
   TJSLShiftEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSRShiftEqAssignStatement - e.g. LHS>>=Expr keep sign }
+  { TJSRShiftEqAssignStatement }
 
   TJSRShiftEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSURShiftEqAssignStatement - e.g. LHS>>>=Expr unsigned, insert zeroes }
+  { TJSURShiftEqAssignStatement }
 
   TJSURShiftEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSANDEqAssignStatement - e.g. LHS&=Expr }
+  { TJSANDEqAssignStatement }
 
   TJSANDEqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSOREqAssignStatement - e.g. LHS|=Expr }
+  { TJSOREqAssignStatement }
 
   TJSOREqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSXOREqAssignStatement - e.g. LHS^=Expr }
+  { TJSXOREqAssignStatement }
 
   TJSXOREqAssignStatement = Class(TJSAssignStatement)
-  Public
     Class function OperatorToken : tjsToken; override;
   end;
 
-  { TJSVarDeclaration - e.g. Name=Init }
+  { TJSVarDeclaration }
 
   TJSVarDeclaration = Class(TJSElement)
   private
@@ -755,7 +706,7 @@ Type
     Property Init : TJSElement Read FInit Write FInit;
   end;
 
-  { TJSIfStatement - e.g. if (Cond) btrue else bfalse }
+  { TJSIfStatement }
 
   TJSIfStatement = Class(TJSElement)
   private
@@ -765,13 +716,13 @@ Type
   Public
     Destructor Destroy; override;
     Property Cond : TJSElement Read FCond Write FCond;
-    Property BTrue : TJSElement Read FBTrue Write FBTrue;
-    Property BFalse : TJSElement Read FBFalse Write FBFalse;
+    Property btrue : TJSElement Read FBTrue Write FBTrue;
+    Property bfalse : TJSElement Read FBFalse Write FBFalse;
   end;
 
-  { TJSTargetStatement
-    - base class for statements targetable by continue and break
-    - TargetName can be empty }
+  { TJSWhileStatement }
+
+  { TJSTargetStatement }
 
   TJSTargetStatement = Class(TJSElement)
   private
@@ -782,17 +733,17 @@ Type
     Property TargetName : TJSString Read FTargetName Write FTargetName;
   end;
 
-  { TJSBodyStatement - base class }
+  { TJSBodyStatement }
 
   TJSBodyStatement = Class(TJSTargetStatement)
   private
     FBody: TJSElement;
   Public
     Destructor Destroy; override;
-    Property Body : TJSElement Read FBody Write FBody;
+    Property body : TJSElement Read FBody Write FBody;
   end;
 
-  { TJSCondLoopStatement - base class for do..while and while..do }
+  { TJSCondLoopStatement }
 
   TJSCondLoopStatement = Class(TJSBodyStatement)
   private
@@ -802,15 +753,10 @@ Type
     Property Cond : TJSElement Read FCond Write FCond;
   end;
 
-  { TJSWhileStatement - e.g. 'while(Cond) Body' }
-
   TJSWhileStatement = Class(TJSCondLoopStatement);
-
-  { TJSDoWhileStatement - e.g. 'do Body while(Cond)' }
-
   TJSDoWhileStatement = Class(TJSWhileStatement);
 
-  { TJSForStatement - e.g. 'for(Init;Cond;Incr) Body' }
+  { TJSForStatement }
 
   TJSForStatement = Class(TJSCondLoopStatement)
   private
@@ -822,7 +768,7 @@ Type
     Property Init : TJSElement Read FInit Write FInit;
   end;
 
-  { TJSForInStatement - e.g. 'for(LHS in List) Body' }
+  { TJSForInStatement }
 
   TJSForInStatement = Class(TJSBodyStatement)
   private
@@ -834,15 +780,11 @@ Type
     Property List : TJSElement Read FList Write FList;
   end;
 
-  { TJSContinueStatement - e.g. 'continue'}
-
   TJSContinueStatement = Class(TJSTargetStatement);
-
-  { TJSBreakStatement - e.g. 'break' }
 
   TJSBreakStatement = Class(TJSTargetStatement);
 
-  { TJSReturn - e.g. 'return Expr'}
+  { TJSReturn }
 
   TJSReturnStatement = Class(TJSElement)
   private
@@ -852,7 +794,7 @@ Type
     Property Expr : TJSElement Read FExpr Write FExpr;
   end;
 
-  { TJSCaseElement - element of TJSCaseElements, e.g. 'case Expr: Body' }
+  { TJSCaseElement }
 
   TJSCaseElement = Class(TCollectionItem)
   private
@@ -864,7 +806,7 @@ Type
     Property Body : TJSElement Read FBody Write FBody;
   end;
 
-  { TJSCaseElements - Cases property of TJSSwitch }
+  { TJSCaseElements }
 
   TJSCaseElements = Class(TCollection)
   private
@@ -874,7 +816,7 @@ Type
     Property Cases[AIndex : Integer] : TJSCaseElement Read GetC ;default;
   end;
 
-  { TJSSwitch - e.g. switch(Cond) Cases }
+  { TJSSwitch }
 
   TJSSwitchStatement = Class(TJSTargetStatement)
   private
@@ -882,14 +824,14 @@ Type
     FCond: TJSelement;
     FDefault: TJSCaseElement;
   Public
-    Constructor Create(ALine,AColumn : Integer; const ASource : String = ''); override;
+    Constructor Create(ALine,ARow : Integer; const ASource : String = ''); override;
     Destructor Destroy; override;
     Property Cond : TJSelement Read FCond Write FCond;
     Property Cases : TJSCaseElements Read FCases;
-    Property TheDefault : TJSCaseElement Read FDefault Write FDefault; // one of Cases
+    Property TheDefault : TJSCaseelement Read FDefault Write FDefault;
   end;
 
-  { TJSLabeledStatement - e.g. 'TheLabel : A' }
+  { TJSLabeledStatement }
 
   TJSLabeledStatement = Class(TJSUnary)
   private
@@ -897,11 +839,11 @@ Type
     FTarget: Integer;
   Public
     Destructor Destroy; override;
-    Property Target: Integer Read FTarget Write FTarget;
+    Property target: Integer Read FTarget Write FTarget;
     Property TheLabel : TJSLabel Read FLabel Write Flabel;
   end;
 
-  { TJSTryStatement - e.g. 'try Block catch(Ident) BCatch finally BFinally' }
+  { TJSTryStatement }
 
   TJSTryStatement = Class(TJSElement)
   private
@@ -922,9 +864,9 @@ Type
   TJSTryFinallyStatement = Class(TJSTryStatement);
 
 
-  { TJSFunctionDeclarationStatement - as TJSFuncDef, except as a statement }
+  { TJSFunction }
 
-  TJSFunctionDeclarationStatement = Class(TJSElement)
+  TJSFunctionDeclarationStatement = Class(TJSelement)
   private
     FFuncDef: TJSFuncDef;
   Public
@@ -932,16 +874,16 @@ Type
     Property AFunction : TJSFuncDef Read FFuncDef Write FFuncDef;
   end;
 
-  { TJSFunctionBody - the statement block of a function }
+  { TJSFunctionBody }
 
   TJSFunctionBody = Class(TJSUnary)
   private
-    FIsProgram: Boolean;
+    FisProgram: Boolean;
   Public
-    Property isProgram : Boolean Read FIsProgram Write FIsProgram;
+    Property isProgram : Boolean Read FisProgram Write FIsProgram;
   end;
 
-  { TJSElementNode - element of TJSElementNodes }
+  { TJSElementNode }
 
   TJSElementNode = Class(TCollectionItem)
   private
@@ -951,7 +893,7 @@ Type
     Property Node : TJSElement Read FNode Write FNode;
   end;
 
-  { TJSElementNodes - see TJSSourceElements }
+  { TJSElementNodes }
 
   TJSElementNodes = Class(TCollection)
   private
@@ -961,21 +903,20 @@ Type
     Property Nodes[AIndex : Integer] : TJSElementNode Read GetN ; default;
   end;
 
-  { TJSSourceElements - a list of elements, every element ends in semicolon,
-    first Vars, then Functions, finally Statements }
-
+  { TJSSourceElements }
   TJSSourceElements = Class(TJSElement)
   private
     FFunctions: TJSElementNodes;
     FStatements: TJSElementNodes;
     FVars: TJSElementNodes;
   Public
-    Constructor Create(ALine,AColumn : Integer; const ASource : String = ''); override;
+    Constructor Create(ALine,ARow : Integer; const ASource : String = ''); override;
     Destructor Destroy; override;
-    Property Vars : TJSElementNodes Read FVars;
-    Property Functions : TJSElementNodes Read FFunctions;
     Property Statements : TJSElementNodes Read FStatements;
+    Property functions : TJSElementNodes Read FFunctions;
+    Property Vars : TJSElementNodes Read FVars;
   end;
+
 
 implementation
 
@@ -1503,10 +1444,10 @@ end;
 
 { TJSElement }
 
-constructor TJSElement.Create(ALine, AColumn: Integer; const ASource: String);
+constructor TJSElement.Create(ALine, ARow: Integer; Const ASource: String = '');
 begin
   FLine:=ALine;
-  FColumn:=AColumn;
+  FRow:=ARow;
   FSource:=ASource;
 end;
 
@@ -1523,10 +1464,10 @@ begin
   FArgv[AIndex]:=Avalue;
 end;
 
-constructor TJSRegularExpressionLiteral.Create(ALine, AColumn: Integer;
+constructor TJSRegularExpressionLiteral.Create(ALine, ARow: Integer;
   const ASource: String);
 begin
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
   FPattern:=TJSValue.Create;
   FPatternFlags:=TJSValue.Create;
 end;
@@ -1552,15 +1493,10 @@ end;
 
 { TJSArrayLiteral }
 
-constructor TJSArrayLiteral.Create(ALine, AColumn: Integer; const ASource: String);
+constructor TJSArrayLiteral.Create(ALine, ARow: Integer; Const ASource: String = '');
 begin
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
   FElements:=TJSArrayLiteralElements.Create(TJSArrayLiteralElement);
-end;
-
-procedure TJSArrayLiteral.AddElement(El: TJSElement);
-begin
-  Elements.AddElement.Expr:=El;
 end;
 
 destructor TJSArrayLiteral.Destroy;
@@ -1585,9 +1521,9 @@ end;
 
 { TJSObjectLiteral }
 
-constructor TJSObjectLiteral.Create(ALine, AColumn: Integer; const ASource: String = '');
+constructor TJSObjectLiteral.Create(ALine, ARow: Integer; const ASource: String = '');
 begin
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
   FElements:=TJSObjectLiteralElements.Create(TJSObjectLiteralElement);
 end;
 
@@ -1621,11 +1557,6 @@ begin
   inherited Destroy;
 end;
 
-procedure TJSNewMemberExpression.AddArg(El: TJSElement);
-begin
-  Args.Elements.AddElement.Expr:=El;
-end;
-
 { TJSMemberExpression }
 
 destructor TJSMemberExpression.Destroy;
@@ -1641,11 +1572,6 @@ begin
   FreeAndNil(FExpr);
   FreeAndNil(FArgs);
   inherited Destroy;
-end;
-
-procedure TJSCallExpression.AddArg(El: TJSElement);
-begin
-  Args.Elements.AddElement.Expr:=El;
 end;
 
 { TJSUnary }
@@ -1814,9 +1740,9 @@ end;
 
 { TJSSwitch }
 
-constructor TJSSwitchStatement.Create(ALine, AColumn: Integer; const ASource: String);
+constructor TJSSwitchStatement.Create(ALine, ARow: Integer; const ASource: String);
 begin
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
   FCases:=TJSCaseElements.Create(TJSCaseElement);
 end;
 
@@ -1852,10 +1778,10 @@ end;
 
 { TJSSourceElements }
 
-constructor TJSSourceElements.Create(ALine, AColumn: Integer; const ASource: String
+constructor TJSSourceElements.Create(ALine, ARow: Integer; const ASource: String
   );
 begin
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
   FStatements:=TJSElementNodes.Create(TJSElementNode);
   FFunctions:=TJSElementNodes.Create(TJSElementNode);
   FVars:=TJSElementNodes.Create(TJSElementNode);
@@ -1882,6 +1808,7 @@ function TJSElementNodes.GetN(AIndex : Integer): TJSElementNode;
 begin
   Result:=TJSElementNode(Items[Aindex])
 end;
+
 
 function TJSElementNodes.AddNode: TJSElementNode;
 begin
@@ -1934,10 +1861,10 @@ end;
 
 { TJSLiteral }
 
-constructor TJSLiteral.Create(ALine, AColumn: Integer; const ASource: String);
+constructor TJSLiteral.Create(ALine, ARow: Integer; const ASource: String);
 begin
   FValue:=TJSValue.Create;
-  inherited Create(ALine, AColumn, ASource);
+  inherited Create(ALine, ARow, ASource);
 end;
 
 destructor TJSLiteral.Destroy;

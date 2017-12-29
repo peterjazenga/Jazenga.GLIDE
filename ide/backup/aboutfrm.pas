@@ -77,17 +77,25 @@ type
     BuildDateLabel: TLABEL;
     AboutMemo: TMEMO;
     DocumentationLabel: TLabel;
+    DocumentationLabel1: TLabel;
     DocumentationURLLabel: TLabel;
+    DocumentationURLLabel1: TLabel;
     FPCVersionLabel: TLabel;
+    Label1: TLabel;
     LogoImage: TImage;
     miVerToClipboard: TMenuItem;
     OfficialLabel: TLabel;
+    OfficialLabel1: TLabel;
     OfficialURLLabel: TLabel;
+    HistoryPage: TTabSheet;
+    newspage: TTabSheet;
+    OfficialURLLabel1: TLabel;
+    TabSheet1: TTabSheet;
+    VersionLabel: TLabel;
     VersionPage: TTabSheet;
     ButtonPanel: TPanel;
     PlatformLabel: TLabel;
     PopupMenu1: TPopupMenu;
-    VersionLabel: TLABEL;
     RevisionLabel: TLabel;
     Notebook: TPageControl;
     AboutPage: TTabSheet;
@@ -104,6 +112,8 @@ type
   private
     Acknowledgements: TScrollingText;
     Contributors: TScrollingText;
+    History: TScrollingText;
+    procedure LoadHistory;
     procedure LoadContributors;
     procedure LoadAcknowledgements;
   public
@@ -186,19 +196,25 @@ begin
 
   VersionLabel.Font.Color:= clWhite;
 
-  Constraints.MinWidth:= 460;
-  Constraints.MinHeight:= 380;
-  Width:= 460;
-  Height:= 380;
+  Constraints.MinWidth:= 650;
+  Constraints.MinHeight:= 414;
+  Width:= 650;
+  Height:= 414;
 
   AboutMemo.Lines.Text:=
     Format(lisAboutLazarusMsg,[DoubleLineEnding,DoubleLineEnding,DoubleLineEnding,DoubleLineEnding]);
 
-  OfficialLabel.Caption := lisAboutOfficial;
-  OfficialURLLabel.Caption := 'http://www.lazarus-ide.org';
-  DocumentationLabel.Caption := lisAboutDocumentation;
-  DocumentationURLLabel.Caption := 'http://wiki.lazarus.freepascal.org';
+  OfficialLabel.Caption := lisAboutGLIDE;
+  OfficialURLLabel.Caption := 'http://glide.jazenga.com';
+  DocumentationLabel.Caption := lisAboutGLIDEDocumentation;
+  DocumentationURLLabel.Caption := 'http://wiki.glide.jazenga.com';
 
+  OfficialLabel1.Caption := lisAboutOfficial;
+  OfficialURLLabel1.Caption := 'http://www.lazarus-ide.org';
+  DocumentationLabel1.Caption := lisAboutDocumentation;
+  DocumentationURLLabel1.Caption := 'http://wiki.lazarus.freepascal.org';
+
+  LoadHistory;
   LoadContributors;
   LoadAcknowledgements;
   CloseButton.Caption:=lisBtnClose;
@@ -218,6 +234,8 @@ end;
 
 procedure TAboutForm.NotebookPageChanged(Sender: TObject);
 begin
+  if Assigned(History) then
+    History.Active:=NoteBook.ActivePage = HistoryPage;
   if Assigned(Contributors) then
     Contributors.Active:=NoteBook.ActivePage = ContributorsPage;
   if Assigned(Acknowledgements) then
@@ -227,7 +245,7 @@ end;
 procedure TAboutForm.URLLabelMouseDown(Sender: TObject;
   Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
 begin
-  OpenURL(TLabel(Sender).Caption);
+  if Button = mbLeft then OpenURL(TLabel(Sender).Caption);
 end;
 
 procedure TAboutForm.URLLabelMouseLeave(Sender: TObject);
@@ -235,6 +253,27 @@ begin
   TLabel(Sender).Font.Style := [];
   TLabel(Sender).Font.Color := clBlue;
   TLabel(Sender).Cursor := crDefault;
+end;
+
+procedure TAboutForm.LoadHistory;
+var
+  HistoryFileName: string;
+begin
+  HistoryPage.ControlStyle := HistoryPage.ControlStyle - [csOpaque];
+  History := TScrollingText.Create(HistoryPage);
+  History.Name:='History';
+  History.Parent := HistoryPage;
+  History.Align:=alClient;
+
+  HistoryFileName:=
+    AppendPathDelim(EnvironmentOptions.GetParsedLazarusDirectory)
+    +'docs'+PathDelim+'history.txt';
+  //debugln('TAboutForm.LoadHistory ',FileExistsUTF8(HistoryFileName),' ',HistoryFileName);
+
+  if FileExistsUTF8(HistoryFileName) then
+    LoadStringsFromFileUTF8(History.Lines,HistoryFileName)
+  else
+    History.Lines.Text:='history file not found';
 end;
 
 procedure TAboutForm. URLLabelMouseEnter(Sender: TObject);

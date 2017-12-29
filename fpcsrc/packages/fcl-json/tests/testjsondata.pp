@@ -19,7 +19,7 @@ unit testjsondata;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testregistry, fpjson;
+  Classes, SysUtils, fpcunit, testutils, testregistry, fpjson;
 
 type
    TMyNull     = Class(TJSONNull);
@@ -36,7 +36,7 @@ type
 
   TTestJSONString = Class(TTestCase)
   Private
-    Procedure TestTo(Const Src,Dest : String; Strict : Boolean = False);
+    Procedure TestTo(Const Src,Dest : String);
     Procedure TestFrom(Const Src,Dest : String);
   Published
     Procedure TestJSONStringToString;
@@ -147,7 +147,6 @@ type
   published
     procedure TestString;
     procedure TestControlString;
-    procedure TestSolidus;
     procedure TestInteger;
     procedure TestNegativeInteger;
     procedure TestFloat;
@@ -205,7 +204,6 @@ type
     Procedure TestClone;
     Procedure TestMyClone;
     Procedure TestFormat;
-    Procedure TestFormatNil;
   end;
   
   { TTestObject }
@@ -254,9 +252,7 @@ type
     procedure TestExtract;
     Procedure TestNonExistingAccessError;
     Procedure TestFormat;
-    Procedure TestFormatNil;
     Procedure TestFind;
-    Procedure TestIfFind;
   end;
 
   { TTestJSONPath }
@@ -1006,6 +1002,7 @@ end;
 
 procedure TTestJSONPath.TestDeepRecursive;
 Var
+  O : TJSONObject;
   A : TJSONArray;
   D : TJSONData;
 begin
@@ -1503,6 +1500,7 @@ Var
   T : String;
 
 begin
+
   J:=TJSONString.Create('');
   try
     For I:=0 to 31 do
@@ -1519,23 +1517,6 @@ begin
       end;
       AssertEquals('Control char','"-->'+T+'<--"',J.AsJSON);
       end;
-  finally
-    FreeAndNil(J);
-  end;
-end;
-
-procedure TTestString.TestSolidus;
-Var
-  J : TJSONString;
-
-begin
-  J:=TJSONString.Create('');
-  try
-    J.AsString:='http://www.json.org/';
-    TJSONString.StrictEscaping:=True;
-    TestJSON(J,'"http:\/\/www.json.org\/"');
-    TJSONString.StrictEscaping:=False;
-    TestJSON(J,'"http://www.json.org/"');
   finally
     FreeAndNil(J);
   end;
@@ -1585,7 +1566,7 @@ begin
     TestAsBoolean(J,True,False);
     TestAsInteger(J,-1,False);
     TestAsInt64(J,-1,False);
-    TestAsQWord(J,QWord(-1),True);
+    TestAsQWord(J,-1,True);
     TestAsString(J,S);
     TestAsFloat(J,-1.0,False);
   finally
@@ -1630,7 +1611,7 @@ begin
     TestAsBoolean(J,True,False);
     TestAsInteger(J,-1,True);
     TestAsInt64(J,-1,True);
-    TestAsQWord(J,QWord(-1),True);
+    TestAsQWord(J,-1,True);
     TestAsString(J,S);
     TestAsFloat(J,-1.0,True);
   finally
@@ -2582,6 +2563,7 @@ procedure TTestArray.TestAddString;
 Var
   J : TJSONArray;
   S : String;
+  F : TJSONFloat;
   
 begin
   S:='A string';
@@ -2603,6 +2585,8 @@ procedure TTestArray.TestAddNull;
 
 Var
   J : TJSONArray;
+  S : String;
+  F : TJSONFloat;
 
 begin
   J:=TJSonArray.Create;
@@ -2736,6 +2720,7 @@ procedure TTestArray.TestInsertString;
 Var
   J : TJSONArray;
   S : String;
+  F : TJSONFloat;
 
 begin
   S:='A string';
@@ -2757,6 +2742,8 @@ end;
 procedure TTestArray.TestInsertNull;
 Var
   J : TJSONArray;
+  S : String;
+  F : TJSONFloat;
 
 begin
   J:=TJSonArray.Create;
@@ -2838,8 +2825,11 @@ end;
 procedure TTestArray.TestMove;
 Var
   J : TJSONArray;
+  S : String;
+  F : TJSONFloat;
 
 begin
+  S:='A string';
   J:=TJSonArray.Create;
   try
     J.Add('First string');
@@ -2859,8 +2849,11 @@ end;
 procedure TTestArray.TestExchange;
 Var
   J : TJSONArray;
+  S : String;
+  F : TJSONFloat;
 
 begin
+  S:='A string';
   J:=TJSonArray.Create;
   try
     J.Add('First string');
@@ -2994,7 +2987,7 @@ end;
 
 procedure TTestArray.TestMyClone;
 Var
-  J : TMyArray;
+  J,J2 : TMyArray;
   D : TJSONData;
 
 begin
@@ -3017,6 +3010,7 @@ end;
 procedure TTestArray.TestFormat;
 Var
   J : TJSONArray;
+  I : TJSONData;
 
 begin
   J:=TJSonArray.Create;
@@ -3036,23 +3030,6 @@ begin
     AssertEquals('FormatJSON, use tab indentsize 1','['+sLinebreak+#9'0,'+sLinebreak+#9'1,'+sLinebreak+#9'2,'+sLinebreak+#9'{'+sLineBreak+#9#9'"x" : 1,'+sLineBreak+#9#9'"y" : 2'+sLinebreak+#9'}'+sLineBreak+']',J.FormatJSON([foUseTabChar],1));
   finally
     J.Free
-  end;
-end;
-
-procedure TTestArray.TestFormatNil;
-
-Var
-  J : TJSONArray;
-
-begin
-  J:=TJSonArray.Create;
-  try
-    J.Add(1);
-    J.Add(TJSONObject(Nil));
-    TestJSON(J,'[1, null]');
-    AssertEquals('FormatJSON, single line',J.AsJSON,J.FormatJSON([foSingleLineArray],1));
-  finally
-    J.Free;
   end;
 end;
 
@@ -3222,6 +3199,7 @@ Const
 Var
   J : TJSONObject;
   S : String;
+  F : TJSONFloat;
 
 begin
   S:='A string';
@@ -3246,6 +3224,8 @@ Const
 
 Var
   J : TJSONObject;
+  S : String;
+  F : TJSONFloat;
 
 begin
   J:=TJSonObject.Create;
@@ -3502,23 +3482,6 @@ begin
   end;
 end;
 
-procedure TTestObject.TestFormatNil;
-
-Var
-  J : TJSONObject;
-
-begin
-  J:=TJSONObject.Create;
-  try
-    J.Add('a',1);
-    J.Add('b',TJSONObject(Nil));
-    TestJSON(J,'{ "a" : 1, "b" : null }');
-    AssertEquals('FormatJSON, single line',J.AsJSON,J.FormatJSON([foSingleLineObject],1));
-  finally
-    J.Free;
-  end;
-end;
-
 procedure TTestObject.TestFind;
 
 Const
@@ -3549,28 +3512,6 @@ begin
     AssertEquals('4 Existing exact match, case insensitive',1,J.IndexOfName(B,true));
     AssertEquals('5 Existing , case sensitive again',2,J.IndexOfName(C));
     AssertEquals('6 Existing case-insensitive match, case insensitive',2,J.IndexOfName(Uppercase(C),true));
-  finally
-    FreeAndNil(J);
-  end;
-end;
-
-Procedure TTestObject.TestIfFind;
-Var
-  J: TJSONObject;
-  B: TJSONBoolean;
-  S: TJSONString;
-  N: TJSONNumber;
-  D: TJSONData;
-begin
-  J:=TJSONObject.Create(['s', 'astring', 'b', true, 'n', 1]);
-  try
-    TestJSONType(J,jtObject);
-    TestIsNull(J,False);
-    TestItemCount(J,3);
-    AssertEquals('boolean found', true, j.Find('b', B));
-    AssertEquals('string found', true, j.Find('s', S));
-    AssertEquals('number found', true, j.Find('n', N));
-    AssertEquals('data found', true, j.Find('s', D));
   finally
     FreeAndNil(J);
   end;
@@ -4066,14 +4007,14 @@ end;
 
 { TTestJSONString }
 
-procedure TTestJSONString.TestTo(const Src, Dest: String; Strict : Boolean = False);
+procedure TTestJSONString.TestTo(const Src, Dest: String);
 
 Var
   S : String;
 
 begin
   S:='StringToJSONString('''+Src+''')='''+Dest+'''';
-  AssertEquals(S,Dest,StringToJSONString(Src,Strict));
+  AssertEquals(S,Dest,StringToJSONString(Src));
 end;
 
 procedure TTestJSONString.TestFrom(const Src, Dest: String);
@@ -4132,8 +4073,7 @@ begin
   TestTo('AB','AB');
   TestTo('ABC','ABC');
   TestTo('\','\\');
-  TestTo('/','/');
-  TestTo('/','\/',True);
+  TestTo('/','\/');
   TestTo('"','\"');
   TestTo(#8,'\b');
   TestTo(#9,'\t');
@@ -4156,8 +4096,7 @@ begin
   TestTo('A'#12'BC','A\fBC');
   TestTo('A'#13'BC','A\rBC');
   TestTo('\\','\\\\');
-  TestTo('//','//');
-  TestTo('//','\/\/',true);
+  TestTo('//','\/\/');
   TestTo('""','\"\"');
   TestTo(#8#8,'\b\b');
   TestTo(#9#9,'\t\t');

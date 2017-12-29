@@ -203,10 +203,9 @@ interface
               { mouse event can be disabled by mouse.inc code
                 in DoneMouse
                 so use a key event instead PM }
-              { 20170707 mantis #32096, only wait if really written}
-              if WriteConsoleInput(StdInputHandle,ir,1,written) then
+              WriteConsoleInput(StdInputHandle,ir,1,written);
               { wait, til the thread is ready }
-                WaitForSingleObject(EventThreadHandle,INFINITE);
+              WaitForSingleObject(EventThreadHandle,INFINITE);
               CloseHandle(EventThreadHandle);
            end;
       end;

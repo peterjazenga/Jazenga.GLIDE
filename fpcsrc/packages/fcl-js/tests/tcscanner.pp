@@ -5,7 +5,7 @@ unit tcscanner;
 interface
 
 uses
-  Classes, SysUtils, Typinfo, fpcunit, testregistry, jstoken, jsscanner;
+  Classes, SysUtils, Typinfo, fpcunit, testutils, testregistry, jstoken, jsscanner;
 
 type
 
@@ -190,6 +190,7 @@ end;
 procedure TTestJSScanner.AssertEquals(AMessage : String; AExpected, AActual: TJSToken);
 
 Var
+  J : TJSToken;
   S,EN1,EN2 : String;
 
 begin
@@ -856,6 +857,7 @@ procedure TTestJSScanner.DoTestString(S: String);
 
 Var
   J : TJSToken;
+  T : String;
 begin
   CreateScanner(S);
   try

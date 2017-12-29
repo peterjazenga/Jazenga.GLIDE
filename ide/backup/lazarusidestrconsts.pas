@@ -1124,7 +1124,8 @@ resourcestring
       +'develop programs for all of the above platforms in a Delphi like '
       +'environment. The IDE is a RAD tool that includes a form designer.'
       +'%s'
-      +'GLIDE is built on the Lazarus codebase.';
+       +'GLIDE is built on the Lazarus codebase.'+LineEnding
+       +'GLIDE is an acronym for Globalized Lazarus Integrated Development Envirionment'+LineEnding
       +'%s'
       +'As GLIDE is growing we need more developers.';
   lisAboutNoContributors = 'Cannot find contributors list.';

@@ -5,17 +5,10 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, DbCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
 
 type
-
-  { TForm1 }
-
   TForm1 = class(TForm)
-    DBCheckBox1: TDBCheckBox;
-    DBComboBox1: TDBComboBox;
-    DBListBox1: TDBListBox;
-    DBRadioGroup1: TDBRadioGroup;
   private
 
   public

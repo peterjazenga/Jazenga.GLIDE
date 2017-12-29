@@ -24,7 +24,7 @@ Unit int;
 
 interface
 
-uses typ,math;
+uses typ;
 
 Var
     limit    : ArbInt;

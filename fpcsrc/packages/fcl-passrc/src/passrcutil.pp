@@ -74,7 +74,6 @@ end;
 
 function TSrcContainer.FindElement(const AName: String): TPasElement;
 begin
-  if AName='' then ;
   Result:=Nil;
 end;
 
@@ -172,6 +171,8 @@ procedure TPasSrcAnalysis.GetClassMembers(AClass: TPasClassType; List: TStrings;
 Var
   I : Integer;
   E : TPasElement;
+  V : TPasVariant;
+
 begin
   For I:=0 to AClass.Members.Count-1 do
     begin
@@ -192,11 +193,7 @@ procedure TPasSrcAnalysis.GetUses(ASection : TPasSection; List: TStrings);
 Var
   I : Integer;
 begin
-  If not Assigned(ASection) then exit;
-  if ASection.UsesList.Count=length(ASection.UsesClause) then
-    For I:=0 to length(ASection.UsesClause)-1 do
-      List.Add(ASection.UsesClause[i].Name)
-  else
+  If Assigned(ASection) and Assigned(ASection.UsesList) then
     For I:=0 to ASection.UsesList.Count-1 do
       List.Add(TPasElement(ASection.UsesList[i]).Name);
 end;

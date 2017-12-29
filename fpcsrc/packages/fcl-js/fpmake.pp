@@ -17,15 +17,13 @@ begin
 {$ifdef ALLPACKAGES}
     P.Directory:=ADirectory;
 {$endif ALLPACKAGES}
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Author := 'Michael Van Canneyt';
     P.License := 'LGPL with FPC modification';
     P.HomepageURL := 'www.freepascal.org';
     P.Email := 'michael@freepascal.org';
     P.Description := 'Javascript scanner/parser/syntax tree units';
     P.OSes:=AllOSes-[embedded,msdos];
-
-    P.Dependencies.Add('fcl-base');
 
     P.SourcePath.Add('src');
     P.IncludePath.Add('src');
@@ -38,8 +36,6 @@ begin
     T:=P.Targets.AddUnit('jsparser.pp');
       T.ResourceStrings:=true;
     T:=P.Targets.AddUnit('jswriter.pp');
-      T.ResourceStrings:=true;
-    T:=P.Targets.AddUnit('jsminifier.pp');
       T.ResourceStrings:=true;
 {$ifndef ALLPACKAGES}
     Run;

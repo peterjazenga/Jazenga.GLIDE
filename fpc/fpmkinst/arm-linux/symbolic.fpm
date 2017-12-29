@@ -1,0 +1,10 @@
+Name=symbolic
+Version=3.0.2
+Checksum=1268589108
+CPU=arm
+OS=linux
+SourcePath=D:\Jazenga.GLIDE\fpcsrc\packages\symbolic\
+FPMakeOptions=-o -Tlinux -o -Parm -o -XParm-linux-gnueabihf- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FDD:\Jazenga.GLIDE\cross\bin\arm-linux -o -vw-n-h-l-d-u-t-p-c- -o -dFPC_ARMHF -o -darm -o -dRELEASE -o -XParm-linux-gnueabihf- -o -Xd -o -FlD:\Jazenga.GLIDE\cross\lib\arm-linux -o -CpARMV7A -o -CfVFPV3 -o -OoFASTMATH -o -CaEABIHF -o -XX -o -CX
+Depends=rtl
+NeedLibC=N
+FPMakeAddIn=N

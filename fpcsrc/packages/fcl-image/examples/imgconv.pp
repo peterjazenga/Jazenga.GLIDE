@@ -19,7 +19,7 @@ program ImgConv;
 
 uses FPWriteXPM, FPWritePNG, FPWriteBMP,
      FPReadXPM, FPReadPNG, FPReadBMP, fpreadjpeg,fpwritejpeg,
-     fpreadtga,fpwritetga,fpreadpnm,fpwritepnm, fpreadtiff, fpwritetiff,
+     fpreadtga,fpwritetga,fpreadpnm,fpwritepnm,
      {$ifndef UseFile}classes,{$endif}
      FPImage, sysutils;
 
@@ -44,8 +44,6 @@ begin
       Reader := TFPReaderPNG.Create
     else if T = 'T' then
       Reader := TFPReaderTarga.Create
-    else if T = 'F' then
-      Reader := TFPReaderTiff.Create
     else if T = 'N' then
       Reader := TFPReaderPNM.Create
     else
@@ -79,8 +77,6 @@ begin
     Writer := TFPWriterPNG.Create
   else if T = 'T' then
     Writer := TFPWriterTARGA.Create
-  else if T = 'F' then
-    Writer := TFPWriterTiff.Create
   else if T = 'N' then
     Writer := TFPWriterPNM.Create
   else
@@ -154,7 +150,7 @@ begin
     begin
     writeln ('Give filename to read and to write, preceded by filetype:');
     writeln ('X for XPM, P for PNG, B for BMP, J for JPEG, T for TGA,');
-    writeln ('N for PNM (read only), F for TIFF');
+    writeln ('N for PNM (read only)');
     writeln ('example: imgconv X hello.xpm P hello.png');
     writeln ('example: imgconv hello.xpm P hello.png');
     writeln ('Options for');

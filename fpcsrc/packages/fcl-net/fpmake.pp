@@ -17,7 +17,7 @@ begin
 {$ifdef ALLPACKAGES}
     P.Directory:=ADirectory;
 {$endif ALLPACKAGES}
-    P.Version:='3.0.4';
+    P.Version:='3.0.2';
     P.Dependencies.Add('fcl-base');
     P.Dependencies.Add('openssl',AllOSes - AllAmigaLikeOSes);
     P.Dependencies.Add('fcl-xml');
@@ -43,8 +43,6 @@ begin
     // IP and Sockets
     T:=P.Targets.AddUnit('netdb.pp',AllUnixOSes);
     T:=P.Targets.AddUnit('resolve.pp',AllUnixOSes+AllWindowsOSes+AllAmigaLikeOSes+[OS2,EMX]);
-      if Defaults.CPU=powerpc then
-        T.OSes:=T.OSes-[amiga];
       with T.Dependencies do
         begin
           AddInclude('resolve.inc');
@@ -52,8 +50,6 @@ begin
         end;
     T.ResourceStrings := True;
     T:=P.Targets.AddUnit('ssockets.pp',AllUnixOSes+AllWindowsOSes+AllAmigaLikeOSes+[OS2,EMX]);
-      if Defaults.CPU=powerpc then
-        T.OSes:=T.OSes-[amiga];
       with T.Dependencies do
         begin
           AddUnit('resolve');

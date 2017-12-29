@@ -866,7 +866,7 @@ begin
   if (NOT Special) AND (ExistWordInString(PChar(s),'/usr/bin/ld: cannot find',[soDown])) then
   begin
     FG      := clRed;
-    BG      := clNavy;
+    BG      := clblack;
     Special := True;
   end;
 
@@ -874,15 +874,15 @@ begin
   if (NOT Special) AND ((ExistWordInString(PChar(s),'Stream write error',[soDown])) OR (ExistWordInString(PChar(s),'disk full',[soDown]))) then
   begin
     FG      := clRed;
-    BG      := clAqua;
+    BG      := clyellow;
     Special := True;
   end;
 
   // github error
   if (NOT Special) AND (ExistWordInString(PChar(s),'429 too many requests',[soDown])) then
   begin
-    FG      := clRed;   //Text Color
-    BG      := clNavy;  //BackGround
+    FG      := clblack;   //Text Color
+    BG      := clred;  //BackGround
     Special := True;    //Must be true
   end;
 
@@ -923,7 +923,7 @@ begin
   if (NOT Special) AND (ExistWordInString(PChar(s),'unable to connect to a repository at url',[soDown])) then
   begin
     FG      := clRed;
-    BG      := clNavy;
+    BG      := clblack;
     Special := True;
   end;
 

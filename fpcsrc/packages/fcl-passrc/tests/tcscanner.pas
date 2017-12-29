@@ -60,35 +60,25 @@ type
     procedure TearDown; override;
     Function TokenToString(tk : TToken) : string;
     Procedure AssertEquals(Msg : String; Expected,Actual : TToken); overload;
-    Procedure AssertEquals(Msg : String; Expected,Actual : TModeSwitch); overload;
-    Procedure AssertEquals(Msg : String; Expected,Actual : TModeSwitches); overload;
     procedure NewSource(Const Source : string; DoClear : Boolean = True);
     Procedure DoTestToken(t : TToken; Const ASource : String; Const CheckEOF : Boolean = True);
     Procedure TestToken(t : TToken; Const ASource : String; Const CheckEOF : Boolean = True);
     Procedure TestTokens(t : array of TToken; Const ASource : String; Const CheckEOF : Boolean = True;Const DoClear : Boolean = True);
     Property LastIDentifier : String Read FLI Write FLi;
-    Property Scanner : TPascalScanner Read FScanner;
   published
-    Procedure TestEmpty;
     procedure TestEOF;
     procedure TestWhitespace;
     procedure TestComment1;
     procedure TestComment2;
     procedure TestComment3;
-    procedure TestComment4;
-    procedure TestComment5;
     procedure TestNestedComment1;
     procedure TestNestedComment2;
     procedure TestNestedComment3;
     procedure TestNestedComment4;
-    procedure TestNestedComment5;
     procedure TestIdentifier;
-    procedure TestSelf;
-    procedure TestSelfNoToken;
     procedure TestString;
     procedure TestNumber;
     procedure TestChar;
-    procedure TestCharString;
     procedure TestBraceOpen;
     procedure TestBraceClose;
     procedure TestMul;
@@ -130,7 +120,6 @@ type
     procedure TestConst;
     procedure TestConstructor;
     procedure TestDestructor;
-    procedure TestDispinterface;
     procedure TestDiv;
     procedure TestDo;
     procedure TestDownto;
@@ -173,11 +162,10 @@ type
     procedure TestRecord;
     procedure TestRepeat;
     procedure TestResourceString;
+    procedure TestSelf;
     procedure TestSet;
     procedure TestShl;
     procedure TestShr;
-    procedure TestShlC;
-    procedure TestShrC;
     procedure TestSpecialize;
     procedure TestThen;
     procedure TestThreadvar;
@@ -194,17 +182,13 @@ type
     procedure TestXor;
     procedure TestLineEnding;
     procedure TestTab;
-    Procedure TestEscapedKeyWord;
     Procedure TestTokenSeries;
     Procedure TestTokenSeriesNoWhiteSpace;
     Procedure TestTokenSeriesComments;
     Procedure TestTokenSeriesNoComments;
     Procedure TestDefine0;
-    procedure TestDefine01;
     Procedure TestDefine1;
     Procedure TestDefine2;
-    Procedure TestDefine21;
-    procedure TestDefine22;
     Procedure TestDefine3;
     Procedure TestDefine4;
     Procedure TestDefine5;
@@ -215,8 +199,6 @@ type
     Procedure TestDefine10;
     Procedure TestDefine11;
     Procedure TestDefine12;
-    Procedure TestDefine13;
-    Procedure TestDefine14;
     Procedure TestInclude;
     Procedure TestInclude2;
     Procedure TestUnDefine1;
@@ -224,23 +206,6 @@ type
     procedure TestMacro2;
     procedure TestMacro3;
     procedure TestMacroHandling;
-    procedure TestIFDefined;
-    procedure TestIFUnDefined;
-    procedure TestIFAnd;
-    procedure TestIFAndShortEval;
-    procedure TestIFOr;
-    procedure TestIFOrShortEval;
-    procedure TestIFXor;
-    procedure TestIFAndOr;
-    procedure TestIFEqual;
-    procedure TestIFNotEqual;
-    procedure TestIFGreaterThan;
-    procedure TestIFGreaterEqualThan;
-    procedure TestIFLesserThan;
-    procedure TestIFLesserEqualThan;
-    procedure TestIFDefinedElseIf;
-    procedure TestIfError;
-    Procedure TestModeSwitch;
   end;
 
 implementation
@@ -389,48 +354,16 @@ begin
   AssertEquals(Msg,TokenToString(Expected),TokenToString(Actual));
 end;
 
-procedure TTestScanner.AssertEquals(Msg: String; Expected, Actual: TModeSwitch);
-begin
-  AssertEquals(Msg,GetEnumName(TypeInfo(TModeSwitch),Ord(Expected)),
-                   GetEnumName(TypeInfo(TModeSwitch),Ord(Actual)))
-end;
-
-procedure TTestScanner.AssertEquals(Msg: String; Expected, Actual: TModeSwitches);
-
-  Function ToString(S : TModeSwitches) : String;
-
-  Var
-    M : TModeSwitch;
-
-  begin
-    Result:='';
-    For M in TModeswitch do
-      if M in S then
-        begin
-        If (Result<>'') then
-          Result:=Result+', ';
-        Result:=Result+GetEnumName(TypeInfo(TModeSwitch), Ord(M));
-        end;
-  end;
-
-begin
-  AssertEquals(Msg,ToString(Expected),ToString(Actual));
-end;
-
 procedure TTestScanner.NewSource(const Source: string; DoClear : Boolean = True);
 begin
   if DoClear then
     FResolver.Clear;
   FResolver.AddStream('afile.pp',TStringStream.Create(Source));
-  Writeln('// '+TestName);
-  Writeln(Source);
-//  FreeAndNil(FScanner);
-//  FScanner:=TTestingPascalScanner.Create(FResolver);
   FScanner.OpenFile('afile.pp');
 end;
 
 procedure TTestScanner.DoTestToken(t: TToken; const ASource: String;
-  const CheckEOF: Boolean);
+  Const CheckEOF: Boolean);
 
 Var
   tk : ttoken;
@@ -445,12 +378,10 @@ begin
     if (tk=tkLineEnding) and not (t in [tkEOF,tkLineEnding]) then
       tk:=FScanner.FetchToken;
     AssertEquals('EOF reached.',tkEOF,FScanner.FetchToken);
-    end
-
+    end;
 end;
 
-procedure TTestScanner.TestToken(t: TToken; const ASource: String;
-  const CheckEOF: Boolean);
+procedure TTestScanner.TestToken(t: TToken; const ASource: String; Const CheckEOF: Boolean);
 Var
   S : String;
 begin
@@ -466,7 +397,7 @@ begin
 end;
 
 procedure TTestScanner.TestTokens(t: array of TToken; const ASource: String;
-  const CheckEOF: Boolean; const DoClear: Boolean);
+  const CheckEOF: Boolean;Const DoClear : Boolean = True);
 Var
   tk : ttoken;
   i : integer;
@@ -487,13 +418,6 @@ begin
       tk:=FScanner.FetchToken;
     AssertEquals('EOF reached.',tkEOF,FScanner.FetchToken);
     end;
-end;
-
-procedure TTestScanner.TestEmpty;
-begin
-  AssertNotNull('Have Scanner',Scanner);
-  AssertTrue('Options is empty',[]=Scanner.Options);
-  AssertEquals('FPC modes is default',FPCModeSwitches,Scanner.CurrentModeSwitches);
 end;
 
 procedure TTestScanner.TestEOF;
@@ -529,20 +453,6 @@ begin
   TestToken(tkComment,'//');
 end;
 
-procedure TTestScanner.TestComment4;
-
-begin
-  DoTestToken(tkComment,'(* abc *)',False);
-  AssertEquals('Correct comment',' abc ',Scanner.CurTokenString);
-end;
-
-procedure TTestScanner.TestComment5;
-
-begin
-  DoTestToken(tkComment,'(* abc'+LineEnding+'def *)',False);
-  AssertEquals('Correct comment',' abc'+LineEnding+'def ',Scanner.CurTokenString);
-end;
-
 procedure TTestScanner.TestNestedComment1;
 begin
   TestToken(tkComment,'// { comment } ');
@@ -563,11 +473,6 @@ begin
   TestToken(tkComment,'{ (* comment *) }');
 end;
 
-procedure TTestScanner.TestNestedComment5;
-begin
-  TestToken(tkComment,'(* (* comment *) *)');
-end;
-
 
 procedure TTestScanner.TestIdentifier;
 
@@ -582,11 +487,6 @@ begin
   TestToken(pscanner.tkString,'''A string''');
 end;
 
-procedure TTestScanner.TestCharString;
-
-begin
-  TestToken(pscanner.tkChar,'''A''');
-end;
 
 procedure TTestScanner.TestNumber;
 
@@ -888,10 +788,6 @@ begin
   TestToken(tkdestructor,'destructor');
 end;
 
-procedure TTestScanner.TestDispinterface;
-begin
-  TestToken(tkdispinterface,'dispinterface');
-end;
 
 procedure TTestScanner.TestDiv;
 
@@ -999,7 +895,7 @@ end;
 
 procedure TTestScanner.TestHelper;
 begin
-  TestToken(tkIdentifier,'helper');
+  TestToken(tkHelper,'helper');
 end;
 
 
@@ -1111,7 +1007,7 @@ end;
 procedure TTestScanner.TestOn;
 
 begin
-  TestToken(tkIdentifier,'on');
+  TestToken(tkon,'on');
 end;
 
 
@@ -1188,13 +1084,7 @@ end;
 procedure TTestScanner.TestSelf;
 
 begin
-  FScanner.Options:=FScanner.Options + [po_selftoken];
   TestToken(tkself,'self');
-end;
-
-procedure TTestScanner.TestSelfNoToken;
-begin
-  TestToken(tkIdentifier,'self');
 end;
 
 
@@ -1216,16 +1106,6 @@ procedure TTestScanner.TestShr;
 
 begin
   TestToken(tkshr,'shr');
-end;
-
-procedure TTestScanner.TestShlC;
-begin
-  TestToken(tkshl,'<<');
-end;
-
-procedure TTestScanner.TestShrC;
-begin
-  TestToken(tkshr,'>>');
 end;
 
 
@@ -1340,11 +1220,6 @@ begin
   TestToken(tkTab,#9);
 end;
 
-procedure TTestScanner.TestEscapedKeyWord;
-begin
-  TestToken(tkIdentifier,'&xor');
-end;
-
 procedure TTestScanner.TestTokenSeries;
 begin
   TestTokens([tkin,tkWhitespace,tkOf,tkWhiteSpace,tkthen,tkWhiteSpace,tkIdentifier],'in of then aninteger')
@@ -1374,13 +1249,6 @@ begin
     Fail('Define not defined');
 end;
 
-procedure TTestScanner.TestDefine01;
-begin
-  TestTokens([tkComment],'(*$DEFINE NEVER*)');
-  If FSCanner.Defines.IndexOf('NEVER')=-1 then
-    Fail('Define not defined');
-end;
-
 procedure TTestScanner.TestDefine1;
 begin
   TestTokens([tkComment],'{$IFDEF NEVER} of {$ENDIF}');
@@ -1391,19 +1259,6 @@ procedure TTestScanner.TestDefine2;
 begin
   FSCanner.Defines.Add('ALWAYS');
   TestTokens([tkComment,tkWhitespace,tkOf,tkWhitespace,tkcomment],'{$IFDEF ALWAYS} of {$ENDIF}');
-end;
-
-procedure TTestScanner.TestDefine21;
-begin
-  FSCanner.Defines.Add('ALWAYS');
-  TestTokens([tkComment,tkWhitespace,tkOf,tkWhitespace,tkcomment],'(*$IFDEF ALWAYS*) of (*$ENDIF*)');
-end;
-
-procedure TTestScanner.TestDefine22;
-begin
-  FSCanner.Defines.Add('ALWAYS');
-  // No whitespace. Test border of *)
-  TestTokens([tkComment,tkOf,tkWhitespace,tkcomment],'(*$IFDEF ALWAYS*)of (*$ENDIF*)');
 end;
 
 procedure TTestScanner.TestDefine3;
@@ -1473,33 +1328,6 @@ begin
   TestTokens([tkin],'{$IFDEF ALWAYS} of {$ELSE} in {$ENDIF}');
 end;
 
-procedure TTestScanner.TestDefine13;
-begin
-  FScanner.SkipComments:=True;
-  FScanner.SkipWhiteSpace:=True;
-  TestTokens([tkin],'{$IFDEF ALWAYS} }; ą è {$ELSE} in {$ENDIF}');
-end;
-
-procedure TTestScanner.TestDefine14;
-Const
-   Source = '{$ifdef NEVER_DEFINED}' +sLineBreak+
-            'type'+sLineBreak+
-            '  TNPEventModel = ('+sLineBreak+
-            '  NPEventModelCarbon = 0,'+sLineBreak+
-            '  NPEventModelCocoa = 1'+sLineBreak+
-            '}; // yes, this is an error... except this code should never be included.'+sLineBreak+
-            'ą'+sLineBreak+
-            '|'+sLineBreak+
-            '{$endif}'+sLineBreak+
-            ''+sLineBreak+
-            'begin'+sLineBreak+
-            'end.'+sLineBreak;
-begin
-  NewSource(Source,True);
-  While FScanner.fetchToken<>tkEOF do
-
-end;
-
 procedure TTestScanner.TestInclude;
 begin
   FResolver.AddStream('myinclude.inc',TStringStream.Create('if true then'));
@@ -1527,21 +1355,21 @@ procedure TTestScanner.TestMacro1;
 begin
   FScanner.SkipWhiteSpace:=True;
   FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],'{$MACRO on}{$DEFINE MM:=begin end.}'#13#10'MM',True,False);
+  TestTokens([tkbegin,tkend,tkDot],'{$DEFINE MM:=begin end.}'#13#10'MM',True,False);
 end;
 
 procedure TTestScanner.TestMacro2;
 begin
   FScanner.SkipWhiteSpace:=True;
   FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],'{$MACRO on}{$DEFINE MM:=begin end}'#13#10'MM .',True,False);
+  TestTokens([tkbegin,tkend,tkDot],'{$DEFINE MM:=begin end}'#13#10'MM .',True,False);
 end;
 
 procedure TTestScanner.TestMacro3;
 begin
   FScanner.SkipComments:=True;
   FScanner.SkipWhiteSpace:=True;
-  TestTokens([tkof],'{$MACRO on}{$DEFINE MM:=begin end}'#13#10'{$IFDEF MM} of {$ELSE} in {$ENDIF}');
+  TestTokens([tkof],'{$DEFINE MM:=begin end}'#13#10'{$IFDEF MM} of {$ELSE} in {$ENDIF}');
 end;
 
 procedure TTestScanner.TestMacroHandling;
@@ -1549,181 +1377,12 @@ begin
   TTestingPascalScanner(FScanner).DoSpecial:=True;
   FScanner.SkipComments:=True;
   FScanner.SkipWhiteSpace:=True;
-  TestTokens([tkIdentifier],'{$MACRO on}{$DEFINE MM:=begin end}'#13#10'MM');
+  TestTokens([tkIdentifier],'{$DEFINE MM:=begin end}'#13#10'MM');
   AssertEQuals('Correct identifier', 'somethingweird',LastIdentifier);
 end;
 
-procedure TTestScanner.TestIFDefined;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],'{$DEFINE A}{$IF defined(A)}begin{$ENDIF}end.',True,False);
-end;
 
-procedure TTestScanner.TestIFUnDefined;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],'{$IF undefined(A)}begin{$ENDIF}end.',True,False);
-end;
 
-procedure TTestScanner.TestIFAnd;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$DEFINE A}{$IF defined(A) and undefined(B)}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFAndShortEval;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$UNDEFINE A}{$IF defined(A) and undefined(B)}wrong{$ELSE}begin{$ENDIF}end.',
-    True,False);
-end;
-
-procedure TTestScanner.TestIFOr;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$DEFINE B}{$IF defined(A) or defined(B)}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFOrShortEval;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$DEFINE A}{$IF defined(A) or defined(B)}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFXor;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$DEFINE B}{$IF defined(A) xor defined(B)}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFAndOr;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkbegin,tkend,tkDot],
-     '{$IF   defined(A) and   defined(B) or   defined(C)}wrong1{$ENDIF}'+LineEnding
-    +'{$IF   defined(A) and   defined(B) or undefined(C)}{$ELSE}wrong2{$ENDIF}'+LineEnding
-    +'{$IF   defined(A) and undefined(B) or   defined(C)}wrong3{$ENDIF}'+LineEnding
-    +'{$IF   defined(A) and undefined(B) or undefined(C)}{$ELSE}wrong4{$ENDIF}'+LineEnding
-    +'{$IF undefined(A) and   defined(B) or   defined(C)}wrong5{$ENDIF}'+LineEnding
-    +'{$IF undefined(A) and   defined(B) or undefined(C)}{$ELSE}wrong6{$ENDIF}'+LineEnding
-    +'{$IF undefined(A) and undefined(B) or   defined(C)}{$ELSE}wrong7{$ENDIF}'+LineEnding
-    +'{$IF undefined(A) and undefined(B) or undefined(C)}begin{$ENDIF}end.',
-    True,False);
-end;
-
-procedure TTestScanner.TestIFEqual;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version=30101}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFNotEqual;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version<>30000}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFGreaterThan;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version>30000}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFGreaterEqualThan;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version>=30000}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFLesserThan;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version<40000}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFLesserEqualThan;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddMacro('Version','30101');
-  TestTokens([tkbegin,tkend,tkDot],
-    '{$IF Version<=30101}begin{$ENDIF}end.',True,False);
-end;
-
-procedure TTestScanner.TestIFDefinedElseIf;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  FScanner.AddDefine('cpu32');
-  TestTokens([tkconst,tkIdentifier,tkEqual,tkString,tkSemicolon,tkbegin,tkend,tkDot],
-    'const platform = '+LineEnding
-    +'{$if defined(cpu32)} ''x86'''+LineEnding
-    +'{$elseif defined(cpu64)} ''x64'''+LineEnding
-    +'{$else} {$error unknown platform} {$endif};'+LineEnding
-    +'begin end.',True,False);
-end;
-
-procedure TTestScanner.TestIfError;
-begin
-  FScanner.SkipWhiteSpace:=True;
-  FScanner.SkipComments:=True;
-  TestTokens([tkprogram,tkIdentifier,tkSemicolon,tkbegin,tkend,tkDot],
-    'program Project1;'+LineEnding
-    +'begin'+LineEnding
-    +'{$if sizeof(integer) <> 4} {$error wrong sizeof(integer)} {$endif}'+LineEnding
-    +'end.',True,False);
-end;
-
-procedure TTestScanner.TestModeSwitch;
-
-Const
-   PlusMinus = [' ','+','-'];
-
-Var
-  M : TModeSwitch;
-  C : Char;
-begin
-  For M in TModeSwitch do
-    for C in PlusMinus do
-      if SModeSwitchNames[M]<>'' then
-        begin
-        Scanner.CurrentModeSwitches:=[];
-        NewSource('{$MODESWITCH '+SModeSwitchNames[M]+' '+C+'}');
-        While not (Scanner.FetchToken=tkEOF) do;
-        if C in [' ','+'] then
-          AssertTrue(SModeSwitchNames[M]+C+' sets '+GetEnumName(TypeInfo(TModeSwitch),Ord(M)),M in Scanner.CurrentModeSwitches)
-        else
-          AssertFalse(SModeSwitchNames[M]+C+' removes '+GetEnumName(TypeInfo(TModeSwitch),Ord(M)),M in Scanner.CurrentModeSwitches);
-        end;
-end;
 
 initialization
   RegisterTests([TTestTokenFinder,TTestStreamLineReader,TTestScanner]);

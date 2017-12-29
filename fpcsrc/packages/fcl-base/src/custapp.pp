@@ -29,11 +29,16 @@ Type
 
   TCustomApplication = Class(TComponent)
   Private
+    Fauthor_id: int64;
+    Fentity_id: int64;
     FEventLogFilter: TEventLogTypes;
     FOnException: TExceptionEvent;
+    Fproject_id: int64;
+    Frevision: word;
     FSingleInstance: TBaseSingleInstance;
     FSingleInstanceClass: TBaseSingleInstanceClass; // set before FSingleInstance is created
     FSingleInstanceEnabled: Boolean; // set before Initialize is called
+    Fsubproject_id: int64;
     FTerminated : Boolean;
     FHelpFile,
     FTitle : String;
@@ -45,9 +50,14 @@ Type
     function GetExeName: string;
     Function GetLocation : String;
     function GetSingleInstance: TBaseSingleInstance;
+    procedure Setauthor_id(AValue: int64);
+    procedure Setentity_id(AValue: int64);
+    procedure Setproject_id(AValue: int64);
+    procedure Setrevision(AValue: word);
     procedure SetSingleInstanceClass(
       const ASingleInstanceClass: TBaseSingleInstanceClass);
     function GetTitle: string;
+    procedure Setsubproject_id(AValue: int64);
   Protected
     function GetOptionAtIndex(AIndex: Integer; IsLong: Boolean): String;
     procedure SetTitle(const AValue: string); Virtual;
@@ -104,6 +114,14 @@ Type
     Property SingleInstance: TBaseSingleInstance read GetSingleInstance;
     Property SingleInstanceClass: TBaseSingleInstanceClass read FSingleInstanceClass write SetSingleInstanceClass;
     Property SingleInstanceEnabled: Boolean read FSingleInstanceEnabled write FSingleInstanceEnabled;
+  public
+    // GLIDE specific properties and methods
+    property entity_id: int64 read Fentity_id write Setentity_id; // the company or copyright owner ID
+    property author_id: int64 read Fauthor_id write Setauthor_id; // the project author/lead developer
+    property project_id: int64 read Fproject_id write Setproject_id;
+    property subproject_id: int64 read Fsubproject_id write Setsubproject_id;
+    property revision: word read Frevision write Setrevision;
+    // GLIDE language subsystem extensions
   end;
 
 var CustomApplication : TCustomApplication = nil;
@@ -229,6 +247,12 @@ begin
   Result:=FTitle;
 end;
 
+procedure TCustomApplication.Setsubproject_id(AValue: int64);
+begin
+  if Fsubproject_id=AValue then Exit;
+  Fsubproject_id:=AValue;
+end;
+
 function TCustomApplication.GetParams(Index: Integer): String;
 begin
   Result:=ParamStr(Index);
@@ -243,6 +267,30 @@ begin
     FSingleInstance := FSingleInstanceClass.Create(Self);
     end;
   Result := FSingleInstance;
+end;
+
+procedure TCustomApplication.Setauthor_id(AValue: int64);
+begin
+  if Fauthor_id=AValue then Exit;
+  Fauthor_id:=AValue;
+end;
+
+procedure TCustomApplication.Setentity_id(AValue: int64);
+begin
+  if Fentity_id=AValue then Exit;
+  Fentity_id:=AValue;
+end;
+
+procedure TCustomApplication.Setproject_id(AValue: int64);
+begin
+  if Fproject_id=AValue then Exit;
+  Fproject_id:=AValue;
+end;
+
+procedure TCustomApplication.Setrevision(AValue: word);
+begin
+  if Frevision=AValue then Exit;
+  Frevision:=AValue;
 end;
 
 procedure TCustomApplication.SetTitle(const AValue: string);
@@ -285,7 +333,7 @@ begin
   except
     On E : Exception do
       Log(etError,Format('Error formatting message "%s" with %d arguments: %s',[Fmt,Length(Args),E.Message]));
-  end
+  end  
 end;
 
 constructor TCustomApplication.Create(AOwner: TComponent);
@@ -362,14 +410,15 @@ end;
 
 procedure TCustomApplication.Terminate;
 begin
-  Terminate(ExitCode);
+  Terminate(0);
 end;
 
 procedure TCustomApplication.Terminate(AExitCode : Integer) ;
 
 begin
   FTerminated:=True;
-  ExitCode:=AExitCode;
+  If (AExitCode<>0) then
+    ExitCode:=AExitCode;
 end;
 
 function TCustomApplication.GetOptionAtIndex(AIndex : Integer; IsLong: Boolean): String;
@@ -480,7 +529,7 @@ begin
 end;
 
 function TCustomApplication.FindOptionIndex(const S: String;
-  var Longopt: Boolean; StartAt : Integer = -1): Integer;
+  Var Longopt: Boolean; StartAt: Integer): Integer;
 
 Var
   SO,O : String;
@@ -596,7 +645,7 @@ begin
     If (Length(O)=0) or (O[1]<>FOptionChar) then
       begin
       If Assigned(NonOpts) then
-        NonOpts.Add(O);
+        NonOpts.Add(O)
       end
     else
       begin
@@ -622,7 +671,7 @@ begin
           If FindLongopt(O) then
             begin
             If HaveArg then
-              AddToResult(Format(SErrNoOptionAllowed,[I,O]));
+              AddToResult(Format(SErrNoOptionAllowed,[I,O]))
             end
           else
             begin // Required argument
@@ -642,21 +691,23 @@ begin
           begin
           HaveArg:=(I<ParamCount) and (Length(ParamStr(I+1))>0) and (ParamStr(I+1)[1]<>FOptionChar);
           UsedArg:=False;
+          If HaveArg then
+            OV:=Paramstr(I+1);
           If Not CaseSensitiveOptions then
             O:=LowerCase(O);
           L:=Length(O);
           J:=2;
           While ((Result='') or AllErrors) and (J<=L) do
             begin
-            P:=Pos(O[J],SO);
+            P:=Pos(O[J],ShortOptions);
             If (P=0) or (O[j]=':') then
               AddToResult(Format(SErrInvalidOption,[I,O[J]]))
             else
               begin
-              If (P<Length(SO)) and (SO[P+1]=':') then
+              If (P<Length(ShortOptions)) and (Shortoptions[P+1]=':') then
                 begin
                 // Required argument
-                If ((P+1)=Length(SO)) or (SO[P+2]<>':') Then
+                If ((P+1)=Length(ShortOptions)) or (Shortoptions[P+2]<>':') Then
                   If (J<L) or not haveArg then // Must be last in multi-opt !!
                     AddToResult(Format(SErrOptionNeeded,[I,O[J]]));
                 O:=O[j]; // O is added to arguments.
@@ -665,11 +716,10 @@ begin
               end;
             Inc(J);
             end;
-          HaveArg:=HaveArg and UsedArg;
-          If HaveArg then
+          If HaveArg and UsedArg then
             begin
             Inc(I); // Skip argument.
-            OV:=Paramstr(I);
+            O:=O[Length(O)]; // O is added to arguments !
             end;
           end;
         If HaveArg and ((Result='') or AllErrors) then

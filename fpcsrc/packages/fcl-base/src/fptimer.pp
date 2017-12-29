@@ -334,7 +334,6 @@ Var
   Diff: Extended;
    
 begin
-  Result:=False;
     { Use Counter*fInterval to avoid numerical errors resulting from adding
       small values (AInterval/cMilliSecs) to a large real number (TDateTime),
       even when using Extended precision }

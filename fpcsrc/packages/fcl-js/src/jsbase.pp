@@ -1,18 +1,3 @@
-{ ********************************************************************* 
-    This file is part of the Free Component Library (FCL)
-    Copyright (c) 2016 Michael Van Canneyt.
-       
-    Javascript base definitions
-            
-    See the file COPYING.FPC, included in this distribution,
-    for details about the copyright.
-                   
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-                                
-  **********************************************************************}
-                                 
 unit jsbase;
 
 {$mode objfpc}{$H+}
@@ -25,9 +10,7 @@ uses
 Type
   TJSType = (jstUNDEFINED,jstNull,jstBoolean,jstNumber,jstString,jstObject,jstReference,JSTCompletion);
 
-  TJSString = UnicodeString;
-  TJSChar = WideChar;
-  TJSPChar = PWideChar;
+  TJSString = WideString;
   TJSNumber = Double;
 
   { TJSValue }
@@ -41,7 +24,6 @@ Type
       1 : (F : TJSNumber);
       2 : (I : Integer);
     end;
-    FCustomValue: TJSString;
     procedure ClearValue(ANewValue: TJSType);
     function GetAsBoolean: Boolean;
     function GetAsCompletion: TObject;
@@ -67,7 +49,6 @@ Type
     Constructor Create(AString: TJSString);
     Destructor Destroy; override;
     Property ValueType : TJSType Read FValueType;
-    Property CustomValue: TJSString Read FCustomValue Write FCustomValue;
     Property IsUndefined : Boolean Read GetIsUndefined Write SetIsUndefined;
     Property IsNull : Boolean Read GetIsNull Write SetIsNull;
     Property AsNumber : TJSNumber Read GetAsNumber Write SetAsNumber;
@@ -78,90 +59,10 @@ Type
     Property AsCompletion : TObject Read GetAsCompletion Write SetAsCompletion;
   end;
 
-function IsValidJSIdentifier(Name: TJSString; AllowEscapeSeq: boolean = false): boolean;
-
 implementation
 
-function IsValidJSIdentifier(Name: TJSString; AllowEscapeSeq: boolean): boolean;
-var
-  p: TJSPChar;
-  i: Integer;
-begin
-  Result:=false;
-  if Name='' then exit;
-  p:=TJSPChar(Name);
-  repeat
-    case p^ of
-    #0:
-      if p-TJSPChar(Name)=length(Name) then
-        exit(true)
-      else
-        exit;
-    '0'..'9':
-      if p=TJSPChar(Name) then
-        exit
-      else
-        inc(p);
-    'a'..'z','A'..'Z','_','$': inc(p);
-    '\':
-      begin
-      if not AllowEscapeSeq then exit;
-      inc(p);
-      if p^='x' then
-        begin
-        // \x00
-        for i:=1 to 2 do
-          begin
-          inc(p);
-          if not (p^ in ['0'..'9','a'..'f','A'..'F']) then exit;
-          end;
-        end
-      else if p^='u' then
-        begin
-        inc(p);
-        if p^='{' then
-          begin
-          // \u{00000}
-          i:=0;
-          repeat
-            inc(p);
-            case p^ of
-            '}': break;
-            '0'..'9': i:=i*16+ord(p^)-ord('0');
-            'a'..'f': i:=i*16+ord(p^)-ord('a')+10;
-            'A'..'F': i:=i*16+ord(p^)-ord('A')+10;
-            else exit;
-            end;
-            if i>$10FFFF then exit;
-          until false;
-          inc(p);
-          end
-        else
-          begin
-          // \u0000
-          for i:=1 to 4 do
-            begin
-            inc(p);
-            if not (p^ in ['0'..'9','a'..'f','A'..'F']) then exit;
-            end;
-          end;
-        end
-      else
-        exit; // unknown sequence
-      end;
-    #$200C,#$200D: inc(p); // zero width non-joiner/joiner
-    #$00AA..#$2000,
-    #$200E..#$D7FF:
-      inc(p); // ToDo: only those with ID_START/ID_CONTINUE see https://codepoints.net/search?IDC=1
-    #$D800..#$DBFF:
-      inc(p,2); // see above
-    else
-      exit;
-    end;
-  until false;
-end;
-
 { TJSValue }
+
 
 function TJSValue.GetAsBoolean: Boolean;
 begin
@@ -179,33 +80,25 @@ end;
 function TJSValue.GetAsNumber: TJSNumber;
 begin
   If (ValueType=jstNumber) then
-    Result:=FValue.F
-  else
-    Result:=0.0;
+    Result:=FValue.F;
 end;
 
 function TJSValue.GetAsObject: TObject;
 begin
   If (ValueType=jstObject) then
-    Result:=TObject(FValue.P)
-  else
-    Result:=nil;
+    Result:=TObject(FValue.P);
 end;
 
 function TJSValue.GetAsReference: TObject;
 begin
   If (ValueType=jstReference) then
-    Result:=TObject(FValue.P)
-  else
-    Result:=nil;
+    Result:=TObject(FValue.P);
 end;
 
 function TJSValue.GetAsString: TJSString;
 begin
   If (ValueType=jstString) then
-    Result:=TJSString(FValue.P)
-  else
-    Result:='';
+    Result:=String(FValue.P);
 end;
 
 function TJSValue.GetIsNull: Boolean;
@@ -228,7 +121,6 @@ begin
     FValue.I:=0;
   end;
   FValueType:=ANewValue;
-  FCustomValue:='';
 end;
 
 procedure TJSValue.SetAsBoolean(const AValue: Boolean);
@@ -264,51 +156,45 @@ end;
 procedure TJSValue.SetAsString(const AValue: TJSString);
 begin
   ClearValue(jstString);
-  TJSString(FValue.P):=AValue;
+  String(FValue.P):=AValue;
 end;
 
 procedure TJSValue.SetIsNull(const AValue: Boolean);
 begin
-  if AValue then
-    ClearValue(jstNull)
-  else if IsNull then
-    ClearValue(jstUNDEFINED);
+  ClearValue(jstNull);
 end;
 
 procedure TJSValue.SetIsUndefined(const AValue: Boolean);
 begin
-  if AValue then
-    ClearValue(jstUndefined)
-  else if IsUndefined then
-    ClearValue(jstNull);
+  ClearValue(jstUndefined);
 end;
 
-constructor TJSValue.CreateNull;
+Constructor TJSValue.CreateNull;
 begin
   IsNull:=True;
 end;
 
-constructor TJSValue.Create;
+Constructor TJSValue.Create;
 begin
   IsUndefined:=True;
 end;
 
-constructor TJSValue.Create(ANumber: TJSNumber);
+Constructor TJSValue.Create(ANumber: TJSNumber);
 begin
   AsNumber:=ANumber;
 end;
 
-constructor TJSValue.Create(ABoolean: Boolean);
+Constructor TJSValue.Create(ABoolean: Boolean);
 begin
   AsBoolean:=ABoolean;
 end;
 
-constructor TJSValue.Create(AString: TJSString);
+Constructor TJSValue.Create(AString: TJSString);
 begin
-  AsString:=AString;
+  AsString:=AString
 end;
 
-destructor TJSValue.Destroy;
+Destructor TJSValue.Destroy;
 begin
   ClearValue(jstUndefined);
   inherited Destroy;

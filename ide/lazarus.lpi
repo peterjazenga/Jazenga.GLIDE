@@ -638,6 +638,7 @@
       <Unit90>
         <Filename Value="modematrixopts.pas"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="ModeMatrixOpts"/>
       </Unit90>
       <Unit91>
         <Filename Value="frames/compiler_modematrix.pas"/>
@@ -756,6 +757,7 @@
         <Filename Value="splash.pp"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
+        <UnitName Value="Splash"/>
       </Unit111>
       <Unit112>
         <Filename Value="unitdependencies.pas"/>
@@ -1010,7 +1012,9 @@
       <Unit163>
         <Filename Value="checkcompileropts.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="CheckCompilerOptsDlg"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
         <UnitName Value="CheckCompilerOpts"/>
       </Unit163>
       <Unit164>
@@ -1243,7 +1247,10 @@
       <Unit209>
         <Filename Value="showcompileropts.pas"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="ShowCompilerOptionsDlg"/>
         <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ShowCompilerOpts"/>
       </Unit209>
       <Unit210>
         <Filename Value="cleandirdlg.pas"/>
@@ -1419,7 +1426,7 @@
         </Win32>
       </Options>
     </Linking>
-    <CompileReasons Compile="False" Build="False" Run="False"/>
+    <CompileReasons Run="False"/>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="2">

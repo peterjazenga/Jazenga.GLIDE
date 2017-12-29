@@ -5,7 +5,7 @@ unit tcpassrcutil;
 interface
 
 uses
-  Classes, SysUtils, fpcunit,passrcutil, testregistry;
+  Classes, SysUtils, fpcunit, testutils,passrcutil, testregistry;
 
 type
 
@@ -16,7 +16,7 @@ type
     FAnalyser : TPasSrcAnalysis;
     FSrc : TStrings;
     FList : TStrings;
-    FStream: TMemoryStream;
+    FStream: TmemoryStream;
   protected
     procedure SetUp; override;
     procedure TearDown; override;
@@ -78,7 +78,7 @@ begin
   StartImplementation;
   EndSource;
   Analyser.GetInterfaceUnits(List);
-  AssertList('1 interface unit',['System']);
+  AssertList('0 interface units',[]);
 end;
 
 procedure TPasSrcUtilTest.TestGetImplementationUses;

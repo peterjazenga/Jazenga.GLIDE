@@ -214,7 +214,7 @@ implementation
 
 resourcestring
   rsNothingToRun = 'No main window defined, nothing to do...';
-  rsErrorTitle = 'Error occurred';
+  rsErrorTitle = 'Error occured';
   rsMessageTitle = 'Message';
   sErrWrongItemType = 'Items in list are not from TFPgtkMenuItem class.';
 

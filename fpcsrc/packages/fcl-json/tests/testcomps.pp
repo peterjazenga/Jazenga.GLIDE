@@ -191,7 +191,7 @@ Type
   Public
     Constructor Create(AOwner : TComponent);  override;
   Published
-    Property CompProp : Comp Read F Write F;
+    Property ExtendedProp : Comp Read F Write F;
   end;
 
   // Currency property

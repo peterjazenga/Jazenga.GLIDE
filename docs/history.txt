@@ -1,0 +1,12 @@
+
+
+#27 December 2017
+History page added to about dialog
+Component pallette drop down changed to alphabetic sort
+
+#24 Dec 2017 
+db controls update dbComboBox, dbListBox and dbCheckBox have been updated to use numeric field types
+This extends the standard behavior while maintaining backward compatibility
+
+#24 December 2017
+GLIDE was created as an enhanced distribution of Lazarus by Peter Dunne

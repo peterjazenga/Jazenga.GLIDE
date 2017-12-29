@@ -19,11 +19,8 @@ unit testjsonparser;
 interface
 
 uses
-  Classes, SysUtils, fpcunit, testregistry,fpjson,
+  Classes, SysUtils, fpcunit, testutils, testregistry,fpjson,
   jsonscanner,jsonParser,testjsondata;
-
-Const
-  DefaultOpts = [joUTF8,joStrict];
 
 type
 
@@ -33,7 +30,7 @@ type
   private
     FOptions : TJSONOptions;
     procedure CallNoHandlerStream;
-    procedure DoTestError(S: String; Options : TJSONOptions = DefaultOpts);
+    procedure DoTestError(S: String);
     procedure DoTestFloat(F: TJSONFloat); overload;
     procedure DoTestFloat(F: TJSONFloat; S: String); overload;
     procedure DoTestObject(S: String; const ElNames: array of String; DoJSONTest : Boolean = True);
@@ -56,7 +53,6 @@ type
     procedure TestString;
     procedure TestArray;
     procedure TestObject;
-    procedure TestObjectError;
     procedure TestTrailingComma;
     procedure TestTrailingCommaErrorArray;
     procedure TestTrailingCommaErrorObject;
@@ -330,12 +326,6 @@ begin
   DoTestObject('{ "a" : 1, "B" : { "c" : "d" } }',['a','B']);
 end;
 
-procedure TTestParser.TestObjectError;
-begin
-
-  DoTestError('{ "name" : value }',[joUTF8]);
-end;
-
 
 procedure TTestParser.DoTestObject(S: String; const ElNames: array of String;
   DoJSONTest: Boolean);
@@ -416,21 +406,21 @@ end;
 procedure TTestParser.TestErrors;
 
 begin
-
+{
   DoTestError('a');
   DoTestError('"b');
   DoTestError('1Tru');
-
+}
   DoTestError('b"');
   DoTestError('{"a" : }');
   DoTestError('{"a" : ""');
   DoTestError('{"a : ""');
-
+{
   DoTestError('[1,]');
   DoTestError('[,]');
   DoTestError('[,,]');
   DoTestError('[1,,]');
-
+}
 end;
 
 procedure TTestParser.TestClasses;
@@ -526,7 +516,7 @@ begin
   end;
 end;
 
-procedure TTestParser.DoTestError(S : String; Options : TJSONOptions = DefaultOpts);
+procedure TTestParser.DoTestError(S : String);
 
 Var
   P : TJSONParser;
@@ -537,7 +527,7 @@ Var
 begin
   ParseOK:=False;
   P:=TJSONParser.Create(S);
-  P.OPtions:=Options;
+  P.Strict:=True;
   J:=Nil;
   Try
     Try

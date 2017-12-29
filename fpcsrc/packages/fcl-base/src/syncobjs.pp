@@ -28,10 +28,6 @@ const
   INFINITE = Cardinal(-1);
 
 type
-   ESyncObjectException = Class(Exception);
-   ELockException = Class(ESyncObjectException);
-   ELockRecursionException = Class(ESyncObjectException);
-   
    TWaitResult = (wrSignaled, wrTimeout, wrAbandoned, wrError);
 
    TSynchroObject = class(TObject)
@@ -82,9 +78,6 @@ type
    end;
 
 implementation
-
-Resourcestring
-  SErrEventCreateFailed = 'Failed to create OS basic event with name "%s"'; 
 
 { ---------------------------------------------------------------------
     Real syncobjs implementation
@@ -157,8 +150,6 @@ constructor TEventObject.Create(EventAttributes : PSecurityAttributes;
 
 begin
   FHandle := BasicEventCreate(EventAttributes, AManualReset, InitialState, Name);
-  if (FHandle=Nil) then
-    Raise ESyncObjectException.CreateFmt(SErrEventCreateFailed,[Name]);
   FManualReset:=AManualReset;
 end;
 

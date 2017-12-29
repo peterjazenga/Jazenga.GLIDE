@@ -1,0 +1,10 @@
+Name=dblib
+Version=3.0.2
+Checksum=1268588617
+CPU=x86_64
+OS=linux
+SourcePath=D:\Jazenga.GLIDE\fpcsrc\packages\dblib\
+FPMakeOptions=-o -Tlinux -o -XPx86_64-linux- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FDD:\Jazenga.GLIDE\cross\bin\x86_64-linux -o -Cg -o -vw-n-h-l-d-u-t-p-c- -o -dx86_64 -o -dRELEASE -o -XPx86_64-linux- -o -Xd -o -FlD:\Jazenga.GLIDE\cross\lib\x86_64-linux -o -XX -o -CX
+Depends=rtl
+NeedLibC=Y
+FPMakeAddIn=N

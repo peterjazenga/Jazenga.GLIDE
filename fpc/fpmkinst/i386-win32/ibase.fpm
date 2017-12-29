@@ -1,0 +1,9 @@
+Name=ibase
+Version=3.0.2
+Checksum=1268591961
+CPU=i386
+OS=win32
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -vw-n-h-l-d-u-t-p-c- -o -dREVINC -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl
+NeedLibC=Y
+FPMakeAddIn=N

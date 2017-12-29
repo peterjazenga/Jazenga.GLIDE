@@ -162,35 +162,31 @@ Type
 
   TOAuth2Handler = Class(TAbstractRequestSigner)
   private
-    FAutoConfig: Boolean;
-    FAutoSession: Boolean;
-    FConfigLoaded: Boolean;
-    FSessionLoaded: Boolean;
+    FAutoStore: Boolean;
     FClaimsClass: TClaimsClass;
     FConfig: TOAuth2Config;
-    FSession: TOAuth2Session;
+    FConfigLoaded: Boolean;
     FIDToken: TJWTIDToken;
-    FWebClient: TAbstractWebClient;
-    FStore : TAbstracTOAuth2ConfigStore;
     FOnAuthSessionChange: TOnAuthSessionChangeHandler;
     FOnIDTokenChange: TOnIDTokenChangeHandler;
-    FOnSignRequest: TOnAuthConfigChangeHandler;
+    FSession: TOAuth2Session;
     FOnAuthConfigChange: TOnAuthConfigChangeHandler;
+    FOnSignRequest: TOnAuthSessionChangeHandler;
     FOnUserConsent: TUserConsentHandler;
-    Function GetAutoStore : Boolean;
-    Procedure SetAutoStore(AValue : Boolean); 
+    FSessionLoaded: Boolean;
+    FWebClient: TAbstractWebClient;
+    FStore : TAbstracTOAuth2ConfigStore;
     procedure SetConfig(AValue: TOAuth2Config);
     procedure SetSession(AValue: TOAuth2Session);
     procedure SetStore(AValue: TAbstracTOAuth2ConfigStore);
   Protected
-    function CheckHostedDomain(URL: String): String; virtual;
     Function RefreshToken: Boolean; virtual;
     Function CreateOauth2Config : TOAuth2Config; virtual;
     Function CreateOauth2Session : TOAuth2Session; virtual;
     Function CreateIDToken : TJWTIDToken; virtual;
     Procedure Notification(AComponent: TComponent; Operation: TOperation); override;
     Procedure DoAuthConfigChange; virtual;
-    Procedure DoAuthSessionChange(Const AUser : String = ''); virtual;
+    Procedure DoAuthSessionChange; virtual;
     Procedure DoSignRequest(ARequest: TWebClientRequest); override;
     Property ConfigLoaded : Boolean Read FConfigLoaded;
     Property SessionLoaded : Boolean Read FSessionLoaded;
@@ -203,8 +199,6 @@ Type
     // Variable name for AuthScope in authentication URL.
     // Default = scope. Descendents can override this to provide correct behaviour.
     Class Function AuthScopeVariableName : String; virtual;
-    // Default for hosted domain, if any
-    Class function DefaultHostedDomain: String; virtual;
     // Check if config is authenticated.
     Function IsAuthenticated : Boolean; virtual;
     // Generate an authentication URL
@@ -213,11 +207,11 @@ Type
     // Do whatever is necessary to mark the request as 'authenticated'.
     Function Authenticate: TAuthenticateAction; virtual;
     // Load config from store
-    procedure LoadConfig(Force : Boolean = false);
+    procedure LoadConfig;
     // Save config to store
     procedure SaveConfig;
-    // Load Session from store.If AUser is empty, then ID Token.GetUniqueUser is used. 
-    procedure LoadSession(Const AUser : String = ''; AForce : Boolean = False);
+    // Load Session from store.If AUser is empty, then ID Token.GetUniqueUser is used.
+    procedure LoadSession(Const AUser : String = '');
     // Save session in store. If AUser is empty, then ID Token.GetUniqueUser is used. Will call OnAuthSessionChange
     procedure SaveSession(Const AUser : String = '');
     // Refresh ID token from Session.IDToken. Called after token is refreshed or session is loaded.
@@ -243,15 +237,11 @@ Type
     // Called when the IDToken information changes
     Property OnIDTokenChange : TOnIDTokenChangeHandler Read FOnIDTokenChange Write FOnIDTokenChange;
     // Called when a request is signed
-    Property OnSignRequest : TOnAuthConfigChangeHandler Read FOnSignRequest Write FOnSignRequest;
+    Property OnSignRequest : TOnAuthSessionChangeHandler Read FOnSignRequest Write FOnSignRequest;
     // User to load/store parts of the config store.
     Property Store : TAbstracTOAuth2ConfigStore Read FStore Write SetStore;
-    // Call storing session/config automatically when needed.
-    Property AutoStore : Boolean Read GetAutoStore Write SetAutoStore;
-    // AutoSession = True makes sure the load/save of the session as needed.
-    Property AutoSession : Boolean Read FAutoSession Write FAutoSession default True;
-    // AutoConfig = True will enable the load of config as needed.
-    Property AutoConfig : Boolean Read FAutoConfig Write FAutoConfig default True;
+    // Call storing automatically when needed.
+    Property AutoStore : Boolean Read FAutoStore Write FAutoStore;
   end;
   TOAuth2HandlerClass = Class of TOAuth2Handler;
 
@@ -357,33 +347,13 @@ begin
     end;
 end;
 
-function TOAuth2Handler.CheckHostedDomain(URL : String): String;
-
-Var
-  HD : String;
-
-begin
-  HD:=Config.HostedDomain;
-  if (HD='') then
-    Result:=DefaultHostedDomain;
-  Result:=StringReplace(URL,'%HostedDomain%',Config.HostedDomain,[rfIgnoreCase]);
-end;
-
-Class function TOAuth2Handler.DefaultHostedDomain : String;
-
-begin
-  Result:='';
-end;
-
 function TOAuth2Handler.AuthenticateURL: String;
-
 begin
   Result:=Config.AuthURL
         + '?'+ AuthScopeVariableName+'='+HTTPEncode(Config.AuthScope)
         +'&redirect_uri='+HTTPEncode(Config.RedirectUri)
         +'&client_id='+HTTPEncode(Config.ClientID)
         +'&response_type=code'; // Request refresh token.
-  Result:=CheckHostedDomain(Result);
   if Assigned(Session) then
     begin
     if (Session.LoginHint<>'') then
@@ -406,15 +376,14 @@ begin
   FSession.Assign(AValue);
 end;
 
-procedure TOAuth2Handler.LoadConfig(Force : Boolean = False);
+procedure TOAuth2Handler.LoadConfig;
 
 begin
-  if Assigned(Store) then
-    if Force or not ConfigLoaded then
-      begin
-      Store.LoadConfig(Config);
-      FConfigLoaded:=True;
-      end;
+  if Assigned(Store) and not ConfigLoaded then
+    begin
+    Store.LoadConfig(Config);
+    FConfigLoaded:=True;
+    end;
 end;
 
 procedure TOAuth2Handler.SaveConfig;
@@ -426,23 +395,22 @@ begin
     end;
 end;
 
-procedure TOAuth2Handler.LoadSession(const AUser: String; AForce : Boolean = False);
+procedure TOAuth2Handler.LoadSession(const AUser: String);
 
 Var
   U : String;
 
 begin
   if Assigned(Store) then
-    if AForce or Not SessionLoaded then
-      begin
-      U:=AUser;
-      If (U='') and Assigned(FIDToken) then
-        U:=FIDToken.GetUniqueUserID;
-      Store.LoadSession(Session,AUser);
-      FSessionLoaded:=True;
-      if (Session.IDToken<>'') then
-        RefreshIDToken;
-      end;
+    begin
+    U:=AUser;
+    If (U='') and Assigned(FIDToken) then
+      U:=FIDToken.GetUniqueUserID;
+    Store.LoadSession(Session,AUser);
+    FSessionLoaded:=True;
+    if (Session.IDToken<>'') then
+      RefreshIDToken;
+    end;
 end;
 
 procedure TOAuth2Handler.SaveSession(const AUser: String);
@@ -458,19 +426,6 @@ begin
     Store.SaveSession(Session,AUser);
     FSessionLoaded:=True;
     end;
-end;
-
-Function TOAuth2Handler.GetAutoStore : Boolean;
-
-begin
-  Result:=AutoSession and AutoConfig;
-end;
-
-Procedure TOAuth2Handler.SetAutoStore(AValue : Boolean); 
-
-begin
-  AutoSession:=True;
-  AutoConfig:=True;
 end;
 
 procedure TOAuth2Handler.RefreshIDToken;
@@ -494,15 +449,14 @@ Var
   Resp: TWebClientResponse;
 
 begin
-  if AutoConfig and not ConfigLoaded then
-    LoadConfig;
+  LoadConfig;
   Req:=Nil;
   Resp:=Nil;
   D:=Nil;
   try
     Req:=WebClient.CreateRequest;
     Req.Headers.Values['Content-Type']:='application/x-www-form-urlencoded';
-    url:=CheckHostedDomain(Config.TOKENURL);
+    url:=Config.TOKENURL;
     Body:='client_id='+HTTPEncode(Config.ClientID)+
           '&client_secret='+ HTTPEncode(Config.ClientSecret);
     if (Session.RefreshToken<>'') then
@@ -521,11 +475,10 @@ begin
     if Result then
       begin
       Session.LoadTokensFromJSONResponse(Resp.GetContentAsString);
-      If (Session.IDToken<>'') then
+      If (Session.IDToken)<>'' then
         begin
         RefreshIDToken;
-        if AutoSession then
-          DoAuthSessionChange(IDToken.GetUniqueUserName);
+        DoAuthSessionChange;
         end;
       end
     else
@@ -565,10 +518,9 @@ end;
 function TOAuth2Handler.IsAuthenticated: Boolean;
 
 begin
-  If AutoConfig then
-    LoadConfig;
+  LoadConfig;
   // See if we need to load the session
-  if (Session.RefreshToken='') and AutoSession then
+  if (Session.RefreshToken='') then
     LoadSession;
   Result:=(Session.AccessToken<>'');
   If Result then
@@ -601,12 +553,11 @@ begin
   SaveConfig;
 end;
 
-procedure TOAuth2Handler.DoAuthSessionChange(Const AUser : String = ''); 
-    
+procedure TOAuth2Handler.DoAuthSessionChange;
 begin
   If Assigned(FOnAuthSessionChange) then
     FOnAuthSessionChange(Self,Session);
-  SaveSession(AUser);
+  SaveSession;
 end;
 
 procedure TOAuth2Handler.DoSignRequest(ARequest: TWebClientRequest);
@@ -629,8 +580,6 @@ begin
   inherited Create(AOwner);
   FConfig:=CreateOauth2Config;
   FSession:=CreateOauth2Session;
-  FAutoSession:=True;
-  FAutoConfig:=True;
 end;
 
 destructor TOAuth2Handler.Destroy;

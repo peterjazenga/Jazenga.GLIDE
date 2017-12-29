@@ -1,17 +1,3 @@
-{ ********************************************************************* 
-    This file is part of the Free Component Library (FCL)
-    Copyright (c) 2016 Michael Van Canneyt.
-       
-    Javascript token definitions
-            
-    See the file COPYING.FPC, included in this distribution,
-    for details about the copyright.
-                   
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-                                
-  **********************************************************************}
 unit jstoken;
 
 {$mode objfpc}{$H+}
@@ -22,7 +8,7 @@ type
 
   TJSToken = (tjsUnknown,
      // Specials
-     tjsEOF,tjsWhiteSpace,tjsChar,tjsString{this bites TJSString}, tjsIdentifier,tjsNumber, tjsComment,tjsREGEX, tjsRESERVED,
+     tjsEOF,tjsWhiteSpace,tjsChar,tjsString, tjsIdentifier,tjsNumber, tjsComment,tjsREGEX, tjsRESERVED,
      tjsANDAND, tjsANDEQ,
      tjsBraceOpen,tjsBraceClose,tjsSQuaredBraceOpen,tjsSQuaredBraceClose,tjsCurlyBraceOpen,tjsCurlyBraceClose,
      tjsCOMMA,tjsCOLON,  tjsDOT,tjsSEMICOLON, tjsASSIGN,tjsGT,tjsLT, tjsConditional,

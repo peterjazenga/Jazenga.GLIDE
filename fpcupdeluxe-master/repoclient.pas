@@ -276,6 +276,7 @@ end;
 
 function TRepoClient.Execute(Command: string): integer;
 begin
+  result:=0; exit;//////////////////////////////////////////////////////////////////////////////////////////////////////////
   result:=ExecuteCommandInDir(DoubleQuoteIfNeeded(FRepoExecutable) + ' '+Command, LocalRepository, Verbose);
 end;
 

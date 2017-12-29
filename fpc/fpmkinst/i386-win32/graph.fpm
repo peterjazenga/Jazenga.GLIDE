@@ -1,0 +1,9 @@
+Name=graph
+Version=3.0.2
+Checksum=1268591988
+CPU=i386
+OS=win32
+FPMakeOptions=-o -Ur -o -Xs -o -O2 -o -n -o -vw-n-h-l-d-u-t-p-c- -o -dREVINC -o -di386 -o -dRELEASE -o -XX -o -CX
+Depends=rtl,sdl|1268591987,ptc|1268591988,fcl-base|1268591956,hermes|1268591988,opengl|1268591984
+NeedLibC=N
+FPMakeAddIn=N

@@ -154,10 +154,8 @@ Type
     function RefreshLastInsertID(Query : TCustomSQLQuery; Field : TField): Boolean; override;
   Public
     constructor Create(AOwner : TComponent); override;
-{$IFNDEF MYSQL50_UP}
     procedure GetFieldNames(const TableName : string; List :  TStrings); override;
     procedure GetTableNames(List : TStrings; SystemTables : Boolean = false); override;
-{$ENDIF}
     function GetConnectionInfo(InfoType:TConnInfoType): string; override;
     Function GetInsertID: int64;
     procedure CreateDB; override;
@@ -1201,7 +1199,6 @@ begin
   FMySQL := Nil;
 end;
 
-{$IFNDEF MYSQL50_UP}
 procedure TConnectionName.GetFieldNames(const TableName: string; List: TStrings);
 begin
   GetDBInfo(stColumns,TableName,'field',List);
@@ -1211,7 +1208,6 @@ procedure TConnectionName.GetTableNames(List: TStrings; SystemTables: Boolean);
 begin
   GetDBInfo(stTables,'','tables_in_'+DatabaseName,List)
 end;
-{$ENDIF}
 
 function TConnectionName.GetConnectionInfo(InfoType: TConnInfoType): string;
 begin
@@ -1298,18 +1294,12 @@ function TConnectionName.GetSchemaInfoSQL(SchemaType: TSchemaType;
 
 begin
   case SchemaType of
-    {$IFDEF MYSQL50_UP}
-    stTables     : result := 'SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA=SCHEMA() AND TABLE_TYPE IN (''BASE TABLE'',''VIEW'')';
-    stColumns    : result := 'SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA=SCHEMA() AND TABLE_NAME='+QuotedStr(SchemaObjectName);
-    {$ELSE}
     stTables     : result := 'show tables';
     stColumns    : result := 'show columns from ' + EscapeString(SchemaObjectName);
-    {$ENDIF}
   else
-                   result := inherited;
+    DatabaseError(SMetadataUnavailable)
   end; {case}
 end;
-
 
 { TMySQLConnectionDef }
 

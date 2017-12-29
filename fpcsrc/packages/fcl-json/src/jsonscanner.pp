@@ -62,6 +62,7 @@ Type
 
   TJSONScanner = class
   private
+    FAllowComments: Boolean;
     FSource : TStringList;
     FCurRow: Integer;
     FCurToken: TJSONToken;
@@ -69,13 +70,13 @@ Type
     FCurLine: string;
     TokenStr: PChar;
     FOptions : TJSONOptions;
-    function GetCurColumn: Integer; inline;
+    function GetCurColumn: Integer;
     function GetO(AIndex: TJSONOption): Boolean;
     procedure SetO(AIndex: TJSONOption; AValue: Boolean);
   protected
     procedure Error(const Msg: string);overload;
     procedure Error(const Msg: string; Const Args: array of Const);overload;
-    function DoFetchToken: TJSONToken; inline;
+    function DoFetchToken: TJSONToken;
   public
     constructor Create(Source : TStream; AUseUTF8 : Boolean = True); overload; deprecated 'use options form instead';
     constructor Create(const Source : String; AUseUTF8 : Boolean = True); overload; deprecated  'use options form instead';
@@ -205,10 +206,10 @@ function TJSONScanner.DoFetchToken: TJSONToken;
   end;
 
 var
-  TokenStart: PChar;
+  TokenStart, CurPos: PChar;
   it : TJSONToken;
   I : Integer;
-  OldLength, SectionLength,  tstart,tcol: Integer;
+  OldLength, SectionLength, Index: Integer;
   C : char;
   S : String;
   IsStar,EOC: Boolean;
@@ -433,8 +434,6 @@ begin
       end;
     'a'..'z','A'..'Z','_':
       begin
-        tstart:=CurRow;
-        Tcol:=CurColumn;
         TokenStart := TokenStr;
         repeat
           Inc(TokenStr);
@@ -450,7 +449,7 @@ begin
             exit;
             end;
         if (joStrict in Options) then
-          Error(SErrInvalidCharacter, [tStart,tcol,TokenStart[0]])
+          Error(SErrInvalidCharacter, [CurRow,CurColumn,TokenStr[0]])
         else
           Result:=tkIdentifier;
       end;

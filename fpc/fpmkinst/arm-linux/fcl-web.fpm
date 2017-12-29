@@ -1,0 +1,10 @@
+Name=fcl-web
+Version=3.0.2
+Checksum=1268589082
+CPU=arm
+OS=linux
+SourcePath=D:\Jazenga.GLIDE\fpcsrc\packages\fcl-web\
+FPMakeOptions=-o -Tlinux -o -Parm -o -XParm-linux-gnueabihf- -o -Xr -o -Ur -o -Xs -o -O2 -o -n -o -FDD:\Jazenga.GLIDE\cross\bin\arm-linux -o -vw-n-h-l-d-u-t-p-c- -o -dFPC_ARMHF -o -darm -o -dRELEASE -o -XParm-linux-gnueabihf- -o -Xd -o -FlD:\Jazenga.GLIDE\cross\lib\arm-linux -o -CpARMV7A -o -CfVFPV3 -o -OoFASTMATH -o -CaEABIHF -o -XX -o -CX
+Depends=rtl,fcl-base|1268589051,fcl-db|1268589069,fcl-xml|1268589058,fcl-json|1268589063,fcl-net|1268589072,fcl-process|1268589073,fastcgi|1268589059,httpd22|1268589079,httpd24|1268589079
+NeedLibC=N
+FPMakeAddIn=N

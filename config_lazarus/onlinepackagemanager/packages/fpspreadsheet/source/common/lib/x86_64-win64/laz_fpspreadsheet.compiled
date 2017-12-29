@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="D:\Jazenga.GLIDE\fpc\bin\x86_64-win64\fpc.exe" Date="1267557942"/>
-  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq -vm5028,4055,2005 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common -FuD:\Jazenga.GLIDE\packager\units\x86_64-win64 -FuD:\Jazenga.GLIDE\components\lazutils\lib\x86_64-win64 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\ -FUD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common\lib\x86_64-win64\ -dDisableWrapperFunctions laz_fpspreadsheet.pas"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -l -vewnhibq -vm5028,4055,2005 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common -FuD:\Jazenga.GLIDE\packager\units\x86_64-win64 -FuD:\Jazenga.GLIDE\components\lazutils\lib\x86_64-win64 -FuD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\ -FUD:\Jazenga.GLIDE\config_lazarus\onlinepackagemanager\packages\fpspreadsheet\source\common\lib\x86_64-win64\ -O3 -g- -Xs -dDisableWrapperFunctions laz_fpspreadsheet.pas"/>
 </CONFIG>

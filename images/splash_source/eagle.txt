@@ -1,0 +1,43 @@
+Source: https://digitalmedia.fws.gov/cdm/singleitem/collection/natdiglib/id/7410/rec/63
+
+Title:  		Bald Eagle 	
+Alternative Title: 	(none) 	
+Creator: 		Maslowski, Steve	
+Source: 		WV-2187-CD36
+Publisher: 		U.S. Fish and Wildlife Service
+Contributor:	 	DIVISION OF PUBLIC AFFAIRS
+Language: 		EN - ENGLISH
+Rights:		 	(public domain)
+Audience: 		(general)
+Subject: 		Birds
+			Birds of prey
+			Endangered and/or Threatened species
+			Migratory birds
+
+
+Title				Bald eagle
+Alternative Title	Haliaeetus leucocephalus
+Contact			mailto:nctcimages@fws.gov
+Creator			Maslowski, Steve
+Description		Bald eagle flying in clear blue sky. 	
+
+For more information about bald eagles and their listing status visit http://www.fws.gov/migratorybirds/BaldEagle.htm
+
+Subject			Birds
+				Birds of prey
+				Endangered and/or Threatened species
+				Migratory birds
+
+Location			California
+Publisher			U.S. Fish and Wildlife Service
+Date of Original		2000-01-01
+Type				Still Image
+Format			JPG
+Item ID			WV-2187-CD36
+Source			NCTC Image Library
+Language			English
+Rights			Public Domain
+Audience			General
+
+Collection	Birds
+Full resolution		http://digitalmedia.fws.gov/FullRes/natdiglib/2187.jpg

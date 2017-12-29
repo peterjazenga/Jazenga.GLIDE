@@ -144,6 +144,7 @@ type
   public
     Name: String;
     Classes: TList;
+    ExData: TRegisterExtendedData;
     destructor Destroy; override;
   end;
 
@@ -196,6 +197,42 @@ begin
 
   if Assigned(RegisterComponentsProc) then
     RegisterComponentsProc(Page, ComponentClasses);
+end;
+
+// RegisterComponentsEX by Peter Dunne for GLIDE
+procedure RegisterComponentsEX(const Page: string; ExtendedData: TRegisterExtendedData;
+  ComponentClasses: array of TComponentClass);
+var
+  i: Integer;
+  pg: TComponentPage;
+begin
+  if Page = '' then exit;  { prevent caller from doing nonsense }
+
+  pg := nil;
+  if not Assigned(ComponentPages) then
+    InitComponentPages
+  else
+    for i := 0 to ComponentPages.Count - 1 do
+      if TComponentPage(ComponentPages.Items[i]).Name = Page then begin
+        pg := TComponentPage(ComponentPages.Items[i]);
+        pg.ExData := ExtendedData;
+        break;
+      end;
+
+  if pg = nil then begin
+    pg := TComponentPage(ComponentPages.Add);
+    pg.Name := Page;
+    pg.ExData := ExtendedData;
+  end;
+
+  if pg.Classes = nil then
+    pg.Classes := TList.Create;
+
+  for i := Low(ComponentClasses) to High(ComponentClasses) do
+    pg.Classes.Add(ComponentClasses[i]);
+
+  if Assigned(RegisterComponentsEXProc) then
+    RegisterComponentsEXProc(Page, ExtendedData, ComponentClasses);
 end;
 
 

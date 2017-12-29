@@ -1,5 +1,8 @@
 #The following people contributed to GLIDE:
 
+Glenn Dufke
+Joao Ferreira
+Mohamed Osama
 Peter Dunne
 
 #The following people contributed to Lazarus:
